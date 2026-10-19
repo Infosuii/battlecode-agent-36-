@@ -23,4 +23,6 @@ Dependencies requested on issue #6:
 | Agent 2 | runtime_budget.h and hash-based combat/governor patch from that execution | GitHub milestone describes them; source/API not yet supplied |
 | Agent 4 | Actual parser semantics, platform identity join, canonical map recognition | Requested; not yet supplied |
 
-No full-length official/unseen matches, release-fuel profile, integrated combat review or performance improvement is claimed here. This is partial completion of the assigned workstream until those dependencies arrive.
+Continuation on 20 October: the pinned SDK/toolchain is now recovered. The local release baseline reproduces Agent 2's ECAFAE4C…AE55 hash. The repaired all-switches-off binary is byte-identical to that baseline. A fixed 63-game schedule on nine reconstructed historical development layouts passed (18/18 matched disabled parity; zero faults). Bound ON won 9/18 with 36 exhaustion events versus OFF's 30, so no promotion. Native replay fuel records were decoded against the bundled visualiser format and independently cross-checked against all native exhaustion events. Two controlled native-engine camp/recall fixtures passed 18 assertions. See ../recovery/VALIDATION.md and its exact evidence.
+
+This is still partial completion: no current full official/unseen/varied-opponent validation, combined other-host code review or demonstrated performance improvement. Latest other-agent source, calibrated pool and canonical map contract remain unavailable. Balance updates remain excluded.

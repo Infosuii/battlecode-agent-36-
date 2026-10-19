@@ -1,0 +1,35 @@
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/projects/cambridge battlecode/work/recovery/eval/bots/baseline/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/deny.cpp.obj
+[2/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/fight.cpp.obj
+[3/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/episode.cpp.obj
+[4/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/draft.cpp.obj
+[5/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/main.cpp.obj
+[6/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/tsearch.cpp.obj
+C:/projects/cambridge battlecode/work/recovery/eval/bots/baseline/src/tsearch.cpp:503:26: warning: use of logical '&&' with constant operand [-Wconstant-logical-operand]
+  503 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^  ~~~~~~~~~~~~~
+C:/projects/cambridge battlecode/work/recovery/eval/bots/baseline/src/tsearch.cpp:503:26: note: use '&' for a bitwise operation
+  503 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^~
+      |                          &
+C:/projects/cambridge battlecode/work/recovery/eval/bots/baseline/src/tsearch.cpp:503:26: note: remove constant to silence this warning
+  503 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^~~~~~~~~~~~~~~~
+C:/projects/cambridge battlecode/work/recovery/eval/bots/baseline/src/tsearch.cpp:618:56: warning: use of logical '||' with constant operand [-Wconstant-logical-operand]
+  618 |             const std::uint64_t need = tune::kTsBudget || tune::kDet ? static_cast<std::uint64_t>(2 - plan) * worst : 2 * worst;
+      |                                                        ^  ~~~~~~~~~~
+C:/projects/cambridge battlecode/work/recovery/eval/bots/baseline/src/tsearch.cpp:618:56: note: use '|' for a bitwise operation
+  618 |             const std::uint64_t need = tune::kTsBudget || tune::kDet ? static_cast<std::uint64_t>(2 - plan) * worst : 2 * worst;
+      |                                                        ^~
+      |                                                        |
+
+2 warnings generated.
+
+[7/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/world.cpp.obj
+[8/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/baseline/src/bot.cpp.obj
+[9/10] Linking CXX executable bot.wasm
+built C:\projects\cambridge battlecode\work\recovery\eval\bots\baseline\.cambc\build-release\bot-injected.wasm
+injected 0 checks into 0 functions

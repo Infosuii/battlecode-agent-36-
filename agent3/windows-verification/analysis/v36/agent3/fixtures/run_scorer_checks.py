@@ -18,11 +18,11 @@ def main():
     p.add_argument('--compiler', default=shutil.which('g++'))
     args=p.parse_args()
     if not args.compiler: raise SystemExit('A working C++20 compiler is required')
-    candidate=(ROOT/'bot_v36/src/bot.cpp').read_text()
-    baseline=(ROOT/'bot_v34/src/bot.cpp').read_text()
-    header=(ROOT/'bot_v36/src/farm_score.h').read_text()
-    learner=(ROOT/'bot_v34/src/learner.h').read_text()
-    fixture=(HERE/'scorer_fixture.cpp').read_text()
+    candidate=(ROOT/'bot_v36/src/bot.cpp').read_text(encoding='utf-8')
+    baseline=(ROOT/'bot_v34/src/bot.cpp').read_text(encoding='utf-8')
+    header=(ROOT/'bot_v36/src/farm_score.h').read_text(encoding='utf-8')
+    learner=(ROOT/'bot_v34/src/learner.h').read_text(encoding='utf-8')
+    fixture=(HERE/'scorer_fixture.cpp').read_text(encoding='utf-8')
     output=HERE.parent/'results'
     builds=output/'scorer_builds'
     builds.mkdir(parents=True,exist_ok=True)
@@ -53,6 +53,8 @@ def main():
             if learned=='zero': learner_config='#define NOVA_LEARNER 1\n#define NOVA_LEARNER_W 0.f\n'
             (build/'learner_fixture.h').write_text(learner_config+learner)
             (build/'candidate_scorer.inc').write_text(method(candidate,'int Bot::score_groups('))
+            legacy_include=ROOT/'bot_v36/src/farm_legacy.inc'
+            if legacy_include.exists():(build/'farm_legacy.inc').write_bytes(legacy_include.read_bytes())
             (build/'baseline_scorer.inc').write_text(method(baseline,'int Bot::score_groups(').replace('Bot::score_groups(', 'Bot::score_groups_legacy(',1))
             (build/'camp_helpers.inc').write_text(''.join(method(candidate,s) for s in ['bool Bot::camp_targets_me(', 'float Bot::incoming_from_group(', 'float Bot::group_soak(']))
             prefix=candidate[candidate.index('bool Bot::farm() {'):candidate.index('    // Escort (APEX_ESCORT):')]

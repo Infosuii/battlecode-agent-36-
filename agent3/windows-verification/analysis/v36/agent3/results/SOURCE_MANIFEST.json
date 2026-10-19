@@ -25,12 +25,13 @@
   },
   "candidate_overlay": {
     "files": {
-      "bot.cpp": "9f3717c7f442d0746202f96a817a59b9e688bf55d2a720e3087e2022ff69dc07",
+      "bot.cpp": "9e82d83fd77cb6df94e86f210414c590c4ca6906ef8e7485acabd894349ecba8",
       "bot.h": "a3d19d2364e4fb6766c9ec0bd67e35e0026c25cb1dab5a4dc9b8d985321bf42b",
+      "farm_legacy.inc": "44f25d5d0f7bc6cf235adf63849435e9f452bf01a1c70a8e0085594dbc2bcd0e",
       "farm_score.h": "f0a9efddbecca834f34635e71d7af35bd60948680af1e9b0ad18cebdd2e56182",
       "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b"
     },
-    "effective_source_manifest_sha256": "26c1871194bbc84a188f681746ea6a5f740b4a4e19cb178987fb320329a87e98",
+    "effective_source_manifest_sha256": "30a0c5db645a409ee0d12d633d326986d9bf38cae0c7380f286f5c377a68f93f",
     "inherited_unchanged_files": [
       "common.h",
       "deny.cpp",
@@ -61,15 +62,16 @@
     "seed": 3603,
     "variants": 18,
     "cases_per_variant": 24014,
-    "scorer_results_sha256": "6632756b913343a78f21577cfd3cff4029305c6053c4dc74ec0a4c8018d95c1a",
+    "scorer_results_sha256": "ff63aed470853134db4564293bdb9dbe1f6477860e6d4004a104542d3d8794f9",
     "compiler": "g++.EXE (Rev3, Built by MSYS2 project) 16.2.0"
   },
   "engine_matches": {
-    "games": 0,
-    "engine_build": null,
-    "map_hashes": [],
-    "release_fuel": null,
-    "reason": "integrated SDK/runner/schedules on other execution not supplied to this host"
+    "games": 63,
+    "independent_layout_groups": 9,
+    "engine_build": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "scope": "isolated repaired candidate, reconstructed historical development layouts, baseline opponent",
+    "release_fuel": "analysis/v36/recovery/recovered-development-v3-analysis.json",
+    "reason": "integrated other-host candidate, current official suite and varied pool still unavailable"
   },
   "archive": {
     "sha256": "e6a95834df2cd14b0719d107309000d4f38724b436e1f617b7db5e85fddfa605",

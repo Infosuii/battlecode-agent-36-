@@ -3,7 +3,7 @@
   "compiler": "g++.EXE (Rev3, Built by MSYS2 project) 16.2.0",
   "hashes": {
     "bot_v34\\src\\bot.cpp": "abf2ebe0d492ab6b2fa95eac2ed450bb8360ba119a3faefdcd3d474cd8ac8ef1",
-    "bot_v36\\src\\bot.cpp": "9f3717c7f442d0746202f96a817a59b9e688bf55d2a720e3087e2022ff69dc07",
+    "bot_v36\\src\\bot.cpp": "9e82d83fd77cb6df94e86f210414c590c4ca6906ef8e7485acabd894349ecba8",
     "bot_v36\\src\\farm_score.h": "f0a9efddbecca834f34635e71d7af35bd60948680af1e9b0ad18cebdd2e56182",
     "analysis\\v36\\agent3\\fixtures\\scorer_fixture.cpp": "0387365f2d7cefdeba1ee448e6b32b34660de9d751e5918b3d2e760fd668a26c"
   },
@@ -21,24 +21,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 8357712968398842883,
-          "elapsed_us": 331816
+          "elapsed_us": 183513
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 8357712968398842883,
-          "elapsed_us": 343222
+          "elapsed_us": 178535
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 8357712968398842883,
-          "elapsed_us": 342997
+          "elapsed_us": 178207
         }
       ],
-      "executable_sha256": "975ee8f9b9c328e2c7475a22f13a2f3e0167971089a7a38c5f3a4046ade0c730"
+      "executable_sha256": "2540c3b3e202b53c2e07a86bdbcf087d607c923cdf66539d3c132daa52b95692"
     },
     {
       "name": "corrected_production",
@@ -53,24 +53,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 183317
+          "elapsed_us": 162185
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 226080
+          "elapsed_us": 159368
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 303745
+          "elapsed_us": 157920
         }
       ],
-      "executable_sha256": "4c8a31d7fdd09b3fddcbc36268ce7a029bb5843eb574c5c967341504e7607767"
+      "executable_sha256": "e71038512191f4b8d168f0af0add9561bca8524cb6dcd477a6ed927c4658be56"
     },
     {
       "name": "corrected_production_diag",
@@ -85,24 +85,24 @@
           "scored": 174256,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 308050
+          "elapsed_us": 241044
         },
         {
           "cases": 24014,
           "scored": 174256,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 289693
+          "elapsed_us": 188287
         },
         {
           "cases": 24014,
           "scored": 174256,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 305872
+          "elapsed_us": 167886
         }
       ],
-      "executable_sha256": "1ab2736e55c481d558bf0ef5dca1b9ebed4cc8438e1247ee07be6ea3ae489740"
+      "executable_sha256": "61109a0e7610c201621a15135838daa4e2a1590e95fbf6e599804cbc25394214"
     },
     {
       "name": "pruned_single",
@@ -117,24 +117,24 @@
           "scored": 229345,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 195968
+          "elapsed_us": 168821
         },
         {
           "cases": 24014,
           "scored": 229345,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 181844
+          "elapsed_us": 167777
         },
         {
           "cases": 24014,
           "scored": 229345,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 172033
+          "elapsed_us": 162961
         }
       ],
-      "executable_sha256": "62814743697e636c98d640fc570d6f951d6dc2f31d8877680a62aa6930f43c61"
+      "executable_sha256": "caeb2728d25d0627aa40240be8ec642d2ec2cdaee13c2266c51a0a2a9a7af518"
     },
     {
       "name": "exhaustive_single",
@@ -149,24 +149,24 @@
           "scored": 369232,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 232036
+          "elapsed_us": 168524
         },
         {
           "cases": 24014,
           "scored": 369232,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 314508
+          "elapsed_us": 183075
         },
         {
           "cases": 24014,
           "scored": 369232,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 330402
+          "elapsed_us": 165272
         }
       ],
-      "executable_sha256": "0a736449f5568d6130f51b0dd1e9f13eae01fb9aaf768a82ad02033db676fc60"
+      "executable_sha256": "ace7830acaee94914824b5d2478dac6091b89aca8561e60910aeeb77f951888c"
     },
     {
       "name": "pruned_single_no_diag",
@@ -181,24 +181,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 162333
+          "elapsed_us": 170300
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 181505
+          "elapsed_us": 165969
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 280823
+          "elapsed_us": 163519
         }
       ],
-      "executable_sha256": "c4135c60fbd180d25a3328052295ee8effc39dee24f85974b4db74825cc28b60"
+      "executable_sha256": "0216f2742a86b0b9defd244ed25171136adf16f990d3ef3868c656150f40ad01"
     },
     {
       "name": "disabled_learner",
@@ -213,24 +213,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 9377038078170994667,
-          "elapsed_us": 388744
+          "elapsed_us": 182889
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 9377038078170994667,
-          "elapsed_us": 270566
+          "elapsed_us": 192377
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 9377038078170994667,
-          "elapsed_us": 317155
+          "elapsed_us": 186229
         }
       ],
-      "executable_sha256": "38bdf5a10b3fd83a9174d5c41547ffb9f38d8224327ae1d8d9fc7b60244c5498"
+      "executable_sha256": "eac0e98a53dc78ba43f5f5c43ee3d0f32353920599ccb95be48d479f81abae5e"
     },
     {
       "name": "corrected_production_learner",
@@ -245,24 +245,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 12982409599610959926,
-          "elapsed_us": 177145
+          "elapsed_us": 161067
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 12982409599610959926,
-          "elapsed_us": 163719
+          "elapsed_us": 164446
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 12982409599610959926,
-          "elapsed_us": 164408
+          "elapsed_us": 162151
         }
       ],
-      "executable_sha256": "0a18657ae76133b9d68ad43c4a4377f0d7f89a6bbcbeaa2d20d48df8663c2cc7"
+      "executable_sha256": "7d707afa6a681bae004510cfc1fa50b5fbee7ca1d263d024afeba8239d7cea14"
     },
     {
       "name": "corrected_production_diag_learner",
@@ -277,24 +277,24 @@
           "scored": 179644,
           "violations": 0,
           "checksum": 12982409599610959926,
-          "elapsed_us": 302235
+          "elapsed_us": 311842
         },
         {
           "cases": 24014,
           "scored": 179644,
           "violations": 0,
           "checksum": 12982409599610959926,
-          "elapsed_us": 314646
+          "elapsed_us": 309515
         },
         {
           "cases": 24014,
           "scored": 179644,
           "violations": 0,
           "checksum": 12982409599610959926,
-          "elapsed_us": 312287
+          "elapsed_us": 283464
         }
       ],
-      "executable_sha256": "83f0bdb1f9bac062bf60ecbfd4fdb4b4a9f72e845d23f75d3dc50942f31f0e81"
+      "executable_sha256": "c95ec7084a8e9de881f726ff75bc7e57997c3ce29f1792a64b131e7dcb5df3e9"
     },
     {
       "name": "pruned_single_learner",
@@ -309,24 +309,24 @@
           "scored": 249506,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 185930
+          "elapsed_us": 317937
         },
         {
           "cases": 24014,
           "scored": 249506,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 182723
+          "elapsed_us": 342094
         },
         {
           "cases": 24014,
           "scored": 249506,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 173489
+          "elapsed_us": 241072
         }
       ],
-      "executable_sha256": "17bb178edc6d57415930d35eed06e96eb3d8096a4b5899b858904943f460bd21"
+      "executable_sha256": "c225097514a2b1d2b6dd5cf3b298d6f18e88ef42c812e094d3e4cf2e038731ff"
     },
     {
       "name": "exhaustive_single_learner",
@@ -341,24 +341,24 @@
           "scored": 369232,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 332233
+          "elapsed_us": 328302
         },
         {
           "cases": 24014,
           "scored": 369232,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 226800
+          "elapsed_us": 293431
         },
         {
           "cases": 24014,
           "scored": 369232,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 169522
+          "elapsed_us": 306919
         }
       ],
-      "executable_sha256": "579ec16c9f12ccf739705123c1e0865582d90409e7a54d8996744b6490601561"
+      "executable_sha256": "adc8ee854e8942bfcba9f9b318ed9b6667e3ceb029acd3c875960fa61f8116bb"
     },
     {
       "name": "pruned_single_no_diag_learner",
@@ -373,24 +373,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 209251
+          "elapsed_us": 326610
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 290831
+          "elapsed_us": 319625
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 14641873193763165281,
-          "elapsed_us": 294996
+          "elapsed_us": 243427
         }
       ],
-      "executable_sha256": "eed2bbad04e1e2bcdb3b91496fead104a3142874dab5a9efa635e497be36fa58"
+      "executable_sha256": "add57a29b40fc9ac19f814e22073da538480953aaf0bff422547a030c2ace236"
     },
     {
       "name": "disabled_learner_zero",
@@ -405,24 +405,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 8357712968398842883,
-          "elapsed_us": 180027
+          "elapsed_us": 347569
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 8357712968398842883,
-          "elapsed_us": 242070
+          "elapsed_us": 331768
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 8357712968398842883,
-          "elapsed_us": 346764
+          "elapsed_us": 189062
         }
       ],
-      "executable_sha256": "b3a25e63ba1ba65057bc032338dfb746db1a96a91db533cea006a054b7d05d4c"
+      "executable_sha256": "740d296340aa36508291800195c82417f10a1eb4b1b5d80345224aff89e582c4"
     },
     {
       "name": "corrected_production_learner_zero",
@@ -437,24 +437,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 303290
+          "elapsed_us": 160661
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 231332
+          "elapsed_us": 161949
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 291706
+          "elapsed_us": 161359
         }
       ],
-      "executable_sha256": "1bba6d970a752a70608ac5a4228086a4a6bf5ceb341a729a0546bd5a32885176"
+      "executable_sha256": "dac23f3302c9313d81e5af757ff2eb76cbec85a7834200267f5fe928f035dddb"
     },
     {
       "name": "corrected_production_diag_learner_zero",
@@ -469,24 +469,24 @@
           "scored": 174256,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 163655
+          "elapsed_us": 182375
         },
         {
           "cases": 24014,
           "scored": 174256,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 159695
+          "elapsed_us": 169657
         },
         {
           "cases": 24014,
           "scored": 174256,
           "violations": 0,
           "checksum": 12916274746535971888,
-          "elapsed_us": 226540
+          "elapsed_us": 176592
         }
       ],
-      "executable_sha256": "991c67b14eab9747523951f84f4ccd2b600b3fd3c569869e0055bfce7961612a"
+      "executable_sha256": "562237479b0a418eb86d35b088b99450e3f604bc12b9ac975f4431853d9cd9d8"
     },
     {
       "name": "pruned_single_learner_zero",
@@ -501,24 +501,24 @@
           "scored": 229345,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 297398
+          "elapsed_us": 188584
         },
         {
           "cases": 24014,
           "scored": 229345,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 236232
+          "elapsed_us": 169686
         },
         {
           "cases": 24014,
           "scored": 229345,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 161585
+          "elapsed_us": 166287
         }
       ],
-      "executable_sha256": "d33b39bd2b128e3a240da0ddcb31c6fc321c3a4cbf92c565d4ed32ee8006591b"
+      "executable_sha256": "ca71525fef4889c445d955ec95836c99462f05a7a859bd0bfbeac5457af6c480"
     },
     {
       "name": "exhaustive_single_learner_zero",
@@ -533,24 +533,24 @@
           "scored": 369232,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 323116
+          "elapsed_us": 178505
         },
         {
           "cases": 24014,
           "scored": 369232,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 276293
+          "elapsed_us": 181666
         },
         {
           "cases": 24014,
           "scored": 369232,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 294208
+          "elapsed_us": 184257
         }
       ],
-      "executable_sha256": "a38af8f192f0d47c25a911570a29544fab3eb7c3493ee61422417128d05b69f0"
+      "executable_sha256": "527de780a7afa0daa957f217985338430abe934ee6c6883e16d26d972f128c93"
     },
     {
       "name": "pruned_single_no_diag_learner_zero",
@@ -565,24 +565,24 @@
           "scored": 0,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 284589
+          "elapsed_us": 167043
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 180496
+          "elapsed_us": 173665
         },
         {
           "cases": 24014,
           "scored": 0,
           "violations": 0,
           "checksum": 936749946520251266,
-          "elapsed_us": 171157
+          "elapsed_us": 172635
         }
       ],
-      "executable_sha256": "6dcd80c2f54b4dc835b9b2ddb32b90e52d8bbd23484a476a7c24cc53070e7e06"
+      "executable_sha256": "8dd5fd967f465ad04218404d30c336d9495fc53cb5a4144dcab08000f32caff1"
     }
   ]
 }

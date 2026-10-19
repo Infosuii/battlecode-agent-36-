@@ -3226,6 +3226,10 @@ bool Bot::poorer_ally_takes(const GroupRec& g, int gi, bool on_tile_only) const 
 }
 
 int Bot::score_groups(int participants_hint, int& best_need, float& best_score) {
+    if constexpr (!(farm_score::kCorrectBound || farm_score::kDiagnostics ||
+        farm_score::kSingleGroupDiagnostic || farm_score::kExhaustive)) {
+#include "farm_legacy.inc"
+    } else {
     PROF(score);
     const float dps = my_dps(nullptr);
     int best = -1;
@@ -3576,6 +3580,7 @@ int Bot::score_groups(int participants_hint, int& best_need, float& best_score) 
         }
     } else if (keep > 1) farm_stats.add(farm_score::route_skipped);
     return best;
+    }
 }
 
 // Follow-up table for one champion alone, rebuilt once per turn in a single pass over the groups.

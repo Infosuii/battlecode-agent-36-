@@ -1,0 +1,50 @@
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/bin/clang++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/projects/cambridge battlecode/work/recovery/eval/bots/bound_on_v3/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/fight.cpp.obj
+[2/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/deny.cpp.obj
+[3/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/draft.cpp.obj
+[4/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/episode.cpp.obj
+[5/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/main.cpp.obj
+[6/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/tsearch.cpp.obj
+C:/projects/cambridge battlecode/work/recovery/eval/bots/bound_on_v3/src/tsearch.cpp:503:26: warning: use of logical '&&' with constant operand [-Wconstant-logical-operand]
+  503 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^  ~~~~~~~~~~~~~
+C:/projects/cambridge battlecode/work/recovery/eval/bots/bound_on_v3/src/tsearch.cpp:503:26: note: use '&' for a bitwise operation
+  503 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^~
+      |                          &
+C:/projects/cambridge battlecode/work/recovery/eval/bots/bound_on_v3/src/tsearch.cpp:503:26: note: remove constant to silence this warning
+  503 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^~~~~~~~~~~~~~~~
+C:/projects/cambridge battlecode/work/recovery/eval/bots/bound_on_v3/src/tsearch.cpp:618:56: warning: use of logical '||' with constant operand [-Wconstant-logical-operand]
+  618 |             const std::uint64_t need = tune::kTsBudget || tune::kDet ? static_cast<std::uint64_t>(2 - plan) * worst : 2 * worst;
+      |                                                        ^  ~~~~~~~~~~
+C:/projects/cambridge battlecode/work/recovery/eval/bots/bound_on_v3/src/tsearch.cpp:618:56: note: use '|' for a bitwise operation
+  618 |             const std::uint64_t need = tune::kTsBudget || tune::kDet ? static_cast<std::uint64_t>(2 - plan) * worst : 2 * worst;
+      |                                                        ^~
+      |                                                        |
+
+2 warnings generated.
+
+[7/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/world.cpp.obj
+[8/10] Building CXX object CMakeFiles/bot.dir/C_/projects/cambridge_battlecode/work/recovery/eval/bots/bound_on_v3/src/bot.cpp.obj
+[9/10] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/bin/clang++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/projects/cambridge battlecode/work/recovery/eval/bots/bound_on_v3/.cambc/build
+built C:\projects\cambridge battlecode\work\recovery\eval\bots\bound_on_v3\.cambc\build-release\bot-injected.wasm
+injected 0 checks into 0 functions

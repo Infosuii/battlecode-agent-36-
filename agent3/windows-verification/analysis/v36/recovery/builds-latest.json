@@ -1,0 +1,74 @@
+[
+  {
+    "name": "probe_ren",
+    "command": [
+      "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+      "build",
+      "probe_ren",
+      "--release",
+      "--output",
+      "C:\\projects\\cambridge battlecode\\work\\recovery\\artifacts\\probe_ren.wasm"
+    ],
+    "source_files": {
+      "main.cpp": "859ac366f311b42f51831a73dd4439e67fe678fe37c98b1b6abc3ce11fe547da"
+    },
+    "artifact_sha256": "a8cad0a666201d0a248a57c48d4b63f91b5abeb678d365ce51261b14b10eb6dd",
+    "artifact_bytes": 829473,
+    "compile_commands": [
+      {
+        "directory": "C:/projects/cambridge battlecode/work/recovery/eval/bots/probe_ren/.cambc/build-release",
+        "command": "C:\\Users\\omdha\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -I\"C:/projects/cambridge battlecode/work/recovery/eval/sdk/cpp\" -isystem C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\C_\\projects\\cambridge_battlecode\\work\\recovery\\eval\\bots\\probe_ren\\src\\main.cpp.obj -c \"C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\bots\\probe_ren\\src\\main.cpp\"",
+        "file": "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\bots\\probe_ren\\src\\main.cpp",
+        "output": "CMakeFiles\\bot.dir\\C_\\projects\\cambridge_battlecode\\work\\recovery\\eval\\bots\\probe_ren\\src\\main.cpp.obj"
+      }
+    ]
+  },
+  {
+    "name": "probe_varg",
+    "command": [
+      "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+      "build",
+      "probe_varg",
+      "--release",
+      "--output",
+      "C:\\projects\\cambridge battlecode\\work\\recovery\\artifacts\\probe_varg.wasm"
+    ],
+    "source_files": {
+      "main.cpp": "8c47a9a7a300e381d09e8209af5146be7849a402e71dc87503f6b3b64dfd0898"
+    },
+    "artifact_sha256": "7ab13ef6f67fb99272a49ab549b2b7541769b889b3642c21b673fe46ed413558",
+    "artifact_bytes": 829473,
+    "compile_commands": [
+      {
+        "directory": "C:/projects/cambridge battlecode/work/recovery/eval/bots/probe_varg/.cambc/build-release",
+        "command": "C:\\Users\\omdha\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -I\"C:/projects/cambridge battlecode/work/recovery/eval/sdk/cpp\" -isystem C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\C_\\projects\\cambridge_battlecode\\work\\recovery\\eval\\bots\\probe_varg\\src\\main.cpp.obj -c \"C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\bots\\probe_varg\\src\\main.cpp\"",
+        "file": "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\bots\\probe_varg\\src\\main.cpp",
+        "output": "CMakeFiles\\bot.dir\\C_\\projects\\cambridge_battlecode\\work\\recovery\\eval\\bots\\probe_varg\\src\\main.cpp.obj"
+      }
+    ]
+  },
+  {
+    "name": "probe_idle",
+    "command": [
+      "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+      "build",
+      "probe_idle",
+      "--release",
+      "--output",
+      "C:\\projects\\cambridge battlecode\\work\\recovery\\artifacts\\probe_idle.wasm"
+    ],
+    "source_files": {
+      "main.cpp": "3fe5a5b367eab336fa2bca841caead1fca66c9c61d7df7569cd0b58583cfa77b"
+    },
+    "artifact_sha256": "047e7654b825bddd1c8ad73679b647d4c928b0019896b94763f0671fb06b8fd0",
+    "artifact_bytes": 819088,
+    "compile_commands": [
+      {
+        "directory": "C:/projects/cambridge battlecode/work/recovery/eval/bots/probe_idle/.cambc/build-release",
+        "command": "C:\\Users\\omdha\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -I\"C:/projects/cambridge battlecode/work/recovery/eval/sdk/cpp\" -isystem C:/Users/omdha/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\C_\\projects\\cambridge_battlecode\\work\\recovery\\eval\\bots\\probe_idle\\src\\main.cpp.obj -c \"C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\bots\\probe_idle\\src\\main.cpp\"",
+        "file": "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\bots\\probe_idle\\src\\main.cpp",
+        "output": "CMakeFiles\\bot.dir\\C_\\projects\\cambridge_battlecode\\work\\recovery\\eval\\bots\\probe_idle\\src\\main.cpp.obj"
+      }
+    ]
+  }
+]

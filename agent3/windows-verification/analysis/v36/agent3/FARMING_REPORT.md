@@ -1,5 +1,13 @@
 # Farming scorer and economy review
 
+## Continuation evidence — 20 October
+
+The pinned real runner and release toolchain are now recovered. The first local 63-game development run exposed one disabled-switch deviation under fuel pressure. The disabled compile-time branch now includes the exact frozen scorer body (`farm_legacy.inc`); its release WASM is byte-identical to the frozen baseline. A second fixed 63-game run passed all 18 matched parity checks and had zero native bot faults. Corrected-ON WASM did not change during that repair.
+
+The corrected bound won 9/18 paired-side games on nine reconstructed historical layouts, mean secured margin -11.67, descriptive map-cluster bootstrap interval [-169.33, 98.89]. Its native exhaustion events were 36 versus the disabled side's 30. This is insufficient evidence of strength and does not justify enabling it. Actual native per-turn fuel distributions and matching exhaustion-event validation are recorded in `../recovery/recovered-development-v3-analysis.json`.
+
+Two real native-engine camp/recall scenarios passed 18 assertions. Healthy camps can wake with a group; individual members can subsequently sleep at different times. A camp stays awake without further damage while a champion remains in range. A separate splash-awakened camp can remain awake because an idle spawn ally is in range even after the active champion leaves. Recall outside all camp ranges completed uninterrupted, and arrival-turn healing was observed next turn. See `../recovery/VALIDATION.md` for the full distinction between completed and missing validation. The earlier sections describe the initial unit-fixture work; the engine/fuel limitations are superseded only by this specific continuation evidence.
+
 ## Bound derivation
 
 For one eligible group, let `R = gems + gold_weight() * gold`. Let `A` be the same nonnegative approach cost the scorer uses, `W` the same already weighted/truncated respawn wait, and `C = capture_time + 4`. The actual denominator is `P * (A + W + kill) + C + drain`, where `P >= 1`, `kill >= 0`, and `drain >= 0`. Therefore its denominator is at least `A + W + C`.

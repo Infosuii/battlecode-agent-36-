@@ -1,0 +1,449 @@
+diff --git a/src/tsearch.cpp b/src/tsearch.cpp
+index af1c1bd..f666101 100644
+--- a/src/tsearch.cpp
++++ b/src/tsearch.cpp
+@@ -1,9 +1,11 @@
+ // Tactical search, bot side: snapshot the local fight into a ts::State, play every root candidate forward
+ // against two enemy models while fuel lasts, and carry out the best one (APEX_TSEARCH).
+ #include "bot.h"
++#include "fight.h"
+ #include "tsearch.h"
+ #include "local_model.h"
+ 
++#include <cstring>
+ #include <variant>
+ 
+ namespace d = cambc::detail;
+@@ -146,6 +148,170 @@ bool Bot::ts_snapshot(ts::State& s, ts::Map& m, const EnemyRec** eref) {
+         if (t == bc::champion_type::issac) ci_idx[team][1] = idx;
+     };
+     note_ci(0, type, 0);
++#if A2_SNAP || A2_TD_AUTH || A2_TEL
++    auto add_ally = [&](const AllyRec& a) {
++        d::champion_info info{};
++        if (d::sdk_champion(a.id, &info) != 0) return false;
++        std::uint32_t g = 0;
++        d::sdk_champion_gems(a.id, &g);
++        const bool acted = (static_cast<std::uint32_t>(info.state) & (1u << 5)) != 0;
++        fill_unit(s.u[s.n], 0, a.type, a.pos, a.hp, a.max_hp, a.strength, a.focus, a.range, static_cast<int>(g), a.id, acted, nullptr);
++        note_ci(0, a.type, s.n);
++        ++s.n;
++        return true;
++    };
++    auto add_enemy = [&](const EnemyRec& e) {
++        const bool acted = (e.state & (1u << 5)) != 0;
++        fill_unit(s.u[s.n], 1, e.type, e.pos, e.hp, e.max_hp, e.strength, e.focus, e.range, e.gems, e.id, acted, nullptr);
++        if (e.tributing() || e.recalling()) s.u[s.n].flags |= ts::U_ACTED; // channelling: it will not fight back now
++        note_ci(1, e.type, s.n);
++        eref[s.n] = &e;
++        ++s.n;
++    };
++    auto is_ci = [](bc::champion_type t) { return t == bc::champion_type::cassi || t == bc::champion_type::issac; };
++    // An enemy the model leaves out still threatens us when it could hit us next turn (the formula's radius).
++    auto reaches_us = [&](const EnemyRec& e) { return cheb(e.pos, pos) <= std::max(e.range + 2, 5); };
++    a2ts::snap = a2ts::SnapInfo{};
++#if A2_SNAP
++    // Relevance-ranked snapshot of at most A2_SNAP units (us included). Order: nearest first; at equal distance enemies
++    // before allies, then the bigger threat (basic + spell), then the lower handle. The nearest enemy is always in; a
++    // Cassi/Issac pair enters whole or not at all (our own partner first); at most three allies. Dropped units stay
++    // in the model as movement blockers, and what was dropped is recorded for the verdict's authority.
++    struct Cand {
++        const AllyRec* a;
++        const EnemyRec* e;
++        int d;
++        float threat;
++        std::uint32_t id;
++        int partner;
++        bool taken;
++    };
++    Cand cd[16];
++    int ncd = 0, enemies = 0, near_d = 99, scene = 1;
++    for (const auto& a : w.allies) {
++        if (cheb(a.pos, pos) > 7) continue;
++        ++scene;
++        if (ncd < 16) cd[ncd++] = {&a, nullptr, cheb(a.pos, pos), a.strength + spell_kit(a.type, a.focus).nuke, a.id, -1, false};
++    }
++    for (const auto& e : w.enemies) {
++        const int dd = cheb(e.pos, pos);
++        if (dd > 8 || e.hp <= 0) continue;
++        ++scene;
++        near_d = std::min(near_d, dd);
++        ++enemies;
++        if (ncd < 16) cd[ncd++] = {nullptr, &e, dd, e.strength + spell_kit(e.type, e.focus).nuke, e.id, -1, false};
++    }
++    a2ts::snap.scene = scene;
++    if (!enemies || near_d > tune::kTsRange) return false;
++    auto ctype = [&](const Cand& c) { return c.a ? c.a->type : c.e->type; };
++    for (int i = 0; i < ncd; ++i)
++        if (is_ci(ctype(cd[i])))
++            for (int j = 0; j < ncd; ++j)
++                if (j != i && (cd[j].a != nullptr) == (cd[i].a != nullptr) && is_ci(ctype(cd[j])) && ctype(cd[j]) != ctype(cd[i]))
++                    cd[i].partner = j;
++    int order[16];
++    for (int i = 0; i < ncd; ++i) order[i] = i;
++    std::sort(order, order + ncd, [&](int x, int y) {
++        const Cand &p = cd[x], &q = cd[y];
++        if (p.d != q.d) return p.d < q.d;
++        if ((p.e != nullptr) != (q.e != nullptr)) return p.e != nullptr;
++        if (p.threat != q.threat) return p.threat > q.threat;
++        return p.id < q.id;
++    });
++    const int cap = std::clamp(static_cast<int>(A2_SNAP), 2, ts::kMaxUnits);
++    int allies_in = 0;
++    auto take = [&](int i) {
++        if (cd[i].taken) return;
++        cd[i].taken = true;
++        if (cd[i].a) {
++            if (add_ally(*cd[i].a)) ++allies_in;
++        } else {
++            add_enemy(*cd[i].e);
++        }
++    };
++    // Room for candidate i (with its partner when it has one), within the cap and the three-ally limit.
++    auto fits_in = [&](int i) {
++        const int p = cd[i].partner >= 0 && !cd[cd[i].partner].taken ? cd[i].partner : -1;
++        const int need = 1 + (p >= 0);
++        const int need_allies = (cd[i].a != nullptr) + (p >= 0 && cd[p].a != nullptr);
++        return s.n + need <= cap && allies_in + need_allies <= 3;
++    };
++    if (is_ci(type))
++        for (int k = 0; k < ncd; ++k) // our own partner: one fate, so it is part of every fight we are in
++            if (cd[order[k]].a && is_ci(cd[order[k]].a->type) && cd[order[k]].a->type != type && s.n < cap) {
++                take(order[k]);
++                break;
++            }
++    for (int k = 0; k < ncd; ++k) // the nearest enemy, with its partner if there is room
++        if (cd[order[k]].e) {
++            const int i = order[k];
++            if (fits_in(i) && cd[i].partner >= 0) take(cd[i].partner);
++            if (s.n < cap) take(i);
++            break;
++        }
++    for (int k = 0; k < ncd && s.n < cap; ++k) {
++        const int i = order[k];
++        if (cd[i].taken || !fits_in(i)) continue;
++        take(i);
++        if (cd[i].partner >= 0) take(cd[i].partner);
++    }
++    {
++        static bc::bitboard ts_blocked;
++        bool any_dropped = false;
++        for (int i = 0; i < ncd; ++i) {
++            if (cd[i].taken) {
++                if (cd[i].partner >= 0 && !cd[cd[i].partner].taken) a2ts::snap.link_partial = true;
++                continue;
++            }
++            if (!any_dropped) ts_blocked = w.static_blocked, any_dropped = true;
++            set_bit(ts_blocked, cd[i].a ? cd[i].a->pos : cd[i].e->pos); // not in the model, still in the way
++            if (cd[i].e) {
++                ++a2ts::snap.dropped_enemies;
++                a2ts::snap.omit_reach |= reaches_us(*cd[i].e);
++            } else {
++                ++a2ts::snap.dropped_allies;
++            }
++        }
++        if (is_ci(type)) // our own partner visible within 7 but not modelled
++            for (int i = 0; i < ncd; ++i)
++                if (cd[i].a && is_ci(cd[i].a->type) && cd[i].a->type != type && !cd[i].taken) a2ts::snap.link_partial = true;
++        if (any_dropped) m.blocked = ts_blocked.ptr();
++    }
++    a2ts::snap.n = s.n;
++    const int a2_enemies_in = enemies;
++    (void)a2_enemies_in;
++#else
++    // v34's selection (allies then enemies in observation order), recording what it leaves out.
++    int scene = 1;
++    for (const auto& a : w.allies) {
++        if (cheb(a.pos, pos) > 7) continue;
++        ++scene;
++        if (s.n >= 4) {
++            ++a2ts::snap.dropped_allies;
++            continue;
++        }
++        add_ally(a);
++    }
++    int enemies = 0, near_d = 99;
++    for (const auto& e : w.enemies) {
++        const int dd = cheb(e.pos, pos);
++        if (dd > 8 || e.hp <= 0) continue;
++        ++scene;
++        if (s.n >= ts::kMaxUnits) {
++            ++a2ts::snap.dropped_enemies;
++            a2ts::snap.omit_reach |= reaches_us(e);
++            continue;
++        }
++        near_d = std::min(near_d, dd);
++        add_enemy(e);
++        ++enemies;
++    }
++    a2ts::snap.scene = scene;
++    a2ts::snap.n = s.n;
++    (void)is_ci;
++    if (!enemies || near_d > tune::kTsRange) return false;
++#endif
++#else
+     for (const auto& a : w.allies) {
+         if (s.n >= 4 || cheb(a.pos, pos) > 7) continue;
+         d::champion_info info{};
+@@ -172,6 +338,7 @@ bool Bot::ts_snapshot(ts::State& s, ts::Map& m, const EnemyRec** eref) {
+         ++enemies;
+     }
+     if (!enemies || near_d > tune::kTsRange) return false;
++#endif
+     s.nc = 0;
+     if (tune::kTsCamps)
+         for (const auto& g : w.groups) {
+@@ -492,14 +659,40 @@ int Bot::tactical_decide() {
+     PROF(tdecide);
+ #if APEX_PROFILE
+     prof::td_round = round;
++#endif
++#if A2_TEL
++    // Status: 0 no eligible enemy, 1 safety reserve, 2 predicted budget, 3 incomplete, 4 inside margin, 5 fight, 6 run.
++    PROF_CHECK("td0");
++    int a2_scene = 1;
++    for (const auto& e : w.enemies) a2_scene += e.hp > 0 && cheb(e.pos, pos) <= 8;
++    for (const auto& a : w.allies) a2_scene += cheb(a.pos, pos) <= 7;
++    a2_scene = std::min(a2_scene, 12);
++    const std::uint64_t a2_f0 = bc::fuel_remaining();
++#define A2RET(st, v)                                                                                                   \
++    do {                                                                                                               \
++        a2ts::snap.status = st;                                                                                        \
++        a2tel::td_status(a2_scene, st);                                                                                \
++        a2tel::bump(11u * 4096 + static_cast<std::uint32_t>(st) * 8 + (a2ts::snap.omit_reach ? 1u : 0u) +              \
++            (a2ts::snap.link_partial ? 2u : 0u) + (a2ts::snap.dropped_enemies > 0 ? 4u : 0u));                         \
++        PROF_CHECK("td1");                                                                                             \
++        return v;                                                                                                      \
++    } while (0)
++#elif A2_SNAP || A2_TD_AUTH
++#define A2RET(st, v)                                                                                                   \
++    do {                                                                                                               \
++        a2ts::snap.status = st;                                                                                        \
++        return v;                                                                                                      \
++    } while (0)
++#else
++#define A2RET(st, v) return v
+ #endif
+     if (bc::fuel_remaining() < (tune::kDet ? static_cast<std::uint64_t>(tune::kDetSafety) + 10000
+                                            : static_cast<std::uint64_t>(tune::kTsReserve) + 30000))
+-        return 0;
++        A2RET(1, 0);
+     ts::State s;
+     ts::Map m;
+     const EnemyRec* eref[ts::kMaxUnits] = {};
+-    if (!ts_snapshot(s, m, eref)) return 0;
++    if (!ts_snapshot(s, m, eref)) A2RET(0, 0);
+     if (tune::kTsPhantom && tune::kBelief &&
+         (tune::kDet || bc::fuel_remaining() > static_cast<std::uint64_t>(tune::kTsReserve) + 45000)) {
+         // Reinforcements (APEX_TS_PHANTOM): enemies we cannot see that could join before the horizon, from the
+@@ -604,11 +797,17 @@ int Bot::tactical_decide() {
+         while (static_cast<std::uint64_t>(n_models * 2) * cost(rounds) > static_cast<std::uint64_t>(tune::kDetTsBudget)) {
+             if (n_models == 2) n_models = 1;
+             else if (rounds > 2) --rounds; // a one-round horizon cannot tell a fight from a flight
+-            else return 0;
++            else A2RET(2, 0);
+         }
+         worst = cost(rounds);
+         reserve = static_cast<std::uint64_t>(tune::kDetSafety);
+     }
++#if A2_TEL
++    {
++        const std::uint64_t prep = a2_f0 - bc::fuel_remaining();
++        a2tel::td_prep(std::min(s.n, 8), prep);
++    }
++#endif
+     ts_ran_round = round;
+     for (int model = 0; model < n_models; ++model) {
+         bool complete = true;
+@@ -627,6 +826,9 @@ int Bot::tactical_decide() {
+             ts::rollout(c, m, pol, rounds);
+             v[model][plan] = tune::kTsLocalNet ? plan_value(s, c, m, round, wts.alive) : ts::evaluate(c, wts);
+             const std::uint64_t now = bc::fuel_remaining();
++#if A2_TEL
++            if (left > now) a2tel::td_cost(std::min(s.n, 8), std::min(rounds, 3), left - now);
++#endif
+             if (!tune::kDet && now < left) worst = std::max(worst, left - now);
+         }
+         if (!complete) break;
+@@ -640,7 +842,7 @@ int Bot::tactical_decide() {
+                 static_cast<unsigned long long>(out_fuel));
+     }
+ #endif
+-    if (done == 0) return 0;
++    if (done == 0) A2RET(3, 0);
+     float fight = 0, run = 0;
+     for (int k = 0; k < done; ++k) fight += v[k][0], run += v[k][1];
+     fight /= static_cast<float>(done);
+@@ -649,9 +851,10 @@ int Bot::tactical_decide() {
+     std::printf("TD R%d %s units %d models %d fight %.1f run %.1f -> %s\n", round, bc::to_string(type).c_str(), s.n, done, fight, run,
+         fight > run + tune::kTsDecideMargin ? "FIGHT" : run > fight + tune::kTsDecideMargin ? "RUN" : "-");
+ #endif
+-    if (fight > run + tune::kTsDecideMargin) return 1;
+-    if (run > fight + tune::kTsDecideMargin) return -1;
+-    return 0;
++    if (fight > run + tune::kTsDecideMargin) A2RET(5, 1);
++    if (run > fight + tune::kTsDecideMargin) A2RET(6, -1);
++    A2RET(4, 0);
++#undef A2RET
+ }
+ 
+ // Team commander (APEX_TFC): plays three team plans forward APEX_TFC_ROUNDS rounds against both enemy models:
+@@ -739,6 +942,9 @@ int Bot::team_decide(std::uint32_t& focus_handle) {
+ // turn: a step plus their basic range (two more with a ready dash), their ready offensive spells, less for enemies an
+ // ally of ours stands nearer to, nothing from enemies stunned or killed this turn. Awake camps add their hits.
+ bool Bot::caster_micro(const EnemyRec* target, bool engage) {
++#if A2_TEL
++    a2tel::CallCost a2_cost{7};
++#endif
+     (void)target;
+     auto& me = bc::self();
+     struct Threat {
+@@ -787,12 +993,104 @@ bool Bot::caster_micro(const EnemyRec* target, bool engage) {
+         t.cover = 1.0f;
+     }
+     if (nt == 0) return false;
++#if A2_TEL
++    struct A2NtCost {
++        const int& nt;
++        std::uint64_t f0 = bc::fuel_remaining();
++        std::uint32_t r0 = bc::round_number();
++        ~A2NtCost() {
++            a2tel::bump(14u * 4096 + static_cast<std::uint32_t>(nt) * 100 +
++                static_cast<std::uint32_t>(std::min<std::uint64_t>(a2tel::spent(f0, r0) / 1000, 99)));
++        }
++    } a2_ntcost{nt};
++#endif
+     const float frac = hp / std::max(max_hp, 1.0f);
+     float risk = tune::kCMicroRisk * (1.0f + 1.5f * (1.0f - frac));
+     if (type == bc::champion_type::cassi) risk *= tune::kCiRisk; // her death takes Issac too
+     if (NOVA_CMICRO_MELEE && type == bc::champion_type::issac) risk *= tune::kCiRisk; // so does his
+     if (!engage) risk *= 1.5f;
+ 
++#if A2_CMICRO_FAST
++    // Each threat's hit on a tile and the awake camps reaching it depend on the tile only (nine candidates): compute
++    // them once per tile and sum in the original order, so every danger value is bit-identical to the direct loop.
++    struct TileDanger {
++        vec2 q{-1, -1};
++        float hit[8];
++        float camp[32];
++        int ncamp = 0;
++    };
++    TileDanger td_cache[9];
++    int n_td = 0;
++    // Awake camps that can reach any tile within 1 of us (within their range + 1 of us), in index order: the same camps,
++    // in the same order, as World::awake_camps_near returns for each tile, without a map-wide scan per tile.
++    int near_camps[32];
++    int n_near = -1;
++    auto camps_near = [&](vec2 q, float* out, int& n_out) {
++        n_out = 0;
++        if (!bit(w.hot_zone, q)) return;
++        if (n_near < 0) {
++            n_near = 0;
++            for (std::size_t ci = 0; ci < w.camps.size() && n_near < 32; ++ci) {
++                const auto& c = w.camps[ci];
++                if (!c.dead && c.strength > 0 && c.hp < c.max_hp && cheb(c.pos, pos) <= c.range + 1) near_camps[n_near++] = static_cast<int>(ci);
++            }
++        }
++        for (int k = 0; k < n_near && n_out < 32; ++k) {
++            const auto& c = w.camps[static_cast<std::size_t>(near_camps[k])];
++            if (cheb(c.pos, q) <= c.range) out[n_out++] = c.strength;
++        }
++    };
++    auto tile_danger = [&](vec2 q) -> const TileDanger& {
++        for (int k = 0; k < n_td; ++k)
++            if (td_cache[k].q == q) return td_cache[k];
++        TileDanger& c = td_cache[n_td < 9 ? n_td++ : 8];
++        c.q = q;
++        for (int i = 0; i < nt; ++i) {
++            const Threat& t = th[i];
++            const int dq = cheb(t.e->pos, q);
++            float hit = (dq <= t.reach ? t.basic : 0.0f) + (dq <= t.sreach ? t.spell : 0.0f);
++            if (hit > 0.0f)
++                for (const auto& a : w.allies)
++                    if (cheb(a.pos, t.e->pos) < dq) {
++                        hit *= 0.6f;
++                        break;
++                    }
++            c.hit[i] = hit;
++        }
++        camps_near(q, c.camp, c.ncamp);
++        return c;
++    };
++    auto danger_at = [&](vec2 q, int stunned_i, int killed_i) {
++        const TileDanger& c = tile_danger(q);
++        float dmg = 0.0f;
++        for (int i = 0; i < nt; ++i) {
++            if (i == stunned_i || i == killed_i || th[i].stunned || c.hit[i] <= 0.0f) continue;
++            dmg += c.hit[i];
++        }
++        for (int k = 0; k < c.ncamp; ++k) dmg += c.camp[k];
++#if A2_CHECK
++        { // the original computation, compared bit for bit (kind 16: 0 equal, 1 different)
++            float ref = 0.0f;
++            for (int i = 0; i < nt; ++i) {
++                const Threat& t = th[i];
++                if (i == stunned_i || i == killed_i || t.stunned) continue;
++                const int dq = cheb(t.e->pos, q);
++                float hit = (dq <= t.reach ? t.basic : 0.0f) + (dq <= t.sreach ? t.spell : 0.0f);
++                if (hit <= 0.0f) continue;
++                for (const auto& a : w.allies)
++                    if (cheb(a.pos, t.e->pos) < dq) {
++                        hit *= 0.6f;
++                        break;
++                    }
++                ref += hit;
++            }
++            for (int ci : w.awake_camps_near(q)) ref += w.camps[ci].strength;
++            a2tel::bump(16u * 4096 + (std::memcmp(&ref, &dmg, sizeof(float)) != 0 ? 1u : 0u));
++        }
++#endif
++        return dmg;
++    };
++#else
+     auto danger_at = [&](vec2 q, int stunned_i, int killed_i) {
+         float dmg = 0.0f;
+         for (int i = 0; i < nt; ++i) {
+@@ -811,6 +1109,7 @@ bool Bot::caster_micro(const EnemyRec* target, bool engage) {
+         for (int ci : w.awake_camps_near(q)) dmg += w.camps[ci].strength;
+         return dmg;
+     };
++#endif
+     // Our spells usable against champions: slot, damage, stun, area radius (-1 single), walk-compatible.
+     struct MySpell {
+         int slot;
+@@ -937,6 +1236,11 @@ bool Bot::caster_micro(const EnemyRec* target, bool engage) {
+         }
+     }
+     (void)stay_score;
++#if A2_TEL
++    // Split of the option-evaluation cost (kind 15) from the action execution that follows (kind 14 keeps the total).
++    a2tel::bump(15u * 4096 + static_cast<std::uint32_t>(nt) * 100 +
++        static_cast<std::uint32_t>(std::min<std::uint64_t>(a2tel::spent(a2_ntcost.f0, a2_ntcost.r0) / 1000, 99)));
++#endif
+     // Nothing to shoot and nothing threatens us here: leave the turn to farming.
+     if (best.to == pos && best.attack < 0 && best.spell < 0 && danger_at(pos, -1, -1) <= 0.0f) return false;
+     // Melee without a hit this turn: closing in, chasing and fleeing belong to the normal fight logic.
+diff --git a/src/tsearch.h b/src/tsearch.h
+index bdb1fbf..84d8143 100644
+--- a/src/tsearch.h
++++ b/src/tsearch.h
+@@ -7,6 +7,19 @@
+ #pragma once
+ #include "common.h"
+ 
++// What the last fight/run snapshot left out (Agent 2: A2_SNAP selection, A2_TD_AUTH verdict authority, telemetry).
++namespace a2ts {
++struct SnapInfo {
++    int scene = 0;               // 1 + allies within 7 + live enemies within 8, before any selection
++    int n = 0;                   // units in the model
++    int dropped_enemies = 0, dropped_allies = 0;
++    bool omit_reach = false;     // a dropped enemy could hit us next turn (within max(range + 2, 5), as the formula)
++    bool link_partial = false;   // a Cassi/Issac in the model whose visible partner is not
++    int status = -1;             // tactical_decide: 0 no enemy, 1 safety, 2 budget, 3 incomplete, 4 margin, 5 fight, 6 run
++};
++inline SnapInfo snap;
++} // namespace a2ts
++
+ namespace ts {
+ 
+ inline constexpr int kMaxUnits = 8;

@@ -1,0 +1,300 @@
+diff --git a/src/world.cpp b/src/world.cpp
+index 87cd50a..7ba1698 100644
+--- a/src/world.cpp
++++ b/src/world.cpp
+@@ -41,6 +41,7 @@ float GroupRec::hp_left(const std::vector<CampRec>& all) const {
+ void World::init() {
+     std::uint64_t f0 = bc::fuel_remaining();
+     auto mark = [&](const char* what) {
++        PROF_CHECK(what);
+         if (APEX_PROFILE) {
+             std::printf("INIT %s %llu\n", what, static_cast<unsigned long long>(f0 - bc::fuel_remaining()));
+             f0 = bc::fuel_remaining();
+@@ -149,14 +150,83 @@ void World::init() {
+ int World::bush_cluster(vec2 p) {
+     if (p.x < 0 || p.y < 0 || p.x >= width || p.y >= height || !bit(bushes, p)) return -1;
+     if (!bit(bush_labeled, p)) {
++#if A2_TEL
++        const std::uint64_t a2_f0 = bc::fuel_remaining();
++        const std::uint32_t a2_r0 = bc::round_number();
++        int a2_size = 0;
++        struct A2Done {
++            const std::uint64_t& f0;
++            const std::uint32_t& r0;
++            int& size;
++            ~A2Done() {
++                a2tel::bump(4u * 4096 + static_cast<std::uint32_t>(std::min(size / 50, 63) * 64) +
++                    static_cast<std::uint32_t>(std::min<std::uint64_t>(a2tel::spent(f0, r0) / 2000, 63)));
++            }
++        } a2_done{a2_f0, a2_r0, a2_size};
++#endif
+         // Label the whole 8-connected cluster on first use (8-connectivity is the cautious
+         // choice: a bigger cluster never claims a hiding spot the engine would not give us).
+         const auto id = static_cast<std::uint16_t>(bush_clusters++);
++#if A2_BUSH_FAST
++        // Same tiles, same id; a fixed explicit stack instead of a growing vector (allocation and push_back cost
++        // ~800 fuel per tile in the original, which put 50-120k labelling spikes inside ward_ahead/counter_ambush).
++        static std::uint32_t stack[kBushStack];
++        int sp = 0;
++        stack[sp++] = static_cast<std::uint32_t>(p.x) | static_cast<std::uint32_t>(p.y) << 16;
++        set_bit(bush_labeled, p);
++        while (sp > 0) {
++            const std::uint32_t t = stack[--sp];
++            const int x = static_cast<int>(t & 0xFFFF), y = static_cast<int>(t >> 16);
++#if A2_TEL
++            ++a2_size;
++#endif
++            bush_label[static_cast<std::size_t>(y * width + x)] = id;
++            const int x0 = x > 0 ? x - 1 : 0, x1 = x + 1 < width ? x + 1 : x;
++            const int y0 = y > 0 ? y - 1 : 0, y1 = y + 1 < height ? y + 1 : y;
++            for (int yy = y0; yy <= y1; ++yy)
++                for (int xx = x0; xx <= x1; ++xx) {
++                    const vec2 q{xx, yy};
++                    if (!bit(bushes, q) || bit(bush_labeled, q)) continue;
++                    set_bit(bush_labeled, q);
++                    if (sp < kBushStack) stack[sp++] = static_cast<std::uint32_t>(xx) | static_cast<std::uint32_t>(yy) << 16;
++                }
++        }
++#if A2_CHECK
++        { // the original flood from p over bush tiles: every tile it reaches must carry this id, and no other tile may
++            // (kind 18: 0 equal, 1 different)
++            bc::bitboard seen;
++            seen.clear();
++            std::vector<vec2> st{p};
++            set_bit(seen, p);
++            bool ok = true;
++            int reached = 0;
++            while (!st.empty()) {
++                const vec2 c = st.back();
++                st.pop_back();
++                ++reached;
++                ok &= bit(bush_labeled, c) && bush_label[static_cast<std::size_t>(c.y * width + c.x)] == id;
++                for (vec2 dlt : kDirs) {
++                    const vec2 q = c + dlt;
++                    if (q.x < 0 || q.y < 0 || q.x >= width || q.y >= height || !bit(bushes, q) || bit(seen, q)) continue;
++                    set_bit(seen, q);
++                    st.push_back(q);
++                }
++            }
++            int labelled_with_id = 0;
++            for (int i = 0; i < width * height; ++i)
++                labelled_with_id += bit(bush_labeled, vec2{i % width, i / width}) && bush_label[static_cast<std::size_t>(i)] == id;
++            a2tel::bump(18u * 4096 + (ok && labelled_with_id == reached ? 0u : 1u));
++        }
++#endif
++#else
+         std::vector<vec2> stack{p};
+         set_bit(bush_labeled, p);
+         while (!stack.empty()) {
+             const vec2 c = stack.back();
+             stack.pop_back();
++#if A2_TEL
++            ++a2_size;
++#endif
+             bush_label[static_cast<std::size_t>(c.y * width + c.x)] = id;
+             for (vec2 d : kDirs) {
+                 const vec2 q = c + d;
+@@ -166,6 +236,7 @@ int World::bush_cluster(vec2 p) {
+                 stack.push_back(q);
+             }
+         }
++#endif
+     }
+     return bush_label[static_cast<std::size_t>(p.y * width + p.x)];
+ }
+@@ -523,7 +594,9 @@ void World::update(int round) {
+         visible = bc::vision::visible_tiles();
+         unit_tiles = bc::vision::champion_tiles() | bc::vision::camp_tiles() | bc::vision::teleport_tiles();
+     }
++    PROF_CHECK("w_vis");
+     observe_groups(round);
++    PROF_CHECK("w_groups");
+     PROF(w_hot);
+     hot_zone.clear();
+     for (const auto& g : groups) {
+@@ -541,7 +614,9 @@ void World::update(int round) {
+             if (!c.dead && c.strength > 0 && (c.hp < c.max_hp || awake)) hot_zone.draw_chebyshev(c.pos, static_cast<float>(c.range));
+         }
+     }
++    PROF_CHECK("w_hot");
+     observe_champions();
++    PROF_CHECK("w_champs");
+     PROF(w_tail);
+     warded_clusters.clear();
+     if (tune::kWardAware) {
+@@ -552,8 +627,10 @@ void World::update(int round) {
+                 if (c >= 0) warded_clusters.push_back(c);
+             }
+     }
++    PROF_CHECK("w_ward");
+     std::erase_if(sightings, [&](const Sighting& s) { return round - s.round > 20; });
+     for (const auto& e : enemies) add_sighting(e.pos, round);
++    PROF_CHECK("w_sight");
+     for (const auto& e : enemies)
+         for (auto& g : groups)
+             for (int i : g.camps)
+diff --git a/src/common.h b/src/common.h
+index a8f3525..e7ba7f0 100644
+--- a/src/common.h
++++ b/src/common.h
+@@ -544,9 +544,160 @@ inline void report(int round) {
+ } // namespace prof
+ #define PROF_CAT2(a, b) a##b
+ #define PROF_CAT(a, b) PROF_CAT2(a, b)
++#ifndef A2_TEL
++#define A2_TEL 0
++#endif
++// Agent 2 switches (all 0 = v34 behaviour). Central-registry request to Agent 1.
++#ifndef A2_BUSH_FAST // bush-cluster labelling with a fixed stack (same labels, far less fuel)
++#define A2_BUSH_FAST 0
++#endif
++#ifndef A2_FAST_AMBUSH // counter_ambush: the same distances from one window scan instead of nine
++#define A2_FAST_AMBUSH 0
++#endif
++#ifndef A2_CMICRO_FAST // caster_micro: per-tile danger cached (bit-identical sums), not recomputed per option
++#define A2_CMICRO_FAST 0
++#endif
++#ifndef A2_GOV // fuel governor (runtime_budget.h): umbrella for the parts below
++#define A2_GOV 0
++#endif
++#ifndef A2_GOV_WALK // path searches capped at what the fuel left pays for; a capped search takes a greedy step
++#define A2_GOV_WALK A2_GOV
++#endif
++#ifndef A2_GOV_WARD // ward_ahead waits for a turn with room when it would label a new bush cluster
++#define A2_GOV_WARD A2_GOV
++#endif
++#ifndef A2_SNAP // fight/run snapshot size, relevance-ranked (0 = v34's observation-order selection of up to 8)
++#define A2_SNAP 0
++#endif
++#ifndef A2_TD_AUTH // a fight verdict clears formula danger only for risks the model represents
++#define A2_TD_AUTH 0
++#endif
++#ifndef NOVA_FLEE_HIT // a fleeing melee champion first hits the weakest adjacent enemy (ported from v36fight)
++#define NOVA_FLEE_HIT 0
++#endif
++#ifndef A2_CHECK // diagnostic (needs A2_TEL): every exact-result fast path also runs the original and counts mismatches
++#define A2_CHECK 0
++#endif
++inline constexpr int kBushStack = 1 << 15;
++// Agent 2 telemetry (A2_TEL): a fuel trail of named checkpoints per turn, printed only for a turn whose execution
++// crossed into a later round (an engine suspension); and fight/run search counts aggregated in memory.
++namespace a2tel {
++struct Mark {
++    const char* where;
++    std::uint64_t fuel;
++    std::uint32_t round;
++};
++inline constexpr int kMarks = 64;
++inline Mark trail[kMarks];
++inline int nt = 0;
++inline std::uint32_t turn_round = 0;
++inline bc::champion_type who{};
++inline void mark(const char* where) {
++    if (nt < kMarks) trail[nt++] = {where, bc::fuel_remaining(), bc::round_number()};
++    else trail[kMarks - 1] = {where, bc::fuel_remaining(), bc::round_number()};
++}
++// Fight/run search counters, sparse: key = kind * 4096 + index; status (kind 1) = scene * 8 + status, playout cost
++// (kind 2) = (n * 4 + horizon) * 100 + fuel/1000, preparation (kind 3) = n * 16 + fuel/1000.
++inline constexpr int kKeys = 192;
++inline std::uint32_t keys[kKeys], counts[kKeys];
++inline int nkeys = 0;
++inline void bump(std::uint32_t key) {
++    for (int i = 0; i < nkeys; ++i)
++        if (keys[i] == key) {
++            ++counts[i];
++            return;
++        }
++    if (nkeys < kKeys) keys[nkeys] = key, counts[nkeys++] = 1;
++}
++// Fuel spent since (f0, r0); across one suspension: what was left plus what the next 100k budget has used.
++inline std::uint64_t spent(std::uint64_t f0, std::uint32_t r0) {
++    const std::uint64_t f1 = bc::fuel_remaining();
++    const std::uint32_t r1 = bc::round_number();
++    if (r1 == r0) return f0 > f1 ? f0 - f1 : 0;
++    return f0 + (static_cast<std::uint64_t>(r1 - r0) * 100000 > f1 ? static_cast<std::uint64_t>(r1 - r0) * 100000 - f1 : 0);
++}
++// Cost probe for one call (kind 5..15): histogram of fuel/2000, suspension-aware.
++struct CallCost {
++    std::uint32_t kind;
++    std::uint64_t f0 = bc::fuel_remaining();
++    std::uint32_t r0 = bc::round_number();
++    explicit CallCost(std::uint32_t k) : kind(k) {}
++    ~CallCost() { bump(kind * 4096 + static_cast<std::uint32_t>(std::min<std::uint64_t>(spent(f0, r0) / 2000, 99))); }
++};
++inline void td_status(int scene, int st) { bump(1u * 4096 + static_cast<std::uint32_t>(scene * 8 + st)); }
++inline void td_cost(int n, int h, std::uint64_t fuel) {
++    bump(2u * 4096 + static_cast<std::uint32_t>((n * 4 + h) * 100) + static_cast<std::uint32_t>(std::min<std::uint64_t>(fuel / 1000, 99)));
++}
++inline void td_prep(int n, std::uint64_t fuel) {
++    bump(3u * 4096 + static_cast<std::uint32_t>(n * 16) + static_cast<std::uint32_t>(std::min<std::uint64_t>(fuel / 1000, 15)));
++}
++inline int last_dump = 0;
++inline std::uint64_t last_dump_cost = 0;
++inline int fleehit_round = -1; // round of this champion's last flee-hit (NOVA_FLEE_HIT), checked after handle_enemies
++inline char dump_buf[16384];
++inline char* put_u(char* p, std::uint64_t v) {
++    char tmp[24];
++    int k = 0;
++    do tmp[k++] = static_cast<char>('0' + v % 10), v /= 10;
++    while (v);
++    while (k) *p++ = tmp[--k];
++    return p;
++}
++inline char* put_s(char* p, const char* s) {
++    while (*s) *p++ = *s++;
++    return p;
++}
++// Runs at the end of a turn, after every decision, and only with ample fuel left; one write per dump.
++inline void td_dump(int round) {
++    if (round - last_dump < 100 || nkeys == 0 || bc::fuel_remaining() < 40000) return;
++    const std::uint64_t f0 = bc::fuel_remaining();
++    last_dump = round;
++    char* p = dump_buf;
++    p = put_s(p, "A2TD R");
++    p = put_u(p, static_cast<std::uint64_t>(round));
++    p = put_s(p, " t");
++    p = put_u(p, static_cast<std::uint64_t>(who));
++    p = put_s(p, " dc");
++    p = put_u(p, last_dump_cost);
++    for (int i = 0; i < nkeys; ++i) *p++ = ' ', p = put_u(p, keys[i]), *p++ = '=', p = put_u(p, counts[i]);
++    nkeys = 0;
++    *p++ = '\n';
++    std::fwrite(dump_buf, 1, static_cast<std::size_t>(p - dump_buf), stdout);
++    const std::uint64_t f1 = bc::fuel_remaining();
++    last_dump_cost = f0 > f1 ? f0 - f1 : 0;
++}
++struct TurnGuard {
++    TurnGuard() {
++        turn_round = bc::round_number();
++        nt = 0;
++        mark("start");
++    }
++    ~TurnGuard() {
++        mark("end");
++        const std::uint32_t now = bc::round_number();
++        if (now == turn_round) {
++            td_dump(static_cast<int>(now));
++            return;
++        }
++        // A later fuel reading above the previous one means a fresh budget began between the two marks.
++        char* p = dump_buf;
++        p = put_s(p, "A2SUS R"), p = put_u(p, turn_round), p = put_s(p, " t"), p = put_u(p, static_cast<std::uint64_t>(who));
++        p = put_s(p, " to R"), p = put_u(p, now), *p++ = ':';
++        for (int i = 0; i < nt; ++i) {
++            *p++ = ' ', p = put_s(p, trail[i].where), *p++ = '=', p = put_u(p, trail[i].fuel);
++            if (i > 0 && trail[i].round != trail[i - 1].round) *p++ = '*';
++        }
++        *p++ = '\n';
++        std::fwrite(dump_buf, 1, static_cast<std::size_t>(p - dump_buf), stdout);
++    }
++};
++} // namespace a2tel
+ #if APEX_PROFILE
+ #define PROF(section) prof::Scope PROF_CAT(prof_scope_, __LINE__)(prof::section)
+ #define PROF_CHECK(where) prof::check(where)
++#elif A2_TEL
++#define PROF(section) ((void)0)
++#define PROF_CHECK(where) a2tel::mark(where)
+ #else
+ #define PROF(section) ((void)0)
+ #define PROF_CHECK(where) ((void)0)

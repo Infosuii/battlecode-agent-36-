@@ -2,7 +2,7 @@
 
 ## Latest continuation: 20 October 2026
 
-Publication branch `codex/v36-recovery-validation` extends PR #9. See `analysis/v36/recovery/VALIDATION.md` and `NEXT.md` for the current evidence and remaining work. Effective overlay source manifest is now `30a0c5db645a409ee0d12d633d326986d9bf38cae0c7380f286f5c377a68f93f`. Disabled release WASM exactly matches baseline `ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55`.
+Publication branch `codex/v36-recovery-validation`, draft PR #12, extends PR #9. See `analysis/v36/recovery/VALIDATION.md`, `NEXT.md` and `PUBLICATION.md` for current evidence, remaining work and newly published Agent 2/4 snapshots. Effective overlay source manifest is now `30a0c5db645a409ee0d12d633d326986d9bf38cae0c7380f286f5c377a68f93f`. Disabled release WASM exactly matches baseline `ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55`.
 
 63 accepted full games on nine developmental historical layouts completed; actual fuel streams cross-check against native exhaustion counters. Bound ON won 9/18 and exhausted 36 times versus OFF's 30, so keep OFF. Two native mechanics fixtures passed 18 camp/recall assertions. These results do not complete integrated safety or prove strength improvement. Missing exact other-agent code, broader independent games and economy/safety policy work remain. No background work or balance tuning is active.
 

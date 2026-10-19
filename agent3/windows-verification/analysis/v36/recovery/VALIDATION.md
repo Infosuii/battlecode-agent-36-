@@ -48,7 +48,7 @@ This contradicts using damaged health alone as exact awake state, and qualifies 
 
 ## Still incomplete
 
-- Latest Agent 1 execution tree/remaining 400-game screen and Agent 2 a2_ owner patches/results are not published in the accessible GitHub branches. Exact combined integration and review cannot be certified from issue comments.
+- Agent 1 execution tree/remaining screen is still missing. Agent 2 and Agent 4 snapshots appeared during final publication; exact commits and remaining external harness dependencies are recorded in PUBLICATION.md. They are fetched but not integrated or independently validated here.
 - Complete current official suite, 200-map unseen screen, calibrated varied opponents/fresh seeds, untouched final holdout and final stack interactions.
 - Opening/shopping policy tuning, actual helper/tank departure policy, linked vulnerability, dense threat capacity, boxed respawns and all emergency/banking/Tavi shopping regression scenarios. Basic source semantics and limited mechanics checks are not complete policy validation.
 - Detailed per-stage fuel governor/reserve calibration and integrated omission/action review.

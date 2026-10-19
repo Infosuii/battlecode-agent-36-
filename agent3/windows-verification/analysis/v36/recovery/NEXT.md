@@ -2,7 +2,7 @@
 
 Current user authorization covers remaining engineering, integration and validation, but excludes balance-update tuning. No automation/background run is active.
 
-1. Obtain/preserve Agent 1's work/v36-execution and Agent 2's latest a2_ sources, patches, build commands, raw pool results and consumed schedules. Requests are on issues #3/#5/#6. Their exact latest code is still absent from accessible repository branches.
+1. Read PUBLICATION.md: Agent 2 and Agent 4 source snapshots are now published and fetched at pinned commits. Review these owner patches/reports and consumed schedules; obtain remaining external harness, opponents and raw results. Agent 1's work/v36-execution and remaining screen are still needed. Requests are on issues #3/#5/#6.
 2. Compare the recovered baseline Windows hash ECAFAE4C…AE55 with Agent 1's 70139ee1… artifact/config. Local SDK2.2.5 release reproduces Agent 2 exactly; all-new-switches-OFF now does too.
 3. Integrate owner patches by recorded source hashes; preserve farm_legacy.inc's byte-identical disabled code generation. Re-run targeted tests and exact release parity after integration.
 4. Use already registered schedules/raw evidence. Do not mistake nine reconstructed historical layouts or 126 development runs for an unseen/current official/varied-opponent screen. Do not reuse an already consumed final holdout.

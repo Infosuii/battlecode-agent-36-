@@ -1,0 +1,335 @@
+--- a/bot_v36/src/bot.cpp
++++ b/bot_v36/src/bot.cpp
+@@ -3238,7 +3238,10 @@
+     struct Entry {
+         int first, second;
+     };
+-    Entry order[kMaxOrder]; // trivial type: no per-element construction cost
++    Entry order_storage[kMaxOrder]; // trivial type: no per-element construction cost
++    std::vector<Entry> diagnostic_order;
++    if constexpr (farm_score::kSingleGroupDiagnostic) diagnostic_order.resize(w.groups.size());
++    Entry* order = farm_score::kSingleGroupDiagnostic ? diagnostic_order.data() : order_storage;
+     int n_order = 0;
+     {
+     PROF(s_order);
+@@ -3252,7 +3255,10 @@
+         for (std::size_t gi = 0; gi < w.groups.size(); ++gi) group_order[gi] = static_cast<int>(gi);
+     }
+     for (int gi : group_order) {
+-        if (n_order >= kMaxOrder) break;
++        if (!farm_score::kSingleGroupDiagnostic && n_order >= kMaxOrder) {
++            farm_stats.add(farm_score::order_capped, w.groups.size() - n_order);
++            break;
++        }
+         if (avoid_until[static_cast<std::size_t>(gi)] > round) continue;
+         int dist = kUnreach;
+         const std::uint16_t* f = have_ptrs ? w.field_ptr[static_cast<std::size_t>(gi)] : nullptr;
+@@ -3287,7 +3293,7 @@
+             break;
+         }
+     // Route search keeps the K best first targets (pruning against the K-th best score).
+-    const int keep = tune::kRouteDepth >= 2 ? std::clamp(tune::kRouteK, 1, 8) : 1;
++    const int keep = !farm_score::kSingleGroupDiagnostic && tune::kRouteDepth >= 2 ? std::clamp(tune::kRouteK, 1, 8) : 1;
+     RouteCand top[8];
+     int n_top = 0;
+     // With the route search, groups within kRouteSlack of the best single score stay candidates.
+@@ -3304,13 +3310,37 @@
+         for (std::size_t k = 0; k < w.groups.size(); ++k)
+             big_group[k] = total > 0.0f && w.groups[k].gems > 0 && static_cast<float>(w.groups[k].gems) >= NOVA_BIGJOB * total;
+     }
++    bool boot_items = false;
++    if constexpr (farm_score::kCorrectBound || farm_score::kDiagnostics)
++        boot_items = APEX_BOOT_ITEMS > 0 && my_items() < static_cast<float>(APEX_BOOT_ITEMS);
++    // An enabled zero-weight model is an identity even with the work cap:
++    // reserving learner::hi for it would admit extra candidates and consume
++    // slots before reaching later groups. Inspect only the 16 used weights.
++    constexpr float residual_bound = [] {
++        if constexpr (learner::on) {
++            for (int i = 0; i < learner::n && i < 16; ++i)
++                if (learner::w[i] != 0.0f) return learner::hi;
++        }
++        return 1.0f;
++    }();
++    int scored_count = 0;
+     int evaluated = 0; // groups past the bound (APEX_DET caps them)
+     for (int oi = 0; oi < n_order; ++oi) {
+         // Out of fuel (huge maps, first turn): settle for the best group scored so far.
+-        if (tune::kDet) {
+-            if (best >= 0 && (evaluated >= tune::kDetScoreN || bc::fuel_remaining() < static_cast<std::uint64_t>(tune::kDetSafety))) break;
+-        } else if ((oi & 3) == 3 && best >= 0 && bc::fuel_remaining() < tune::kScoreFloor)
++        if (tune::kDet && !farm_score::kSingleGroupDiagnostic) {
++            if (best >= 0 && evaluated >= tune::kDetScoreN) {
++                farm_stats.add(farm_score::work_capped, n_order - oi);
++                break;
++            }
++            if (best >= 0 && bc::fuel_remaining() < static_cast<std::uint64_t>(tune::kDetSafety)) {
++                farm_stats.add(farm_score::fuel_capped, n_order - oi);
++                break;
++            }
++        } else if (!tune::kDet && !farm_score::kSingleGroupDiagnostic && (oi & 3) == 3 && best >= 0 && bc::fuel_remaining() < tune::kScoreFloor) {
++            farm_stats.add(farm_score::fuel_capped, n_order - oi);
+             break;
++        }
++        farm_stats.add(farm_score::considered);
+         const int dist = order[oi].first;
+         const std::size_t gi = static_cast<std::size_t>(order[oi].second);
+         auto& g = w.groups[gi];
+@@ -3320,10 +3350,32 @@
+             wait = static_cast<int>(static_cast<float>(std::max(0, g.respawn_round - round - approach)) * tune::kWaitWeight);
+         if (NOVA_BIGCAMP > 0 && g.gems >= 120)
+             wait = static_cast<int>(wait * (NOVA_BIGCAMP * 0.01f)); // big strips respawn on a cycle: cheap waiting
++        farm_score::Bound admissible_bound;
++        if constexpr (farm_score::kCorrectBound || farm_score::kDiagnostics) {
++            const bool dominant = NOVA_BIGJOB > 0.0f && round >= NOVA_BIGJOB_FROM && gi < big_group.size() && big_group[gi];
++            const bool boot = g.harmless && boot_items;
++            const bool altar = tune::kAltarBonus > 0.0f && w.altar_ready && !g.camps.empty() &&
++                fdist(w.altar_field, w.camps[g.camps[0]].pos) <= 6;
++            const bool numbers = alive_us - alive_them >= tune::kNumbersInvade && w.enemy_ready && w.group_margin[gi] < 0;
++            // Territory is the only omitted discount allowed to be negative by
++            // its enable condition. Negative factors break monotonicity.
++            admissible_bound = farm_score::upper_bound(
++                static_cast<float>(g.gems) + gold_weight() * static_cast<float>(g.gold), approach, wait,
++                tune::kCaptureTime, boot ? 1.0f + tune::kBootBonus : 1.0f,
++                dominant ? NOVA_BIGJOB_MULT : 1.0f, altar ? 1.0f + tune::kAltarBonus : 1.0f,
++                numbers ? 1.0f + tune::kNumbersBonus : 1.0f,
++                NOVA_SEED > 0 ? std::abs(NOVA_SEED_EPS) : 0.0f,
++                static_cast<int>(gi) == target_group ? tune::kStickiness : 1.0f,
++                residual_bound, tune::kTerritory >= 0.0f);
++            if (!admissible_bound.admissible) farm_stats.add(farm_score::bound_bypassed);
++        }
+         {
+-            const float best_case = (static_cast<float>(g.gems) + gold_weight() * static_cast<float>(g.gold)) *
++            const float legacy_bound = (static_cast<float>(g.gems) + gold_weight() * static_cast<float>(g.gold)) *
+                 tune::kStickiness / (static_cast<float>(approach + wait) + tune::kCaptureTime + 4.0f);
+-            if (best_case <= prune_bound()) {
++            const float best_case = farm_score::kCorrectBound ? admissible_bound.score : legacy_bound;
++            const bool may_prune = !farm_score::kExhaustive && (!farm_score::kCorrectBound || admissible_bound.admissible);
++            if (may_prune && best_case <= prune_bound()) {
++                farm_stats.add(farm_score::math_pruned);
+ #ifdef APEX_SCOREDBG
+                 if (g.harmless && g.gems > 0 && round < 60)
+                     std::printf("SDBG R%d slot%d G%zu pruned d%d st%d best_case %.3f bound %.3f\n", round, slot, gi, dist,
+@@ -3333,6 +3385,7 @@
+             }
+         }
+         ++evaluated;
++        farm_stats.add(farm_score::evaluated);
+         if (group_capture_covered(g)) {
+             avoid_until[gi] = round + 6; // an ally is already capturing it
+             continue;
+@@ -3395,7 +3448,9 @@
+         const int participants = siege ? 1 : std::max({need, helpers + 1, participants_hint});
+         const float kill = siege ? hp_left / sdps : hp_left / (my_dps(&g) + static_cast<float>(participants - 1) * dps);
+         float value = static_cast<float>(g.gems) + gold_weight() * static_cast<float>(g.gold);
+-        if (APEX_BOOT_ITEMS > 0 && g.harmless && my_items() < static_cast<float>(APEX_BOOT_ITEMS)) value *= 1.0f + tune::kBootBonus;
++        if (APEX_BOOT_ITEMS > 0 && g.harmless &&
++            ((farm_score::kCorrectBound || farm_score::kDiagnostics) ? boot_items : my_items() < static_cast<float>(APEX_BOOT_ITEMS)))
++            value *= 1.0f + tune::kBootBonus;
+         // (With gold sharing, finished groups ignore claims: the poorest champion there takes them.)
+         if (solo_job && !(tune::kShareGold && g.state == GroupState::reward) &&
+             (tune::kIncumbent ? senior_claims(static_cast<int>(gi)) : lower) > 0)
+@@ -3483,6 +3538,15 @@
+             const float excess = e - tune::kBeliefAlly * static_cast<float>(friends);
+             if (excess > 0.0f) score /= 1.0f + tune::kBeliefW * excess;
+         }
++        farm_stats.add(farm_score::scored);
++        if constexpr (farm_score::kDiagnostics) ++scored_count;
++        if constexpr (farm_score::kDiagnostics) {
++            if (!std::isfinite(score) || (admissible_bound.admissible && score > admissible_bound.score)) {
++                farm_stats.add(farm_score::violations);
++                std::printf("FARM_BOUND_VIOLATION R%d slot%d G%zu score=%.9g bound=%.9g valid=%d\n",
++                    round, slot, gi, score, admissible_bound.score, admissible_bound.admissible);
++            }
++        }
+         if (score > best_score) {
+             best_score = score;
+             best = static_cast<int>(gi);
+@@ -3496,7 +3560,12 @@
+             top[i] = {static_cast<int>(gi), need, value, cost, score, finish};
+         }
+     }
++    if (keep > 1) {
++        farm_stats.add(farm_score::route_candidates, n_top);
++        farm_stats.add(farm_score::route_filtered, scored_count - n_top);
++    }
+     if (keep > 1 && n_top >= 2 && bc::fuel_remaining() > tune::kRouteFuel) {
++        farm_stats.add(farm_score::route_calls);
+         bool bank = false;
+         const int pick = tune::kPlan ? plan_search(top, n_top, bank) : route_search(top, n_top);
+         if (tune::kPlan && bank) plan_bank_round = round;
+@@ -3505,7 +3574,7 @@
+             best_need = top[pick].need;
+             best_score = top[pick].score;
+         }
+-    }
++    } else if (keep > 1) farm_stats.add(farm_score::route_skipped);
+     return best;
+ }
+ 
+@@ -3585,6 +3654,7 @@
+             int n2 = 0;
+             for (int g2 = 0; g2 < n; ++g2) {
+                 if (fv[g2] <= 0.0f || g2 == c.gi || row1[g2] == kUnreach) continue;
++                farm_stats.add(farm_score::route_expansions);
+                 int done2 = 0;
+                 const float cost2 = leg_cost(g2, row1[g2], c.finish, done2);
+                 const float rate = (c.value + fv[g2]) / (c.cost + cost2) * sticky;
+@@ -3604,6 +3674,7 @@
+                 if (!row2) continue;
+                 for (int g3 = 0; g3 < n; ++g3) {
+                     if (fv[g3] <= 0.0f || g3 == c.gi || g3 == s2.gi || row2[g3] == kUnreach) continue;
++                    farm_stats.add(farm_score::route_expansions);
+                     int done3 = 0;
+                     const float cost3 = leg_cost(g3, row2[g3], s2.done, done3);
+                     const float rate = (c.value + s2.value + fv[g3]) / (c.cost + s2.cost + cost3) * sticky;
+@@ -3695,6 +3766,7 @@
+             const int m_keep = std::clamp(tune::kRouteM, 1, 4);
+             for (int g2 = 0; g2 < n; ++g2) {
+                 if (fv[g2] <= 0.0f || g2 == c.gi || row1[g2] == kUnreach) continue;
++                farm_stats.add(farm_score::route_expansions);
+                 int done2 = 0;
+                 const float cost2 = leg(g2, row1[g2], c.finish, done2);
+                 const float own = fv[g2] / cost2;
+@@ -3714,6 +3786,7 @@
+                     if (!row2) continue;
+                     for (int g3 = 0; g3 < n; ++g3) {
+                         if (fv[g3] <= 0.0f || g3 == c.gi || g3 == s2.gi || row2[g3] == kUnreach) continue;
++                        farm_stats.add(farm_score::route_expansions);
+                         int done3 = 0;
+                         const float cost3 = leg(g3, row2[g3], s2.done, done3);
+                         const float v = v12 + fv[g3], gg = g12 + gems_of(g3), tt = t12 + cost3;
+@@ -3767,14 +3840,18 @@
+     prof::farm_route_skip += bc::fuel_remaining() < tune::kRouteFuel;
+     prof::td_then_farm += prof::td_round == round;
+ #endif
++    farm_stats.add(farm_score::stage_attempts);
+     if (low_fuel) {
++        farm_stats.add(farm_score::stage_skipped);
+         if (target_group < 0 || target_group >= static_cast<int>(w.groups.size()) || avoid_until[target_group] > round) {
++            farm_stats.add(farm_score::fallback_empty);
+ #if APEX_PROFILE
+             ++prof::farm_gaveup;
+ #endif
+             return false;
+         }
+         best = target_group;
++        farm_stats.add(farm_score::fallback_kept);
+     }
+     // Escort (APEX_ESCORT): a caster farms where the nearest healthy melee ally farms, so a protector is
+     // beside it when enemies arrive (alone, casters spent up to 30% of their turns fleeing).
+@@ -4437,6 +4514,8 @@
+     }
+ #endif
+     if (APEX_PROFILE && slot == 0 && round % 250 == 0) prof::report(round);
++    if constexpr (farm_score::kDiagnostics)
++        if (round % 50 == 0) farm_stats.report(round, slot);
+ #ifdef APEX_SPELLSTAT
+     // Debug: spells spent on camps vs champions, and whether a champion-capable spell is ready when an enemy
+     // first comes within 5 tiles after at least 6 quiet rounds (a new contact).
+--- a/bot_v36/src/bot.h
++++ b/bot_v36/src/bot.h
+@@ -2,6 +2,7 @@
+ #pragma once
+ #include "common.h"
+ #include "world.h"
++#include "farm_score.h"
+ #include <string>
+ 
+ namespace ts {
+@@ -209,6 +210,7 @@
+     std::array<bc::champion_type, 8> slot_type{}; // slot -> champion type
+     bool in_role_pack = false;                    // APEX_ROLE_SQUAD: this champion farms with the pack
+     int score_groups(int participants_hint, int& best_need, float& best_score);
++    [[no_unique_address]] farm_score::Stats<farm_score::kDiagnostics> farm_stats;
+     struct RouteCand {
+         int gi = -1, need = 1;
+         float value = 0, cost = 1, score = 0;
+--- /dev/null
++++ b/bot_v36/src/farm_score.h
+@@ -0,0 +1,86 @@
++// Agent 3's independently switchable farming experiment. Agent 1 may move these
++// constexpr switches into the central registry; no common.h macros are changed.
++#pragma once
++#include <algorithm>
++#include <array>
++#include <cmath>
++#include <cstdint>
++#include <cstdio>
++#include <limits>
++
++namespace farm_score {
++inline constexpr bool kCorrectBound = false; // promote only after real runner/fuel and paired gates
++inline constexpr bool kDiagnostics = false;
++// Diagnostic ONLY: remove work/order caps and route candidate heuristics.
++// Toggle kExhaustive to compare exhaustive vs pruned single-group selection.
++inline constexpr bool kSingleGroupDiagnostic = false;
++inline constexpr bool kExhaustive = false;
++
++enum Counter { considered, math_pruned, work_capped, fuel_capped, order_capped,
++    evaluated, scored, bound_bypassed, violations, route_calls, route_skipped,
++    route_candidates, route_expansions, route_filtered, stage_attempts,
++    stage_skipped, fallback_kept, fallback_empty, count };
++
++template<bool On> struct Stats {
++    void add(Counter, std::uint64_t = 1) {}
++    std::uint64_t get(Counter) const { return 0; }
++    void report(int, int) const {}
++};
++template<> struct Stats<true> {
++    std::array<std::uint64_t, count> n{};
++    void add(Counter c, std::uint64_t v = 1) { n[c] += v; }
++    std::uint64_t get(Counter c) const { return n[c]; }
++    void report(int round, int slot) const {
++        std::printf("FARM_LEDGER R%d slot%d considered=%llu math=%llu work_cap=%llu fuel_cap=%llu order_cap=%llu evaluated=%llu scored=%llu bypass=%llu violations=%llu route_calls=%llu route_skips=%llu route_candidates=%llu route_expansions=%llu route_filtered=%llu stage_attempts=%llu stage_skips=%llu fallback_kept=%llu fallback_empty=%llu\n",
++            round, slot, (unsigned long long)n[considered], (unsigned long long)n[math_pruned],
++            (unsigned long long)n[work_capped], (unsigned long long)n[fuel_capped],
++            (unsigned long long)n[order_capped], (unsigned long long)n[evaluated],
++            (unsigned long long)n[scored], (unsigned long long)n[bound_bypassed],
++            (unsigned long long)n[violations], (unsigned long long)n[route_calls],
++            (unsigned long long)n[route_skipped], (unsigned long long)n[route_candidates],
++            (unsigned long long)n[route_expansions], (unsigned long long)n[route_filtered],
++            (unsigned long long)n[stage_attempts], (unsigned long long)n[stage_skipped],
++            (unsigned long long)n[fallback_kept], (unsigned long long)n[fallback_empty]);
++    }
++};
++
++struct Bound {
++    float score = 0;
++    bool admissible = false; // false means score the candidate; never compare a sentinel infinity
++};
++
++// Base reward and the live multipliers are supplied by the caller. This bounds
++// the SINGLE-group objective, not the value of an eventual multi-group route.
++// Costs: participants >= 1, kill >= 0, drain >= 0 imply
++// cost >= approach + weighted_wait + capture + 4. All omitted value factors
++// (claims, contested group, territory, cohesion, buddy, initiation, siege,
++// beliefs) must lie in [0,1]. Apply positive factors in scoring order; sticky
++// and residual follow division, as they do in the actual scorer.
++inline Bound upper_bound(float reward, int approach, int wait, float capture,
++    float boot, float dominant, float altar, float numbers, float jitter_abs,
++    float sticky, float residual, bool monotone_discounts) {
++    if (!monotone_discounts || approach < 0 || wait < 0 || !std::isfinite(reward) || reward < 0 ||
++        !std::isfinite(capture) || capture < 0 || !std::isfinite(jitter_abs) || jitter_abs > 1 || jitter_abs < 0)
++        return {};
++    float value = reward;
++    for (float factor : {boot, dominant, altar, numbers, 1.0f + jitter_abs}) {
++        if (!std::isfinite(factor) || factor < 0) return {};
++        value *= std::max(1.0f, factor);
++        if (!std::isfinite(value)) return {};
++    }
++    // Cast separately to avoid integer overflow in diagnostic/adversarial inputs.
++    const float cost = (static_cast<float>(approach) + static_cast<float>(wait)) + capture + 4.0f;
++    if (!std::isfinite(cost) || cost <= 0) return {};
++    float score = value / cost;
++    for (float factor : {sticky, residual}) {
++        if (!std::isfinite(factor) || factor < 0) return {};
++        score *= std::max(1.0f, factor);
++        if (!std::isfinite(score)) return {};
++    }
++    // Small upward rounding guard, including reassociation of positive costs.
++    // Overflow invalidates the bound rather than producing an infinite score.
++    score = std::nextafter(score * 1.000002f, std::numeric_limits<float>::infinity());
++    if (!std::isfinite(score)) return {};
++    return {score, true};
++}
++} // namespace farm_score

@@ -1,0 +1,14 @@
+name: Agent Push Ready
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify-agent-push-permission:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm workflow has contents:write
+        run: echo "This repository workflow token has contents:write so automation can push changes."

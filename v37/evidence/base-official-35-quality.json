@@ -1,0 +1,75 @@
+{
+  "matches": 35,
+  "native_resource_reconciliation": "passed every body/team/match",
+  "duplicate_events": "none",
+  "team_body_roster_join": "passed",
+  "partial_final_rounds": 21,
+  "losses": {
+    "lost_gems": 11353,
+    "end_unsecured_gems": 4131,
+    "camp_body_deaths": 248
+  },
+  "fuel_exhaustions_by_map": {
+    "01boss-battle": 224,
+    "01big-world": 216,
+    "01yellow-brick-road": 141,
+    "00swirl": 62,
+    "00lanes": 59,
+    "00stampede": 40,
+    "01islands": 38,
+    "00split": 27,
+    "00corners": 26,
+    "01elk-arena": 24,
+    "01starvation": 17,
+    "01the-farm": 15,
+    "00fragment": 14,
+    "01broken-curve": 11,
+    "00contest": 10,
+    "00packs": 10,
+    "00pilgrimage": 10,
+    "01starfish": 8,
+    "00collision": 6,
+    "00quadrants": 6,
+    "00rows": 5,
+    "01gold-rush": 5,
+    "00eight": 4,
+    "01corridors": 4,
+    "00elkring": 3,
+    "00interlock": 3,
+    "00reverse-spiral": 2,
+    "01concentrated-wealth": 2,
+    "00ambush": 1,
+    "00monolith": 1,
+    "00rushbait-v2": 1,
+    "01shortcut": 1,
+    "00expanse": 0,
+    "01fracture": 0,
+    "01hooks": 0
+  },
+  "replay_checks": [
+    {
+      "match": "93fe4f54e82fcab6ba0df8d0af6edc0684286b1e5e533e5e21e1f5da13206bdd",
+      "decoder_scores_and_rounds_match_native": true,
+      "decoded_sha256": "daa92001071eefc7e7173b9a6490b403fd08af5e4886e75aa2f68584b78e16b1"
+    },
+    {
+      "match": "0287cb22eb249396eded78fb7f35d70110c351fcac84561538715e4dbad55eab",
+      "decoder_scores_and_rounds_match_native": true,
+      "decoded_sha256": "140ea2def89347780abb899e75872f545242f2fe45c5d639c654fb9a673b9aba"
+    },
+    {
+      "match": "27f0608dab35080d9b83c705a143b90beaac25b8c84c8dad06d55d8b744318da",
+      "decoder_scores_and_rounds_match_native": true,
+      "decoded_sha256": "8e6d827e8948fbc1331c728ad2f7f96ae3d9228677d397142b841a10ed4d27e7"
+    }
+  ],
+  "limitations": [
+    "Snapshots are omniscient labels only, never decision features.",
+    "Raw map file hash differs from canonical engine mapHash; mirrored/name-independent identity still needs physical geometry normalization.",
+    "Travel/staging/healing/idle and abandoned jobs require telemetry; not inferred as zero.",
+    "Helper claims are not counted as actual participation.",
+    "Lost gems are resource loss, not necessarily destroyed: killers may recover bags.",
+    "Final checkpoint is last COMPLETE round; match end score includes partial final round separately.",
+    "Linked incidents currently group same draftPick/input; event-phase linked causality requires oracle checks."
+  ]
+}

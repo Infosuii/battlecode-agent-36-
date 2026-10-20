@@ -1,0 +1,303 @@
+{
+  "metrics": {
+    "train": {
+      "rows": 1218,
+      "physical_map_groups": 4,
+      "completed": 406,
+      "censored": 3,
+      "elapsed_mae": 5.212361297232366,
+      "constant_median_mae": 8.665024630541872,
+      "hand_cost_mae": 5.991899835796387,
+      "interruption_logloss": 0.471469040148833,
+      "constant_interruption_logloss": 0.6370831362696092,
+      "brier": 0.15634057112626584,
+      "calibration": [
+        {
+          "range": [
+            0,
+            0.2
+          ],
+          "count": 1,
+          "pred": 0.09760217528383978,
+          "observed": 0.0
+        },
+        {
+          "range": [
+            0.2,
+            0.4
+          ],
+          "count": 228,
+          "pred": 0.3235812940166161,
+          "observed": 0.20614035087719298
+        },
+        {
+          "range": [
+            0.4,
+            0.6
+          ],
+          "count": 276,
+          "pred": 0.49603616112521276,
+          "observed": 0.5688405797101449
+        },
+        {
+          "range": [
+            0.6,
+            0.8
+          ],
+          "count": 271,
+          "pred": 0.7058678651409993,
+          "observed": 0.7416974169741697
+        },
+        {
+          "range": [
+            0.8,
+            1.01
+          ],
+          "count": 439,
+          "pred": 0.916528813743848,
+          "observed": 0.9202733485193622
+        }
+      ],
+      "failure_examples": [
+        {
+          "match": "627cab1724c35fcef1812186ed5bfe30d3ef8cc534dcfcd3d16cc19981b0e9f3",
+          "body": 9,
+          "round": 1125,
+          "observed": 20.0,
+          "predicted": 56.39500216836265
+        },
+        {
+          "match": "627cab1724c35fcef1812186ed5bfe30d3ef8cc534dcfcd3d16cc19981b0e9f3",
+          "body": 7,
+          "round": 900,
+          "observed": 22.0,
+          "predicted": 58.272107169394324
+        },
+        {
+          "match": "627cab1724c35fcef1812186ed5bfe30d3ef8cc534dcfcd3d16cc19981b0e9f3",
+          "body": 7,
+          "round": 550,
+          "observed": 54.0,
+          "predicted": 22.540349028644545
+        },
+        {
+          "match": "627cab1724c35fcef1812186ed5bfe30d3ef8cc534dcfcd3d16cc19981b0e9f3",
+          "body": 8,
+          "round": 500,
+          "observed": 59.0,
+          "predicted": 27.732105318106154
+        },
+        {
+          "match": "627cab1724c35fcef1812186ed5bfe30d3ef8cc534dcfcd3d16cc19981b0e9f3",
+          "body": 8,
+          "round": 775,
+          "observed": 1.0,
+          "predicted": 29.44845346343937
+        }
+      ]
+    },
+    "validation": {
+      "rows": 198,
+      "physical_map_groups": 1,
+      "completed": 76,
+      "censored": 6,
+      "elapsed_mae": 3.938049870101234,
+      "constant_median_mae": 6.855263157894737,
+      "hand_cost_mae": 3.672368421052632,
+      "interruption_logloss": 0.47937764196046645,
+      "constant_interruption_logloss": 0.679606051042791,
+      "brier": 0.15362746841476624,
+      "calibration": [
+        {
+          "range": [
+            0,
+            0.2
+          ],
+          "count": 0,
+          "pred": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.2,
+            0.4
+          ],
+          "count": 47,
+          "pred": 0.31446592119294714,
+          "observed": 0.14893617021276595
+        },
+        {
+          "range": [
+            0.4,
+            0.6
+          ],
+          "count": 54,
+          "pred": 0.5087679422350321,
+          "observed": 0.5185185185185185
+        },
+        {
+          "range": [
+            0.6,
+            0.8
+          ],
+          "count": 55,
+          "pred": 0.7062112159757821,
+          "observed": 0.8363636363636363
+        },
+        {
+          "range": [
+            0.8,
+            1.01
+          ],
+          "count": 36,
+          "pred": 0.8799548418607862,
+          "observed": 0.9722222222222222
+        }
+      ],
+      "failure_examples": [
+        {
+          "match": "b697b65d7de81758f2ed2ee48304c3a219467a3fa35b576e04f81ecdf595091d",
+          "body": 5,
+          "round": 200,
+          "observed": 32.0,
+          "predicted": 15.565547177532142
+        },
+        {
+          "match": "130b129f37374bcdc6e0ad3e861b31f264c72c6905eeee4a51718bdb9c354d6f",
+          "body": 11,
+          "round": 425,
+          "observed": 40.0,
+          "predicted": 24.3286987072178
+        },
+        {
+          "match": "b697b65d7de81758f2ed2ee48304c3a219467a3fa35b576e04f81ecdf595091d",
+          "body": 2,
+          "round": 875,
+          "observed": 24.0,
+          "predicted": 8.871659765964786
+        },
+        {
+          "match": "130b129f37374bcdc6e0ad3e861b31f264c72c6905eeee4a51718bdb9c354d6f",
+          "body": 6,
+          "round": 725,
+          "observed": 27.0,
+          "predicted": 12.408745843036005
+        },
+        {
+          "match": "b697b65d7de81758f2ed2ee48304c3a219467a3fa35b576e04f81ecdf595091d",
+          "body": 4,
+          "round": 625,
+          "observed": 35.0,
+          "predicted": 20.536821201438542
+        }
+      ]
+    },
+    "test": {
+      "rows": 331,
+      "physical_map_groups": 1,
+      "completed": 164,
+      "censored": 3,
+      "elapsed_mae": 6.7948347647574945,
+      "constant_median_mae": 10.03048780487805,
+      "hand_cost_mae": 6.52854674796748,
+      "interruption_logloss": 0.5306492635625243,
+      "constant_interruption_logloss": 0.7514233174445367,
+      "brier": 0.17918102220955498,
+      "calibration": [
+        {
+          "range": [
+            0,
+            0.2
+          ],
+          "count": 0,
+          "pred": null,
+          "observed": null
+        },
+        {
+          "range": [
+            0.2,
+            0.4
+          ],
+          "count": 104,
+          "pred": 0.30415376091032303,
+          "observed": 0.18269230769230768
+        },
+        {
+          "range": [
+            0.4,
+            0.6
+          ],
+          "count": 77,
+          "pred": 0.5053049759187781,
+          "observed": 0.4025974025974026
+        },
+        {
+          "range": [
+            0.6,
+            0.8
+          ],
+          "count": 56,
+          "pred": 0.7078520571204283,
+          "observed": 0.5892857142857143
+        },
+        {
+          "range": [
+            0.8,
+            1.01
+          ],
+          "count": 91,
+          "pred": 0.9262605472464882,
+          "observed": 0.8901098901098901
+        }
+      ],
+      "failure_examples": [
+        {
+          "match": "d3daa370ac6de14bf99a06f83124dbef0d88e3bf7ae22bf214cbe674a5f41457",
+          "body": 5,
+          "round": 600,
+          "observed": 74.0,
+          "predicted": 211.76121354402488
+        },
+        {
+          "match": "d3daa370ac6de14bf99a06f83124dbef0d88e3bf7ae22bf214cbe674a5f41457",
+          "body": 1,
+          "round": 475,
+          "observed": 3.0,
+          "predicted": 44.16446758419786
+        },
+        {
+          "match": "914d17e111790b014bfd5e8e54ecdcfa8516663d2f34e1ec06fde0c7705018e6",
+          "body": 9,
+          "round": 850,
+          "observed": 5.0,
+          "predicted": 38.69684895264306
+        },
+        {
+          "match": "d3daa370ac6de14bf99a06f83124dbef0d88e3bf7ae22bf214cbe674a5f41457",
+          "body": 0,
+          "round": 1000,
+          "observed": 35.0,
+          "predicted": 7.914813447154277
+        },
+        {
+          "match": "914d17e111790b014bfd5e8e54ecdcfa8516663d2f34e1ec06fde0c7705018e6",
+          "body": 8,
+          "round": 125,
+          "observed": 28.0,
+          "predicted": 5.794888651268866
+        }
+      ]
+    }
+  },
+  "model_sha256": "82f1564a16b03bec8108470d03034ff7745ce2773b36d186b172abc451a56aa6",
+  "limitations": [
+    "Instrumented policy has measured fuel/decision drift.",
+    "Only six map groups; validation and test contain one each. Pilot test was inspected during label-quality repairs and is consumed development evidence.",
+    "Selected episodes are observational and overlapping, not independent samples.",
+    "Camp-group enumeration join needs a separate SDK geometry fixture before relying on target-specific labels.",
+    "Damage/recovery/secure labels and full feature/exclusion coverage incomplete.",
+    "Elapsed regression trains only observed collections; unfinished episodes retained separately, not treated as zero-duration successes."
+  ],
+  "promotion": false,
+  "full_match_learned_policy_test": "not run; prerequisite data-quality/instrumentation gates fail"
+}

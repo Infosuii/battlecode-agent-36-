@@ -1,0 +1,125 @@
+{
+  "variants": [
+    {
+      "name": "baseline",
+      "zip_sha256": "9c34310e58f594cc1abeb7feaa5b471ece87054498d2dce2598eb38790c0cbb3",
+      "source_files": {
+        "bot.cpp": "abf2ebe0d492ab6b2fa95eac2ed450bb8360ba119a3faefdcd3d474cd8ac8ef1",
+        "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+        "common.h": "91046f7877848e54866cd979fda667f80716fc5d62247abdb74bd08ae6584314",
+        "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+        "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+        "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+        "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+        "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+        "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+        "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+        "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+        "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+        "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+        "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+        "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+        "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+        "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+        "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+      }
+    },
+    {
+      "name": "econ-link",
+      "zip_sha256": "dd4607a8cdaa5d4e88f3dc1b01ea0a330bf3465b85834d8c6858c3b47fc255e9",
+      "source_files": {
+        "bot.cpp": "4da1d2618d2494c87f39c57e47705c8764fefd4325d6798e34249fbf801bb47f",
+        "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+        "common.h": "8408b64e6fc500bf6017bcd391dda5f0f374e3ea290ef17858a9d487e2508494",
+        "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+        "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+        "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+        "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+        "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+        "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+        "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+        "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+        "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+        "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+        "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+        "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+        "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+        "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+        "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+      }
+    },
+    {
+      "name": "safe-state2",
+      "zip_sha256": "f8a7a1e5e0dc6ff4c9730ae3b275395b611066d74457503de8d70d099400b9c6",
+      "source_files": {
+        "bot.cpp": "4da1d2618d2494c87f39c57e47705c8764fefd4325d6798e34249fbf801bb47f",
+        "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+        "common.h": "8a11d500e0b65d7ff5ab09ad4ab57cb6d33a377eadf7ff0efa250b5103eb3fb2",
+        "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+        "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+        "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+        "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+        "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+        "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+        "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+        "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+        "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+        "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+        "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+        "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+        "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+        "world.cpp": "7aafc9643cff44b975dbe3eb644727ab175da00de4ffbc405ab3a1d3dfb291e3",
+        "world.h": "6727139593d7a20bfa52c66dd92ba17615c437ddea12e6c2a361c9a3e1bd893a"
+      }
+    },
+    {
+      "name": "trace",
+      "zip_sha256": "fb78ec32c287df4b76eae552539d0bfd760a36454916d2bb6a104904b6cafc9f",
+      "source_files": {
+        "bot.cpp": "359321ad8ff6394ed6d8a7a3d96c50db283e347876a93b32df77bb13958e3c54",
+        "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+        "common.h": "9f1f358514f86df1a2d0e792a861c441ca2529bc19392005a21c52d1ac5f4297",
+        "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+        "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+        "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+        "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+        "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+        "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+        "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+        "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+        "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+        "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+        "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+        "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+        "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+        "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+        "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+      }
+    },
+    {
+      "name": "trace2",
+      "zip_sha256": "3d9a9400deec227a2f23d19de97415bf64f64918d0f78c0c7e42610e211156c6",
+      "source_files": {
+        "bot.cpp": "8af1d6e381f41bede015ac1eddd8f1b596d585925fa35a07acea13cdde6dcd7c",
+        "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+        "common.h": "9f1f358514f86df1a2d0e792a861c441ca2529bc19392005a21c52d1ac5f4297",
+        "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+        "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+        "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+        "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+        "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+        "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+        "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+        "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+        "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+        "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+        "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+        "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+        "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+        "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+        "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+      }
+    }
+  ],
+  "compression_only": true
+}

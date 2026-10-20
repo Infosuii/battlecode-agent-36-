@@ -1,0 +1,17 @@
+{
+  "hypothesis": "Visible critical linked partner triggers recovery before shared death; health fraction uses partner max HP.",
+  "motivation": "248 camp-attributed physical deaths and 11353 lost gems across baseline official diagnostics; linked-wallet/shared-death mechanics verified by current engine oracle.",
+  "switch": "V37_LINK_EMERGENCY",
+  "default": 0,
+  "correctness": [
+    "actual extracted policy fixture",
+    "healthy rich capture preserved",
+    "healthy Tavi field shopping preserved",
+    "low-health emergency and failed recall fallback preserved",
+    "unequal max health partner tests"
+  ],
+  "action_gate": "ON must change actions in registered full matches; fewer deaths alone cannot promote.",
+  "screen": "24 new generated dev groups + 35 official groups, both sides; pass win points >=0.53 and secured margin >0 with no new faults.",
+  "confirmation": "fresh-v37-1 protocol; no extension after failed screen; only one policy tested",
+  "limitations": "Partner can be outside vision. Both recalling may interrupt profitable work; needs secured-resource evidence."
+}

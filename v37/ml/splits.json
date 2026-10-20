@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "groups": {
+    "53086e249294aed6f427fe647d578303589a081e953c62a0ff8f20cade9993fa": "train",
+    "6a4203ae1bfe86ad0f6b083f390cfd8e2f5e45f7e4102f6a2f27205d5333e701": "train",
+    "6e564fdf09fdf67a4182a909d6985737b488742e64f2c3e164204e78bc64c898": "train",
+    "8ca26ed2ea65c7d80ceb9604a7431ca1dc056922912b4e2f46cad06051e4886a": "train",
+    "97906cc38f503e027c041b681a877465519b3fcb19a410c316cf6efc40c909ea": "validation",
+    "af4236f408f8450f7da871731f08ef80295f07fac86b541f6547639a78dc2205": "test"
+  },
+  "seed": null,
+  "rule": "sorted physical map SHA256; first four train, fifth validation, sixth pilot test; pilot test consumed during label-quality corrections, not a fresh final test",
+  "final_policy_holdout": false,
+  "opponent": "selected v36 only",
+  "time_separation": false
+}

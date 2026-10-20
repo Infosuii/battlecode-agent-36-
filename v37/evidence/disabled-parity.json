@@ -1,0 +1,6 @@
+{
+  "baseline_wasm": "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+  "off_wasm": "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+  "byte_identical": true,
+  "conclusion": "Disabled trace compiles to exact production module. No duplicate games needed."
+}

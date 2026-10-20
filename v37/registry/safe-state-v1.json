@@ -1,0 +1,9 @@
+{
+  "hypothesis": "Recall/recovery positions should use visible individual awake state rather than damage proxies; sleeping damaged camps and healthy awakened members differ.",
+  "action_gate": "Current-engine actual attack/wake/sleep fixtures passed; legacy fallback on unknown/stale states. Camp state enums taken from SDK 3.0.2.",
+  "independent_switch": "V37_CAMP_STATE",
+  "default": 0,
+  "screen": "24 fresh dev and 35 consumed official development groups, both sides, win points>=0.53 and secured margin>0; no faults or critical regressions.",
+  "multiple_comparisons": "Second policy; any confirmation must use Bonferroni-adjusted 97.5% intervals for two screened hypotheses, each with a distinct frozen final test. No optional extension.",
+  "remaining": "This is current-observation recovery geometry only, not a full next-phase damage/arrival predictor. No expanded simulator authority."
+}

@@ -1,0 +1,888 @@
+{
+  "name": "base-official-35",
+  "candidate": "v37-baseline",
+  "opponents": [
+    "v37-baseline"
+  ],
+  "purpose": "BASE/DATA diagnostic selfplay; all official maps development data",
+  "jobs": [
+    {
+      "id": "42b1578ae1bed5a4b37aba394057fd37ef870246a8abb243116daad5df740181",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "81ac8b6689f275d24e57d586f2451a160484c15144f86afd0c4450e02c39e579",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00ambush.map26a",
+      "side": 1,
+      "group": "81ac8b6689f275d24e57d586f2451a160484c15144f86afd0c4450e02c39e579"
+    },
+    {
+      "id": "f2f1a1f90e51f8c32867e6233b410e229f85d580b2b6d1644802f04d80ccba75",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "6e3c67956080f8da5a0042e68ea481189cd6f61061a742a8be0354a9ea5c5620",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00collision.map26a",
+      "side": 1,
+      "group": "6e3c67956080f8da5a0042e68ea481189cd6f61061a742a8be0354a9ea5c5620"
+    },
+    {
+      "id": "e18cc559c576477b4f70b3bdd28725011ebfcd4a8d25ba27afac533d42c08e60",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "554240a5a793f8c1ac9c518cb6edbacab0129ec4dfd94b199331aaebd0bf418a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00contest.map26a",
+      "side": 1,
+      "group": "554240a5a793f8c1ac9c518cb6edbacab0129ec4dfd94b199331aaebd0bf418a"
+    },
+    {
+      "id": "93fe4f54e82fcab6ba0df8d0af6edc0684286b1e5e533e5e21e1f5da13206bdd",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "97906cc38f503e027c041b681a877465519b3fcb19a410c316cf6efc40c909ea",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00corners.map26a",
+      "side": 1,
+      "group": "97906cc38f503e027c041b681a877465519b3fcb19a410c316cf6efc40c909ea"
+    },
+    {
+      "id": "1078f7bbdb8f09c3c6534002d21f09047da92c865de2335f082c80043a0ba617",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "76b5ce0895130f5f423f3ac6a630c5cf8e1202d4150e6ad4e287c75d21794765",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00eight.map26a",
+      "side": 1,
+      "group": "76b5ce0895130f5f423f3ac6a630c5cf8e1202d4150e6ad4e287c75d21794765"
+    },
+    {
+      "id": "5eb47156fd283ad51043e98c01e37d368dbec6222f5abebd433230679b49cb38",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "4621e92590befe6b0438b7ecdd8fde5aa85945b27535f4968e701cf86934746e",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00elkring.map26a",
+      "side": 1,
+      "group": "4621e92590befe6b0438b7ecdd8fde5aa85945b27535f4968e701cf86934746e"
+    },
+    {
+      "id": "76e819ab2c7c4eb32acba20f5fb487fa4b6af95af9013824831a3cd5121b454d",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "af4236f408f8450f7da871731f08ef80295f07fac86b541f6547639a78dc2205",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00expanse.map26a",
+      "side": 1,
+      "group": "af4236f408f8450f7da871731f08ef80295f07fac86b541f6547639a78dc2205"
+    },
+    {
+      "id": "f8de90737089bc4f05d2962cd1614a93214722a6346ff530a95ce88b2f59cf0c",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "46512bf4fe1fc57d1651b15d44c283cac69cfce1914a5000d19fab979f5b8bbb",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00fragment.map26a",
+      "side": 1,
+      "group": "46512bf4fe1fc57d1651b15d44c283cac69cfce1914a5000d19fab979f5b8bbb"
+    },
+    {
+      "id": "fccec57cf9de1b1409e19748cf4f5eeca3ff78285df708695f96a539b54bee05",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "140e5bc3ac11c7f74dfc4ed99cc53739a34be8d3f71a7f4d0520dc4a3c197e19",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00interlock.map26a",
+      "side": 1,
+      "group": "140e5bc3ac11c7f74dfc4ed99cc53739a34be8d3f71a7f4d0520dc4a3c197e19"
+    },
+    {
+      "id": "0287cb22eb249396eded78fb7f35d70110c351fcac84561538715e4dbad55eab",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "8ca26ed2ea65c7d80ceb9604a7431ca1dc056922912b4e2f46cad06051e4886a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00lanes.map26a",
+      "side": 1,
+      "group": "8ca26ed2ea65c7d80ceb9604a7431ca1dc056922912b4e2f46cad06051e4886a"
+    },
+    {
+      "id": "2a4d7c978d02f91b52d029025ad28850953dced8e777258a637036536188ad11",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "ba5674bf2ab26336eb99df0c9e97c16b27bd231deffc023de1d873a05a558313",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00monolith.map26a",
+      "side": 1,
+      "group": "ba5674bf2ab26336eb99df0c9e97c16b27bd231deffc023de1d873a05a558313"
+    },
+    {
+      "id": "259f194fc7d049dc46dac296c48d96edd2cd1e79862ef41ea38865555c260434",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "60ee7a86ee377a04a77d11008b78aaed9e2c1cfcfc4302055974195e078c675a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00packs.map26a",
+      "side": 1,
+      "group": "60ee7a86ee377a04a77d11008b78aaed9e2c1cfcfc4302055974195e078c675a"
+    },
+    {
+      "id": "10836597f38f987975a3bb6c574779941c62fbc5424f5b9e92d82021bea37bb6",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "7d7ddb9c37c77cd8b3721423e155400d936eaa76fa3c62fe24b308d0fd5eb673",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00pilgrimage.map26a",
+      "side": 1,
+      "group": "7d7ddb9c37c77cd8b3721423e155400d936eaa76fa3c62fe24b308d0fd5eb673"
+    },
+    {
+      "id": "ee4c3acac6001b3efa92bdb5441b4608ad65a5337039798003763a23b4b85a8e",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "261fe6c133f076653bda84e88965dc35c5a59a70e7730082b4c6df9ca892df92",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00quadrants.map26a",
+      "side": 1,
+      "group": "261fe6c133f076653bda84e88965dc35c5a59a70e7730082b4c6df9ca892df92"
+    },
+    {
+      "id": "43e6bda53f87e0cd4ec400049520aeeb95005eb411049c262e42ce25d3143c81",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f57669ffc98b76a5c2e4eccba41690dc193efc29f067ee960605617b2cfb48e5",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00reverse-spiral.map26a",
+      "side": 1,
+      "group": "f57669ffc98b76a5c2e4eccba41690dc193efc29f067ee960605617b2cfb48e5"
+    },
+    {
+      "id": "27f0608dab35080d9b83c705a143b90beaac25b8c84c8dad06d55d8b744318da",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "6a4203ae1bfe86ad0f6b083f390cfd8e2f5e45f7e4102f6a2f27205d5333e701",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00rows.map26a",
+      "side": 1,
+      "group": "6a4203ae1bfe86ad0f6b083f390cfd8e2f5e45f7e4102f6a2f27205d5333e701"
+    },
+    {
+      "id": "0905daa77a5b50e6270138609a5d5270cc073e914d730c4ecee23d34f18ef79b",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f4dcc30269aa7d0983e7d244f72c3d2a9a6d7ce918cd00495d465b78b2609157",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00rushbait-v2.map26a",
+      "side": 1,
+      "group": "f4dcc30269aa7d0983e7d244f72c3d2a9a6d7ce918cd00495d465b78b2609157"
+    },
+    {
+      "id": "c75c28a1f7d5c84809208efc9d1693ffa6040a9351d8ee1f72093fc3c7cd69e0",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "1db691b7def9cb585314c7c4139ef1b79df87fcdbfab9d86ef31666c4709a4c4",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00split.map26a",
+      "side": 1,
+      "group": "1db691b7def9cb585314c7c4139ef1b79df87fcdbfab9d86ef31666c4709a4c4"
+    },
+    {
+      "id": "1cf23c470aadec2ff43ff29d976b22bb51e32ed29cfc16c3651492635e76e4e6",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "49807e4756ec1b2030ed2ca7ebdd8a07f1a6ed7f2d2bd751e6941f5c0c877cdc",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00stampede.map26a",
+      "side": 1,
+      "group": "49807e4756ec1b2030ed2ca7ebdd8a07f1a6ed7f2d2bd751e6941f5c0c877cdc"
+    },
+    {
+      "id": "cef30ad2d56124e8360d9e09a44e77593087678b187613b703a3de5b90af6ddb",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "e6f860670947b1326f34c86515db8ef6893c565eaa69e3f9a6464ec5744e1c93",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00swirl.map26a",
+      "side": 1,
+      "group": "e6f860670947b1326f34c86515db8ef6893c565eaa69e3f9a6464ec5744e1c93"
+    },
+    {
+      "id": "2ebd0b398d13a189da480cffcb8b2001284528c79b71a765acc01691bfd52e36",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f1ecb726472858efb1d75d00b0d7668be18d83a010b2abf9a1f8c38aab456aa5",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01big-world.map26a",
+      "side": 1,
+      "group": "f1ecb726472858efb1d75d00b0d7668be18d83a010b2abf9a1f8c38aab456aa5"
+    },
+    {
+      "id": "a8fba63634ab20f6690906fbdfc9287d517d8c34c5134c2fe481aba4e083e89a",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "53086e249294aed6f427fe647d578303589a081e953c62a0ff8f20cade9993fa",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01boss-battle.map26a",
+      "side": 1,
+      "group": "53086e249294aed6f427fe647d578303589a081e953c62a0ff8f20cade9993fa"
+    },
+    {
+      "id": "4c2eec588e305cd5aa00e7271477bc23fd8dd6432d2b8358d68b4b7000b8e6ce",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "1763423b171f3b61128b2a913a10f46ba550e7a2e79ae27dd89e915c952b5117",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01broken-curve.map26a",
+      "side": 1,
+      "group": "1763423b171f3b61128b2a913a10f46ba550e7a2e79ae27dd89e915c952b5117"
+    },
+    {
+      "id": "b9e1bc01fba933ac5487104a809631e30d5920d0839ae86d83b823d40adb3136",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "dc09c386d5e9dec3cec8bc4575c19d43233e08790e138ccd02be4644f2808c65",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01concentrated-wealth.map26a",
+      "side": 1,
+      "group": "dc09c386d5e9dec3cec8bc4575c19d43233e08790e138ccd02be4644f2808c65"
+    },
+    {
+      "id": "1ced4b62f27195d6b8dc6af56eb690e9cd28f4a23c9f7706e94f4de1edd2fbc0",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "794132d979b297de5a534da393af8932cd2d5cc9d831e79d2cefdb4617d4d5e8",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01corridors.map26a",
+      "side": 1,
+      "group": "794132d979b297de5a534da393af8932cd2d5cc9d831e79d2cefdb4617d4d5e8"
+    },
+    {
+      "id": "52116a2f735590d1b613c824b02c57684ffbe70ccafdf6b5f71a322970b87e28",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "72b8e03bc4378d5f988f9c1c07609848bfb42fd8a883cce01820d96212f21c0a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01elk-arena.map26a",
+      "side": 1,
+      "group": "72b8e03bc4378d5f988f9c1c07609848bfb42fd8a883cce01820d96212f21c0a"
+    },
+    {
+      "id": "22fcf581c411e59cec180b57995cfbe965f1be1516af5ee4c55e3e5efca47d6d",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f82a1b99a7a70f8ab21f275dc8e22fbad6a71030f09fdd224d61977fe55dd914",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01fracture.map26a",
+      "side": 1,
+      "group": "f82a1b99a7a70f8ab21f275dc8e22fbad6a71030f09fdd224d61977fe55dd914"
+    },
+    {
+      "id": "35c731bfab9c3495523957b7b12ecd6255bd80841f6bbdcf4abdc745945dcc63",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "6e564fdf09fdf67a4182a909d6985737b488742e64f2c3e164204e78bc64c898",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01gold-rush.map26a",
+      "side": 1,
+      "group": "6e564fdf09fdf67a4182a909d6985737b488742e64f2c3e164204e78bc64c898"
+    },
+    {
+      "id": "88141c8f9e800b6bb777a767841c3dc88c5b15483c2f886d4046740ed9f28988",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "23e58fe8f41ff66761ade251d3d10a9c3eead864f9ad74f12ad9e34f4bece378",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01hooks.map26a",
+      "side": 1,
+      "group": "23e58fe8f41ff66761ade251d3d10a9c3eead864f9ad74f12ad9e34f4bece378"
+    },
+    {
+      "id": "95cc9a1d34210e6e979c4db1b4d0ac8981632d75f3af27613c946d91380dd783",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "d97cf04b738393812fb51024582e2a6cfba8a850b19ce031f2c1ad3d7b916acb",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01islands.map26a",
+      "side": 1,
+      "group": "d97cf04b738393812fb51024582e2a6cfba8a850b19ce031f2c1ad3d7b916acb"
+    },
+    {
+      "id": "2f1772a8c7722aa16c407985c96373825910b7863883eeb03446913ecbfccbca",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f77db387292e66a8aad7e912c179787db0c41b6632ee841a21593dfc279ecb3a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01shortcut.map26a",
+      "side": 1,
+      "group": "f77db387292e66a8aad7e912c179787db0c41b6632ee841a21593dfc279ecb3a"
+    },
+    {
+      "id": "3c0edade005e49282047cbbb1256bc65453bab4ec7fcb6233e6211b9336968d8",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "1edf115a0a788c010107148f975570961acc8e9fba4a013ad60f5ca2389cbb83",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01starfish.map26a",
+      "side": 1,
+      "group": "1edf115a0a788c010107148f975570961acc8e9fba4a013ad60f5ca2389cbb83"
+    },
+    {
+      "id": "fc69823c7305453b8227e9f935f8cd2c8f8549e63eea6ffd0304af55c6ae2bbe",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "0b8e85603a85ca5778f92d2975c56da0e4b8df59264c42eef23108f8bbceec2a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01starvation.map26a",
+      "side": 1,
+      "group": "0b8e85603a85ca5778f92d2975c56da0e4b8df59264c42eef23108f8bbceec2a"
+    },
+    {
+      "id": "3601ccd1d565b9c888ce1fd58fcd41a7b615cd42c08cff2c7fd5a2197d805d39",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "5cca9ed6eaaf6ef15a170a4ea78488237fda7b256e182a2e3360a14b485e09c3",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01the-farm.map26a",
+      "side": 1,
+      "group": "5cca9ed6eaaf6ef15a170a4ea78488237fda7b256e182a2e3360a14b485e09c3"
+    },
+    {
+      "id": "830909ea8f8dd4c852d5d61f11c416adef5332ebd65e5f9ec9a936f738a81650",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "130453395278cdabb1ff80564357a99ca8394afaef006fdede8beb88924a8fa0",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01yellow-brick-road.map26a",
+      "side": 1,
+      "group": "130453395278cdabb1ff80564357a99ca8394afaef006fdede8beb88924a8fa0"
+    }
+  ],
+  "duplicates_removed": 35,
+  "frozen_ns": 1792534416156189300,
+  "schedule_sha256": "10383bb4788c462ddac81acc42ad59301f8d3470f0f01649be8facba20bb6398"
+}

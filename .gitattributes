@@ -1,0 +1,6 @@
+*.zip binary
+*.wasm binary
+*.gz binary
+*.map26a binary
+*.repl26a binary
+v37/** -text

@@ -1,0 +1,650 @@
+{
+  "name": "confirm",
+  "count": 128,
+  "seed": 37102062,
+  "generator": "011961b23157f09542eb2595364e084d64bedc6eaa7ae8f11cd169f054d44c7c",
+  "engine": "c03ab26f20263b08e576ebc1a064cd6f9b66a996aca005d69bd9fb9205434354",
+  "maps": [
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0000.map26a",
+      "sha256": "156d6dcc9c3080167f82db36eb78566b0b10c3cb87ac719336645bb4262ed150",
+      "layout_group": "156d6dcc9c3080167f82db36eb78566b0b10c3cb87ac719336645bb4262ed150"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0001.map26a",
+      "sha256": "2579662c4adc525755a7c14d3983c5ba191647e54f04d5badfdebfed9b75cdb4",
+      "layout_group": "2579662c4adc525755a7c14d3983c5ba191647e54f04d5badfdebfed9b75cdb4"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0002.map26a",
+      "sha256": "a7965ea19721f5c01a34ebd277943514275b7e56ac8266b9d6f37cb73c7ca3ad",
+      "layout_group": "a7965ea19721f5c01a34ebd277943514275b7e56ac8266b9d6f37cb73c7ca3ad"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0003.map26a",
+      "sha256": "129ee4aa524c18b2fbcbd3c586d73003ceae96e5a290d574f15ac3ced256b0cb",
+      "layout_group": "129ee4aa524c18b2fbcbd3c586d73003ceae96e5a290d574f15ac3ced256b0cb"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0004.map26a",
+      "sha256": "7641c1df768172bf6c21bd445b839459e5fb6103ab3f06337838cca23b26799d",
+      "layout_group": "7641c1df768172bf6c21bd445b839459e5fb6103ab3f06337838cca23b26799d"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0005.map26a",
+      "sha256": "150e0232abf1f4354b8fc978606c0102387f44bf59e66b8a3406b700d46558bd",
+      "layout_group": "150e0232abf1f4354b8fc978606c0102387f44bf59e66b8a3406b700d46558bd"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0006.map26a",
+      "sha256": "85170743ee93bbc1c290f136eda28c49db4a9ac4dccbab6090a52606a2c99847",
+      "layout_group": "85170743ee93bbc1c290f136eda28c49db4a9ac4dccbab6090a52606a2c99847"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0007.map26a",
+      "sha256": "4b3ba5a73ac3a9d392fa4a015614505f1c3d82f4307021d57339aa107fa5abaa",
+      "layout_group": "4b3ba5a73ac3a9d392fa4a015614505f1c3d82f4307021d57339aa107fa5abaa"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0008.map26a",
+      "sha256": "9a1db49f552e1dbfbfa3463149fc82c02a7f01be816cd3e09d98f98b642342ff",
+      "layout_group": "9a1db49f552e1dbfbfa3463149fc82c02a7f01be816cd3e09d98f98b642342ff"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0009.map26a",
+      "sha256": "2df5ad7d661da81bf666da5f7b9aaa758867b7d688d2a327b4692a78e6707c5c",
+      "layout_group": "2df5ad7d661da81bf666da5f7b9aaa758867b7d688d2a327b4692a78e6707c5c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0010.map26a",
+      "sha256": "5606a2cd39533f9dd99f457fc90fe9b6a3146d304f062d5b7a3e3284d73edc96",
+      "layout_group": "5606a2cd39533f9dd99f457fc90fe9b6a3146d304f062d5b7a3e3284d73edc96"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0011.map26a",
+      "sha256": "9b9b93046c5339c1a8b7f0fa48db23fc1766b0b28d1bb00cdf37ede9b31fff06",
+      "layout_group": "9b9b93046c5339c1a8b7f0fa48db23fc1766b0b28d1bb00cdf37ede9b31fff06"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0012.map26a",
+      "sha256": "03aa77ae423af524b2fead984cca2c9da049dc2e1ae14f29f5f509767233e342",
+      "layout_group": "03aa77ae423af524b2fead984cca2c9da049dc2e1ae14f29f5f509767233e342"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0013.map26a",
+      "sha256": "3b190b80333cde575e73a61c1cf32944dbf5b1513924b1a8092b986d4eac6f54",
+      "layout_group": "3b190b80333cde575e73a61c1cf32944dbf5b1513924b1a8092b986d4eac6f54"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0014.map26a",
+      "sha256": "20b5063c0aad58eff09312cf649ad04157e9286eb6686bd839ca2b8c4b45b779",
+      "layout_group": "20b5063c0aad58eff09312cf649ad04157e9286eb6686bd839ca2b8c4b45b779"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0015.map26a",
+      "sha256": "eec3d89df9d49265eec6b1655023f595f9a660597a731932a4c65a664b7bc4ff",
+      "layout_group": "eec3d89df9d49265eec6b1655023f595f9a660597a731932a4c65a664b7bc4ff"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0016.map26a",
+      "sha256": "7ec7c49b3b5e5f4bf092a674a80b19a78bb1a14a6c514de884ceec6bd0e87504",
+      "layout_group": "7ec7c49b3b5e5f4bf092a674a80b19a78bb1a14a6c514de884ceec6bd0e87504"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0017.map26a",
+      "sha256": "898bae6f5724bc507904026c960a41af0ec511380da4f9540e6e6fae19776891",
+      "layout_group": "898bae6f5724bc507904026c960a41af0ec511380da4f9540e6e6fae19776891"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0018.map26a",
+      "sha256": "64713313bd3d05b1f3691e440bce31a17630d2151d2917400c11f588ac56ddc2",
+      "layout_group": "64713313bd3d05b1f3691e440bce31a17630d2151d2917400c11f588ac56ddc2"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0019.map26a",
+      "sha256": "cee41e6407914907707aca77fb5ec56b0c1ebc4d274621c3f6933b48f79dd981",
+      "layout_group": "cee41e6407914907707aca77fb5ec56b0c1ebc4d274621c3f6933b48f79dd981"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0020.map26a",
+      "sha256": "171f8682e1bc9877fffefac1c27fadf4b19fe1c5a478ea853f0119604cf835a4",
+      "layout_group": "171f8682e1bc9877fffefac1c27fadf4b19fe1c5a478ea853f0119604cf835a4"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0021.map26a",
+      "sha256": "37bb47776850f3ebe3312ee5bba2271c6fc74d19089c266bccc5ed5747fa6503",
+      "layout_group": "37bb47776850f3ebe3312ee5bba2271c6fc74d19089c266bccc5ed5747fa6503"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0022.map26a",
+      "sha256": "d39cba1a5b59c4446cda8e9e7cf70b965d5e095fb988159acae726308ffa040b",
+      "layout_group": "d39cba1a5b59c4446cda8e9e7cf70b965d5e095fb988159acae726308ffa040b"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0023.map26a",
+      "sha256": "6edf01b8b05da2e30a5e3610597a88f4bf7a69a7f5504bdad9d1df1050616f08",
+      "layout_group": "6edf01b8b05da2e30a5e3610597a88f4bf7a69a7f5504bdad9d1df1050616f08"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0024.map26a",
+      "sha256": "0a50178f26148dfc54c2badfca6885a0004d1f6b3e2525400bf72bf5a786b68d",
+      "layout_group": "0a50178f26148dfc54c2badfca6885a0004d1f6b3e2525400bf72bf5a786b68d"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0025.map26a",
+      "sha256": "e5589e4f37f6c25b072ede1bcc0a6494745db353e88ddb8dd1e07df021e711ae",
+      "layout_group": "e5589e4f37f6c25b072ede1bcc0a6494745db353e88ddb8dd1e07df021e711ae"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0026.map26a",
+      "sha256": "f0cbf4b0dea4168a1a636a8031937299e4e5db586c13774693538da02f2fe496",
+      "layout_group": "f0cbf4b0dea4168a1a636a8031937299e4e5db586c13774693538da02f2fe496"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0027.map26a",
+      "sha256": "c3e2f4b7bd710206ec9dbc33948e1668102d83115116a82563c22b52bf840557",
+      "layout_group": "c3e2f4b7bd710206ec9dbc33948e1668102d83115116a82563c22b52bf840557"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0028.map26a",
+      "sha256": "9f5f3d1457cc2f2e34df48f94d7b2e18a5bdf54d1ec765fed6048ff1a98254c8",
+      "layout_group": "9f5f3d1457cc2f2e34df48f94d7b2e18a5bdf54d1ec765fed6048ff1a98254c8"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0029.map26a",
+      "sha256": "9db5bd23dd86107837ce95a6a33b33fddd54f7fcd485b4fca0ef3e8a00748c5c",
+      "layout_group": "9db5bd23dd86107837ce95a6a33b33fddd54f7fcd485b4fca0ef3e8a00748c5c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0030.map26a",
+      "sha256": "c7c542d2530862603c81cd45ccd502853b8d2721fbb7d49efb166867f1c8628c",
+      "layout_group": "c7c542d2530862603c81cd45ccd502853b8d2721fbb7d49efb166867f1c8628c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0031.map26a",
+      "sha256": "eb7ef1039cbb9a50b2b202ace17142cb6c964ff382a25d6da35c9cbd051615ec",
+      "layout_group": "eb7ef1039cbb9a50b2b202ace17142cb6c964ff382a25d6da35c9cbd051615ec"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0032.map26a",
+      "sha256": "bf744cde97fed3f3e1b7f6584c6c405928e3f30c6dfd76c81284a8863534b197",
+      "layout_group": "bf744cde97fed3f3e1b7f6584c6c405928e3f30c6dfd76c81284a8863534b197"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0033.map26a",
+      "sha256": "89dc7afc824b1c5443fbd7d3d171184d43345d443be9eca18265d5cbbb8d1fcb",
+      "layout_group": "89dc7afc824b1c5443fbd7d3d171184d43345d443be9eca18265d5cbbb8d1fcb"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0034.map26a",
+      "sha256": "4e49ae2a9c41696329447441e36c6de61d9a6b1119018901facf0567eb6e9d4e",
+      "layout_group": "4e49ae2a9c41696329447441e36c6de61d9a6b1119018901facf0567eb6e9d4e"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0035.map26a",
+      "sha256": "1afffeb3450e6317ab24512c6db9714fc74ed792a42b32e1487d2af9a1b80a90",
+      "layout_group": "1afffeb3450e6317ab24512c6db9714fc74ed792a42b32e1487d2af9a1b80a90"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0036.map26a",
+      "sha256": "5d45d97fff49dd11615e6e74f80fbcd3732b766c72b953e513fd79476ecb6415",
+      "layout_group": "5d45d97fff49dd11615e6e74f80fbcd3732b766c72b953e513fd79476ecb6415"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0037.map26a",
+      "sha256": "2c94f98627de72dd40dc90e55ea37a2dea9cf417a31679dd3bab6795b4ebf794",
+      "layout_group": "2c94f98627de72dd40dc90e55ea37a2dea9cf417a31679dd3bab6795b4ebf794"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0038.map26a",
+      "sha256": "7105164ae88295690452b9cad0c82ba680a2f73f9e134ee100ff9ad660383c67",
+      "layout_group": "7105164ae88295690452b9cad0c82ba680a2f73f9e134ee100ff9ad660383c67"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0039.map26a",
+      "sha256": "239098cb7398bae9b013838d7f2ebbc513dff35cddacf237382d2f53c52c669c",
+      "layout_group": "239098cb7398bae9b013838d7f2ebbc513dff35cddacf237382d2f53c52c669c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0040.map26a",
+      "sha256": "b55343298345532ed44d8842258b4ea0d4f5ead20bebf7d3139fb4600e87e4c3",
+      "layout_group": "b55343298345532ed44d8842258b4ea0d4f5ead20bebf7d3139fb4600e87e4c3"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0041.map26a",
+      "sha256": "08bfab20ffb0cc3da9d74c3fe985c50e76b1f8847b314ae24ace4515b67c7308",
+      "layout_group": "08bfab20ffb0cc3da9d74c3fe985c50e76b1f8847b314ae24ace4515b67c7308"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0042.map26a",
+      "sha256": "05c74dcbf9f8f47fd8bf0abee8adc87d632b335ae69334b4ef65e08a7341716c",
+      "layout_group": "05c74dcbf9f8f47fd8bf0abee8adc87d632b335ae69334b4ef65e08a7341716c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0043.map26a",
+      "sha256": "fead807c1168816eda493dd1b1dfa14187dcc905e5d70c2b5d71c6521d179eda",
+      "layout_group": "fead807c1168816eda493dd1b1dfa14187dcc905e5d70c2b5d71c6521d179eda"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0044.map26a",
+      "sha256": "408f0f7136dedcafe9eac51407c49b987d79992888f45540d334c521f8de0e8e",
+      "layout_group": "408f0f7136dedcafe9eac51407c49b987d79992888f45540d334c521f8de0e8e"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0045.map26a",
+      "sha256": "45f3ecc1bde6b6a002ef8a3b4e418efaf312a54ee4ebdd67ad3de7864e051ff0",
+      "layout_group": "45f3ecc1bde6b6a002ef8a3b4e418efaf312a54ee4ebdd67ad3de7864e051ff0"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0046.map26a",
+      "sha256": "0f167ce7948798a92e4aadaeebe30ec7bc1d85293023484f0244fef0e980dffe",
+      "layout_group": "0f167ce7948798a92e4aadaeebe30ec7bc1d85293023484f0244fef0e980dffe"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0047.map26a",
+      "sha256": "79bac36993cbab847e3c69999cdda6df746bcb3f94f2976c782f15176fbe580e",
+      "layout_group": "79bac36993cbab847e3c69999cdda6df746bcb3f94f2976c782f15176fbe580e"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0048.map26a",
+      "sha256": "74da29c2f5f8d19378daa3d14015ee02208ecc8292ac97b047bd3fd7c12e9fdd",
+      "layout_group": "74da29c2f5f8d19378daa3d14015ee02208ecc8292ac97b047bd3fd7c12e9fdd"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0049.map26a",
+      "sha256": "d263072d053161c7e49339ca40cae59c98ae3ab1a15848a0e8a412be01fe853c",
+      "layout_group": "d263072d053161c7e49339ca40cae59c98ae3ab1a15848a0e8a412be01fe853c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0050.map26a",
+      "sha256": "72fcf552937aa7292dde59ef22d4108aa06a3c86a7e639b012632f425b32126c",
+      "layout_group": "72fcf552937aa7292dde59ef22d4108aa06a3c86a7e639b012632f425b32126c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0051.map26a",
+      "sha256": "dd715d51a39c830b88fff0ba1c78601e7bdd06975e588e5d5a70cab42b774c10",
+      "layout_group": "dd715d51a39c830b88fff0ba1c78601e7bdd06975e588e5d5a70cab42b774c10"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0052.map26a",
+      "sha256": "63f5d196e776755152132dfe6aca9154fc1275d4821f7eb1fc72d52fe487a553",
+      "layout_group": "63f5d196e776755152132dfe6aca9154fc1275d4821f7eb1fc72d52fe487a553"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0053.map26a",
+      "sha256": "6d870ec06264a4c43dfdf5202585815045da3ef3020863e2d2159e4a6cd614f2",
+      "layout_group": "6d870ec06264a4c43dfdf5202585815045da3ef3020863e2d2159e4a6cd614f2"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0054.map26a",
+      "sha256": "e20f08145e8e0852a7fc628f7ee32c0840595edc24d11e8e7af1aa634892143a",
+      "layout_group": "e20f08145e8e0852a7fc628f7ee32c0840595edc24d11e8e7af1aa634892143a"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0055.map26a",
+      "sha256": "8de8b31285294d8fe5b5cac4a1c00116cfd53142da01dada501557cca28220d8",
+      "layout_group": "8de8b31285294d8fe5b5cac4a1c00116cfd53142da01dada501557cca28220d8"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0056.map26a",
+      "sha256": "6abddde7e80188cf2d0ec815cff028837aa37298a1e30f6c97e9093a440d730f",
+      "layout_group": "6abddde7e80188cf2d0ec815cff028837aa37298a1e30f6c97e9093a440d730f"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0057.map26a",
+      "sha256": "c6c2413bcdbb508ead6693e2280d6d090a26aef7130ece5d9d377c0e46647985",
+      "layout_group": "c6c2413bcdbb508ead6693e2280d6d090a26aef7130ece5d9d377c0e46647985"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0058.map26a",
+      "sha256": "a6364118d9d33a53632f73ca21cad424125b79573c6f9bdaa5c80c6d2ba48540",
+      "layout_group": "a6364118d9d33a53632f73ca21cad424125b79573c6f9bdaa5c80c6d2ba48540"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0059.map26a",
+      "sha256": "cde7a14a43b44f556ed7aaac7c2f1ccee957c99e1184357b182ec5f270d602d3",
+      "layout_group": "cde7a14a43b44f556ed7aaac7c2f1ccee957c99e1184357b182ec5f270d602d3"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0060.map26a",
+      "sha256": "ead61cc7c67f4f4e8880307bb2e386d86ceb408bd17cfc4fb92272085b255f0e",
+      "layout_group": "ead61cc7c67f4f4e8880307bb2e386d86ceb408bd17cfc4fb92272085b255f0e"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0061.map26a",
+      "sha256": "667fb84444befe03a033fa66ddadf6aa47ffdf5fbebb9f679abbf4868afdc798",
+      "layout_group": "667fb84444befe03a033fa66ddadf6aa47ffdf5fbebb9f679abbf4868afdc798"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0062.map26a",
+      "sha256": "efa2738b4512712692ffd4431d1a3d4c045c2260b593fe9fa489b5a660d4d969",
+      "layout_group": "efa2738b4512712692ffd4431d1a3d4c045c2260b593fe9fa489b5a660d4d969"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0063.map26a",
+      "sha256": "d6faa22081b71c4065f418f6a9c79d5450136e721c6d4f8ce8596cb83f831b45",
+      "layout_group": "d6faa22081b71c4065f418f6a9c79d5450136e721c6d4f8ce8596cb83f831b45"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0064.map26a",
+      "sha256": "1fb5a18446ab551c6ebe1993e6e51b2cb5ebd2d49f19b543177ede32bd7aad4d",
+      "layout_group": "1fb5a18446ab551c6ebe1993e6e51b2cb5ebd2d49f19b543177ede32bd7aad4d"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0065.map26a",
+      "sha256": "1244c3a44388f260212c9b06d851ee5a403495f2bc0d6189f84dec6ef1b9918e",
+      "layout_group": "1244c3a44388f260212c9b06d851ee5a403495f2bc0d6189f84dec6ef1b9918e"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0066.map26a",
+      "sha256": "67c35048e68734cb09f1cd0cb5109d305c35e990f0267e814a95a3e5b9a5f8a2",
+      "layout_group": "67c35048e68734cb09f1cd0cb5109d305c35e990f0267e814a95a3e5b9a5f8a2"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0067.map26a",
+      "sha256": "fc901c7652bcae9a9fd2cf3d2c74cca965f7981990afa96abec1af525a2397e3",
+      "layout_group": "fc901c7652bcae9a9fd2cf3d2c74cca965f7981990afa96abec1af525a2397e3"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0068.map26a",
+      "sha256": "c229857747d6a116a0818ca83ac249ce8b39fdaf5a9cb51304ddc740aa6b425c",
+      "layout_group": "c229857747d6a116a0818ca83ac249ce8b39fdaf5a9cb51304ddc740aa6b425c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0069.map26a",
+      "sha256": "10d2ecebc9d2987d7f7b03ac7d0f7b68401cd47ef77793ccefaa68c258d5e130",
+      "layout_group": "10d2ecebc9d2987d7f7b03ac7d0f7b68401cd47ef77793ccefaa68c258d5e130"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0070.map26a",
+      "sha256": "6a913c86f436d8d4dc0f7af379fed5cb48f3c07f2c23563728b130ebacbf4eae",
+      "layout_group": "6a913c86f436d8d4dc0f7af379fed5cb48f3c07f2c23563728b130ebacbf4eae"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0071.map26a",
+      "sha256": "0a4e1fe4d92169bcbd4e5028656134fc6ebc8b283fe8b5b166d430e8d4f92fee",
+      "layout_group": "0a4e1fe4d92169bcbd4e5028656134fc6ebc8b283fe8b5b166d430e8d4f92fee"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0072.map26a",
+      "sha256": "00574fc9a32aa1926749f5529972532ba298d84122f7bee5f8d9492fb6fa84ac",
+      "layout_group": "00574fc9a32aa1926749f5529972532ba298d84122f7bee5f8d9492fb6fa84ac"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0073.map26a",
+      "sha256": "e2d945a6ff1c553f773d26e13e4c87a024d8290ac02bfa7e778f85fc3ea38077",
+      "layout_group": "e2d945a6ff1c553f773d26e13e4c87a024d8290ac02bfa7e778f85fc3ea38077"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0074.map26a",
+      "sha256": "e2f7b7c872ee2df6ce51224b598ebbc9c278447dc6a92d9d17df261d8eded136",
+      "layout_group": "e2f7b7c872ee2df6ce51224b598ebbc9c278447dc6a92d9d17df261d8eded136"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0075.map26a",
+      "sha256": "2f2900790237dea95fca0776761c46ef9d9dc1764db51b7cd50db1f82c0fb3be",
+      "layout_group": "2f2900790237dea95fca0776761c46ef9d9dc1764db51b7cd50db1f82c0fb3be"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0076.map26a",
+      "sha256": "6b7731bc7d172937d136074592d93522c06e1fca7dc0242e5e633e597a22b8d7",
+      "layout_group": "6b7731bc7d172937d136074592d93522c06e1fca7dc0242e5e633e597a22b8d7"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0077.map26a",
+      "sha256": "5fb3f75049fe997c971d9c8f1ed50d745af0aab651f2fd851ee741d09605a6ba",
+      "layout_group": "5fb3f75049fe997c971d9c8f1ed50d745af0aab651f2fd851ee741d09605a6ba"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0078.map26a",
+      "sha256": "3ce2fb648ead816c98e88dbd3891fa1581c9b90ce51a191095af7eb816f3e118",
+      "layout_group": "3ce2fb648ead816c98e88dbd3891fa1581c9b90ce51a191095af7eb816f3e118"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0079.map26a",
+      "sha256": "08ff1d7afef87dafa9b65c6044588ce24964d7270141fbc378deb48978197222",
+      "layout_group": "08ff1d7afef87dafa9b65c6044588ce24964d7270141fbc378deb48978197222"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0080.map26a",
+      "sha256": "c4048ee65ce7c8dbbd140786484885a0a122e557bf4fa7e659885cc47a0f5e24",
+      "layout_group": "c4048ee65ce7c8dbbd140786484885a0a122e557bf4fa7e659885cc47a0f5e24"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0081.map26a",
+      "sha256": "ba488d8d900ddc8e753e0c0f09ca7f832ee3b419d87707b6cce61af0e1059cff",
+      "layout_group": "ba488d8d900ddc8e753e0c0f09ca7f832ee3b419d87707b6cce61af0e1059cff"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0082.map26a",
+      "sha256": "782405637d4324a8b4cc60c1efdf5c66981d54ad7ba2850f79d71ba1ec98cd04",
+      "layout_group": "782405637d4324a8b4cc60c1efdf5c66981d54ad7ba2850f79d71ba1ec98cd04"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0083.map26a",
+      "sha256": "dfcc694b13df8bf32f4e5563f0c884ed883f7dce617112f83e91957da3413461",
+      "layout_group": "dfcc694b13df8bf32f4e5563f0c884ed883f7dce617112f83e91957da3413461"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0084.map26a",
+      "sha256": "675bcaa5b78492481b684f1108641c6c39765cd794a43ed0f04d9d1f90625655",
+      "layout_group": "675bcaa5b78492481b684f1108641c6c39765cd794a43ed0f04d9d1f90625655"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0085.map26a",
+      "sha256": "c29aa0f1bd5a550c14a7bdc30b4a767c7ee20b1d8ead42f465227830189f990a",
+      "layout_group": "c29aa0f1bd5a550c14a7bdc30b4a767c7ee20b1d8ead42f465227830189f990a"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0086.map26a",
+      "sha256": "899d0dec775af98f6cd6cea3c6961f002397198bc6cf7529ee7a16cd261f8aa1",
+      "layout_group": "899d0dec775af98f6cd6cea3c6961f002397198bc6cf7529ee7a16cd261f8aa1"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0087.map26a",
+      "sha256": "558f357122cb09112eebf0bf753c69fbbec78f9be2473c39b3b936812facf103",
+      "layout_group": "558f357122cb09112eebf0bf753c69fbbec78f9be2473c39b3b936812facf103"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0088.map26a",
+      "sha256": "6f6f05c640f3f489c84dfd912fe95200eb89dcd1611b45e549ec1f8d4bec1b46",
+      "layout_group": "6f6f05c640f3f489c84dfd912fe95200eb89dcd1611b45e549ec1f8d4bec1b46"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0089.map26a",
+      "sha256": "c4aaac118a29a3ecab70303c7870b1ec807a35129055fed6b443f5e2a30aa50c",
+      "layout_group": "c4aaac118a29a3ecab70303c7870b1ec807a35129055fed6b443f5e2a30aa50c"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0090.map26a",
+      "sha256": "135eed9a39de0fef6116a8c9458b3a393f753c2d41f48cdd3d94f0e6bd958bb0",
+      "layout_group": "135eed9a39de0fef6116a8c9458b3a393f753c2d41f48cdd3d94f0e6bd958bb0"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0091.map26a",
+      "sha256": "8d7c21a41d7b9b7be1adb9314f7886e5be3eb26449d2f3b69049338f790e4c9a",
+      "layout_group": "8d7c21a41d7b9b7be1adb9314f7886e5be3eb26449d2f3b69049338f790e4c9a"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0092.map26a",
+      "sha256": "dac79339505d75290f602b6c87f4e30053d03faae6ffeb06f1b7a7b3333481cb",
+      "layout_group": "dac79339505d75290f602b6c87f4e30053d03faae6ffeb06f1b7a7b3333481cb"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0093.map26a",
+      "sha256": "b3c542b17a73a71f48ecdb7cd2e0c15a0762b8d81b50c32d0cc6f05e962e3615",
+      "layout_group": "b3c542b17a73a71f48ecdb7cd2e0c15a0762b8d81b50c32d0cc6f05e962e3615"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0094.map26a",
+      "sha256": "55b0557168964c0e497321286935f5b1bdd08d56062a07f1a02d22895dd0fb15",
+      "layout_group": "55b0557168964c0e497321286935f5b1bdd08d56062a07f1a02d22895dd0fb15"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0095.map26a",
+      "sha256": "35cb93b039d647c3bb70b7219d30dd78b89217e00a5c8c6bc989b9a154d00afa",
+      "layout_group": "35cb93b039d647c3bb70b7219d30dd78b89217e00a5c8c6bc989b9a154d00afa"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0096.map26a",
+      "sha256": "c82b578abfb5820ac810b115a620595885cbd425bf8956aea87e88152b7e2332",
+      "layout_group": "c82b578abfb5820ac810b115a620595885cbd425bf8956aea87e88152b7e2332"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0097.map26a",
+      "sha256": "86cd8da41158ad122394749142b90388aee05d86278bf0aca44788aecba840bd",
+      "layout_group": "86cd8da41158ad122394749142b90388aee05d86278bf0aca44788aecba840bd"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0098.map26a",
+      "sha256": "bad2f5a5619b0d31eaa1ca2b9d19704514c426063f1f57d78d66316c2515d13f",
+      "layout_group": "bad2f5a5619b0d31eaa1ca2b9d19704514c426063f1f57d78d66316c2515d13f"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0099.map26a",
+      "sha256": "3ac487f4c1fa9313be1f9a4db1c5421939c3ff009a4145a36f9f9896ff5a601f",
+      "layout_group": "3ac487f4c1fa9313be1f9a4db1c5421939c3ff009a4145a36f9f9896ff5a601f"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0100.map26a",
+      "sha256": "4f56619ba3d56494c2d96dcf1bacba0810c1f21fbcb0cd9f7b47b52e5db38bd0",
+      "layout_group": "4f56619ba3d56494c2d96dcf1bacba0810c1f21fbcb0cd9f7b47b52e5db38bd0"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0101.map26a",
+      "sha256": "d1f37bf24b61bcffdcaf59b20a03d38b16c68a38b94c73863291ea8aad29461a",
+      "layout_group": "d1f37bf24b61bcffdcaf59b20a03d38b16c68a38b94c73863291ea8aad29461a"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0102.map26a",
+      "sha256": "31fbf641f61d2835bc92bcffb72fb257ad6d31486d01d3572a3e5d4a027c41dc",
+      "layout_group": "31fbf641f61d2835bc92bcffb72fb257ad6d31486d01d3572a3e5d4a027c41dc"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0103.map26a",
+      "sha256": "6978ab0b66c19dd9a3713aba502a706899dd45c637056e5662ed607900fd32da",
+      "layout_group": "6978ab0b66c19dd9a3713aba502a706899dd45c637056e5662ed607900fd32da"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0104.map26a",
+      "sha256": "f9edb38cd19ce0de15c2d7b30cafe9c0cd299383246cad5acb73d879e1fa8438",
+      "layout_group": "f9edb38cd19ce0de15c2d7b30cafe9c0cd299383246cad5acb73d879e1fa8438"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0105.map26a",
+      "sha256": "df55749feba9759fa6cc7f186dc7bee12f3edf05197c62b43ade038102e1241b",
+      "layout_group": "df55749feba9759fa6cc7f186dc7bee12f3edf05197c62b43ade038102e1241b"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0106.map26a",
+      "sha256": "13a64160d1f2dd01dc726761a1bd7408bd4b536de4acdcf7e1c07125762e9268",
+      "layout_group": "13a64160d1f2dd01dc726761a1bd7408bd4b536de4acdcf7e1c07125762e9268"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0107.map26a",
+      "sha256": "fc93a339817ee8ee73ec5b7e10c1a3a75f7961d9dd824dcabea8a4173318ce84",
+      "layout_group": "fc93a339817ee8ee73ec5b7e10c1a3a75f7961d9dd824dcabea8a4173318ce84"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0108.map26a",
+      "sha256": "e3d053971ac2da2b031822df24f75f489a12336c75ab77932bf1ba44b58cc647",
+      "layout_group": "e3d053971ac2da2b031822df24f75f489a12336c75ab77932bf1ba44b58cc647"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0109.map26a",
+      "sha256": "7ee58ae7bbbbcd0d1111ca01efb6f6287cb696741f66e94572bd0fdb4c0f8d38",
+      "layout_group": "7ee58ae7bbbbcd0d1111ca01efb6f6287cb696741f66e94572bd0fdb4c0f8d38"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0110.map26a",
+      "sha256": "1ffb152a001c3aef356efd3f14fe028b91340880cd7aad66450fe24ce599c759",
+      "layout_group": "1ffb152a001c3aef356efd3f14fe028b91340880cd7aad66450fe24ce599c759"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0111.map26a",
+      "sha256": "f8aba8358809fa0b8e6ae842a3f2257489293995989adc2a97727fe5d6271a5f",
+      "layout_group": "f8aba8358809fa0b8e6ae842a3f2257489293995989adc2a97727fe5d6271a5f"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0112.map26a",
+      "sha256": "125bc49ee90ccc02862ff67d9884ec81b01dce824d6f5281512c88eb20218d47",
+      "layout_group": "125bc49ee90ccc02862ff67d9884ec81b01dce824d6f5281512c88eb20218d47"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0113.map26a",
+      "sha256": "aa00ab37b7a05f73ac3d7d57c87bf2b6640d6bb58dbd3d4a0389d88907239cf2",
+      "layout_group": "aa00ab37b7a05f73ac3d7d57c87bf2b6640d6bb58dbd3d4a0389d88907239cf2"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0114.map26a",
+      "sha256": "0a722b04837f84175ab5383a40970ff0ad1830428295c3c638cedde8f7e6dd08",
+      "layout_group": "0a722b04837f84175ab5383a40970ff0ad1830428295c3c638cedde8f7e6dd08"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0115.map26a",
+      "sha256": "97c3f7d4ae8747384a6007fcf4ec72e638c4955c25bb555d5fafd54e6090efda",
+      "layout_group": "97c3f7d4ae8747384a6007fcf4ec72e638c4955c25bb555d5fafd54e6090efda"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0116.map26a",
+      "sha256": "f3606758319a43a35e2403f670a3aa513106bf17e9271b0c2f1e6dc533ae902e",
+      "layout_group": "f3606758319a43a35e2403f670a3aa513106bf17e9271b0c2f1e6dc533ae902e"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0117.map26a",
+      "sha256": "99ed2b6ad1032e84fe4330b7000362f4284d95873009a289e77f4f7c4632d1cc",
+      "layout_group": "99ed2b6ad1032e84fe4330b7000362f4284d95873009a289e77f4f7c4632d1cc"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0118.map26a",
+      "sha256": "cf303c72fcb5af8b01f30e195044b0913338a380c5df696ac650074d5ebab909",
+      "layout_group": "cf303c72fcb5af8b01f30e195044b0913338a380c5df696ac650074d5ebab909"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0119.map26a",
+      "sha256": "3cb90e06e9e4f7d98c6bf15b0a8b6b0168fed9815aafee0fbd1ac22d0e1ad362",
+      "layout_group": "3cb90e06e9e4f7d98c6bf15b0a8b6b0168fed9815aafee0fbd1ac22d0e1ad362"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0120.map26a",
+      "sha256": "5aba02495f948c103ec9ac0a4cf3e723146f57615b35a2ebfd655aea725c7226",
+      "layout_group": "5aba02495f948c103ec9ac0a4cf3e723146f57615b35a2ebfd655aea725c7226"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0121.map26a",
+      "sha256": "088e79050f982e3616343661421a6e3b53b2b88fe5d9007b74d9db24572a5be6",
+      "layout_group": "088e79050f982e3616343661421a6e3b53b2b88fe5d9007b74d9db24572a5be6"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0122.map26a",
+      "sha256": "611ce3b19ba3eb4667f38b25065fa9b57c86587436d7888de49fca0c8297b667",
+      "layout_group": "611ce3b19ba3eb4667f38b25065fa9b57c86587436d7888de49fca0c8297b667"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0123.map26a",
+      "sha256": "1f50e7be784c27c5ce995ce17c790fef183e80d992de099c952d5f65975d4cd2",
+      "layout_group": "1f50e7be784c27c5ce995ce17c790fef183e80d992de099c952d5f65975d4cd2"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0124.map26a",
+      "sha256": "6ad8b7b83402111788f57a18ce598930701a37098f78df0d2f9802903b3b66d3",
+      "layout_group": "6ad8b7b83402111788f57a18ce598930701a37098f78df0d2f9802903b3b66d3"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0125.map26a",
+      "sha256": "5e531c21e6312ae3e5af0f7cc7aa15c66432c9e2637641b3b9912388368e7a0d",
+      "layout_group": "5e531c21e6312ae3e5af0f7cc7aa15c66432c9e2637641b3b9912388368e7a0d"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0126.map26a",
+      "sha256": "aa82d81de42776ac4c92e8fe3103c2d97ea2b540b4c8b39755e85a10372d3819",
+      "layout_group": "aa82d81de42776ac4c92e8fe3103c2d97ea2b540b4c8b39755e85a10372d3819"
+    },
+    {
+      "path": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\maps\\confirm\\confirm-0127.map26a",
+      "sha256": "dece7b1885218090460005b123c39ee463e05a193b01d25847208fdd8ddb54ab",
+      "layout_group": "dece7b1885218090460005b123c39ee463e05a193b01d25847208fdd8ddb54ab"
+    }
+  ],
+  "status": "registered before policy screens; do not use confirm/final as development data"
+}

@@ -1,0 +1,16 @@
+{
+  "zip_byte_identity": true,
+  "source_zip_manifest_parity": true,
+  "all_off_wasm_identity": true,
+  "accepted_unique_games": 295,
+  "engine_identity_all_matches": true,
+  "map_integrity_all_matches": true,
+  "raw_hashes_all_verified": true,
+  "policies_rejected": [
+    "V37_LINK_EMERGENCY",
+    "V37_CAMP_STATE"
+  ],
+  "confirmation_games": 0,
+  "final_games": 0,
+  "clarification": "No candidate passed screening, so frozen confirmation/final maps were not played. No strength claim for unchanged fallback."
+}

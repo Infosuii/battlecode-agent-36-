@@ -1,0 +1,2633 @@
+{
+  "engine_wasm_sha256": "c03ab26f20263b08e576ebc1a064cd6f9b66a996aca005d69bd9fb9205434354",
+  "fixtures": [
+    {
+      "id": "successful_cast_consumes_shared_cast_allowance",
+      "passed": true,
+      "observed": {
+        "first": {
+          "code": 0,
+          "message": "",
+          "success": true
+        },
+        "second": {
+          "code": 27,
+          "message": "A spell was already cast this turn.",
+          "success": false
+        },
+        "state": {
+          "idx": 0,
+          "team": 0,
+          "type": "Varg",
+          "known": 15,
+          "pos": [
+            2,
+            2
+          ],
+          "hp": 1000.0,
+          "maxhp": 1000.0,
+          "rflags": 19,
+          "buffs": [
+            [
+              "Shield",
+              5,
+              250.0,
+              [
+                1,
+                0
+              ]
+            ]
+          ],
+          "cd": [
+            0,
+            8
+          ],
+          "charges": [
+            0,
+            0
+          ],
+          "abilities": [
+            1,
+            7
+          ],
+          "arange": 1.0,
+          "focus": {
+            "base": 100.0,
+            "items": 0.0,
+            "bonus": 0.0,
+            "eff": 100.0
+          },
+          "strength": {
+            "base": 40.0,
+            "items": 0.0,
+            "bonus": 0.0,
+            "eff": 40.0
+          },
+          "alive": 1,
+          "respawn": 0,
+          "gold": 0,
+          "gems": 0,
+          "items": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "ward_flag": 1,
+          "consumables": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ward": [
+            1,
+            0
+          ],
+          "chan_timer": 0,
+          "chan_type": 0,
+          "priority": 0,
+          "next_priority": 0,
+          "draft_order": 0,
+          "submission_dur": 0,
+          "earned_gold": 0,
+          "treasure_gold": 0,
+          "kda": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "linked_bodies_distinct_bags_shared_death",
+      "passed": true,
+      "observed": {
+        "wallets": "distinct physical bodies",
+        "linked_death": true,
+        "bag_transfer": 25,
+        "before": [
+          {
+            "idx": 0,
+            "team": 0,
+            "type": "Cassi",
+            "known": 15,
+            "pos": [
+              8,
+              8
+            ],
+            "hp": 600.0,
+            "maxhp": 600.0,
+            "rflags": 1047,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              2,
+              4
+            ],
+            "arange": 3.0,
+            "focus": {
+              "base": 70.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 70.0
+            },
+            "strength": {
+              "base": 30.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 30.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 0,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 1,
+            "team": 0,
+            "type": "Issac",
+            "known": 15,
+            "pos": [
+              3,
+              2
+            ],
+            "hp": 900.0,
+            "maxhp": 900.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 1,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 2,
+            "team": 0,
+            "type": "Varg",
+            "known": 15,
+            "pos": [
+              4,
+              2
+            ],
+            "hp": 1000.0,
+            "maxhp": 1000.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              7
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 2,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 3,
+            "team": 0,
+            "type": "Ryth",
+            "known": 15,
+            "pos": [
+              5,
+              2
+            ],
+            "hp": 1200.0,
+            "maxhp": 1200.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              3,
+              1
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 45.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 45.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 3,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 4,
+            "team": 0,
+            "type": "Ren",
+            "known": 15,
+            "pos": [
+              2,
+              3
+            ],
+            "hp": 900.0,
+            "maxhp": 900.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              4,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 35.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 35.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 4,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 5,
+            "team": 1,
+            "type": "Cassi",
+            "known": 15,
+            "pos": [
+              9,
+              8
+            ],
+            "hp": 600.0,
+            "maxhp": 600.0,
+            "rflags": 1031,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              2,
+              4
+            ],
+            "arange": 3.0,
+            "focus": {
+              "base": 70.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 70.0
+            },
+            "strength": {
+              "base": 30.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 30.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 12,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 0,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 6,
+            "team": 1,
+            "type": "Issac",
+            "known": 15,
+            "pos": [
+              9,
+              9
+            ],
+            "hp": 900.0,
+            "maxhp": 900.0,
+            "rflags": 1031,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 13,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 1,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 7,
+            "team": 1,
+            "type": "Varg",
+            "known": 15,
+            "pos": [
+              45,
+              47
+            ],
+            "hp": 1000.0,
+            "maxhp": 1000.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              7
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 2,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 8,
+            "team": 1,
+            "type": "Ryth",
+            "known": 15,
+            "pos": [
+              44,
+              47
+            ],
+            "hp": 1200.0,
+            "maxhp": 1200.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              3,
+              1
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 45.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 45.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 3,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 9,
+            "team": 1,
+            "type": "Ren",
+            "known": 15,
+            "pos": [
+              47,
+              46
+            ],
+            "hp": 900.0,
+            "maxhp": 900.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              4,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 35.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 35.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 4,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "after": [
+          {
+            "idx": 0,
+            "team": 0,
+            "type": "Cassi",
+            "known": 15,
+            "pos": [
+              8,
+              8
+            ],
+            "hp": 600.0,
+            "maxhp": 600.0,
+            "rflags": 1052,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              2,
+              4
+            ],
+            "arange": 3.0,
+            "focus": {
+              "base": 70.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 70.0
+            },
+            "strength": {
+              "base": 30.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 30.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 100,
+            "gems": 25,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 0,
+            "submission_dur": 0,
+            "earned_gold": 100,
+            "treasure_gold": 0,
+            "kda": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 1,
+            "team": 0,
+            "type": "Issac",
+            "known": 15,
+            "pos": [
+              3,
+              2
+            ],
+            "hp": 900.0,
+            "maxhp": 900.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 1,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 2,
+            "team": 0,
+            "type": "Varg",
+            "known": 15,
+            "pos": [
+              4,
+              2
+            ],
+            "hp": 1000.0,
+            "maxhp": 1000.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              7
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 2,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 3,
+            "team": 0,
+            "type": "Ryth",
+            "known": 15,
+            "pos": [
+              5,
+              2
+            ],
+            "hp": 1200.0,
+            "maxhp": 1200.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              3,
+              1
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 45.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 45.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 3,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 4,
+            "team": 0,
+            "type": "Ren",
+            "known": 15,
+            "pos": [
+              2,
+              3
+            ],
+            "hp": 900.0,
+            "maxhp": 900.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              4,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 35.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 35.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 4,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 5,
+            "team": 1,
+            "type": "Cassi",
+            "known": 15,
+            "pos": [
+              -1,
+              -1
+            ],
+            "hp": 0.0,
+            "maxhp": 600.0,
+            "rflags": 4,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              2,
+              4
+            ],
+            "arange": 3.0,
+            "focus": {
+              "base": 70.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 70.0
+            },
+            "strength": {
+              "base": 30.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 30.0
+            },
+            "alive": 0,
+            "respawn": 60,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 0,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "idx": 6,
+            "team": 1,
+            "type": "Issac",
+            "known": 15,
+            "pos": [
+              -1,
+              -1
+            ],
+            "hp": 0.0,
+            "maxhp": 900.0,
+            "rflags": 4,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 0,
+            "respawn": 60,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 1,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "idx": 7,
+            "team": 1,
+            "type": "Varg",
+            "known": 15,
+            "pos": [
+              45,
+              47
+            ],
+            "hp": 1000.0,
+            "maxhp": 1000.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              1,
+              7
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 40.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 40.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 2,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 8,
+            "team": 1,
+            "type": "Ryth",
+            "known": 15,
+            "pos": [
+              44,
+              47
+            ],
+            "hp": 1200.0,
+            "maxhp": 1200.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              3,
+              1
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 45.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 45.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 3,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "idx": 9,
+            "team": 1,
+            "type": "Ren",
+            "known": 15,
+            "pos": [
+              47,
+              46
+            ],
+            "hp": 900.0,
+            "maxhp": 900.0,
+            "rflags": 1027,
+            "buffs": [],
+            "cd": [
+              0,
+              0
+            ],
+            "charges": [
+              0,
+              0
+            ],
+            "abilities": [
+              4,
+              6
+            ],
+            "arange": 1.0,
+            "focus": {
+              "base": 100.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 100.0
+            },
+            "strength": {
+              "base": 35.0,
+              "items": 0.0,
+              "bonus": 0.0,
+              "eff": 35.0
+            },
+            "alive": 1,
+            "respawn": 0,
+            "gold": 0,
+            "gems": 0,
+            "items": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward_flag": 1,
+            "consumables": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "ward": [
+              1,
+              0
+            ],
+            "chan_timer": 0,
+            "chan_type": 0,
+            "priority": 0,
+            "next_priority": 0,
+            "draft_order": 4,
+            "submission_dur": 0,
+            "earned_gold": 0,
+            "treasure_gold": 0,
+            "kda": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ren_dash_open",
+      "passed": true,
+      "observed": {
+        "result": {
+          "code": 0,
+          "message": "",
+          "success": true
+        },
+        "before": [
+          8,
+          8
+        ],
+        "after": [
+          10,
+          8
+        ],
+        "simulator_authority": "unchanged; dash path mismatch requires bounded fallback"
+      }
+    },
+    {
+      "id": "ren_dash_intermediate_occupied",
+      "passed": true,
+      "observed": {
+        "result": {
+          "code": 0,
+          "message": "",
+          "success": true
+        },
+        "before": [
+          8,
+          8
+        ],
+        "after": [
+          10,
+          8
+        ],
+        "simulator_authority": "unchanged; dash path mismatch requires bounded fallback"
+      }
+    },
+    {
+      "id": "ren_dash_landing_occupied",
+      "passed": true,
+      "observed": {
+        "result": {
+          "code": 32,
+          "message": "Known occupied destination.",
+          "success": false
+        },
+        "before": [
+          8,
+          8
+        ],
+        "after": [
+          8,
+          8
+        ],
+        "simulator_authority": "unchanged; dash path mismatch requires bounded fallback"
+      }
+    },
+    {
+      "id": "ranged_move_excludes_basic_attack",
+      "passed": true,
+      "observed": {
+        "move": true,
+        "attack_error": 41
+      }
+    },
+    {
+      "id": "actual_attack_wakes_group_then_sleep_transition",
+      "passed": true,
+      "observed": {
+        "real_attack_wakes_healthy_members": true,
+        "sleep_rounds": 2,
+        "after_attack": [
+          {
+            "idx": 0,
+            "team": 2,
+            "type": 0,
+            "known": 1,
+            "pos": [
+              18,
+              5
+            ],
+            "hp": 1310.0,
+            "maxhp": 1350.0,
+            "group": 0,
+            "awake": 1
+          },
+          {
+            "idx": 2,
+            "team": 2,
+            "type": 0,
+            "known": 1,
+            "pos": [
+              18,
+              4
+            ],
+            "hp": 1310.0,
+            "maxhp": 1350.0,
+            "group": 0,
+            "awake": 1
+          },
+          {
+            "idx": 4,
+            "team": 2,
+            "type": 0,
+            "known": 1,
+            "pos": [
+              18,
+              3
+            ],
+            "hp": 1350.0,
+            "maxhp": 1350.0,
+            "group": 0,
+            "awake": 1
+          },
+          {
+            "idx": 38,
+            "team": 2,
+            "type": 3,
+            "known": 1,
+            "pos": [
+              19,
+              5
+            ],
+            "hp": 80.0,
+            "maxhp": 120.0,
+            "group": 0,
+            "awake": 1
+          },
+          {
+            "idx": 40,
+            "team": 2,
+            "type": 3,
+            "known": 1,
+            "pos": [
+              19,
+              4
+            ],
+            "hp": 80.0,
+            "maxhp": 120.0,
+            "group": 0,
+            "awake": 1
+          },
+          {
+            "idx": 42,
+            "team": 2,
+            "type": 3,
+            "known": 1,
+            "pos": [
+              19,
+              3
+            ],
+            "hp": 120.0,
+            "maxhp": 120.0,
+            "group": 0,
+            "awake": 1
+          }
+        ],
+        "after_sleep": [
+          {
+            "idx": 0,
+            "team": 2,
+            "type": 0,
+            "known": 1,
+            "pos": [
+              18,
+              5
+            ],
+            "hp": 1310.0,
+            "maxhp": 1350.0,
+            "group": 0,
+            "awake": 0
+          },
+          {
+            "idx": 2,
+            "team": 2,
+            "type": 0,
+            "known": 1,
+            "pos": [
+              18,
+              4
+            ],
+            "hp": 1310.0,
+            "maxhp": 1350.0,
+            "group": 0,
+            "awake": 0
+          },
+          {
+            "idx": 4,
+            "team": 2,
+            "type": 0,
+            "known": 1,
+            "pos": [
+              18,
+              3
+            ],
+            "hp": 1350.0,
+            "maxhp": 1350.0,
+            "group": 0,
+            "awake": 0
+          },
+          {
+            "idx": 38,
+            "team": 2,
+            "type": 3,
+            "known": 1,
+            "pos": [
+              19,
+              5
+            ],
+            "hp": 80.0,
+            "maxhp": 120.0,
+            "group": 0,
+            "awake": 0
+          },
+          {
+            "idx": 40,
+            "team": 2,
+            "type": 3,
+            "known": 1,
+            "pos": [
+              19,
+              4
+            ],
+            "hp": 80.0,
+            "maxhp": 120.0,
+            "group": 0,
+            "awake": 0
+          },
+          {
+            "idx": 42,
+            "team": 2,
+            "type": 3,
+            "known": 1,
+            "pos": [
+              19,
+              3
+            ],
+            "hp": 120.0,
+            "maxhp": 120.0,
+            "group": 0,
+            "awake": 0
+          }
+        ]
+      }
+    }
+  ],
+  "authority_expanded": false,
+  "remaining": [
+    "dash through holes/walls",
+    "Heart of Ruin dash",
+    "shield/status expiry boundaries",
+    "tank leaving during next camp phase",
+    "boxed respawns",
+    "dense stale threats",
+    "longer simulator-vs-oracle horizons"
+  ]
+}

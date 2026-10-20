@@ -1,0 +1,137 @@
+{
+  "pin": "a020248d8b13593bdf4c70460116f2bb061860b4",
+  "zip_sha256": "5ee75d520caa0c921361ea6c83a6a3b991d05ea8a6a7707226dabc875822b320",
+  "package_verified": true,
+  "files": [
+    {
+      "path": "bot.cpp",
+      "archive_sha256": "abf2ebe0d492ab6b2fa95eac2ed450bb8360ba119a3faefdcd3d474cd8ac8ef1",
+      "checkout_sha256": "abf2ebe0d492ab6b2fa95eac2ed450bb8360ba119a3faefdcd3d474cd8ac8ef1",
+      "exact_bytes": true,
+      "lf_equivalent": true
+    },
+    {
+      "path": "bot.h",
+      "archive_sha256": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+      "checkout_sha256": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+      "exact_bytes": true,
+      "lf_equivalent": true
+    },
+    {
+      "path": "common.h",
+      "archive_sha256": "91046f7877848e54866cd979fda667f80716fc5d62247abdb74bd08ae6584314",
+      "checkout_sha256": "91046f7877848e54866cd979fda667f80716fc5d62247abdb74bd08ae6584314",
+      "exact_bytes": true,
+      "lf_equivalent": true
+    },
+    {
+      "path": "deny.cpp",
+      "archive_sha256": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+      "checkout_sha256": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+      "exact_bytes": true,
+      "lf_equivalent": true
+    },
+    {
+      "path": "draft.cpp",
+      "archive_sha256": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+      "checkout_sha256": "d157e59dc2040988b983b32d0db17ed9870df6f6dcb324ae912310e196222302",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "draft.h",
+      "archive_sha256": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+      "checkout_sha256": "8728803acb7067d868e8bbc8fcf8935988c6972718fc0bfc69383a28ba278546",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "ep_model.h",
+      "archive_sha256": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+      "checkout_sha256": "90b0cbb17525bdeb3fc5bb2743d7c2ac470645a41ec9ed58c8b0a8f98e5addee",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "episode.cpp",
+      "archive_sha256": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+      "checkout_sha256": "b89b6099bde8ef9624bbcc451d32a5c7d9d11af4b58e632eadd8bb3b1b1ede7d",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "fight.cpp",
+      "archive_sha256": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+      "checkout_sha256": "478d89c27f986a8723a7ef11c6fc08cea6a2d479bb5d7daf69e154c5957bf219",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "fight.h",
+      "archive_sha256": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+      "checkout_sha256": "fdcfa7cf5a0010275307e954037bb9e92db77669b08971f03a3dfac8393ef247",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "learner.h",
+      "archive_sha256": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+      "checkout_sha256": "ad311b78c56500f107567f35f6c7ae2e62f58f96d26cc6ef1913c691601cf546",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "local_model.h",
+      "archive_sha256": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+      "checkout_sha256": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+      "exact_bytes": true,
+      "lf_equivalent": true
+    },
+    {
+      "path": "main.cpp",
+      "archive_sha256": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+      "checkout_sha256": "304f9687b3ecc08a0a5adf618548ab8f006020167383505dc2c46d086e9f35c5",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "strategy.h",
+      "archive_sha256": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+      "checkout_sha256": "33a830c8c831cc3f63c7129b2924865d074df8144e152f5899350a2f57a06370",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "tsearch.cpp",
+      "archive_sha256": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+      "checkout_sha256": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+      "exact_bytes": true,
+      "lf_equivalent": true
+    },
+    {
+      "path": "tsearch.h",
+      "archive_sha256": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+      "checkout_sha256": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+      "exact_bytes": true,
+      "lf_equivalent": true
+    },
+    {
+      "path": "world.cpp",
+      "archive_sha256": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+      "checkout_sha256": "1ab9ec4be85802677d5ab134b29efb80a7bdabaf0915033bfbd2771ea6c53fb9",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    },
+    {
+      "path": "world.h",
+      "archive_sha256": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af",
+      "checkout_sha256": "9576a9f4f2b59c7db38aa3c786e98213fc4c5caf2e3ecdc9c830b72218873234",
+      "exact_bytes": false,
+      "lf_equivalent": true
+    }
+  ],
+  "historical_manifest_toolchain_only": true,
+  "post_patch_wasm_sha256": null,
+  "candidate_modified": true,
+  "note": "Source/package audit only; actual post-patch WASM receipt is builds/v37-baseline/manifest.json and release/MANIFEST.json."
+}

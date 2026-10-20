@@ -1,0 +1,405 @@
+{
+  "rows": 1747,
+  "candidate_rows": 6181,
+  "issues": {
+    "one_round_deferred_stdout_line": 18413,
+    "context_join_mismatch": 428,
+    "partial_or_malformed_frame": 311,
+    "same_round_label_order_ambiguous": 2,
+    "not_final_executed_target": 2
+  },
+  "dataset_sha256": "d6f89894ee83df9c5e1124434f5c4355e63f1c7e3cbcca907153e8673f17fd38",
+  "candidate_sha256": "9325a1a6ce5efd7acc8c6211e23cb12acc98a9fb73f39cf31e5762fc42e491b1",
+  "splits": {
+    "train": 1218,
+    "validation": 198,
+    "test": 331
+  },
+  "labels": {
+    "collected": 646,
+    "abandoned": 1079,
+    "right_censored": 12,
+    "death": 10
+  },
+  "mode_counts": {
+    "nofarm": 683,
+    "stage": 6016,
+    "approach": 23394,
+    "siege": 606,
+    "fight": 12395,
+    "capture": 4413,
+    "home": 3033,
+    "flee": 3675,
+    "to-capture": 4302,
+    "fight-champ": 3224,
+    "kite-cast": 29,
+    "kite": 7,
+    "flee-dash": 33,
+    "tribute": 8043,
+    "wait-respawn": 6983,
+    "disengage": 144,
+    "home-escape": 1023,
+    "ambush": 26,
+    "cmicro": 1397,
+    "ambush-step": 9,
+    "evade-ambush": 2,
+    "fight-cast": 181,
+    "bush-ward": 8,
+    "bush-recall": 13,
+    "ambush-cast": 10,
+    "trib-deny": 6,
+    "tribute-win": 35,
+    "break-out": 9
+  },
+  "economy_examples": [
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 709,
+      "row": [
+        "V37M",
+        "34",
+        "0",
+        "home",
+        "0",
+        "19",
+        "4",
+        "56000",
+        "12",
+        "180",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 807,
+      "row": [
+        "V37M",
+        "39",
+        "0",
+        "home",
+        "0",
+        "2",
+        "2",
+        "56000",
+        "12",
+        "20",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 2087,
+      "row": [
+        "V37M",
+        "99",
+        "4",
+        "home",
+        "2",
+        "32",
+        "3",
+        "71000",
+        "19",
+        "160",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 2202,
+      "row": [
+        "V37M",
+        "104",
+        "4",
+        "home",
+        "2",
+        "2",
+        "2",
+        "71000",
+        "19",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 2521,
+      "row": [
+        "V37M",
+        "117",
+        "2",
+        "home",
+        "7",
+        "31",
+        "19",
+        "16000",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 2633,
+      "row": [
+        "V37M",
+        "120",
+        "0",
+        "home",
+        "4",
+        "32",
+        "8",
+        "19800",
+        "12",
+        "20",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 2733,
+      "row": [
+        "V37M",
+        "125",
+        "0",
+        "home",
+        "4",
+        "2",
+        "2",
+        "19800",
+        "12",
+        "20",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 3742,
+      "row": [
+        "V37M",
+        "181",
+        "0",
+        "home",
+        "0",
+        "22",
+        "2",
+        "12800",
+        "12",
+        "20",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 3830,
+      "row": [
+        "V37M",
+        "186",
+        "0",
+        "home",
+        "0",
+        "2",
+        "2",
+        "12800",
+        "12",
+        "20",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 4203,
+      "row": [
+        "V37M",
+        "204",
+        "3",
+        "home",
+        "0",
+        "18",
+        "5",
+        "84000",
+        "12",
+        "180",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 4297,
+      "row": [
+        "V37M",
+        "209",
+        "3",
+        "home",
+        "0",
+        "2",
+        "2",
+        "84000",
+        "12",
+        "20",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 4437,
+      "row": [
+        "V37M",
+        "216",
+        "4",
+        "home",
+        "2",
+        "31",
+        "5",
+        "34400",
+        "19",
+        "160",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 4524,
+      "row": [
+        "V37M",
+        "221",
+        "4",
+        "home",
+        "2",
+        "2",
+        "2",
+        "34400",
+        "19",
+        "10",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 5584,
+      "row": [
+        "V37M",
+        "275",
+        "3",
+        "home",
+        "0",
+        "18",
+        "4",
+        "88600",
+        "12",
+        "200",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 5705,
+      "row": [
+        "V37M",
+        "280",
+        "3",
+        "home",
+        "0",
+        "2",
+        "2",
+        "88600",
+        "12",
+        "20",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 5744,
+      "row": [
+        "V37M",
+        "282",
+        "0",
+        "home-escape",
+        "2",
+        "28",
+        "3",
+        "22600",
+        "12",
+        "20",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 5764,
+      "row": [
+        "V37M",
+        "283",
+        "0",
+        "home-escape",
+        "2",
+        "27",
+        "2",
+        "19800",
+        "12",
+        "20",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 5793,
+      "row": [
+        "V37M",
+        "284",
+        "0",
+        "home",
+        "2",
+        "27",
+        "2",
+        "19800",
+        "12",
+        "20",
+        "1"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 5898,
+      "row": [
+        "V37M",
+        "289",
+        "0",
+        "home",
+        "2",
+        "2",
+        "2",
+        "19800",
+        "12",
+        "20",
+        "0"
+      ]
+    },
+    {
+      "match": "f03ff0cbb3c3359ab9aea89d7b7a0476355db7a582375f02c642e8faaa0348f2",
+      "frame": 5918,
+      "row": [
+        "V37M",
+        "290",
+        "2",
+        "home",
+        "6",
+        "30",
+        "18",
+        "27000",
+        "0",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "not_activation_ready": [
+    "telemetry changes fuel/decisions",
+    "only six physical map groups",
+    "excluded reason coverage incomplete",
+    "camp-group index join needs geometry-level oracle",
+    "damage/recovery/secure episode labels not yet complete"
+  ],
+  "selection_bias": "Only selected observed decisions have labels. All unselected outcomes null. Instrumentation policy differs from production.",
+  "inputs": "Only bot-emitted values from the decision frame; replay/native future events supply labels only."
+}

@@ -1,0 +1,3187 @@
+[
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "81ac8b6689f275d24e57d586f2451a160484c15144f86afd0c4450e02c39e579",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 36193,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 100,
+      "mapHash": "81ac8b6689f275d24e57d586f2451a160484c15144f86afd0c4450e02c39e579",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1591,
+      "roundsStarted": 1592,
+      "seed": "17465944590158198232",
+      "width": 100
+    },
+    "scores": {
+      "teamA": 1005,
+      "teamB": 364
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.2959999999984575,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00ambush.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\42b1578ae1bed5a4b37aba394057fd37ef870246a8abb243116daad5df740181",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\42b1578ae1bed5a4b37aba394057fd37ef870246a8abb243116daad5df740181\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 1
+    },
+    "raw_hashes": {
+      "runner.log": "7995c52d8d0b2f2db4523e2515999a765292e7aeae7ba1e13977a77072c1cb74",
+      "statistics.json": "ad85906fe4792461aeb686eb66aa8d5776a30b4b53e020c459eddafd6da63af0",
+      "v37-baseline-vs-v37-baseline-1792534417554.repl26a": "5c7e6120ca5291124de245b2bd9902953c035cd772e05dea5da989711e00bba1"
+    },
+    "assignment": {
+      "id": "42b1578ae1bed5a4b37aba394057fd37ef870246a8abb243116daad5df740181",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "81ac8b6689f275d24e57d586f2451a160484c15144f86afd0c4450e02c39e579",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00ambush.map26a",
+      "side": 1,
+      "group": "81ac8b6689f275d24e57d586f2451a160484c15144f86afd0c4450e02c39e579"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "6e3c67956080f8da5a0042e68ea481189cd6f61061a742a8be0354a9ea5c5620",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 24260,
+      "finalRoundPartial": true,
+      "finalSubstep": 73,
+      "height": 41,
+      "mapHash": "6e3c67956080f8da5a0042e68ea481189cd6f61061a742a8be0354a9ea5c5620",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1624,
+      "roundsStarted": 1625,
+      "seed": "17615240315955964814",
+      "width": 41
+    },
+    "scores": {
+      "teamA": 1010,
+      "teamB": 609
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8430000000007567,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00collision.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\f2f1a1f90e51f8c32867e6233b410e229f85d580b2b6d1644802f04d80ccba75",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\f2f1a1f90e51f8c32867e6233b410e229f85d580b2b6d1644802f04d80ccba75\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 3,
+      "teamB": 3
+    },
+    "raw_hashes": {
+      "runner.log": "e61537ce7a3afe133ac18939df37d1c114a3d80a41daaf9edc9275d458549430",
+      "statistics.json": "756329034aae66341e1d318af36746ffe7eaeffd9cf08e24e4050168a42ab30d",
+      "v37-baseline-vs-v37-baseline-1792534417145.repl26a": "1b08b66f9f26ae9f74230ce8677d0e6b999f868aa5ea1c9169ba557ee81d0ff8"
+    },
+    "assignment": {
+      "id": "f2f1a1f90e51f8c32867e6233b410e229f85d580b2b6d1644802f04d80ccba75",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "6e3c67956080f8da5a0042e68ea481189cd6f61061a742a8be0354a9ea5c5620",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00collision.map26a",
+      "side": 1,
+      "group": "6e3c67956080f8da5a0042e68ea481189cd6f61061a742a8be0354a9ea5c5620"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "554240a5a793f8c1ac9c518cb6edbacab0129ec4dfd94b199331aaebd0bf418a",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 46690,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 50,
+      "mapHash": "554240a5a793f8c1ac9c518cb6edbacab0129ec4dfd94b199331aaebd0bf418a",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "11758779809297456917",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.0629999999982829,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00contest.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\e18cc559c576477b4f70b3bdd28725011ebfcd4a8d25ba27afac533d42c08e60",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\e18cc559c576477b4f70b3bdd28725011ebfcd4a8d25ba27afac533d42c08e60\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 8
+    },
+    "raw_hashes": {
+      "runner.log": "7a17f04b24e5d9f5917467efbda07708cee6d0dc2fd52cec78c749cead807fe3",
+      "statistics.json": "dbfa231844d1e9c29a2bebad7ca2d024cb7f2776757baf7e28f01c01c7ced0e4",
+      "v37-baseline-vs-v37-baseline-1792534418493.repl26a": "1a62b872b26872b25ce74c311dd927658d442e3d65620ebe70766781e2c02267"
+    },
+    "assignment": {
+      "id": "e18cc559c576477b4f70b3bdd28725011ebfcd4a8d25ba27afac533d42c08e60",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "554240a5a793f8c1ac9c518cb6edbacab0129ec4dfd94b199331aaebd0bf418a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00contest.map26a",
+      "side": 1,
+      "group": "554240a5a793f8c1ac9c518cb6edbacab0129ec4dfd94b199331aaebd0bf418a"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "97906cc38f503e027c041b681a877465519b3fcb19a410c316cf6efc40c909ea",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 29508,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 71,
+      "mapHash": "97906cc38f503e027c041b681a877465519b3fcb19a410c316cf6efc40c909ea",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1229,
+      "roundsStarted": 1230,
+      "seed": "14185859257870086076",
+      "width": 71
+    },
+    "scores": {
+      "teamA": 788,
+      "teamB": 1012
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8130000000019209,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00corners.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\93fe4f54e82fcab6ba0df8d0af6edc0684286b1e5e533e5e21e1f5da13206bdd",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\93fe4f54e82fcab6ba0df8d0af6edc0684286b1e5e533e5e21e1f5da13206bdd\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 13,
+      "teamB": 13
+    },
+    "raw_hashes": {
+      "runner.log": "e66bcd2aa51b24ec894c3390b1bc39162e27e627e508ee9d606e16e33d4ac0c1",
+      "statistics.json": "d7ec1db637939c7e783feb15f72dae08ffeffd2a687c7ea85f259708ddad1aa1",
+      "v37-baseline-vs-v37-baseline-1792534418722.repl26a": "cef2646b87b0b7eff39c7478a33a1023d55fae3294df9c91049c23aad2908aee"
+    },
+    "assignment": {
+      "id": "93fe4f54e82fcab6ba0df8d0af6edc0684286b1e5e533e5e21e1f5da13206bdd",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "97906cc38f503e027c041b681a877465519b3fcb19a410c316cf6efc40c909ea",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00corners.map26a",
+      "side": 1,
+      "group": "97906cc38f503e027c041b681a877465519b3fcb19a410c316cf6efc40c909ea"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "76b5ce0895130f5f423f3ac6a630c5cf8e1202d4150e6ad4e287c75d21794765",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 35439,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 30,
+      "mapHash": "76b5ce0895130f5f423f3ac6a630c5cf8e1202d4150e6ad4e287c75d21794765",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1437,
+      "roundsStarted": 1438,
+      "seed": "4688072832035281268",
+      "width": 41
+    },
+    "scores": {
+      "teamA": 282,
+      "teamB": 1031
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.875,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00eight.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\1078f7bbdb8f09c3c6534002d21f09047da92c865de2335f082c80043a0ba617",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\1078f7bbdb8f09c3c6534002d21f09047da92c865de2335f082c80043a0ba617\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 3,
+      "teamB": 1
+    },
+    "raw_hashes": {
+      "runner.log": "22f0d4c3159247e7e33272cbd161066e164db76908614a01ab8d8e370d5e5141",
+      "statistics.json": "3bb868245683434ab7c5bf059b0bff742469bfe6761c2905a9666e6de9b84eb4",
+      "v37-baseline-vs-v37-baseline-1792534419598.repl26a": "9c046c66fc689873f508b5ad48735d40c6021e6b8f8604a1a1a3e76406d8a61c"
+    },
+    "assignment": {
+      "id": "1078f7bbdb8f09c3c6534002d21f09047da92c865de2335f082c80043a0ba617",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "76b5ce0895130f5f423f3ac6a630c5cf8e1202d4150e6ad4e287c75d21794765",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00eight.map26a",
+      "side": 1,
+      "group": "76b5ce0895130f5f423f3ac6a630c5cf8e1202d4150e6ad4e287c75d21794765"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "4621e92590befe6b0438b7ecdd8fde5aa85945b27535f4968e701cf86934746e",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 27758,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 30,
+      "mapHash": "4621e92590befe6b0438b7ecdd8fde5aa85945b27535f4968e701cf86934746e",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1131,
+      "roundsStarted": 1132,
+      "seed": "15537562139140322559",
+      "width": 30
+    },
+    "scores": {
+      "teamA": 946,
+      "teamB": 1012
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.6569999999992433,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00elkring.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\5eb47156fd283ad51043e98c01e37d368dbec6222f5abebd433230679b49cb38",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\5eb47156fd283ad51043e98c01e37d368dbec6222f5abebd433230679b49cb38\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 1
+    },
+    "raw_hashes": {
+      "runner.log": "02d17f41d0a2baffa5e834506e0e17d1891057f07c1ed79940b25ff290f35b21",
+      "statistics.json": "b7b2102fa2c500d0b67c227ccd525ec87d1ccf47519ad2529c941b395d37ccf8",
+      "v37-baseline-vs-v37-baseline-1792534419663.repl26a": "0515dbff09c0564fc14f9cf3a31224fcf5ed72ee514913f523d87e1c06f5536d"
+    },
+    "assignment": {
+      "id": "5eb47156fd283ad51043e98c01e37d368dbec6222f5abebd433230679b49cb38",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "4621e92590befe6b0438b7ecdd8fde5aa85945b27535f4968e701cf86934746e",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00elkring.map26a",
+      "side": 1,
+      "group": "4621e92590befe6b0438b7ecdd8fde5aa85945b27535f4968e701cf86934746e"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "af4236f408f8450f7da871731f08ef80295f07fac86b541f6547639a78dc2205",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 31826,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 80,
+      "mapHash": "af4236f408f8450f7da871731f08ef80295f07fac86b541f6547639a78dc2205",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1338,
+      "roundsStarted": 1339,
+      "seed": "10043721595175768472",
+      "width": 80
+    },
+    "scores": {
+      "teamA": 1004,
+      "teamB": 747
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.9530000000013388,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00expanse.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\76e819ab2c7c4eb32acba20f5fb487fa4b6af95af9013824831a3cd5121b454d",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\76e819ab2c7c4eb32acba20f5fb487fa4b6af95af9013824831a3cd5121b454d\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "raw_hashes": {
+      "runner.log": "d0758d9ec56178433efab4642ef44ee284956eb9e5dcc244808ad7b9705abe61",
+      "statistics.json": "3e87a84dae4fec764c40341e123e64cf7218ca2d1d0c9e23b49d0f1aa12bdb32",
+      "v37-baseline-vs-v37-baseline-1792534420721.repl26a": "7f655b8687ae151ec6a1b46a1d89b690a0d1ee7ad8a921dcfa814f3ff4967286"
+    },
+    "assignment": {
+      "id": "76e819ab2c7c4eb32acba20f5fb487fa4b6af95af9013824831a3cd5121b454d",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "af4236f408f8450f7da871731f08ef80295f07fac86b541f6547639a78dc2205",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00expanse.map26a",
+      "side": 1,
+      "group": "af4236f408f8450f7da871731f08ef80295f07fac86b541f6547639a78dc2205"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "46512bf4fe1fc57d1651b15d44c283cac69cfce1914a5000d19fab979f5b8bbb",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 30123,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 30,
+      "mapHash": "46512bf4fe1fc57d1651b15d44c283cac69cfce1914a5000d19fab979f5b8bbb",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "4591273649087306031",
+      "width": 30
+    },
+    "scores": {
+      "teamA": 642,
+      "teamB": 314
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.6719999999986612,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00fragment.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\f8de90737089bc4f05d2962cd1614a93214722a6346ff530a95ce88b2f59cf0c",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\f8de90737089bc4f05d2962cd1614a93214722a6346ff530a95ce88b2f59cf0c\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 11,
+      "teamB": 3
+    },
+    "raw_hashes": {
+      "runner.log": "2edb9d7345efd126e8f6a6876c4bc022763292fc65d5881b45bfb865be0cf3ad",
+      "statistics.json": "c2e04cd9939e7c5c3b3f14361fd7bf9a552d8b1669168643eafb2722ab4675e8",
+      "v37-baseline-vs-v37-baseline-1792534420575.repl26a": "ce1c4bd6b87ba1aca85d6f22bdf9af52de90d6551a4fa7f50bf376fc0a1a244c"
+    },
+    "assignment": {
+      "id": "f8de90737089bc4f05d2962cd1614a93214722a6346ff530a95ce88b2f59cf0c",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "46512bf4fe1fc57d1651b15d44c283cac69cfce1914a5000d19fab979f5b8bbb",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00fragment.map26a",
+      "side": 1,
+      "group": "46512bf4fe1fc57d1651b15d44c283cac69cfce1914a5000d19fab979f5b8bbb"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "140e5bc3ac11c7f74dfc4ed99cc53739a34be8d3f71a7f4d0520dc4a3c197e19",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 39908,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 40,
+      "mapHash": "140e5bc3ac11c7f74dfc4ed99cc53739a34be8d3f71a7f4d0520dc4a3c197e19",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "18344066406048988568",
+      "width": 40
+    },
+    "scores": {
+      "teamA": 795,
+      "teamB": 532
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.9690000000009604,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00interlock.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\fccec57cf9de1b1409e19748cf4f5eeca3ff78285df708695f96a539b54bee05",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\fccec57cf9de1b1409e19748cf4f5eeca3ff78285df708695f96a539b54bee05\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 3
+    },
+    "raw_hashes": {
+      "runner.log": "eb658e1a0e2da43b009400c494f07e7e86091def8376630a6154dd35a8c9fc44",
+      "statistics.json": "9ca36bf3c04864f9fe7dd8f6cbce927ee677c0bfd698bc1682ed7e6edced7819",
+      "v37-baseline-vs-v37-baseline-1792534421679.repl26a": "5cec8dadc0026ea32e0bf1b93f0a8e2af38d384a5c3828b32426c329db6e6521"
+    },
+    "assignment": {
+      "id": "fccec57cf9de1b1409e19748cf4f5eeca3ff78285df708695f96a539b54bee05",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "140e5bc3ac11c7f74dfc4ed99cc53739a34be8d3f71a7f4d0520dc4a3c197e19",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00interlock.map26a",
+      "side": 1,
+      "group": "140e5bc3ac11c7f74dfc4ed99cc53739a34be8d3f71a7f4d0520dc4a3c197e19"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "8ca26ed2ea65c7d80ceb9604a7431ca1dc056922912b4e2f46cad06051e4886a",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 29165,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 30,
+      "mapHash": "8ca26ed2ea65c7d80ceb9604a7431ca1dc056922912b4e2f46cad06051e4886a",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1205,
+      "roundsStarted": 1206,
+      "seed": "15497727643895809986",
+      "width": 90
+    },
+    "scores": {
+      "teamA": 1006,
+      "teamB": 800
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8280000000013388,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00lanes.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\0287cb22eb249396eded78fb7f35d70110c351fcac84561538715e4dbad55eab",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\0287cb22eb249396eded78fb7f35d70110c351fcac84561538715e4dbad55eab\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 35,
+      "teamB": 24
+    },
+    "raw_hashes": {
+      "runner.log": "c7904e320a889a74953d2acfbb8ddd4a351411e0beb5f8b61065d45bde495de7",
+      "statistics.json": "3c595e92e5009616eaa0a9c871914d092fba5117223dfa19611b2ccbf6ac70c6",
+      "v37-baseline-vs-v37-baseline-1792534421837.repl26a": "2de005dee18aa59052be98f2b5e6773f564536a90b491e479f9d65bad42fdb79"
+    },
+    "assignment": {
+      "id": "0287cb22eb249396eded78fb7f35d70110c351fcac84561538715e4dbad55eab",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "8ca26ed2ea65c7d80ceb9604a7431ca1dc056922912b4e2f46cad06051e4886a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00lanes.map26a",
+      "side": 1,
+      "group": "8ca26ed2ea65c7d80ceb9604a7431ca1dc056922912b4e2f46cad06051e4886a"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "ba5674bf2ab26336eb99df0c9e97c16b27bd231deffc023de1d873a05a558313",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 31334,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 50,
+      "mapHash": "ba5674bf2ab26336eb99df0c9e97c16b27bd231deffc023de1d873a05a558313",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1288,
+      "roundsStarted": 1289,
+      "seed": "10600525974676784129",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 1002,
+      "teamB": 712
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.9059999999990396,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00monolith.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\2a4d7c978d02f91b52d029025ad28850953dced8e777258a637036536188ad11",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\2a4d7c978d02f91b52d029025ad28850953dced8e777258a637036536188ad11\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 1
+    },
+    "raw_hashes": {
+      "runner.log": "286852df9cf70e75e1a14134daad54e5dfca4f41a8cb8e46aadb60f6214daec4",
+      "statistics.json": "4ca3013c7ffd615858b29de8b444553ebb78303971ef4e0fea4ac47f788c50bb",
+      "v37-baseline-vs-v37-baseline-1792534422879.repl26a": "bf4d32806a1d40f6ecf8d06f2a170633d6e7184b6599973703a106b5a651c31d"
+    },
+    "assignment": {
+      "id": "2a4d7c978d02f91b52d029025ad28850953dced8e777258a637036536188ad11",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "ba5674bf2ab26336eb99df0c9e97c16b27bd231deffc023de1d873a05a558313",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00monolith.map26a",
+      "side": 1,
+      "group": "ba5674bf2ab26336eb99df0c9e97c16b27bd231deffc023de1d873a05a558313"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "60ee7a86ee377a04a77d11008b78aaed9e2c1cfcfc4302055974195e078c675a",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 30428,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 31,
+      "mapHash": "60ee7a86ee377a04a77d11008b78aaed9e2c1cfcfc4302055974195e078c675a",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "1136832162580023654",
+      "width": 31
+    },
+    "scores": {
+      "teamA": 608,
+      "teamB": 892
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.6719999999986612,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00packs.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\259f194fc7d049dc46dac296c48d96edd2cd1e79862ef41ea38865555c260434",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\259f194fc7d049dc46dac296c48d96edd2cd1e79862ef41ea38865555c260434\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 4,
+      "teamB": 6
+    },
+    "raw_hashes": {
+      "runner.log": "6521c85063ceed3d7c5c04582489029b968150b5b1cac5a0b7ff946dcaca3bf6",
+      "statistics.json": "fc1829b97cc236d402cf87e7c729dc3d5c0f9fab0d68dd1124cd0bb2aff735e6",
+      "v37-baseline-vs-v37-baseline-1792534422792.repl26a": "5dcccbb97e27982ff077974cf0f2c3462261dd6924e8c8a43cfaa6540d477360"
+    },
+    "assignment": {
+      "id": "259f194fc7d049dc46dac296c48d96edd2cd1e79862ef41ea38865555c260434",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "60ee7a86ee377a04a77d11008b78aaed9e2c1cfcfc4302055974195e078c675a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00packs.map26a",
+      "side": 1,
+      "group": "60ee7a86ee377a04a77d11008b78aaed9e2c1cfcfc4302055974195e078c675a"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "7d7ddb9c37c77cd8b3721423e155400d936eaa76fa3c62fe24b308d0fd5eb673",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 47539,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 65,
+      "mapHash": "7d7ddb9c37c77cd8b3721423e155400d936eaa76fa3c62fe24b308d0fd5eb673",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "8603851090670354069",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 835,
+      "teamB": 418
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.3440000000009604,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00pilgrimage.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\10836597f38f987975a3bb6c574779941c62fbc5424f5b9e92d82021bea37bb6",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\10836597f38f987975a3bb6c574779941c62fbc5424f5b9e92d82021bea37bb6\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 8,
+      "teamB": 2
+    },
+    "raw_hashes": {
+      "runner.log": "6a4b50e9650d981b9f21e1d6aea478b28e1ecfdf304c98a2bc06182c1d8657b2",
+      "statistics.json": "20f38a0afbf74b5a18b63574d6cf482bec55b7c56bc366b28ffe3e1da73fd8b9",
+      "v37-baseline-vs-v37-baseline-1792534424297.repl26a": "7f6619d7989a473f2b7e9c64fe7e74f91abc9836a8edf877606d3ddeb2ad3d0f"
+    },
+    "assignment": {
+      "id": "10836597f38f987975a3bb6c574779941c62fbc5424f5b9e92d82021bea37bb6",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "7d7ddb9c37c77cd8b3721423e155400d936eaa76fa3c62fe24b308d0fd5eb673",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00pilgrimage.map26a",
+      "side": 1,
+      "group": "7d7ddb9c37c77cd8b3721423e155400d936eaa76fa3c62fe24b308d0fd5eb673"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "261fe6c133f076653bda84e88965dc35c5a59a70e7730082b4c6df9ca892df92",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 15061,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 45,
+      "mapHash": "261fe6c133f076653bda84e88965dc35c5a59a70e7730082b4c6df9ca892df92",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 624,
+      "roundsStarted": 625,
+      "seed": "2128964925627903307",
+      "width": 45
+    },
+    "scores": {
+      "teamA": 1008,
+      "teamB": 698
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.5629999999982829,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00quadrants.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\ee4c3acac6001b3efa92bdb5441b4608ad65a5337039798003763a23b4b85a8e",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\ee4c3acac6001b3efa92bdb5441b4608ad65a5337039798003763a23b4b85a8e\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 4,
+      "teamB": 2
+    },
+    "raw_hashes": {
+      "runner.log": "6846fcb1cae0570512e48cacfc601b405738f074432e7d4f8434ce125370d18f",
+      "statistics.json": "984e8b5d3c50be40ca4662482d3fa789ba72383bbc233e1e2c658ecd61d59da6",
+      "v37-baseline-vs-v37-baseline-1792534423741.repl26a": "4b291c05b89a5e8b79878f9c40a6f1d651c65e23ae41f7f7e56042c99371ec51"
+    },
+    "assignment": {
+      "id": "ee4c3acac6001b3efa92bdb5441b4608ad65a5337039798003763a23b4b85a8e",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "261fe6c133f076653bda84e88965dc35c5a59a70e7730082b4c6df9ca892df92",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00quadrants.map26a",
+      "side": 1,
+      "group": "261fe6c133f076653bda84e88965dc35c5a59a70e7730082b4c6df9ca892df92"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "f57669ffc98b76a5c2e4eccba41690dc193efc29f067ee960605617b2cfb48e5",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 33994,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 30,
+      "mapHash": "f57669ffc98b76a5c2e4eccba41690dc193efc29f067ee960605617b2cfb48e5",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1552,
+      "roundsStarted": 1553,
+      "seed": "13917736029824507136",
+      "width": 30
+    },
+    "scores": {
+      "teamA": 763,
+      "teamB": 1056
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.875,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00reverse-spiral.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\43e6bda53f87e0cd4ec400049520aeeb95005eb411049c262e42ce25d3143c81",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\43e6bda53f87e0cd4ec400049520aeeb95005eb411049c262e42ce25d3143c81\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 2
+    },
+    "raw_hashes": {
+      "runner.log": "08f6bc9488ae77301b9574531e442ba5c7479098c7dd24f5d26c4f6b883fed77",
+      "statistics.json": "b9c751a0b5b053cc3384510f10aa306520eec1839905c871cbaf65f18cc9fe4e",
+      "v37-baseline-vs-v37-baseline-1792534424694.repl26a": "1bf8c7902fe497ce790ea6e83cecdcad9c85023b58e6097c5da1632b1ea8e2ee"
+    },
+    "assignment": {
+      "id": "43e6bda53f87e0cd4ec400049520aeeb95005eb411049c262e42ce25d3143c81",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f57669ffc98b76a5c2e4eccba41690dc193efc29f067ee960605617b2cfb48e5",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00reverse-spiral.map26a",
+      "side": 1,
+      "group": "f57669ffc98b76a5c2e4eccba41690dc193efc29f067ee960605617b2cfb48e5"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "6a4203ae1bfe86ad0f6b083f390cfd8e2f5e45f7e4102f6a2f27205d5333e701",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 30970,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 50,
+      "mapHash": "6a4203ae1bfe86ad0f6b083f390cfd8e2f5e45f7e4102f6a2f27205d5333e701",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1577,
+      "roundsStarted": 1578,
+      "seed": "7750678344809992228",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 927,
+      "teamB": 1010
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8130000000019209,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00rows.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\27f0608dab35080d9b83c705a143b90beaac25b8c84c8dad06d55d8b744318da",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\27f0608dab35080d9b83c705a143b90beaac25b8c84c8dad06d55d8b744318da\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 5
+    },
+    "raw_hashes": {
+      "runner.log": "04ebef859b0f5f30b311b55a80c640233cd226f3314942a2d4cbd0d73c7fb213",
+      "statistics.json": "46d1dbb11c87ea6d23960c1a28ad840b02363ea4275567ae3e80072e3ecc91e8",
+      "v37-baseline-vs-v37-baseline-1792534425379.repl26a": "69f081e0e190ed3dadd9be6058c59c6b2cf42d51dd548b191c235a9df843f4a6"
+    },
+    "assignment": {
+      "id": "27f0608dab35080d9b83c705a143b90beaac25b8c84c8dad06d55d8b744318da",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "6a4203ae1bfe86ad0f6b083f390cfd8e2f5e45f7e4102f6a2f27205d5333e701",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00rows.map26a",
+      "side": 1,
+      "group": "6a4203ae1bfe86ad0f6b083f390cfd8e2f5e45f7e4102f6a2f27205d5333e701"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "f4dcc30269aa7d0983e7d244f72c3d2a9a6d7ce918cd00495d465b78b2609157",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 29173,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 80,
+      "mapHash": "f4dcc30269aa7d0983e7d244f72c3d2a9a6d7ce918cd00495d465b78b2609157",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1404,
+      "roundsStarted": 1405,
+      "seed": "4703078369971537070",
+      "width": 30
+    },
+    "scores": {
+      "teamA": 1050,
+      "teamB": 495
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8129999999982829,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00rushbait-v2.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\0905daa77a5b50e6270138609a5d5270cc073e914d730c4ecee23d34f18ef79b",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\0905daa77a5b50e6270138609a5d5270cc073e914d730c4ecee23d34f18ef79b\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 1
+    },
+    "raw_hashes": {
+      "runner.log": "4eefec95284ba4a5c6b5b3a370353f6b362a7d979049c64d8de41a3fe5d35b8a",
+      "statistics.json": "761bcab330ed11fb2498328ee5e37f8898fb99462754140911f295c749d56b09",
+      "v37-baseline-vs-v37-baseline-1792534425713.repl26a": "eb2faef7ee5c9b92b91343f10f851bf5c4b845879168e79c26bff29dca425490"
+    },
+    "assignment": {
+      "id": "0905daa77a5b50e6270138609a5d5270cc073e914d730c4ecee23d34f18ef79b",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f4dcc30269aa7d0983e7d244f72c3d2a9a6d7ce918cd00495d465b78b2609157",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00rushbait-v2.map26a",
+      "side": 1,
+      "group": "f4dcc30269aa7d0983e7d244f72c3d2a9a6d7ce918cd00495d465b78b2609157"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "1db691b7def9cb585314c7c4139ef1b79df87fcdbfab9d86ef31666c4709a4c4",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 25078,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 35,
+      "mapHash": "1db691b7def9cb585314c7c4139ef1b79df87fcdbfab9d86ef31666c4709a4c4",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1057,
+      "roundsStarted": 1058,
+      "seed": "16318665973931078974",
+      "width": 45
+    },
+    "scores": {
+      "teamA": 504,
+      "teamB": 1058
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8120000000017171,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00split.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\c75c28a1f7d5c84809208efc9d1693ffa6040a9351d8ee1f72093fc3c7cd69e0",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\c75c28a1f7d5c84809208efc9d1693ffa6040a9351d8ee1f72093fc3c7cd69e0\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 11,
+      "teamB": 16
+    },
+    "raw_hashes": {
+      "runner.log": "6f2e27aed6096d872c4a023878d9e025a237d755618294f08173c2632a88e6e5",
+      "statistics.json": "1f6e2f120e2c6892044b0d99c2b66a70b7f6b8c76f8931612370e9fa1c66d4aa",
+      "v37-baseline-vs-v37-baseline-1792534426399.repl26a": "d0efe00f97bf26de51b8172a5a8348fbde2c95987eacbe94be3ca9d04572cc54"
+    },
+    "assignment": {
+      "id": "c75c28a1f7d5c84809208efc9d1693ffa6040a9351d8ee1f72093fc3c7cd69e0",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "1db691b7def9cb585314c7c4139ef1b79df87fcdbfab9d86ef31666c4709a4c4",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00split.map26a",
+      "side": 1,
+      "group": "1db691b7def9cb585314c7c4139ef1b79df87fcdbfab9d86ef31666c4709a4c4"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "49807e4756ec1b2030ed2ca7ebdd8a07f1a6ed7f2d2bd751e6941f5c0c877cdc",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 45063,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 50,
+      "mapHash": "49807e4756ec1b2030ed2ca7ebdd8a07f1a6ed7f2d2bd751e6941f5c0c877cdc",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "5628688039905818090",
+      "width": 60
+    },
+    "scores": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.1090000000003783,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00stampede.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\1cf23c470aadec2ff43ff29d976b22bb51e32ed29cfc16c3651492635e76e4e6",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\1cf23c470aadec2ff43ff29d976b22bb51e32ed29cfc16c3651492635e76e4e6\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 19,
+      "teamB": 21
+    },
+    "raw_hashes": {
+      "runner.log": "abdcd1922419bd77591805809a05e8b1df15a6d26389a3ffcaad45d44398d5da",
+      "statistics.json": "32e57ecf24449a3beeda532ddae4800c0b7d98237f84a1ee0331850d636591a9",
+      "v37-baseline-vs-v37-baseline-1792534427051.repl26a": "9c40b92b3e7180e4a18be78e7949bf30a887a5c2c529e1983dfa2a37f648544d"
+    },
+    "assignment": {
+      "id": "1cf23c470aadec2ff43ff29d976b22bb51e32ed29cfc16c3651492635e76e4e6",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "49807e4756ec1b2030ed2ca7ebdd8a07f1a6ed7f2d2bd751e6941f5c0c877cdc",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00stampede.map26a",
+      "side": 1,
+      "group": "49807e4756ec1b2030ed2ca7ebdd8a07f1a6ed7f2d2bd751e6941f5c0c877cdc"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "e6f860670947b1326f34c86515db8ef6893c565eaa69e3f9a6464ec5744e1c93",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 37687,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 30,
+      "mapHash": "e6f860670947b1326f34c86515db8ef6893c565eaa69e3f9a6464ec5744e1c93",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "9524772109193877957",
+      "width": 45
+    },
+    "scores": {
+      "teamA": 721,
+      "teamB": 506
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8910000000032596,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00swirl.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\cef30ad2d56124e8360d9e09a44e77593087678b187613b703a3de5b90af6ddb",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\cef30ad2d56124e8360d9e09a44e77593087678b187613b703a3de5b90af6ddb\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 21,
+      "teamB": 41
+    },
+    "raw_hashes": {
+      "runner.log": "fe96f2d35040003bca6f2e301c6677ee87b7dd376783082c1a93ad6308788b4d",
+      "statistics.json": "9212dbe2990ac70e0f9146e305c01cc68ed8188fda53a11d344876abf74a3254",
+      "v37-baseline-vs-v37-baseline-1792534427381.repl26a": "ecc0f7c40bd2b3d10ff0aaa8ec7d47b500d46ebeb5317391cf224ffe640d330b"
+    },
+    "assignment": {
+      "id": "cef30ad2d56124e8360d9e09a44e77593087678b187613b703a3de5b90af6ddb",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "e6f860670947b1326f34c86515db8ef6893c565eaa69e3f9a6464ec5744e1c93",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\00swirl.map26a",
+      "side": 1,
+      "group": "e6f860670947b1326f34c86515db8ef6893c565eaa69e3f9a6464ec5744e1c93"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "f1ecb726472858efb1d75d00b0d7668be18d83a010b2abf9a1f8c38aab456aa5",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 29273,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 100,
+      "mapHash": "f1ecb726472858efb1d75d00b0d7668be18d83a010b2abf9a1f8c38aab456aa5",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1605,
+      "roundsStarted": 1606,
+      "seed": "5738476857181404010",
+      "width": 100
+    },
+    "scores": {
+      "teamA": 584,
+      "teamB": 1008
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.139999999999418,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01big-world.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\2ebd0b398d13a189da480cffcb8b2001284528c79b71a765acc01691bfd52e36",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\2ebd0b398d13a189da480cffcb8b2001284528c79b71a765acc01691bfd52e36\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 99,
+      "teamB": 117
+    },
+    "raw_hashes": {
+      "runner.log": "56c38b16bc0af7e76dcddf8b2746206ff7ec3405a5ab11b9b3fda8dea9efb0be",
+      "statistics.json": "2184ec9e4e764fed17e565963f360629fdd7e260adacb943dfb81766b02859d7",
+      "v37-baseline-vs-v37-baseline-1792534428427.repl26a": "878bf1c9ad6f9e98ad3f3b5ea417c2120c842f48de780674e396ffaf0425634d"
+    },
+    "assignment": {
+      "id": "2ebd0b398d13a189da480cffcb8b2001284528c79b71a765acc01691bfd52e36",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f1ecb726472858efb1d75d00b0d7668be18d83a010b2abf9a1f8c38aab456aa5",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01big-world.map26a",
+      "side": 1,
+      "group": "f1ecb726472858efb1d75d00b0d7668be18d83a010b2abf9a1f8c38aab456aa5"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "53086e249294aed6f427fe647d578303589a081e953c62a0ff8f20cade9993fa",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 45124,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 41,
+      "mapHash": "53086e249294aed6f427fe647d578303589a081e953c62a0ff8f20cade9993fa",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "5877939768920429387",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 587,
+      "teamB": 174
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.2030000000013388,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01boss-battle.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\a8fba63634ab20f6690906fbdfc9287d517d8c34c5134c2fe481aba4e083e89a",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\a8fba63634ab20f6690906fbdfc9287d517d8c34c5134c2fe481aba4e083e89a\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 70,
+      "teamB": 154
+    },
+    "raw_hashes": {
+      "runner.log": "5ae90d92257756a1c98157744f4675ddb4f70d425dcd1f8ebd17d68fcb05a9a1",
+      "statistics.json": "2008c302272f574b9a35834708347aa20f293ccbcad43ae1deecca874e84c501",
+      "v37-baseline-vs-v37-baseline-1792534428751.repl26a": "cafe3818e5ae35c599e383ba0aeb499d6e5efb60ec2d233346d3aff75a7d73fc"
+    },
+    "assignment": {
+      "id": "a8fba63634ab20f6690906fbdfc9287d517d8c34c5134c2fe481aba4e083e89a",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "53086e249294aed6f427fe647d578303589a081e953c62a0ff8f20cade9993fa",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01boss-battle.map26a",
+      "side": 1,
+      "group": "53086e249294aed6f427fe647d578303589a081e953c62a0ff8f20cade9993fa"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "1763423b171f3b61128b2a913a10f46ba550e7a2e79ae27dd89e915c952b5117",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 25751,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 40,
+      "mapHash": "1763423b171f3b61128b2a913a10f46ba550e7a2e79ae27dd89e915c952b5117",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1664,
+      "roundsStarted": 1665,
+      "seed": "10216709917462710018",
+      "width": 40
+    },
+    "scores": {
+      "teamA": 755,
+      "teamB": 1013
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.7659999999996217,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01broken-curve.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\4c2eec588e305cd5aa00e7271477bc23fd8dd6432d2b8358d68b4b7000b8e6ce",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\4c2eec588e305cd5aa00e7271477bc23fd8dd6432d2b8358d68b4b7000b8e6ce\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 8,
+      "teamB": 3
+    },
+    "raw_hashes": {
+      "runner.log": "ef565f0fb6cfe3d60ea50840dffc0d3ad8bb4e6f8ab8f27e1fa1afc88834cd41",
+      "statistics.json": "e29d352a69fa37ad171992225d537c11bc1b7515b02929d3a46c747bdbf2d520",
+      "v37-baseline-vs-v37-baseline-1792534429436.repl26a": "b5ad14e8cdcb6552458d822bcb57e862ea3b06f1410a345fd15d6245fb50113c"
+    },
+    "assignment": {
+      "id": "4c2eec588e305cd5aa00e7271477bc23fd8dd6432d2b8358d68b4b7000b8e6ce",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "1763423b171f3b61128b2a913a10f46ba550e7a2e79ae27dd89e915c952b5117",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01broken-curve.map26a",
+      "side": 1,
+      "group": "1763423b171f3b61128b2a913a10f46ba550e7a2e79ae27dd89e915c952b5117"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "dc09c386d5e9dec3cec8bc4575c19d43233e08790e138ccd02be4644f2808c65",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 38979,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 61,
+      "mapHash": "dc09c386d5e9dec3cec8bc4575c19d43233e08790e138ccd02be4644f2808c65",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1615,
+      "roundsStarted": 1616,
+      "seed": "17101657514075302670",
+      "width": 61
+    },
+    "scores": {
+      "teamA": 894,
+      "teamB": 1022
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.1570000000028813,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01concentrated-wealth.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\b9e1bc01fba933ac5487104a809631e30d5920d0839ae86d83b823d40adb3136",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\b9e1bc01fba933ac5487104a809631e30d5920d0839ae86d83b823d40adb3136\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 2
+    },
+    "raw_hashes": {
+      "runner.log": "9157ec597b9e5964ca334df3aa7d1d5f2fc8a76ab46ceb10dafc651eabccfd76",
+      "statistics.json": "ac3914a9ca1b72dc40a0d6a7b27757bad09d91d7eaee4d43b9a3d621245e172b",
+      "v37-baseline-vs-v37-baseline-1792534430169.repl26a": "a76a256841eeec68a4b34c034df11247b63988d40126fe309e4067e9ca4b9fd7"
+    },
+    "assignment": {
+      "id": "b9e1bc01fba933ac5487104a809631e30d5920d0839ae86d83b823d40adb3136",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "dc09c386d5e9dec3cec8bc4575c19d43233e08790e138ccd02be4644f2808c65",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01concentrated-wealth.map26a",
+      "side": 1,
+      "group": "dc09c386d5e9dec3cec8bc4575c19d43233e08790e138ccd02be4644f2808c65"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "794132d979b297de5a534da393af8932cd2d5cc9d831e79d2cefdb4617d4d5e8",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 43642,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 40,
+      "mapHash": "794132d979b297de5a534da393af8932cd2d5cc9d831e79d2cefdb4617d4d5e8",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "2827948941545917667",
+      "width": 51
+    },
+    "scores": {
+      "teamA": 666,
+      "teamB": 128
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.125,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01corridors.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\1ced4b62f27195d6b8dc6af56eb690e9cd28f4a23c9f7706e94f4de1edd2fbc0",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\1ced4b62f27195d6b8dc6af56eb690e9cd28f4a23c9f7706e94f4de1edd2fbc0\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 1,
+      "teamB": 3
+    },
+    "raw_hashes": {
+      "runner.log": "cda285a397a4741e488a5a21a563d96b65f4564ce5443fe9e4cec21ae17b7d0d",
+      "statistics.json": "ceb2ac654152cfe0902b318b4f2a2afb776c38f7773155c6c40a99be36cd2ff6",
+      "v37-baseline-vs-v37-baseline-1792534430741.repl26a": "fdf8d5c7381eb54af2a8f96ff85a0237d6db1dc8b8d0f47f708e197a086636ad"
+    },
+    "assignment": {
+      "id": "1ced4b62f27195d6b8dc6af56eb690e9cd28f4a23c9f7706e94f4de1edd2fbc0",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "794132d979b297de5a534da393af8932cd2d5cc9d831e79d2cefdb4617d4d5e8",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01corridors.map26a",
+      "side": 1,
+      "group": "794132d979b297de5a534da393af8932cd2d5cc9d831e79d2cefdb4617d4d5e8"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "72b8e03bc4378d5f988f9c1c07609848bfb42fd8a883cce01820d96212f21c0a",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 45597,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 50,
+      "mapHash": "72b8e03bc4378d5f988f9c1c07609848bfb42fd8a883cce01820d96212f21c0a",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "18346891530149115012",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 432,
+      "teamB": 828
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.0,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01elk-arena.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\52116a2f735590d1b613c824b02c57684ffbe70ccafdf6b5f71a322970b87e28",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\52116a2f735590d1b613c824b02c57684ffbe70ccafdf6b5f71a322970b87e28\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 8,
+      "teamB": 16
+    },
+    "raw_hashes": {
+      "runner.log": "6861ce99d57f848b7147ab018437eefe5182d5362e575d0287d626c9934f0d3e",
+      "statistics.json": "6897286ff7c545416b43dda4c6a9b52e58142316952d7df27810b62919c31a09",
+      "v37-baseline-vs-v37-baseline-1792534431387.repl26a": "5fe4e4c60e3f55129c1adc6b7c8f00d6fb308283a52d377effd12e8177f25321"
+    },
+    "assignment": {
+      "id": "52116a2f735590d1b613c824b02c57684ffbe70ccafdf6b5f71a322970b87e28",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "72b8e03bc4378d5f988f9c1c07609848bfb42fd8a883cce01820d96212f21c0a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01elk-arena.map26a",
+      "side": 1,
+      "group": "72b8e03bc4378d5f988f9c1c07609848bfb42fd8a883cce01820d96212f21c0a"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "f82a1b99a7a70f8ab21f275dc8e22fbad6a71030f09fdd224d61977fe55dd914",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 30513,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 71,
+      "mapHash": "f82a1b99a7a70f8ab21f275dc8e22fbad6a71030f09fdd224d61977fe55dd914",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1262,
+      "roundsStarted": 1263,
+      "seed": "2382417794428096208",
+      "width": 61
+    },
+    "scores": {
+      "teamA": 1016,
+      "teamB": 662
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.0,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01fracture.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\22fcf581c411e59cec180b57995cfbe965f1be1516af5ee4c55e3e5efca47d6d",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\22fcf581c411e59cec180b57995cfbe965f1be1516af5ee4c55e3e5efca47d6d\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "raw_hashes": {
+      "runner.log": "ed7f5df88f502221afe5b274f3cc3ff3d74b14c2b1d315c22a10d18d04cd9955",
+      "statistics.json": "8b4975c09ae91138067e566ce52a21069139002af205e9d94ac52b6f0e57f937",
+      "v37-baseline-vs-v37-baseline-1792534431909.repl26a": "f91cd57c3cacd59beb45cbf2ef862c3d3f79c7626d520cd8e91f8e697353d162"
+    },
+    "assignment": {
+      "id": "22fcf581c411e59cec180b57995cfbe965f1be1516af5ee4c55e3e5efca47d6d",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f82a1b99a7a70f8ab21f275dc8e22fbad6a71030f09fdd224d61977fe55dd914",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01fracture.map26a",
+      "side": 1,
+      "group": "f82a1b99a7a70f8ab21f275dc8e22fbad6a71030f09fdd224d61977fe55dd914"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "6e564fdf09fdf67a4182a909d6985737b488742e64f2c3e164204e78bc64c898",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 29440,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 31,
+      "mapHash": "6e564fdf09fdf67a4182a909d6985737b488742e64f2c3e164204e78bc64c898",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "10722763030783910956",
+      "width": 31
+    },
+    "scores": {
+      "teamA": 761,
+      "teamB": 462
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.8440000000009604,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01gold-rush.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\35c731bfab9c3495523957b7b12ecd6255bd80841f6bbdcf4abdc745945dcc63",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\35c731bfab9c3495523957b7b12ecd6255bd80841f6bbdcf4abdc745945dcc63\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 4,
+      "teamB": 1
+    },
+    "raw_hashes": {
+      "runner.log": "41b79a2ca62f9c6dc793d0eb111e000d8f9c03ec2b1f4e0a545805377b23f0b4",
+      "statistics.json": "eaf2c65c04a57cb48101b0361d7daebebacab3278592ae339ed7c06f1a6339e2",
+      "v37-baseline-vs-v37-baseline-1792534432432.repl26a": "29c5c61fa6abe35e3627ff8cc9d4241e6c7c315fc3c2ce5099134c378be24a75"
+    },
+    "assignment": {
+      "id": "35c731bfab9c3495523957b7b12ecd6255bd80841f6bbdcf4abdc745945dcc63",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "6e564fdf09fdf67a4182a909d6985737b488742e64f2c3e164204e78bc64c898",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01gold-rush.map26a",
+      "side": 1,
+      "group": "6e564fdf09fdf67a4182a909d6985737b488742e64f2c3e164204e78bc64c898"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "23e58fe8f41ff66761ade251d3d10a9c3eead864f9ad74f12ad9e34f4bece378",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 38758,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 31,
+      "mapHash": "23e58fe8f41ff66761ade251d3d10a9c3eead864f9ad74f12ad9e34f4bece378",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "18079121114775888513",
+      "width": 31
+    },
+    "scores": {
+      "teamA": 682,
+      "teamB": 726
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.9059999999990396,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01hooks.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\88141c8f9e800b6bb777a767841c3dc88c5b15483c2f886d4046740ed9f28988",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\88141c8f9e800b6bb777a767841c3dc88c5b15483c2f886d4046740ed9f28988\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "raw_hashes": {
+      "runner.log": "a516c09e755859da1e8e286de77bfe9a1585e5d547b38baf6fbc93a478b23197",
+      "statistics.json": "7dd356997f643143e792fdb890c8081655f262d39e5808f18c19bbd20c1be657",
+      "v37-baseline-vs-v37-baseline-1792534433060.repl26a": "f31116e3272d9c297aabe438206e149a5fd6acd5553c5356c38708e09051f93d"
+    },
+    "assignment": {
+      "id": "88141c8f9e800b6bb777a767841c3dc88c5b15483c2f886d4046740ed9f28988",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "23e58fe8f41ff66761ade251d3d10a9c3eead864f9ad74f12ad9e34f4bece378",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01hooks.map26a",
+      "side": 1,
+      "group": "23e58fe8f41ff66761ade251d3d10a9c3eead864f9ad74f12ad9e34f4bece378"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "d97cf04b738393812fb51024582e2a6cfba8a850b19ce031f2c1ad3d7b916acb",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 41066,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 60,
+      "mapHash": "d97cf04b738393812fb51024582e2a6cfba8a850b19ce031f2c1ad3d7b916acb",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1853,
+      "roundsStarted": 1854,
+      "seed": "2465940060715065943",
+      "width": 60
+    },
+    "scores": {
+      "teamA": 534,
+      "teamB": 1006
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.1720000000022992,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01islands.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\95cc9a1d34210e6e979c4db1b4d0ac8981632d75f3af27613c946d91380dd783",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\95cc9a1d34210e6e979c4db1b4d0ac8981632d75f3af27613c946d91380dd783\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 20,
+      "teamB": 18
+    },
+    "raw_hashes": {
+      "runner.log": "3e8779601cc180557ab868ee8e7baa9f475b8ef854eb26c60d53fe459c12102e",
+      "statistics.json": "04f444280cb406b91b4a53607c31527e2520cdc56b25f6b94a0cc6ed2ca514e7",
+      "v37-baseline-vs-v37-baseline-1792534433851.repl26a": "4f5d008104580d8b31739b9b60eb22a66ddadd3e95db23846b629afd4c1e7960"
+    },
+    "assignment": {
+      "id": "95cc9a1d34210e6e979c4db1b4d0ac8981632d75f3af27613c946d91380dd783",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "d97cf04b738393812fb51024582e2a6cfba8a850b19ce031f2c1ad3d7b916acb",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01islands.map26a",
+      "side": 1,
+      "group": "d97cf04b738393812fb51024582e2a6cfba8a850b19ce031f2c1ad3d7b916acb"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "f77db387292e66a8aad7e912c179787db0c41b6632ee841a21593dfc279ecb3a",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 21237,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 40,
+      "mapHash": "f77db387292e66a8aad7e912c179787db0c41b6632ee841a21593dfc279ecb3a",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 1028,
+      "roundsStarted": 1029,
+      "seed": "12202201637951557443",
+      "width": 40
+    },
+    "scores": {
+      "teamA": 1002,
+      "teamB": 170
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.625,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01shortcut.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\2f1772a8c7722aa16c407985c96373825910b7863883eeb03446913ecbfccbca",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\2f1772a8c7722aa16c407985c96373825910b7863883eeb03446913ecbfccbca\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 1
+    },
+    "raw_hashes": {
+      "runner.log": "bbbeb59e421531afd256aa2fee0e3fc985bf1ea02c8ad7cf6c26bb5726ba9fe0",
+      "statistics.json": "3113d120dc43bab2eddcf2e0b0fb9e91fa1c92932a98ddc86e96f18724253a1f",
+      "v37-baseline-vs-v37-baseline-1792534433953.repl26a": "2b8d252b21772f80fef8543a86a9b9824aa5097fd77ab482ef937c240cebe28a"
+    },
+    "assignment": {
+      "id": "2f1772a8c7722aa16c407985c96373825910b7863883eeb03446913ecbfccbca",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "f77db387292e66a8aad7e912c179787db0c41b6632ee841a21593dfc279ecb3a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01shortcut.map26a",
+      "side": 1,
+      "group": "f77db387292e66a8aad7e912c179787db0c41b6632ee841a21593dfc279ecb3a"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "1edf115a0a788c010107148f975570961acc8e9fba4a013ad60f5ca2389cbb83",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 46556,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 50,
+      "mapHash": "1edf115a0a788c010107148f975570961acc8e9fba4a013ad60f5ca2389cbb83",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "12029931280473914326",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 910,
+      "teamB": 846
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.0470000000022992,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01starfish.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\3c0edade005e49282047cbbb1256bc65453bab4ec7fcb6233e6211b9336968d8",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\3c0edade005e49282047cbbb1256bc65453bab4ec7fcb6233e6211b9336968d8\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 8
+    },
+    "raw_hashes": {
+      "runner.log": "1c85b38d6ca525cf6d1b2ed7717a7915bc195c469578293f3ab104692387b83b",
+      "statistics.json": "b2d40b8a16f307d2551603cee367c7cb119e557483b6fa7cce02b6edae3f1deb",
+      "v37-baseline-vs-v37-baseline-1792534435081.repl26a": "083db3ededdc147737c94877c0c1b5b371e2cd209a92836c80c8be4f87888e50"
+    },
+    "assignment": {
+      "id": "3c0edade005e49282047cbbb1256bc65453bab4ec7fcb6233e6211b9336968d8",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "1edf115a0a788c010107148f975570961acc8e9fba4a013ad60f5ca2389cbb83",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01starfish.map26a",
+      "side": 1,
+      "group": "1edf115a0a788c010107148f975570961acc8e9fba4a013ad60f5ca2389cbb83"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "0b8e85603a85ca5778f92d2975c56da0e4b8df59264c42eef23108f8bbceec2a",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 46807,
+      "finalRoundPartial": false,
+      "finalSubstep": 6,
+      "height": 80,
+      "mapHash": "0b8e85603a85ca5778f92d2975c56da0e4b8df59264c42eef23108f8bbceec2a",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 2000,
+      "roundsStarted": 2000,
+      "seed": "13738424024871290893",
+      "width": 80
+    },
+    "scores": {
+      "teamA": 564,
+      "teamB": 304
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.2959999999984575,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01starvation.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\fc69823c7305453b8227e9f935f8cd2c8f8549e63eea6ffd0304af55c6ae2bbe",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\fc69823c7305453b8227e9f935f8cd2c8f8549e63eea6ffd0304af55c6ae2bbe\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 10,
+      "teamB": 7
+    },
+    "raw_hashes": {
+      "runner.log": "2452ac3f750565540bb791d215aa230c88007ef5d800efe21cf6adb1f2a0110a",
+      "statistics.json": "a2a862957866b8fc580e6e00bcf66df456e17d6b06e66dddeecac8c9c73d1cce",
+      "v37-baseline-vs-v37-baseline-1792534435363.repl26a": "25c115501e629afc5566d43fe4a3bf40b0f6f72b56f669e62b0e7199b1ce3467"
+    },
+    "assignment": {
+      "id": "fc69823c7305453b8227e9f935f8cd2c8f8549e63eea6ffd0304af55c6ae2bbe",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "0b8e85603a85ca5778f92d2975c56da0e4b8df59264c42eef23108f8bbceec2a",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01starvation.map26a",
+      "side": 1,
+      "group": "0b8e85603a85ca5778f92d2975c56da0e4b8df59264c42eef23108f8bbceec2a"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "5cca9ed6eaaf6ef15a170a4ea78488237fda7b256e182a2e3360a14b485e09c3",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 21556,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 40,
+      "mapHash": "5cca9ed6eaaf6ef15a170a4ea78488237fda7b256e182a2e3360a14b485e09c3",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1345,
+      "roundsStarted": 1346,
+      "seed": "5842258440651264179",
+      "width": 50
+    },
+    "scores": {
+      "teamA": 687,
+      "teamB": 1006
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 0.7659999999996217,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01the-farm.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\3601ccd1d565b9c888ce1fd58fcd41a7b615cd42c08cff2c7fd5a2197d805d39",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\3601ccd1d565b9c888ce1fd58fcd41a7b615cd42c08cff2c7fd5a2197d805d39\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 6,
+      "teamB": 9
+    },
+    "raw_hashes": {
+      "runner.log": "4fed790f0b07d71227362e3fa2859fcf6d85cacf11fd725a4d98b65727c927ad",
+      "statistics.json": "46e46fe6f36c54358b73a85c3d53d1ac595759b8a28cce4708d261e9edeab570",
+      "v37-baseline-vs-v37-baseline-1792534436138.repl26a": "d0cc0d7f4a90dbeff448a770fa73bb063a1bbea9d2c89cfd484a017249b839a4"
+    },
+    "assignment": {
+      "id": "3601ccd1d565b9c888ce1fd58fcd41a7b615cd42c08cff2c7fd5a2197d805d39",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "5cca9ed6eaaf6ef15a170a4ea78488237fda7b256e182a2e3360a14b485e09c3",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01the-farm.map26a",
+      "side": 1,
+      "group": "5cca9ed6eaaf6ef15a170a4ea78488237fda7b256e182a2e3360a14b485e09c3"
+    }
+  },
+  {
+    "key": {
+      "wasm": [
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+        "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+      ],
+      "source": [
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+        "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+      ],
+      "map_sha256": "130453395278cdabb1ff80564357a99ca8394afaef006fdede8beb88924a8fa0",
+      "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+      "rules": "release-full-default-v1",
+      "log_limit": 33554432
+    },
+    "match": {
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "engineVersion": "1.0.1",
+      "finalInput": 39436,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 30,
+      "mapHash": "130453395278cdabb1ff80564357a99ca8394afaef006fdede8beb88924a8fa0",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 1829,
+      "roundsStarted": 1830,
+      "seed": "15784478881668189493",
+      "width": 40
+    },
+    "scores": {
+      "teamA": 906,
+      "teamB": 1016
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "seconds": 1.0780000000013388,
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-3.0.2\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-baseline\\.cambc\\build-release\\bot-injected.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01yellow-brick-road.map26a",
+      "--release",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\830909ea8f8dd4c852d5d61f11c416adef5332ebd65e5f9ec9a936f738a81650",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\runs\\830909ea8f8dd4c852d5d61f11c416adef5332ebd65e5f9ec9a936f738a81650\\statistics.json",
+      "--json",
+      "--log-limit",
+      "33554432"
+    ],
+    "fuel_exhaustions": {
+      "teamA": 60,
+      "teamB": 81
+    },
+    "raw_hashes": {
+      "runner.log": "e5b5121fb7d6b45d1811275574f3bd8d76fb502a0faf9dd54a76dc9aedbc09c3",
+      "statistics.json": "4346bb9474b4c895015fa909224fd6178563944133f7fdd1af799fc03a3a0fac",
+      "v37-baseline-vs-v37-baseline-1792534436704.repl26a": "e1f01310c5897aa98d7ec51997296c0b2f983106600d90d473c507f56e17eb67"
+    },
+    "assignment": {
+      "id": "830909ea8f8dd4c852d5d61f11c416adef5332ebd65e5f9ec9a936f738a81650",
+      "key": {
+        "wasm": [
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832",
+          "5b9243b1d9513a450a2db00b89c5288a14a4e7a7f2f3fdff984be4fc526d1832"
+        ],
+        "source": [
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897",
+          "39e5334fff80b7d571e392c4cb31c461a9e5d352f840eebdd8418129d2ba6897"
+        ],
+        "map_sha256": "130453395278cdabb1ff80564357a99ca8394afaef006fdede8beb88924a8fa0",
+        "engine": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+        "cli": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+        "rules": "release-full-default-v1",
+        "log_limit": 33554432
+      },
+      "bots": [
+        "v37-baseline",
+        "v37-baseline"
+      ],
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\maps\\01yellow-brick-road.map26a",
+      "side": 1,
+      "group": "130453395278cdabb1ff80564357a99ca8394afaef006fdede8beb88924a8fa0"
+    }
+  }
+]

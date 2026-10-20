@@ -1,0 +1,13 @@
+{
+  "id": "trace-6-v2",
+  "reason": "v1 floating formatting caused 9559 exhaustion events; rejected as production-neutral instrumentation",
+  "hypothesis": "integer-only formatting and one scoring trace per body/25 rounds reduce perturbation",
+  "scales": {
+    "health": 100,
+    "score": 10000,
+    "value": 100,
+    "cost": 100,
+    "drain": 100
+  },
+  "promotion": "none; even lower-overhead telemetry must pass parity analysis before policy activation"
+}

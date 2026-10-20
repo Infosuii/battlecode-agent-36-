@@ -1,0 +1,25 @@
+{
+  "schedule": "base-official-35",
+  "schedule_sha256": "10383bb4788c462ddac81acc42ad59301f8d3470f0f01649be8facba20bb6398",
+  "games": 35,
+  "independent_file_groups": 35,
+  "wins": 17,
+  "ties": 0,
+  "losses": 18,
+  "win_points": 0.4857142857142857,
+  "mean_secured_margin": -63.97142857142857,
+  "clustered95": [
+    [
+      0.3142857142857143,
+      0.6571428571428571
+    ],
+    [
+      -187.5142857142857,
+      57.94285714285714
+    ]
+  ],
+  "faults": 0,
+  "exhaustions": 574,
+  "selfplay": true,
+  "note": "File groups only: related/mirrored generated layouts require a higher family grouping before promotion. Selfplay has no strength interpretation."
+}

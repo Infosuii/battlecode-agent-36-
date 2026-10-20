@@ -1,7 +1,7 @@
-# Agent 2 (Windows host): runtime governor, combat snapshot, verdict authority, flee-hit
+﻿# Agent 2 (Windows host): runtime governor, combat snapshot, verdict authority, flee-hit
 
-Workstream issue: #5. Base: frozen v34 (`bots/v34` = archive `E6A958…FA605`; per-file hashes in
-`patches/BASE_SHA256.txt`). Engine `cambc 2.2.5`, engineBuildHash `d7e29ae3…`; WASI SDK 33 / Clang 22.1.
+Workstream issue: #5. Base: frozen v34 (`bots/v34` = archive `E6A958â€¦FA605`; per-file hashes in
+`patches/BASE_SHA256.txt`). Engine `cambc 2.2.5`, engineBuildHash `d7e29ae3â€¦`; WASI SDK 33 / Clang 22.1.
 
 ## Contents
 
@@ -9,9 +9,9 @@ Workstream issue: #5. Base: frozen v34 (`bots/v34` = archive `E6A958…FA605`; p
 |---|---|
 | `FINDINGS.md` | Engine fuel semantics, v34 exhaustion rates and causes, search coverage and real playout cost |
 | `INTERFACES.md` | Runtime-budget API, verdict/status schema, snapshot omission contract, telemetry fields |
-| `EXPERIMENTS.md` | Registered experiments E1–E12 with schedules, decisions and results |
+| `EXPERIMENTS.md` | Registered experiments E1â€“E12 with schedules, decisions and results |
 | `builds.tsv` | Every variant built: defines, source SHA-256, release wasm SHA-256 |
-| `candidate/src/` | Full candidate source (v34 + switches). **All new switches 0 builds the byte-identical v34 wasm `ECAFAE4C…`** |
+| `candidate/src/` | Full candidate source (v34 + switches). **All new switches 0 builds the byte-identical v34 wasm `ECAFAE4Câ€¦`** |
 | `patches/` | Owner patches against v34, verified to reproduce `candidate/src` exactly with `git apply` |
 | `tools/` | `fuel_report.py`, `tel_report.py`, `pool_halves.py`, `prof_report.py`, `mkvar.py` |
 | `probe/` | The deliberate-exhaustion probe used to establish engine suspend/resume semantics |
@@ -31,17 +31,17 @@ then copy `runtime_budget.h` into `src/`. Every hunk is inside a named switch.
 
 | Switch | Kind | Status |
 |---|---|---|
-| `A2_BUSH_FAST`, `A2_FAST_AMBUSH`, `A2_CMICRO_FAST` | exact-result fuel rewrites (0 mismatches in ~150k real-game checks) | exhaustion -80–98% with A2_GOV; pool neutral (-0.9 ± 1.1 pts, 1,904 games) |
-| `A2_GOV` (`_WALK`, `_WARD`) | fuel governor | screen neutral; pool running |
-| `A2_SNAP=4` | relevance-ranked 4-unit snapshot | verdicts 39% -> 47%; pool running |
+| `A2_BUSH_FAST`, `A2_FAST_AMBUSH`, `A2_CMICRO_FAST` | exact-result fuel rewrites (0 mismatches in ~150k real-game checks) | exhaustion -80â€“98% with A2_GOV; pool neutral (-0.9 Â± 1.1 pts, 1,904 games) |
+| `A2_GOV` (`_WALK`, `_WARD`) | fuel governor | pool neutral (-0.1 ± 1.2 pts); kept for runtime |
+| `A2_SNAP=4` | relevance-ranked 4-unit snapshot | verdicts 39% -> 47%; alone neutral on fresh seeds; keep with A2_TD_AUTH |
 | `A2_SNAP=5` | 5-unit cap | rejected: does not fit real entry fuel |
-| `A2_TD_AUTH` | verdict authority for unmodelled risk | pool running |
-| `NOVA_FLEE_HIT` | flee-hit (v36fight port) | pool running |
+| `A2_TD_AUTH` | verdict authority for unmodelled risk | with SNAP=4: deaths -0.73/game (both seed halves) |
+| `NOVA_FLEE_HIT` | flee-hit (v36fight port) | +1.1 ± 1.1 pts, deaths -0.31 |
 
-No strength gain is claimed yet; pool results on seeds 1–4 and fresh seeds 5–8 will be added here and on #5.
+No strength gain is claimed yet; pool results on seeds 1â€“4 and fresh seeds 5â€“8 will be added here and on #5.
 
 ## Reproduce
 
 Bench and pool runs use this workspace's existing harness (`bench.py`, `tools/spar_pool.py`) and the seeded pool
-builds, which are not in this repo. `tools/mkvar.py NAME DEF=VAL …` builds a variant from `candidate/src` and logs
+builds, which are not in this repo. `tools/mkvar.py NAME DEF=VAL â€¦` builds a variant from `candidate/src` and logs
 its hashes.

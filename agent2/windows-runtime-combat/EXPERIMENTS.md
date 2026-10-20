@@ -73,3 +73,40 @@ Entries per team-game, official mirror / vs sparexp / rdev mirror: v34 2.94 / 2.
   `a2base` for context. Stage 2: fresh seeds 5–8 only for candidates that are not worse than a2gov2 on seeds 1–4 by
   more than 1 SE; the decision uses seeds 5–8 (picks on 1–4 have shrunk 2–4 points on fresh seeds historically).
 - Secondary: deaths per game overall and vs sparexp; for SNAP/AUTH the death change is the mechanism check.
+
+### E8 results (vs `a2base` = v34 behaviour; 1,904 paired games each; points ± SE)
+
+| Candidate | Seeds 1–4 | Seeds 5–8 | All | Deaths/game | Deaths vs sparexp |
+|---|---|---|---|---|---|
+| a2fix | +1.1 ± 1.6 | -2.8 ± 1.6 | -0.9 ± 1.1 | +0.01 | +0.10 |
+| a2gov | +1.1 ± 1.9 | -1.4 ± 1.6 | -0.1 ± 1.2 | -0.02 | +0.30 |
+
+Decision: the fuel package is strength-neutral; kept for runtime correctness (exhaustion -80–98%) and as the base for E12.
+
+### E12 results (vs `a2gov2`; 1,904 paired games each)
+
+| Candidate | Seeds 1–4 | Seeds 5–8 (fresh) | All | Deaths/game | Deaths vs sparexp |
+|---|---|---|---|---|---|
+| a2s4 (+SNAP=4) | +2.7 ± 2.1 | -2.1 ± 2.1 | +0.3 ± 1.5 | +0.01 ± 0.19 | -1.09 ± 0.63 |
+| a2s4a (+SNAP=4 +TD_AUTH) | +1.5 ± 2.1 | +0.7 ± 2.1 | +1.1 ± 1.5 | -0.73 ± 0.19 | -2.67 ± 0.62 |
+| a2auth (+TD_AUTH) | +0.6 ± 1.5 | -0.8 ± 1.6 | -0.1 ± 1.1 | -0.13 ± 0.10 | -0.36 ± 0.35 |
+| a2fh (+FLEE_HIT) | 0.0 ± 1.6 | +2.1 ± 1.6 | +1.1 ± 1.1 | -0.31 ± 0.17 | -1.52 ± 0.66 |
+
+(The first a2s4 seeds 5–8 batch failed silently with no games; it was rerun alone.)
+SNAP alone shrank on fresh seeds (usual pattern). SNAP+AUTH cut deaths on both halves; AUTH alone does little,
+so the authority rule matters once the snapshot omits units.
+
+## E13 — Combined stack (registered after E12, before running)
+
+`a2combo` = fuel package + A2_SNAP=4 + A2_TD_AUTH + NOVA_FLEE_HIT; pool seeds 1–8; exhaustion schedule; screen vs v34.
+
+| Base | Seeds 1–4 | Seeds 5–8 | All | Deaths/game | Deaths vs sparexp |
+|---|---|---|---|---|---|
+| vs a2gov2 | +1.7 ± 2.1 | +2.2 ± 2.2 | +1.9 ± 1.5 | -0.83 ± 0.19 | -2.10 ± 0.65 |
+| vs a2base (v34) | +2.3 ± 2.3 | +1.0 ± 2.3 | +1.7 ± 1.6 | -0.88 ± 0.19 | -1.67 ± 0.71 |
+
+Exhaustion (entries per team-game, official mirror / vs sparexp / rdev): 0.18 / 0.53 / 0.08 (v34: 2.94 / 2.38 / 3.12).
+Screen vs v34: unseen 217/400 (54.2%, gems +13,424); official 17/34 (kills 296–239).
+Decision: recommended Agent 2 stack. Deaths -0.85/game (~4.5 SE, both halves); score change positive but not
+significant (~1.2 SE). Leave-one-out: SNAP without AUTH is neutral; AUTH without SNAP is neutral; flee-hit adds a
+small independent death reduction. Not yet tested: `maps_real` unseen pool, final holdout, ladder.

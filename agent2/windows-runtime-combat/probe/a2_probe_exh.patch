@@ -1,0 +1,67 @@
+diff --git a/bots/v34/src/bot.cpp b/bots/a2_probe_exh/src/bot.cpp
+index 0b3812a..c74dda6 100644
+--- a/bots/v34/src/bot.cpp
++++ b/bots/a2_probe_exh/src/bot.cpp
+@@ -4144,6 +4144,62 @@ void Bot::play_turn() {
+         PROF(init);
+         init();
+     }
++#ifdef A2_EXH_PROBE
++    if (inited && slot == 0 && (round == 40 || round == 80 || round == 120) && !me.state().is_dead()) {
++        const std::uint32_t r0 = bc::round_number();
++        const std::uint64_t target = round == 80 ? 260000 : 150000;
++        auto px = [&] { return me.position().x; };
++        auto py = [&] { return me.position().y; };
++        std::printf("XP enter R%u %s fuel %llu pos(%d,%d) can_move %d\n", r0, bc::to_string(type).c_str(),
++            static_cast<unsigned long long>(bc::fuel_remaining()), px(), py(), me.can_move() ? 1 : 0);
++        if (round == 120 && me.can_move()) {
++            const vec2 p0 = me.position();
++            bool moved = false;
++            for (vec2 dir : kDirs) {
++                try {
++                    if (me.move_absolute(p0 + dir)) {
++                        moved = true;
++                        break;
++                    }
++                } catch (...) {
++                }
++            }
++            std::printf("XP R%u moved-before-burn %d pos(%d,%d) can_move %d\n", r0, moved ? 1 : 0, px(), py(), me.can_move() ? 1 : 0);
++        }
++        volatile std::uint32_t sink = 0;
++        std::uint64_t burned = 0, last = bc::fuel_remaining();
++        std::uint32_t lastr = r0;
++        while (burned < target) {
++            for (int k = 0; k < 200; ++k) sink = sink + static_cast<std::uint32_t>(k);
++            const std::uint64_t f = bc::fuel_remaining();
++            const std::uint32_t rr = bc::round_number();
++            if (rr != lastr) {
++                std::printf("XP resumed R%u (entered R%u) fuel %llu burned %llu pos(%d,%d) can_move %d\n", rr, r0,
++                    static_cast<unsigned long long>(f), static_cast<unsigned long long>(burned), px(), py(), me.can_move() ? 1 : 0);
++                lastr = rr;
++                last = f;
++                continue;
++            }
++            burned += last > f ? last - f : 0;
++            last = f;
++        }
++        if (round == 120 && me.can_move()) {
++            const vec2 p1 = me.position();
++            bool moved = false;
++            for (vec2 dir : kDirs) {
++                try {
++                    if (me.move_absolute(p1 + dir)) {
++                        moved = true;
++                        break;
++                    }
++                } catch (...) {
++                }
++            }
++            std::printf("XP R%u moved-after-resume %d pos(%d,%d)\n", bc::round_number(), moved ? 1 : 0, px(), py());
++        }
++        std::printf("XP done entered R%u now R%u fuel %llu\n", r0, bc::round_number(), static_cast<unsigned long long>(bc::fuel_remaining()));
++    }
++#endif
+     if (APEX_BRAIN) {
+         brain::load(team_size);
+         brain::adapt(static_cast<int>(bc::global_submitted_gems(team::ally)),

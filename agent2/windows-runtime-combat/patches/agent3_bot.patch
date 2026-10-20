@@ -1,0 +1,474 @@
+diff --git a/src/bot.cpp b/src/bot.cpp
+index 0b3812a..3b25cb6 100644
+--- a/src/bot.cpp
++++ b/src/bot.cpp
+@@ -4,6 +4,8 @@
+ #include "strategy.h"
+ #include "fight.h"
+ #include "learner.h"
++#include "runtime_budget.h"
++#include "tsearch.h"
+ 
+ #include <span>
+ #include <string_view>
+@@ -519,6 +521,9 @@ bool Bot::follow_field(const bc::distance_field& field, const bc::bitboard& bloc
+ 
+ bool Bot::walk_toward(const bc::bitboard& goals_in) {
+     PROF(move);
++#if A2_TEL
++    a2tel::CallCost a2_cost{9};
++#endif
+     // A path search could suspend the turn (APEX_DET: a floor nearer its real cost, so it binds less often).
+     if (bc::fuel_remaining() < (tune::kDet ? 9000 : tune::kMinMoveFuel)) return false;
+     bc::bitboard blocked = w.static_blocked | w.unit_tiles;
+@@ -528,6 +533,41 @@ bool Bot::walk_toward(const bc::bitboard& goals_in) {
+     bc::distance_field field;
+     bc::bitboard visited;
+     walk_boxed = false;
++#if A2_GOV_WALK
++    // Search no deeper than the fuel left can pay for. A search the cap stopped (not a truly unreachable goal) takes a
++    // greedy step instead of suspending the turn; with room to spare the result is the uncapped one.
++    std::uint16_t cap = rb::search_cap(rb::kTailReserve);
++    if (cap == 0) {
++        ++rb::skipped[rb::kWalk];
++        return greedy_step(goals);
++    }
++    std::uint16_t levels = field.compute_to_with_expansion_count(blocked, goals, single(pos), visited, cap);
++    if (fdist(field, pos) == kUnreach && levels + 1 >= cap) {
++        ++rb::capped[rb::kWalk];
++        return greedy_step(goals);
++    }
++    ++rb::ran[rb::kWalk];
++    if (fdist(field, pos) == kUnreach) {
++        // Units block every route: plan over terrain only and let the step check occupancy.
++        bc::bitboard terrain = w.static_blocked;
++        terrain.set(pos, false);
++        cap = rb::search_cap(rb::kTailReserve);
++        if (cap == 0) {
++            ++rb::skipped[rb::kWalkTerrain];
++            return greedy_step(goals);
++        }
++        levels = field.compute_to_with_expansion_count(terrain, goals_in & ~terrain, single(pos), visited, cap);
++        if (fdist(field, pos) == kUnreach) {
++            if (levels + 1 >= cap) {
++                ++rb::capped[rb::kWalkTerrain];
++                return greedy_step(goals);
++            }
++            return false;
++        }
++        ++rb::ran[rb::kWalkTerrain];
++        walk_boxed = true;
++    }
++#else
+     field.compute_to(blocked, goals, single(pos), visited);
+     if (fdist(field, pos) == kUnreach) {
+         // Units block every route: plan over terrain only and let the step check occupancy.
+@@ -537,11 +577,48 @@ bool Bot::walk_toward(const bc::bitboard& goals_in) {
+         if (fdist(field, pos) == kUnreach) return false;
+         walk_boxed = true;
+     }
++#endif
+     if (tune::kThreatPath > 0 && !combat_move && hp < max_hp * tune::kThreatHp && travel_around_threats(field, blocked, goals))
+         return walked;
+     return follow_field(field, blocked, true);
+ }
+ 
++#if A2_GOV_WALK
++// Governor fallback when no path search fits: one step that brings us strictly closer (Chebyshev) to the nearest
++// goal tile, over free tiles. Cheap and legal; the next turn plans properly with a fresh budget.
++bool Bot::greedy_step(const bc::bitboard& goals) {
++    auto& me = bc::self();
++    if (!me.can_move()) return false;
++    vec2 goal{-1, -1};
++    int gd = 1 << 20;
++    for (vec2 g : goals.positions()) {
++        const int d = cheb(g, pos);
++        if (d < gd) gd = d, goal = g;
++    }
++    if (goal.x < 0) return false;
++    const bc::bitboard blocked = w.static_blocked | w.unit_tiles;
++    vec2 best = pos;
++    int bd = gd;
++    for (vec2 dir : kDirs) {
++        const vec2 q = pos + dir;
++        if (!in_bounds(q, w.width, w.height) || bit(blocked, q)) continue;
++        const int d = cheb(q, goal);
++        if (d < bd) bd = d, best = q;
++    }
++    if (best == pos) return false;
++    try {
++        if (me.move_absolute(best)) {
++            pos = best;
++            walked = true;
++            return true;
++        }
++    } catch (const std::exception& e) {
++        LOG("greedy step error %s\n", e.what());
++    }
++    return false;
++}
++#endif
++
+ // APEX_THREAT_PATH: take a route that keeps clear of recent enemy sightings when it is only a little
+ // longer than the shortest one. Returns false (use the shortest route) when no sighting is recent, no goal
+ // lies outside the zone, the detour is too long, or there is no fuel for a second search.
+@@ -562,7 +639,18 @@ bool Bot::travel_around_threats(const bc::distance_field& field, const bc::bitbo
+     if (safe_goals.is_empty()) return false;
+     bc::distance_field safe;
+     bc::bitboard visited;
++#if A2_GOV_WALK
++    // Capped like walk_toward; a detour the cap cuts off reads as unreachable and the shortest route is used.
++    const std::uint16_t cap = rb::search_cap(rb::kTailReserve + tune::kMinMoveFuel);
++    if (cap == 0) {
++        ++rb::skipped[rb::kThreatPath];
++        return false;
++    }
++    ++rb::ran[rb::kThreatPath];
++    safe.compute_to(blocked | zone, safe_goals, single(pos), visited, cap);
++#else
+     safe.compute_to(blocked | zone, safe_goals, single(pos), visited);
++#endif
+     const int around = fdist(safe, pos), direct = fdist(field, pos);
+     if (around == kUnreach || around > direct + tune::kThreatDetour) return false;
+     follow_field(safe, blocked | zone, true);
+@@ -1081,6 +1169,30 @@ bool Bot::ward_ahead() {
+     } catch (...) {
+         return false;
+     }
++#if A2_GOV_WARD
++    // First use of a bush cluster labels all of it (~70k for 100-149 tiles with the fast labeller). Warding ahead can
++    // wait for a turn with room: without room for a worst-case labelling plus the turn tail, skip when any cluster this
++    // would label is still unlabelled.
++    if (!rb::fits(70000, rb::kTailReserve)) {
++        bool unlabeled = false;
++        for (int dy = -2; dy <= 2 && !unlabeled; ++dy)
++            for (int dx = -2; dx <= 2 && !unlabeled; ++dx) {
++                const vec2 q{pos.x + dx, pos.y + dy};
++                unlabeled = in_bounds(q, w.width, w.height) && bit(w.bushes, q) && !bit(w.bush_labeled, q);
++            }
++        if (!unlabeled)
++            for (vec2 p : bc::vision::ward_tiles(team::ally).positions())
++                if (bit(w.bushes, p) && !bit(w.bush_labeled, p)) {
++                    unlabeled = true;
++                    break;
++                }
++        if (unlabeled) {
++            ++rb::skipped[rb::kWardAhead];
++            return false;
++        }
++    }
++    ++rb::ran[rb::kWardAhead];
++#endif
+     const int mine = w.bush_cluster(pos);
+     // Clusters already under an allied ward.
+     std::array<int, 16> covered{};
+@@ -1151,6 +1263,13 @@ bool Bot::ward_reveal() {
+                 if (round - s.round <= 3 && cheb(s.pos, pos) <= 8) lost = s.pos;
+     }
+     if (!hit && lost.x < 0) return NOVA_WARD_AHEAD > 0 && ward_ahead();
++#if A2_TEL
++    struct A2Cost {
++        std::uint64_t f0 = bc::fuel_remaining();
++        std::uint32_t r0 = bc::round_number();
++        ~A2Cost() { a2tel::bump(6u * 4096 + static_cast<std::uint32_t>(std::min<std::uint64_t>(a2tel::spent(f0, r0) / 2000, 99))); }
++    } a2_cost;
++#endif
+     const int mine = w.bush_cluster(pos);
+     struct Cand {
+         vec2 p;
+@@ -1207,11 +1326,48 @@ bool Bot::counter_ambush() {
+     }
+     auto& me = bc::self();
+     if (!me.can_move()) return false;
++#if A2_TEL
++    struct A2Cost {
++        std::uint64_t f0 = bc::fuel_remaining();
++        std::uint32_t r0 = bc::round_number();
++        ~A2Cost() { a2tel::bump(5u * 4096 + static_cast<std::uint32_t>(std::min<std::uint64_t>(a2tel::spent(f0, r0) / 2000, 99))); }
++    } a2_cost;
++#endif
+     const int mine = w.bush_cluster(pos);
+     auto foreign = [&](vec2 q) {
+         const int c = w.bush_cluster(q);
+         return c >= 0 && c != mine;
+     };
++#if A2_FAST_AMBUSH
++    // Every tile near_foreign can examine (within 4 of a q within 1 of us) lies within 5 of us: list the foreign
++    // bush tiles there once (121 lookups) instead of scanning a 9x9 window for each of up to nine q (729).
++    vec2 fl[121];
++    int nf = 0;
++    for (int dy = -5; dy <= 5; ++dy)
++        for (int dx = -5; dx <= 5; ++dx) {
++            const vec2 r{pos.x + dx, pos.y + dy};
++            if (in_bounds(r, w.width, w.height) && foreign(r)) fl[nf++] = r;
++        }
++    auto near_foreign = [&](vec2 q) {
++        int best = 99;
++        for (int i = 0; i < nf; ++i) {
++            const int d = cheb(fl[i], q);
++            if (d <= 4 && d < best) best = d;
++        }
++#if A2_CHECK
++        { // the original 9x9 scan, compared (kind 17: 0 equal, 1 different)
++            int ref = 99;
++            for (int dy = -4; dy <= 4; ++dy)
++                for (int dx = -4; dx <= 4; ++dx) {
++                    const vec2 r{q.x + dx, q.y + dy};
++                    if (in_bounds(r, w.width, w.height) && foreign(r)) ref = std::min(ref, std::max(std::abs(dx), std::abs(dy)));
++                }
++            a2tel::bump(17u * 4096 + (ref != best ? 1u : 0u));
++        }
++#endif
++        return best;
++    };
++#else
+     auto near_foreign = [&](vec2 q) {
+         int best = 99;
+         for (int dy = -4; dy <= 4; ++dy)
+@@ -1221,6 +1377,7 @@ bool Bot::counter_ambush() {
+             }
+         return best;
+     };
++#endif
+     const int here = near_foreign(pos);
+     if (here > 4) return false; // no bush could hold the attacker
+     if (hp >= max_hp * 0.5f) {
+@@ -1811,6 +1968,9 @@ static bool enemy_stunned(const EnemyRec& e) {
+ }
+ 
+ bool Bot::escape_or_stand(const EnemyRec* target, const EnemyRec* nearest, float ttd) {
++#if A2_TEL
++    a2tel::CallCost a2_cost{8};
++#endif
+     auto& me = bc::self();
+     int catching = 0; // enemies that can hit us next turn even if we step away
+     const EnemyRec* chaser = nullptr;
+@@ -1926,7 +2086,9 @@ bool Bot::handle_enemies() {
+     if (w.enemies.empty()) return false;
+     FlagScope combat{combat_move};
+     PROF(enemies);
++    PROF_CHECK("e_in");
+     if (!(tune::kTribDeny & 2)) try_lock_altar(); // (& 2: deny_tribute picks the moment instead)
++    PROF_CHECK("e_altar");
+     if (tune::kBurst && try_burst_kill()) return true;
+     PROF_CHECK("e_lock");
+     if (bush_ambush()) return true;
+@@ -1971,7 +2133,7 @@ bool Bot::handle_enemies() {
+             // Distance discount: an enemy past standard reach pays one extra walk step per gap
+             // (beyond the half-dps assumption the base formula already makes for range+3..4).
+             if (dist > range + 2) ttk += static_cast<float>(dist - range - 2) * 1.0f;
+-            // Fire-focus: a target with big sustained dps is worth killing first — we deny
++            // Fire-focus: a target with big sustained dps is worth killing first â€” we deny
+             // the damage it keeps dealing while the tank soaks.
+             worth += tgtThreat * enemy_dps(e);
+             // Finishing: wounded champions die cheap in practice (allies converge on low hp).
+@@ -2141,7 +2303,21 @@ bool Bot::handle_enemies() {
+         // the learned exchange rates; a clear verdict overrides the formula, c1 still carries it out.
+         const int verdict = tactical_decide();
+         PROF_CHECK("e_td");
++#if A2_TD_AUTH
++        // A fight verdict may clear the formula's danger only for risks the model represents: every enemy that could
++        // hit us next turn is in it, no Cassi/Issac pair is split, and no awake camp reaches us (camps are not
++        // modelled). Otherwise the formula keeps its flags and the flee/stand logic (which stands and fights when the
++        // escape is blocked) decides. Run verdicts are always taken.
++        const bool unmodelled = a2ts::snap.omit_reach || a2ts::snap.link_partial || (!tune::kTsCamps && bit(w.hot_zone, pos));
++#if A2_TEL
++        if (verdict > 0) a2tel::bump(12u * 4096 + (in_danger ? 2u : 0u) + (unmodelled ? 1u : 0u));
++#endif
++        if (verdict > 0 && in_danger && unmodelled) {
++            // keep the formula's danger
++        } else if (verdict > 0) {
++#else
+         if (verdict > 0) {
++#endif
+             winning = true;
+             in_danger = false;
+         } else if (verdict < 0) {
+@@ -2324,6 +2500,22 @@ bool Bot::handle_enemies() {
+         return true;
+     }
+     PROF_CHECK("e_prestand");
++#if NOVA_FLEE_HIT
++    // NOVA_FLEE_HIT (ported from v36fight): a melee champion that is about to leave first hits the weakest enemy next to
++    // it (melee can attack and then move). The flee code below only hits the chosen target, often a wounded enemy a few
++    // tiles away, so the one beating on us got no return hit (top-team melee hit back 70-74% of outnumbered turns, ours
++    // 38-63%). Only the basic attack is used; dash, spells, resets and the move stay available, and the turn goes on.
++    if (in_danger && !winning && melee && bc::self().can_attack()) {
++        const EnemyRec* adj = nullptr;
++        for (const auto& e : w.enemies)
++            if (cheb(e.pos, pos) <= range && (!adj || e.hp < adj->hp)) adj = &e;
++        if (adj && (!target || cheb(target->pos, pos) > range) && attack_unit(adj->unit, adj->pos)) {
++#if A2_TEL
++            a2tel::fleehit_round = round;
++#endif
++        }
++    }
++#endif
+     if (in_danger && !winning && tune::kStand && escape_or_stand(target, nearest, ttd)) return true;
+     PROF_CHECK("e_stand");
+     if (in_danger && !winning) {
+@@ -2754,7 +2946,7 @@ bool Bot::tribute_if_needed() {
+         }
+     const bool clearish = w.enemies.empty() || use_safe;
+     // NOVA_RACE_BANK / NOVA_MONO_BANK (default off): on dense race maps and shared-monolith maps the
+-    // opening bank also fires when a big strip exists there — bags convert to score, not to carry.
++    // opening bank also fires when a big strip exists there â€” bags convert to score, not to carry.
+     const bool raceMono = brain::state.ready && ((raceBank && brain::state.race) || (monoBank && brain::state.mono));
+     const bool edge = bankFix && gems >= tune::kEdgeBankBag && round <= tune::kEdgeBankUntil && !capturing &&
+         clearish && dist <= tune::kEdgeBankDist && brain::state.ready && brain::state.max_group > 0 &&
+@@ -3227,6 +3419,7 @@ bool Bot::poorer_ally_takes(const GroupRec& g, int gi, bool on_tile_only) const
+ 
+ int Bot::score_groups(int participants_hint, int& best_need, float& best_score) {
+     PROF(score);
++    PROF_CHECK("score0");
+     const float dps = my_dps(nullptr);
+     int best = -1;
+     best_need = 1;
+@@ -3499,6 +3692,7 @@ int Bot::score_groups(int participants_hint, int& best_need, float& best_score)
+     if (keep > 1 && n_top >= 2 && bc::fuel_remaining() > tune::kRouteFuel) {
+         bool bank = false;
+         const int pick = tune::kPlan ? plan_search(top, n_top, bank) : route_search(top, n_top);
++        PROF_CHECK("route1");
+         if (tune::kPlan && bank) plan_bank_round = round;
+         if (pick >= 0) {
+             best = top[pick].gi;
+@@ -3542,6 +3736,7 @@ void Bot::refresh_follow_ups() {
+ // the route with the best gems per champion-turn. Group-to-group distances are static rows.
+ int Bot::route_search(const RouteCand* top, int n_top) {
+     PROF(route);
++    PROF_CHECK("route0");
+     refresh_follow_ups();
+     const int n = static_cast<int>(w.groups.size());
+     const int depth = std::min(tune::kRouteDepth, 3);
+@@ -3749,6 +3944,7 @@ bool Bot::is_official_map() {
+ 
+ bool Bot::farm() {
+     PROF(farm);
++    PROF_CHECK("farm0");
+     if (avoid_until.size() != w.groups.size()) avoid_until.assign(w.groups.size(), 0);
+     int best = -1, best_need = 1;
+     float best_score = 0;
+@@ -3950,6 +4146,7 @@ bool Bot::farm() {
+         best = score_groups(team_size, best_need, best_score);
+         best_need = 1;
+     }
++    PROF_CHECK("farmsel");
+ 
+     // The planner chose a bank trip first (APEX_PLAN).
+     if (tune::kPlan && plan_bank_round == round && gems >= 10) {
+@@ -3999,6 +4196,7 @@ bool Bot::farm() {
+             }
+         }
+     }
++    PROF_CHECK("farmmove");
+ 
+     switch (g.state) {
+     case GroupState::reward: {
+@@ -4110,6 +4308,7 @@ void Bot::build_fields() {
+         while (!w.fields_ready() && quota > 0 && !w.field_order.empty() && room()) {
+             PROF(field);
+             if (!w.build_next_group_field(full)) return;
++            PROF_CHECK("field");
+             --quota;
+         }
+         return;
+@@ -4131,6 +4330,9 @@ void Bot::build_fields() {
+ 
+ void Bot::play_turn() {
+     PROF(turn);
++#if A2_TEL
++    a2tel::TurnGuard a2_guard;
++#endif
+ #ifdef APEX_FUEL_NOISE
+     {
+         // Test only: burn a fixed extra amount of fuel each turn (checks how sensitive decisions are to fuel use).
+@@ -4143,7 +4345,12 @@ void Bot::play_turn() {
+     if (!inited) {
+         PROF(init);
+         init();
++        PROF_CHECK("init");
+     }
++#if A2_TEL
++    a2tel::who = type;
++
++#endif
+     if (APEX_BRAIN) {
+         brain::load(team_size);
+         brain::adapt(static_cast<int>(bc::global_submitted_gems(team::ally)),
+@@ -4217,6 +4424,7 @@ void Bot::play_turn() {
+         PROF(refresh);
+         refresh_self();
+     }
++    PROF_CHECK("refresh");
+     // A recall started before a capture landed: if the bag now finishes the race, walk to an altar instead.
+     if (state.contains(bc::champion_state::recalling) && win_now() && hp >= max_hp * tune::kDangerHp) {
+         try {
+@@ -4249,6 +4457,7 @@ void Bot::play_turn() {
+     {
+         PROF(world);
+         w.update(round);
++        PROF_CHECK("w_update");
+         if (tune::kBelief) w.update_beliefs(round, tune::kDet ? static_cast<std::uint64_t>(tune::kDetSafety) : 40000);
+ #ifdef APEX_BELIEFLOG
+         if (tune::kBelief && slot == 0 && round % 20 == 0) {
+@@ -4283,6 +4492,7 @@ void Bot::play_turn() {
+ #endif
+     PROF_CHECK("world");
+     episode_tick(false);
++    PROF_CHECK("episode");
+ #ifdef APEX_EARLYLOG
+     if (round == 50 || round == 100 || round == 150) std::printf("EARLY R%d %s carry %d score %d gold %d maxhp %.0f\n", round, bc::to_string(type).c_str(), gems, ally_score, gold, max_hp);
+ #endif
+@@ -4336,6 +4546,7 @@ void Bot::play_turn() {
+         read_sighting();
+         share_sighting();
+     }
++    PROF_CHECK("sight");
+ #if APEX_EVENTS
+     // No enemy in view: publish a newly learned respawn timer, unless a fresh sighting would be lost.
+     if (w.enemies.empty() && !w.pending_events.empty()) {
+@@ -4361,21 +4572,30 @@ void Bot::play_turn() {
+     }
+     if (w.pending_events.size() > 8) w.pending_events.erase(w.pending_events.begin());
+ #endif
++    PROF_CHECK("events");
+     if (bit(w.ally_spawn, pos) || type == bc::champion_type::tavi) {
+         shop();
+         refresh_emblems();
+     }
++    PROF_CHECK("shop");
+ 
+ 
+     support_casts();
++    PROF_CHECK("support");
+     mode = "idle";
+     if (ward_reveal()) w.update(round); // the ward shows the bush now: look again
++    PROF_CHECK("wardrev");
+     if (counter_ambush()) {
+         // We moved (into the attacker's bush, or away from it): look again before deciding.
+         w.update(round);
+     }
++    PROF_CHECK("ambush");
+     const bool fought = handle_enemies();
+     PROF_CHECK("enemies");
++#if A2_TEL
++    // Flee-hit check: after the hit, did the turn still move and cast? (kind 13: bit 0 moved, bit 1 cast)
++    if (a2tel::fleehit_round == round) a2tel::bump(13u * 4096 + (walked ? 1u : 0u) + (cast_done ? 2u : 0u));
++#endif
+     if (fought) {
+         if (std::string_view(mode) == "idle") mode = "enemy";
+         if (tune::kDistress && std::string_view(mode).starts_with("flee")) share_sighting(true);
+diff --git a/src/bot.h b/src/bot.h
+index 25b249d..26d76cc 100644
+--- a/src/bot.h
++++ b/src/bot.h
+@@ -53,6 +53,9 @@ private:
+ 
+     // Movement.
+     bool walk_toward(const bc::bitboard& goals);
++#if A2_GOV_WALK
++    bool greedy_step(const bc::bitboard& goals);
++#endif
+     bool travel_around_threats(const bc::distance_field& field, const bc::bitboard& blocked, const bc::bitboard& goals);
+     bool follow_field(const bc::distance_field& field, const bc::bitboard& blocked, bool allow_dash);
+     bool try_dash(const bc::distance_field& field, const bc::bitboard& blocked);

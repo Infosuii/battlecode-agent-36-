@@ -1,0 +1,8 @@
+{
+  "inherited_engine_sha256": "bf6151b1cbaa244f6cd0f736612576744057f6112b6fc031cab34bd64c3429f8",
+  "inherited_oracle_sha256": "b4addfa63ee960a9bfb56a713966f03eb729fb330c2080b575c8258d22cb9f42",
+  "current_engine_wasm_sha256": "c03ab26f20263b08e576ebc1a064cd6f9b66a996aca005d69bd9fb9205434354",
+  "snapshot_bytes": 184760,
+  "source": "official PanelChrome-BXlTYAwV.js supports same table offsets and extended tail",
+  "scope": "Ported ABI; old balance-specific assertions are historical, not automatically passing current tests"
+}

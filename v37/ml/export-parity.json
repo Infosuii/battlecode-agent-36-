@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "cases": 23,
+  "observations": [
+    {
+      "index": 0,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 1,
+      "finite": true,
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "index": 2,
+      "finite": true,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "index": 3,
+      "finite": true,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    {
+      "index": 4,
+      "finite": true,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "index": 5,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 6,
+      "finite": true,
+      "max_abs_error": 6.453171330633722e-16
+    },
+    {
+      "index": 7,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 8,
+      "finite": true,
+      "max_abs_error": 6.661338147750939e-16
+    },
+    {
+      "index": 9,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 10,
+      "finite": true,
+      "max_abs_error": 5.551115123125783e-16
+    },
+    {
+      "index": 11,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 12,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 13,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 14,
+      "finite": true,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "index": 15,
+      "finite": true,
+      "max_abs_error": 1.6653345369377348e-16
+    },
+    {
+      "index": 16,
+      "finite": true,
+      "max_abs_error": 1.1102230246251565e-15
+    },
+    {
+      "index": 17,
+      "finite": true,
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "index": 18,
+      "finite": true,
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "index": 19,
+      "finite": true,
+      "max_abs_error": 5.551115123125783e-16
+    },
+    {
+      "index": 20,
+      "finite": true,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    {
+      "index": 21,
+      "finite": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "index": 22,
+      "finite": false,
+      "max_abs_error": null
+    }
+  ],
+  "model_sha256": "82f1564a16b03bec8108470d03034ff7745ce2773b36d186b172abc451a56aa6",
+  "header_sha256": "b0357c107fd6d310767fca031bb68f8c7bbef59beaae510c72bdce5f727bf83d",
+  "wasm_sha256": "8ce8c11090d0650f45ce9c147aa98592c96210e7c2d884fb4cb2e6db7c2968b0",
+  "command": [
+    "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe",
+    "-O2",
+    "-std=c++20",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\ml\\export_fixture.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\ml\\export_fixture.wasm"
+  ],
+  "clamp": "standardized features clipped [-5,5]; logits finite for finite inputs; missing returns NaN requiring heuristic fallback",
+  "activation_weight": 0,
+  "production_inference_fuel": null,
+  "production_inference_fuel_reason": "Predictor not linked into production; performance and zero-weight decision gates remain pending"
+}

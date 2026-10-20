@@ -1,0 +1,25 @@
+{
+  "schedule": "trace-6-v1",
+  "schedule_sha256": "5c6395dfffcc104487a69a246cf8702706929416ae25509539be2468960142b2",
+  "games": 12,
+  "independent_file_groups": 6,
+  "wins": 2,
+  "ties": 0,
+  "losses": 10,
+  "win_points": 0.16666666666666666,
+  "mean_secured_margin": -203.08333333333334,
+  "clustered95": [
+    [
+      0.0,
+      0.5
+    ],
+    [
+      -495.5,
+      95.0
+    ]
+  ],
+  "faults": 0,
+  "exhaustions": 9559,
+  "selfplay": false,
+  "note": "File groups only: related/mirrored generated layouts require a higher family grouping before promotion. Selfplay has no strength interpretation."
+}

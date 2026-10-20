@@ -1,0 +1,30 @@
+{
+  "id": "fresh-v37-1",
+  "generator_sha256": "011961b23157f09542eb2595364e084d64bedc6eaa7ae8f11cd169f054d44c7c",
+  "builder_sha256": "045cba6cb3af42d76dfc338a9fc15e02e458a2a49f81418eee8233986117052c",
+  "builder_engine_sha256": "c03ab26f20263b08e576ebc1a064cd6f9b66a996aca005d69bd9fb9205434354",
+  "stages": [
+    {
+      "name": "dev",
+      "count": 24,
+      "seed": 37102061
+    },
+    {
+      "name": "confirm",
+      "count": 128,
+      "seed": 37102062
+    },
+    {
+      "name": "final",
+      "count": 128,
+      "seed": 37102063
+    }
+  ],
+  "evidence_rule": "No suite presumed fresh by name. New deterministic seeds, physical hash dedup, inherited engine hashes excluded when available. Whole layout groups include mirrored sides.",
+  "approximate_power": "128 independent groups only detects large effects (~12 percentage points at 80% power under worst-case binary variance); smaller effects remain inconclusive.",
+  "primary": "paired full-match secured margin and win points vs unchanged selected baseline",
+  "screen": "At least +3% win points and positive secured margin, no new faults; screen alone cannot promote.",
+  "confirm": "Only one prespecified link-emergency policy; win points >=0.55 with lower 95% map-cluster bound >0.50 and secured-margin lower 95% bound >0; no critical subgroup/fuel regression.",
+  "final": "Freeze exact source/WASM first; same criteria on independent final stage. No optional extension based on near misses.",
+  "opponents": "selected v36 and historical v34 proxy available; calibrated pool requested but absent"
+}

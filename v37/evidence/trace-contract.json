@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "sampling": "scorer every 10th round; live decision-end mode each round",
+  "source_sha256": "359321ad8ff6394ed6d8a7a3d96c50db283e347876a93b32df77bb13958e3c54",
+  "default": 0,
+  "production_behavior_intended": "unchanged",
+  "missing": [
+    "body shield/status details",
+    "camp individual awake state",
+    "full excluded-candidate reason classification",
+    "pre-order avoided/unreachable/cap-excluded candidate rows"
+  ],
+  "limitations": "Preparation dataset only until completeness and instrumentation parity gates pass. Future outcomes never emitted as inputs."
+}

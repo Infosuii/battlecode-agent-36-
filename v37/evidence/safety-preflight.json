@@ -1,0 +1,9 @@
+{
+  "rejected_build": "v37-safe-state",
+  "accepted_matches": 0,
+  "fixes": [
+    "append new CampRec fields after existing aggregate initializer fields; preserve Golem/Monolith range",
+    "awake_camps_near requires actual current World observation round, never stale group seen time"
+  ],
+  "note": "Caught in source review before running matches. Rebuild under a new immutable ID."
+}

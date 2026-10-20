@@ -1,0 +1,25 @@
+{
+  "schedule": "safe-state-dev-v1",
+  "schedule_sha256": "0f949ac601da3de4f40c48f2ae1464a51a93726b2d7e2d7efcf1b0fa1309679f",
+  "games": 118,
+  "independent_file_groups": 59,
+  "wins": 56,
+  "ties": 0,
+  "losses": 62,
+  "win_points": 0.4745762711864407,
+  "mean_secured_margin": -27.279661016949152,
+  "clustered95": [
+    [
+      0.3898305084745763,
+      0.559322033898305
+    ],
+    [
+      -92.72881355932203,
+      34.38135593220339
+    ]
+  ],
+  "faults": 0,
+  "exhaustions": 1031,
+  "selfplay": false,
+  "note": "File groups only: related/mirrored generated layouts require a higher family grouping before promotion. Selfplay has no strength interpretation."
+}

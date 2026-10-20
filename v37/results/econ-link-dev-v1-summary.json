@@ -1,0 +1,25 @@
+{
+  "schedule": "econ-link-dev-v1",
+  "schedule_sha256": "79be0cdf9f0ff518ea8bbeb76bec3ea54af4146840a395341af8340816c1ff25",
+  "games": 118,
+  "independent_file_groups": 59,
+  "wins": 55,
+  "ties": 0,
+  "losses": 63,
+  "win_points": 0.4661016949152542,
+  "mean_secured_margin": -6.677966101694915,
+  "clustered95": [
+    [
+      0.4067796610169492,
+      0.5254237288135594
+    ],
+    [
+      -47.66101694915254,
+      35.79661016949152
+    ]
+  ],
+  "faults": 0,
+  "exhaustions": 1110,
+  "selfplay": false,
+  "note": "File groups only: related/mirrored generated layouts require a higher family grouping before promotion. Selfplay has no strength interpretation."
+}

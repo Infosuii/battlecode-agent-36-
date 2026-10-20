@@ -1,0 +1,96 @@
+{
+  "name": "v37-econ-link",
+  "source": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\econ-link",
+  "source_files": {
+    "bot.cpp": "4da1d2618d2494c87f39c57e47705c8764fefd4325d6798e34249fbf801bb47f",
+    "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+    "common.h": "8408b64e6fc500bf6017bcd391dda5f0f374e3ea290ef17858a9d487e2508494",
+    "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+    "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+    "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+    "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+    "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+    "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+    "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+    "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+    "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+    "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+    "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+    "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+    "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+    "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+    "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+  },
+  "source_sha256": "c98674d30721543f67efc8a5a87bf41b9c7997da6257923ff2a083ec5ee5fccd",
+  "artifact": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\.cambc\\build-release\\bot-injected.wasm",
+  "wasm_sha256": "b9159340652e1114821869c80e52087bb6732d42b9a16d9b8709a0d2c315d740",
+  "cli_sha256": "04ff1ca0992379ab8e00d7a1aaf3f7f2b2b2b57777a423194b3b073fd5c5e456",
+  "cli_version": "cambc 3.0.2",
+  "sdk_files": {
+    "cambc.h": "97a814486e323b011ae51169ab7156ac42d623918750815b40f9262b6e2d3342",
+    "effect-tests/src/bot.cpp": "ece596df390d9e99013652882d515e97b612d290f8203c81a48ae2bcb28a3723",
+    "imports.h": "48d1b2127d45323e7ba73236d6cbf189071da07ba9cd3343344eba649f791fa4",
+    "LICENSE-LLVM.txt": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+    "tests/CMakeLists.txt": "a781241513b1e25a65d37ce635e962b12de15600a27324bba466941513a572ce",
+    "tests/engine_contract.cpp": "f383a9b63209bd392dd6821950bedde88845b0a446ed860bcc48196b66b8dc0a",
+    "tests/src/bot.cpp": "19180951367fe39a83f1d73fb6e0163258b4e86b9c67c8258fe0c4328012ea53",
+    "tests/typed_api.cpp": "89241197dab34888e508117d15aa5585cde988b4ced7121e2b89e450765d0ac6",
+    "THIRD_PARTY.txt": "3da082e429fc5c970e3ebada40905f683e661d9f9ad625586984a29ad516edc4",
+    "wasm_simd128.h": "254cb9207bb773a6b88d9a11ae8c8e2dd869675142d6f686a59a41d46af10196"
+  },
+  "sdk_config": "sdk_version = \"3.0.2\"\nlanguages = [\"cpp\",\"rust\",\"python\",\"ocaml\"]\n",
+  "compiler_sha256": "6d9b6b13a9d6c0e64765fe85c4ba86b605f9b65e49a0c28703c85ba66038a1df",
+  "compiler_version": "clang version 22.1.0 (https://github.com/llvm/llvm-project 4434dabb69916856b824f68a64b029c67175e532)\nTarget: wasm32-unknown-wasip1\nThread model: posix\nInstalledDir: C:\\Users\\ishan\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\cambc\\wasi-sdk-33\\bin\nConfiguration file: C:\\Users\\ishan\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.cfg",
+  "compile_commands": [
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\bot.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\bot.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\bot.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\bot.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\deny.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\deny.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\deny.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\deny.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\draft.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\draft.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\draft.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\draft.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\episode.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\episode.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\episode.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\episode.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\fight.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\fight.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\fight.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\fight.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\main.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\main.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\main.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\main.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\tsearch.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\tsearch.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\tsearch.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\tsearch.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/bots/v37-econ-link/.cambc/build-release",
+      "command": "C:\\Users\\ishan\\AppData\\Local\\cambc\\wasi-sdk-33\\bin\\clang++.exe --target=wasm32-wasip1 --sysroot=C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/wasi-sysroot -IC:/Users/ishan/.codex/.chatgpt-projects/g-p-6ad14bd9b02481918601a95d4cc0e007/work/v37/v37/workspace/sdk/cpp -isystem C:/Users/ishan/AppData/Local/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\world.cpp.obj -c C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\world.cpp",
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\world.cpp",
+      "output": "CMakeFiles\\bot.dir\\c06c35b8454ff87f4c91f3d0e124cbdd\\v37\\v37\\workspace\\bots\\v37-econ-link\\src\\world.cpp.obj"
+    }
+  ],
+  "full_match_rules": "release; default fuel; no round cap",
+  "production": true
+}

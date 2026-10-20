@@ -1,0 +1,12 @@
+{
+  "source_url": "https://2026a.battlecode.co.uk/game/match-groups/4ce00cf0-27e4-42a6-bca7-a8b0c88fa7ac",
+  "account": "Ishanp / AlphaSlops",
+  "platform_version": 38,
+  "source_wasm_identity": null,
+  "baseline_attribution": false,
+  "provenance": "Authenticated website download; separate from local bcws3 balance tests; not used as v36 performance evidence or decision-time training",
+  "files": {
+    "match-group-4ce00cf0-27e4-42a6-bca7-a8b0c88fa7ac.zip": "8d82a145fa68233b2248e8e3ebc92039bfd9bf4191af8f8cf50f606bb4a4f476",
+    "match-2f94bb50-a0be-4801-a1cc-49db9e4e590a.json": "eb94b23f74650a57a72342965877fd525e16b13deb9f422e788b7974ce1ad36a"
+  }
+}

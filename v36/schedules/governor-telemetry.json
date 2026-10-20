@@ -1,0 +1,42 @@
+{
+  "id": "governor-telemetry",
+  "purpose": "Agent2 instrumented governor stage refusals and useful planning participation; diagnostic only no strength evidence",
+  "created_utc": "2026-10-20T10:55:20.671262+00:00",
+  "candidate": "governor-telemetry",
+  "opponents": [
+    "baseline"
+  ],
+  "distinct_maps": 1,
+  "games": 2,
+  "duplicate_deterministic_jobs_removed": 0,
+  "independent_map_groups": 1,
+  "protocol": "Full matches at default fuel in release. No deterministic rerun counted as new evidence.",
+  "jobs": [
+    {
+      "id": "87a69da031b8d47df06e3348ff9fa6efff3a2e77eb9bba15bb06d93cf86b8b35",
+      "a": "governor-telemetry",
+      "b": "baseline",
+      "sha_a": "7c55338e282873039aec4ac472b05d12f442ff1c035d7ada45c82aaa69cf4ea5",
+      "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\ambush.map26a",
+      "map_sha256": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "group_id": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "7e2c68145271a24d995ddab28eb15a1ba853e675db3bb0326afed776cf9dd82b",
+      "a": "baseline",
+      "b": "governor-telemetry",
+      "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "sha_b": "7c55338e282873039aec4ac472b05d12f442ff1c035d7ada45c82aaa69cf4ea5",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\ambush.map26a",
+      "map_sha256": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "group_id": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "side": 1,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    }
+  ]
+}

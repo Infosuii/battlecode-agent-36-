@@ -1,0 +1,23 @@
+{
+  "source_visualiser": "C:\\Users\\ishan\\AppData\\Local\\cambc\\assets\\9f2cf433a04e5a113a5488a236703e1473411d687bb65322214eec98b96fa13a\\visualiser\\assets\\index-oTc0ysQc.js",
+  "source_visualiser_sha256": "a74e5b9b657ff531aa4244d47b55a0696a3e7e7130265107a44264447a8c99d0",
+  "framing": "Each NUL advances the replay input position; empty spans retained in position count. Context joined from actual awaiting-input champion snapshots.",
+  "matches": [
+    {
+      "job_id": "4c4c7448792bb406fb6d288b9e59f26a64cb3ca955ed8e3c43909e401e6a8e8c",
+      "map": "ambush",
+      "frames": 4002,
+      "joined_frames": 4002,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    },
+    {
+      "job_id": "b3512c3acec80ccf97bfc76fd494b3395dc6805781f33d12292edc1bcab136d6",
+      "map": "ambush",
+      "frames": 4028,
+      "joined_frames": 4028,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    }
+  ]
+}

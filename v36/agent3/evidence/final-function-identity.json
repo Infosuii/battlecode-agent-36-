@@ -1,0 +1,17 @@
+{
+  "score_groups": {
+    "current_body_sha256": "1c11707720e438bf85490ef3d02d814bde014be7c64ccd7f4536627abe2a4187",
+    "comparison_body_sha256": "1c11707720e438bf85490ef3d02d814bde014be7c64ccd7f4536627abe2a4187",
+    "exact_body_match": true
+  },
+  "go_home_if_needed": {
+    "current_body_sha256": "4dd2d385d21ecbccf2a6e9fcd7f4f3b99abd8ff8a03843c4baff00ae958fc4b6",
+    "comparison_body_sha256": "4dd2d385d21ecbccf2a6e9fcd7f4f3b99abd8ff8a03843c4baff00ae958fc4b6",
+    "exact_body_match": true
+  },
+  "group_soak": {
+    "current_body_sha256": "8637807071d401a8d7348c02665ada218f94e3f0abe15f065228db38d6c06b62",
+    "comparison_body_sha256": "8637807071d401a8d7348c02665ada218f94e3f0abe15f065228db38d6c06b62",
+    "exact_body_match": true
+  }
+}

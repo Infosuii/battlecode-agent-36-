@@ -1,0 +1,907 @@
+{
+  "source_sha256": {
+    "common.h": "f5154c011791b380d9d3c36684379b57ce69be7f976a2e58febbe55541167a19",
+    "runtime-probe.wasm": "6a6a27fe01679b3c6daecb74d3e8d4c4b30c047719377590804e7c4178fab9e7",
+    "runtime_probe.cpp": "9ca5d58dc16b9926506f1b50ce10c8702fabef037174667472b1b81a60ba80bf",
+    "tsearch.h": "53fd1be1525a978309e247c5d971af104549a420e1c8f65b16f64c6d130ec987"
+  },
+  "bundle_sha256": {
+    "runtime-probe-vs-runtime-probe-1792446817459.repl26a": "62047f6d294fb60c6f7ce07441cb0f34276c1a9f1c3b9d6a74b7da069f3beebc"
+  },
+  "samples": [
+    {
+      "side": "a",
+      "round": 1,
+      "units": 2,
+      "horizon": 2,
+      "fight_cost": 6009,
+      "run_cost": 11988,
+      "pair_cost": 17997,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 1,
+      "units": 2,
+      "horizon": 2,
+      "fight_cost": 6009,
+      "run_cost": 11988,
+      "pair_cost": 17997,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 1,
+      "units": 2,
+      "horizon": 2,
+      "fight_cost": 6009,
+      "run_cost": 11988,
+      "pair_cost": 17997,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 2,
+      "units": 3,
+      "horizon": 2,
+      "fight_cost": 8725,
+      "run_cost": 15213,
+      "pair_cost": 23938,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 2,
+      "units": 3,
+      "horizon": 2,
+      "fight_cost": 8725,
+      "run_cost": 15213,
+      "pair_cost": 23938,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 2,
+      "units": 3,
+      "horizon": 2,
+      "fight_cost": 8725,
+      "run_cost": 15213,
+      "pair_cost": 23938,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 3,
+      "units": 4,
+      "horizon": 2,
+      "fight_cost": 12525,
+      "run_cost": 23834,
+      "pair_cost": 36359,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 3,
+      "units": 4,
+      "horizon": 2,
+      "fight_cost": 12525,
+      "run_cost": 23834,
+      "pair_cost": 36359,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 3,
+      "units": 4,
+      "horizon": 2,
+      "fight_cost": 12525,
+      "run_cost": 23834,
+      "pair_cost": 36359,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 4,
+      "units": 5,
+      "horizon": 2,
+      "fight_cost": 15458,
+      "run_cost": 26280,
+      "pair_cost": 41738,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 4,
+      "units": 5,
+      "horizon": 2,
+      "fight_cost": 15458,
+      "run_cost": 26280,
+      "pair_cost": 41738,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 4,
+      "units": 5,
+      "horizon": 2,
+      "fight_cost": 15458,
+      "run_cost": 26280,
+      "pair_cost": 41738,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 5,
+      "units": 6,
+      "horizon": 2,
+      "fight_cost": 20124,
+      "run_cost": 33862,
+      "pair_cost": 53986,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 5,
+      "units": 6,
+      "horizon": 2,
+      "fight_cost": 20124,
+      "run_cost": 33862,
+      "pair_cost": 53986,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 5,
+      "units": 6,
+      "horizon": 2,
+      "fight_cost": 20124,
+      "run_cost": 33862,
+      "pair_cost": 53986,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 6,
+      "units": 7,
+      "horizon": 2,
+      "fight_cost": 24631,
+      "run_cost": 32460,
+      "pair_cost": 57091,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 6,
+      "units": 7,
+      "horizon": 2,
+      "fight_cost": 24631,
+      "run_cost": 32460,
+      "pair_cost": 57091,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 6,
+      "units": 7,
+      "horizon": 2,
+      "fight_cost": 24631,
+      "run_cost": 32460,
+      "pair_cost": 57091,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 7,
+      "units": 8,
+      "horizon": 2,
+      "fight_cost": 32214,
+      "run_cost": 38968,
+      "pair_cost": 71182,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 7,
+      "units": 8,
+      "horizon": 2,
+      "fight_cost": 32214,
+      "run_cost": 38968,
+      "pair_cost": 71182,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 7,
+      "units": 8,
+      "horizon": 2,
+      "fight_cost": 32214,
+      "run_cost": 38968,
+      "pair_cost": 71182,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 8,
+      "units": 2,
+      "horizon": 3,
+      "fight_cost": 7296,
+      "run_cost": 15409,
+      "pair_cost": 22705,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 8,
+      "units": 2,
+      "horizon": 3,
+      "fight_cost": 7296,
+      "run_cost": 15409,
+      "pair_cost": 22705,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 8,
+      "units": 2,
+      "horizon": 3,
+      "fight_cost": 7296,
+      "run_cost": 15409,
+      "pair_cost": 22705,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 9,
+      "units": 3,
+      "horizon": 3,
+      "fight_cost": 9463,
+      "run_cost": 19442,
+      "pair_cost": 28905,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 9,
+      "units": 3,
+      "horizon": 3,
+      "fight_cost": 9463,
+      "run_cost": 19442,
+      "pair_cost": 28905,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 9,
+      "units": 3,
+      "horizon": 3,
+      "fight_cost": 9463,
+      "run_cost": 19442,
+      "pair_cost": 28905,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 10,
+      "units": 4,
+      "horizon": 3,
+      "fight_cost": 14365,
+      "run_cost": 29094,
+      "pair_cost": 43459,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 10,
+      "units": 4,
+      "horizon": 3,
+      "fight_cost": 14365,
+      "run_cost": 29094,
+      "pair_cost": 43459,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 10,
+      "units": 4,
+      "horizon": 3,
+      "fight_cost": 14365,
+      "run_cost": 29094,
+      "pair_cost": 43459,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 11,
+      "units": 5,
+      "horizon": 3,
+      "fight_cost": 18277,
+      "run_cost": 34051,
+      "pair_cost": 52328,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 11,
+      "units": 5,
+      "horizon": 3,
+      "fight_cost": 18277,
+      "run_cost": 34051,
+      "pair_cost": 52328,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 11,
+      "units": 5,
+      "horizon": 3,
+      "fight_cost": 18277,
+      "run_cost": 34051,
+      "pair_cost": 52328,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 12,
+      "units": 6,
+      "horizon": 3,
+      "fight_cost": 23613,
+      "run_cost": 40371,
+      "pair_cost": 63984,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 12,
+      "units": 6,
+      "horizon": 3,
+      "fight_cost": 23613,
+      "run_cost": 40371,
+      "pair_cost": 63984,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 12,
+      "units": 6,
+      "horizon": 3,
+      "fight_cost": 23613,
+      "run_cost": 40371,
+      "pair_cost": 63984,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 13,
+      "units": 7,
+      "horizon": 3,
+      "fight_cost": 32115,
+      "run_cost": 40076,
+      "pair_cost": 72191,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 13,
+      "units": 7,
+      "horizon": 3,
+      "fight_cost": 32115,
+      "run_cost": 40076,
+      "pair_cost": 72191,
+      "suspended": false
+    },
+    {
+      "side": "a",
+      "round": 13,
+      "units": 7,
+      "horizon": 3,
+      "fight_cost": 32115,
+      "run_cost": 40076,
+      "pair_cost": 72191,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 1,
+      "units": 2,
+      "horizon": 2,
+      "fight_cost": 6009,
+      "run_cost": 11988,
+      "pair_cost": 17997,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 1,
+      "units": 2,
+      "horizon": 2,
+      "fight_cost": 6009,
+      "run_cost": 11988,
+      "pair_cost": 17997,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 1,
+      "units": 2,
+      "horizon": 2,
+      "fight_cost": 6009,
+      "run_cost": 11988,
+      "pair_cost": 17997,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 2,
+      "units": 3,
+      "horizon": 2,
+      "fight_cost": 8725,
+      "run_cost": 15213,
+      "pair_cost": 23938,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 2,
+      "units": 3,
+      "horizon": 2,
+      "fight_cost": 8725,
+      "run_cost": 15213,
+      "pair_cost": 23938,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 2,
+      "units": 3,
+      "horizon": 2,
+      "fight_cost": 8725,
+      "run_cost": 15213,
+      "pair_cost": 23938,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 3,
+      "units": 4,
+      "horizon": 2,
+      "fight_cost": 12525,
+      "run_cost": 23834,
+      "pair_cost": 36359,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 3,
+      "units": 4,
+      "horizon": 2,
+      "fight_cost": 12525,
+      "run_cost": 23834,
+      "pair_cost": 36359,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 3,
+      "units": 4,
+      "horizon": 2,
+      "fight_cost": 12525,
+      "run_cost": 23834,
+      "pair_cost": 36359,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 4,
+      "units": 5,
+      "horizon": 2,
+      "fight_cost": 15458,
+      "run_cost": 26280,
+      "pair_cost": 41738,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 4,
+      "units": 5,
+      "horizon": 2,
+      "fight_cost": 15458,
+      "run_cost": 26280,
+      "pair_cost": 41738,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 4,
+      "units": 5,
+      "horizon": 2,
+      "fight_cost": 15458,
+      "run_cost": 26280,
+      "pair_cost": 41738,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 5,
+      "units": 6,
+      "horizon": 2,
+      "fight_cost": 20124,
+      "run_cost": 33862,
+      "pair_cost": 53986,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 5,
+      "units": 6,
+      "horizon": 2,
+      "fight_cost": 20124,
+      "run_cost": 33862,
+      "pair_cost": 53986,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 5,
+      "units": 6,
+      "horizon": 2,
+      "fight_cost": 20124,
+      "run_cost": 33862,
+      "pair_cost": 53986,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 6,
+      "units": 7,
+      "horizon": 2,
+      "fight_cost": 24631,
+      "run_cost": 32460,
+      "pair_cost": 57091,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 6,
+      "units": 7,
+      "horizon": 2,
+      "fight_cost": 24631,
+      "run_cost": 32460,
+      "pair_cost": 57091,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 6,
+      "units": 7,
+      "horizon": 2,
+      "fight_cost": 24631,
+      "run_cost": 32460,
+      "pair_cost": 57091,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 7,
+      "units": 8,
+      "horizon": 2,
+      "fight_cost": 32214,
+      "run_cost": 38968,
+      "pair_cost": 71182,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 7,
+      "units": 8,
+      "horizon": 2,
+      "fight_cost": 32214,
+      "run_cost": 38968,
+      "pair_cost": 71182,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 7,
+      "units": 8,
+      "horizon": 2,
+      "fight_cost": 32214,
+      "run_cost": 38968,
+      "pair_cost": 71182,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 8,
+      "units": 2,
+      "horizon": 3,
+      "fight_cost": 7296,
+      "run_cost": 15409,
+      "pair_cost": 22705,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 8,
+      "units": 2,
+      "horizon": 3,
+      "fight_cost": 7296,
+      "run_cost": 15409,
+      "pair_cost": 22705,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 8,
+      "units": 2,
+      "horizon": 3,
+      "fight_cost": 7296,
+      "run_cost": 15409,
+      "pair_cost": 22705,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 9,
+      "units": 3,
+      "horizon": 3,
+      "fight_cost": 9463,
+      "run_cost": 19442,
+      "pair_cost": 28905,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 9,
+      "units": 3,
+      "horizon": 3,
+      "fight_cost": 9463,
+      "run_cost": 19442,
+      "pair_cost": 28905,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 9,
+      "units": 3,
+      "horizon": 3,
+      "fight_cost": 9463,
+      "run_cost": 19442,
+      "pair_cost": 28905,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 10,
+      "units": 4,
+      "horizon": 3,
+      "fight_cost": 14365,
+      "run_cost": 29094,
+      "pair_cost": 43459,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 10,
+      "units": 4,
+      "horizon": 3,
+      "fight_cost": 14365,
+      "run_cost": 29094,
+      "pair_cost": 43459,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 10,
+      "units": 4,
+      "horizon": 3,
+      "fight_cost": 14365,
+      "run_cost": 29094,
+      "pair_cost": 43459,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 11,
+      "units": 5,
+      "horizon": 3,
+      "fight_cost": 18277,
+      "run_cost": 34051,
+      "pair_cost": 52328,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 11,
+      "units": 5,
+      "horizon": 3,
+      "fight_cost": 18277,
+      "run_cost": 34051,
+      "pair_cost": 52328,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 11,
+      "units": 5,
+      "horizon": 3,
+      "fight_cost": 18277,
+      "run_cost": 34051,
+      "pair_cost": 52328,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 12,
+      "units": 6,
+      "horizon": 3,
+      "fight_cost": 23613,
+      "run_cost": 40371,
+      "pair_cost": 63984,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 12,
+      "units": 6,
+      "horizon": 3,
+      "fight_cost": 23613,
+      "run_cost": 40371,
+      "pair_cost": 63984,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 12,
+      "units": 6,
+      "horizon": 3,
+      "fight_cost": 23613,
+      "run_cost": 40371,
+      "pair_cost": 63984,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 13,
+      "units": 7,
+      "horizon": 3,
+      "fight_cost": 32115,
+      "run_cost": 40076,
+      "pair_cost": 72191,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 13,
+      "units": 7,
+      "horizon": 3,
+      "fight_cost": 32115,
+      "run_cost": 40076,
+      "pair_cost": 72191,
+      "suspended": false
+    },
+    {
+      "side": "b",
+      "round": 13,
+      "units": 7,
+      "horizon": 3,
+      "fight_cost": 32115,
+      "run_cost": 40076,
+      "pair_cost": 72191,
+      "suspended": false
+    }
+  ],
+  "table": [
+    {
+      "units": 2,
+      "horizon": 2,
+      "records": 6,
+      "pair_costs": [
+        17997
+      ]
+    },
+    {
+      "units": 2,
+      "horizon": 3,
+      "records": 6,
+      "pair_costs": [
+        22705
+      ]
+    },
+    {
+      "units": 3,
+      "horizon": 2,
+      "records": 6,
+      "pair_costs": [
+        23938
+      ]
+    },
+    {
+      "units": 3,
+      "horizon": 3,
+      "records": 6,
+      "pair_costs": [
+        28905
+      ]
+    },
+    {
+      "units": 4,
+      "horizon": 2,
+      "records": 6,
+      "pair_costs": [
+        36359
+      ]
+    },
+    {
+      "units": 4,
+      "horizon": 3,
+      "records": 6,
+      "pair_costs": [
+        43459
+      ]
+    },
+    {
+      "units": 5,
+      "horizon": 2,
+      "records": 6,
+      "pair_costs": [
+        41738
+      ]
+    },
+    {
+      "units": 5,
+      "horizon": 3,
+      "records": 6,
+      "pair_costs": [
+        52328
+      ]
+    },
+    {
+      "units": 6,
+      "horizon": 2,
+      "records": 6,
+      "pair_costs": [
+        53986
+      ]
+    },
+    {
+      "units": 6,
+      "horizon": 3,
+      "records": 6,
+      "pair_costs": [
+        63984
+      ]
+    },
+    {
+      "units": 7,
+      "horizon": 2,
+      "records": 6,
+      "pair_costs": [
+        57091
+      ]
+    },
+    {
+      "units": 7,
+      "horizon": 3,
+      "records": 6,
+      "pair_costs": [
+        72191
+      ]
+    },
+    {
+      "units": 8,
+      "horizon": 2,
+      "records": 6,
+      "pair_costs": [
+        71182
+      ]
+    },
+    {
+      "units": 8,
+      "horizon": 3,
+      "records": 0,
+      "pair_costs": []
+    }
+  ],
+  "scope": "One 14-round official-runner release diagnostic with synthetic scenes; 14 scenario cells, repeated same scene records are not independent observations; no completed-match score/fault statistics; no strength or worst-case bound claim",
+  "recovery": "Compile and one bounded run succeeded. Original parser expected absent completed-game statistics; this recovery only reads existing bundle. Reproducible commands are in run_runtime_probe.py; no rerun was performed."
+}

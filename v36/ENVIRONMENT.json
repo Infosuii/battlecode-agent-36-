@@ -1,0 +1,38 @@
+{
+  "cli_version": "cambc 2.2.5",
+  "cli_sha256": "e2a87c920a7a3545ae605eedbc6d97a23c92f65406f82d8ac2bdca66b8fd93c6",
+  "sdk": {
+    "algorithm": "sha256(sorted relative path + NUL + lowercase file sha256 + LF)",
+    "sha256": "c87fc0aca69b8974728c540e97fc2fb6faf12e9c18cad20964a4ce4046687b39",
+    "files": {
+      "cambc.h": "ee131e2981c16f696cb82cd6b04dc1871f45323057e51f7bb676a893ab72e264",
+      "effect-tests/src/bot.cpp": "ece596df390d9e99013652882d515e97b612d290f8203c81a48ae2bcb28a3723",
+      "imports.h": "a993025b1027ff24f1f429e5d0ad0eec5f0c3d54fee85285d3328f2e788ec0c4",
+      "LICENSE-LLVM.txt": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+      "tests/CMakeLists.txt": "a781241513b1e25a65d37ce635e962b12de15600a27324bba466941513a572ce",
+      "tests/engine_contract.cpp": "1f53facdc5a85c011655c7269cbd2df696dbad7185bf0637085675eaf3ed591c",
+      "tests/src/bot.cpp": "19180951367fe39a83f1d73fb6e0163258b4e86b9c67c8258fe0c4328012ea53",
+      "tests/typed_api.cpp": "f42bf83669f84fd60c81e5afdae5f7161955fc87bffec3a302fdf714d8f95d47",
+      "THIRD_PARTY.txt": "3da082e429fc5c970e3ebada40905f683e661d9f9ad625586984a29ad516edc4",
+      "wasm_simd128.h": "254cb9207bb773a6b88d9a11ae8c8e2dd869675142d6f686a59a41d46af10196"
+    }
+  },
+  "compiler": "clang version 22.1.0 (https://github.com/llvm/llvm-project 4434dabb69916856b824f68a64b029c67175e532)\nTarget: wasm32-unknown-wasip1\nThread model: posix\nInstalledDir: C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\nConfiguration file: C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.cfg\n",
+  "engine_wasm_sha256": "1919c5a6f2ea039041071166aef38f6f1ede8d5c29b062db8c2e028109e3f96f",
+  "logical_cpus": 16,
+  "selected_match_workers": 3,
+  "sdk_config": "sdk_version = \"2.2.5\"\nlanguages = [\"cpp\",\"rust\",\"python\",\"ocaml\"]\n",
+  "live_auth": "CLI maps list: Sign in first",
+  "discovered_opponents": "Historical local artifacts available under original names, not recovered farm/calm/v34c/sparexp/aggro/v30base/spartop.",
+  "missing": [
+    "authenticated platform submission windows",
+    "historical named calibrated pool",
+    "historical maps_rdev/maps_real"
+  ],
+  "memory": {
+    "total_phys": 16858320896,
+    "avail_phys": 1766998016,
+    "load": 89
+  },
+  "disk_free_bytes": 189476798464
+}

@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "source_defaults_match_selection": true,
+    "all_new_policy_flags_off": true,
+    "baseline_tuning_macros_preserved": true,
+    "no_CAMBC_DEBUG": true,
+    "selected_executable_sections_equal": true,
+    "archive_rebuild_byte_equal": true,
+    "original_rollback_unchanged": true,
+    "exact_official_raw_parity": true,
+    "final_head_gate": true,
+    "final_shift_gate": true,
+    "final_pool_gate": true,
+    "all320_pool_point_gem_fuel_strata_equal_baseline": true,
+    "all_completed_fullmatch_native_fault_entries_zero": true,
+    "no_incomplete_active_schedules": true
+  },
+  "selected_build": "cache-source-off",
+  "release_build": "release-final",
+  "artifact_sha256": "2f73d77325ba45398672f329226eeba9a6033f2ced310d4e5a21c78ce748a4e1",
+  "source_tree_sha256": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+  "archive_sha256": "6622fb3f57f26f56cec83e03f9e64a9d1638fe907574bef0da3602311c7427ce",
+  "unique_fullmatch_jobs": 6745,
+  "final_policy": "Retain baseline behavior; experimental changes OFF. No measured upgrade claimed.",
+  "review_scope": "Root verified exact package after peer source/interface/protocol reviews. Child reports are development reviews; no unperformed child final-artifact approval is implied.",
+  "external_gaps": [
+    "Original calibrated seven-opponent pool",
+    "Authenticated current live pool and submission windows",
+    "Historical maps_real/maps_rdev",
+    "Competition-family independent holdout",
+    "Live ladder A/B"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "candidate": "model-fix",
+  "games": 100,
+  "map_clusters": 50,
+  "wins": 55,
+  "ties": 0,
+  "losses": 45,
+  "win_points": 0.55,
+  "cluster_bootstrap95": [
+    0.49,
+    0.61
+  ],
+  "mean_submitted_gem_margin": 7.34,
+  "gem_margin_cluster_bootstrap95": [
+    -23.5,
+    37.16
+  ],
+  "interpretation": "Descriptive matched-map clusters; no significance or general-strength claim. A single map has no interval.",
+  "fuel_exhaustion_events": 310,
+  "faults": 0,
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ]
+}

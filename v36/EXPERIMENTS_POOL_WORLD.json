@@ -1,0 +1,14 @@
+{
+  "pool_hypothesis": "Governor reduces observed fuel exhaustion without losing fullmatch performance across diverse recovered artifacts",
+  "fixed_pool": [
+    "spar_fish",
+    "spar_mite",
+    "spar_bush",
+    "live_platform_v35"
+  ],
+  "pool_scope": "Uncalibrated local proxies and recovered historical source, not historical named farm/calm/sparexp pool or external strong-team executables.",
+  "primary": "Matched candidate-minus-baseline win points and submitted gems, clustered by map across all opponents/sides",
+  "world_hypothesis": "Visibilitychecked camp awake contract changes danger consistently; native mechanic/productionbody observation fixtures pass",
+  "world_rule": "Evaluate fixed50map chunks; reject after first fullchunk if uppermapclusterwin95<.50 or runtimefault; otherwise400games. No holdout before candidatefreeze.",
+  "independence": "200geometryseeds conditional common generator, not200competitionfamilies;17official mapclusters across fixed opponents"
+}

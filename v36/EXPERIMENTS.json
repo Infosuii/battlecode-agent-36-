@@ -1,0 +1,10 @@
+{
+  "protocol_version": 1,
+  "experiments": [
+    {"id":"E00", "hypothesis":"Frozen source builds and completes real release games under recovered current engine", "primary":"legal completed full match, zero runtime faults", "acceptance":"valid engine result plus replay and source/artifact identities", "resource":"one build then two map-side smoke games"},
+    {"id":"E01", "hypothesis":"All new switches off preserves baseline", "primary":"artifact equality, then exact replay/decision equality if bytes differ", "acceptance":"exact artifact parity preferred; any deviation must be investigated", "resource":"one build and targeted paired smoke"},
+    {"id":"E02", "hypothesis":"Admissible farming bound prevents unsound pruning", "primary":"bound invariant and full-match win points/gem margin", "acceptance":"correct scorer invariant and completed controlled screen; no production promotion from correctness alone", "stop":"evaluate declared 50-map chunks; reject clear faults/regression, stop as inconclusive at budget boundary", "resource":"up to 400 synthetic paired games plus 34 local official games"},
+    {"id":"E03", "hypothesis":"Legal flee-hit and conservative runtime/snapshot changes improve competition outcomes", "primary":"full-match win points and gem margin", "acceptance":"action legality, measured release fuel, isolated and combined matched evidence", "resource":"targeted oracle fixtures, isolated screens before combination"},
+    {"id":"E04", "hypothesis":"Exact layout identity rejects unknown maps", "primary":"official fixtures and same-dimension altered-map rejection", "acceptance":"correct classifier, off parity and no unsupported draft policy promotion", "resource":"17 local map identity fixtures plus mutations"}
+  ]
+}

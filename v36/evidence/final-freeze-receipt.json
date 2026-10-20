@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "0159aa2362276da5ef6ec1498be5050f85d20c6b0b866675ff225eb259af8232",
+  "schedule_sha256": {
+    "release-final-head": "67a100b105aab120bd802d9a4c1748e23342f362f050cc1ce6853871cbc99e02",
+    "release-final-shift": "583c112942a8693639a5a972fba3301a375a0a14703ae81bba7624854745e6dd",
+    "release-final-pool": "d7fae7a56610dd001e3f4b6b0b7864c8f266a55cf51d8bff2175f9ba6e93896a",
+    "baseline-final-pool": "e2545946457802aa45f4ab9044be74e7d31c493b379e97c72096a9855737a50d"
+  }
+}

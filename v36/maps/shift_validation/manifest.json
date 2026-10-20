@@ -1,0 +1,129 @@
+{
+  "stage": "shift_validation",
+  "maps": [
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_000.map26a",
+      "seed": 362010000,
+      "width": 43,
+      "height": 51,
+      "champions": 3,
+      "style": "clustered",
+      "sha256": "d3fcd5f14a35f57507056eb96c69c8d0abd0342cc55d8118aeb8900f50cf9d01",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_001.map26a",
+      "seed": 362010001,
+      "width": 57,
+      "height": 39,
+      "champions": 4,
+      "style": "clustered",
+      "sha256": "e7774ee419774797b61b64ecfc99b0139f97f758da8be83ab450a18a91a886fd",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_002.map26a",
+      "seed": 362010002,
+      "width": 69,
+      "height": 63,
+      "champions": 5,
+      "style": "clustered",
+      "sha256": "851ee60729a754e6029a874db0e7442cca2d183b104a8ca7a83f96a03fef4e10",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_003.map26a",
+      "seed": 362010003,
+      "width": 89,
+      "height": 47,
+      "champions": 5,
+      "style": "clustered",
+      "sha256": "52e5422ce7c41c29f23a9b181162760a3601cb59eec5e915dc4e6cd12b3709f2",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_004.map26a",
+      "seed": 362010004,
+      "width": 77,
+      "height": 81,
+      "champions": 3,
+      "style": "clustered",
+      "sha256": "6473cd3c308d5de7d1b76fe4fe604480b2362b9b849b709de58c42d1a8a20a36",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_005.map26a",
+      "seed": 362010005,
+      "width": 43,
+      "height": 51,
+      "champions": 3,
+      "style": "clustered",
+      "sha256": "89e5d24ee8bfd2348491d6a2bb6103519c4f6cf107d57eecbb0857d8da55188c",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_006.map26a",
+      "seed": 362010006,
+      "width": 57,
+      "height": 39,
+      "champions": 4,
+      "style": "clustered",
+      "sha256": "9811321b6ffb0dca8020a979e2076789ed1ca937ec011a3aa26b83c37644d0f8",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_007.map26a",
+      "seed": 362010007,
+      "width": 69,
+      "height": 63,
+      "champions": 5,
+      "style": "clustered",
+      "sha256": "f82d3ebca277c470652aac1f0ce948c031a2ee0da73159a4b01400058c71b154",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_008.map26a",
+      "seed": 362010008,
+      "width": 89,
+      "height": 47,
+      "champions": 5,
+      "style": "clustered",
+      "sha256": "f591ea70f2c71b5d28bb2bfbc75bd89cce46f35f04c8fc60ea5ef719767bb118",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    },
+    {
+      "file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_009.map26a",
+      "seed": 362010009,
+      "width": 77,
+      "height": 81,
+      "champions": 3,
+      "style": "clustered",
+      "sha256": "07b5e4bc3c8a5f2941cee541ed115d065b727383d2f4eccc53e6fe44d11b6cfc",
+      "integrity": "passed",
+      "reachability": "all spawns, camps and altars reachable in four-neighbour grid",
+      "performance_evaluated": false
+    }
+  ],
+  "match_performance_untouched": true,
+  "generator_sha256": "537bf280a253e028bea23b7e7a0fda8bbb0c3b7b7a0520ad2836a67189c1b9ce",
+  "caveat": "Reserved structural shifts, but shared generator/mirrored corner-spawn and wall mechanisms; not proof of generalization to all competition families.",
+  "freeze_policy": "No final bot games before selected combined source and switches are frozen."
+}

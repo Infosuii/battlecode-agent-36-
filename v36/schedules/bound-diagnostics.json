@@ -1,0 +1,94 @@
+{
+  "id": "bound-diagnostics",
+  "purpose": "Correctness-only real-state bound andearly coverage traces; logging changesfuel notstrength",
+  "created_utc": "2026-10-20T10:33:37.939659+00:00",
+  "candidate": "bound-diag",
+  "opponents": [
+    "baseline"
+  ],
+  "distinct_maps": 3,
+  "games": 6,
+  "duplicate_deterministic_jobs_removed": 0,
+  "independent_map_groups": 3,
+  "protocol": "Full matches at default fuel in release. No deterministic rerun counted as new evidence.",
+  "jobs": [
+    {
+      "id": "0b363b0df07ffb5502514992b33f7cf9325ad9d4e72fca55d8387624d36d22b8",
+      "a": "bound-diag",
+      "b": "baseline",
+      "sha_a": "7eb3711ead81a1e19e1a68a2559e10bd38dcb619ce37f5ed578a841ebefdc97c",
+      "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rows.map26a",
+      "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "group_id": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "0d47050fef3f8be490f7ab2805dc9f9de8f1bb704e69bb5982b17ffa58b6c429",
+      "a": "baseline",
+      "b": "bound-diag",
+      "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "sha_b": "7eb3711ead81a1e19e1a68a2559e10bd38dcb619ce37f5ed578a841ebefdc97c",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rows.map26a",
+      "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "group_id": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "side": 1,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "f27a4cfd54884fa38c37cac84ded60cd4a8fec8405d82d7b0c81547ecf02b947",
+      "a": "bound-diag",
+      "b": "baseline",
+      "sha_a": "7eb3711ead81a1e19e1a68a2559e10bd38dcb619ce37f5ed578a841ebefdc97c",
+      "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\stampede.map26a",
+      "map_sha256": "43362dd0d8b404f291d4e5ea701ba782269ab74debbd2a976ad6d0d05e2f10e3",
+      "group_id": "43362dd0d8b404f291d4e5ea701ba782269ab74debbd2a976ad6d0d05e2f10e3",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "bfa01409c3cbe2766c3a90e0298ffa6b7ace4653533ef298f8bb8eee36870971",
+      "a": "baseline",
+      "b": "bound-diag",
+      "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "sha_b": "7eb3711ead81a1e19e1a68a2559e10bd38dcb619ce37f5ed578a841ebefdc97c",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\stampede.map26a",
+      "map_sha256": "43362dd0d8b404f291d4e5ea701ba782269ab74debbd2a976ad6d0d05e2f10e3",
+      "group_id": "43362dd0d8b404f291d4e5ea701ba782269ab74debbd2a976ad6d0d05e2f10e3",
+      "side": 1,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "39a7fd16271ead0abeeec03784987cee7a668f9c1e621601b8d43ab3636cc8b8",
+      "a": "bound-diag",
+      "b": "baseline",
+      "sha_a": "7eb3711ead81a1e19e1a68a2559e10bd38dcb619ce37f5ed578a841ebefdc97c",
+      "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\swirl.map26a",
+      "map_sha256": "988f7804a0f3e3fa4394ff66cac222dc957886d15ba9fcec9f3023a0ecb09360",
+      "group_id": "988f7804a0f3e3fa4394ff66cac222dc957886d15ba9fcec9f3023a0ecb09360",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "0e1b0605660a850511d90e79196ed2c0e4aeffd0086590588c0525b37fe28924",
+      "a": "baseline",
+      "b": "bound-diag",
+      "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "sha_b": "7eb3711ead81a1e19e1a68a2559e10bd38dcb619ce37f5ed578a841ebefdc97c",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\swirl.map26a",
+      "map_sha256": "988f7804a0f3e3fa4394ff66cac222dc957886d15ba9fcec9f3023a0ecb09360",
+      "group_id": "988f7804a0f3e3fa4394ff66cac222dc957886d15ba9fcec9f3023a0ecb09360",
+      "side": 1,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    }
+  ]
+}

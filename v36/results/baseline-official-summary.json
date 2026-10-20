@@ -1,0 +1,17 @@
+{
+  "kind": "self-play diagnostics only",
+  "games": 17,
+  "independent_map_groups": 17,
+  "strength_estimate": null,
+  "fuel_exhaustion_events": {
+    "teamA": 46,
+    "teamB": 54
+  },
+  "faults": {
+    "teamA": 0,
+    "teamB": 0
+  },
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ]
+}

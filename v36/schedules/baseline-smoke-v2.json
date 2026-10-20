@@ -1,0 +1,42 @@
+{
+  "id": "baseline-smoke-v2",
+  "purpose": "Phase0 full-match smoke; identical artifact sides deduplicated; not strength evidence",
+  "created_utc": "2026-10-19T21:42:41.527256+00:00",
+  "candidate": "baseline",
+  "opponents": [
+    "baseline"
+  ],
+  "distinct_maps": 2,
+  "games": 2,
+  "duplicate_deterministic_jobs_removed": 2,
+  "independent_map_groups": 2,
+  "protocol": "Full matches at default fuel in release. No deterministic rerun counted as new evidence.",
+  "jobs": [
+    {
+      "id": "cbbf141679d21d6175c29431a5a07a835dbf9a42fe447d97c5134b89752a1132",
+      "a": "baseline",
+      "b": "baseline",
+      "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rows.map26a",
+      "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "group_id": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "43af83c313dd7db488a342d73efbc013b7d439d4e3cce76732cd8ffd3c9197b3",
+      "a": "baseline",
+      "b": "baseline",
+      "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\stampede.map26a",
+      "map_sha256": "43362dd0d8b404f291d4e5ea701ba782269ab74debbd2a976ad6d0d05e2f10e3",
+      "group_id": "43362dd0d8b404f291d4e5ea701ba782269ab74debbd2a976ad6d0d05e2f10e3",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    }
+  ]
+}

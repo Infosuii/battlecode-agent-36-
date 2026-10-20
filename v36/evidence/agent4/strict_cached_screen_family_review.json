@@ -1,0 +1,158 @@
+{
+  "schedule": "strict-cached-screen",
+  "candidate": "strict-cached",
+  "complete": true,
+  "games": 400,
+  "distinct_map_clusters": 200,
+  "template_strata": 10,
+  "balanced_map_opponent_side_strata": true,
+  "equal_maps_per_template": true,
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ],
+  "map_win_points": 0.5,
+  "map_win_points_bootstrap95": [
+    0.5,
+    0.5
+  ],
+  "map_mean_submitted_gem_margin": 0.11,
+  "map_gem_bootstrap95": [
+    -2.085,
+    2.215
+  ],
+  "template_equal_weight_win_points": 0.5,
+  "template_bootstrap95_sensitivity": [
+    0.5,
+    0.5
+  ],
+  "template_equal_weight_mean_gem_margin": 0.10999999999999996,
+  "template_gem_bootstrap95_sensitivity": [
+    -1.2,
+    1.5299999999999998
+  ],
+  "leave_one_template_out_win_points": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "per_template": [
+    {
+      "family": "29x35/picks3/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "37x43/picks3/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "49x57/picks5/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "53x47/picks4/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "61x39/picks5/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "67x71/picks3/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "73x41/picks4/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "83x33/picks5/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 0
+    },
+    {
+      "family": "91x79/picks4/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": 5.1
+    },
+    {
+      "family": "97x93/picks5/separated",
+      "maps": 20,
+      "games": 40,
+      "win_points": 0.5,
+      "mean_gem_margin": -4
+    }
+  ],
+  "per_opponent_side": [
+    {
+      "opponent": "cache-source-off",
+      "candidate_side": 1,
+      "games": 200,
+      "win_points": 0.505,
+      "mean_gem_margin": -22.87
+    },
+    {
+      "opponent": "cache-source-off",
+      "candidate_side": 0,
+      "games": 200,
+      "win_points": 0.495,
+      "mean_gem_margin": 23.09
+    }
+  ],
+  "leakage_audit": {
+    "screen_validation_shared_map_hashes": 0,
+    "screen_validation_shared_geometry_seeds": 0,
+    "screen_validation_shared_template_strata": [
+      "29x35/picks3/separated",
+      "37x43/picks3/separated",
+      "49x57/picks5/separated",
+      "53x47/picks4/separated",
+      "61x39/picks5/separated",
+      "67x71/picks3/separated",
+      "73x41/picks4/separated",
+      "83x33/picks5/separated",
+      "91x79/picks4/separated",
+      "97x93/picks5/separated"
+    ],
+    "final_holdout": "Not opened/read/performance tested by this analysis; preparation source declares the same template list and generator."
+  },
+  "interpretation": [
+    "Map bootstrap conditions on this fixed separated-camp generator and its declared size mixture.",
+    "Template grouping is a conservative sensitivity to shared dimensions/pick count/style, not a proof of ten independent competition-map families.",
+    "Screen and fresh validation use different seeds/hashes but share all ten templates, same spawn/camp/altar placement mechanism and wall generator; this is within-generator validation, not unseen-family validation.",
+    "Repeated side games are coupled within the map; deterministic reruns and aliases do not increase sample size.",
+    "Direct candidate-vs-OFF head-to-head points do not establish a varied-pool improvement. Selection among several variants requires once-only fresh validation.",
+    "Geometry seed is not a runner match seed. No historical maps_rdev/maps_real or requested seven calibrated opponents have been recovered."
+  ]
+}

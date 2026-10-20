@@ -1,0 +1,50 @@
+{
+  "source_sha256": "76d5cfeba011028b9089f6223d3d62817f40ab22cbef3e7d3e0e792d17d9b776",
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O2",
+    "-std=c++20",
+    "-fwasm-exceptions",
+    "-mllvm",
+    "-wasm-use-legacy-eh=false",
+    "--no-wasm-opt",
+    "-LC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\share\\wasi-sysroot\\lib\\wasm32-wasip1\\eh",
+    "-lunwind",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent3\\evidence\\capture_intent_fixture.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent3\\evidence\\capture_intent_fixture.wasm"
+  ],
+  "results": [
+    {
+      "scenario": 0,
+      "returncode": 0,
+      "stdout": "{\"scenario\":0,\"checks\":10,\"policy_active\":1}\n",
+      "stderr": "(node:14544) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+    },
+    {
+      "scenario": 1,
+      "returncode": 0,
+      "stdout": "{\"scenario\":1,\"checks\":10,\"policy_active\":0}\n",
+      "stderr": "(node:16684) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+    },
+    {
+      "scenario": 2,
+      "returncode": 0,
+      "stdout": "{\"scenario\":2,\"checks\":10,\"policy_active\":0}\n",
+      "stderr": "(node:18400) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+    },
+    {
+      "scenario": 3,
+      "returncode": 0,
+      "stdout": "{\"scenario\":3,\"checks\":10,\"policy_active\":0}\n",
+      "stderr": "(node:18708) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+    },
+    {
+      "scenario": 4,
+      "returncode": 0,
+      "stdout": "{\"scenario\":4,\"checks\":10,\"policy_active\":0}\n",
+      "stderr": "(node:17740) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+    }
+  ],
+  "scope": "Actual production helpers with controlled observations/claims and identity API result; strict classifier native fixtures are separate"
+}

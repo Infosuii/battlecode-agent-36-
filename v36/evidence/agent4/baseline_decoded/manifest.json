@@ -1,0 +1,124 @@
+{
+  "decoder_sha256": "fd4a83436aec11352b0c6e0adc0bf2c27e621f77fb4d58646e8619ec989fc200",
+  "maps": [
+    {
+      "map": "ambush",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\ambush.json.gz",
+      "sha256": "d63c52c3fd112ca7b242aa9457466232b7192d800f03b6334f99c864d3914343",
+      "replay_sha256": "d3c93883c48cde10dcb20f53a0726ddc728dbb588b37735a62c21e1aecbda55b",
+      "baseline_job_id": "fc2572a47461be697b82a78cd186802d11832b3f1879d4881bf1e9392e26ffde"
+    },
+    {
+      "map": "collision",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\collision.json.gz",
+      "sha256": "53699bc1ad518b1ea13e1d6627bc9ec6a1915a934956662f79072b24e6067aa9",
+      "replay_sha256": "91576fbc8342f9fa0633a0f0abb1904879101b845b007954b4f72609c8789488",
+      "baseline_job_id": "1b9f747281c6faa370403c39d3a23ce9d3dfa3c4dd97ee48534b26c7546241af"
+    },
+    {
+      "map": "contest",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\contest.json.gz",
+      "sha256": "8ed29c27543e9a57707db210efcfce457297b29e894f6f31d72cc0658ace6cdb",
+      "replay_sha256": "4ef67d78d348472989c6e2f874d31607bdf8c183312c8ed713580630cb2d2af7",
+      "baseline_job_id": "86af7c9d124af969b9c7d55fe6386ccad9b4a051949704350ae80beefffbbe6d"
+    },
+    {
+      "map": "corners",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\corners.json.gz",
+      "sha256": "5f238f4300d05bcb3086c1c5400f660b4e4120b36edf72f2f3fcc626ce4d7c08",
+      "replay_sha256": "88003d2dbeb60bde72ba2ef232d1f632199691cbc0f9e8f728675a3afcf546e6",
+      "baseline_job_id": "ab55ec9146de0c1a8b36b2db36d45f555e972b5439c2c1fb3874425febc0b70c"
+    },
+    {
+      "map": "eight",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\eight.json.gz",
+      "sha256": "cc1c884eff3049ee2d1270351ea3935e48dd07a0bb79c3a686b391dce65a44b9",
+      "replay_sha256": "25bf9d3074372348ca52c928ad33a34aedd9224e84c728febcc49f1f875ec8cb",
+      "baseline_job_id": "3306c080506b148eb4fa13b2bfc372745f02ee4224c23e7203d3874c493f051f"
+    },
+    {
+      "map": "elkring",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\elkring.json.gz",
+      "sha256": "0e3c84b3c0cd682fce36d34fc1b5afbecd675c48edda6971c126b152ec20fd43",
+      "replay_sha256": "0862a9d150e9cfcbcdc28f19fafb8ef7dea2d91a1db1c22e03c48d0f6cb516bf",
+      "baseline_job_id": "c329096498ae1e2754c8593bb5fbfaba0dcd75dd62b13bbe5e1362535dbe65da"
+    },
+    {
+      "map": "expanse",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\expanse.json.gz",
+      "sha256": "bd37c960735bf4530948ae1d562da9b679dff2c177dd5bdda93dd3a7cd4d3f09",
+      "replay_sha256": "3cda5d0b1bdfc08734bf0092edaaca187f8ffcf364a7f72ac4b80bb9253b6359",
+      "baseline_job_id": "d98b2a0fdb96eceeee761146d063dd04bf84efa18caeb3921f5c34e77d3bef65"
+    },
+    {
+      "map": "fragment",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\fragment.json.gz",
+      "sha256": "2110531962e3f7d86848c5e6f0f4742ab34e19ee618ec9f9cfc464175ea296c5",
+      "replay_sha256": "3038ff1260c095a93403e35f2402195e150754bbf7c5851510a67493ecd9623a",
+      "baseline_job_id": "ee0c2aa5dfc0a83e867c086c2fbd065e6d3de0176dd93e73591faa7c395e5875"
+    },
+    {
+      "map": "interlock",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\interlock.json.gz",
+      "sha256": "9fa03b6078eba2d2613663ae15a4a6c153272e5ca6de88af1a6c4c9b2d64a658",
+      "replay_sha256": "393568b2fe1b1c7e0cc3a8806da21f0f8541f80bce4c0a33eb0ca1f6b6c32dbd",
+      "baseline_job_id": "72a641247f8b52b992844c1afbbf8c26b467a2d65d74d6f75a8f78b34d17b8e1"
+    },
+    {
+      "map": "lanes",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\lanes.json.gz",
+      "sha256": "0c7e2578b86e5da5863f3e742677ff50ab3045a00fb6e2360563582e2cb534df",
+      "replay_sha256": "d4a4ca1fb18e22f1d1b837202302bf52f6c7ccae06dbaf39a698e866afa70bbd",
+      "baseline_job_id": "b6ff9fec7afade148d929e85a90fea6e0e2f03afef74004a6afd6dff972491a2"
+    },
+    {
+      "map": "monolith",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\monolith.json.gz",
+      "sha256": "d7a0f63447994d6e58240c7701220860a12f755b4e148ce93049e59e79f664ed",
+      "replay_sha256": "57dc919b2a52bd808a1a0686daa8ee2f0d96d88788426675cce570965da3a788",
+      "baseline_job_id": "77fd9f6a6679db23bd6f5044af33d94d116f213280be0211acdac44e060619f5"
+    },
+    {
+      "map": "packs",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\packs.json.gz",
+      "sha256": "db8722f639d5bf8e3963df84d9792b73b24136a0db939b59d04621a92ed46a73",
+      "replay_sha256": "cc4bca9fd30199a19981d4114521b4a4a624bff0e5604e3530ddc6a898913419",
+      "baseline_job_id": "9ff57e6ca5fe125d523554acee6b54977429a887fb9061d8254b02ec6f5aafa8"
+    },
+    {
+      "map": "pilgrimage",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\pilgrimage.json.gz",
+      "sha256": "a75a468588141a55c510f68ca816c257bd55103aff66ef31a92bdf70349a3f77",
+      "replay_sha256": "3aded794a59a9d6ec28f1ad2f6df7c915571f33a589365699b03546a83367138",
+      "baseline_job_id": "d263672096fb87399b88899787adbc9f31f942bb4965179ad94cac36c8a6a966"
+    },
+    {
+      "map": "rows",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\rows.json.gz",
+      "sha256": "1093a8fa0496a75ee5c516f8b88b01f42ef910a099a8d68b174134da511f7cfa",
+      "replay_sha256": "103cc76b9b6eff3b50eb9b80310280505ba3b803ae359d46ea80fcec6798b080",
+      "baseline_job_id": "cbbf141679d21d6175c29431a5a07a835dbf9a42fe447d97c5134b89752a1132"
+    },
+    {
+      "map": "rushbait-v2",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\rushbait-v2.json.gz",
+      "sha256": "e448fa99368bf89d7db614475df4c3236a4b01d2c9292a30f3278c1b9e507811",
+      "replay_sha256": "b9d2db1c1ffb25b101b393a8ad8cef454eba9fe08c96774264578385e3acbbcd",
+      "baseline_job_id": "f8d0567d3067e5d8a98dd2134fdd37b40205f47da8ed28deca41f5d1200ecdc7"
+    },
+    {
+      "map": "stampede",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\stampede.json.gz",
+      "sha256": "b388cbfeb3920150283470d3126b4e2446228676bad53e737b9626a76d6fa07f",
+      "replay_sha256": "5aeea7d23638c77c061b684f3614fd0b35a0cd77a8e6b40b996851efb0cd380d",
+      "baseline_job_id": "43af83c313dd7db488a342d73efbc013b7d439d4e3cce76732cd8ffd3c9197b3"
+    },
+    {
+      "map": "swirl",
+      "decoded": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\baseline_decoded\\swirl.json.gz",
+      "sha256": "9b79fc28b1382c7a4df6fa7fc9e312bc9d3453ac234f95d479384c0b365f2ec2",
+      "replay_sha256": "5f87d5f2343aa5e6fc68b4080f82b18530d17e914da5a0f9f2e76f09d9b2bd57",
+      "baseline_job_id": "3c12d06773c8b541f210ec729d78cf42a1e2810e2a692235d3df367a3b9c9755"
+    }
+  ]
+}

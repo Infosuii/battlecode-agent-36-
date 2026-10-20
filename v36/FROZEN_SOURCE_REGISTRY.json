@@ -1,0 +1,31 @@
+{
+  "stage": "post-peerreview world androws implementation",
+  "source": {
+    "algorithm": "sha256(sorted relative path + NUL + lowercase file sha256 + LF)",
+    "sha256": "6b4f3fd3369400ea6fda13fe7b1ae93deb27a2f5feb66cb2f542db0169a80131",
+    "files": {
+      "bot.cpp": "76d5cfeba011028b9089f6223d3d62817f40ab22cbef3e7d3e0e792d17d9b776",
+      "bot.h": "d250e962fcb05643a3eb87c2262b9bfb8684b0e08ba8cb2fe805bb40bde97ff7",
+      "common.h": "58520d5203f1a3e00c2e2868aca643b20c3018bab23e820fdbd1102bca1838c9",
+      "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+      "draft.cpp": "a0f48c738c75bde73beb031fea88f9360798137f12deceafed78144b77b55a11",
+      "draft.h": "50e15fc5f740ce754409a55693a9cb07041bf5dc0083de9a35e226160c5eeb74",
+      "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+      "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+      "farming_bound.h": "21ed073dcd9064af2af4cb9e8ed3b37796fbb49c80008a008d55b5a62d2d0bb7",
+      "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+      "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+      "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+      "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+      "main.cpp": "19ca51989930cedf176625c8bcecf6fc6651e4385047730467c714f69d8dcc1c",
+      "official_map_layouts.h": "bb96ad35e59d061c5b3b223bd984c0e6221c2e79457ea4c520b73d00dc1e3517",
+      "runtime_budget.h": "a4a1e5c59ee747d135f40ecdbb841bd34cc1031214756079f3fb9293b4f3713e",
+      "strategy.h": "92156f4721e9def6a14599d4495c734ec82295e88dce9fa92df1a6885a488f22",
+      "tsearch.cpp": "2bd0c9e6390be4cc7384ec6bbdf9291d683221d882978a034b5a55a927ee0225",
+      "tsearch.h": "53fd1be1525a978309e247c5d971af104549a420e1c8f65b16f64c6d130ec987",
+      "world.cpp": "3e44fdf695f9237b634850583cef15d93f1bbe26d51d2b17dfcad39ec927456e",
+      "world.h": "3c19a338c1b8552f5ce78074680b04b8b2a59da4fba81c68bdce058bb3799bb3"
+    }
+  },
+  "note": "Future materialrepairs require newimmutablebuild IDs and parity"
+}

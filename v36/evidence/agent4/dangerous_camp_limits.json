@@ -1,0 +1,189 @@
+[
+  {
+    "map": "ambush",
+    "dangerous_total": 12,
+    "max_dangerous_per_group": 2,
+    "max_dangerous_within_cheb": {
+      "3": 2,
+      "6": 4,
+      "8": 4
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "collision",
+    "dangerous_total": 18,
+    "max_dangerous_per_group": 3,
+    "max_dangerous_within_cheb": {
+      "3": 3,
+      "6": 4,
+      "8": 6
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "contest",
+    "dangerous_total": 2,
+    "max_dangerous_per_group": 1,
+    "max_dangerous_within_cheb": {
+      "3": 1,
+      "6": 1,
+      "8": 2
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "corners",
+    "dangerous_total": 28,
+    "max_dangerous_per_group": 2,
+    "max_dangerous_within_cheb": {
+      "3": 4,
+      "6": 4,
+      "8": 5
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "eight",
+    "dangerous_total": 16,
+    "max_dangerous_per_group": 3,
+    "max_dangerous_within_cheb": {
+      "3": 4,
+      "6": 6,
+      "8": 8
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "elkring",
+    "dangerous_total": 10,
+    "max_dangerous_per_group": 1,
+    "max_dangerous_within_cheb": {
+      "3": 2,
+      "6": 3,
+      "8": 4
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "expanse",
+    "dangerous_total": 24,
+    "max_dangerous_per_group": 2,
+    "max_dangerous_within_cheb": {
+      "3": 2,
+      "6": 4,
+      "8": 6
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "fragment",
+    "dangerous_total": 8,
+    "max_dangerous_per_group": 2,
+    "max_dangerous_within_cheb": {
+      "3": 4,
+      "6": 4,
+      "8": 6
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "interlock",
+    "dangerous_total": 14,
+    "max_dangerous_per_group": 2,
+    "max_dangerous_within_cheb": {
+      "3": 2,
+      "6": 4,
+      "8": 5
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "lanes",
+    "dangerous_total": 36,
+    "max_dangerous_per_group": 1,
+    "max_dangerous_within_cheb": {
+      "3": 6,
+      "6": 17,
+      "8": 22
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "monolith",
+    "dangerous_total": 22,
+    "max_dangerous_per_group": 2,
+    "max_dangerous_within_cheb": {
+      "3": 2,
+      "6": 3,
+      "8": 5
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "packs",
+    "dangerous_total": 12,
+    "max_dangerous_per_group": 2,
+    "max_dangerous_within_cheb": {
+      "3": 2,
+      "6": 4,
+      "8": 6
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "pilgrimage",
+    "dangerous_total": 12,
+    "max_dangerous_per_group": 4,
+    "max_dangerous_within_cheb": {
+      "3": 4,
+      "6": 5,
+      "8": 6
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "rows",
+    "dangerous_total": 20,
+    "max_dangerous_per_group": 3,
+    "max_dangerous_within_cheb": {
+      "3": 3,
+      "6": 6,
+      "8": 6
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "rushbait-v2",
+    "dangerous_total": 18,
+    "max_dangerous_per_group": 1,
+    "max_dangerous_within_cheb": {
+      "3": 3,
+      "6": 6,
+      "8": 7
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "stampede",
+    "dangerous_total": 6,
+    "max_dangerous_per_group": 6,
+    "max_dangerous_within_cheb": {
+      "3": 6,
+      "6": 6,
+      "8": 6
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  },
+  {
+    "map": "swirl",
+    "dangerous_total": 48,
+    "max_dangerous_per_group": 4,
+    "max_dangerous_within_cheb": {
+      "3": 7,
+      "6": 15,
+      "8": 16
+    },
+    "scope": "Corrected actual-SDK immutable spawn positions; not awake/current moved camp positions or path reachability."
+  }
+]

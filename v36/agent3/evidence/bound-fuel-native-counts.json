@@ -1,0 +1,18 @@
+{
+  "bound-screen": {
+    "games": 400,
+    "candidate_exhaustion_entries": 1389,
+    "opponent_exhaustion_entries": 1225,
+    "candidate_games_with_event": 328,
+    "opponent_games_with_event": 322,
+    "match_rounds": 171222
+  },
+  "bound-official": {
+    "games": 34,
+    "candidate_exhaustion_entries": 91,
+    "opponent_exhaustion_entries": 89,
+    "candidate_games_with_event": 21,
+    "opponent_games_with_event": 19,
+    "match_rounds": 22706
+  }
+}

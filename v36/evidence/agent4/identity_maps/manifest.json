@@ -1,0 +1,41 @@
+[
+  {
+    "source": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rows.map26a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\identity_maps\\rows-near-match.map26a",
+    "base": "rows",
+    "changed_bush": [
+      1,
+      1
+    ],
+    "source_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+    "sha256": "dde91fbb0e250b64a3d1069123cbeaa6ed82f536b6d9c66de5b4fd2086a4b6ec",
+    "purpose": "strict unknown fallback on descriptor collision",
+    "integrity": "official engine passed"
+  },
+  {
+    "source": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\lanes.map26a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\identity_maps\\lanes-near-match.map26a",
+    "base": "lanes",
+    "changed_bush": [
+      1,
+      1
+    ],
+    "source_sha256": "bf50fd858a0f4d89a86b90228e77df6ee16bcaf05c627ba4d79460eab904f184",
+    "sha256": "0ef17cef3d8e6682afc859aae7a3981cb68c8cd21ded4e07c4a58ee4b1db6f4f",
+    "purpose": "strict unknown fallback on descriptor collision",
+    "integrity": "official engine passed"
+  },
+  {
+    "source": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\expanse.map26a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\identity_maps\\expanse-near-match.map26a",
+    "base": "expanse",
+    "changed_bush": [
+      1,
+      1
+    ],
+    "source_sha256": "95a4e64280dfd13f8d00b58b2ea651335c1203a08df1ef6d53ded8ab990cdb90",
+    "sha256": "8854311ea56c31f00cf9b810ceaeaf4240157a02cc04adc1e952137c4c23f5ff",
+    "purpose": "strict unknown fallback on descriptor collision",
+    "integrity": "official engine passed"
+  }
+]

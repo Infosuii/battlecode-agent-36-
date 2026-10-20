@@ -1,0 +1,24 @@
+{
+  "candidate": "flee",
+  "games": 100,
+  "map_clusters": 50,
+  "wins": 48,
+  "ties": 0,
+  "losses": 52,
+  "win_points": 0.48,
+  "cluster_bootstrap95": [
+    0.41,
+    0.55
+  ],
+  "mean_submitted_gem_margin": 9.26,
+  "gem_margin_cluster_bootstrap95": [
+    -29.38,
+    48.62
+  ],
+  "interpretation": "Descriptive matched-map clusters; no significance or general-strength claim. A single map has no interval.",
+  "fuel_exhaustion_events": 333,
+  "faults": 0,
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ]
+}

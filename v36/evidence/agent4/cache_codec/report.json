@@ -1,0 +1,22 @@
+{
+  "result": {
+    "records": 54,
+    "single_bit_flips_rejected": 6912,
+    "truncations_rejected": 864,
+    "live_context_mismatches_rejected": 216,
+    "passed": true
+  },
+  "source_sha256": "1ce44bb19f754f0fe94c9cd749d293674e34139b8694b826a9d145c709a2c537",
+  "codec_sha256": "6211b9cdb09896f93b69c486381ebab379795e930dc258ed503fb717a7a38300",
+  "artifact_sha256": "d111f36ac2864b6f635d4e476afc4d8a92a299f8a67dcbd654a3295de454c3ec",
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O2",
+    "-std=c++20",
+    "-IC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\bot_v36\\src",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\tools\\agent4\\map_cache_codec_fixture.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\cache_codec\\fixture.wasm"
+  ],
+  "scope": "Substantive binary-format invariants against actual codec: every bit, truncated record, changed live context, unsupported schema, prefix preservation and failed-encode nonmutation. No policy performance claim."
+}

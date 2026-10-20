@@ -1,0 +1,13 @@
+{
+  "trigger": "Exactphysicalclassifieraddsperchampionrevalidationfuel; knownlocalofficialgate120exhaustionsvs100OFF andswirl-968meanpairedgems. Nativeidleprobeupto140948firstcallfuel.",
+  "trigger_count_correction_before_cached_games": "120 strict entries vs81 OFF opponent entries within paired34game schedule. The100 figure was baseline selfplay across34 team-games, not the paired comparator. Original trigger retained for audit; cost concern remains.",
+  "hypothesis": "Exactdraftvalidationrecordedonceinversionedownteamdraftmemorypreservesphysicalidentity andavoidsredundantgameplayhostqueries",
+  "switch": "NOVA_STRICT_MAP_CACHE",
+  "dependencies": [
+    "NOVA_STRICT_MAP_ID",
+    "correctedheader3e84..."
+  ],
+  "invariant": "Existingdraftmemoryprefix0..5unchanged; actualpickcountnotbodycount; contextversion/dimensions/picks/groupcountandunknownencodingchecked; bad/missingrecordsfailclosed",
+  "acceptance": "Nativeknown17unknown3bothteammodules/picks same; corruptionandmissingpropertyfixtures; lowerfirstmodulefuel; same-sourceOFFandcompletefullmatchscreens thenfreshvalidation",
+  "no_fresh_used": true
+}

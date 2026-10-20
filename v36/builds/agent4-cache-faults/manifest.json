@@ -1,0 +1,45 @@
+{
+  "id": "agent4-cache-faults",
+  "artifact": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-faults\\agent4-cache-faults.wasm",
+  "artifact_sha256": "84b3a1f2b34dc4542fcf7c1d3a77733eda404f9c684de787dc9dd1a91d704e35",
+  "source": "actual candidate draft-only SDK correctness fixture; no gameplay strength policy",
+  "source_files": {
+    "common.h": "3552767814f1dc1c04aae4471a720d0f97e27194527ca2c380c984be50cfa4e3",
+    "draft.cpp": "73527394a0f8ea5081d7691e7d351307d4ace1ca0c9f3b4a658a1b3946f3903d",
+    "draft.h": "ac6b7cc136ceea0a6528e82a4f3a4bb6b85d5d23c56f811b5b7212f15cdeb455",
+    "draft_map_cache.h": "6211b9cdb09896f93b69c486381ebab379795e930dc258ed503fb717a7a38300",
+    "main.cpp": "41544e4e360bdbca0cd910ba57ac1cdf59187fc7cafd7eddda89692eb1cbc809",
+    "official_map_layouts.h": "3e84b617d5d38f92260ccbb6ee46e8c0937260abc75b461ad97cd3c87edeccf0",
+    "strategy.h": "160c2303e0a15157736c55e9665c8efe1be06bb4120748e3b220b0cf466637d5"
+  },
+  "switches": {
+    "NOVA_STRICT_MAP_ID": 1,
+    "NOVA_STRICT_MAP_CACHE": 1,
+    "APEX_MAPINFO": 1
+  },
+  "fixture_only_fault_injection": true,
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++20",
+    "-msimd128",
+    "-mbulk-memory",
+    "-mbulk-memory-opt",
+    "-fwasm-exceptions",
+    "-mllvm",
+    "-wasm-use-legacy-eh=false",
+    "--no-wasm-opt",
+    "-DNOVA_STRICT_MAP_ID=1",
+    "-DNOVA_STRICT_MAP_CACHE=1",
+    "-DAPEX_MAPINFO=1",
+    "-IC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\sdk\\cpp",
+    "-LC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\share\\wasi-sysroot\\lib\\wasm32-wasip1\\eh",
+    "-lunwind",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-faults\\src\\main.cpp",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-faults\\src\\draft.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-faults\\agent4-cache-faults.wasm"
+  ],
+  "seconds": 10.07799999999952
+}

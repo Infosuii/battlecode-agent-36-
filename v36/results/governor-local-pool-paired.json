@@ -1,0 +1,67 @@
+{
+  "candidate": "governor",
+  "baseline": "baseline",
+  "candidate_schedule": "governor-local-pool",
+  "baseline_schedule": "baseline-local-pool",
+  "matched_games_per_build": 136,
+  "independent_map_clusters": 17,
+  "fixed_opponents": 4,
+  "paired_effect": {
+    "points": {
+      "mean": -0.04411764705882353,
+      "map_cluster_bootstrap95": [
+        -0.17647058823529413,
+        0.09558823529411764
+      ]
+    },
+    "gems": {
+      "mean": -24.573529411764707,
+      "map_cluster_bootstrap95": [
+        -205.94117647058823,
+        158.61764705882354
+      ]
+    },
+    "fuel": {
+      "mean": -0.8235294117647058,
+      "map_cluster_bootstrap95": [
+        -1.5588235294117647,
+        -0.27205882352941174
+      ]
+    }
+  },
+  "per_opponent": [
+    {
+      "opponent": "live_platform_v35",
+      "games": 34,
+      "candidate_win_points": 0.5,
+      "baseline_win_points": 0.7352941176470589,
+      "delta": -0.23529411764705882,
+      "gem_delta": -242.05882352941177
+    },
+    {
+      "opponent": "spar_bush",
+      "games": 34,
+      "candidate_win_points": 0.5882352941176471,
+      "baseline_win_points": 0.6470588235294118,
+      "delta": -0.058823529411764705,
+      "gem_delta": -51.411764705882355
+    },
+    {
+      "opponent": "spar_fish",
+      "games": 34,
+      "candidate_win_points": 0.7058823529411765,
+      "baseline_win_points": 0.6764705882352942,
+      "delta": 0.029411764705882353,
+      "gem_delta": 75
+    },
+    {
+      "opponent": "spar_mite",
+      "games": 34,
+      "candidate_win_points": 0.6176470588235294,
+      "baseline_win_points": 0.5294117647058824,
+      "delta": 0.08823529411764706,
+      "gem_delta": 120.17647058823529
+    }
+  ],
+  "caveat": "Conditional fixed local opponents and these maps; map-cluster resampling preserves all paired opponent/side comparisons. No Elo/general ladder-strength estimate."
+}

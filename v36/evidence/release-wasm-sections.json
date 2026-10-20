@@ -1,0 +1,250 @@
+{
+  "a": "work\\v36-execution\\builds\\cache-source-off\\cache-source-off.wasm",
+  "b": "work\\v36-execution\\builds\\release-exact\\release-exact.wasm",
+  "all_standard_sections_equal": true,
+  "sections_a": [
+    {
+      "kind": 1,
+      "custom_name": null,
+      "length": 277,
+      "sha256": "91514ed969d01bc2da4c5ba7e20db4aacd10a721e0654dbe778c88be57895f42"
+    },
+    {
+      "kind": 2,
+      "custom_name": null,
+      "length": 2192,
+      "sha256": "d0b051af80527ef809d0e9fb697eb4070bf11cbc22ee545fc806b6ce9c4a8082"
+    },
+    {
+      "kind": 3,
+      "custom_name": null,
+      "length": 492,
+      "sha256": "5e868bbf90f6a12453813adcfad16e4f5eb82b85f20bdf1c1a8018666253b044"
+    },
+    {
+      "kind": 4,
+      "custom_name": null,
+      "length": 5,
+      "sha256": "c330b1577c7a18214bbc7ece1778144c3b55c631b93b38bb58b2fdc8d61ae967"
+    },
+    {
+      "kind": 5,
+      "custom_name": null,
+      "length": 3,
+      "sha256": "16305a6b2292e931665a34089864ee3fcc24171c81551f152cf4d1db0dd6122d"
+    },
+    {
+      "kind": 13,
+      "custom_name": null,
+      "length": 3,
+      "sha256": "f9535076eb26809f7b425c39485d3fd322142a5c4638b9b81d66b919356ee8ba"
+    },
+    {
+      "kind": 6,
+      "custom_name": null,
+      "length": 13,
+      "sha256": "284f968f42d30505f68225944d16d116b6123ec6f8fd904852f01292f50b6e4b"
+    },
+    {
+      "kind": 7,
+      "custom_name": null,
+      "length": 19,
+      "sha256": "d02c6c2bf11d29c80166879e5b9e93b0e03bf769f6e90c8d3b87f31b985e4452"
+    },
+    {
+      "kind": 9,
+      "custom_name": null,
+      "length": 194,
+      "sha256": "02cd457469c92f84dc5355336012acb263cc3cc2745a5ee9f2b61f68c3e859c4"
+    },
+    {
+      "kind": 10,
+      "custom_name": null,
+      "length": 244425,
+      "sha256": "c3b4dd8ecf6b5ade423796eac453301dbf4cbf8fd89961677fb4218c06aa65d2"
+    },
+    {
+      "kind": 11,
+      "custom_name": null,
+      "length": 8942,
+      "sha256": "7073a82003f05a519295f53933de78ad62ed940796c74b613fa644f1c288f82b"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_loc",
+      "length": 251455,
+      "sha256": "9699ebdf5dc36ffc02781a66d95161645a93274dea4c456367829e9ea86153c3"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_abbrev",
+      "length": 34561,
+      "sha256": "3bfb1d1eeaf50b88d0edc7fb2bc24fc7592b31f816aa011e2d211a3c144b921a"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_info",
+      "length": 450604,
+      "sha256": "a7ef79635a8ba4228a83ef19cf2186f0a2859c5d3a7e1896381790314d06407c"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_str",
+      "length": 240294,
+      "sha256": "0f3eb8921f315664a09343fcd1a2a58d4a1c92b56efd9c652d95863fdd8dce83"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_line",
+      "length": 223046,
+      "sha256": "e3de325a73bb5342d42da4bf2b93b9cd0fb9cdd987af7a07ef25d6543697e1b7"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_ranges",
+      "length": 47158,
+      "sha256": "db94bb6bfa273fcb3ca7db14633c3ff4fc69ad33aaef92958d5116c07b7d0a43"
+    },
+    {
+      "kind": 0,
+      "custom_name": "name",
+      "length": 53851,
+      "sha256": "d058c038504a5b11b01ebfb2faf3008040951ffe75c58f855d1684693ea931fc"
+    },
+    {
+      "kind": 0,
+      "custom_name": "producers",
+      "length": 154,
+      "sha256": "f9a3700d8bddf78a5156a6dcc2ed34a9b41ce438bfafa4f91af543343bec9491"
+    },
+    {
+      "kind": 0,
+      "custom_name": "target_features",
+      "length": 193,
+      "sha256": "54fca26617064cecdf761a90dfec6f2125547255a0d58c083293b335f8a6c2e8"
+    }
+  ],
+  "sections_b": [
+    {
+      "kind": 1,
+      "custom_name": null,
+      "length": 277,
+      "sha256": "91514ed969d01bc2da4c5ba7e20db4aacd10a721e0654dbe778c88be57895f42"
+    },
+    {
+      "kind": 2,
+      "custom_name": null,
+      "length": 2192,
+      "sha256": "d0b051af80527ef809d0e9fb697eb4070bf11cbc22ee545fc806b6ce9c4a8082"
+    },
+    {
+      "kind": 3,
+      "custom_name": null,
+      "length": 492,
+      "sha256": "5e868bbf90f6a12453813adcfad16e4f5eb82b85f20bdf1c1a8018666253b044"
+    },
+    {
+      "kind": 4,
+      "custom_name": null,
+      "length": 5,
+      "sha256": "c330b1577c7a18214bbc7ece1778144c3b55c631b93b38bb58b2fdc8d61ae967"
+    },
+    {
+      "kind": 5,
+      "custom_name": null,
+      "length": 3,
+      "sha256": "16305a6b2292e931665a34089864ee3fcc24171c81551f152cf4d1db0dd6122d"
+    },
+    {
+      "kind": 13,
+      "custom_name": null,
+      "length": 3,
+      "sha256": "f9535076eb26809f7b425c39485d3fd322142a5c4638b9b81d66b919356ee8ba"
+    },
+    {
+      "kind": 6,
+      "custom_name": null,
+      "length": 13,
+      "sha256": "284f968f42d30505f68225944d16d116b6123ec6f8fd904852f01292f50b6e4b"
+    },
+    {
+      "kind": 7,
+      "custom_name": null,
+      "length": 19,
+      "sha256": "d02c6c2bf11d29c80166879e5b9e93b0e03bf769f6e90c8d3b87f31b985e4452"
+    },
+    {
+      "kind": 9,
+      "custom_name": null,
+      "length": 194,
+      "sha256": "02cd457469c92f84dc5355336012acb263cc3cc2745a5ee9f2b61f68c3e859c4"
+    },
+    {
+      "kind": 10,
+      "custom_name": null,
+      "length": 244425,
+      "sha256": "c3b4dd8ecf6b5ade423796eac453301dbf4cbf8fd89961677fb4218c06aa65d2"
+    },
+    {
+      "kind": 11,
+      "custom_name": null,
+      "length": 8942,
+      "sha256": "7073a82003f05a519295f53933de78ad62ed940796c74b613fa644f1c288f82b"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_loc",
+      "length": 251455,
+      "sha256": "9699ebdf5dc36ffc02781a66d95161645a93274dea4c456367829e9ea86153c3"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_abbrev",
+      "length": 34561,
+      "sha256": "3bfb1d1eeaf50b88d0edc7fb2bc24fc7592b31f816aa011e2d211a3c144b921a"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_info",
+      "length": 450604,
+      "sha256": "a7ef79635a8ba4228a83ef19cf2186f0a2859c5d3a7e1896381790314d06407c"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_str",
+      "length": 240294,
+      "sha256": "0f3eb8921f315664a09343fcd1a2a58d4a1c92b56efd9c652d95863fdd8dce83"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_line",
+      "length": 223046,
+      "sha256": "e3de325a73bb5342d42da4bf2b93b9cd0fb9cdd987af7a07ef25d6543697e1b7"
+    },
+    {
+      "kind": 0,
+      "custom_name": ".debug_ranges",
+      "length": 47158,
+      "sha256": "db94bb6bfa273fcb3ca7db14633c3ff4fc69ad33aaef92958d5116c07b7d0a43"
+    },
+    {
+      "kind": 0,
+      "custom_name": "name",
+      "length": 53848,
+      "sha256": "e2c46b14998b9220494efb430585127f23fd071cc1df7a4f01b611d3ae40621d"
+    },
+    {
+      "kind": 0,
+      "custom_name": "producers",
+      "length": 154,
+      "sha256": "f9a3700d8bddf78a5156a6dcc2ed34a9b41ce438bfafa4f91af543343bec9491"
+    },
+    {
+      "kind": 0,
+      "custom_name": "target_features",
+      "length": 193,
+      "sha256": "54fca26617064cecdf761a90dfec6f2125547255a0d58c083293b335f8a6c2e8"
+    }
+  ],
+  "interpretation": "Standard Wasm sections include executable code, imports, data and initialization. Custom sections are non-executable metadata. This comparison does not replace SDK legality or engine-match checks."
+}

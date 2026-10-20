@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O2",
+    "-std=c++20",
+    "-fwasm-exceptions",
+    "-mllvm",
+    "-wasm-use-legacy-eh=false",
+    "--no-wasm-opt",
+    "-LC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\share\\wasi-sysroot\\lib\\wasm32-wasip1\\eh",
+    "-lunwind",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent3\\evidence\\economy_policy_fixture.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent3\\evidence\\economy_policy_fixture.wasm"
+  ],
+  "source_sha256": "8498f9a3b0dd311a52c6133fb031ce252edec7acce4216ab607a15ad96807c8d",
+  "returncode": 0,
+  "stdout": "{\"actual_home_policy_scenarios\":15}\n",
+  "stderr": "(node:28444) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+  "scope": "Actual go_home_if_needed body with controlled SDK/action observations; no official engine legality or match evidence"
+}

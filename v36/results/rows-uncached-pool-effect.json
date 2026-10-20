@@ -1,0 +1,67 @@
+{
+  "candidate": "rows-intent-fixed",
+  "baseline": "baseline",
+  "candidate_schedule": "rows-local-pool",
+  "baseline_schedule": "baseline-local-pool",
+  "matched_games_per_build": 136,
+  "independent_map_clusters": 17,
+  "fixed_opponents": 4,
+  "paired_effect": {
+    "points": {
+      "mean": -0.014705882352941176,
+      "map_cluster_bootstrap95": [
+        -0.08823529411764706,
+        0.058823529411764705
+      ]
+    },
+    "gems": {
+      "mean": -34.661764705882355,
+      "map_cluster_bootstrap95": [
+        -108.92647058823529,
+        10.117647058823529
+      ]
+    },
+    "fuel": {
+      "mean": 0.9558823529411765,
+      "map_cluster_bootstrap95": [
+        0.11764705882352941,
+        1.9411764705882353
+      ]
+    }
+  },
+  "per_opponent": [
+    {
+      "opponent": "live_platform_v35",
+      "games": 34,
+      "candidate_win_points": 0.7058823529411765,
+      "baseline_win_points": 0.7352941176470589,
+      "delta": -0.029411764705882353,
+      "gem_delta": 3.411764705882353
+    },
+    {
+      "opponent": "spar_bush",
+      "games": 34,
+      "candidate_win_points": 0.7058823529411765,
+      "baseline_win_points": 0.6470588235294118,
+      "delta": 0.058823529411764705,
+      "gem_delta": -32.11764705882353
+    },
+    {
+      "opponent": "spar_fish",
+      "games": 34,
+      "candidate_win_points": 0.6470588235294118,
+      "baseline_win_points": 0.6764705882352942,
+      "delta": -0.029411764705882353,
+      "gem_delta": -9.176470588235293
+    },
+    {
+      "opponent": "spar_mite",
+      "games": 34,
+      "candidate_win_points": 0.47058823529411764,
+      "baseline_win_points": 0.5294117647058824,
+      "delta": -0.058823529411764705,
+      "gem_delta": -100.76470588235294
+    }
+  ],
+  "caveat": "Conditional fixed local opponents and these maps; map-cluster resampling preserves all paired opponent/side comparisons. No Elo/general ladder-strength estimate."
+}

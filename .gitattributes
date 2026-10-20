@@ -1,0 +1,11 @@
+v36/** -text
+*.wasm binary
+*.zip binary
+*.map26a binary
+v36/results/** linguist-generated=true
+v36/schedules/** linguist-generated=true
+v36/maps/** linguist-generated=true
+v36/evidence/** linguist-generated=true
+v36/builds/** linguist-generated=true
+v36/EXPERIMENT_INDEX.json linguist-generated=true
+v36/PUBLICATION_CONTENTS.json linguist-generated=true

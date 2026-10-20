@@ -1,0 +1,69 @@
+{
+  "protocol_sha256": "310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e",
+  "games": 760,
+  "distinct_fresh_maps": 50,
+  "artifact_hashes_verified_from_bytes": {
+    "baseline": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "live_platform_v35": "7d543837765226f94553c1a237629797e6774781b6bffd437fd47063b0b4b39e",
+    "rows-cached": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "spar_bush": "0d341c069b9412b29630f65d3f3b4f6d1f8fd64de934916f6de7c3805afe1434",
+    "spar_fish": "54aabee5c35ec7b162737e6994b59a379e8d6bef9d889ee1342dd011b37462e3",
+    "spar_mite": "f72daa0ebc2d68e2305e926f88c98ecea5067d398b26f3a6a8b7e0873781f7c6",
+    "stack-cached": "e9b67d1d5e438444dece599e209360e2af940679364d5a01171f4ada38612183"
+  },
+  "schedules": [
+    {
+      "schedule": "rows-cached-fresh-head",
+      "maps": 40,
+      "games": 80,
+      "all_checks_passed": true
+    },
+    {
+      "schedule": "rows-cached-shift-validation",
+      "maps": 10,
+      "games": 20,
+      "all_checks_passed": true
+    },
+    {
+      "schedule": "stack-cached-fresh-head",
+      "maps": 40,
+      "games": 80,
+      "all_checks_passed": true
+    },
+    {
+      "schedule": "stack-cached-shift-validation",
+      "maps": 10,
+      "games": 20,
+      "all_checks_passed": true
+    },
+    {
+      "schedule": "stack-fresh-v-rows",
+      "maps": 40,
+      "games": 80,
+      "all_checks_passed": true
+    },
+    {
+      "schedule": "baseline-fresh-pool",
+      "maps": 20,
+      "games": 160,
+      "all_checks_passed": true
+    },
+    {
+      "schedule": "rows-cached-fresh-pool",
+      "maps": 20,
+      "games": 160,
+      "all_checks_passed": true
+    },
+    {
+      "schedule": "stack-cached-fresh-pool",
+      "maps": 20,
+      "games": 160,
+      "all_checks_passed": true
+    }
+  ],
+  "development_map_hash_overlap": [],
+  "development_maps_compared": 200,
+  "all_passed": true,
+  "scope": "Actual artifact/map bytes, exact frozen schedule grids and receipt hashes. No final holdout file, manifest or performance inspected.",
+  "caveat": "Distinct hashes do not remove shared-generator family dependence. Freeze-before-run chronology was observed separately; a JSON boolean alone cannot prove chronology."
+}

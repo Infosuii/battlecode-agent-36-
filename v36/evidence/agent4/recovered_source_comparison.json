@@ -1,0 +1,106 @@
+[
+  {
+    "folder": "live_platform_v29",
+    "matching": [
+      "draft.cpp",
+      "draft.h",
+      "episode.cpp",
+      "ep_model.h",
+      "fight.cpp",
+      "fight.h",
+      "learner.h",
+      "local_model.h",
+      "main.cpp",
+      "strategy.h",
+      "world.cpp",
+      "world.h"
+    ],
+    "different_or_absent": [
+      "bot.cpp",
+      "bot.h",
+      "common.h",
+      "deny.cpp",
+      "tsearch.cpp",
+      "tsearch.h"
+    ],
+    "source_files": 18
+  },
+  {
+    "folder": "live_platform_v30",
+    "matching": [
+      "draft.cpp",
+      "draft.h",
+      "episode.cpp",
+      "ep_model.h",
+      "fight.cpp",
+      "fight.h",
+      "learner.h",
+      "local_model.h",
+      "main.cpp",
+      "strategy.h",
+      "world.cpp",
+      "world.h"
+    ],
+    "different_or_absent": [
+      "bot.cpp",
+      "bot.h",
+      "common.h",
+      "deny.cpp",
+      "tsearch.cpp",
+      "tsearch.h"
+    ],
+    "source_files": 18
+  },
+  {
+    "folder": "live_platform_v34",
+    "matching": [
+      "draft.cpp",
+      "draft.h",
+      "episode.cpp",
+      "ep_model.h",
+      "fight.cpp",
+      "fight.h",
+      "learner.h",
+      "local_model.h",
+      "main.cpp",
+      "strategy.h",
+      "tsearch.h",
+      "world.cpp",
+      "world.h"
+    ],
+    "different_or_absent": [
+      "bot.cpp",
+      "bot.h",
+      "common.h",
+      "deny.cpp",
+      "tsearch.cpp"
+    ],
+    "source_files": 18
+  },
+  {
+    "folder": "live_platform_v35",
+    "matching": [
+      "deny.cpp",
+      "draft.cpp",
+      "draft.h",
+      "episode.cpp",
+      "ep_model.h",
+      "fight.cpp",
+      "fight.h",
+      "learner.h",
+      "local_model.h",
+      "main.cpp",
+      "strategy.h",
+      "tsearch.cpp",
+      "tsearch.h",
+      "world.cpp",
+      "world.h"
+    ],
+    "different_or_absent": [
+      "bot.cpp",
+      "bot.h",
+      "common.h"
+    ],
+    "source_files": 18
+  }
+]

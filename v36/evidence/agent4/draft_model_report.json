@@ -1,0 +1,36 @@
+{
+  "specification": "Penalized logistic Bradley-Terry: map-specific A-side intercept + A/B team effects + shrunk team/six-hour effects + A/B map/pick-count/canonical-lineup effects.",
+  "ordered_picks_preserved_in": "identity_join_manifest.json",
+  "predictors": "Actual canonical lineup, team ID, map and coarse time only; no future scores/ratings as features.",
+  "penalty": {
+    "lineup": 8,
+    "team_period": 12,
+    "team_and_side": 2
+  },
+  "hyperparameters": "fixed before fitting; no model selection on validation",
+  "contexts_before_dedup": 2125,
+  "unique_trace_contexts": 1998,
+  "group_components": 364,
+  "train_components": 273,
+  "validation_components": 91,
+  "parameter_count": 456,
+  "newton_iterations": 6,
+  "train": {
+    "games": 1497,
+    "log_loss": 0.40726154976095685,
+    "brier": 0.1296844069087915
+  },
+  "later_validation": {
+    "games": 501,
+    "log_loss": 0.3754333349771673,
+    "brier": 0.11547715889842089
+  },
+  "validation_new_features": 583,
+  "uncertainty": "Group-cluster sandwich around penalized fit, conditional on fixed specification; sparse/collinear effects and unknown changing source versions prevent causal interpretation.",
+  "decision": "No production draft row change; insufficient version/strength provenance and no paired full-match validation of a robust supported candidate.",
+  "optional_ml": "Off: no logged eligible farm candidate set, decision-time visibility, propensities or validated counterfactual job labels.",
+  "checks": {
+    "no_trace_cross_split": true,
+    "no_original_group_cross_split": true
+  }
+}

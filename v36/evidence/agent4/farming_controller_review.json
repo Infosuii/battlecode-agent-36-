@@ -1,0 +1,4215 @@
+{
+  "scope": "Independent actual awaiting-controller join; slot maps to ordered actual per-team body roster, not draft count.",
+  "matches": [
+    {
+      "job": "0d47050fef3f8be490f7ab2805dc9f9de8f1bb704e69bb5982b17ffa58b6c429",
+      "map": "rows",
+      "team": "teamB",
+      "team_body_ids": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "joined_records": {
+        "scores": 1781,
+        "covers": 12,
+        "turns": 296
+      },
+      "mismatches": [],
+      "rows_case_records": [
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 26,
+            "slot": 4,
+            "group": 1,
+            "ally": 8,
+            "ally_slot": 3,
+            "ally_claim": 1,
+            "target": 3,
+            "input_position": 570
+          },
+          "controller": {
+            "round": 26,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 570,
+            "phase": 10,
+            "step": 3298
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 27,
+            "slot": 0,
+            "group": 1,
+            "ally": 8,
+            "ally_slot": 3,
+            "ally_claim": 1,
+            "target": 1,
+            "input_position": 576
+          },
+          "controller": {
+            "round": 27,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 576,
+            "phase": 10,
+            "step": 3360
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 27,
+            "slot": 1,
+            "group": 1,
+            "ally": 8,
+            "ally_slot": 3,
+            "ally_claim": 1,
+            "target": 1,
+            "input_position": 580
+          },
+          "controller": {
+            "round": 27,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 580,
+            "phase": 10,
+            "step": 3378
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 27,
+            "slot": 2,
+            "group": 1,
+            "ally": 6,
+            "ally_slot": 1,
+            "ally_claim": 3,
+            "target": 1,
+            "input_position": 584
+          },
+          "controller": {
+            "round": 27,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 584,
+            "phase": 10,
+            "step": 3396
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 27,
+            "slot": 3,
+            "group": 1,
+            "ally": 6,
+            "ally_slot": 1,
+            "ally_claim": 3,
+            "target": 1,
+            "input_position": 589
+          },
+          "controller": {
+            "round": 27,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 589,
+            "phase": 10,
+            "step": 3415
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 0,
+            "mode": "fight",
+            "target": 1,
+            "x": 30,
+            "y": 45,
+            "hp": 580.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 536
+          },
+          "controller": {
+            "round": 25,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 536,
+            "phase": 10,
+            "step": 3109
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 1,
+            "mode": "fight",
+            "target": 1,
+            "x": 32,
+            "y": 45,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 540
+          },
+          "controller": {
+            "round": 25,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 540,
+            "phase": 10,
+            "step": 3128
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 2,
+            "mode": "fight",
+            "target": 1,
+            "x": 33,
+            "y": 43,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 544
+          },
+          "controller": {
+            "round": 25,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 544,
+            "phase": 10,
+            "step": 3146
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 3,
+            "mode": "fight",
+            "target": 1,
+            "x": 31,
+            "y": 45,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 548
+          },
+          "controller": {
+            "round": 25,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 548,
+            "phase": 10,
+            "step": 3164
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 4,
+            "mode": "siege",
+            "target": 3,
+            "x": 26,
+            "y": 41,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 552
+          },
+          "controller": {
+            "round": 25,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 552,
+            "phase": 10,
+            "step": 3182
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 0,
+            "mode": "fight",
+            "target": 1,
+            "x": 30,
+            "y": 45,
+            "hp": 560.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 554
+          },
+          "controller": {
+            "round": 26,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 554,
+            "phase": 10,
+            "step": 3226
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 1,
+            "mode": "fight",
+            "target": 1,
+            "x": 32,
+            "y": 45,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 558
+          },
+          "controller": {
+            "round": 26,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 558,
+            "phase": 10,
+            "step": 3244
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 2,
+            "mode": "fight",
+            "target": 1,
+            "x": 33,
+            "y": 43,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 562
+          },
+          "controller": {
+            "round": 26,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 562,
+            "phase": 10,
+            "step": 3262
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 3,
+            "mode": "capture",
+            "target": 1,
+            "x": 31,
+            "y": 45,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 565
+          },
+          "controller": {
+            "round": 26,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 565,
+            "phase": 10,
+            "step": 3279
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 4,
+            "mode": "siege",
+            "target": 3,
+            "x": 25,
+            "y": 40,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 570
+          },
+          "controller": {
+            "round": 26,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 570,
+            "phase": 10,
+            "step": 3298
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 0,
+            "mode": "stage",
+            "target": 3,
+            "x": 27,
+            "y": 42,
+            "hp": 560.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 576
+          },
+          "controller": {
+            "round": 27,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 576,
+            "phase": 10,
+            "step": 3360
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 1,
+            "mode": "stage",
+            "target": 3,
+            "x": 31,
+            "y": 44,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 580
+          },
+          "controller": {
+            "round": 27,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 580,
+            "phase": 10,
+            "step": 3378
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 2,
+            "mode": "siege",
+            "target": 3,
+            "x": 32,
+            "y": 42,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 584
+          },
+          "controller": {
+            "round": 27,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 584,
+            "phase": 10,
+            "step": 3396
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 3,
+            "mode": "stage",
+            "target": 3,
+            "x": 28,
+            "y": 42,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 589
+          },
+          "controller": {
+            "round": 27,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 589,
+            "phase": 10,
+            "step": 3415
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 4,
+            "mode": "siege",
+            "target": 3,
+            "x": 24,
+            "y": 41,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 593
+          },
+          "controller": {
+            "round": 27,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 593,
+            "phase": 10,
+            "step": 3433
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 0,
+            "mode": "stage",
+            "target": 3,
+            "x": 26,
+            "y": 41,
+            "hp": 560.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 595
+          },
+          "controller": {
+            "round": 28,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 595,
+            "phase": 10,
+            "step": 3477
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 1,
+            "mode": "stage",
+            "target": 3,
+            "x": 30,
+            "y": 43,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 601
+          },
+          "controller": {
+            "round": 28,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 601,
+            "phase": 10,
+            "step": 3497
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 2,
+            "mode": "siege",
+            "target": 3,
+            "x": 31,
+            "y": 41,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 605
+          },
+          "controller": {
+            "round": 28,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 605,
+            "phase": 10,
+            "step": 3515
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 3,
+            "mode": "stage",
+            "target": 3,
+            "x": 27,
+            "y": 41,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 609
+          },
+          "controller": {
+            "round": 28,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 609,
+            "phase": 10,
+            "step": 3533
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 4,
+            "mode": "siege",
+            "target": 3,
+            "x": 23,
+            "y": 40,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 613
+          },
+          "controller": {
+            "round": 28,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 613,
+            "phase": 10,
+            "step": 3551
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 0,
+            "mode": "approach",
+            "target": 3,
+            "x": 25,
+            "y": 40,
+            "hp": 560.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 620
+          },
+          "controller": {
+            "round": 29,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 620,
+            "phase": 10,
+            "step": 3612
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 1,
+            "mode": "approach",
+            "target": 3,
+            "x": 29,
+            "y": 42,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 626
+          },
+          "controller": {
+            "round": 29,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 626,
+            "phase": 10,
+            "step": 3632
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 2,
+            "mode": "siege",
+            "target": 3,
+            "x": 30,
+            "y": 40,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 630
+          },
+          "controller": {
+            "round": 29,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 630,
+            "phase": 10,
+            "step": 3650
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 3,
+            "mode": "stage",
+            "target": 3,
+            "x": 26,
+            "y": 40,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 634
+          },
+          "controller": {
+            "round": 29,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 634,
+            "phase": 10,
+            "step": 3668
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 4,
+            "mode": "siege",
+            "target": 3,
+            "x": 22,
+            "y": 41,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 638
+          },
+          "controller": {
+            "round": 29,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 638,
+            "phase": 10,
+            "step": 3686
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 0,
+            "mode": "approach",
+            "target": 3,
+            "x": 24,
+            "y": 41,
+            "hp": 560.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 640
+          },
+          "controller": {
+            "round": 30,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 640,
+            "phase": 10,
+            "step": 3728
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 1,
+            "mode": "approach",
+            "target": 3,
+            "x": 28,
+            "y": 41,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 644
+          },
+          "controller": {
+            "round": 30,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 644,
+            "phase": 10,
+            "step": 3747
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 2,
+            "mode": "siege",
+            "target": 3,
+            "x": 29,
+            "y": 41,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 648
+          },
+          "controller": {
+            "round": 30,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 648,
+            "phase": 10,
+            "step": 3765
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 3,
+            "mode": "stage",
+            "target": 3,
+            "x": 25,
+            "y": 41,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 652
+          },
+          "controller": {
+            "round": 30,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 652,
+            "phase": 10,
+            "step": 3783
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 4,
+            "mode": "siege",
+            "target": 3,
+            "x": 22,
+            "y": 41,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 656
+          },
+          "controller": {
+            "round": 30,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 656,
+            "phase": 10,
+            "step": 3801
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 0,
+            "mode": "approach",
+            "target": 3,
+            "x": 23,
+            "y": 40,
+            "hp": 560.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 662
+          },
+          "controller": {
+            "round": 31,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 662,
+            "phase": 10,
+            "step": 3861
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 1,
+            "mode": "approach",
+            "target": 3,
+            "x": 27,
+            "y": 40,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 666
+          },
+          "controller": {
+            "round": 31,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 666,
+            "phase": 10,
+            "step": 3879
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 2,
+            "mode": "approach",
+            "target": 3,
+            "x": 28,
+            "y": 40,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 670
+          },
+          "controller": {
+            "round": 31,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 670,
+            "phase": 10,
+            "step": 3897
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 3,
+            "mode": "approach",
+            "target": 3,
+            "x": 24,
+            "y": 40,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 674
+          },
+          "controller": {
+            "round": 31,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 674,
+            "phase": 10,
+            "step": 3915
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 4,
+            "mode": "approach",
+            "target": 3,
+            "x": 21,
+            "y": 42,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 678
+          },
+          "controller": {
+            "round": 31,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 678,
+            "phase": 10,
+            "step": 3933
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 0,
+            "mode": "approach",
+            "target": 3,
+            "x": 22,
+            "y": 41,
+            "hp": 560.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 680
+          },
+          "controller": {
+            "round": 32,
+            "champion": 5,
+            "team": 1,
+            "type": 2,
+            "position": 680,
+            "phase": 10,
+            "step": 3977
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 1,
+            "mode": "approach",
+            "target": 3,
+            "x": 26,
+            "y": 41,
+            "hp": 840.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 684
+          },
+          "controller": {
+            "round": 32,
+            "champion": 6,
+            "team": 1,
+            "type": 10,
+            "position": 684,
+            "phase": 10,
+            "step": 3995
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 2,
+            "mode": "approach",
+            "target": 3,
+            "x": 27,
+            "y": 41,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 688
+          },
+          "controller": {
+            "round": 32,
+            "champion": 7,
+            "team": 1,
+            "type": 3,
+            "position": 688,
+            "phase": 10,
+            "step": 4013
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 3,
+            "mode": "approach",
+            "target": 3,
+            "x": 23,
+            "y": 41,
+            "hp": 740.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 692
+          },
+          "controller": {
+            "round": 32,
+            "champion": 8,
+            "team": 1,
+            "type": 4,
+            "position": 692,
+            "phase": 10,
+            "step": 4031
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 4,
+            "mode": "to-capture",
+            "target": 1,
+            "x": 22,
+            "y": 43,
+            "hp": 710.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 696
+          },
+          "controller": {
+            "round": 32,
+            "champion": 9,
+            "team": 1,
+            "type": 5,
+            "position": 696,
+            "phase": 10,
+            "step": 4049
+          }
+        }
+      ]
+    },
+    {
+      "job": "0b363b0df07ffb5502514992b33f7cf9325ad9d4e72fca55d8387624d36d22b8",
+      "map": "rows",
+      "team": "teamA",
+      "team_body_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "joined_records": {
+        "scores": 1815,
+        "covers": 9,
+        "turns": 292
+      },
+      "mismatches": [],
+      "rows_case_records": [
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 26,
+            "slot": 3,
+            "group": 0,
+            "ally": 0,
+            "ally_slot": 0,
+            "ally_claim": 0,
+            "target": 0,
+            "input_position": 568
+          },
+          "controller": {
+            "round": 26,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 568,
+            "phase": 10,
+            "step": 3289
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 26,
+            "slot": 4,
+            "group": 0,
+            "ally": 0,
+            "ally_slot": 0,
+            "ally_claim": 0,
+            "target": 2,
+            "input_position": 572
+          },
+          "controller": {
+            "round": 26,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 572,
+            "phase": 10,
+            "step": 3307
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 27,
+            "slot": 1,
+            "group": 0,
+            "ally": 0,
+            "ally_slot": 0,
+            "ally_claim": 0,
+            "target": 0,
+            "input_position": 578
+          },
+          "controller": {
+            "round": 27,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 578,
+            "phase": 10,
+            "step": 3369
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 27,
+            "slot": 2,
+            "group": 0,
+            "ally": 0,
+            "ally_slot": 0,
+            "ally_claim": 0,
+            "target": 0,
+            "input_position": 582
+          },
+          "controller": {
+            "round": 27,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 582,
+            "phase": 10,
+            "step": 3387
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 28,
+            "slot": 0,
+            "group": 0,
+            "ally": 1,
+            "ally_slot": 1,
+            "ally_claim": 2,
+            "target": 0,
+            "input_position": 598
+          },
+          "controller": {
+            "round": 28,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 598,
+            "phase": 10,
+            "step": 3487
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 0,
+            "mode": "fight",
+            "target": 0,
+            "x": 18,
+            "y": 4,
+            "hp": 380.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 534
+          },
+          "controller": {
+            "round": 25,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 534,
+            "phase": 10,
+            "step": 3100
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 1,
+            "mode": "fight",
+            "target": 0,
+            "x": 17,
+            "y": 4,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 538
+          },
+          "controller": {
+            "round": 25,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 538,
+            "phase": 10,
+            "step": 3118
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 2,
+            "mode": "fight",
+            "target": 0,
+            "x": 16,
+            "y": 6,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 542
+          },
+          "controller": {
+            "round": 25,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 542,
+            "phase": 10,
+            "step": 3137
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 3,
+            "mode": "fight",
+            "target": 0,
+            "x": 19,
+            "y": 4,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 546
+          },
+          "controller": {
+            "round": 25,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 546,
+            "phase": 10,
+            "step": 3155
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 25,
+            "slot": 4,
+            "mode": "siege",
+            "target": 2,
+            "x": 23,
+            "y": 8,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 550
+          },
+          "controller": {
+            "round": 25,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 550,
+            "phase": 10,
+            "step": 3173
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 0,
+            "mode": "fight",
+            "target": 0,
+            "x": 18,
+            "y": 4,
+            "hp": 360.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 556
+          },
+          "controller": {
+            "round": 26,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 556,
+            "phase": 10,
+            "step": 3235
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 1,
+            "mode": "fight",
+            "target": 0,
+            "x": 17,
+            "y": 4,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 560
+          },
+          "controller": {
+            "round": 26,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 560,
+            "phase": 10,
+            "step": 3253
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 2,
+            "mode": "fight",
+            "target": 0,
+            "x": 16,
+            "y": 6,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 564
+          },
+          "controller": {
+            "round": 26,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 564,
+            "phase": 10,
+            "step": 3271
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 3,
+            "mode": "approach",
+            "target": 7,
+            "x": 16,
+            "y": 7,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 568
+          },
+          "controller": {
+            "round": 26,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 568,
+            "phase": 10,
+            "step": 3289
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 26,
+            "slot": 4,
+            "mode": "siege",
+            "target": 2,
+            "x": 24,
+            "y": 9,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 572
+          },
+          "controller": {
+            "round": 26,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 572,
+            "phase": 10,
+            "step": 3307
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 0,
+            "mode": "capture",
+            "target": 0,
+            "x": 18,
+            "y": 4,
+            "hp": 360.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 573
+          },
+          "controller": {
+            "round": 27,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 573,
+            "phase": 10,
+            "step": 3350
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 1,
+            "mode": "stage",
+            "target": 2,
+            "x": 18,
+            "y": 5,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 578
+          },
+          "controller": {
+            "round": 27,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 578,
+            "phase": 10,
+            "step": 3369
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 2,
+            "mode": "siege",
+            "target": 2,
+            "x": 17,
+            "y": 7,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 582
+          },
+          "controller": {
+            "round": 27,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 582,
+            "phase": 10,
+            "step": 3387
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 3,
+            "mode": "stage",
+            "target": 2,
+            "x": 17,
+            "y": 8,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 586
+          },
+          "controller": {
+            "round": 27,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 586,
+            "phase": 10,
+            "step": 3405
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 27,
+            "slot": 4,
+            "mode": "siege",
+            "target": 2,
+            "x": 25,
+            "y": 8,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 591
+          },
+          "controller": {
+            "round": 27,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 591,
+            "phase": 10,
+            "step": 3424
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 0,
+            "mode": "stage",
+            "target": 2,
+            "x": 21,
+            "y": 3,
+            "hp": 360.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 598
+          },
+          "controller": {
+            "round": 28,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 598,
+            "phase": 10,
+            "step": 3487
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 1,
+            "mode": "stage",
+            "target": 2,
+            "x": 19,
+            "y": 6,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 603
+          },
+          "controller": {
+            "round": 28,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 603,
+            "phase": 10,
+            "step": 3506
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 2,
+            "mode": "siege",
+            "target": 2,
+            "x": 18,
+            "y": 8,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 607
+          },
+          "controller": {
+            "round": 28,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 607,
+            "phase": 10,
+            "step": 3524
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 3,
+            "mode": "stage",
+            "target": 2,
+            "x": 18,
+            "y": 9,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 611
+          },
+          "controller": {
+            "round": 28,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 611,
+            "phase": 10,
+            "step": 3542
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 28,
+            "slot": 4,
+            "mode": "siege",
+            "target": 2,
+            "x": 26,
+            "y": 9,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 615
+          },
+          "controller": {
+            "round": 28,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 615,
+            "phase": 10,
+            "step": 3560
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 0,
+            "mode": "stage",
+            "target": 2,
+            "x": 22,
+            "y": 4,
+            "hp": 360.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 618
+          },
+          "controller": {
+            "round": 29,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 618,
+            "phase": 10,
+            "step": 3603
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 1,
+            "mode": "approach",
+            "target": 2,
+            "x": 20,
+            "y": 7,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 623
+          },
+          "controller": {
+            "round": 29,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 623,
+            "phase": 10,
+            "step": 3622
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 2,
+            "mode": "siege",
+            "target": 2,
+            "x": 19,
+            "y": 9,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 628
+          },
+          "controller": {
+            "round": 29,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 628,
+            "phase": 10,
+            "step": 3641
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 3,
+            "mode": "stage",
+            "target": 2,
+            "x": 19,
+            "y": 8,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 632
+          },
+          "controller": {
+            "round": 29,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 632,
+            "phase": 10,
+            "step": 3659
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 4,
+            "mode": "siege",
+            "target": 2,
+            "x": 27,
+            "y": 8,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 636
+          },
+          "controller": {
+            "round": 29,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 636,
+            "phase": 10,
+            "step": 3677
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 0,
+            "mode": "stage",
+            "target": 2,
+            "x": 23,
+            "y": 5,
+            "hp": 360.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 642
+          },
+          "controller": {
+            "round": 30,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 642,
+            "phase": 10,
+            "step": 3738
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 1,
+            "mode": "approach",
+            "target": 2,
+            "x": 21,
+            "y": 8,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 646
+          },
+          "controller": {
+            "round": 30,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 646,
+            "phase": 10,
+            "step": 3756
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 2,
+            "mode": "siege",
+            "target": 2,
+            "x": 20,
+            "y": 8,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 650
+          },
+          "controller": {
+            "round": 30,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 650,
+            "phase": 10,
+            "step": 3774
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 3,
+            "mode": "stage",
+            "target": 2,
+            "x": 20,
+            "y": 9,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 654
+          },
+          "controller": {
+            "round": 30,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 654,
+            "phase": 10,
+            "step": 3792
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 30,
+            "slot": 4,
+            "mode": "siege",
+            "target": 2,
+            "x": 27,
+            "y": 8,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 658
+          },
+          "controller": {
+            "round": 30,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 658,
+            "phase": 10,
+            "step": 3810
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 0,
+            "mode": "stage",
+            "target": 2,
+            "x": 24,
+            "y": 6,
+            "hp": 360.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 660
+          },
+          "controller": {
+            "round": 31,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 660,
+            "phase": 10,
+            "step": 3852
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 1,
+            "mode": "approach",
+            "target": 2,
+            "x": 22,
+            "y": 9,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 664
+          },
+          "controller": {
+            "round": 31,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 664,
+            "phase": 10,
+            "step": 3870
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 2,
+            "mode": "siege",
+            "target": 2,
+            "x": 21,
+            "y": 9,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 668
+          },
+          "controller": {
+            "round": 31,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 668,
+            "phase": 10,
+            "step": 3888
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 3,
+            "mode": "stage",
+            "target": 2,
+            "x": 21,
+            "y": 8,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 672
+          },
+          "controller": {
+            "round": 31,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 672,
+            "phase": 10,
+            "step": 3906
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 31,
+            "slot": 4,
+            "mode": "siege",
+            "target": 2,
+            "x": 27,
+            "y": 8,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 676
+          },
+          "controller": {
+            "round": 31,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 676,
+            "phase": 10,
+            "step": 3924
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 0,
+            "mode": "approach",
+            "target": 2,
+            "x": 25,
+            "y": 7,
+            "hp": 360.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 682
+          },
+          "controller": {
+            "round": 32,
+            "champion": 0,
+            "team": 0,
+            "type": 2,
+            "position": 682,
+            "phase": 10,
+            "step": 3986
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 1,
+            "mode": "approach",
+            "target": 2,
+            "x": 23,
+            "y": 8,
+            "hp": 860.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 686
+          },
+          "controller": {
+            "round": 32,
+            "champion": 1,
+            "team": 0,
+            "type": 10,
+            "position": 686,
+            "phase": 10,
+            "step": 4004
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 2,
+            "mode": "siege",
+            "target": 2,
+            "x": 22,
+            "y": 8,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 690
+          },
+          "controller": {
+            "round": 32,
+            "champion": 2,
+            "team": 0,
+            "type": 3,
+            "position": 690,
+            "phase": 10,
+            "step": 4022
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 3,
+            "mode": "to-capture",
+            "target": 0,
+            "x": 20,
+            "y": 7,
+            "hp": 880.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 694
+          },
+          "controller": {
+            "round": 32,
+            "champion": 3,
+            "team": 0,
+            "type": 4,
+            "position": 694,
+            "phase": 10,
+            "step": 4040
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 32,
+            "slot": 4,
+            "mode": "to-capture",
+            "target": 0,
+            "x": 26,
+            "y": 7,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 698
+          },
+          "controller": {
+            "round": 32,
+            "champion": 4,
+            "team": 0,
+            "type": 5,
+            "position": 698,
+            "phase": 10,
+            "step": 4058
+          }
+        }
+      ]
+    },
+    {
+      "job": "f27a4cfd54884fa38c37cac84ded60cd4a8fec8405d82d7b0c81547ecf02b947",
+      "map": "stampede",
+      "team": "teamA",
+      "team_body_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "joined_records": {
+        "scores": 2794,
+        "covers": 5,
+        "turns": 327
+      },
+      "mismatches": [
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 2,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.468163,
+            "exhaustive": 0,
+            "input_position": 63
+          },
+          "controller": {
+            "round": 3,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 63,
+            "phase": 10,
+            "step": 395
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 7,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.78168,
+            "exhaustive": 0,
+            "input_position": 184
+          },
+          "controller": {
+            "round": 8,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 184,
+            "phase": 10,
+            "step": 1168
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 9,
+            "slot": 1,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 11,
+            "score": 0.408523,
+            "exhaustive": 0,
+            "input_position": 228
+          },
+          "controller": {
+            "round": 10,
+            "champion": 1,
+            "team": 0,
+            "type": 4,
+            "position": 228,
+            "phase": 10,
+            "step": 1456
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 9,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.797992,
+            "exhaustive": 0,
+            "input_position": 231
+          },
+          "controller": {
+            "round": 10,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 231,
+            "phase": 10,
+            "step": 1473
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 10,
+            "slot": 5,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 11,
+            "score": 0.515328,
+            "exhaustive": 0,
+            "input_position": 264
+          },
+          "controller": {
+            "round": 11,
+            "champion": 5,
+            "team": 0,
+            "type": 11,
+            "position": 264,
+            "phase": 10,
+            "step": 1672
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 11,
+            "slot": 4,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 12,
+            "score": 0.604802,
+            "exhaustive": 0,
+            "input_position": 288
+          },
+          "controller": {
+            "round": 12,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 288,
+            "phase": 10,
+            "step": 1818
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 12,
+            "slot": 3,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 0,
+            "score": 0.559918,
+            "exhaustive": 0,
+            "input_position": 311
+          },
+          "controller": {
+            "round": 13,
+            "champion": 3,
+            "team": 0,
+            "type": 0,
+            "position": 311,
+            "phase": 10,
+            "step": 1949
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 14,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.823738,
+            "exhaustive": 0,
+            "input_position": 359
+          },
+          "controller": {
+            "round": 15,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 359,
+            "phase": 10,
+            "step": 2243
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 17,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.892361,
+            "exhaustive": 0,
+            "input_position": 434
+          },
+          "controller": {
+            "round": 18,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 434,
+            "phase": 10,
+            "step": 2715
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 33,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 1.11175,
+            "exhaustive": 0,
+            "input_position": 856
+          },
+          "controller": {
+            "round": 34,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 856,
+            "phase": 10,
+            "step": 5221
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 36,
+            "slot": 3,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 12,
+            "best": 10,
+            "score": 0.419528,
+            "exhaustive": 0,
+            "input_position": 933
+          },
+          "controller": {
+            "round": 37,
+            "champion": 3,
+            "team": 0,
+            "type": 0,
+            "position": 933,
+            "phase": 10,
+            "step": 5701
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 36,
+            "slot": 4,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 12,
+            "best": 10,
+            "score": 0.434828,
+            "exhaustive": 0,
+            "input_position": 936
+          },
+          "controller": {
+            "round": 37,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 936,
+            "phase": 10,
+            "step": 5718
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 38,
+            "slot": 4,
+            "considered": 12,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 12,
+            "scored": 11,
+            "best": 10,
+            "score": 0.678852,
+            "exhaustive": 0,
+            "input_position": 982
+          },
+          "controller": {
+            "round": 39,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 982,
+            "phase": 10,
+            "step": 6031
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 39,
+            "slot": 2,
+            "considered": 12,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 12,
+            "scored": 11,
+            "best": 10,
+            "score": 0.740855,
+            "exhaustive": 0,
+            "input_position": 1002
+          },
+          "controller": {
+            "round": 40,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 1002,
+            "phase": 10,
+            "step": 6163
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 44,
+            "slot": 3,
+            "considered": 13,
+            "pruned": 1,
+            "work_capped": 0,
+            "evaluated": 12,
+            "scored": 12,
+            "best": 10,
+            "score": 0.455336,
+            "exhaustive": 0,
+            "input_position": 1129
+          },
+          "controller": {
+            "round": 45,
+            "champion": 3,
+            "team": 0,
+            "type": 0,
+            "position": 1129,
+            "phase": 10,
+            "step": 6964
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 45,
+            "slot": 0,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.259511,
+            "exhaustive": 0,
+            "input_position": 1149
+          },
+          "controller": {
+            "round": 46,
+            "champion": 0,
+            "team": 0,
+            "type": 3,
+            "position": 1149,
+            "phase": 10,
+            "step": 7097
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 47,
+            "slot": 0,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.277078,
+            "exhaustive": 0,
+            "input_position": 1240
+          },
+          "controller": {
+            "round": 49,
+            "champion": 0,
+            "team": 0,
+            "type": 3,
+            "position": 1240,
+            "phase": 10,
+            "step": 7598
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 54,
+            "slot": 4,
+            "considered": 13,
+            "pruned": 2,
+            "work_capped": 0,
+            "evaluated": 11,
+            "scored": 11,
+            "best": 10,
+            "score": 0.905599,
+            "exhaustive": 0,
+            "input_position": 1414
+          },
+          "controller": {
+            "round": 55,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 1414,
+            "phase": 10,
+            "step": 8576
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 57,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 7,
+            "work_capped": 0,
+            "evaluated": 6,
+            "scored": 6,
+            "best": 10,
+            "score": 1.65255,
+            "exhaustive": 0,
+            "input_position": 1488
+          },
+          "controller": {
+            "round": 58,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 1488,
+            "phase": 10,
+            "step": 9078
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 36,
+            "slot": 3,
+            "group": 2,
+            "ally": 0,
+            "ally_slot": 0,
+            "ally_claim": 2,
+            "target": 2,
+            "input_position": 933
+          },
+          "controller": {
+            "round": 37,
+            "champion": 3,
+            "team": 0,
+            "type": 0,
+            "position": 933,
+            "phase": 10,
+            "step": 5701
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 36,
+            "slot": 4,
+            "group": 2,
+            "ally": 0,
+            "ally_slot": 0,
+            "ally_claim": 2,
+            "target": 2,
+            "input_position": 936
+          },
+          "controller": {
+            "round": 37,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 936,
+            "phase": 10,
+            "step": 5718
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 38,
+            "slot": 4,
+            "group": 0,
+            "ally": 3,
+            "ally_slot": 3,
+            "ally_claim": 0,
+            "target": 10,
+            "input_position": 982
+          },
+          "controller": {
+            "round": 39,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 982,
+            "phase": 10,
+            "step": 6031
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 39,
+            "slot": 2,
+            "group": 0,
+            "ally": 3,
+            "ally_slot": 3,
+            "ally_claim": 0,
+            "target": 0,
+            "input_position": 1002
+          },
+          "controller": {
+            "round": 40,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 1002,
+            "phase": 10,
+            "step": 6163
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 2,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 2,
+            "y": 0,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 63
+          },
+          "controller": {
+            "round": 3,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 63,
+            "phase": 10,
+            "step": 395
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 7,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 6,
+            "y": 4,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 184
+          },
+          "controller": {
+            "round": 8,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 184,
+            "phase": 10,
+            "step": 1168
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 9,
+            "slot": 1,
+            "mode": "approach",
+            "target": 11,
+            "x": 11,
+            "y": 8,
+            "hp": 900.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 228
+          },
+          "controller": {
+            "round": 10,
+            "champion": 1,
+            "team": 0,
+            "type": 4,
+            "position": 228,
+            "phase": 10,
+            "step": 1456
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 9,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 7,
+            "y": 5,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 231
+          },
+          "controller": {
+            "round": 10,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 231,
+            "phase": 10,
+            "step": 1473
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 10,
+            "slot": 5,
+            "mode": "approach",
+            "target": 11,
+            "x": 11,
+            "y": 7,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 264
+          },
+          "controller": {
+            "round": 11,
+            "champion": 5,
+            "team": 0,
+            "type": 11,
+            "position": 264,
+            "phase": 10,
+            "step": 1672
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 11,
+            "slot": 4,
+            "mode": "approach",
+            "target": 12,
+            "x": 11,
+            "y": 6,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 288
+          },
+          "controller": {
+            "round": 12,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 288,
+            "phase": 10,
+            "step": 1818
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 12,
+            "slot": 3,
+            "mode": "approach",
+            "target": 0,
+            "x": 11,
+            "y": 8,
+            "hp": 1200.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 311
+          },
+          "controller": {
+            "round": 13,
+            "champion": 3,
+            "team": 0,
+            "type": 0,
+            "position": 311,
+            "phase": 10,
+            "step": 1949
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 14,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 11,
+            "y": 7,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 359
+          },
+          "controller": {
+            "round": 15,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 359,
+            "phase": 10,
+            "step": 2243
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 17,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 13,
+            "y": 7,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 434
+          },
+          "controller": {
+            "round": 18,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 434,
+            "phase": 10,
+            "step": 2715
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 19,
+            "slot": 1,
+            "mode": "approach",
+            "target": 11,
+            "x": 11,
+            "y": 16,
+            "hp": 900.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 478
+          },
+          "controller": {
+            "round": 20,
+            "champion": 1,
+            "team": 0,
+            "type": 4,
+            "position": 478,
+            "phase": 10,
+            "step": 3005
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 21,
+            "slot": 5,
+            "mode": "approach",
+            "target": 11,
+            "x": 10,
+            "y": 15,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 543
+          },
+          "controller": {
+            "round": 22,
+            "champion": 5,
+            "team": 0,
+            "type": 11,
+            "position": 543,
+            "phase": 10,
+            "step": 3387
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 33,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 28,
+            "y": 8,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 856
+          },
+          "controller": {
+            "round": 34,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 856,
+            "phase": 10,
+            "step": 5221
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 36,
+            "slot": 3,
+            "mode": "siege",
+            "target": 10,
+            "x": 23,
+            "y": 2,
+            "hp": 1200.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 933
+          },
+          "controller": {
+            "round": 37,
+            "champion": 3,
+            "team": 0,
+            "type": 0,
+            "position": 933,
+            "phase": 10,
+            "step": 5701
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 36,
+            "slot": 4,
+            "mode": "siege",
+            "target": 10,
+            "x": 16,
+            "y": 5,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 936
+          },
+          "controller": {
+            "round": 37,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 936,
+            "phase": 10,
+            "step": 5718
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 38,
+            "slot": 4,
+            "mode": "siege",
+            "target": 10,
+            "x": 17,
+            "y": 6,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 982
+          },
+          "controller": {
+            "round": 39,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 982,
+            "phase": 10,
+            "step": 6031
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 39,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 27,
+            "y": 5,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 1002
+          },
+          "controller": {
+            "round": 40,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 1002,
+            "phase": 10,
+            "step": 6163
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 44,
+            "slot": 3,
+            "mode": "siege",
+            "target": 10,
+            "x": 25,
+            "y": 2,
+            "hp": 1200.0,
+            "gold": 70,
+            "gems": 0,
+            "input_position": 1129
+          },
+          "controller": {
+            "round": 45,
+            "champion": 3,
+            "team": 0,
+            "type": 0,
+            "position": 1129,
+            "phase": 10,
+            "step": 6964
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 45,
+            "slot": 0,
+            "mode": "siege",
+            "target": 10,
+            "x": 17,
+            "y": 5,
+            "hp": 700.0,
+            "gold": 70,
+            "gems": 0,
+            "input_position": 1149
+          },
+          "controller": {
+            "round": 46,
+            "champion": 0,
+            "team": 0,
+            "type": 3,
+            "position": 1149,
+            "phase": 10,
+            "step": 7097
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 47,
+            "slot": 0,
+            "mode": "siege",
+            "target": 10,
+            "x": 18,
+            "y": 6,
+            "hp": 700.0,
+            "gold": 70,
+            "gems": 0,
+            "input_position": 1240
+          },
+          "controller": {
+            "round": 49,
+            "champion": 0,
+            "team": 0,
+            "type": 3,
+            "position": 1240,
+            "phase": 10,
+            "step": 7598
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 54,
+            "slot": 4,
+            "mode": "siege",
+            "target": 10,
+            "x": 30,
+            "y": 7,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 1414
+          },
+          "controller": {
+            "round": 55,
+            "champion": 4,
+            "team": 0,
+            "type": 6,
+            "position": 1414,
+            "phase": 10,
+            "step": 8576
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 57,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 44,
+            "y": 9,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 1488
+          },
+          "controller": {
+            "round": 58,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 1488,
+            "phase": 10,
+            "step": 9078
+          }
+        }
+      ],
+      "rows_case_records": []
+    },
+    {
+      "job": "39a7fd16271ead0abeeec03784987cee7a668f9c1e621601b8d43ab3636cc8b8",
+      "map": "swirl",
+      "team": "teamA",
+      "team_body_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "joined_records": {
+        "scores": 1062,
+        "covers": 2,
+        "turns": 254
+      },
+      "mismatches": [
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 2,
+            "slot": 0,
+            "considered": 16,
+            "pruned": 0,
+            "work_capped": 6,
+            "evaluated": 16,
+            "scored": 15,
+            "best": 14,
+            "score": 0.412509,
+            "exhaustive": 0,
+            "input_position": 49
+          },
+          "controller": {
+            "round": 3,
+            "champion": 0,
+            "team": 0,
+            "type": 3,
+            "position": 49,
+            "phase": 10,
+            "step": 445
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 29,
+            "slot": 2,
+            "considered": 20,
+            "pruned": 4,
+            "work_capped": 2,
+            "evaluated": 16,
+            "scored": 14,
+            "best": 14,
+            "score": 2.41992,
+            "exhaustive": 0,
+            "input_position": 658
+          },
+          "controller": {
+            "round": 30,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 658,
+            "phase": 10,
+            "step": 5362
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 273,
+            "slot": 4,
+            "considered": 16,
+            "pruned": 0,
+            "work_capped": 6,
+            "evaluated": 16,
+            "scored": 16,
+            "best": 14,
+            "score": 3.17143,
+            "exhaustive": 0,
+            "input_position": 4970
+          },
+          "controller": {
+            "round": 274,
+            "champion": 4,
+            "team": 0,
+            "type": 0,
+            "position": 4970,
+            "phase": 10,
+            "step": 49644
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 320,
+            "slot": 2,
+            "considered": 16,
+            "pruned": 0,
+            "work_capped": 6,
+            "evaluated": 16,
+            "scored": 16,
+            "best": 6,
+            "score": 1.04136,
+            "exhaustive": 0,
+            "input_position": 5948
+          },
+          "controller": {
+            "round": 321,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 5948,
+            "phase": 10,
+            "step": 58297
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 2,
+            "slot": 0,
+            "mode": "siege",
+            "target": 14,
+            "x": 26,
+            "y": 6,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 49
+          },
+          "controller": {
+            "round": 3,
+            "champion": 0,
+            "team": 0,
+            "type": 3,
+            "position": 49,
+            "phase": 10,
+            "step": 445
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 18,
+            "slot": 4,
+            "mode": "fight-champ",
+            "target": 14,
+            "x": 22,
+            "y": 14,
+            "hp": 180.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 395
+          },
+          "controller": {
+            "round": 19,
+            "champion": 4,
+            "team": 0,
+            "type": 0,
+            "position": 395,
+            "phase": 10,
+            "step": 3307
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 29,
+            "slot": 2,
+            "mode": "siege",
+            "target": 14,
+            "x": 21,
+            "y": 13,
+            "hp": 610.0,
+            "gold": 50,
+            "gems": 0,
+            "input_position": 658
+          },
+          "controller": {
+            "round": 30,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 658,
+            "phase": 10,
+            "step": 5362
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 48,
+            "slot": 2,
+            "mode": "cmicro",
+            "target": 14,
+            "x": 22,
+            "y": 14,
+            "hp": 430.0,
+            "gold": 50,
+            "gems": 0,
+            "input_position": 990
+          },
+          "controller": {
+            "round": 49,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 990,
+            "phase": 10,
+            "step": 8753
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 53,
+            "slot": 2,
+            "mode": "cmicro",
+            "target": 14,
+            "x": 22,
+            "y": 14,
+            "hp": 430.0,
+            "gold": 50,
+            "gems": 0,
+            "input_position": 1077
+          },
+          "controller": {
+            "round": 54,
+            "champion": 2,
+            "team": 0,
+            "type": 5,
+            "position": 1077,
+            "phase": 10,
+            "step": 9651
+          }
+        }
+      ],
+      "rows_case_records": []
+    },
+    {
+      "job": "bfa01409c3cbe2766c3a90e0298ffa6b7ace4653533ef298f8bb8eee36870971",
+      "map": "stampede",
+      "team": "teamB",
+      "team_body_ids": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "joined_records": {
+        "scores": 2978,
+        "covers": 7,
+        "turns": 351
+      },
+      "mismatches": [
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 2,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 10,
+            "score": 0.468163,
+            "exhaustive": 0,
+            "input_position": 65
+          },
+          "controller": {
+            "round": 3,
+            "champion": 8,
+            "team": 1,
+            "type": 5,
+            "position": 65,
+            "phase": 10,
+            "step": 404
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 9,
+            "slot": 1,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 11,
+            "score": 0.477352,
+            "exhaustive": 0,
+            "input_position": 226
+          },
+          "controller": {
+            "round": 10,
+            "champion": 7,
+            "team": 1,
+            "type": 4,
+            "position": 226,
+            "phase": 10,
+            "step": 1447
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 10,
+            "slot": 5,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 12,
+            "score": 0.480973,
+            "exhaustive": 0,
+            "input_position": 269
+          },
+          "controller": {
+            "round": 11,
+            "champion": 11,
+            "team": 1,
+            "type": 11,
+            "position": 269,
+            "phase": 10,
+            "step": 1684
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 11,
+            "slot": 4,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 12,
+            "score": 0.47462,
+            "exhaustive": 0,
+            "input_position": 288
+          },
+          "controller": {
+            "round": 12,
+            "champion": 10,
+            "team": 1,
+            "type": 6,
+            "position": 288,
+            "phase": 10,
+            "step": 1811
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 43,
+            "slot": 4,
+            "considered": 13,
+            "pruned": 0,
+            "work_capped": 0,
+            "evaluated": 13,
+            "scored": 12,
+            "best": 10,
+            "score": 0.451972,
+            "exhaustive": 0,
+            "input_position": 1098
+          },
+          "controller": {
+            "round": 44,
+            "champion": 10,
+            "team": 1,
+            "type": 6,
+            "position": 1098,
+            "phase": 10,
+            "step": 6804
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 44,
+            "slot": 2,
+            "considered": 13,
+            "pruned": 6,
+            "work_capped": 0,
+            "evaluated": 7,
+            "scored": 7,
+            "best": 10,
+            "score": 1.46893,
+            "exhaustive": 0,
+            "input_position": 1114
+          },
+          "controller": {
+            "round": 45,
+            "champion": 8,
+            "team": 1,
+            "type": 5,
+            "position": 1114,
+            "phase": 10,
+            "step": 6933
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 53,
+            "slot": 3,
+            "considered": 13,
+            "pruned": 4,
+            "work_capped": 0,
+            "evaluated": 9,
+            "scored": 9,
+            "best": 10,
+            "score": 1.33025,
+            "exhaustive": 0,
+            "input_position": 1333
+          },
+          "controller": {
+            "round": 54,
+            "champion": 9,
+            "team": 1,
+            "type": 0,
+            "position": 1333,
+            "phase": 10,
+            "step": 8366
+          }
+        },
+        {
+          "kind": "covers",
+          "record": {
+            "round_label": 43,
+            "slot": 4,
+            "group": 1,
+            "ally": 7,
+            "ally_slot": 1,
+            "ally_claim": 1,
+            "target": 1,
+            "input_position": 1098
+          },
+          "controller": {
+            "round": 44,
+            "champion": 10,
+            "team": 1,
+            "type": 6,
+            "position": 1098,
+            "phase": 10,
+            "step": 6804
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 2,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 2,
+            "y": 49,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 65
+          },
+          "controller": {
+            "round": 3,
+            "champion": 8,
+            "team": 1,
+            "type": 5,
+            "position": 65,
+            "phase": 10,
+            "step": 404
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 9,
+            "slot": 1,
+            "mode": "approach",
+            "target": 11,
+            "x": 11,
+            "y": 43,
+            "hp": 900.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 226
+          },
+          "controller": {
+            "round": 10,
+            "champion": 7,
+            "team": 1,
+            "type": 4,
+            "position": 226,
+            "phase": 10,
+            "step": 1447
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 10,
+            "slot": 5,
+            "mode": "approach",
+            "target": 12,
+            "x": 11,
+            "y": 41,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 269
+          },
+          "controller": {
+            "round": 11,
+            "champion": 11,
+            "team": 1,
+            "type": 11,
+            "position": 269,
+            "phase": 10,
+            "step": 1684
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 11,
+            "slot": 4,
+            "mode": "approach",
+            "target": 12,
+            "x": 11,
+            "y": 42,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 288
+          },
+          "controller": {
+            "round": 12,
+            "champion": 10,
+            "team": 1,
+            "type": 6,
+            "position": 288,
+            "phase": 10,
+            "step": 1811
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 19,
+            "slot": 1,
+            "mode": "approach",
+            "target": 11,
+            "x": 11,
+            "y": 33,
+            "hp": 900.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 479
+          },
+          "controller": {
+            "round": 20,
+            "champion": 7,
+            "team": 1,
+            "type": 4,
+            "position": 479,
+            "phase": 10,
+            "step": 2998
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 21,
+            "slot": 5,
+            "mode": "approach",
+            "target": 12,
+            "x": 20,
+            "y": 34,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 545
+          },
+          "controller": {
+            "round": 22,
+            "champion": 11,
+            "team": 1,
+            "type": 11,
+            "position": 545,
+            "phase": 10,
+            "step": 3381
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 43,
+            "slot": 4,
+            "mode": "siege",
+            "target": 10,
+            "x": 23,
+            "y": 49,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 1098
+          },
+          "controller": {
+            "round": 44,
+            "champion": 10,
+            "team": 1,
+            "type": 6,
+            "position": 1098,
+            "phase": 10,
+            "step": 6804
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 44,
+            "slot": 2,
+            "mode": "siege",
+            "target": 10,
+            "x": 42,
+            "y": 41,
+            "hp": 750.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 1114
+          },
+          "controller": {
+            "round": 45,
+            "champion": 8,
+            "team": 1,
+            "type": 5,
+            "position": 1114,
+            "phase": 10,
+            "step": 6933
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 53,
+            "slot": 3,
+            "mode": "siege",
+            "target": 10,
+            "x": 44,
+            "y": 41,
+            "hp": 1200.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 1333
+          },
+          "controller": {
+            "round": 54,
+            "champion": 9,
+            "team": 1,
+            "type": 0,
+            "position": 1333,
+            "phase": 10,
+            "step": 8366
+          }
+        }
+      ],
+      "rows_case_records": []
+    },
+    {
+      "job": "0e1b0605660a850511d90e79196ed2c0e4aeffd0086590588c0525b37fe28924",
+      "map": "swirl",
+      "team": "teamB",
+      "team_body_ids": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "joined_records": {
+        "scores": 1643,
+        "covers": 2,
+        "turns": 253
+      },
+      "mismatches": [
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 2,
+            "slot": 0,
+            "considered": 16,
+            "pruned": 0,
+            "work_capped": 6,
+            "evaluated": 16,
+            "scored": 15,
+            "best": 15,
+            "score": 0.412509,
+            "exhaustive": 0,
+            "input_position": 51
+          },
+          "controller": {
+            "round": 3,
+            "champion": 5,
+            "team": 1,
+            "type": 3,
+            "position": 51,
+            "phase": 10,
+            "step": 454
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 24,
+            "slot": 2,
+            "considered": 19,
+            "pruned": 3,
+            "work_capped": 3,
+            "evaluated": 16,
+            "scored": 14,
+            "best": 15,
+            "score": 2.42517,
+            "exhaustive": 0,
+            "input_position": 499
+          },
+          "controller": {
+            "round": 25,
+            "champion": 7,
+            "team": 1,
+            "type": 5,
+            "position": 499,
+            "phase": 10,
+            "step": 4382
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 36,
+            "slot": 2,
+            "considered": 20,
+            "pruned": 4,
+            "work_capped": 2,
+            "evaluated": 16,
+            "scored": 14,
+            "best": 15,
+            "score": 2.61135,
+            "exhaustive": 0,
+            "input_position": 683
+          },
+          "controller": {
+            "round": 37,
+            "champion": 7,
+            "team": 1,
+            "type": 5,
+            "position": 683,
+            "phase": 10,
+            "step": 6485
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 78,
+            "slot": 4,
+            "considered": 17,
+            "pruned": 1,
+            "work_capped": 5,
+            "evaluated": 16,
+            "scored": 16,
+            "best": 19,
+            "score": 1.14216,
+            "exhaustive": 0,
+            "input_position": 1393
+          },
+          "controller": {
+            "round": 79,
+            "champion": 9,
+            "team": 1,
+            "type": 0,
+            "position": 1393,
+            "phase": 10,
+            "step": 14048
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 342,
+            "slot": 2,
+            "considered": 17,
+            "pruned": 4,
+            "work_capped": 4,
+            "evaluated": 13,
+            "scored": 13,
+            "best": 7,
+            "score": 3.54586,
+            "exhaustive": 0,
+            "input_position": 6160
+          },
+          "controller": {
+            "round": 343,
+            "champion": 7,
+            "team": 1,
+            "type": 5,
+            "position": 6160,
+            "phase": 10,
+            "step": 61791
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 381,
+            "slot": 1,
+            "considered": 19,
+            "pruned": 3,
+            "work_capped": 2,
+            "evaluated": 16,
+            "scored": 14,
+            "best": 19,
+            "score": 2.43017,
+            "exhaustive": 0,
+            "input_position": 6915
+          },
+          "controller": {
+            "round": 382,
+            "champion": 6,
+            "team": 1,
+            "type": 4,
+            "position": 6915,
+            "phase": 10,
+            "step": 68950
+          }
+        },
+        {
+          "kind": "scores",
+          "record": {
+            "round_label": 563,
+            "slot": 2,
+            "considered": 20,
+            "pruned": 4,
+            "work_capped": 2,
+            "evaluated": 16,
+            "scored": 16,
+            "best": 19,
+            "score": 5.51054,
+            "exhaustive": 0,
+            "input_position": 10309
+          },
+          "controller": {
+            "round": 564,
+            "champion": 7,
+            "team": 1,
+            "type": 5,
+            "position": 10309,
+            "phase": 10,
+            "step": 102307
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 2,
+            "slot": 0,
+            "mode": "siege",
+            "target": 15,
+            "x": 18,
+            "y": 23,
+            "hp": 700.0,
+            "gold": 0,
+            "gems": 0,
+            "input_position": 51
+          },
+          "controller": {
+            "round": 3,
+            "champion": 5,
+            "team": 1,
+            "type": 3,
+            "position": 51,
+            "phase": 10,
+            "step": 454
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 24,
+            "slot": 2,
+            "mode": "siege",
+            "target": 15,
+            "x": 24,
+            "y": 19,
+            "hp": 490.0,
+            "gold": 50,
+            "gems": 0,
+            "input_position": 499
+          },
+          "controller": {
+            "round": 25,
+            "champion": 7,
+            "team": 1,
+            "type": 5,
+            "position": 499,
+            "phase": 10,
+            "step": 4382
+          }
+        },
+        {
+          "kind": "turns",
+          "record": {
+            "round_label": 36,
+            "slot": 2,
+            "mode": "siege",
+            "target": 15,
+            "x": 23,
+            "y": 16,
+            "hp": 490.0,
+            "gold": 50,
+            "gems": 0,
+            "input_position": 683
+          },
+          "controller": {
+            "round": 37,
+            "champion": 7,
+            "team": 1,
+            "type": 5,
+            "position": 683,
+            "phase": 10,
+            "step": 6485
+          }
+        }
+      ],
+      "rows_case_records": []
+    }
+  ],
+  "total_mismatches": 80
+}

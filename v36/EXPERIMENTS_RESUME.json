@@ -1,0 +1,25 @@
+{
+  "protocol": "Fixed 50-map chunks, 200-map maximum, mirrored sides; early rejection only after a whole chunk.",
+  "primary": "match win points and submitted-gem margin; release faults/fuel supporting",
+  "early_stop": "Reject at 100 games if upper descriptive map-cluster95% win interval <0.50 or any new runtime fault. Other results complete all400games.",
+  "selection": "No gain claimed if interval includes0.50; fresh40map validation once then final frozen holdout. Correctness evidence alone does not establish performance.",
+  "variants": [
+    {
+      "candidate": "flee",
+      "control": "control-A"
+    },
+    {
+      "candidate": "model-fix",
+      "control": "control-A"
+    },
+    {
+      "candidate": "relevance5",
+      "control": "control-B"
+    },
+    {
+      "candidate": "governor",
+      "control": "control-B"
+    }
+  ],
+  "strict_deferred": "Native fixture rejected known official map; source repair and rerun identity gate required before performance screen."
+}

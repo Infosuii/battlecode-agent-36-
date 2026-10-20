@@ -1,0 +1,303 @@
+{
+  "name": "ambush",
+  "expected_id": 0,
+  "artifact_sha256": "31917ad2cdc68861c9b1e8e44ee263cfa5abce180c934c3da43cd61858eb53f7",
+  "map_sha256": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+  "cli_sha256": "e2a87c920a7a3545ae605eedbc6d97a23c92f65406f82d8ac2bdca66b8fd93c6",
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+    "run",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-control\\agent4-cache-control.wasm",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-control\\agent4-cache-control.wasm",
+    "--map",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\ambush.map26a",
+    "--rounds",
+    "2",
+    "--release",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\cache_control_fixtures\\ambush",
+    "--statistics",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\cache_control_fixtures\\ambush\\statistics.json",
+    "--json"
+  ],
+  "seconds": 0.26599999999962165,
+  "round_limit": 2,
+  "scope": "Nonperformance actual SDK fixture; no full-match outcome/strength estimate",
+  "bundle": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\evidence\\agent4\\cache_control_fixtures\\ambush\\agent4-cache-control-vs-agent4-cache-control-1792499827790.repl26a",
+  "bundle_sha256": "fb113aaa2641ffc8f9a6b37af5a751863011c80751dabb7f918615b8434526a3",
+  "raw_replay_sha256": "c1278c042139ea76ba1d675309788b6a26a3da62260644a29874899d7c26af0c",
+  "statistics": null,
+  "parsed": {
+    "a": {
+      "identity_observations": [
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 0
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 5
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 9
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 13
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 17
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 20
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 22
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 24
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 26
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 28
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 30
+        }
+      ],
+      "lineup_trace": [
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ]
+      ],
+      "stdout_sha256": "25254190c98b63d66dcd20ba118a744e9718af62b9cb3d549dc4ac59583df2b6"
+    },
+    "b": {
+      "identity_observations": [
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 2
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 7
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 11
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 15
+        },
+        {
+          "draft_phase": 1,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 19
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 21
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 23
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 25
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 27
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 29
+        },
+        {
+          "draft_phase": 0,
+          "picks": 5,
+          "groups": 12,
+          "sdk_code": 0,
+          "id": 0,
+          "position": 31
+        }
+      ],
+      "lineup_trace": [
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ],
+        [
+          100,
+          100,
+          5,
+          12,
+          0,
+          19
+        ]
+      ],
+      "stdout_sha256": "96c5c96f36d6d608edfb35da1d4bea7a71ff42bab295ff7590242b77db4bd9a4"
+    }
+  },
+  "passed": true
+}

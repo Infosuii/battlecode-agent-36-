@@ -1,0 +1,890 @@
+{
+  "same_source": true,
+  "source_files": {
+    "common.h": "3552767814f1dc1c04aae4471a720d0f97e27194527ca2c380c984be50cfa4e3",
+    "draft.cpp": "73527394a0f8ea5081d7691e7d351307d4ace1ca0c9f3b4a658a1b3946f3903d",
+    "draft.h": "ac6b7cc136ceea0a6528e82a4f3a4bb6b85d5d23c56f811b5b7212f15cdeb455",
+    "draft_map_cache.h": "6211b9cdb09896f93b69c486381ebab379795e930dc258ed503fb717a7a38300",
+    "main.cpp": "41544e4e360bdbca0cd910ba57ac1cdf59187fc7cafd7eddda89692eb1cbc809",
+    "official_map_layouts.h": "3e84b617d5d38f92260ccbb6ee46e8c0937260abc75b461ad97cd3c87edeccf0",
+    "strategy.h": "6aa5144bd5f659932ca8f354ad1e52dc7fad74170db0bd922b14adf9d9ce55fc"
+  },
+  "cached_artifact": "f4ddd86d78789d6f1a51db4c1072da6f62c0e1344532224187ef2198e52b46dd",
+  "uncached_artifact": "31917ad2cdc68861c9b1e8e44ee263cfa5abce180c934c3da43cd61858eb53f7",
+  "actual_capacity_and_snapshot_bytes": [
+    [
+      1024,
+      1024
+    ]
+  ],
+  "known_body_modules": 180,
+  "known_mean_uncached": 83861.06666666667,
+  "known_mean_cached": 19772.344444444443,
+  "known_max_uncached": 144723,
+  "known_max_cached": 20834,
+  "known_mean_reduction": 64088.72222222222,
+  "known_reduction_fraction": 0.764224982696248,
+  "rows": [
+    {
+      "map": "ambush",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        83389,
+        83373,
+        83395,
+        83383,
+        83391,
+        83385
+      ],
+      "cached_first_module_fuel": [
+        20828,
+        20812,
+        20834,
+        20822,
+        20830,
+        20824
+      ],
+      "mean_reduction": 62561
+    },
+    {
+      "map": "ambush",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        83389,
+        83373,
+        83395,
+        83383,
+        83391,
+        83385
+      ],
+      "cached_first_module_fuel": [
+        20828,
+        20812,
+        20834,
+        20822,
+        20830,
+        20824
+      ],
+      "mean_reduction": 62561
+    },
+    {
+      "map": "collision",
+      "team": 0,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        73192,
+        73176,
+        73198,
+        73186
+      ],
+      "cached_first_module_fuel": [
+        19365,
+        19349,
+        19371,
+        19359
+      ],
+      "mean_reduction": 53827
+    },
+    {
+      "map": "collision",
+      "team": 1,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        73192,
+        73176,
+        73198,
+        73186
+      ],
+      "cached_first_module_fuel": [
+        19365,
+        19349,
+        19371,
+        19359
+      ],
+      "mean_reduction": 53827
+    },
+    {
+      "map": "contest",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        67963,
+        67947,
+        67969,
+        67957,
+        67965,
+        67959
+      ],
+      "cached_first_module_fuel": [
+        19490,
+        19474,
+        19496,
+        19484,
+        19492,
+        19486
+      ],
+      "mean_reduction": 48473
+    },
+    {
+      "map": "contest",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        67963,
+        67947,
+        67969,
+        67957,
+        67965,
+        67959
+      ],
+      "cached_first_module_fuel": [
+        19490,
+        19474,
+        19496,
+        19484,
+        19492,
+        19486
+      ],
+      "mean_reduction": 48473
+    },
+    {
+      "map": "corners",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        116897,
+        116881,
+        116903,
+        116891,
+        116899,
+        116893
+      ],
+      "cached_first_module_fuel": [
+        19767,
+        19751,
+        19773,
+        19761,
+        19769,
+        19763
+      ],
+      "mean_reduction": 97130
+    },
+    {
+      "map": "corners",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        116897,
+        116881,
+        116903,
+        116891,
+        116899,
+        116893
+      ],
+      "cached_first_module_fuel": [
+        19767,
+        19751,
+        19773,
+        19761,
+        19769,
+        19763
+      ],
+      "mean_reduction": 97130
+    },
+    {
+      "map": "eight",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        50966,
+        50950,
+        50972,
+        50960,
+        50968,
+        50962
+      ],
+      "cached_first_module_fuel": [
+        19413,
+        19397,
+        19419,
+        19407,
+        19415,
+        19409
+      ],
+      "mean_reduction": 31553
+    },
+    {
+      "map": "eight",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        50966,
+        50950,
+        50972,
+        50960,
+        50968,
+        50962
+      ],
+      "cached_first_module_fuel": [
+        19413,
+        19397,
+        19419,
+        19407,
+        19415,
+        19409
+      ],
+      "mean_reduction": 31553
+    },
+    {
+      "map": "elkring",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        58584,
+        58568,
+        58590,
+        58578,
+        58586,
+        58580
+      ],
+      "cached_first_module_fuel": [
+        19403,
+        19387,
+        19409,
+        19397,
+        19405,
+        19399
+      ],
+      "mean_reduction": 39181
+    },
+    {
+      "map": "elkring",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        58584,
+        58568,
+        58590,
+        58578,
+        58586,
+        58580
+      ],
+      "cached_first_module_fuel": [
+        19403,
+        19387,
+        19409,
+        19397,
+        19405,
+        19399
+      ],
+      "mean_reduction": 39181
+    },
+    {
+      "map": "expanse",
+      "team": 0,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        114728,
+        114712,
+        114734,
+        114724
+      ],
+      "cached_first_module_fuel": [
+        20354,
+        20338,
+        20360,
+        20350
+      ],
+      "mean_reduction": 94374
+    },
+    {
+      "map": "expanse",
+      "team": 1,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        114728,
+        114712,
+        114734,
+        114724
+      ],
+      "cached_first_module_fuel": [
+        20354,
+        20338,
+        20360,
+        20350
+      ],
+      "mean_reduction": 94374
+    },
+    {
+      "map": "fragment",
+      "team": 0,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        42548,
+        42532,
+        42554,
+        42542
+      ],
+      "cached_first_module_fuel": [
+        19415,
+        19399,
+        19421,
+        19409
+      ],
+      "mean_reduction": 23133
+    },
+    {
+      "map": "fragment",
+      "team": 1,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        42548,
+        42532,
+        42554,
+        42542
+      ],
+      "cached_first_module_fuel": [
+        19415,
+        19399,
+        19421,
+        19409
+      ],
+      "mean_reduction": 23133
+    },
+    {
+      "map": "interlock",
+      "team": 0,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        66341,
+        66325,
+        66347,
+        66335,
+        66343
+      ],
+      "cached_first_module_fuel": [
+        19424,
+        19408,
+        19430,
+        19418,
+        19426
+      ],
+      "mean_reduction": 46917
+    },
+    {
+      "map": "interlock",
+      "team": 1,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        66341,
+        66325,
+        66347,
+        66335,
+        66343
+      ],
+      "cached_first_module_fuel": [
+        19424,
+        19408,
+        19430,
+        19418,
+        19426
+      ],
+      "mean_reduction": 46917
+    },
+    {
+      "map": "lanes",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        144717,
+        144701,
+        144723,
+        144711,
+        144719,
+        144713
+      ],
+      "cached_first_module_fuel": [
+        19643,
+        19627,
+        19649,
+        19637,
+        19645,
+        19639
+      ],
+      "mean_reduction": 125074
+    },
+    {
+      "map": "lanes",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        144717,
+        144701,
+        144723,
+        144711,
+        144719,
+        144713
+      ],
+      "cached_first_module_fuel": [
+        19643,
+        19627,
+        19649,
+        19637,
+        19645,
+        19639
+      ],
+      "mean_reduction": 125074
+    },
+    {
+      "map": "monolith",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        101759,
+        101743,
+        101765,
+        101753,
+        101761,
+        101755
+      ],
+      "cached_first_module_fuel": [
+        19715,
+        19699,
+        19721,
+        19709,
+        19717,
+        19711
+      ],
+      "mean_reduction": 82044
+    },
+    {
+      "map": "monolith",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        101759,
+        101743,
+        101765,
+        101753,
+        101761,
+        101755
+      ],
+      "cached_first_module_fuel": [
+        19715,
+        19699,
+        19721,
+        19709,
+        19717,
+        19711
+      ],
+      "mean_reduction": 82044
+    },
+    {
+      "map": "packs",
+      "team": 0,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        51081,
+        51065,
+        51087,
+        51075
+      ],
+      "cached_first_module_fuel": [
+        19529,
+        19513,
+        19535,
+        19523
+      ],
+      "mean_reduction": 31552
+    },
+    {
+      "map": "packs",
+      "team": 1,
+      "known": true,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        51081,
+        51065,
+        51087,
+        51075
+      ],
+      "cached_first_module_fuel": [
+        19529,
+        19513,
+        19535,
+        19523
+      ],
+      "mean_reduction": 31552
+    },
+    {
+      "map": "pilgrimage",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        103455,
+        103439,
+        103461,
+        103449,
+        103457,
+        103451
+      ],
+      "cached_first_module_fuel": [
+        19866,
+        19850,
+        19872,
+        19860,
+        19868,
+        19862
+      ],
+      "mean_reduction": 83589
+    },
+    {
+      "map": "pilgrimage",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        103455,
+        103439,
+        103461,
+        103449,
+        103457,
+        103451
+      ],
+      "cached_first_module_fuel": [
+        19866,
+        19850,
+        19872,
+        19860,
+        19868,
+        19862
+      ],
+      "mean_reduction": 83589
+    },
+    {
+      "map": "rows",
+      "team": 0,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        62929,
+        62941,
+        62945,
+        62929,
+        62951
+      ],
+      "cached_first_module_fuel": [
+        20111,
+        20123,
+        20127,
+        20111,
+        20133
+      ],
+      "mean_reduction": 42818
+    },
+    {
+      "map": "rows",
+      "team": 1,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        62929,
+        62941,
+        62945,
+        62929,
+        62951
+      ],
+      "cached_first_module_fuel": [
+        20111,
+        20123,
+        20127,
+        20111,
+        20133
+      ],
+      "mean_reduction": 42818
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 0,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        69980,
+        69964,
+        69986,
+        69974,
+        69982
+      ],
+      "cached_first_module_fuel": [
+        20103,
+        20087,
+        20109,
+        20097,
+        20105
+      ],
+      "mean_reduction": 49877
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 1,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        69980,
+        69964,
+        69986,
+        69974,
+        69982
+      ],
+      "cached_first_module_fuel": [
+        20103,
+        20087,
+        20109,
+        20097,
+        20105
+      ],
+      "mean_reduction": 49877
+    },
+    {
+      "map": "stampede",
+      "team": 0,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        76818,
+        76802,
+        76824,
+        76820,
+        76830,
+        76814
+      ],
+      "cached_first_module_fuel": [
+        19887,
+        19871,
+        19893,
+        19889,
+        19899,
+        19883
+      ],
+      "mean_reduction": 56931
+    },
+    {
+      "map": "stampede",
+      "team": 1,
+      "known": true,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        76818,
+        76802,
+        76824,
+        76820,
+        76830,
+        76814
+      ],
+      "cached_first_module_fuel": [
+        19887,
+        19871,
+        19893,
+        19889,
+        19899,
+        19883
+      ],
+      "mean_reduction": 56931
+    },
+    {
+      "map": "swirl",
+      "team": 0,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        119592,
+        119576,
+        119598,
+        119586,
+        119594
+      ],
+      "cached_first_module_fuel": [
+        19759,
+        19743,
+        19765,
+        19753,
+        19761
+      ],
+      "mean_reduction": 99833
+    },
+    {
+      "map": "swirl",
+      "team": 1,
+      "known": true,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        119592,
+        119576,
+        119598,
+        119586,
+        119594
+      ],
+      "cached_first_module_fuel": [
+        19759,
+        19743,
+        19765,
+        19753,
+        19761
+      ],
+      "mean_reduction": 99833
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 0,
+      "known": false,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        22296,
+        22280,
+        22302,
+        22292
+      ],
+      "cached_first_module_fuel": [
+        20218,
+        20202,
+        20224,
+        20214
+      ],
+      "mean_reduction": 2078
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 1,
+      "known": false,
+      "body_modules": 4,
+      "uncached_first_module_fuel": [
+        22296,
+        22280,
+        22302,
+        22292
+      ],
+      "cached_first_module_fuel": [
+        20218,
+        20202,
+        20224,
+        20214
+      ],
+      "mean_reduction": 2078
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 0,
+      "known": false,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        20581,
+        20593,
+        20597,
+        20581,
+        20599,
+        20591
+      ],
+      "cached_first_module_fuel": [
+        19414,
+        19426,
+        19430,
+        19414,
+        19432,
+        19424
+      ],
+      "mean_reduction": 1167
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 1,
+      "known": false,
+      "body_modules": 6,
+      "uncached_first_module_fuel": [
+        20581,
+        20593,
+        20597,
+        20581,
+        20599,
+        20591
+      ],
+      "cached_first_module_fuel": [
+        19414,
+        19426,
+        19430,
+        19414,
+        19432,
+        19424
+      ],
+      "mean_reduction": 1167
+    },
+    {
+      "map": "rows-near-match",
+      "team": 0,
+      "known": false,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        21193,
+        21177,
+        21199,
+        21189,
+        21189
+      ],
+      "cached_first_module_fuel": [
+        19770,
+        19754,
+        19776,
+        19766,
+        19766
+      ],
+      "mean_reduction": 1423
+    },
+    {
+      "map": "rows-near-match",
+      "team": 1,
+      "known": false,
+      "body_modules": 5,
+      "uncached_first_module_fuel": [
+        21193,
+        21177,
+        21199,
+        21189,
+        21189
+      ],
+      "cached_first_module_fuel": [
+        19770,
+        19754,
+        19776,
+        19766,
+        19766
+      ],
+      "mean_reduction": 1423
+    }
+  ],
+  "scope": "Matched release draft-only idle-gameplay probes. Invocation totals include SDK initialization and identical diagnostic printing; not isolated classifier cost, complete-bot strength or governor safety."
+}

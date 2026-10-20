@@ -1,0 +1,55 @@
+{
+  "source_visualiser": "C:\\Users\\ishan\\AppData\\Local\\cambc\\assets\\9f2cf433a04e5a113a5488a236703e1473411d687bb65322214eec98b96fa13a\\visualiser\\assets\\index-oTc0ysQc.js",
+  "source_visualiser_sha256": "a74e5b9b657ff531aa4244d47b55a0696a3e7e7130265107a44264447a8c99d0",
+  "framing": "Each NUL advances the replay input position; empty spans retained in position count. Context joined from actual awaiting-input champion snapshots.",
+  "matches": [
+    {
+      "job_id": "0d47050fef3f8be490f7ab2805dc9f9de8f1bb704e69bb5982b17ffa58b6c429",
+      "map": "rows",
+      "frames": 1794,
+      "joined_frames": 1794,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    },
+    {
+      "job_id": "0b363b0df07ffb5502514992b33f7cf9325ad9d4e72fca55d8387624d36d22b8",
+      "map": "rows",
+      "frames": 1826,
+      "joined_frames": 1826,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    },
+    {
+      "job_id": "f27a4cfd54884fa38c37cac84ded60cd4a8fec8405d82d7b0c81547ecf02b947",
+      "map": "stampede",
+      "frames": 2832,
+      "joined_frames": 2832,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    },
+    {
+      "job_id": "39a7fd16271ead0abeeec03784987cee7a668f9c1e621601b8d43ab3636cc8b8",
+      "map": "swirl",
+      "frames": 1113,
+      "joined_frames": 1113,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    },
+    {
+      "job_id": "bfa01409c3cbe2766c3a90e0298ffa6b7ace4653533ef298f8bb8eee36870971",
+      "map": "stampede",
+      "frames": 2987,
+      "joined_frames": 2987,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    },
+    {
+      "job_id": "0e1b0605660a850511d90e79196ed2c0e4aeffd0086590588c0525b37fe28924",
+      "map": "swirl",
+      "frames": 1677,
+      "joined_frames": 1677,
+      "ambiguous_frames": 0,
+      "missing_positions": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "candidate": "governor",
+  "games": 100,
+  "map_clusters": 50,
+  "wins": 58,
+  "ties": 0,
+  "losses": 42,
+  "win_points": 0.58,
+  "cluster_bootstrap95": [
+    0.5,
+    0.66
+  ],
+  "mean_submitted_gem_margin": 28.54,
+  "gem_margin_cluster_bootstrap95": [
+    -24.52,
+    79.02
+  ],
+  "interpretation": "Descriptive matched-map clusters; no significance or general-strength claim. A single map has no interval.",
+  "fuel_exhaustion_events": 225,
+  "faults": 0,
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ]
+}

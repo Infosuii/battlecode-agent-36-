@@ -1,0 +1,18 @@
+{
+  "candidate": "governor-telemetry",
+  "games": 2,
+  "map_clusters": 1,
+  "wins": 0,
+  "ties": 0,
+  "losses": 2,
+  "win_points": 0.0,
+  "cluster_bootstrap95": null,
+  "mean_submitted_gem_margin": -382.0,
+  "gem_margin_cluster_bootstrap95": null,
+  "interpretation": "Descriptive matched-map clusters; no significance or general-strength claim. A single map has no interval.",
+  "fuel_exhaustion_events": 151,
+  "faults": 0,
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ]
+}

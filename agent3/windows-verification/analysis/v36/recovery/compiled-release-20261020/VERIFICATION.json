@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "source_commit": "f2617f7d9e9d3e67a9ba9a52c2a944bc67c9616a",
+  "source_pr": "https://github.com/Infosuii/battlecode-agent-36-/pull/13",
+  "exact_published_wasm_reproduced": true,
+  "source_bundle_files_verified": 22,
+  "artifact_sha256": "2f73d77325ba45398672f329226eeba9a6033f2ced310d4e5a21c78ce748a4e1",
+  "source_zip_sha256": "6622fb3f57f26f56cec83e03f9e64a9d1638fe907574bef0da3602311c7427ce",
+  "source_tree_sha256": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+  "sdk": "2.2.5",
+  "balance_changes_applied": false,
+  "all_new_policy_switches_off": true,
+  "smoke": {
+    "kind": "one full native release execution check, not independent strength evidence",
+    "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+    "statistics_sha256": "281f80a776db211cc6672e9f11ac31126afa3b37da9167e365bad59aea778857",
+    "match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 8999,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 50,
+      "mapHash": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 447,
+      "roundsStarted": 448,
+      "seed": "17146889650115031038",
+      "width": 50
+    },
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    }
+  },
+  "live_submission_performed": false,
+  "scope": "Compile the published final fallback, preserving its source defaults; separate Agent 2/4 branches are not silently merged."
+}

@@ -1,5 +1,13 @@
 # Publication and newly available dependencies
 
+## Later continuation: Agent 1 published and compiled independently
+
+Agent 1's completed local release is now in PR #13, branch `v36/validated-results-20261020` at `f2617f7d9e9d3e67a9ba9a52c2a944bc67c9616a`. This supersedes the earlier missing-Agent-1 dependency below. Its final fallback was independently rebuilt on this host: WASM `2f73d77325ba45398672f329226eeba9a6033f2ced310d4e5a21c78ce748a4e1` exactly matches the published artifact. All 22 source-bundle files match its compiled source; a full native match completed with zero bot faults. Rebuild inputs/output live under `work/recovery/compile-agent1`; easy-to-use output is `work/compiled-v36-20261020`. A review copy and actual build/run evidence are in `compiled-release-20261020/` beside this note.
+
+The user deferred balance changes and asked to compile first. No balance change, live submission or silent merge of separate owner branches was performed. Compiling Agent 1's final fallback does not establish that its experiments evaluated the later independent Agent 2/4 branches. That reconciliation and external validation remain separate work.
+
+## Earlier publication checkpoint (superseded where noted above)
+
 Agent 3 checkpoint: draft PR https://github.com/Infosuii/battlecode-agent-36-/pull/12, initial checkpoint commit `536bf6da270d9aa5ae56358803c704492e2902ef`, branch `codex/v36-recovery-validation`. It extends fixture-only PR #9. The disabled baseline parity, 63-game evidence, native fuel and camp results are saved; the overall engineering task remains incomplete.
 
 A final remote check after that push found new owner branches, fetched locally without merging:

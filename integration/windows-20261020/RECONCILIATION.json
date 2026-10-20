@@ -1,0 +1,150 @@
+{
+  "refs": {
+    "lead": "f2617f7d9e9d3e67a9ba9a52c2a944bc67c9616a",
+    "agent2": "f34268b6a3e563590781822400b4e3184881f86c",
+    "agent4": "c392f0f9a424e8c88124ae059587c033870b614b"
+  },
+  "input_files": {
+    "base": {
+      "bot.cpp": "abf2ebe0d492ab6b2fa95eac2ed450bb8360ba119a3faefdcd3d474cd8ac8ef1",
+      "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+      "common.h": "91046f7877848e54866cd979fda667f80716fc5d62247abdb74bd08ae6584314",
+      "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+      "draft.cpp": "38329d2b74873dcb489837c18a106a454fb1e6447b5256f72312b6b75a56d202",
+      "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+      "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+      "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+      "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+      "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+      "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+      "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+      "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+      "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+      "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+      "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+      "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+      "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+    },
+    "lead": {
+      "bot.cpp": "76d5cfeba011028b9089f6223d3d62817f40ab22cbef3e7d3e0e792d17d9b776",
+      "bot.h": "d250e962fcb05643a3eb87c2262b9bfb8684b0e08ba8cb2fe805bb40bde97ff7",
+      "common.h": "3552767814f1dc1c04aae4471a720d0f97e27194527ca2c380c984be50cfa4e3",
+      "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+      "draft.cpp": "73527394a0f8ea5081d7691e7d351307d4ace1ca0c9f3b4a658a1b3946f3903d",
+      "draft.h": "ac6b7cc136ceea0a6528e82a4f3a4bb6b85d5d23c56f811b5b7212f15cdeb455",
+      "draft_map_cache.h": "6211b9cdb09896f93b69c486381ebab379795e930dc258ed503fb717a7a38300",
+      "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+      "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+      "farming_bound.h": "21ed073dcd9064af2af4cb9e8ed3b37796fbb49c80008a008d55b5a62d2d0bb7",
+      "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+      "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+      "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+      "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+      "main.cpp": "19ca51989930cedf176625c8bcecf6fc6651e4385047730467c714f69d8dcc1c",
+      "official_map_layouts.h": "3e84b617d5d38f92260ccbb6ee46e8c0937260abc75b461ad97cd3c87edeccf0",
+      "runtime_budget.h": "a4a1e5c59ee747d135f40ecdbb841bd34cc1031214756079f3fb9293b4f3713e",
+      "strategy.h": "6aa5144bd5f659932ca8f354ad1e52dc7fad74170db0bd922b14adf9d9ce55fc",
+      "tsearch.cpp": "2bd0c9e6390be4cc7384ec6bbdf9291d683221d882978a034b5a55a927ee0225",
+      "tsearch.h": "53fd1be1525a978309e247c5d971af104549a420e1c8f65b16f64c6d130ec987",
+      "world.cpp": "3e44fdf695f9237b634850583cef15d93f1bbe26d51d2b17dfcad39ec927456e",
+      "world.h": "3c19a338c1b8552f5ce78074680b04b8b2a59da4fba81c68bdce058bb3799bb3"
+    },
+    "agent2": {
+      "bot.cpp": "ab79ad92aba55e83cd3352d8e65eb2cebcf8249e9863e7e89e5b1a23d74b97be",
+      "bot.h": "cf7276918354b5268d1b25791d62b1d0ec62170b73537553dc7802cee9d531c2",
+      "common.h": "f28da06e24211a0afc3631431373aaabb2c6c07527fdf0092ab7df89249a1697",
+      "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+      "draft.cpp": "38329d2b74873dcb489837c18a106a454fb1e6447b5256f72312b6b75a56d202",
+      "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+      "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+      "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+      "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+      "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+      "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+      "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+      "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+      "runtime_budget.h": "dc614d94b1920b79b1d5152e11193aa8a6e3019e3cfd2cc0e104ecfed28fcdf2",
+      "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+      "tsearch.cpp": "8ce3aa9f7498b99f7e0e437fe1eb25a595c7becc77c4a1b722605d10742d4cbf",
+      "tsearch.h": "98b410947b438dc7d8a061cfadbdb7cbd0b5eab1923801404798a7232d776656",
+      "world.cpp": "7f62a3f0794510a35350420ac23d8041a8dc8039502d2b25496f56e2051775c5",
+      "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+    },
+    "agent4": {
+      "bot.cpp": "68f2b8a386008819ef8abda244a5b9a8bc9e47005f2fe4439232ad0d4887d6e3",
+      "bot.h": "2dfe92e1f9be187247994726bac535b423c8ddb999c169f4b37851aeb69e3c62",
+      "common.h": "8233c652fbdaf16c250bdfb5db2e8a619dd458ad5830965c2764959e8c599d78",
+      "deny.cpp": "cedbc690e857f1c8a01fa3085d1045175d540253248230694f63189d9af927bb",
+      "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+      "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+      "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+      "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+      "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+      "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+      "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+      "local_model.h": "4e7a6c8051f4f1c180da3e927d4af68395e367f24ccf4e4a7d1709e84949a35c",
+      "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+      "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+      "tsearch.cpp": "23e213d6991f2001ee8c4febf47d49381fdf451f3b438ffe799ea2ad0502e00b",
+      "tsearch.h": "7f691bb319016539d1bd6aefe8a842b05f2d5b09e2ba1717d5a417336f8db53b",
+      "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+      "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+    }
+  },
+  "changes": [
+    {
+      "owner": "agent2",
+      "file": "bot.cpp",
+      "overlapping_hunks": 3
+    },
+    {
+      "owner": "agent2",
+      "file": "bot.h",
+      "overlapping_hunks": 0
+    },
+    {
+      "owner": "agent2",
+      "file": "common.h",
+      "overlapping_hunks": 0
+    },
+    {
+      "owner": "agent2",
+      "file": "tsearch.cpp",
+      "overlapping_hunks": 7
+    },
+    {
+      "owner": "agent2",
+      "file": "tsearch.h",
+      "overlapping_hunks": 0
+    },
+    {
+      "owner": "agent2",
+      "file": "world.cpp",
+      "overlapping_hunks": 0
+    },
+    {
+      "owner": "agent4",
+      "file": "draft.cpp",
+      "overlapping_hunks": 1
+    }
+  ],
+  "conflicted_files": [
+    "bot.cpp",
+    "tsearch.cpp",
+    "draft.cpp"
+  ],
+  "adaptations": [
+    "Agent 2 runtime_budget.h renamed a2_runtime_budget.h to preserve lead runtime interface",
+    "Agent 2 NOVA_FLEE_HIT renamed A2_FLEE_HIT to preserve independently selectable implementations"
+  ],
+  "status": "explicit fallback source path prepared; rebuild pending",
+  "resolutions": [
+    "Keep both budget namespaces and status interfaces",
+    "Snapshot selection is exclusive: lead relevance, else A2 snapshot/authority, else baseline",
+    "Preserve lead safety decision in A2 authority OFF branch",
+    "Retain lead physical map-identity path alongside A4 draft policy",
+    "Central NOVA_V36_DRAFT defaults OFF; separate A2_FLEE_HIT defaults OFF"
+  ],
+  "first_merged_off_artifact": "315dc4e1bc3372e9821ed78a9a88e608486228fa6613cb108be938c2dba7ecfe",
+  "off_parity_repair": "Compile immutable lead translation units when every owner feature is OFF; compile reconciled units when any owner feature is ON. Internal C++ sources use .inc so SDK recursive .cpp discovery does not duplicate them."
+}

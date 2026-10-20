@@ -1,0 +1,649 @@
+{
+ "n_matches": 98110,
+ "n_groups": 19622,
+ "n_teams_modelled": 217,
+ "maps": [
+  "ambush",
+  "collision",
+  "contest",
+  "corners",
+  "eight",
+  "elkring",
+  "expanse",
+  "fragment",
+  "interlock",
+  "lanes",
+  "monolith",
+  "packs",
+  "pilgrimage",
+  "rows",
+  "rushbait_v2",
+  "stampede",
+  "swirl"
+ ],
+ "C": 1.0,
+ "cv_logloss": {
+  "full": 0.40197674362434677,
+  "team_only": 0.4244052056511207
+ },
+ "later_holdout_logloss": {
+  "full": 0.4048109353933815,
+  "team_only": 0.4230426589286764
+ },
+ "champion_effects": {
+  "3": {
+   "ryth": {
+    "logodds": 0.274,
+    "ci95": [
+     0.16,
+     0.431
+    ],
+    "side_uses": 4676
+   },
+   "vesper_vale": {
+    "logodds": -0.242,
+    "ci95": [
+     -1.176,
+     0.335
+    ],
+    "side_uses": 110
+   },
+   "vendetta": {
+    "logodds": 0.261,
+    "ci95": [
+     0.027,
+     0.573
+    ],
+    "side_uses": 2012
+   },
+   "cassi_and_issac": {
+    "logodds": -0.013,
+    "ci95": [
+     -0.133,
+     0.172
+    ],
+    "side_uses": 36811
+   },
+   "stellar": {
+    "logodds": 0.834,
+    "ci95": [
+     0.7,
+     1.049
+    ],
+    "side_uses": 37716
+   },
+   "prism": {
+    "logodds": 0.116,
+    "ci95": [
+     -0.183,
+     0.341
+    ],
+    "side_uses": 257
+   },
+   "marcella": {
+    "logodds": -0.834,
+    "ci95": [
+     -1.511,
+     -0.066
+    ],
+    "side_uses": 68
+   },
+   "willow": {
+    "logodds": -1.602,
+    "ci95": [
+     -1.738,
+     -1.385
+    ],
+    "side_uses": 142
+   },
+   "ren": {
+    "logodds": 0.739,
+    "ci95": [
+     0.682,
+     0.875
+    ],
+    "side_uses": 22454
+   },
+   "varg": {
+    "logodds": 0.489,
+    "ci95": [
+     0.414,
+     0.616
+    ],
+    "side_uses": 15897
+   },
+   "tavi": {
+    "logodds": -0.021,
+    "ci95": [
+     -0.15,
+     0.147
+    ],
+    "side_uses": 3847
+   }
+  },
+  "4": {
+   "ryth": {
+    "logodds": 0.155,
+    "ci95": [
+     0.042,
+     0.254
+    ],
+    "side_uses": 26198
+   },
+   "vesper_vale": {
+    "logodds": -0.642,
+    "ci95": [
+     -0.873,
+     -0.347
+    ],
+    "side_uses": 491
+   },
+   "vendetta": {
+    "logodds": -0.387,
+    "ci95": [
+     -0.547,
+     -0.286
+    ],
+    "side_uses": 4482
+   },
+   "cassi_and_issac": {
+    "logodds": 1.077,
+    "ci95": [
+     0.87,
+     1.235
+    ],
+    "side_uses": 41537
+   },
+   "stellar": {
+    "logodds": -0.449,
+    "ci95": [
+     -0.559,
+     -0.364
+    ],
+    "side_uses": 37950
+   },
+   "prism": {
+    "logodds": 0.847,
+    "ci95": [
+     0.663,
+     0.991
+    ],
+    "side_uses": 3288
+   },
+   "marcella": {
+    "logodds": -0.905,
+    "ci95": [
+     -1.774,
+     0.103
+    ],
+    "side_uses": 123
+   },
+   "willow": {
+    "logodds": -0.215,
+    "ci95": [
+     -0.402,
+     -0.073
+    ],
+    "side_uses": 1640
+   },
+   "ren": {
+    "logodds": 0.124,
+    "ci95": [
+     -0.02,
+     0.211
+    ],
+    "side_uses": 25969
+   },
+   "varg": {
+    "logodds": 0.28,
+    "ci95": [
+     0.161,
+     0.393
+    ],
+    "side_uses": 25462
+   },
+   "tavi": {
+    "logodds": 0.113,
+    "ci95": [
+     -0.029,
+     0.191
+    ],
+    "side_uses": 9716
+   }
+  },
+  "5": {
+   "ryth": {
+    "logodds": 0.299,
+    "ci95": [
+     0.222,
+     0.358
+    ],
+    "side_uses": 84431
+   },
+   "vesper_vale": {
+    "logodds": -0.077,
+    "ci95": [
+     -0.305,
+     0.13
+    ],
+    "side_uses": 1301
+   },
+   "vendetta": {
+    "logodds": -0.628,
+    "ci95": [
+     -0.731,
+     -0.475
+    ],
+    "side_uses": 8182
+   },
+   "cassi_and_issac": {
+    "logodds": 0.108,
+    "ci95": [
+     0.016,
+     0.217
+    ],
+    "side_uses": 103926
+   },
+   "stellar": {
+    "logodds": -0.399,
+    "ci95": [
+     -0.501,
+     -0.265
+    ],
+    "side_uses": 105847
+   },
+   "prism": {
+    "logodds": 0.134,
+    "ci95": [
+     0.054,
+     0.222
+    ],
+    "side_uses": 18739
+   },
+   "marcella": {
+    "logodds": -0.173,
+    "ci95": [
+     -0.354,
+     0.141
+    ],
+    "side_uses": 1049
+   },
+   "willow": {
+    "logodds": 0.625,
+    "ci95": [
+     0.517,
+     0.731
+    ],
+    "side_uses": 7724
+   },
+   "ren": {
+    "logodds": 0.244,
+    "ci95": [
+     0.162,
+     0.313
+    ],
+    "side_uses": 93106
+   },
+   "varg": {
+    "logodds": -0.042,
+    "ci95": [
+     -0.116,
+     0.024
+    ],
+    "side_uses": 81802
+   },
+   "tavi": {
+    "logodds": -0.091,
+    "ci95": [
+     -0.161,
+     -0.041
+    ],
+    "side_uses": 47273
+   }
+  }
+ },
+ "lineups": {
+  "3": {
+   "observed:ryth+stellar+varg": {
+    "vs_lineup2_logodds": 0.287,
+    "ci95": [
+     0.181,
+     0.429
+    ],
+    "observed_side_uses": 838
+   },
+   "v34_lineup_13": {
+    "vs_lineup2_logodds": 0.274,
+    "ci95": [
+     0.06,
+     0.645
+    ],
+    "observed_side_uses": 110
+   },
+   "v34_lineup_19": {
+    "vs_lineup2_logodds": 0.25,
+    "ci95": [
+     0.191,
+     0.318
+    ],
+    "observed_side_uses": 19546
+   },
+   "observed:cassi_and_issac+ren+stellar": {
+    "vs_lineup2_logodds": 0.25,
+    "ci95": [
+     0.191,
+     0.318
+    ],
+    "observed_side_uses": 19546
+   },
+   "observed:ren+stellar+tavi": {
+    "vs_lineup2_logodds": 0.243,
+    "ci95": [
+     0.062,
+     0.453
+    ],
+    "observed_side_uses": 1330
+   },
+   "v34_lineup_2": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 11273
+   },
+   "observed:cassi_and_issac+stellar+varg": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 11273
+   },
+   "v34_lineup_20": {
+    "vs_lineup2_logodds": -0.215,
+    "ci95": [
+     -0.335,
+     -0.086
+    ],
+    "observed_side_uses": 858
+   },
+   "observed:cassi_and_issac+ryth+stellar": {
+    "vs_lineup2_logodds": -0.215,
+    "ci95": [
+     -0.335,
+     -0.086
+    ],
+    "observed_side_uses": 858
+   },
+   "observed:cassi_and_issac+stellar+tavi": {
+    "vs_lineup2_logodds": -0.51,
+    "ci95": [
+     -0.657,
+     -0.381
+    ],
+    "observed_side_uses": 1726
+   },
+   "observed:cassi_and_issac+ryth+varg": {
+    "vs_lineup2_logodds": -0.56,
+    "ci95": [
+     -0.707,
+     -0.394
+    ],
+    "observed_side_uses": 1315
+   },
+   "v34_lineup_6": {
+    "vs_lineup2_logodds": -0.573,
+    "ci95": [
+     -0.772,
+     -0.313
+    ],
+    "observed_side_uses": 729
+   },
+   "v34_lineup_8": {
+    "vs_lineup2_logodds": -0.573,
+    "ci95": [
+     -0.772,
+     -0.313
+    ],
+    "observed_side_uses": 729
+   },
+   "observed:cassi_and_issac+varg+vendetta": {
+    "vs_lineup2_logodds": -0.573,
+    "ci95": [
+     -0.772,
+     -0.313
+    ],
+    "observed_side_uses": 729
+   }
+  },
+  "4": {
+   "observed:cassi_and_issac+ren+ryth+varg": {
+    "vs_lineup2_logodds": 0.616,
+    "ci95": [
+     0.474,
+     0.707
+    ],
+    "observed_side_uses": 3286
+   },
+   "v34_lineup_20": {
+    "vs_lineup2_logodds": 0.61,
+    "ci95": [
+     0.399,
+     0.812
+    ],
+    "observed_side_uses": 4
+   },
+   "v34_lineup_6": {
+    "vs_lineup2_logodds": 0.105,
+    "ci95": [
+     -0.035,
+     0.204
+    ],
+    "observed_side_uses": 401
+   },
+   "observed:cassi_and_issac+ren+varg+vendetta": {
+    "vs_lineup2_logodds": 0.074,
+    "ci95": [
+     -0.085,
+     0.204
+    ],
+    "observed_side_uses": 1639
+   },
+   "observed:cassi_and_issac+ryth+stellar+varg": {
+    "vs_lineup2_logodds": 0.043,
+    "ci95": [
+     -0.047,
+     0.115
+    ],
+    "observed_side_uses": 8848
+   },
+   "observed:cassi_and_issac+ren+stellar+varg": {
+    "vs_lineup2_logodds": 0.012,
+    "ci95": [
+     -0.071,
+     0.102
+    ],
+    "observed_side_uses": 4224
+   },
+   "v34_lineup_2": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 3401
+   },
+   "observed:cassi_and_issac+stellar+tavi+varg": {
+    "vs_lineup2_logodds": -0.0,
+    "ci95": [
+     -0.0,
+     0.0
+    ],
+    "observed_side_uses": 3401
+   },
+   "v34_lineup_19": {
+    "vs_lineup2_logodds": -0.112,
+    "ci95": [
+     -0.223,
+     0.018
+    ],
+    "observed_side_uses": 11447
+   },
+   "observed:cassi_and_issac+ren+ryth+stellar": {
+    "vs_lineup2_logodds": -0.112,
+    "ci95": [
+     -0.223,
+     0.018
+    ],
+    "observed_side_uses": 11447
+   },
+   "observed:cassi_and_issac+ren+stellar+tavi": {
+    "vs_lineup2_logodds": -0.155,
+    "ci95": [
+     -0.23,
+     -0.067
+    ],
+    "observed_side_uses": 2954
+   },
+   "observed:prism+ren+stellar+tavi": {
+    "vs_lineup2_logodds": -0.385,
+    "ci95": [
+     -0.517,
+     -0.231
+    ],
+    "observed_side_uses": 1209
+   },
+   "v34_lineup_8": {
+    "vs_lineup2_logodds": -0.499,
+    "ci95": [
+     -0.606,
+     -0.375
+    ],
+    "observed_side_uses": 716
+   },
+   "v34_lineup_13": {
+    "vs_lineup2_logodds": -1.464,
+    "ci95": [
+     -1.701,
+     -1.293
+    ],
+    "observed_side_uses": 15
+   }
+  },
+  "5": {
+   "observed:cassi_and_issac+ren+stellar+tavi+willow": {
+    "vs_lineup2_logodds": 0.667,
+    "ci95": [
+     0.558,
+     0.772
+    ],
+    "observed_side_uses": 3975
+   },
+   "v34_lineup_19": {
+    "vs_lineup2_logodds": 0.389,
+    "ci95": [
+     0.329,
+     0.464
+    ],
+    "observed_side_uses": 52481
+   },
+   "observed:cassi_and_issac+ren+ryth+stellar+varg": {
+    "vs_lineup2_logodds": 0.389,
+    "ci95": [
+     0.329,
+     0.464
+    ],
+    "observed_side_uses": 52481
+   },
+   "observed:cassi_and_issac+ren+ryth+stellar+tavi": {
+    "vs_lineup2_logodds": 0.341,
+    "ci95": [
+     0.224,
+     0.491
+    ],
+    "observed_side_uses": 6064
+   },
+   "v34_lineup_20": {
+    "vs_lineup2_logodds": 0.23,
+    "ci95": [
+     0.089,
+     0.393
+    ],
+    "observed_side_uses": 4994
+   },
+   "observed:cassi_and_issac+prism+ryth+stellar+tavi": {
+    "vs_lineup2_logodds": 0.23,
+    "ci95": [
+     0.089,
+     0.393
+    ],
+    "observed_side_uses": 4994
+   },
+   "observed:cassi_and_issac+prism+ren+stellar+tavi": {
+    "vs_lineup2_logodds": 0.176,
+    "ci95": [
+     0.082,
+     0.29
+    ],
+    "observed_side_uses": 3678
+   },
+   "v34_lineup_6": {
+    "vs_lineup2_logodds": 0.161,
+    "ci95": [
+     0.021,
+     0.302
+    ],
+    "observed_side_uses": 3685
+   },
+   "observed:cassi_and_issac+ren+ryth+varg+vendetta": {
+    "vs_lineup2_logodds": 0.161,
+    "ci95": [
+     0.021,
+     0.302
+    ],
+    "observed_side_uses": 3685
+   },
+   "observed:cassi_and_issac+ryth+stellar+tavi+varg": {
+    "vs_lineup2_logodds": 0.054,
+    "ci95": [
+     -0.066,
+     0.13
+    ],
+    "observed_side_uses": 6105
+   },
+   "v34_lineup_2": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 12969
+   },
+   "observed:cassi_and_issac+ren+stellar+tavi+varg": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     -0.0,
+     0.0
+    ],
+    "observed_side_uses": 12969
+   },
+   "v34_lineup_8": {
+    "vs_lineup2_logodds": -0.537,
+    "ci95": [
+     -0.613,
+     -0.362
+    ],
+    "observed_side_uses": 176
+   },
+   "v34_lineup_13": {
+    "vs_lineup2_logodds": -0.682,
+    "ci95": [
+     -0.804,
+     -0.486
+    ],
+    "observed_side_uses": 18
+   }
+  }
+ }
+}

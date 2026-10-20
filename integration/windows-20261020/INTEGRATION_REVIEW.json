@@ -1,0 +1,628 @@
+{
+  "status": "passed",
+  "games": 28,
+  "unique_map_groups": 4,
+  "native_bot_faults": 0,
+  "actual_roster_checks": 56,
+  "off_artifact_matches_published_release": true,
+  "source_defaults_reproduce_combined_artifact": true,
+  "scope": "Small integration regression; development maps already used; not a strength-selection experiment",
+  "checks": [
+    {
+      "profile": "integrated-off-v2",
+      "map": "lanes.map26a",
+      "job_id": "6fb09a6486893cefe76e27041506faac8b118695fd8a49625d4079a429c8f854",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-off-v2",
+      "map": "rows.map26a",
+      "job_id": "aba4460c6890cf41eb9b351e03ba3a78556f2fbc884b1c89bf9f49a462ffc53c",
+      "rosters": {
+        "teamA": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ],
+        "teamB": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-off-v2",
+      "map": "screen_000.map26a",
+      "job_id": "b20d0c1feb64eebf37bf58e068c99348663b1bc4dcc9bbcf135e03ed952fdbbc",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-off-v2",
+      "map": "screen_001.map26a",
+      "job_id": "d2e248f887a084a16dbd1d506919a0bcd65f9fa7c7565d6d348a0fbf52af5143",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "lanes.map26a",
+      "job_id": "a7940d623ab6ae54721539b769bd2b2ed31b54f47582dae0c7dd0deed216ef28",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "lanes.map26a",
+      "job_id": "6fd2531fbc7a0665259b83bd2ec7067d6cec2fc5dd7800b157168d6d76766ec8",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "rows.map26a",
+      "job_id": "1003e4e44dccc2fd20b5c4df5acfc11b505fd1188b5ef564554f7bdca28c7912",
+      "rosters": {
+        "teamA": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ],
+        "teamB": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "rows.map26a",
+      "job_id": "a4e4cac78d2a4aeb795fbda146615feb71087ff306203c839fa2da9f26b6f7c7",
+      "rosters": {
+        "teamA": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ],
+        "teamB": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "screen_000.map26a",
+      "job_id": "39544a110c1306d2ea352c470076eca5ec5105e4be7e6a1519e384eeaa080277",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "screen_000.map26a",
+      "job_id": "13d4e7cc88a3f0e33275681accd442a2a0c1ff7384c1d6071b0aab3be2da9eb5",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "screen_001.map26a",
+      "job_id": "7a8aa92c1281f09ac3fcae25d122f9842d201f5723d062f2b5397ca6148e4a40",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-v2",
+      "map": "screen_001.map26a",
+      "job_id": "ab4fb5742564c29a21f52adf256f78dad7be2557dd70ce599b05788de95b0ca9",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "lanes.map26a",
+      "job_id": "75b6e90188f8016124127dade235c8eaa583e3a405ae8f5155b19978f1050eda",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "lanes.map26a",
+      "job_id": "d9ecba87bcfa2110d75c43286af2e93415352ec936d02da74d001285582f49d1",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "rows.map26a",
+      "job_id": "ce62cf4d388e58530bc870cc7369a4023854a3a8f1270bb8e7e42df6ff030748",
+      "rosters": {
+        "teamA": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ],
+        "teamB": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "rows.map26a",
+      "job_id": "b0c19c9e61e5e0eac2f4e0c69304d0b2ec4203abef7e0ffe847cb0cf10a7bc69",
+      "rosters": {
+        "teamA": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ],
+        "teamB": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "screen_000.map26a",
+      "job_id": "d98dfc721dcc5de90de0e56c9b6ba1869f76f6985d7431e405bb8563c596c2c4",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "screen_000.map26a",
+      "job_id": "63f76de948e84e2bdaf41a1cba15cc617f93d078470cd5ed5e1ec71a793e87fd",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "screen_001.map26a",
+      "job_id": "9f8d11eebc19de8a481c590808a9cefee65319ea8d6b17e92513071591e9dca1",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a4-v2",
+      "map": "screen_001.map26a",
+      "job_id": "7da7cdbd28d049bf747ad71fbb75a353b05c2425f14a842b384985e828bd53ad",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "lanes.map26a",
+      "job_id": "40d508d5bdfd6136e343b31fc1477fd195890c00ab49100f4911edb62b0f4cc1",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "lanes.map26a",
+      "job_id": "690b33ccd0b502091aa47bd0f19f99a633901223d17cb68dbb9f39a3624d4d21",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "rows.map26a",
+      "job_id": "dddcdf789645b674e7121bcb1055da960e4fcc72fb1a05d3b9d9156bd25853b1",
+      "rosters": {
+        "teamA": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ],
+        "teamB": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "rows.map26a",
+      "job_id": "ea0a502891018f56542c4503b4ba72520b21b9e5a7a9f1f0a47a81732bbf2e62",
+      "rosters": {
+        "teamA": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ],
+        "teamB": [
+          "Vendetta",
+          "Varg",
+          "Cassi",
+          "Issac",
+          "Stellar"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "screen_000.map26a",
+      "job_id": "cf2b545a475ea605ea65f1fe60809b46a3d6d37e9c21f08224ece411261978c6",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "screen_000.map26a",
+      "job_id": "9a208f716746ab793515f6578dbc4e47f5c63769e6a3cefb7a92c1bee9ba0c73",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Ren"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "screen_001.map26a",
+      "job_id": "52064e3dab8a831f3bc2a226e0431eccc9c57903c51f7d7ddc801ade088bab66",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "profile": "integrated-a2-a4-v2",
+      "map": "screen_001.map26a",
+      "job_id": "2b557f31a7d5340198884b081433d8ee28560401f4c85219c482c40088187fea",
+      "rosters": {
+        "teamA": [
+          "Cassi",
+          "Issac",
+          "Stellar",
+          "Varg",
+          "Tavi"
+        ],
+        "teamB": [
+          "Cassi",
+          "Issac",
+          "Ren",
+          "Ryth",
+          "Varg"
+        ]
+      },
+      "status": "passed"
+    }
+  ]
+}

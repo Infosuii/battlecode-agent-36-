@@ -17,8 +17,8 @@
       "bytes": 22126
     },
     "CHANGELOG_v36.md": {
-      "sha256": "590748ba12aac3e6574233f744adc6b8fa4bafdba17d9846cb9337ad37685d46",
-      "bytes": 1776
+      "sha256": "fb84d886f989b17336d4da9446af9ffc9b984cf6b14db9846b69c5636fac0a9f",
+      "bytes": 2420
     },
     "DECISIONS.md": {
       "sha256": "c907a725499a5cd13b9341a717eb49e95c61aefceb8ca417b5180454e92a8698",
@@ -4371,6 +4371,22 @@
     "tools/verify_publication.py": {
       "sha256": "2bf185b2ddc0352eb6d6eb57896ad426b7be59461bfed9aa7908a7208fa7e454",
       "bytes": 1979
+    },
+    "agent4/CHANGELOG_v36.md": {
+      "sha256": "0bdb70afdb1b20f10ea44eacfe84c07ec4fa68b0f701160e3d7123ab3f7b4648",
+      "bytes": 759
+    },
+    "agent4/release/bot_v36.zip": {
+      "sha256": "5ee75d520caa0c921361ea6c83a6a3b991d05ea8a6a7707226dabc875822b320",
+      "bytes": 136792
+    },
+    "agent4/release/CANDIDATE_MANIFEST.json": {
+      "sha256": "3317623b9409c9eaea94ade59c8864000763a383746473b08be7547861033392",
+      "bytes": 1874
+    },
+    "agent4/release/BASELINE_MANIFEST.json": {
+      "sha256": "1e2fd5217217f043210f1868442f41f666e11f47f3e441bfc83a81ae8c515e16",
+      "bytes": 1651
     }
   },
   "omitted_large_datasets": [

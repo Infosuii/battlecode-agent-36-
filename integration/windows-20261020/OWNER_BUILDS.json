@@ -1,0 +1,37 @@
+{
+  "integrated-off-v2": {
+    "sha256": "2f73d77325ba45398672f329226eeba9a6033f2ced310d4e5a21c78ce748a4e1",
+    "owner_settings": {}
+  },
+  "integrated-a2-v2": {
+    "sha256": "1c601fe692f9efd8f2b5bd090bd58e41fca5f7f5fdefbc3e9be6e293478a3dec",
+    "owner_settings": {
+      "A2_BUSH_FAST": 1,
+      "A2_FAST_AMBUSH": 1,
+      "A2_CMICRO_FAST": 1,
+      "A2_GOV": 1,
+      "A2_SNAP": 4,
+      "A2_TD_AUTH": 1,
+      "A2_FLEE_HIT": 1
+    }
+  },
+  "integrated-a4-v2": {
+    "sha256": "306d7d094b844d0137ba20301d7bd763bc96455690338e3610a48448f047f53c",
+    "owner_settings": {
+      "NOVA_V36_DRAFT": 1
+    }
+  },
+  "integrated-a2-a4-v2": {
+    "sha256": "e82bb6648da312530e4927426b46c9373f3b37a600981779b7a74f728db8c37e",
+    "owner_settings": {
+      "A2_BUSH_FAST": 1,
+      "A2_FAST_AMBUSH": 1,
+      "A2_CMICRO_FAST": 1,
+      "A2_GOV": 1,
+      "A2_SNAP": 4,
+      "A2_TD_AUTH": 1,
+      "A2_FLEE_HIT": 1,
+      "NOVA_V36_DRAFT": 1
+    }
+  }
+}

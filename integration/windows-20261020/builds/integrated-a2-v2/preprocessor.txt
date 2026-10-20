@@ -1,0 +1,2511 @@
+#define A2_BUSH_FAST 1
+#define A2_CHECK 0
+#define A2_CMICRO_FAST 1
+#define A2_FAST_AMBUSH 1
+#define A2_FLEE_HIT 1
+#define A2_GOV 1
+#define A2_GOV_WALK A2_GOV
+#define A2_GOV_WARD A2_GOV
+#define A2_SNAP 4
+#define A2_TD_AUTH 1
+#define A2_TEL 0
+#define APEX_AGGRESSION 1.2f
+#define APEX_AHEAD_AGGR 1.0063f
+#define APEX_AHEAD_GAP 4
+#define APEX_ALTAR_BONUS 0.0f
+#define APEX_AWAKE_ZONE 1
+#define APEX_BANK_RATIO 0.0f
+#define APEX_BEHIND_AGGR 1.1235f
+#define APEX_BEHIND_CARRY 0.9080f
+#define APEX_BEHIND_GAP 0
+#define APEX_BELIEF 0
+#define APEX_BELIEF_ALLY 0.5f
+#define APEX_BELIEF_W 0.5f
+#define APEX_BOOT_BONUS 0.3329f
+#define APEX_BOOT_ITEMS 15
+#define APEX_BRAIN 1
+#define APEX_BUILD 12
+#define APEX_BURST 0
+#define APEX_BUSH_AMBUSH 2
+#define APEX_BUSH_DEF 1
+#define APEX_BUSH_HIDE 300
+#define APEX_BUSH_RECALL 1
+#define APEX_C0_AGGRESSION 1.5356f
+#define APEX_C0_DANGER_TTD 7.6922f
+#define APEX_C0_HUNT 0
+#define APEX_C1_AGGRESSION 1.2856f
+#define APEX_C1_DANGER_TTD 5.8849f
+#define APEX_C1_HUNT 0
+#define APEX_C2_AGGRESSION 1.6969f
+#define APEX_C2_DANGER_TTD 6.1961f
+#define APEX_C2_HUNT 0
+#define APEX_C3_AGGRESSION 1.8115f
+#define APEX_C3_DANGER_TTD 6.3794f
+#define APEX_C3_HUNT 0
+#define APEX_C4_AGGRESSION 1.3366f
+#define APEX_C4_DANGER_TTD 5.5131f
+#define APEX_C4_HUNT 0
+#define APEX_C5_AGGRESSION 1.6816f
+#define APEX_C5_DANGER_TTD 5.7688f
+#define APEX_C5_HUNT 0
+#define APEX_CALL_COOLDOWN 0
+#define APEX_CAP_STAFF 0
+#define APEX_CASTER_FOCUS 1
+#define APEX_CASTER_SELF_TTD 1.2325f
+#define APEX_CASTER_TTD 1.0379f
+#define APEX_CHANNEL_GUARD 1.0f
+#define APEX_CHASE 6
+#define APEX_CI_FOCUS 1
+#define APEX_CI_OUTNUMBERED -1
+#define APEX_CI_RISK 1.2779f
+#define APEX_CLASSDRAFT 1
+#define APEX_CMICRO 1
+#define APEX_CMICRO_CASSI 2
+#define APEX_CMICRO_FLEE_HP 0.35f
+#define APEX_CMICRO_RANGE 6
+#define APEX_CMICRO_RISK 1.5f
+#define APEX_COHESION 0.05f
+#define APEX_COHESION_DIST 8
+#define APEX_DANGER_HP 0.1916f
+#define APEX_DANGER_TTD 6.6632f
+#define APEX_DEATHLOG 0
+#define APEX_DET 1
+#define APEX_DET_FIELDS 2
+#define APEX_DET_SAFETY 12000
+#define APEX_DET_SCORE_N 16
+#define APEX_DET_TS_BUDGET 70000
+#define APEX_DET_UNIT_COST 2200
+#define APEX_DISTRESS 0
+#define APEX_DISTRESS_RANGE 14
+#define APEX_EARLY_CARRY 0
+#define APEX_EARLY_UNTIL 150
+#define APEX_EMBLEM_MODEL 1
+#define APEX_ENDGAME_MARGIN 0
+#define APEX_END_BANK 600
+#define APEX_ESCAPE_SEARCH 0
+#define APEX_ESCORT 0
+#define APEX_ESC_DASH_COST 0.08f
+#define APEX_ESC_DEPTH 3
+#define APEX_ESC_FUEL 60000
+#define APEX_ESC_HOME 2
+#define APEX_EVENTS 2
+#define APEX_FIGHT_SIM 0
+#define APEX_FLEE_ALLY 0
+#define APEX_FLEE_HOME 150
+#define APEX_FLEE_MULTI 1
+#define APEX_FUEL_PROBE 0
+#define APEX_GOLD_TAPER 0
+#define APEX_GOLD_WEIGHT 0.18f
+#define APEX_HIDE_LOS 0
+#define APEX_HP_COST 0.0f
+#define APEX_HUNT 1
+#define APEX_HUNT_FIX 1
+#define APEX_HUNT_GEMS 15
+#define APEX_HUNT_HP 0.7832f
+#define APEX_HUNT_RANGE 8
+#define APEX_INCUMBENT 0
+#define APEX_INITIATE 1
+#define APEX_KITE 3
+#define APEX_KITE_CAST 3
+#define APEX_L0 8
+#define APEX_L1 8
+#define APEX_L2 8
+#define APEX_L3 8
+#define APEX_L4 8
+#define APEX_L5 8
+#define APEX_LOCKS 1
+#define APEX_LOG 0
+#define APEX_LOWHP_AGGR 0.6f
+#define APEX_MAPDRAFT 1
+#define APEX_MD_ELKRING 4
+#define APEX_MD_LANES 2
+#define APEX_NEAR_DIST 6
+#define APEX_NEED_POOL 1.0176f
+#define APEX_NODASH_AGGR 0.0f
+#define APEX_NUMBERS 0.0f
+#define APEX_NUMBERS_BONUS 0.5f
+#define APEX_NUMBERS_INVADE 99
+#define APEX_OPP_MODEL 0
+#define APEX_OUTNUMBERED 0
+#define APEX_PAIR 0
+#define APEX_PHASE_AGGR 0
+#define APEX_PHASE_EARLY 0.8f
+#define APEX_PHASE_LATE 1.25f
+#define APEX_PHASE_ROUND 450
+#define APEX_PLAN 0
+#define APEX_PLAN_BANK_BIAS 1.0f
+#define APEX_PLAN_CARRY 0.75f
+#define APEX_PLAN_DEPTH 3
+#define APEX_POSITION 0
+#define APEX_PRELOCK 0
+#define APEX_PRELOCK_SCORE 0
+#define APEX_PRIORITY 5
+#define APEX_PROFILE 0
+#define APEX_RANGED_FLEE 1
+#define APEX_RECALL_TRAVEL 0
+#define APEX_RETREAT_HP 0.1288f
+#define APEX_ROLE_SQUAD 0
+#define APEX_ROUTE_DEPTH 2
+#define APEX_ROUTE_K 6
+#define APEX_ROUTE_M 3
+#define APEX_ROUTE_SLACK 0.6f
+#define APEX_SAFE_ALTARS 1
+#define APEX_SAVE_DASH 0
+#define APEX_SHARE_GOLD 1
+#define APEX_SHIELD_PVP 0
+#define APEX_SHOP_GOLD 126
+#define APEX_SIDE_HP 0.0f
+#define APEX_SIEGE 1
+#define APEX_SIM_TURNS 6
+#define APEX_SNIPE 0
+#define APEX_SOLO_INITIATE 1
+#define APEX_SPELL_HOLD 0
+#define APEX_SPELL_HOLD_AGE 10
+#define APEX_SPELL_HOLD_RANGE 12
+#define APEX_SQUADS 0
+#define APEX_SQUAD_SHARE 0
+#define APEX_STAGE_TIMEOUT 7
+#define APEX_STALE_BAG 0
+#define APEX_STALE_WATCH 40
+#define APEX_STAND 1
+#define APEX_STAND2 0
+#define APEX_STICKY 1.5230f
+#define APEX_TERRITORY 1.0f
+#define APEX_TERRITORY_MARGIN 4
+#define APEX_TERRITORY_UNTIL 100000
+#define APEX_TFC 0
+#define APEX_TFC_FOLLOW_HP 0.35f
+#define APEX_TFC_MARGIN 3.0f
+#define APEX_TFC_ROUNDS 3
+#define APEX_TFC_SOLO 0
+#define APEX_THREAT_AGE 8
+#define APEX_THREAT_DETOUR 6
+#define APEX_THREAT_HP 1.0f
+#define APEX_THREAT_PATH 0
+#define APEX_THREAT_RETREAT 0.4f
+#define APEX_TRACE 0
+#define APEX_TRIBUTE_CARRY 72
+#define APEX_TRIB_DENY 3
+#define APEX_TSEARCH 0
+#define APEX_TS_ALIVE 25.0f
+#define APEX_TS_ALLY_FLEE 0.2f
+#define APEX_TS_BUDGET 0
+#define APEX_TS_BUDGET_RESERVE 30000
+#define APEX_TS_CALIB 0
+#define APEX_TS_CAMPS 0
+#define APEX_TS_DECIDE 1
+#define APEX_TS_DECIDE_MARGIN 2.0f
+#define APEX_TS_DECIDE_ROUNDS 3
+#define APEX_TS_FLEE_A 0.12f
+#define APEX_TS_FLEE_C 0.35f
+#define APEX_TS_HP 12.0f
+#define APEX_TS_LEARNED 0
+#define APEX_TS_LOCALNET 0
+#define APEX_TS_PHANTOM 0
+#define APEX_TS_RANGE 6
+#define APEX_TS_RESERVE 22000
+#define APEX_TS_ROUNDS 2
+#define APEX_TS_THREAT 0.5f
+#define APEX_TS_UNIT_COST 1000
+#define APEX_UNSTICK 1
+#define APEX_USE_WAITS 1
+#define APEX_WAIT_WEIGHT 3.2398f
+#define APEX_WALK_DIST 7
+#define APEX_WARDS 0
+#define APEX_WARD_AWARE 1
+#define APEX_WARD_REVEAL 2
+#define APEX_WIN_FIRST 1
+#define ARG_MAX 131072
+#define ATOMIC_BOOL_LOCK_FREE __CLANG_ATOMIC_BOOL_LOCK_FREE
+#define ATOMIC_CHAR16_T_LOCK_FREE __CLANG_ATOMIC_CHAR16_T_LOCK_FREE
+#define ATOMIC_CHAR32_T_LOCK_FREE __CLANG_ATOMIC_CHAR32_T_LOCK_FREE
+#define ATOMIC_CHAR8_T_LOCK_FREE __CLANG_ATOMIC_CHAR8_T_LOCK_FREE
+#define ATOMIC_CHAR_LOCK_FREE __CLANG_ATOMIC_CHAR_LOCK_FREE
+#define ATOMIC_FLAG_INIT {false}
+#define ATOMIC_INT_LOCK_FREE __CLANG_ATOMIC_INT_LOCK_FREE
+#define ATOMIC_LLONG_LOCK_FREE __CLANG_ATOMIC_LLONG_LOCK_FREE
+#define ATOMIC_LONG_LOCK_FREE __CLANG_ATOMIC_LONG_LOCK_FREE
+#define ATOMIC_POINTER_LOCK_FREE __CLANG_ATOMIC_POINTER_LOCK_FREE
+#define ATOMIC_SHORT_LOCK_FREE __CLANG_ATOMIC_SHORT_LOCK_FREE
+#define ATOMIC_VAR_INIT(__v) {__v}
+#define ATOMIC_WCHAR_T_LOCK_FREE __CLANG_ATOMIC_WCHAR_T_LOCK_FREE
+#define BUFSIZ 1024
+#define CHARCLASS_NAME_MAX 14
+#define CHAR_BIT __CHAR_BIT__
+#define CHAR_MAX __SCHAR_MAX__
+#define CHAR_MIN SCHAR_MIN
+#define CLOCKS_PER_SEC ((clock_t)1000000000)
+#define CLOCK_MONOTONIC (&_CLOCK_MONOTONIC)
+#define CLOCK_REALTIME (&_CLOCK_REALTIME)
+#define COLL_WEIGHTS_MAX 2
+#define DELAYTIMER_MAX 0x7fffffff
+#define E2BIG 1
+#define EACCES 2
+#define EADDRINUSE 3
+#define EADDRNOTAVAIL 4
+#define EAFNOSUPPORT 5
+#define EAGAIN 6
+#define EALREADY 7
+#define EBADF 8
+#define EBADMSG 9
+#define EBUSY 10
+#define ECANCELED 11
+#define ECHILD 12
+#define ECONNABORTED 13
+#define ECONNREFUSED 14
+#define ECONNRESET 15
+#define EDEADLK 16
+#define EDESTADDRREQ 17
+#define EDOM 18
+#define EDQUOT 19
+#define EEXIST 20
+#define EFAULT 21
+#define EFBIG 22
+#define EHOSTUNREACH 23
+#define EIDRM 24
+#define EILSEQ 25
+#define EINPROGRESS 26
+#define EINTR 27
+#define EINVAL 28
+#define EIO 29
+#define EISCONN 30
+#define EISDIR 31
+#define ELOOP 32
+#define EMFILE 33
+#define EMLINK 34
+#define EMSGSIZE 35
+#define EMULTIHOP 36
+#define ENAMETOOLONG 37
+#define ENETDOWN 38
+#define ENETRESET 39
+#define ENETUNREACH 40
+#define ENFILE 41
+#define ENOBUFS 42
+#define ENODATA 9919
+#define ENODEV 43
+#define ENOENT 44
+#define ENOEXEC 45
+#define ENOLCK 46
+#define ENOLINK 47
+#define ENOMEM 48
+#define ENOMSG 49
+#define ENOPROTOOPT 50
+#define ENOSPC 51
+#define ENOSR 9922
+#define ENOSTR 9924
+#define ENOSYS 52
+#define ENOTCAPABLE 76
+#define ENOTCONN 53
+#define ENOTDIR 54
+#define ENOTEMPTY 55
+#define ENOTRECOVERABLE 56
+#define ENOTSOCK 57
+#define ENOTSUP 58
+#define ENOTTY 59
+#define ENXIO 60
+#define EOF (-1)
+#define EOPNOTSUPP ENOTSUP
+#define EOVERFLOW 61
+#define EOWNERDEAD 62
+#define EPERM 63
+#define EPIPE 64
+#define EPROTO 65
+#define EPROTONOSUPPORT 66
+#define EPROTOTYPE 67
+#define ERANGE 68
+#define EROFS 69
+#define ESPIPE 70
+#define ESRCH 71
+#define ESTALE 72
+#define ETIME 9935
+#define ETIMEDOUT 73
+#define ETXTBSY 74
+#define EWOULDBLOCK EAGAIN
+#define EXDEV 75
+#define EXIT_FAILURE 1
+#define EXIT_SUCCESS 0
+#define FILENAME_MAX 4096
+#define FILESIZEBITS 64
+#define FOPEN_MAX 1000
+#define FP_ILOGB0 FP_ILOGBNAN
+#define FP_ILOGBNAN (-1-0x7fffffff)
+#define FP_INFINITE 1
+#define FP_NAN 0
+#define FP_NORMAL 4
+#define FP_SUBNORMAL 3
+#define FP_ZERO 2
+#define HOST_NAME_MAX 255
+#define HUGE 3.40282346638528859812e+38F
+#define HUGE_VAL ((double)INFINITY)
+#define HUGE_VALF INFINITY
+#define HUGE_VALL ((long double)INFINITY)
+#define INFINITY __builtin_inff()
+#define INT16_C(c) c
+#define INT16_MAX (0x7fff)
+#define INT16_MIN (-1-0x7fff)
+#define INT32_C(c) c
+#define INT32_MAX (0x7fffffff)
+#define INT32_MIN (-1-0x7fffffff)
+#define INT64_C(c) c ## LL
+#define INT64_MAX (0x7fffffffffffffff)
+#define INT64_MIN (-1-0x7fffffffffffffff)
+#define INT8_C(c) c
+#define INT8_MAX (0x7f)
+#define INT8_MIN (-1-0x7f)
+#define INTMAX_C(c) c ## LL
+#define INTMAX_MAX INT64_MAX
+#define INTMAX_MIN INT64_MIN
+#define INTPTR_MAX INT32_MAX
+#define INTPTR_MIN INT32_MIN
+#define INT_FAST16_MAX INT16_MAX
+#define INT_FAST16_MIN INT16_MIN
+#define INT_FAST32_MAX INT32_MAX
+#define INT_FAST32_MIN INT32_MIN
+#define INT_FAST64_MAX INT64_MAX
+#define INT_FAST64_MIN INT64_MIN
+#define INT_FAST8_MAX INT8_MAX
+#define INT_FAST8_MIN INT8_MIN
+#define INT_LEAST16_MAX INT16_MAX
+#define INT_LEAST16_MIN INT16_MIN
+#define INT_LEAST32_MAX INT32_MAX
+#define INT_LEAST32_MIN INT32_MIN
+#define INT_LEAST64_MAX INT64_MAX
+#define INT_LEAST64_MIN INT64_MIN
+#define INT_LEAST8_MAX INT8_MAX
+#define INT_LEAST8_MIN INT8_MIN
+#define INT_MAX __INT_MAX__
+#define INT_MIN (-__INT_MAX__ -1)
+#define IOV_MAX 1024
+#define LC_ALL 6
+#define LC_ALL_MASK 0x7fffffff
+#define LC_COLLATE 3
+#define LC_COLLATE_MASK (1<<LC_COLLATE)
+#define LC_CTYPE 0
+#define LC_CTYPE_MASK (1<<LC_CTYPE)
+#define LC_GLOBAL_LOCALE ((locale_t)-1)
+#define LC_MESSAGES 5
+#define LC_MESSAGES_MASK (1<<LC_MESSAGES)
+#define LC_MONETARY 4
+#define LC_MONETARY_MASK (1<<LC_MONETARY)
+#define LC_NUMERIC 1
+#define LC_NUMERIC_MASK (1<<LC_NUMERIC)
+#define LC_TIME 2
+#define LC_TIME_MASK (1<<LC_TIME)
+#define LLONG_MAX __LONG_LONG_MAX__
+#define LLONG_MIN (-__LONG_LONG_MAX__-1LL)
+#define LOG(...) do { if (APEX_LOG) std::printf(__VA_ARGS__); } while (0)
+#define LONG_BIT 32
+#define LONG_MAX __LONG_MAX__
+#define LONG_MIN (-__LONG_MAX__ -1L)
+#define L_ctermid 20
+#define L_cuserid 20
+#define MATH_ERREXCEPT 2
+#define MATH_ERRNO 1
+#define MB_CUR_MAX (__ctype_get_mb_cur_max())
+#define MB_LEN_MAX 4
+#define M_1_PI 0.31830988618379067154
+#define M_2_PI 0.63661977236758134308
+#define M_2_SQRTPI 1.12837916709551257390
+#define M_E 2.7182818284590452354
+#define M_LN10 2.30258509299404568402
+#define M_LN2 0.69314718055994530942
+#define M_LOG10E 0.43429448190325182765
+#define M_LOG2E 1.4426950408889634074
+#define M_PI 3.14159265358979323846
+#define M_PI_2 1.57079632679489661923
+#define M_PI_4 0.78539816339744830962
+#define M_SQRT1_2 0.70710678118654752440
+#define M_SQRT2 1.41421356237309504880
+#define NAME_MAX 255
+#define NAN __builtin_nanf("")
+#define NGROUPS_MAX 32
+#define NL_ARGMAX 9
+#define NL_LANGMAX 32
+#define NL_MSGMAX 32767
+#define NL_NMAX 16
+#define NL_SETMAX 255
+#define NL_TEXTMAX 2048
+#define NOVA_AI_BIG_AREA 4000
+#define NOVA_AI_BIG_LINEUP 2
+#define NOVA_AI_MONO_LINEUP 6
+#define NOVA_AI_SPARSE 250
+#define NOVA_ALTAR_INFER 0
+#define NOVA_AMBUSH_SAFE 0.6f
+#define NOVA_AOE_AIM 0
+#define NOVA_BANK_FIX 1
+#define NOVA_BIGCAMP 0
+#define NOVA_BIGJOB 0.6f
+#define NOVA_BIGJOB_FROM 60
+#define NOVA_BIGJOB_MULT 6.0f
+#define NOVA_BIG_MAP_GEMS 100
+#define NOVA_BLEND_RACE 0
+#define NOVA_BLEND_RETREAT 0.2000f
+#define NOVA_BUDDY 0.0f
+#define NOVA_BUDDY_DIST 6
+#define NOVA_BURST_K 1.0f
+#define NOVA_BUSH_WARD 1
+#define NOVA_CAMP_SAFE 0.0f
+#define NOVA_CASSI_BUILD 0
+#define NOVA_CASTER_SET 0
+#define NOVA_CI_LINK 0
+#define NOVA_CI_RETREAT 1.0f
+#define NOVA_CLASSIFY 1
+#define NOVA_CMICRO_MELEE 0
+#define NOVA_COMMIT_LATE 0.0f
+#define NOVA_COMMIT_RETREAT 0.0f
+#define NOVA_COUNTER 0
+#define NOVA_DEATH_BAG 2.0f
+#define NOVA_DEATH_BASE 150.0f
+#define NOVA_DENY_RYTH 1
+#define NOVA_DRAFT_AI 0
+#define NOVA_DUO 5
+#define NOVA_DUO_DIST 14
+#define NOVA_DUO_MAPS 1
+#define NOVA_DUO_UNTIL 3000
+#define NOVA_EARLY_SAFE_K 1
+#define NOVA_EARLY_SAFE_UNTIL 0
+#define NOVA_EDGE_BAG 22
+#define NOVA_EDGE_DIST 14
+#define NOVA_EDGE_UNTIL 250
+#define NOVA_F2_AVOID 0.6f
+#define NOVA_F2_ENGAGE 2.0f
+#define NOVA_F2_FOCUS 1.5f
+#define NOVA_F2_RADIUS 6
+#define NOVA_F2_REACH 6
+#define NOVA_FIGHT2 0
+#define NOVA_FLEE_HIT 0
+#define NOVA_FUEL_FIRST 0
+#define NOVA_FUEL_OPEN 0
+#define NOVA_GOLD_UNSEEN 0.10f
+#define NOVA_LATE_CARRY 1.0f
+#define NOVA_LATE_CARRY_R 400
+#define NOVA_MONO_BANK 0
+#define NOVA_NO_SIGHT 0
+#define NOVA_PACK_C 0
+#define NOVA_PACK_MARGIN 2.0f
+#define NOVA_QUARTIC 0
+#define NOVA_RACE_BANK 0
+#define NOVA_RACE_DENS 0.25f
+#define NOVA_RUNTIME_GOVERNOR 0
+#define NOVA_RUNTIME_TELEMETRY 0
+#define NOVA_RUSH_AGGR 1.5f
+#define NOVA_RUSH_GEMS 30
+#define NOVA_RUSH_MARGIN 0
+#define NOVA_RUSH_RADIUS 20
+#define NOVA_RUSH_UNTIL 0
+#define NOVA_SEED 0
+#define NOVA_SEED_EPS 0.04f
+#define NOVA_SIEGE_LOS 1
+#define NOVA_SPAWN_HOT 0
+#define NOVA_SPAWN_IGNORE 2
+#define NOVA_STRICT_MAP_CACHE 0
+#define NOVA_STRICT_MAP_ID 0
+#define NOVA_STUN_FOCUS 0.0f
+#define NOVA_TD_GEM 0.75f
+#define NOVA_TD_HP 3.0f
+#define NOVA_TD_HP_SHARE 0.0f
+#define NOVA_TD_LIFE0 8.0f
+#define NOVA_TD_LIFE1 25.0f
+#define NOVA_TD_ROUND 450
+#define NOVA_TGT 0
+#define NOVA_TGT_THREAT 2.0f
+#define NOVA_TGT_WOUNDED 0.75f
+#define NOVA_TGT_WOUNDED_HP 0.45f
+#define NOVA_TS_MAX_UNITS 8
+#define NOVA_TS_RELEVANCE 0
+#define NOVA_TS_SAFETY 0
+#define NOVA_TS_SIM_FIXES 0
+#define NOVA_UNBOX 1
+#define NOVA_V36_DRAFT 0
+#define NOVA_WARD_AHEAD 6
+#define NOVA_WORLD_AWAKE 0
+#define NULL __null
+#define NZERO 20
+#define PAGESIZE ((unsigned long)&__wasm_first_page_end)
+#define PAGE_SIZE PAGESIZE
+#define PATH_MAX 4096
+#define PROF(section) ((void)0)
+#define PROF_CAT(a,b) PROF_CAT2(a, b)
+#define PROF_CAT2(a,b) a##b
+#define PROF_CHECK(where) ((void)0)
+#define PTHREAD_BARRIER_SERIAL_THREAD (-1)
+#define PTHREAD_CANCELED ((void *)-1)
+#define PTHREAD_CANCEL_ASYNCHRONOUS 1
+#define PTHREAD_CANCEL_DEFERRED 0
+#define PTHREAD_CANCEL_DISABLE 1
+#define PTHREAD_CANCEL_ENABLE 0
+#define PTHREAD_CANCEL_MASKED 2
+#define PTHREAD_COND_INITIALIZER {{{0}}}
+#define PTHREAD_CREATE_DETACHED 1
+#define PTHREAD_CREATE_JOINABLE 0
+#define PTHREAD_DESTRUCTOR_ITERATIONS 4
+#define PTHREAD_EXPLICIT_SCHED 1
+#define PTHREAD_INHERIT_SCHED 0
+#define PTHREAD_KEYS_MAX 128
+#define PTHREAD_MUTEX_DEFAULT 0
+#define PTHREAD_MUTEX_ERRORCHECK 2
+#define PTHREAD_MUTEX_INITIALIZER {{{0}}}
+#define PTHREAD_MUTEX_NORMAL 0
+#define PTHREAD_MUTEX_RECURSIVE 1
+#define PTHREAD_MUTEX_ROBUST 1
+#define PTHREAD_MUTEX_STALLED 0
+#define PTHREAD_NULL ((pthread_t)0)
+#define PTHREAD_ONCE_INIT 0
+#define PTHREAD_PRIO_INHERIT 1
+#define PTHREAD_PRIO_NONE 0
+#define PTHREAD_PRIO_PROTECT 2
+#define PTHREAD_PROCESS_PRIVATE 0
+#define PTHREAD_PROCESS_SHARED 1
+#define PTHREAD_RWLOCK_INITIALIZER {{{0}}}
+#define PTHREAD_SCOPE_PROCESS 1
+#define PTHREAD_SCOPE_SYSTEM 0
+#define PTHREAD_STACK_MIN 2048
+#define PTRDIFF_MAX INT32_MAX
+#define PTRDIFF_MIN INT32_MIN
+#define RAND_MAX (0x7fffffff)
+#define RE_DUP_MAX 255
+#define SCHAR_MAX __SCHAR_MAX__
+#define SCHAR_MIN (-__SCHAR_MAX__-1)
+#define SEEK_CUR 1
+#define SEEK_END 2
+#define SEEK_SET 0
+#define SHRT_MAX __SHRT_MAX__
+#define SHRT_MIN (-__SHRT_MAX__ -1)
+#define SIG_ATOMIC_MAX INT32_MAX
+#define SIG_ATOMIC_MIN INT32_MIN
+#define SIZE_MAX UINT32_MAX
+#define SSIZE_MAX LONG_MAX
+#define SYMLOOP_MAX 40
+#define TIMER_ABSTIME 1
+#define TIME_UTC 1
+#define TTY_NAME_MAX 32
+#define TZNAME_MAX 6
+#define UCHAR_MAX (__SCHAR_MAX__*2 +1)
+#define UINT16_C(c) c
+#define UINT16_MAX (0xffff)
+#define UINT32_C(c) c ## U
+#define UINT32_MAX (0xffffffffu)
+#define UINT64_C(c) c ## ULL
+#define UINT64_MAX (0xffffffffffffffffu)
+#define UINT8_C(c) c
+#define UINT8_MAX (0xff)
+#define UINTMAX_C(c) c ## ULL
+#define UINTMAX_MAX UINT64_MAX
+#define UINTPTR_MAX UINT32_MAX
+#define UINT_FAST16_MAX UINT16_MAX
+#define UINT_FAST32_MAX UINT32_MAX
+#define UINT_FAST64_MAX UINT64_MAX
+#define UINT_FAST8_MAX UINT8_MAX
+#define UINT_LEAST16_MAX UINT16_MAX
+#define UINT_LEAST32_MAX UINT32_MAX
+#define UINT_LEAST64_MAX UINT64_MAX
+#define UINT_LEAST8_MAX UINT8_MAX
+#define UINT_MAX (__INT_MAX__ *2U +1U)
+#define ULLONG_MAX (__LONG_LONG_MAX__*2ULL+1ULL)
+#define ULONG_MAX (__LONG_MAX__ *2UL+1UL)
+#define USHRT_MAX (__SHRT_MAX__ * 2 + 1)
+#define V36_FARM_BOUND 0
+#define V36_FARM_DIAG 0
+#define V36_FARM_EXHAUSTIVE 0
+#define V36_OWNER_FEATURES (A2_BUSH_FAST || A2_FAST_AMBUSH || A2_CMICRO_FAST || A2_GOV || A2_GOV_WALK || A2_GOV_WARD || A2_SNAP || A2_TD_AUTH || A2_FLEE_HIT || A2_TEL || A2_CHECK || NOVA_V36_DRAFT || NOVA_MAPID_STRICT)
+#define V36_ROWS_CAPTURE_INTENT 0
+#define WCHAR_MAX (0x7fffffff+L'\0')
+#define WCHAR_MIN (-1-0x7fffffff+L'\0')
+#define WEOF 0xffffffffU
+#define WINT_MAX UINT32_MAX
+#define WINT_MIN 0U
+#define WORD_BIT 32
+#define _ALIGNAS(x) alignas(x)
+#define _ALIGNAS_TYPE(x) alignas(x)
+#define _ALLOCA_H 
+#define _CTYPE_H 
+#define _ERRNO_H 
+#define _FEATURES_H 
+#define _GCC_LIMITS_H_ 
+#define _GNU_SOURCE 1
+#define _ILP32 1
+#define _IOFBF 0
+#define _IOLBF 1
+#define _IONBF 2
+#define _LIBCPP_ABI_ALTERNATE_STRING_LAYOUT 
+#define _LIBCPP_ABI_ATOMIC_WAIT_NATIVE_BY_SIZE 
+#define _LIBCPP_ABI_BAD_FUNCTION_CALL_GOOD_WHAT_MESSAGE 
+#define _LIBCPP_ABI_BITSET_VECTOR_BOOL_CONST_SUBSCRIPT_RETURN_BOOL 
+#define _LIBCPP_ABI_ENABLE_SHARED_PTR_TRIVIAL_ABI 
+#define _LIBCPP_ABI_ENABLE_UNIQUE_PTR_TRIVIAL_ABI 
+#define _LIBCPP_ABI_FIX_CITYHASH_IMPLEMENTATION 
+#define _LIBCPP_ABI_FIX_UNORDERED_CONTAINER_SIZE_TYPE 
+#define _LIBCPP_ABI_FORCE_ITANIUM 0
+#define _LIBCPP_ABI_FORCE_MICROSOFT 0
+#define _LIBCPP_ABI_INCOMPLETE_TYPES_IN_DEQUE 
+#define _LIBCPP_ABI_IOS_ALLOW_ARBITRARY_FILL_VALUE 
+#define _LIBCPP_ABI_ITANIUM 
+#define _LIBCPP_ABI_LLVM18_NO_UNIQUE_ADDRESS __attribute__((__abi_tag__("llvm18_nua")))
+#define _LIBCPP_ABI_NAMESPACE __2
+#define _LIBCPP_ABI_NO_COMPRESSED_PAIR_PADDING 
+#define _LIBCPP_ABI_NO_FILESYSTEM_INLINE_NAMESPACE 
+#define _LIBCPP_ABI_NO_ITERATOR_BASES 
+#define _LIBCPP_ABI_NO_RANDOM_DEVICE_COMPATIBILITY_LAYOUT 
+#define _LIBCPP_ABI_NO_REVERSE_ITERATOR_SECOND_MEMBER 
+#define _LIBCPP_ABI_OPTIMIZED_FUNCTION 
+#define _LIBCPP_ABI_REGEX_CONSTANTS_NONZERO 
+#define _LIBCPP_ABI_STRING_OPTIMIZED_EXTERNAL_INSTANTIATION 
+#define _LIBCPP_ABI_TRIVIALLY_COPYABLE_BIT_ITERATOR 
+#define _LIBCPP_ABI_USE_WRAP_ITER_IN_STD_ARRAY 
+#define _LIBCPP_ABI_USE_WRAP_ITER_IN_STD_STRING_VIEW 
+#define _LIBCPP_ABI_VARIANT_INDEX_TYPE_OPTIMIZATION 
+#define _LIBCPP_ABI_VERSION 2
+#define _LIBCPP_ACQUIRE_CAPABILITY(...) __attribute__((__acquire_capability__(__VA_ARGS__)))
+#define _LIBCPP_ACQUIRE_SHARED_CAPABILITY [[_Clang::__acquire_shared_capability__]]
+#define _LIBCPP_ALGORITHM 
+#define _LIBCPP_ALIGNOF(...) alignof(__VA_ARGS__)
+#define _LIBCPP_ALL_MASK LC_ALL_MASK
+#define _LIBCPP_ALWAYS_INLINE __attribute__((__always_inline__))
+#define _LIBCPP_ARRAY 
+#define _LIBCPP_ASAN_VOLATILE_WRAPPER(PTR) PTR
+#define _LIBCPP_ASSERT(expression,message) (__builtin_expect(static_cast<bool>(expression), 1) ? (void)0 : _LIBCPP_ASSERTION_HANDLER(__FILE__ ":" _LIBCPP_TOSTRING( __LINE__) ": libc++ Hardening assertion " _LIBCPP_TOSTRING(expression) " failed: " message "\n"))
+#define _LIBCPP_ASSERTION_HANDLER(message) _LIBCPP_VERBOSE_TRAP(message)
+#define _LIBCPP_ASSERTION_SEMANTIC _LIBCPP_ASSERTION_SEMANTIC_QUICK_ENFORCE
+#define _LIBCPP_ASSERTION_SEMANTIC_DEFAULT 2
+#define _LIBCPP_ASSERTION_SEMANTIC_ENFORCE (1 << 5)
+#define _LIBCPP_ASSERTION_SEMANTIC_HARDENING_DEPENDENT (1 << 1)
+#define _LIBCPP_ASSERTION_SEMANTIC_IGNORE (1 << 2)
+#define _LIBCPP_ASSERTION_SEMANTIC_OBSERVE (1 << 3)
+#define _LIBCPP_ASSERTION_SEMANTIC_QUICK_ENFORCE (1 << 4)
+#define _LIBCPP_ASSERTION_SEMANTIC_SIG q
+#define _LIBCPP_ASSERT_ARGUMENT_WITHIN_DOMAIN(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_COMPATIBLE_ALLOCATOR(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_INTERNAL(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_NON_NULL(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_NON_OVERLAPPING_RANGES(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_PEDANTIC(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_SEMANTIC_REQUIREMENT(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_UNCATEGORIZED(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_VALID_DEALLOCATION(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_VALID_ELEMENT_ACCESS(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_VALID_EXTERNAL_API_CALL(expression,message) ((void)0)
+#define _LIBCPP_ASSERT_VALID_INPUT_RANGE(expression,message) ((void)0)
+#define _LIBCPP_ASSUME(expression) (_LIBCPP_DIAGNOSTIC_PUSH _LIBCPP_CLANG_DIAGNOSTIC_IGNORED("-Wassume") __builtin_assume(static_cast<bool>(expression)) _LIBCPP_DIAGNOSTIC_POP)
+#define _LIBCPP_ATOMIC 
+#define _LIBCPP_ATOMIC_FLAG_TYPE bool
+#define _LIBCPP_ATTRIBUTE_FORMAT(archetype,format_string_index,first_format_arg_index) __attribute__((__format__(archetype, format_string_index, first_format_arg_index)))
+#define _LIBCPP_AUTO_CAST(expr) static_cast<::std::__decay_t<decltype((expr))> >(expr)
+#define _LIBCPP_AVAILABILITY_BAD_EXPECTED_ACCESS_KEY_FUNCTION _LIBCPP_INTRODUCED_IN_LLVM_19_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_BAD_FUNCTION_CALL_KEY_FUNCTION _LIBCPP_INTRODUCED_IN_LLVM_19_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_FROM_CHARS_FLOATING_POINT _LIBCPP_INTRODUCED_IN_LLVM_20_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_HAS_ADDITIONAL_IOSTREAM_EXPLICIT_INSTANTIATIONS_1 _LIBCPP_INTRODUCED_IN_LLVM_12
+#define _LIBCPP_AVAILABILITY_HAS_BAD_EXPECTED_ACCESS_KEY_FUNCTION _LIBCPP_INTRODUCED_IN_LLVM_19
+#define _LIBCPP_AVAILABILITY_HAS_BAD_FUNCTION_CALL_GOOD_WHAT_MESSAGE _LIBCPP_INTRODUCED_IN_LLVM_21
+#define _LIBCPP_AVAILABILITY_HAS_BAD_FUNCTION_CALL_KEY_FUNCTION _LIBCPP_INTRODUCED_IN_LLVM_19
+#define _LIBCPP_AVAILABILITY_HAS_FROM_CHARS_FLOATING_POINT _LIBCPP_INTRODUCED_IN_LLVM_20
+#define _LIBCPP_AVAILABILITY_HAS_HASH_MEMORY _LIBCPP_INTRODUCED_IN_LLVM_21
+#define _LIBCPP_AVAILABILITY_HAS_INIT_PRIMARY_EXCEPTION _LIBCPP_INTRODUCED_IN_LLVM_18
+#define _LIBCPP_AVAILABILITY_HAS_NEW_SYNC _LIBCPP_INTRODUCED_IN_LLVM_22
+#define _LIBCPP_AVAILABILITY_HAS_PMR _LIBCPP_INTRODUCED_IN_LLVM_16
+#define _LIBCPP_AVAILABILITY_HAS_PRINT _LIBCPP_INTRODUCED_IN_LLVM_18
+#define _LIBCPP_AVAILABILITY_HAS_TO_CHARS_FLOATING_POINT _LIBCPP_INTRODUCED_IN_LLVM_14
+#define _LIBCPP_AVAILABILITY_HAS_TZDB _LIBCPP_INTRODUCED_IN_LLVM_19
+#define _LIBCPP_AVAILABILITY_HAS_VERBOSE_ABORT _LIBCPP_INTRODUCED_IN_LLVM_15
+#define _LIBCPP_AVAILABILITY_INIT_PRIMARY_EXCEPTION _LIBCPP_INTRODUCED_IN_LLVM_18_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_NEW_SYNC _LIBCPP_INTRODUCED_IN_LLVM_22_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_PMR 
+#define _LIBCPP_AVAILABILITY_PRINT _LIBCPP_INTRODUCED_IN_LLVM_18_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_TO_CHARS_FLOATING_POINT _LIBCPP_INTRODUCED_IN_LLVM_14_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_TZDB _LIBCPP_INTRODUCED_IN_LLVM_19_ATTRIBUTE
+#define _LIBCPP_AVAILABILITY_VERBOSE_ABORT _LIBCPP_INTRODUCED_IN_LLVM_15_ATTRIBUTE
+#define _LIBCPP_BEGIN_NAMESPACE_EXPERIMENTAL _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD namespace experimental {
+#define _LIBCPP_BEGIN_NAMESPACE_FILESYSTEM _LIBCPP_BEGIN_NAMESPACE_STD namespace filesystem {
+#define _LIBCPP_BEGIN_NAMESPACE_LFTS _LIBCPP_BEGIN_NAMESPACE_EXPERIMENTAL inline namespace fundamentals_v1 {
+#define _LIBCPP_BEGIN_NAMESPACE_LFTS_V2 _LIBCPP_BEGIN_NAMESPACE_EXPERIMENTAL inline namespace fundamentals_v2 {
+#define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+#define _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+#define _LIBCPP_BIT 
+#define _LIBCPP_CAPABILITY(...) [[_Clang::__capability__(__VA_ARGS__)]]
+#define _LIBCPP_CCTYPE 
+#define _LIBCPP_CERRNO 
+#define _LIBCPP_CHECK_EXCHANGE_MEMORY_ORDER(__m,__f) _LIBCPP_DIAGNOSE_WARNING(__f == memory_order_release || __f == memory_order_acq_rel, "memory order argument to atomic operation is invalid")
+#define _LIBCPP_CHECK_LOAD_MEMORY_ORDER(__m) _LIBCPP_DIAGNOSE_WARNING(__m == memory_order_release || __m == memory_order_acq_rel, "memory order argument to atomic operation is invalid")
+#define _LIBCPP_CHECK_STORE_MEMORY_ORDER(__m) _LIBCPP_DIAGNOSE_WARNING(__m == memory_order_consume || __m == memory_order_acquire || __m == memory_order_acq_rel, "memory order argument to atomic operation is invalid")
+#define _LIBCPP_CHECK_WAIT_MEMORY_ORDER(__m) _LIBCPP_DIAGNOSE_WARNING(__m == memory_order_release || __m == memory_order_acq_rel, "memory order argument to atomic operation is invalid")
+#define _LIBCPP_CLANG_DIAGNOSTIC_IGNORED(str) _Pragma(_LIBCPP_TOSTRING(clang diagnostic ignored str))
+#define _LIBCPP_CLANG_VER (__clang_major__ * 100 + __clang_minor__)
+#define _LIBCPP_CLASS_TEMPLATE_INSTANTIATION_VIS 
+#define _LIBCPP_CLIMITS 
+#define _LIBCPP_CLOCALE 
+#define _LIBCPP_CMATH 
+#define _LIBCPP_COLLATE_MASK LC_COLLATE_MASK
+#define _LIBCPP_COMPARE 
+#define _LIBCPP_COMPILER_CLANG_BASED 
+#define _LIBCPP_COMPRESSED_ELEMENT(T1,Initializer1) _LIBCPP_NO_UNIQUE_ADDRESS T1 Initializer1
+#define _LIBCPP_COMPRESSED_PAIR(T1,Name1,T2,Name2) _LIBCPP_NO_UNIQUE_ADDRESS T1 Name1; _LIBCPP_NO_UNIQUE_ADDRESS T2 Name2
+#define _LIBCPP_COMPRESSED_TRIPLE(T1,Name1,T2,Name2,T3,Name3) _LIBCPP_NO_UNIQUE_ADDRESS T1 Name1; _LIBCPP_NO_UNIQUE_ADDRESS T2 Name2; _LIBCPP_NO_UNIQUE_ADDRESS T3 Name3
+#define _LIBCPP_CONCAT(_X,_Y) _LIBCPP_CONCAT_IMPL(_X, _Y)
+#define _LIBCPP_CONCAT3(X,Y,Z) _LIBCPP_CONCAT(X, _LIBCPP_CONCAT(Y, Z))
+#define _LIBCPP_CONCAT_IMPL(_X,_Y) _X##_Y
+#define _LIBCPP_CONCEPTS 
+#define _LIBCPP_CONDVAR_INITIALIZER PTHREAD_COND_INITIALIZER
+#define _LIBCPP_CONSTEXPR constexpr
+#define _LIBCPP_CONSTEXPR_SINCE_CXX14 constexpr
+#define _LIBCPP_CONSTEXPR_SINCE_CXX17 constexpr
+#define _LIBCPP_CONSTEXPR_SINCE_CXX20 constexpr
+#define _LIBCPP_CONSTEXPR_SINCE_CXX23 
+#define _LIBCPP_CONSTEXPR_SINCE_CXX26 
+#define _LIBCPP_CONSTINIT constinit
+#define _LIBCPP_CSTDARG 
+#define _LIBCPP_CSTDDEF 
+#define _LIBCPP_CSTDINT 
+#define _LIBCPP_CSTDIO 
+#define _LIBCPP_CSTDLIB 
+#define _LIBCPP_CSTRING 
+#define _LIBCPP_CTAD_SUPPORTED_FOR_TYPE(_ClassName) template <class... _Tag> [[maybe_unused]] _ClassName(typename _Tag::__allow_ctad...)->_ClassName<_Tag...>
+#define _LIBCPP_CTIME 
+#define _LIBCPP_CTOR_LIFETIMEBOUND _LIBCPP_LIFETIMEBOUND
+#define _LIBCPP_CTYPE_H 
+#define _LIBCPP_CTYPE_MASK LC_CTYPE_MASK
+#define _LIBCPP_CWCHAR 
+#define _LIBCPP_CWCTYPE 
+#define _LIBCPP_DECLARE_STRONG_ENUM(x) enum class x
+#define _LIBCPP_DECLARE_STRONG_ENUM_EPILOG(x) 
+#define _LIBCPP_DECLSPEC_EMPTY_BASES 
+#define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+#define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+#define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+#define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+#define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+#define _LIBCPP_DEPRECATED_IN_CXX20 _LIBCPP_DEPRECATED
+#define _LIBCPP_DEPRECATED_IN_CXX23 
+#define _LIBCPP_DEPRECATED_IN_CXX26 
+#define _LIBCPP_DEPRECATED_IN_CXX26_(m) 
+#define _LIBCPP_DEPRECATED_WITH_CHAR8_T _LIBCPP_DEPRECATED
+#define _LIBCPP_DIAGNOSE_DEPRECATED_HEADERS 0
+#define _LIBCPP_DIAGNOSE_IF(...) __attribute__((__diagnose_if__(__VA_ARGS__)))
+#define _LIBCPP_DIAGNOSE_NULLPTR _Nonnull
+#define _LIBCPP_DIAGNOSE_NULLPTR_IF(condition,condition_description) _LIBCPP_DIAGNOSE_IF( condition, "null passed to callee that requires a non-null argument" condition_description, "warning", "nonnull")
+#define _LIBCPP_DIAGNOSE_WARNING(...) __attribute__((__diagnose_if__(__VA_ARGS__, "warning")))
+#define _LIBCPP_DIAGNOSTIC_POP _Pragma("clang diagnostic pop")
+#define _LIBCPP_DIAGNOSTIC_PUSH _Pragma("clang diagnostic push")
+#define _LIBCPP_DISABLE_UBSAN_UNSIGNED_INTEGER_CHECK __attribute__((__no_sanitize__("unsigned-integer-overflow")))
+#define _LIBCPP_EAT_SEMICOLON static_assert(true, "")
+#define _LIBCPP_END_NAMESPACE_EXPERIMENTAL } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+#define _LIBCPP_END_NAMESPACE_FILESYSTEM } _LIBCPP_END_NAMESPACE_STD
+#define _LIBCPP_END_NAMESPACE_LFTS } _LIBCPP_END_NAMESPACE_EXPERIMENTAL
+#define _LIBCPP_END_NAMESPACE_LFTS_V2 } _LIBCPP_END_NAMESPACE_EXPERIMENTAL
+#define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+#define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+#define _LIBCPP_ERRNO_H 
+#define _LIBCPP_EXCEPTION 
+#define _LIBCPP_EXCEPTIONS_SIG e
+#define _LIBCPP_EXCLUDE_FROM_EXPLICIT_INSTANTIATION __attribute__((__exclude_from_explicit_instantiation__))
+#define _LIBCPP_EXEC_ONCE_INITIALIZER PTHREAD_ONCE_INIT
+#define _LIBCPP_EXPLICIT_SINCE_CXX14 explicit
+#define _LIBCPP_EXPLICIT_SINCE_CXX23 
+#define _LIBCPP_EXPORTED_FROM_ABI _LIBCPP_VISIBILITY("default")
+#define _LIBCPP_EXTERN_TEMPLATE_TYPE_VIS _LIBCPP_VISIBILITY("default")
+#define _LIBCPP_FOPEN_CLOEXEC_MODE 
+#define _LIBCPP_FUNCTIONAL 
+#define _LIBCPP_GCC_DIAGNOSTIC_IGNORED(str) 
+#define _LIBCPP_GET_C_LOCALE __cloc()
+#define _LIBCPP_GLIBC_PREREQ(a,b) 0
+#define _LIBCPP_HARDENING_MODE _LIBCPP_HARDENING_MODE_DEFAULT
+#define _LIBCPP_HARDENING_MODE_DEBUG (1 << 3)
+#define _LIBCPP_HARDENING_MODE_DEFAULT 2
+#define _LIBCPP_HARDENING_MODE_EXTENSIVE (1 << 4)
+#define _LIBCPP_HARDENING_MODE_FAST (1 << 2)
+#define _LIBCPP_HARDENING_MODE_NONE (1 << 1)
+#define _LIBCPP_HARDENING_SIG n
+#define _LIBCPP_HAS_ALGORITHM_VECTOR_UTILS 1
+#define _LIBCPP_HAS_ALIGNED_ALLOCATION 1
+#define _LIBCPP_HAS_ATOMIC_HEADER 1
+#define _LIBCPP_HAS_BITSCAN64 0
+#define _LIBCPP_HAS_BLOCKS_RUNTIME 0
+#define _LIBCPP_HAS_C8RTOMB_MBRTOC8 0
+#define _LIBCPP_HAS_CATOPEN 0
+#define _LIBCPP_HAS_CHAR8_T 1
+#define _LIBCPP_HAS_COND_CLOCKWAIT 0
+#define _LIBCPP_HAS_C_ATOMIC_IMP 1
+#define _LIBCPP_HAS_EXCEPTIONS 1
+#define _LIBCPP_HAS_EXPERIMENTAL_HARDENING_OBSERVE_SEMANTIC _LIBCPP_HAS_EXPERIMENTAL_LIBRARY
+#define _LIBCPP_HAS_EXPERIMENTAL_LIBRARY 0
+#define _LIBCPP_HAS_EXPERIMENTAL_OPTIONAL_ITERATOR _LIBCPP_HAS_EXPERIMENTAL_LIBRARY
+#define _LIBCPP_HAS_EXPERIMENTAL_PSTL _LIBCPP_HAS_EXPERIMENTAL_LIBRARY
+#define _LIBCPP_HAS_EXPERIMENTAL_SYNCSTREAM _LIBCPP_HAS_EXPERIMENTAL_LIBRARY
+#define _LIBCPP_HAS_EXPERIMENTAL_TZDB _LIBCPP_HAS_EXPERIMENTAL_LIBRARY
+#define _LIBCPP_HAS_EXTERNAL_ATOMIC_IMP 0
+#define _LIBCPP_HAS_FILESYSTEM 1
+#define _LIBCPP_HAS_GCC_ATOMIC_IMP 0
+#define _LIBCPP_HAS_INT128 1
+#define _LIBCPP_HAS_LIBRARY_ALIGNED_ALLOCATION 1
+#define _LIBCPP_HAS_LOCALIZATION 1
+#define _LIBCPP_HAS_MONOTONIC_CLOCK 1
+#define _LIBCPP_HAS_MUSL_LIBC 0
+#define _LIBCPP_HAS_OPEN_WITH_WCHAR 0
+#define _LIBCPP_HAS_RANDOM_DEVICE 1
+#define _LIBCPP_HAS_RTTI 1
+#define _LIBCPP_HAS_TERMINAL 1
+#define _LIBCPP_HAS_THREADS 1
+#define _LIBCPP_HAS_THREAD_API_C11 0
+#define _LIBCPP_HAS_THREAD_API_EXTERNAL 0
+#define _LIBCPP_HAS_THREAD_API_PTHREAD 1
+#define _LIBCPP_HAS_THREAD_API_WIN32 0
+#define _LIBCPP_HAS_TIME_ZONE_DATABASE 0
+#define _LIBCPP_HAS_TRIVIAL_CONDVAR_DESTRUCTION 0
+#define _LIBCPP_HAS_TRIVIAL_MUTEX_DESTRUCTION 0
+#define _LIBCPP_HAS_UNICODE 1
+#define _LIBCPP_HAS_VENDOR_AVAILABILITY_ANNOTATIONS 0
+#define _LIBCPP_HAS_WIDE_CHARACTERS 1
+#define _LIBCPP_HIDDEN _LIBCPP_VISIBILITY("hidden")
+#define _LIBCPP_HIDE_FROM_ABI _LIBCPP_HIDDEN _LIBCPP_EXCLUDE_FROM_EXPLICIT_INSTANTIATION __attribute__((__abi_tag__(_LIBCPP_TOSTRING(_LIBCPP_ODR_SIGNATURE))))
+#define _LIBCPP_HIDE_FROM_ABI_SINCE_LLVM8 _LIBCPP_HIDE_FROM_ABI
+#define _LIBCPP_HIDE_FROM_ABI_VIRTUAL _LIBCPP_HIDDEN _LIBCPP_EXCLUDE_FROM_EXPLICIT_INSTANTIATION
+#define _LIBCPP_IF_WIDE_CHARACTERS(...) __VA_ARGS__
+#define _LIBCPP_INCLUDED_C_LIBRARY_WCTYPE_H 
+#define _LIBCPP_INITIALIZER_LIST 
+#define _LIBCPP_INIT_PRIORITY_MAX __attribute__((__init_priority__(100)))
+#define _LIBCPP_INSTRUMENTED_WITH_ASAN 0
+#define _LIBCPP_INTRODUCED_IN_LLVM_12 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_12_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_14 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_14_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_15 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_15_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_16 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_16_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_18 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_18_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_19 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_19_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_20 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_20_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_21 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_21_ATTRIBUTE 
+#define _LIBCPP_INTRODUCED_IN_LLVM_22 1
+#define _LIBCPP_INTRODUCED_IN_LLVM_22_ATTRIBUTE 
+#define _LIBCPP_IOS 
+#define _LIBCPP_IOSFWD 
+#define _LIBCPP_ITERATOR 
+#define _LIBCPP_LC_ALL LC_ALL
+#define _LIBCPP_LIBC_NEWLIB 0
+#define _LIBCPP_LIBC_PICOLIBC 0
+#define _LIBCPP_LIFETIMEBOUND [[_Clang::__lifetimebound__]]
+#define _LIBCPP_LIMITS 
+#define _LIBCPP_LITTLE_ENDIAN 
+#define _LIBCPP_LOCALE 
+#define _LIBCPP_MATH_H 
+#define _LIBCPP_MEMORY 
+#define _LIBCPP_MESSAGES_MASK LC_MESSAGES_MASK
+#define _LIBCPP_MONETARY_MASK LC_MONETARY_MASK
+#define _LIBCPP_MUTEX 
+#define _LIBCPP_MUTEX_INITIALIZER PTHREAD_MUTEX_INITIALIZER
+#define _LIBCPP_NAMESPACE_VISIBILITY __attribute__((__type_visibility__("default")))
+#define _LIBCPP_NATIVE_PLATFORM_WAIT_SIZES(_APPLY) _APPLY(sizeof(__cxx_contention_t))
+#define _LIBCPP_NEW 
+#define _LIBCPP_NOALIAS __attribute__((__malloc__))
+#define _LIBCPP_NODEBUG [[__gnu__::__nodebug__]]
+#define _LIBCPP_NOESCAPE [[_Clang::__noescape__]]
+#define _LIBCPP_NOINLINE __attribute__((__noinline__))
+#define _LIBCPP_NO_CFI __attribute__((__no_sanitize__("cfi")))
+#define _LIBCPP_NO_DESTROY [[_Clang::__no_destroy__]]
+#define _LIBCPP_NO_SANITIZE(...) __attribute__((__no_sanitize__(__VA_ARGS__)))
+#define _LIBCPP_NO_SPECIALIZATIONS [[_Clang::__no_specializations__("Users are not allowed to specialize this standard library entity")]]
+#define _LIBCPP_NO_THREAD_SAFETY_ANALYSIS [[_Clang::__no_thread_safety_analysis__]]
+#define _LIBCPP_NO_UNIQUE_ADDRESS [[__no_unique_address__]]
+#define _LIBCPP_NULL_THREAD ((__libcpp_thread_t()))
+#define _LIBCPP_NUMERIC_MASK LC_NUMERIC_MASK
+#define _LIBCPP_OBJECT_FORMAT_WASM 1
+#define _LIBCPP_ODR_SIGNATURE _LIBCPP_CONCAT( _LIBCPP_CONCAT(_LIBCPP_CONCAT(_LIBCPP_HARDENING_SIG, _LIBCPP_ASSERTION_SEMANTIC_SIG), _LIBCPP_EXCEPTIONS_SIG), _LIBCPP_VERSION)
+#define _LIBCPP_OPTIONAL 
+#define _LIBCPP_OVERRIDABLE_FUNC_VIS _LIBCPP_VISIBILITY("default")
+#define _LIBCPP_PACKED __attribute__((__packed__))
+#define _LIBCPP_POP_EXTENSION_DIAGNOSTICS 
+#define _LIBCPP_POP_MACROS _Pragma("pop_macro(\"min\")") _Pragma("pop_macro(\"max\")") _Pragma("pop_macro(\"refresh\")") _Pragma("pop_macro(\"move\")") _Pragma("pop_macro(\"erase\")")
+#define _LIBCPP_PREFERRED_ALIGNOF(_Tp) __alignof(_Tp)
+#define _LIBCPP_PREFERRED_NAME(x) [[_Clang::__preferred_name__(x)]]
+#define _LIBCPP_PREFERRED_OVERLOAD __attribute__((__enable_if__(true, "")))
+#define _LIBCPP_PROVIDES_DEFAULT_RUNE_TABLE 
+#define _LIBCPP_PSTL_BACKEND_STD_THREAD 
+#define _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS 
+#define _LIBCPP_PUSH_MACROS _Pragma("push_macro(\"min\")") _Pragma("push_macro(\"max\")") _Pragma("push_macro(\"refresh\")") _Pragma("push_macro(\"move\")") _Pragma("push_macro(\"erase\")")
+#define _LIBCPP_RANGES 
+#define _LIBCPP_RATIO 
+#define _LIBCPP_RELEASE_CAPABILITY [[_Clang::__release_capability__]]
+#define _LIBCPP_RELEASE_SHARED_CAPABILITY [[_Clang::__release_shared_capability__]]
+#define _LIBCPP_REQUIRES_CAPABILITY(...) __attribute__((__requires_capability__(__VA_ARGS__)))
+#define _LIBCPP_SCOPED_LOCKABLE [[_Clang::__scoped_lockable__]]
+#define _LIBCPP_SHARED_PTR_TRIVIAL_ABI __attribute__((__trivial_abi__))
+#define _LIBCPP_SPAN 
+#define _LIBCPP_STDATOMIC_H_HAS_DEFINITELY_BEEN_INCLUDED 0
+#define _LIBCPP_STDDEF_H 
+#define _LIBCPP_STDEXCEPT 
+#define _LIBCPP_STDIO_H 
+#define _LIBCPP_STDLIB_H 
+#define _LIBCPP_STD_VER 20
+#define _LIBCPP_STREAMBUF 
+#define _LIBCPP_STRING 
+#define _LIBCPP_STRING_COMMON_EXTERN_TEMPLATE_LIST(Func,CharT) Func(void basic_string<CharT>::__init(const value_type*, size_type)) Func(void basic_string<CharT>::__init(size_type, value_type)) Func(basic_string<CharT>::basic_string(const basic_string&, size_type, size_type, const allocator<CharT>&)) Func(basic_string<CharT>::~basic_string()) Func(basic_string<CharT>& basic_string<CharT>::operator=(value_type)) Func(basic_string<CharT>& basic_string<CharT>::assign(size_type, value_type)) Func(basic_string<CharT>& basic_string<CharT>::assign(const basic_string&, size_type, size_type)) Func(basic_string<CharT>& basic_string<CharT>::append(size_type, value_type)) Func(basic_string<CharT>& basic_string<CharT>::append(const value_type*)) Func(basic_string<CharT>& basic_string<CharT>::append(const value_type*, size_type)) Func(basic_string<CharT>& basic_string<CharT>::append(const basic_string&, size_type, size_type)) Func(void basic_string<CharT>::push_back(value_type)) Func(basic_string<CharT>& basic_string<CharT>::insert(size_type, const value_type*)) Func(basic_string<CharT>& basic_string<CharT>::insert(size_type, size_type, value_type)) Func(basic_string<CharT>& basic_string<CharT>::insert(size_type, const value_type*, size_type)) Func(basic_string<CharT>& basic_string<CharT>::insert(size_type, const basic_string&, size_type, size_type)) Func(basic_string<CharT>::iterator basic_string<CharT>::insert(basic_string::const_iterator, value_type)) Func(basic_string<CharT>& basic_string<CharT>::replace(size_type, size_type, const value_type*)) Func(basic_string<CharT>& basic_string<CharT>::replace(size_type, size_type, size_type, value_type)) Func(basic_string<CharT>& basic_string<CharT>::replace(size_type, size_type, const value_type*, size_type)) Func(basic_string<CharT>& basic_string<CharT>::replace(size_type, size_type, const basic_string&, size_type, size_type)) Func(void basic_string<CharT>::__grow_by_and_replace(size_type, size_type, size_type, size_type, size_type, size_type, const value_type*)) Func(void basic_string<CharT>::resize(size_type, value_type)) Func(void basic_string<CharT>::reserve(size_type)) Func(basic_string<CharT>::size_type basic_string<CharT>::copy(value_type*, size_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::find(value_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::find(const value_type*, size_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::rfind(value_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::rfind(const value_type*, size_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::find_first_of(const value_type*, size_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::find_last_of(const value_type*, size_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::find_first_not_of(const value_type*, size_type, size_type) const) Func(basic_string<CharT>::size_type basic_string<CharT>::find_last_not_of(const value_type*, size_type, size_type) const) Func(CharT& basic_string<CharT>::at(size_type)) Func(const CharT& basic_string<CharT>::at(size_type) const) Func(int basic_string<CharT>::compare(const value_type*) const) Func(int basic_string<CharT>::compare(size_type, size_type, const value_type*) const) Func(int basic_string<CharT>::compare(size_type, size_type, const value_type*, size_type) const) Func(int basic_string<CharT>::compare(size_type, size_type, const basic_string&, size_type, size_type) const) Func(const basic_string<CharT>::size_type basic_string<CharT>::npos)
+#define _LIBCPP_STRING_H 
+#define _LIBCPP_STRING_INTERNAL_MEMORY_ACCESS 
+#define _LIBCPP_STRING_UNSTABLE_EXTERN_TEMPLATE_LIST(Func,CharT) _LIBCPP_STRING_COMMON_EXTERN_TEMPLATE_LIST(Func, CharT) Func(void basic_string<CharT>::__init_copy_ctor_external(const value_type*, size_type)) Func(basic_string<CharT>& basic_string<CharT>::__assign_external(const value_type*, size_type)) Func(basic_string<CharT>& basic_string<CharT>::__assign_external(const value_type*)) Func(basic_string<CharT>& basic_string<CharT>::__assign_no_alias<false>(const value_type*, size_type)) Func(basic_string<CharT>& basic_string<CharT>::__assign_no_alias<true>(const value_type*, size_type)) Func(void basic_string<CharT>::__erase_external_with_move(size_type, size_type))
+#define _LIBCPP_STRING_V1_EXTERN_TEMPLATE_LIST(Func,CharT) _LIBCPP_STRING_COMMON_EXTERN_TEMPLATE_LIST(Func, CharT) Func(basic_string<CharT>::basic_string(const basic_string&)) Func(basic_string<CharT>::basic_string(const basic_string&, const allocator<CharT>&)) Func(basic_string<CharT>& basic_string<CharT>::assign(const value_type*)) Func(basic_string<CharT>& basic_string<CharT>::assign(const value_type*, size_type)) Func(basic_string<CharT>& basic_string<CharT>::operator=(basic_string const&)) Func(void basic_string<CharT>::__grow_by(size_type, size_type, size_type, size_type, size_type, size_type)) Func(basic_string<CharT>& basic_string<CharT>::erase(size_type, size_type))
+#define _LIBCPP_STRING_VIEW 
+#define _LIBCPP_SUPPRESS_DEPRECATED_ERRC_POP _LIBCPP_SUPPRESS_DEPRECATED_POP
+#define _LIBCPP_SUPPRESS_DEPRECATED_ERRC_PUSH _LIBCPP_SUPPRESS_DEPRECATED_PUSH
+#define _LIBCPP_SUPPRESS_DEPRECATED_POP _LIBCPP_DIAGNOSTIC_POP
+#define _LIBCPP_SUPPRESS_DEPRECATED_PUSH _LIBCPP_DIAGNOSTIC_PUSH _LIBCPP_CLANG_DIAGNOSTIC_IGNORED("-Wdeprecated") _LIBCPP_GCC_DIAGNOSTIC_IGNORED("-Wdeprecated-declarations")
+#define _LIBCPP_SYSTEM_ERROR 
+#define _LIBCPP_TEMPLATE_DATA_VIS _LIBCPP_VISIBILITY("default")
+#define _LIBCPP_TIME_MASK LC_TIME_MASK
+#define _LIBCPP_TLS_DESTRUCTOR_CC 
+#define _LIBCPP_TOSTRING(x) _LIBCPP_TOSTRING2(x)
+#define _LIBCPP_TOSTRING2(x) #x
+#define _LIBCPP_TRY_ACQUIRE_CAPABILITY(...) [[_Clang::__try_acquire_capability__(__VA_ARGS__)]]
+#define _LIBCPP_TRY_ACQUIRE_SHARED_CAPABILITY(...) [[_Clang::__try_acquire_shared_capability__(__VA_ARGS__)]]
+#define _LIBCPP_TUPLE 
+#define _LIBCPP_TYPEINFO 
+#define _LIBCPP_TYPEINFO_COMPARISON_IMPLEMENTATION 1
+#define _LIBCPP_TYPE_INFO_VTABLE_POINTER_AUTH [[_Clang::__ptrauth_vtable_pointer__( process_independent, no_address_discrimination, no_extra_discrimination)]]
+#define _LIBCPP_TYPE_TRAITS 
+#define _LIBCPP_UNIQUE_PTR_TRIVIAL_ABI __attribute__((__trivial_abi__))
+#define _LIBCPP_UNORDERED_MAP 
+#define _LIBCPP_USING_GETENTROPY 
+#define _LIBCPP_USING_IF_EXISTS __attribute__((__using_if_exists__))
+#define _LIBCPP_UTILITY 
+#define _LIBCPP_VARIANT 
+#define _LIBCPP_VECTOR 
+#define _LIBCPP_VECTORIZE_ALGORITHMS 1
+#define _LIBCPP_VERBOSE_ABORT(...) ::std::__libcpp_verbose_abort(__VA_ARGS__)
+#define _LIBCPP_VERBOSE_TRAP(message) __builtin_verbose_trap("libc++", message)
+#define _LIBCPP_VERSION 220100
+#define _LIBCPP_VERSIONH 
+#define _LIBCPP_VISIBILITY(vis) __attribute__((__visibility__(vis)))
+#define _LIBCPP_WCHAR_H 
+#define _LIBCPP_WCTYPE_H 
+#define _LIBCPP_WEAK __attribute__((__weak__))
+#define _LIBCPP__ALGORITHM_RANGES_IS_SORTED_H 
+#define _LIBCPP__ALGORITHM_RANGES_IS_SORTED_UNTIL_H 
+#define _LIBCPP__UTILITY_PRIVATE_CONSTRUCTOR_TAG_H 
+#define _LIBCPP___ALGORITHM_ADJACENT_FIND_H 
+#define _LIBCPP___ALGORITHM_ALL_OF_H 
+#define _LIBCPP___ALGORITHM_ANY_OF_H 
+#define _LIBCPP___ALGORITHM_BINARY_SEARCH_H 
+#define _LIBCPP___ALGORITHM_CLAMP_H 
+#define _LIBCPP___ALGORITHM_COMP_H 
+#define _LIBCPP___ALGORITHM_COMP_REF_TYPE_H 
+#define _LIBCPP___ALGORITHM_COPY_BACKWARD_H 
+#define _LIBCPP___ALGORITHM_COPY_H 
+#define _LIBCPP___ALGORITHM_COPY_IF_H 
+#define _LIBCPP___ALGORITHM_COPY_MOVE_COMMON_H 
+#define _LIBCPP___ALGORITHM_COPY_N_H 
+#define _LIBCPP___ALGORITHM_COUNT_H 
+#define _LIBCPP___ALGORITHM_COUNT_IF_H 
+#define _LIBCPP___ALGORITHM_EQUAL_H 
+#define _LIBCPP___ALGORITHM_EQUAL_RANGE_H 
+#define _LIBCPP___ALGORITHM_FILL_H 
+#define _LIBCPP___ALGORITHM_FILL_N_H 
+#define _LIBCPP___ALGORITHM_FIND_END_OF_H 
+#define _LIBCPP___ALGORITHM_FIND_FIRST_OF_H 
+#define _LIBCPP___ALGORITHM_FIND_H 
+#define _LIBCPP___ALGORITHM_FIND_IF_H 
+#define _LIBCPP___ALGORITHM_FIND_IF_NOT_H 
+#define _LIBCPP___ALGORITHM_FIND_SEGMENT_IF_H 
+#define _LIBCPP___ALGORITHM_FOR_EACH_H 
+#define _LIBCPP___ALGORITHM_FOR_EACH_N_H 
+#define _LIBCPP___ALGORITHM_FOR_EACH_N_SEGMENT_H 
+#define _LIBCPP___ALGORITHM_FOR_EACH_SEGMENT_H 
+#define _LIBCPP___ALGORITHM_GENERATE_H 
+#define _LIBCPP___ALGORITHM_GENERATE_N_H 
+#define _LIBCPP___ALGORITHM_HALF_POSITIVE_H 
+#define _LIBCPP___ALGORITHM_INCLUDES_H 
+#define _LIBCPP___ALGORITHM_INPLACE_MERGE_H 
+#define _LIBCPP___ALGORITHM_IN_FOUND_RESULT_H 
+#define _LIBCPP___ALGORITHM_IN_FUN_RESULT_H 
+#define _LIBCPP___ALGORITHM_IN_IN_OUT_RESULT_H 
+#define _LIBCPP___ALGORITHM_IN_IN_RESULT_H 
+#define _LIBCPP___ALGORITHM_IN_OUT_OUT_RESULT_H 
+#define _LIBCPP___ALGORITHM_IN_OUT_RESULT_H 
+#define _LIBCPP___ALGORITHM_IS_HEAP_H 
+#define _LIBCPP___ALGORITHM_IS_HEAP_UNTIL_H 
+#define _LIBCPP___ALGORITHM_IS_PARTITIONED_H 
+#define _LIBCPP___ALGORITHM_IS_PERMUTATION_H 
+#define _LIBCPP___ALGORITHM_IS_SORTED_H 
+#define _LIBCPP___ALGORITHM_IS_SORTED_UNTIL_H 
+#define _LIBCPP___ALGORITHM_ITERATOR_OPERATIONS_H 
+#define _LIBCPP___ALGORITHM_ITER_SWAP_H 
+#define _LIBCPP___ALGORITHM_LEXICOGRAPHICAL_COMPARE_H 
+#define _LIBCPP___ALGORITHM_LEXICOGRAPHICAL_COMPARE_THREE_WAY_H 
+#define _LIBCPP___ALGORITHM_LOWER_BOUND_H 
+#define _LIBCPP___ALGORITHM_MAKE_HEAP_H 
+#define _LIBCPP___ALGORITHM_MAKE_PROJECTED_H 
+#define _LIBCPP___ALGORITHM_MAX_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_MAX_H 
+#define _LIBCPP___ALGORITHM_MERGE_H 
+#define _LIBCPP___ALGORITHM_MINMAX_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_MINMAX_H 
+#define _LIBCPP___ALGORITHM_MIN_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_MIN_H 
+#define _LIBCPP___ALGORITHM_MIN_MAX_RESULT_H 
+#define _LIBCPP___ALGORITHM_MISMATCH_H 
+#define _LIBCPP___ALGORITHM_MOVE_BACKWARD_H 
+#define _LIBCPP___ALGORITHM_MOVE_H 
+#define _LIBCPP___ALGORITHM_NEXT_PERMUTATION_H 
+#define _LIBCPP___ALGORITHM_NONE_OF_H 
+#define _LIBCPP___ALGORITHM_NTH_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_OUT_VALUE_RESULT_H 
+#define _LIBCPP___ALGORITHM_PARTIAL_SORT_COPY_H 
+#define _LIBCPP___ALGORITHM_PARTIAL_SORT_H 
+#define _LIBCPP___ALGORITHM_PARTITION_COPY_H 
+#define _LIBCPP___ALGORITHM_PARTITION_H 
+#define _LIBCPP___ALGORITHM_PARTITION_POINT_H 
+#define _LIBCPP___ALGORITHM_POP_HEAP_H 
+#define _LIBCPP___ALGORITHM_PREV_PERMUTATION_H 
+#define _LIBCPP___ALGORITHM_PSTL_H 
+#define _LIBCPP___ALGORITHM_PUSH_HEAP_H 
+#define _LIBCPP___ALGORITHM_RADIX_SORT_H 
+#define _LIBCPP___ALGORITHM_RANGES_ADJACENT_FIND_H 
+#define _LIBCPP___ALGORITHM_RANGES_ALL_OF_H 
+#define _LIBCPP___ALGORITHM_RANGES_ANY_OF_H 
+#define _LIBCPP___ALGORITHM_RANGES_BINARY_SEARCH_H 
+#define _LIBCPP___ALGORITHM_RANGES_CLAMP_H 
+#define _LIBCPP___ALGORITHM_RANGES_CONTAINS_H 
+#define _LIBCPP___ALGORITHM_RANGES_COPY_BACKWARD_H 
+#define _LIBCPP___ALGORITHM_RANGES_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_COPY_IF_H 
+#define _LIBCPP___ALGORITHM_RANGES_COPY_N_H 
+#define _LIBCPP___ALGORITHM_RANGES_COUNT_H 
+#define _LIBCPP___ALGORITHM_RANGES_COUNT_IF_H 
+#define _LIBCPP___ALGORITHM_RANGES_EQUAL_H 
+#define _LIBCPP___ALGORITHM_RANGES_EQUAL_RANGE_H 
+#define _LIBCPP___ALGORITHM_RANGES_FILL_H 
+#define _LIBCPP___ALGORITHM_RANGES_FILL_N_H 
+#define _LIBCPP___ALGORITHM_RANGES_FIND_END_H 
+#define _LIBCPP___ALGORITHM_RANGES_FIND_FIRST_OF_H 
+#define _LIBCPP___ALGORITHM_RANGES_FIND_H 
+#define _LIBCPP___ALGORITHM_RANGES_FIND_IF_H 
+#define _LIBCPP___ALGORITHM_RANGES_FIND_IF_NOT_H 
+#define _LIBCPP___ALGORITHM_RANGES_FOR_EACH_H 
+#define _LIBCPP___ALGORITHM_RANGES_FOR_EACH_N_H 
+#define _LIBCPP___ALGORITHM_RANGES_GENERATE_H 
+#define _LIBCPP___ALGORITHM_RANGES_GENERATE_N_H 
+#define _LIBCPP___ALGORITHM_RANGES_INCLUDES_H 
+#define _LIBCPP___ALGORITHM_RANGES_INPLACE_MERGE_H 
+#define _LIBCPP___ALGORITHM_RANGES_IS_HEAP_H 
+#define _LIBCPP___ALGORITHM_RANGES_IS_HEAP_UNTIL_H 
+#define _LIBCPP___ALGORITHM_RANGES_IS_PARTITIONED_H 
+#define _LIBCPP___ALGORITHM_RANGES_IS_PERMUTATION_H 
+#define _LIBCPP___ALGORITHM_RANGES_ITERATOR_CONCEPT_H 
+#define _LIBCPP___ALGORITHM_RANGES_LEXICOGRAPHICAL_COMPARE_H 
+#define _LIBCPP___ALGORITHM_RANGES_LOWER_BOUND_H 
+#define _LIBCPP___ALGORITHM_RANGES_MAKE_HEAP_H 
+#define _LIBCPP___ALGORITHM_RANGES_MAX_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_RANGES_MAX_H 
+#define _LIBCPP___ALGORITHM_RANGES_MERGE_H 
+#define _LIBCPP___ALGORITHM_RANGES_MINMAX_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_RANGES_MINMAX_H 
+#define _LIBCPP___ALGORITHM_RANGES_MIN_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_RANGES_MIN_H 
+#define _LIBCPP___ALGORITHM_RANGES_MISMATCH_H 
+#define _LIBCPP___ALGORITHM_RANGES_MOVE_BACKWARD_H 
+#define _LIBCPP___ALGORITHM_RANGES_MOVE_H 
+#define _LIBCPP___ALGORITHM_RANGES_NEXT_PERMUTATION_H 
+#define _LIBCPP___ALGORITHM_RANGES_NONE_OF_H 
+#define _LIBCPP___ALGORITHM_RANGES_NTH_ELEMENT_H 
+#define _LIBCPP___ALGORITHM_RANGES_PARTIAL_SORT_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_PARTIAL_SORT_H 
+#define _LIBCPP___ALGORITHM_RANGES_PARTITION_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_PARTITION_H 
+#define _LIBCPP___ALGORITHM_RANGES_PARTITION_POINT_H 
+#define _LIBCPP___ALGORITHM_RANGES_POP_HEAP_H 
+#define _LIBCPP___ALGORITHM_RANGES_PREV_PERMUTATION_H 
+#define _LIBCPP___ALGORITHM_RANGES_PUSH_HEAP_H 
+#define _LIBCPP___ALGORITHM_RANGES_REMOVE_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_REMOVE_COPY_IF_H 
+#define _LIBCPP___ALGORITHM_RANGES_REMOVE_H 
+#define _LIBCPP___ALGORITHM_RANGES_REMOVE_IF_H 
+#define _LIBCPP___ALGORITHM_RANGES_REPLACE_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_REPLACE_COPY_IF_H 
+#define _LIBCPP___ALGORITHM_RANGES_REPLACE_H 
+#define _LIBCPP___ALGORITHM_RANGES_REPLACE_IF_H 
+#define _LIBCPP___ALGORITHM_RANGES_REVERSE_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_REVERSE_H 
+#define _LIBCPP___ALGORITHM_RANGES_ROTATE_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_ROTATE_H 
+#define _LIBCPP___ALGORITHM_RANGES_SAMPLE_H 
+#define _LIBCPP___ALGORITHM_RANGES_SEARCH_H 
+#define _LIBCPP___ALGORITHM_RANGES_SEARCH_N_H 
+#define _LIBCPP___ALGORITHM_RANGES_SET_DIFFERENCE_H 
+#define _LIBCPP___ALGORITHM_RANGES_SET_INTERSECTION_H 
+#define _LIBCPP___ALGORITHM_RANGES_SET_SYMMETRIC_DIFFERENCE_H 
+#define _LIBCPP___ALGORITHM_RANGES_SET_UNION_H 
+#define _LIBCPP___ALGORITHM_RANGES_SHUFFLE_H 
+#define _LIBCPP___ALGORITHM_RANGES_SORT_H 
+#define _LIBCPP___ALGORITHM_RANGES_SORT_HEAP_H 
+#define _LIBCPP___ALGORITHM_RANGES_STABLE_PARTITION_H 
+#define _LIBCPP___ALGORITHM_RANGES_STABLE_SORT_H 
+#define _LIBCPP___ALGORITHM_RANGES_SWAP_RANGES_H 
+#define _LIBCPP___ALGORITHM_RANGES_TRANSFORM_H 
+#define _LIBCPP___ALGORITHM_RANGES_UNIFORM_RANDOM_BIT_GENERATOR_ADAPTOR_H 
+#define _LIBCPP___ALGORITHM_RANGES_UNIQUE_COPY_H 
+#define _LIBCPP___ALGORITHM_RANGES_UNIQUE_H 
+#define _LIBCPP___ALGORITHM_RANGES_UPPER_BOUND_H 
+#define _LIBCPP___ALGORITHM_REMOVE_COPY_H 
+#define _LIBCPP___ALGORITHM_REMOVE_COPY_IF_H 
+#define _LIBCPP___ALGORITHM_REMOVE_H 
+#define _LIBCPP___ALGORITHM_REMOVE_IF_H 
+#define _LIBCPP___ALGORITHM_REPLACE_COPY_H 
+#define _LIBCPP___ALGORITHM_REPLACE_COPY_IF_H 
+#define _LIBCPP___ALGORITHM_REPLACE_H 
+#define _LIBCPP___ALGORITHM_REPLACE_IF_H 
+#define _LIBCPP___ALGORITHM_REVERSE_COPY_H 
+#define _LIBCPP___ALGORITHM_REVERSE_H 
+#define _LIBCPP___ALGORITHM_ROTATE_COPY_H 
+#define _LIBCPP___ALGORITHM_ROTATE_H 
+#define _LIBCPP___ALGORITHM_SAMPLE_H 
+#define _LIBCPP___ALGORITHM_SEARCH_H 
+#define _LIBCPP___ALGORITHM_SEARCH_N_H 
+#define _LIBCPP___ALGORITHM_SET_DIFFERENCE_H 
+#define _LIBCPP___ALGORITHM_SET_INTERSECTION_H 
+#define _LIBCPP___ALGORITHM_SET_SYMMETRIC_DIFFERENCE_H 
+#define _LIBCPP___ALGORITHM_SET_UNION_H 
+#define _LIBCPP___ALGORITHM_SHIFT_LEFT_H 
+#define _LIBCPP___ALGORITHM_SHIFT_RIGHT_H 
+#define _LIBCPP___ALGORITHM_SHUFFLE_H 
+#define _LIBCPP___ALGORITHM_SIFT_DOWN_H 
+#define _LIBCPP___ALGORITHM_SIMD_UTILS_H 
+#define _LIBCPP___ALGORITHM_SORT_H 
+#define _LIBCPP___ALGORITHM_SORT_HEAP_H 
+#define _LIBCPP___ALGORITHM_SPECIALIZED_ALGORITHMS_H 
+#define _LIBCPP___ALGORITHM_STABLE_PARTITION_H 
+#define _LIBCPP___ALGORITHM_STABLE_SORT_H 
+#define _LIBCPP___ALGORITHM_SWAP_RANGES_H 
+#define _LIBCPP___ALGORITHM_THREE_WAY_COMP_REF_TYPE_H 
+#define _LIBCPP___ALGORITHM_TRANSFORM_H 
+#define _LIBCPP___ALGORITHM_UNIQUE_COPY_H 
+#define _LIBCPP___ALGORITHM_UNIQUE_H 
+#define _LIBCPP___ALGORITHM_UNWRAP_ITER_H 
+#define _LIBCPP___ALGORITHM_UNWRAP_RANGE_H 
+#define _LIBCPP___ALGORITHM_UPPER_BOUND_H 
+#define _LIBCPP___ASSERT 
+#define _LIBCPP___ASSERTION_HANDLER 
+#define _LIBCPP___ATOMIC_ALIASES_H 
+#define _LIBCPP___ATOMIC_ATOMIC_FLAG_H 
+#define _LIBCPP___ATOMIC_ATOMIC_H 
+#define _LIBCPP___ATOMIC_ATOMIC_INIT_H 
+#define _LIBCPP___ATOMIC_ATOMIC_LOCK_FREE_H 
+#define _LIBCPP___ATOMIC_ATOMIC_REF_H 
+#define _LIBCPP___ATOMIC_ATOMIC_SYNC_H 
+#define _LIBCPP___ATOMIC_ATOMIC_SYNC_TIMED_H 
+#define _LIBCPP___ATOMIC_ATOMIC_WAITABLE_TRAITS_H 
+#define _LIBCPP___ATOMIC_CHECK_MEMORY_ORDER_H 
+#define _LIBCPP___ATOMIC_CONTENTION_T_H 
+#define _LIBCPP___ATOMIC_FENCE_H 
+#define _LIBCPP___ATOMIC_FLOATING_POINT_HELPER_H 
+#define _LIBCPP___ATOMIC_IS_ALWAYS_LOCK_FREE_H 
+#define _LIBCPP___ATOMIC_KILL_DEPENDENCY_H 
+#define _LIBCPP___ATOMIC_MEMORY_ORDER_H 
+#define _LIBCPP___ATOMIC_SUPPORT_C11_H 
+#define _LIBCPP___ATOMIC_SUPPORT_H 
+#define _LIBCPP___ATOMIC_TO_GCC_ORDER_H 
+#define _LIBCPP___BIT_BIT_CAST_H 
+#define _LIBCPP___BIT_BIT_CEIL_H 
+#define _LIBCPP___BIT_BIT_FLOOR_H 
+#define _LIBCPP___BIT_BIT_LOG2_H 
+#define _LIBCPP___BIT_BIT_WIDTH_H 
+#define _LIBCPP___BIT_BLSR_H 
+#define _LIBCPP___BIT_COUNTL_H 
+#define _LIBCPP___BIT_COUNTR_H 
+#define _LIBCPP___BIT_ENDIAN_H 
+#define _LIBCPP___BIT_HAS_SINGLE_BIT_H 
+#define _LIBCPP___BIT_INVERT_IF_H 
+#define _LIBCPP___BIT_POPCOUNT_H 
+#define _LIBCPP___BIT_REFERENCE 
+#define _LIBCPP___BIT_ROTATE_H 
+#define _LIBCPP___CHARCONV_TABLES 
+#define _LIBCPP___CHARCONV_TO_CHARS_BASE_10_H 
+#define _LIBCPP___CHARCONV_TO_CHARS_INTEGRAL_H 
+#define _LIBCPP___CHARCONV_TO_CHARS_RESULT_H 
+#define _LIBCPP___CHARCONV_TRAITS 
+#define _LIBCPP___CHRONO_CONVERT_TO_TIMESPEC_H 
+#define _LIBCPP___CHRONO_DURATION_H 
+#define _LIBCPP___CHRONO_HIGH_RESOLUTION_CLOCK_H 
+#define _LIBCPP___CHRONO_STEADY_CLOCK_H 
+#define _LIBCPP___CHRONO_SYSTEM_CLOCK_H 
+#define _LIBCPP___CHRONO_TIME_POINT_H 
+#define _LIBCPP___COMPARE_COMMON_COMPARISON_CATEGORY_H 
+#define _LIBCPP___COMPARE_COMPARE_PARTIAL_ORDER_FALLBACK 
+#define _LIBCPP___COMPARE_COMPARE_STRONG_ORDER_FALLBACK 
+#define _LIBCPP___COMPARE_COMPARE_THREE_WAY_H 
+#define _LIBCPP___COMPARE_COMPARE_THREE_WAY_RESULT_H 
+#define _LIBCPP___COMPARE_COMPARE_WEAK_ORDER_FALLBACK 
+#define _LIBCPP___COMPARE_IS_EQ_H 
+#define _LIBCPP___COMPARE_ORDERING_H 
+#define _LIBCPP___COMPARE_PARTIAL_ORDER 
+#define _LIBCPP___COMPARE_STRONG_ORDER 
+#define _LIBCPP___COMPARE_SYNTH_THREE_WAY_H 
+#define _LIBCPP___COMPARE_THREE_WAY_COMPARABLE_H 
+#define _LIBCPP___COMPARE_WEAK_ORDER 
+#define _LIBCPP___CONCEPTS_ARITHMETIC_H 
+#define _LIBCPP___CONCEPTS_ASSIGNABLE_H 
+#define _LIBCPP___CONCEPTS_BOOLEAN_TESTABLE_H 
+#define _LIBCPP___CONCEPTS_CLASS_OR_ENUM_H 
+#define _LIBCPP___CONCEPTS_COMMON_REFERENCE_WITH_H 
+#define _LIBCPP___CONCEPTS_COMMON_WITH_H 
+#define _LIBCPP___CONCEPTS_COMPARISON_COMMON_TYPE_H 
+#define _LIBCPP___CONCEPTS_CONSTRUCTIBLE_H 
+#define _LIBCPP___CONCEPTS_CONVERTIBLE_TO_H 
+#define _LIBCPP___CONCEPTS_COPYABLE_H 
+#define _LIBCPP___CONCEPTS_DERIVED_FROM_H 
+#define _LIBCPP___CONCEPTS_DESTRUCTIBLE_H 
+#define _LIBCPP___CONCEPTS_DIFFERENT_FROM_H 
+#define _LIBCPP___CONCEPTS_EQUALITY_COMPARABLE_H 
+#define _LIBCPP___CONCEPTS_INVOCABLE_H 
+#define _LIBCPP___CONCEPTS_MOVABLE_H 
+#define _LIBCPP___CONCEPTS_PREDICATE_H 
+#define _LIBCPP___CONCEPTS_REGULAR_H 
+#define _LIBCPP___CONCEPTS_RELATION_H 
+#define _LIBCPP___CONCEPTS_SAME_AS_H 
+#define _LIBCPP___CONCEPTS_SEMIREGULAR_H 
+#define _LIBCPP___CONCEPTS_SWAPPABLE_H 
+#define _LIBCPP___CONCEPTS_TOTALLY_ORDERED_H 
+#define _LIBCPP___CONDITION_VARIABLE_CONDITION_VARIABLE_H 
+#define _LIBCPP___CONFIG 
+#define _LIBCPP___CONFIGURATION_ABI_H 
+#define _LIBCPP___CONFIGURATION_AVAILABILITY_H 
+#define _LIBCPP___CONFIGURATION_COMPILER_H 
+#define _LIBCPP___CONFIGURATION_EXPERIMENTAL_H 
+#define _LIBCPP___CONFIGURATION_HARDENING_H 
+#define _LIBCPP___CONFIGURATION_LANGUAGE_H 
+#define _LIBCPP___CONFIGURATION_PLATFORM_H 
+#define _LIBCPP___CONFIG_SITE 
+#define _LIBCPP___CSTDDEF_BYTE_H 
+#define _LIBCPP___CSTDDEF_MAX_ALIGN_T_H 
+#define _LIBCPP___CSTDDEF_NULLPTR_T_H 
+#define _LIBCPP___CSTDDEF_PTRDIFF_T_H 
+#define _LIBCPP___CSTDDEF_SIZE_T_H 
+#define _LIBCPP___ERRC 
+#define _LIBCPP___EXCEPTION_EXCEPTION_H 
+#define _LIBCPP___EXCEPTION_EXCEPTION_PTR_H 
+#define _LIBCPP___EXCEPTION_NESTED_EXCEPTION_H 
+#define _LIBCPP___EXCEPTION_OPERATIONS_H 
+#define _LIBCPP___EXCEPTION_TERMINATE_H 
+#define _LIBCPP___FORMAT_ENABLE_INSERTABLE_H 
+#define _LIBCPP___FORMAT_FMT_PAIR_LIKE_H 
+#define _LIBCPP___FORMAT_RANGE_FORMAT_H 
+#define _LIBCPP___FUNCTIONAL_BINARY_FUNCTION_H 
+#define _LIBCPP___FUNCTIONAL_BINARY_NEGATE_H 
+#define _LIBCPP___FUNCTIONAL_BINDER1ST_H 
+#define _LIBCPP___FUNCTIONAL_BINDER2ND_H 
+#define _LIBCPP___FUNCTIONAL_BIND_BACK_H 
+#define _LIBCPP___FUNCTIONAL_BIND_FRONT_H 
+#define _LIBCPP___FUNCTIONAL_BIND_H 
+#define _LIBCPP___FUNCTIONAL_BOYER_MOORE_SEARCHER_H 
+#define _LIBCPP___FUNCTIONAL_COMPOSE_H 
+#define _LIBCPP___FUNCTIONAL_DEFAULT_SEARCHER_H 
+#define _LIBCPP___FUNCTIONAL_FUNCTION_H 
+#define _LIBCPP___FUNCTIONAL_HASH_H 
+#define _LIBCPP___FUNCTIONAL_IDENTITY_H 
+#define _LIBCPP___FUNCTIONAL_INVOKE_H 
+#define _LIBCPP___FUNCTIONAL_IS_TRANSPARENT 
+#define _LIBCPP___FUNCTIONAL_MEM_FN_H 
+#define _LIBCPP___FUNCTIONAL_MEM_FUN_REF_H 
+#define _LIBCPP___FUNCTIONAL_NOT_FN_H 
+#define _LIBCPP___FUNCTIONAL_OPERATIONS_H 
+#define _LIBCPP___FUNCTIONAL_PERFECT_FORWARD_H 
+#define _LIBCPP___FUNCTIONAL_POINTER_TO_BINARY_FUNCTION_H 
+#define _LIBCPP___FUNCTIONAL_POINTER_TO_UNARY_FUNCTION_H 
+#define _LIBCPP___FUNCTIONAL_RANGES_OPERATIONS_H 
+#define _LIBCPP___FUNCTIONAL_REFERENCE_WRAPPER_H 
+#define _LIBCPP___FUNCTIONAL_UNARY_FUNCTION_H 
+#define _LIBCPP___FUNCTIONAL_UNARY_NEGATE_H 
+#define _LIBCPP___FUNCTIONAL_WEAK_RESULT_TYPE_H 
+#define _LIBCPP___FWD_ARRAY_H 
+#define _LIBCPP___FWD_BIT_REFERENCE_H 
+#define _LIBCPP___FWD_BYTE_H 
+#define _LIBCPP___FWD_COMPLEX_H 
+#define _LIBCPP___FWD_FSTREAM_H 
+#define _LIBCPP___FWD_FUNCTIONAL_H 
+#define _LIBCPP___FWD_GET_H 
+#define _LIBCPP___FWD_IOS_H 
+#define _LIBCPP___FWD_ISTREAM_H 
+#define _LIBCPP___FWD_MEMORY_H 
+#define _LIBCPP___FWD_MEMORY_RESOURCE_H 
+#define _LIBCPP___FWD_OSTREAM_H 
+#define _LIBCPP___FWD_PAIR_H 
+#define _LIBCPP___FWD_SPAN_H 
+#define _LIBCPP___FWD_SSTREAM_H 
+#define _LIBCPP___FWD_STREAMBUF_H 
+#define _LIBCPP___FWD_STRING_H 
+#define _LIBCPP___FWD_STRING_VIEW_H 
+#define _LIBCPP___FWD_SUBRANGE_H 
+#define _LIBCPP___FWD_TUPLE_H 
+#define _LIBCPP___FWD_VARIANT_H 
+#define _LIBCPP___FWD_VECTOR_H 
+#define _LIBCPP___HASH_TABLE 
+#define _LIBCPP___INOUT_PTR_H 
+#define _LIBCPP___IOS_FPOS_H 
+#define _LIBCPP___ITERATOR_ACCESS_H 
+#define _LIBCPP___ITERATOR_ADVANCE_H 
+#define _LIBCPP___ITERATOR_ALIASING_ITERATOR_H 
+#define _LIBCPP___ITERATOR_BACK_INSERT_ITERATOR_H 
+#define _LIBCPP___ITERATOR_BOUNDED_ITER_H 
+#define _LIBCPP___ITERATOR_COMMON_ITERATOR_H 
+#define _LIBCPP___ITERATOR_CONCEPTS_H 
+#define _LIBCPP___ITERATOR_COUNTED_ITERATOR_H 
+#define _LIBCPP___ITERATOR_DATA_H 
+#define _LIBCPP___ITERATOR_DEFAULT_SENTINEL_H 
+#define _LIBCPP___ITERATOR_DISTANCE_H 
+#define _LIBCPP___ITERATOR_EMPTY_H 
+#define _LIBCPP___ITERATOR_ERASE_IF_CONTAINER_H 
+#define _LIBCPP___ITERATOR_FRONT_INSERT_ITERATOR_H 
+#define _LIBCPP___ITERATOR_INCREMENTABLE_TRAITS_H 
+#define _LIBCPP___ITERATOR_INDIRECTLY_COMPARABLE_H 
+#define _LIBCPP___ITERATOR_INSERT_ITERATOR_H 
+#define _LIBCPP___ITERATOR_ISTREAMBUF_ITERATOR_H 
+#define _LIBCPP___ITERATOR_ISTREAM_ITERATOR_H 
+#define _LIBCPP___ITERATOR_ITERATOR_H 
+#define _LIBCPP___ITERATOR_ITERATOR_TRAITS_H 
+#define _LIBCPP___ITERATOR_ITERATOR_WITH_DATA_H 
+#define _LIBCPP___ITERATOR_ITER_MOVE_H 
+#define _LIBCPP___ITERATOR_ITER_SWAP_H 
+#define _LIBCPP___ITERATOR_MERGEABLE_H 
+#define _LIBCPP___ITERATOR_MOVE_ITERATOR_H 
+#define _LIBCPP___ITERATOR_MOVE_SENTINEL_H 
+#define _LIBCPP___ITERATOR_NEXT_H 
+#define _LIBCPP___ITERATOR_OSTREAMBUF_ITERATOR_H 
+#define _LIBCPP___ITERATOR_OSTREAM_ITERATOR_H 
+#define _LIBCPP___ITERATOR_PERMUTABLE_H 
+#define _LIBCPP___ITERATOR_PREV_H 
+#define _LIBCPP___ITERATOR_PROJECTED_H 
+#define _LIBCPP___ITERATOR_RANGES_ITERATOR_TRAITS_H 
+#define _LIBCPP___ITERATOR_READABLE_TRAITS_H 
+#define _LIBCPP___ITERATOR_REVERSE_ACCESS_H 
+#define _LIBCPP___ITERATOR_REVERSE_ITERATOR_H 
+#define _LIBCPP___ITERATOR_SIZE_H 
+#define _LIBCPP___ITERATOR_SORTABLE_H 
+#define _LIBCPP___ITERATOR_STATIC_BOUNDED_ITER_H 
+#define _LIBCPP___ITERATOR_UNREACHABLE_SENTINEL_H 
+#define _LIBCPP___ITERATOR_WRAP_ITER_H 
+#define _LIBCPP___LIBCXX_DEBUG_RANDOMIZE_RANGE_H 
+#define _LIBCPP___LIBCXX_DEBUG_STRICT_WEAK_ORDERING_CHECK 
+#define _LIBCPP___LIBCXX_DEBUG_UTILS_SANITIZERS_H 
+#define _LIBCPP___LOCALE 
+#define _LIBCPP___LOCALE_DIR_CHECK_GROUPING_H 
+#define _LIBCPP___LOCALE_DIR_GET_C_LOCALE_H 
+#define _LIBCPP___LOCALE_DIR_LOCALE_BASE_API_BSD_LOCALE_FALLBACKS_H 
+#define _LIBCPP___LOCALE_DIR_LOCALE_BASE_API_H 
+#define _LIBCPP___LOCALE_DIR_MESSAGES_H 
+#define _LIBCPP___LOCALE_DIR_MONEY_H 
+#define _LIBCPP___LOCALE_DIR_NUM_H 
+#define _LIBCPP___LOCALE_DIR_PAD_AND_OUTPUT_H 
+#define _LIBCPP___LOCALE_DIR_SCAN_KEYWORD_H 
+#define _LIBCPP___LOCALE_DIR_TIME_H 
+#define _LIBCPP___LOCALE_DIR_WBUFFER_CONVERT_H 
+#define _LIBCPP___LOCALE_DIR_WSTRING_CONVERT_H 
+#define _LIBCPP___LOG_HARDENING_FAILURE 
+#define _LIBCPP___MATH_ABS_H 
+#define _LIBCPP___MATH_COPYSIGN_H 
+#define _LIBCPP___MATH_ERROR_FUNCTIONS_H 
+#define _LIBCPP___MATH_EXPONENTIAL_FUNCTIONS_H 
+#define _LIBCPP___MATH_FDIM_H 
+#define _LIBCPP___MATH_FMA_H 
+#define _LIBCPP___MATH_GAMMA_H 
+#define _LIBCPP___MATH_HYPERBOLIC_FUNCTIONS_H 
+#define _LIBCPP___MATH_HYPOT_H 
+#define _LIBCPP___MATH_INVERSE_HYPERBOLIC_FUNCTIONS_H 
+#define _LIBCPP___MATH_INVERSE_TRIGONOMETRIC_FUNCTIONS_H 
+#define _LIBCPP___MATH_LOGARITHMS_H 
+#define _LIBCPP___MATH_MIN_MAX_H 
+#define _LIBCPP___MATH_MODULO_H 
+#define _LIBCPP___MATH_REMAINDER_H 
+#define _LIBCPP___MATH_ROOTS_H 
+#define _LIBCPP___MATH_ROUNDING_FUNCTIONS_H 
+#define _LIBCPP___MATH_SPECIAL_FUNCTIONS_H 
+#define _LIBCPP___MATH_TRAITS_H 
+#define _LIBCPP___MATH_TRIGONOMETRIC_FUNCTIONS_H 
+#define _LIBCPP___MBSTATE_T_H 
+#define _LIBCPP___MEMORY_ADDRESSOF_H 
+#define _LIBCPP___MEMORY_ALIGN_H 
+#define _LIBCPP___MEMORY_ALLOCATE_AT_LEAST_H 
+#define _LIBCPP___MEMORY_ALLOCATION_GUARD_H 
+#define _LIBCPP___MEMORY_ALLOCATOR_ARG_T_H 
+#define _LIBCPP___MEMORY_ALLOCATOR_DESTRUCTOR_H 
+#define _LIBCPP___MEMORY_ALLOCATOR_H 
+#define _LIBCPP___MEMORY_ALLOCATOR_TRAITS_H 
+#define _LIBCPP___MEMORY_ARRAY_COOKIE_H 
+#define _LIBCPP___MEMORY_ASSUME_ALIGNED_H 
+#define _LIBCPP___MEMORY_AUTO_PTR_H 
+#define _LIBCPP___MEMORY_COMPRESSED_PAIR_H 
+#define _LIBCPP___MEMORY_CONCEPTS_H 
+#define _LIBCPP___MEMORY_CONSTRUCT_AT_H 
+#define _LIBCPP___MEMORY_DESTROY_H 
+#define _LIBCPP___MEMORY_DESTRUCT_N_H 
+#define _LIBCPP___MEMORY_IS_SUFFICIENTLY_ALIGNED_H 
+#define _LIBCPP___MEMORY_NOEXCEPT_MOVE_ASSIGN_CONTAINER_H 
+#define _LIBCPP___MEMORY_POINTER_TRAITS_H 
+#define _LIBCPP___MEMORY_RANGES_CONSTRUCT_AT_H 
+#define _LIBCPP___MEMORY_RANGES_DESTROY_H 
+#define _LIBCPP___MEMORY_RANGES_UNINITIALIZED_ALGORITHMS_H 
+#define _LIBCPP___MEMORY_RAW_STORAGE_ITERATOR_H 
+#define _LIBCPP___MEMORY_RESOURCE_MEMORY_RESOURCE_H 
+#define _LIBCPP___MEMORY_RESOURCE_POLYMORPHIC_ALLOCATOR_H 
+#define _LIBCPP___MEMORY_SHARED_COUNT_H 
+#define _LIBCPP___MEMORY_SHARED_PTR_H 
+#define _LIBCPP___MEMORY_SWAP_ALLOCATOR_H 
+#define _LIBCPP___MEMORY_TEMPORARY_BUFFER_H 
+#define _LIBCPP___MEMORY_TEMP_VALUE_H 
+#define _LIBCPP___MEMORY_UNINITIALIZED_ALGORITHMS_H 
+#define _LIBCPP___MEMORY_UNIQUE_PTR_H 
+#define _LIBCPP___MEMORY_UNIQUE_TEMPORARY_BUFFER_H 
+#define _LIBCPP___MEMORY_USES_ALLOCATOR_CONSTRUCTION_H 
+#define _LIBCPP___MEMORY_USES_ALLOCATOR_H 
+#define _LIBCPP___MUTEX_LOCK_GUARD_H 
+#define _LIBCPP___MUTEX_MUTEX_H 
+#define _LIBCPP___MUTEX_ONCE_FLAG_H 
+#define _LIBCPP___MUTEX_TAG_TYPES_H 
+#define _LIBCPP___MUTEX_UNIQUE_LOCK_H 
+#define _LIBCPP___NEW_ALIGN_VAL_T_H 
+#define _LIBCPP___NEW_ALLOCATE_H 
+#define _LIBCPP___NEW_DESTROYING_DELETE_T_H 
+#define _LIBCPP___NEW_EXCEPTIONS_H 
+#define _LIBCPP___NEW_GLOBAL_NEW_DELETE_H 
+#define _LIBCPP___NEW_INTERFERENCE_SIZE_H 
+#define _LIBCPP___NEW_LAUNDER_H 
+#define _LIBCPP___NEW_NEW_HANDLER_H 
+#define _LIBCPP___NEW_NOTHROW_T_H 
+#define _LIBCPP___NEW_PLACEMENT_NEW_DELETE_H 
+#define _LIBCPP___NODE_HANDLE 
+#define _LIBCPP___NUMERIC_PARTIAL_SUM_H 
+#define _LIBCPP___OUT_PTR_H 
+#define _LIBCPP___RANDOM_IS_VALID_H 
+#define _LIBCPP___RANDOM_LOG2_H 
+#define _LIBCPP___RANDOM_UNIFORM_INT_DISTRIBUTION_H 
+#define _LIBCPP___RANDOM_UNIFORM_RANDOM_BIT_GENERATOR_H 
+#define _LIBCPP___RANGES_ACCESS_H 
+#define _LIBCPP___RANGES_ALL_H 
+#define _LIBCPP___RANGES_AS_RVALUE_H 
+#define _LIBCPP___RANGES_COMMON_VIEW_H 
+#define _LIBCPP___RANGES_CONCEPTS_H 
+#define _LIBCPP___RANGES_CONTAINER_COMPATIBLE_RANGE_H 
+#define _LIBCPP___RANGES_COUNTED_H 
+#define _LIBCPP___RANGES_DANGLING_H 
+#define _LIBCPP___RANGES_DATA_H 
+#define _LIBCPP___RANGES_DROP_VIEW_H 
+#define _LIBCPP___RANGES_DROP_WHILE_VIEW_H 
+#define _LIBCPP___RANGES_ELEMENTS_OF_H 
+#define _LIBCPP___RANGES_ELEMENTS_VIEW_H 
+#define _LIBCPP___RANGES_EMPTY_H 
+#define _LIBCPP___RANGES_EMPTY_VIEW_H 
+#define _LIBCPP___RANGES_ENABLE_BORROWED_RANGE_H 
+#define _LIBCPP___RANGES_ENABLE_VIEW_H 
+#define _LIBCPP___RANGES_FILTER_VIEW_H 
+#define _LIBCPP___RANGES_FROM_RANGE_H 
+#define _LIBCPP___RANGES_IOTA_VIEW_H 
+#define _LIBCPP___RANGES_ISTREAM_VIEW_H 
+#define _LIBCPP___RANGES_JOIN_VIEW_H 
+#define _LIBCPP___RANGES_LAZY_SPLIT_VIEW_H 
+#define _LIBCPP___RANGES_MOVABLE_BOX_H 
+#define _LIBCPP___RANGES_NON_PROPAGATING_CACHE_H 
+#define _LIBCPP___RANGES_OWNING_VIEW_H 
+#define _LIBCPP___RANGES_RANGE_ADAPTOR_H 
+#define _LIBCPP___RANGES_RBEGIN_H 
+#define _LIBCPP___RANGES_REF_VIEW_H 
+#define _LIBCPP___RANGES_REND_H 
+#define _LIBCPP___RANGES_REPEAT_VIEW_H 
+#define _LIBCPP___RANGES_REVERSE_VIEW_H 
+#define _LIBCPP___RANGES_SINGLE_VIEW_H 
+#define _LIBCPP___RANGES_SIZE_H 
+#define _LIBCPP___RANGES_SPLIT_VIEW_H 
+#define _LIBCPP___RANGES_SUBRANGE_H 
+#define _LIBCPP___RANGES_TAKE_VIEW_H 
+#define _LIBCPP___RANGES_TAKE_WHILE_VIEW_H 
+#define _LIBCPP___RANGES_TRANSFORM_VIEW_H 
+#define _LIBCPP___RANGES_VIEWS 
+#define _LIBCPP___RANGES_VIEW_INTERFACE_H 
+#define _LIBCPP___SEGMENTED_ITERATOR_H 
+#define _LIBCPP___SPLIT_BUFFER 
+#define _LIBCPP___STD_MBSTATE_T_H 
+#define _LIBCPP___STRING_CHAR_TRAITS_H 
+#define _LIBCPP___STRING_CONSTEXPR_C_FUNCTIONS_H 
+#define _LIBCPP___STRING_EXTERN_TEMPLATE_LISTS_H 
+#define _LIBCPP___SYSTEM_ERROR_ERROR_CATEGORY_H 
+#define _LIBCPP___SYSTEM_ERROR_ERROR_CODE_H 
+#define _LIBCPP___SYSTEM_ERROR_ERROR_CONDITION_H 
+#define _LIBCPP___SYSTEM_ERROR_SYSTEM_ERROR_H 
+#define _LIBCPP___SYSTEM_ERROR_THROW_SYSTEM_ERROR_H 
+#define _LIBCPP___THREAD_ID_H 
+#define _LIBCPP___THREAD_POLL_WITH_BACKOFF_H 
+#define _LIBCPP___THREAD_SUPPORT_H 
+#define _LIBCPP___THREAD_SUPPORT_PTHREAD_H 
+#define _LIBCPP___THREAD_TIMED_BACKOFF_POLICY_H 
+#define _LIBCPP___TUPLE_FIND_INDEX_H 
+#define _LIBCPP___TUPLE_IGNORE_H 
+#define _LIBCPP___TUPLE_SFINAE_HELPERS_H 
+#define _LIBCPP___TUPLE_TUPLE_ELEMENT_H 
+#define _LIBCPP___TUPLE_TUPLE_LIKE_H 
+#define _LIBCPP___TUPLE_TUPLE_LIKE_NO_SUBRANGE_H 
+#define _LIBCPP___TUPLE_TUPLE_SIZE_H 
+#define _LIBCPP___TYPE_IS_ALLOCATOR_H 
+#define _LIBCPP___TYPE_IS_CONSTRUCTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_ADD_CV_H 
+#define _LIBCPP___TYPE_TRAITS_ADD_POINTER_H 
+#define _LIBCPP___TYPE_TRAITS_ADD_REFERENCE_H 
+#define _LIBCPP___TYPE_TRAITS_ALIGNED_STORAGE_H 
+#define _LIBCPP___TYPE_TRAITS_ALIGNED_UNION_H 
+#define _LIBCPP___TYPE_TRAITS_ALIGNMENT_OF_H 
+#define _LIBCPP___TYPE_TRAITS_COMMON_REFERENCE_H 
+#define _LIBCPP___TYPE_TRAITS_COMMON_TYPE_H 
+#define _LIBCPP___TYPE_TRAITS_CONDITIONAL_H 
+#define _LIBCPP___TYPE_TRAITS_CONJUNCTION_H 
+#define _LIBCPP___TYPE_TRAITS_CONTAINER_TRAITS_H 
+#define _LIBCPP___TYPE_TRAITS_COPY_CVREF_H 
+#define _LIBCPP___TYPE_TRAITS_COPY_CV_H 
+#define _LIBCPP___TYPE_TRAITS_DATASIZEOF_H 
+#define _LIBCPP___TYPE_TRAITS_DECAY_H 
+#define _LIBCPP___TYPE_TRAITS_DEPENDENT_TYPE_H 
+#define _LIBCPP___TYPE_TRAITS_DESUGARS_TO_H 
+#define _LIBCPP___TYPE_TRAITS_DETECTED_OR_H 
+#define _LIBCPP___TYPE_TRAITS_DISJUNCTION_H 
+#define _LIBCPP___TYPE_TRAITS_ENABLE_IF_H 
+#define _LIBCPP___TYPE_TRAITS_EXTENT_H 
+#define _LIBCPP___TYPE_TRAITS_HAS_UNIQUE_OBJECT_REPRESENTATION_H 
+#define _LIBCPP___TYPE_TRAITS_HAS_VIRTUAL_DESTRUCTOR_H 
+#define _LIBCPP___TYPE_TRAITS_INTEGER_TRAITS_H 
+#define _LIBCPP___TYPE_TRAITS_INTEGRAL_CONSTANT_H 
+#define _LIBCPP___TYPE_TRAITS_INVOKE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_ABSTRACT_H 
+#define _LIBCPP___TYPE_TRAITS_IS_AGGREGATE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_ALWAYS_BITCASTABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_ARITHMETIC_H 
+#define _LIBCPP___TYPE_TRAITS_IS_ARRAY_H 
+#define _LIBCPP___TYPE_TRAITS_IS_ASSIGNABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_BASE_OF_H 
+#define _LIBCPP___TYPE_TRAITS_IS_CALLABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_CLASS_H 
+#define _LIBCPP___TYPE_TRAITS_IS_COMPOUND_H 
+#define _LIBCPP___TYPE_TRAITS_IS_CONSTANT_EVALUATED_H 
+#define _LIBCPP___TYPE_TRAITS_IS_CONST_H 
+#define _LIBCPP___TYPE_TRAITS_IS_CONVERTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_CORE_CONVERTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_DESTRUCTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_EMPTY_H 
+#define _LIBCPP___TYPE_TRAITS_IS_ENUM_H 
+#define _LIBCPP___TYPE_TRAITS_IS_EQUALITY_COMPARABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_FINAL_H 
+#define _LIBCPP___TYPE_TRAITS_IS_FLOATING_POINT_H 
+#define _LIBCPP___TYPE_TRAITS_IS_FUNCTIONAL_H 
+#define _LIBCPP___TYPE_TRAITS_IS_FUNDAMENTAL_H 
+#define _LIBCPP___TYPE_TRAITS_IS_GENERIC_TRANSPARENT_COMPARATOR_H 
+#define _LIBCPP___TYPE_TRAITS_IS_IMPLICITLY_DEFAULT_CONSTRUCTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_INTEGRAL_H 
+#define _LIBCPP___TYPE_TRAITS_IS_LITERAL_TYPE 
+#define _LIBCPP___TYPE_TRAITS_IS_MEMBER_POINTER_H 
+#define _LIBCPP___TYPE_TRAITS_IS_NOTHROW_ASSIGNABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_NOTHROW_CONSTRUCTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_NOTHROW_DESTRUCTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_NULL_POINTER_H 
+#define _LIBCPP___TYPE_TRAITS_IS_OBJECT_H 
+#define _LIBCPP___TYPE_TRAITS_IS_POD_H 
+#define _LIBCPP___TYPE_TRAITS_IS_POINTER_H 
+#define _LIBCPP___TYPE_TRAITS_IS_POLYMORPHIC_H 
+#define _LIBCPP___TYPE_TRAITS_IS_PRIMARY_TEMPLATE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_REFERENCEABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_REFERENCE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_REFERENCE_WRAPPER_H 
+#define _LIBCPP___TYPE_TRAITS_IS_SAME_H 
+#define _LIBCPP___TYPE_TRAITS_IS_SCALAR_H 
+#define _LIBCPP___TYPE_TRAITS_IS_SIGNED_H 
+#define _LIBCPP___TYPE_TRAITS_IS_SPECIALIZATION 
+#define _LIBCPP___TYPE_TRAITS_IS_STANDARD_LAYOUT_H 
+#define _LIBCPP___TYPE_TRAITS_IS_SWAPPABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_TRIVIALLY_ASSIGNABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_TRIVIALLY_CONSTRUCTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_TRIVIALLY_COPYABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_TRIVIALLY_DESTRUCTIBLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_TRIVIALLY_LEXICOGRAPHICALLY_COMPARABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_TRIVIALLY_RELOCATABLE_H 
+#define _LIBCPP___TYPE_TRAITS_IS_TRIVIAL_H 
+#define _LIBCPP___TYPE_TRAITS_IS_UNION_H 
+#define _LIBCPP___TYPE_TRAITS_IS_UNQUALIFIED_H 
+#define _LIBCPP___TYPE_TRAITS_IS_UNSIGNED_H 
+#define _LIBCPP___TYPE_TRAITS_IS_VALID_EXPANSION_H 
+#define _LIBCPP___TYPE_TRAITS_IS_VOID_H 
+#define _LIBCPP___TYPE_TRAITS_IS_VOLATILE_H 
+#define _LIBCPP___TYPE_TRAITS_LAZY_H 
+#define _LIBCPP___TYPE_TRAITS_MAKE_32_64_OR_128_BIT_H 
+#define _LIBCPP___TYPE_TRAITS_MAKE_CONST_LVALUE_REF_H 
+#define _LIBCPP___TYPE_TRAITS_MAKE_SIGNED_H 
+#define _LIBCPP___TYPE_TRAITS_MAKE_TRANSPARENT_H 
+#define _LIBCPP___TYPE_TRAITS_MAKE_UNSIGNED_H 
+#define _LIBCPP___TYPE_TRAITS_MAYBE_CONST_H 
+#define _LIBCPP___TYPE_TRAITS_NAT_H 
+#define _LIBCPP___TYPE_TRAITS_NEGATION_H 
+#define _LIBCPP___TYPE_TRAITS_PROMOTE_H 
+#define _LIBCPP___TYPE_TRAITS_RANK_H 
+#define _LIBCPP___TYPE_TRAITS_REFERENCE_CONSTRUCTS_FROM_TEMPORARY_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_ALL_EXTENTS_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_CONST_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_CONST_REF_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_CVREF_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_CV_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_EXTENT_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_POINTER_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_REFERENCE_H 
+#define _LIBCPP___TYPE_TRAITS_REMOVE_VOLATILE_H 
+#define _LIBCPP___TYPE_TRAITS_RESULT_OF_H 
+#define _LIBCPP___TYPE_TRAITS_STRIP_SIGNATURE_H 
+#define _LIBCPP___TYPE_TRAITS_TYPE_IDENTITY_H 
+#define _LIBCPP___TYPE_TRAITS_TYPE_LIST_H 
+#define _LIBCPP___TYPE_TRAITS_UNDERLYING_TYPE_H 
+#define _LIBCPP___TYPE_TRAITS_UNWRAP_REF_H 
+#define _LIBCPP___TYPE_TRAITS_VOID_T_H 
+#define _LIBCPP___UTILITY_AS_CONST_H 
+#define _LIBCPP___UTILITY_AS_LVALUE_H 
+#define _LIBCPP___UTILITY_AUTO_CAST_H 
+#define _LIBCPP___UTILITY_CMP_H 
+#define _LIBCPP___UTILITY_CONVERT_TO_INTEGRAL_H 
+#define _LIBCPP___UTILITY_DECLVAL_H 
+#define _LIBCPP___UTILITY_DEFAULT_THREE_WAY_COMPARATOR_H 
+#define _LIBCPP___UTILITY_ELEMENT_COUNT_H 
+#define _LIBCPP___UTILITY_EMPTY_H 
+#define _LIBCPP___UTILITY_EXCEPTION_GUARD_H 
+#define _LIBCPP___UTILITY_EXCHANGE_H 
+#define _LIBCPP___UTILITY_FORWARD_H 
+#define _LIBCPP___UTILITY_FORWARD_LIKE_H 
+#define _LIBCPP___UTILITY_INTEGER_SEQUENCE_H 
+#define _LIBCPP___UTILITY_IN_PLACE_H 
+#define _LIBCPP___UTILITY_IS_POINTER_IN_RANGE_H 
+#define _LIBCPP___UTILITY_IS_VALID_RANGE_H 
+#define _LIBCPP___UTILITY_MOVE_H 
+#define _LIBCPP___UTILITY_NO_DESTROY_H 
+#define _LIBCPP___UTILITY_PAIR_H 
+#define _LIBCPP___UTILITY_PIECEWISE_CONSTRUCT_H 
+#define _LIBCPP___UTILITY_PRIORITY_TAG_H 
+#define _LIBCPP___UTILITY_REL_OPS_H 
+#define _LIBCPP___UTILITY_SCOPE_GUARD_H 
+#define _LIBCPP___UTILITY_SWAP_H 
+#define _LIBCPP___UTILITY_TRY_EXTRACT_KEY_H 
+#define _LIBCPP___UTILITY_UNREACHABLE_H 
+#define _LIBCPP___VARIANT_MONOSTATE_H 
+#define _LIBCPP___VECTOR_COMPARISON_H 
+#define _LIBCPP___VECTOR_CONTAINER_TRAITS_H 
+#define _LIBCPP___VECTOR_ERASE_H 
+#define _LIBCPP___VECTOR_PMR_H 
+#define _LIBCPP___VECTOR_SWAP_H 
+#define _LIBCPP___VECTOR_VECTOR_BOOL_H 
+#define _LIBCPP___VECTOR_VECTOR_H 
+#define _LIBCPP___VERBOSE_ABORT 
+#define _LIBCPP___VERBOSE_TRAP 
+#define _LIMITS_H 
+#define _LOCALE_H 
+#define _MATH_H 
+#define _NOEXCEPT noexcept
+#define _NOEXCEPT_(...) noexcept(__VA_ARGS__)
+#define _NULLPTR_T 
+#define _Noreturn __attribute__((__noreturn__))
+#define _POSIX2_BC_BASE_MAX 99
+#define _POSIX2_BC_DIM_MAX 2048
+#define _POSIX2_BC_SCALE_MAX 99
+#define _POSIX2_BC_STRING_MAX 1000
+#define _POSIX2_CHARCLASS_NAME_MAX 14
+#define _POSIX2_COLL_WEIGHTS_MAX 2
+#define _POSIX2_EXPR_NEST_MAX 32
+#define _POSIX2_LINE_MAX 2048
+#define _POSIX2_RE_DUP_MAX 255
+#define _POSIX_AIO_LISTIO_MAX 2
+#define _POSIX_AIO_MAX 1
+#define _POSIX_ARG_MAX 4096
+#define _POSIX_CHILD_MAX 25
+#define _POSIX_CLOCKRES_MIN 20000000
+#define _POSIX_DELAYTIMER_MAX 32
+#define _POSIX_HOST_NAME_MAX 255
+#define _POSIX_LINK_MAX 8
+#define _POSIX_LOGIN_NAME_MAX 9
+#define _POSIX_MAX_CANON 255
+#define _POSIX_MAX_INPUT 255
+#define _POSIX_MQ_OPEN_MAX 8
+#define _POSIX_MQ_PRIO_MAX 32
+#define _POSIX_NAME_MAX 14
+#define _POSIX_NGROUPS_MAX 8
+#define _POSIX_OPEN_MAX 20
+#define _POSIX_PATH_MAX 256
+#define _POSIX_PIPE_BUF 512
+#define _POSIX_RE_DUP_MAX 255
+#define _POSIX_RTSIG_MAX 8
+#define _POSIX_SEM_NSEMS_MAX 256
+#define _POSIX_SEM_VALUE_MAX 32767
+#define _POSIX_SIGQUEUE_MAX 32
+#define _POSIX_SSIZE_MAX 32767
+#define _POSIX_SS_REPL_MAX 4
+#define _POSIX_STREAM_MAX 8
+#define _POSIX_SYMLINK_MAX 255
+#define _POSIX_SYMLOOP_MAX 8
+#define _POSIX_THREAD_DESTRUCTOR_ITERATIONS 4
+#define _POSIX_THREAD_KEYS_MAX 128
+#define _POSIX_THREAD_THREADS_MAX 64
+#define _POSIX_TIMER_MAX 32
+#define _POSIX_TRACE_EVENT_NAME_MAX 30
+#define _POSIX_TRACE_NAME_MAX 8
+#define _POSIX_TRACE_SYS_MAX 8
+#define _POSIX_TRACE_USER_EVENT_MAX 32
+#define _POSIX_TTY_NAME_MAX 9
+#define _POSIX_TZNAME_MAX 6
+#define _PSTL_PRAGMA(x) _Pragma(#x)
+#define _PSTL_PRAGMA_DECLARE_REDUCTION(NAME,OP) 
+#define _PSTL_PRAGMA_DECLARE_SIMD 
+#define _PSTL_PRAGMA_SIMD _Pragma("clang loop vectorize(enable) interleave(enable)")
+#define _PSTL_PRAGMA_SIMD_EXCLUSIVE_SCAN(PRM) 
+#define _PSTL_PRAGMA_SIMD_INCLUSIVE_SCAN(PRM) 
+#define _PSTL_PRAGMA_SIMD_REDUCTION(PRM) _Pragma("clang loop vectorize(enable) interleave(enable)")
+#define _PSTL_PRAGMA_SIMD_SCAN(PRM) _Pragma("clang loop vectorize(enable) interleave(enable)")
+#define _PSTL_USE_NONTEMPORAL_STORES_IF_ALLOWED 
+#define _PTHREAD_H 
+#define _PTRDIFF_T 
+#define _SCHED_H 
+#define _SIZE_T 
+#define _STDINT_H 
+#define _STDIO_H 
+#define _STDLIB_H 
+#define _STRINGS_H 
+#define _STRING_H 
+#define _THROW_BAD_ALLOC 
+#define _TIME_H 
+#define _VA_LIST 
+#define _WCHAR_H 
+#define _WCTYPE_H 
+#define _WINT_T 
+#define _XOPEN_IOV_MAX 16
+#define _XOPEN_NAME_MAX 255
+#define _XOPEN_PATH_MAX 1024
+#define __ATOMIC_ACQUIRE 2
+#define __ATOMIC_ACQ_REL 4
+#define __ATOMIC_CONSUME 1
+#define __ATOMIC_RELAXED 0
+#define __ATOMIC_RELEASE 3
+#define __ATOMIC_SEQ_CST 5
+#define __BIGGEST_ALIGNMENT__ 16
+#define __BIG_ENDIAN 4321
+#define __BITINT_MAXWIDTH__ 128
+#define __BOOL_WIDTH__ 1
+#define __BYTE_ORDER __BYTE_ORDER__
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __CHAR16_TYPE__ unsigned short
+#define __CHAR32_TYPE__ unsigned int
+#define __CHAR_BIT__ 8
+#define __CLANG_ATOMIC_BOOL_LOCK_FREE 2
+#define __CLANG_ATOMIC_CHAR16_T_LOCK_FREE 2
+#define __CLANG_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __CLANG_ATOMIC_CHAR8_T_LOCK_FREE 2
+#define __CLANG_ATOMIC_CHAR_LOCK_FREE 2
+#define __CLANG_ATOMIC_INT_LOCK_FREE 2
+#define __CLANG_ATOMIC_LLONG_LOCK_FREE 2
+#define __CLANG_ATOMIC_LONG_LOCK_FREE 2
+#define __CLANG_ATOMIC_POINTER_LOCK_FREE 2
+#define __CLANG_ATOMIC_SHORT_LOCK_FREE 2
+#define __CLANG_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __CLANG_LIMITS_H 
+#define __CLANG_MAX_ALIGN_T_DEFINED 
+#define __CLANG_STDINT_H 
+#define __CONSTANT_CFSTRINGS__ 1
+#define __CORRECT_ISO_CPP_WCHAR_H_PROTO 
+#define __DBL_DECIMAL_DIG__ 17
+#define __DBL_DENORM_MIN__ 4.9406564584124654e-324
+#define __DBL_DIG__ 15
+#define __DBL_EPSILON__ 2.2204460492503131e-16
+#define __DBL_HAS_DENORM__ 1
+#define __DBL_HAS_INFINITY__ 1
+#define __DBL_HAS_QUIET_NAN__ 1
+#define __DBL_MANT_DIG__ 53
+#define __DBL_MAX_10_EXP__ 308
+#define __DBL_MAX_EXP__ 1024
+#define __DBL_MAX__ 1.7976931348623157e+308
+#define __DBL_MIN_10_EXP__ (-307)
+#define __DBL_MIN_EXP__ (-1021)
+#define __DBL_MIN__ 2.2250738585072014e-308
+#define __DBL_NORM_MAX__ 1.7976931348623157e+308
+#define __DECIMAL_DIG__ __LDBL_DECIMAL_DIG__
+#define __DEFINED_FILE 
+#define __DEFINED___isoc_va_list 
+#define __DEFINED_clock_t 
+#define __DEFINED_clockid_t 
+#define __DEFINED_double_t 
+#define __DEFINED_float_t 
+#define __DEFINED_int16_t 
+#define __DEFINED_int32_t 
+#define __DEFINED_int64_t 
+#define __DEFINED_int8_t 
+#define __DEFINED_intmax_t 
+#define __DEFINED_intptr_t 
+#define __DEFINED_locale_t 
+#define __DEFINED_mbstate_t 
+#define __DEFINED_off_t 
+#define __DEFINED_pid_t 
+#define __DEFINED_pthread_attr_t 
+#define __DEFINED_pthread_barrier_t 
+#define __DEFINED_pthread_barrierattr_t 
+#define __DEFINED_pthread_cond_t 
+#define __DEFINED_pthread_condattr_t 
+#define __DEFINED_pthread_key_t 
+#define __DEFINED_pthread_mutex_t 
+#define __DEFINED_pthread_mutexattr_t 
+#define __DEFINED_pthread_once_t 
+#define __DEFINED_pthread_rwlock_t 
+#define __DEFINED_pthread_rwlockattr_t 
+#define __DEFINED_pthread_spinlock_t 
+#define __DEFINED_pthread_t 
+#define __DEFINED_sigset_t 
+#define __DEFINED_size_t 
+#define __DEFINED_ssize_t 
+#define __DEFINED_time_t 
+#define __DEFINED_timer_t 
+#define __DEFINED_uint16_t 
+#define __DEFINED_uint32_t 
+#define __DEFINED_uint64_t 
+#define __DEFINED_uint8_t 
+#define __DEFINED_uintmax_t 
+#define __DEFINED_uintptr_t 
+#define __DEFINED_va_list 
+#define __DEFINED_wchar_t 
+#define __DEFINED_wctype_t 
+#define __DEFINED_wint_t 
+#define __DEPRECATED 1
+#define __EXCEPTIONS 1
+#define __FINITE_MATH_ONLY__ 0
+#define __FLOAT128__ 1
+#define __FLT_DECIMAL_DIG__ 9
+#define __FLT_DENORM_MIN__ 1.40129846e-45F
+#define __FLT_DIG__ 6
+#define __FLT_EPSILON__ 1.19209290e-7F
+#define __FLT_HAS_DENORM__ 1
+#define __FLT_HAS_INFINITY__ 1
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __FLT_MANT_DIG__ 24
+#define __FLT_MAX_10_EXP__ 38
+#define __FLT_MAX_EXP__ 128
+#define __FLT_MAX__ 3.40282347e+38F
+#define __FLT_MIN_10_EXP__ (-37)
+#define __FLT_MIN_EXP__ (-125)
+#define __FLT_MIN__ 1.17549435e-38F
+#define __FLT_NORM_MAX__ 3.40282347e+38F
+#define __FLT_RADIX__ 2
+#define __FPCLASS_NEGINF 0x0004
+#define __FPCLASS_NEGNORMAL 0x0008
+#define __FPCLASS_NEGSUBNORMAL 0x0010
+#define __FPCLASS_NEGZERO 0x0020
+#define __FPCLASS_POSINF 0x0200
+#define __FPCLASS_POSNORMAL 0x0100
+#define __FPCLASS_POSSUBNORMAL 0x0080
+#define __FPCLASS_POSZERO 0x0040
+#define __FPCLASS_QNAN 0x0002
+#define __FPCLASS_SNAN 0x0001
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR8_T_LOCK_FREE 2
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 2
+#define __GCC_ATOMIC_INT_LOCK_FREE 2
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 2
+#define __GCC_ATOMIC_LONG_LOCK_FREE 2
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 2
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 2
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __GCC_CONSTRUCTIVE_SIZE 64
+#define __GCC_DESTRUCTIVE_SIZE 64
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1
+#define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1
+#define __GNUC_GNU_INLINE__ 1
+#define __GNUC_MINOR__ 2
+#define __GNUC_PATCHLEVEL__ 1
+#define __GNUC_VA_LIST 
+#define __GNUC__ 4
+#define __GNUG__ 4
+#define __GXX_ABI_VERSION 1002
+#define __GXX_EXPERIMENTAL_CXX0X__ 1
+#define __GXX_RTTI 1
+#define __GXX_WEAK__ 1
+#define __ILP32__ 1
+#define __INT16_C(c) c
+#define __INT16_C_SUFFIX__ 
+#define __INT16_FMTd__ "hd"
+#define __INT16_FMTi__ "hi"
+#define __INT16_MAX__ 32767
+#define __INT16_TYPE__ short
+#define __INT32_C(c) c
+#define __INT32_C_SUFFIX__ 
+#define __INT32_FMTd__ "d"
+#define __INT32_FMTi__ "i"
+#define __INT32_MAX__ 2147483647
+#define __INT32_TYPE__ int
+#define __INT64_C(c) c##LL
+#define __INT64_C_SUFFIX__ LL
+#define __INT64_FMTd__ "lld"
+#define __INT64_FMTi__ "lli"
+#define __INT64_MAX__ 9223372036854775807LL
+#define __INT64_TYPE__ long long int
+#define __INT8_C(c) c
+#define __INT8_C_SUFFIX__ 
+#define __INT8_FMTd__ "hhd"
+#define __INT8_FMTi__ "hhi"
+#define __INT8_MAX__ 127
+#define __INT8_TYPE__ signed char
+#define __INTMAX_C(c) c##LL
+#define __INTMAX_C_SUFFIX__ LL
+#define __INTMAX_FMTd__ "lld"
+#define __INTMAX_FMTi__ "lli"
+#define __INTMAX_MAX__ 9223372036854775807LL
+#define __INTMAX_TYPE__ long long int
+#define __INTMAX_WIDTH__ 64
+#define __INTPTR_FMTd__ "ld"
+#define __INTPTR_FMTi__ "li"
+#define __INTPTR_MAX__ 2147483647L
+#define __INTPTR_TYPE__ long int
+#define __INTPTR_WIDTH__ 32
+#define __INT_FAST16_FMTd__ "hd"
+#define __INT_FAST16_FMTi__ "hi"
+#define __INT_FAST16_MAX__ 32767
+#define __INT_FAST16_TYPE__ short
+#define __INT_FAST16_WIDTH__ 16
+#define __INT_FAST32_FMTd__ "d"
+#define __INT_FAST32_FMTi__ "i"
+#define __INT_FAST32_MAX__ 2147483647
+#define __INT_FAST32_TYPE__ int
+#define __INT_FAST32_WIDTH__ 32
+#define __INT_FAST64_FMTd__ "lld"
+#define __INT_FAST64_FMTi__ "lli"
+#define __INT_FAST64_MAX__ 9223372036854775807LL
+#define __INT_FAST64_TYPE__ long long int
+#define __INT_FAST64_WIDTH__ 64
+#define __INT_FAST8_FMTd__ "hhd"
+#define __INT_FAST8_FMTi__ "hhi"
+#define __INT_FAST8_MAX__ 127
+#define __INT_FAST8_TYPE__ signed char
+#define __INT_FAST8_WIDTH__ 8
+#define __INT_LEAST16_FMTd__ "hd"
+#define __INT_LEAST16_FMTi__ "hi"
+#define __INT_LEAST16_MAX__ 32767
+#define __INT_LEAST16_TYPE__ short
+#define __INT_LEAST16_WIDTH__ 16
+#define __INT_LEAST32_FMTd__ "d"
+#define __INT_LEAST32_FMTi__ "i"
+#define __INT_LEAST32_MAX__ 2147483647
+#define __INT_LEAST32_TYPE__ int
+#define __INT_LEAST32_WIDTH__ 32
+#define __INT_LEAST64_FMTd__ "lld"
+#define __INT_LEAST64_FMTi__ "lli"
+#define __INT_LEAST64_MAX__ 9223372036854775807LL
+#define __INT_LEAST64_TYPE__ long long int
+#define __INT_LEAST64_WIDTH__ 64
+#define __INT_LEAST8_FMTd__ "hhd"
+#define __INT_LEAST8_FMTi__ "hhi"
+#define __INT_LEAST8_MAX__ 127
+#define __INT_LEAST8_TYPE__ signed char
+#define __INT_LEAST8_WIDTH__ 8
+#define __INT_MAX__ 2147483647
+#define __INT_WIDTH__ 32
+#define __LDBL_DECIMAL_DIG__ 36
+#define __LDBL_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966L
+#define __LDBL_DIG__ 33
+#define __LDBL_EPSILON__ 1.92592994438723585305597794258492732e-34L
+#define __LDBL_HAS_DENORM__ 1
+#define __LDBL_HAS_INFINITY__ 1
+#define __LDBL_HAS_QUIET_NAN__ 1
+#define __LDBL_MANT_DIG__ 113
+#define __LDBL_MAX_10_EXP__ 4932
+#define __LDBL_MAX_EXP__ 16384
+#define __LDBL_MAX__ 1.18973149535723176508575932662800702e+4932L
+#define __LDBL_MIN_10_EXP__ (-4931)
+#define __LDBL_MIN_EXP__ (-16381)
+#define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L
+#define __LDBL_NORM_MAX__ 1.18973149535723176508575932662800702e+4932L
+#define __LITTLE_ENDIAN 1234
+#define __LITTLE_ENDIAN__ 1
+#define __LLONG_WIDTH__ 64
+#define __LONG_LONG_MAX__ 9223372036854775807LL
+#define __LONG_MAX __LONG_MAX__
+#define __LONG_MAX__ 2147483647L
+#define __LONG_WIDTH__ 32
+#define __MEMORY_SCOPE_CLUSTR 5
+#define __MEMORY_SCOPE_DEVICE 1
+#define __MEMORY_SCOPE_SINGLE 4
+#define __MEMORY_SCOPE_SYSTEM 0
+#define __MEMORY_SCOPE_WRKGRP 2
+#define __MEMORY_SCOPE_WVFRNT 3
+#define __NEED_FILE 
+#define __NEED___isoc_va_list 
+#define __NEED_clock_t 
+#define __NEED_clockid_t 
+#define __NEED_double_t 
+#define __NEED_float_t 
+#define __NEED_int16_t 
+#define __NEED_int32_t 
+#define __NEED_int64_t 
+#define __NEED_int8_t 
+#define __NEED_intmax_t 
+#define __NEED_intptr_t 
+#define __NEED_locale_t 
+#define __NEED_mbstate_t 
+#define __NEED_off_t 
+#define __NEED_pid_t 
+#define __NEED_pthread_attr_t 
+#define __NEED_pthread_barrier_t 
+#define __NEED_pthread_barrierattr_t 
+#define __NEED_pthread_cond_t 
+#define __NEED_pthread_condattr_t 
+#define __NEED_pthread_key_t 
+#define __NEED_pthread_mutex_t 
+#define __NEED_pthread_mutexattr_t 
+#define __NEED_pthread_once_t 
+#define __NEED_pthread_rwlock_t 
+#define __NEED_pthread_rwlockattr_t 
+#define __NEED_pthread_spinlock_t 
+#define __NEED_pthread_t 
+#define __NEED_sigset_t 
+#define __NEED_size_t 
+#define __NEED_ssize_t 
+#define __NEED_struct_timespec 
+#define __NEED_time_t 
+#define __NEED_timer_t 
+#define __NEED_uint16_t 
+#define __NEED_uint32_t 
+#define __NEED_uint64_t 
+#define __NEED_uint8_t 
+#define __NEED_uintmax_t 
+#define __NEED_uintptr_t 
+#define __NEED_va_list 
+#define __NEED_wchar_t 
+#define __NEED_wctype_t 
+#define __NEED_wint_t 
+#define __NO_INLINE__ 1
+#define __NO_MATH_ERRNO__ 1
+#define __OBJC_BOOL_IS_BOOL 0
+#define __OPENCL_MEMORY_SCOPE_ALL_SVM_DEVICES 3
+#define __OPENCL_MEMORY_SCOPE_DEVICE 2
+#define __OPENCL_MEMORY_SCOPE_SUB_GROUP 4
+#define __OPENCL_MEMORY_SCOPE_WORK_GROUP 1
+#define __OPENCL_MEMORY_SCOPE_WORK_ITEM 0
+#define __ORDER_BIG_ENDIAN__ 4321
+#define __ORDER_LITTLE_ENDIAN__ 1234
+#define __ORDER_PDP_ENDIAN__ 3412
+#define __POINTER_WIDTH__ 32
+#define __PRAGMA_REDEFINE_EXTNAME 1
+#define __PTRDIFF_FMTd__ "ld"
+#define __PTRDIFF_FMTi__ "li"
+#define __PTRDIFF_MAX__ 2147483647L
+#define __PTRDIFF_TYPE__ long int
+#define __PTRDIFF_WIDTH__ 32
+#define __REDIR(x,y) __typeof__(x) x __asm__(#y)
+#define __SCHAR_MAX__ 127
+#define __SHRT_MAX__ 32767
+#define __SHRT_WIDTH__ 16
+#define __SIG_ATOMIC_MAX__ 2147483647L
+#define __SIG_ATOMIC_WIDTH__ 32
+#define __SIZEOF_DOUBLE__ 8
+#define __SIZEOF_FLOAT__ 4
+#define __SIZEOF_INT128__ 16
+#define __SIZEOF_INT__ 4
+#define __SIZEOF_LONG_DOUBLE__ 16
+#define __SIZEOF_LONG_LONG__ 8
+#define __SIZEOF_LONG__ 4
+#define __SIZEOF_POINTER__ 4
+#define __SIZEOF_PTRDIFF_T__ 4
+#define __SIZEOF_SHORT__ 2
+#define __SIZEOF_SIZE_T__ 4
+#define __SIZEOF_WCHAR_T__ 4
+#define __SIZEOF_WINT_T__ 4
+#define __SIZE_FMTX__ "lX"
+#define __SIZE_FMTo__ "lo"
+#define __SIZE_FMTu__ "lu"
+#define __SIZE_FMTx__ "lx"
+#define __SIZE_MAX__ 4294967295UL
+#define __SIZE_TYPE__ long unsigned int
+#define __SIZE_WIDTH__ 32
+#define __STDARG_H 
+#define __STDCPP_DEFAULT_NEW_ALIGNMENT__ 16UL
+#define __STDCPP_THREADS__ 1
+#define __STDC_EMBED_EMPTY__ 2
+#define __STDC_EMBED_FOUND__ 1
+#define __STDC_EMBED_NOT_FOUND__ 0
+#define __STDC_HOSTED__ 1
+#define __STDC_UTF_16__ 1
+#define __STDC_UTF_32__ 1
+#define __STDC__ 1
+#define __STDDEF_H 
+#define __STRICT_ANSI__ 1
+#define __UINT16_C(c) c
+#define __UINT16_C_SUFFIX__ 
+#define __UINT16_FMTX__ "hX"
+#define __UINT16_FMTo__ "ho"
+#define __UINT16_FMTu__ "hu"
+#define __UINT16_FMTx__ "hx"
+#define __UINT16_MAX__ 65535
+#define __UINT16_TYPE__ unsigned short
+#define __UINT32_C(c) c##U
+#define __UINT32_C_SUFFIX__ U
+#define __UINT32_FMTX__ "X"
+#define __UINT32_FMTo__ "o"
+#define __UINT32_FMTu__ "u"
+#define __UINT32_FMTx__ "x"
+#define __UINT32_MAX__ 4294967295U
+#define __UINT32_TYPE__ unsigned int
+#define __UINT64_C(c) c##ULL
+#define __UINT64_C_SUFFIX__ ULL
+#define __UINT64_FMTX__ "llX"
+#define __UINT64_FMTo__ "llo"
+#define __UINT64_FMTu__ "llu"
+#define __UINT64_FMTx__ "llx"
+#define __UINT64_MAX__ 18446744073709551615ULL
+#define __UINT64_TYPE__ long long unsigned int
+#define __UINT8_C(c) c
+#define __UINT8_C_SUFFIX__ 
+#define __UINT8_FMTX__ "hhX"
+#define __UINT8_FMTo__ "hho"
+#define __UINT8_FMTu__ "hhu"
+#define __UINT8_FMTx__ "hhx"
+#define __UINT8_MAX__ 255
+#define __UINT8_TYPE__ unsigned char
+#define __UINTMAX_C(c) c##ULL
+#define __UINTMAX_C_SUFFIX__ ULL
+#define __UINTMAX_FMTX__ "llX"
+#define __UINTMAX_FMTo__ "llo"
+#define __UINTMAX_FMTu__ "llu"
+#define __UINTMAX_FMTx__ "llx"
+#define __UINTMAX_MAX__ 18446744073709551615ULL
+#define __UINTMAX_TYPE__ long long unsigned int
+#define __UINTMAX_WIDTH__ 64
+#define __UINTPTR_FMTX__ "lX"
+#define __UINTPTR_FMTo__ "lo"
+#define __UINTPTR_FMTu__ "lu"
+#define __UINTPTR_FMTx__ "lx"
+#define __UINTPTR_MAX__ 4294967295UL
+#define __UINTPTR_TYPE__ long unsigned int
+#define __UINTPTR_WIDTH__ 32
+#define __UINT_FAST16_FMTX__ "hX"
+#define __UINT_FAST16_FMTo__ "ho"
+#define __UINT_FAST16_FMTu__ "hu"
+#define __UINT_FAST16_FMTx__ "hx"
+#define __UINT_FAST16_MAX__ 65535
+#define __UINT_FAST16_TYPE__ unsigned short
+#define __UINT_FAST32_FMTX__ "X"
+#define __UINT_FAST32_FMTo__ "o"
+#define __UINT_FAST32_FMTu__ "u"
+#define __UINT_FAST32_FMTx__ "x"
+#define __UINT_FAST32_MAX__ 4294967295U
+#define __UINT_FAST32_TYPE__ unsigned int
+#define __UINT_FAST64_FMTX__ "llX"
+#define __UINT_FAST64_FMTo__ "llo"
+#define __UINT_FAST64_FMTu__ "llu"
+#define __UINT_FAST64_FMTx__ "llx"
+#define __UINT_FAST64_MAX__ 18446744073709551615ULL
+#define __UINT_FAST64_TYPE__ long long unsigned int
+#define __UINT_FAST8_FMTX__ "hhX"
+#define __UINT_FAST8_FMTo__ "hho"
+#define __UINT_FAST8_FMTu__ "hhu"
+#define __UINT_FAST8_FMTx__ "hhx"
+#define __UINT_FAST8_MAX__ 255
+#define __UINT_FAST8_TYPE__ unsigned char
+#define __UINT_LEAST16_FMTX__ "hX"
+#define __UINT_LEAST16_FMTo__ "ho"
+#define __UINT_LEAST16_FMTu__ "hu"
+#define __UINT_LEAST16_FMTx__ "hx"
+#define __UINT_LEAST16_MAX__ 65535
+#define __UINT_LEAST16_TYPE__ unsigned short
+#define __UINT_LEAST32_FMTX__ "X"
+#define __UINT_LEAST32_FMTo__ "o"
+#define __UINT_LEAST32_FMTu__ "u"
+#define __UINT_LEAST32_FMTx__ "x"
+#define __UINT_LEAST32_MAX__ 4294967295U
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define __UINT_LEAST64_FMTX__ "llX"
+#define __UINT_LEAST64_FMTo__ "llo"
+#define __UINT_LEAST64_FMTu__ "llu"
+#define __UINT_LEAST64_FMTx__ "llx"
+#define __UINT_LEAST64_MAX__ 18446744073709551615ULL
+#define __UINT_LEAST64_TYPE__ long long unsigned int
+#define __UINT_LEAST8_FMTX__ "hhX"
+#define __UINT_LEAST8_FMTo__ "hho"
+#define __UINT_LEAST8_FMTu__ "hhu"
+#define __UINT_LEAST8_FMTx__ "hhx"
+#define __UINT_LEAST8_MAX__ 255
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define __USER_LABEL_PREFIX__ 
+#define __USE_TIME_BITS64 1
+#define __VERSION__ "Clang 22.1.0 (https://github.com/llvm/llvm-project 4434dabb69916856b824f68a64b029c67175e532)"
+#define __WASM_EXCEPTIONS__ 1
+#define __WCHAR_MAX__ 2147483647
+#define __WCHAR_TYPE__ int
+#define __WCHAR_WIDTH__ 32
+#define __WINT_MAX__ 2147483647
+#define __WINT_TYPE__ int
+#define __WINT_WIDTH__ 32
+#define __clang__ 1
+#define __clang_literal_encoding__ "UTF-8"
+#define __clang_major__ 22
+#define __clang_minor__ 1
+#define __clang_patchlevel__ 0
+#define __clang_version__ "22.1.0 (https://github.com/llvm/llvm-project 4434dabb69916856b824f68a64b029c67175e532)"
+#define __clang_wide_literal_encoding__ "UTF-32"
+#define __cloc_defined 
+#define __cplusplus 202002L
+#define __cpp_aggregate_bases 201603L
+#define __cpp_aggregate_nsdmi 201304L
+#define __cpp_aggregate_paren_init 201902L
+#define __cpp_alias_templates 200704L
+#define __cpp_aligned_new 201606L
+#define __cpp_attributes 200809L
+#define __cpp_binary_literals 201304L
+#define __cpp_capture_star_this 201603L
+#define __cpp_char8_t 202207L
+#define __cpp_concepts 202002
+#define __cpp_conditional_explicit 201806L
+#define __cpp_consteval 202211L
+#define __cpp_constexpr 202002L
+#define __cpp_constexpr_dynamic_alloc 201907L
+#define __cpp_constexpr_in_decltype 201711L
+#define __cpp_constinit 201907L
+#define __cpp_decltype 200707L
+#define __cpp_decltype_auto 201304L
+#define __cpp_deduction_guides 201703L
+#define __cpp_delegating_constructors 200604L
+#define __cpp_deleted_function 202403L
+#define __cpp_designated_initializers 201707L
+#define __cpp_digit_separators 201309L
+#define __cpp_enumerator_attributes 201411L
+#define __cpp_exceptions 199711L
+#define __cpp_fold_expressions 201603L
+#define __cpp_generic_lambdas 201707L
+#define __cpp_guaranteed_copy_elision 201606L
+#define __cpp_hex_float 201603L
+#define __cpp_if_constexpr 201606L
+#define __cpp_impl_coroutine 201902L
+#define __cpp_impl_destroying_delete 201806L
+#define __cpp_impl_three_way_comparison 201907L
+#define __cpp_inheriting_constructors 201511L
+#define __cpp_init_captures 201803L
+#define __cpp_initializer_lists 200806L
+#define __cpp_inline_variables 201606L
+#define __cpp_lambdas 200907L
+#define __cpp_lib_addressof_constexpr 201603L
+#define __cpp_lib_allocator_traits_is_always_equal 201411L
+#define __cpp_lib_any 201606L
+#define __cpp_lib_apply 201603L
+#define __cpp_lib_array_constexpr 201811L
+#define __cpp_lib_as_const 201510L
+#define __cpp_lib_assume_aligned 201811L
+#define __cpp_lib_atomic_flag_test 201907L
+#define __cpp_lib_atomic_float 201711L
+#define __cpp_lib_atomic_is_always_lock_free 201603L
+#define __cpp_lib_atomic_lock_free_type_aliases 201907L
+#define __cpp_lib_atomic_ref 201806L
+#define __cpp_lib_atomic_value_initialization 201911L
+#define __cpp_lib_atomic_wait 201907L
+#define __cpp_lib_barrier 201907L
+#define __cpp_lib_bind_front 201907L
+#define __cpp_lib_bit_cast 201806L
+#define __cpp_lib_bitops 201907L
+#define __cpp_lib_bool_constant 201505L
+#define __cpp_lib_bounded_array_traits 201902L
+#define __cpp_lib_boyer_moore_searcher 201603L
+#define __cpp_lib_byte 201603L
+#define __cpp_lib_char8_t 201907L
+#define __cpp_lib_chrono 201611L
+#define __cpp_lib_chrono_udls 201304L
+#define __cpp_lib_clamp 201603L
+#define __cpp_lib_common_reference 202302L
+#define __cpp_lib_common_reference_wrapper 202302L
+#define __cpp_lib_complex_udls 201309L
+#define __cpp_lib_concepts 202207L
+#define __cpp_lib_constexpr_algorithms 201806L
+#define __cpp_lib_constexpr_complex 201711L
+#define __cpp_lib_constexpr_dynamic_alloc 201907L
+#define __cpp_lib_constexpr_functional 201907L
+#define __cpp_lib_constexpr_iterator 201811L
+#define __cpp_lib_constexpr_memory 201811L
+#define __cpp_lib_constexpr_numeric 201911L
+#define __cpp_lib_constexpr_string 201907L
+#define __cpp_lib_constexpr_string_view 201811L
+#define __cpp_lib_constexpr_tuple 201811L
+#define __cpp_lib_constexpr_utility 201811L
+#define __cpp_lib_constexpr_vector 201907L
+#define __cpp_lib_coroutine 201902L
+#define __cpp_lib_destroying_delete 201806L
+#define __cpp_lib_enable_shared_from_this 201603L
+#define __cpp_lib_endian 201907L
+#define __cpp_lib_erase_if 202002L
+#define __cpp_lib_exchange_function 201304L
+#define __cpp_lib_filesystem 201703L
+#define __cpp_lib_format 202110L
+#define __cpp_lib_format_uchar 202311L
+#define __cpp_lib_gcd_lcm 201606L
+#define __cpp_lib_generic_associative_lookup 201304L
+#define __cpp_lib_generic_unordered_lookup 201811L
+#define __cpp_lib_hardware_interference_size 201703L
+#define __cpp_lib_has_unique_object_representations 201606L
+#define __cpp_lib_hypot 201603L
+#define __cpp_lib_incomplete_container_elements 201505L
+#define __cpp_lib_int_pow2 202002L
+#define __cpp_lib_integer_comparison_functions 202002L
+#define __cpp_lib_integer_sequence 201304L
+#define __cpp_lib_integral_constant_callable 201304L
+#define __cpp_lib_interpolate 201902L
+#define __cpp_lib_invoke 201411L
+#define __cpp_lib_is_aggregate 201703L
+#define __cpp_lib_is_constant_evaluated 201811L
+#define __cpp_lib_is_final 201402L
+#define __cpp_lib_is_invocable 201703L
+#define __cpp_lib_is_nothrow_convertible 201806L
+#define __cpp_lib_is_null_pointer 201309L
+#define __cpp_lib_is_swappable 201603L
+#define __cpp_lib_jthread 201911L
+#define __cpp_lib_latch 201907L
+#define __cpp_lib_launder 201606L
+#define __cpp_lib_list_remove_return_type 201806L
+#define __cpp_lib_logical_traits 201510L
+#define __cpp_lib_make_from_tuple 201606L
+#define __cpp_lib_make_reverse_iterator 201402L
+#define __cpp_lib_make_unique 201304L
+#define __cpp_lib_map_try_emplace 201411L
+#define __cpp_lib_math_constants 201907L
+#define __cpp_lib_memory_resource 201603L
+#define __cpp_lib_move_iterator_concept 202207L
+#define __cpp_lib_node_extract 201606L
+#define __cpp_lib_nonmember_container_access 201411L
+#define __cpp_lib_not_fn 201603L
+#define __cpp_lib_null_iterators 201304L
+#define __cpp_lib_optional 202106L
+#define __cpp_lib_polymorphic_allocator 201902L
+#define __cpp_lib_quoted_string_io 201304L
+#define __cpp_lib_ranges 202110L
+#define __cpp_lib_raw_memory_algorithms 201606L
+#define __cpp_lib_remove_cvref 201711L
+#define __cpp_lib_result_of_sfinae 201210L
+#define __cpp_lib_robust_nonmodifying_seq_ops 201304L
+#define __cpp_lib_sample 201603L
+#define __cpp_lib_scoped_lock 201703L
+#define __cpp_lib_semaphore 201907L
+#define __cpp_lib_shared_mutex 201505L
+#define __cpp_lib_shared_ptr_arrays 201707L
+#define __cpp_lib_shared_ptr_weak_type 201606L
+#define __cpp_lib_shared_timed_mutex 201402L
+#define __cpp_lib_shift 201806L
+#define __cpp_lib_smart_ptr_for_overwrite 202002L
+#define __cpp_lib_source_location 201907L
+#define __cpp_lib_span 202002L
+#define __cpp_lib_ssize 201902L
+#define __cpp_lib_starts_ends_with 201711L
+#define __cpp_lib_string_udls 201304L
+#define __cpp_lib_string_view 201803L
+#define __cpp_lib_three_way_comparison 201907L
+#define __cpp_lib_to_address 201711L
+#define __cpp_lib_to_array 201907L
+#define __cpp_lib_transformation_trait_aliases 201304L
+#define __cpp_lib_transparent_operators 201510L
+#define __cpp_lib_tuple_element_t 201402L
+#define __cpp_lib_tuples_by_type 201304L
+#define __cpp_lib_type_identity 201806L
+#define __cpp_lib_type_trait_variable_templates 201510L
+#define __cpp_lib_uncaught_exceptions 201411L
+#define __cpp_lib_unordered_map_try_emplace 201411L
+#define __cpp_lib_unwrap_ref 201811L
+#define __cpp_lib_variant 202106L
+#define __cpp_lib_void_t 201411L
+#define __cpp_modules 1
+#define __cpp_named_character_escapes 202207L
+#define __cpp_namespace_attributes 201411L
+#define __cpp_nested_namespace_definitions 201411L
+#define __cpp_noexcept_function_type 201510L
+#define __cpp_nontype_template_args 201411L
+#define __cpp_nontype_template_parameter_auto 201606L
+#define __cpp_nsdmi 200809L
+#define __cpp_pack_indexing 202311L
+#define __cpp_placeholder_variables 202306L
+#define __cpp_range_based_for 201603L
+#define __cpp_raw_strings 200710L
+#define __cpp_ref_qualifiers 200710L
+#define __cpp_return_type_deduction 201304L
+#define __cpp_rtti 199711L
+#define __cpp_rvalue_references 200610L
+#define __cpp_sized_deallocation 201309L
+#define __cpp_static_assert 202306L
+#define __cpp_static_call_operator 202207L
+#define __cpp_structured_bindings 202411L
+#define __cpp_template_auto 201606L
+#define __cpp_template_template_args 201611L
+#define __cpp_trivial_relocatability 202502L
+#define __cpp_unicode_characters 200704L
+#define __cpp_unicode_literals 200710L
+#define __cpp_user_defined_literals 200809L
+#define __cpp_using_enum 201907L
+#define __cpp_variable_templates 201304L
+#define __cpp_variadic_friend 202403L
+#define __cpp_variadic_templates 200704L
+#define __cpp_variadic_using 201611L
+#define __cxx_atomic_is_lock_free(__s) __c11_atomic_is_lock_free(__s)
+#define __has_keyword(__x) !(__is_identifier(__x))
+#define __inline inline
+#define __llvm__ 1
+#define __private_extern__ extern
+#define __tm_gmtoff tm_gmtoff
+#define __tm_zone tm_zone
+#define __va_copy(d,s) __builtin_va_copy(d, s)
+#define __wasi__ 1
+#define __wasilibc___errno_h 
+#define __wasilibc___errno_values_h 
+#define __wasilibc___functions_malloc_h 
+#define __wasilibc___functions_memcpy_h 
+#define __wasilibc___header_stdlib_h 
+#define __wasilibc___header_string_h 
+#define __wasilibc___header_time_h 
+#define __wasilibc___macro_PAGESIZE_h 
+#define __wasilibc___seek_h 
+#define __wasilibc___struct_iovec_h 
+#define __wasilibc___struct_timespec_h 
+#define __wasilibc___struct_timeval_h 
+#define __wasilibc___struct_tm_h 
+#define __wasilibc___typedef_clock_t_h 
+#define __wasilibc___typedef_clockid_t_h 
+#define __wasilibc___typedef_sigset_t_h 
+#define __wasilibc___typedef_suseconds_t_h 
+#define __wasilibc___typedef_time_t_h 
+#define __wasip1__ 1
+#define __wasm 1
+#define __wasm32 1
+#define __wasm32__ 1
+#define __wasm__ 1
+#define __wasm_bulk_memory__ 1
+#define __wasm_bulk_memory_opt__ 1
+#define __wasm_exception_handling__ 1
+#define __wasm_multivalue__ 1
+#define __wasm_mutable_globals__ 1
+#define __wasm_nontrapping_fptoint__ 1
+#define __wasm_reference_types__ 1
+#define __wasm_sign_ext__ 1
+#define __wasm_simd128__ 1
+#define _tolower(a) ((a)|0x20)
+#define _toupper(a) ((a)&0x5f)
+#define alloca __builtin_alloca
+#define debug_block(...) if (false) { __VA_ARGS__ } else (void)0
+#define errno errno
+#define fgetpos64 fgetpos
+#define fopen64 fopen
+#define fpos64_t fpos_t
+#define freopen64 freopen
+#define fseeko64 fseeko
+#define fsetpos64 fsetpos
+#define ftello64 ftello
+#define math_errhandling 2
+#define off64_t off_t
+#define offsetof(t,d) __builtin_offsetof(t, d)
+#define pthread_cleanup_pop(r) _pthread_cleanup_pop(&__cb, (r)); } while(0)
+#define pthread_cleanup_push(f,x) do { struct __ptcb __cb; _pthread_cleanup_push(&__cb, f, x);
+#define stderr (stderr)
+#define stdin (stdin)
+#define stdout (stdout)
+#define strdupa(x) strcpy(alloca(strlen(x)+1),x)
+#define va_arg(ap,type) __builtin_va_arg(ap, type)
+#define va_copy(dest,src) __builtin_va_copy(dest, src)
+#define va_end(ap) __builtin_va_end(ap)
+#define va_start(ap,param) __builtin_va_start(ap, param)
+C:\projects\cambridge battlecode\work\integration-20261020\builds\integrated-a2-v2\src\common.h:1:9: warning: #pragma once in main file [-Wpragma-once-outside-header]
+    1 | #pragma once
+      |         ^
+1 warning generated.

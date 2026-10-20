@@ -1,0 +1,691 @@
+{
+ "n_matches": 6375,
+ "n_groups": 1275,
+ "n_teams_modelled": 88,
+ "maps": [
+  "00ambush",
+  "00collision",
+  "00contest",
+  "00corners",
+  "00eight",
+  "00elkring",
+  "00expanse",
+  "00fragment",
+  "00interlock",
+  "00lanes",
+  "00monolith",
+  "00packs",
+  "00pilgrimage",
+  "00quadrants",
+  "00reverse_spiral",
+  "00rows",
+  "00rushbait_v2",
+  "00split",
+  "00stampede",
+  "00swirl",
+  "01big_world",
+  "01boss_battle",
+  "01broken_curve",
+  "01concentrated_wealth",
+  "01corridors",
+  "01elk_arena",
+  "01fracture",
+  "01gold_rush",
+  "01hooks",
+  "01islands",
+  "01shortcut",
+  "01starfish",
+  "01starvation",
+  "01the_farm",
+  "01yellow_brick_road"
+ ],
+ "C": 1.0,
+ "cv_logloss": {
+  "full": 0.4189247067189853,
+  "team_only": 0.44942274115327063
+ },
+ "later_holdout_logloss": {
+  "full": 0.42533138980577845,
+  "team_only": 0.46891481108506505
+ },
+ "champion_effects": {
+  "3": {
+   "ryth": {
+    "logodds": -0.604,
+    "ci95": [
+     -0.863,
+     -0.303
+    ],
+    "side_uses": 548
+   },
+   "vesper_vale": {
+    "logodds": 0.316,
+    "ci95": [
+     -0.322,
+     0.78
+    ],
+    "side_uses": 97
+   },
+   "vendetta": {
+    "logodds": 0.527,
+    "ci95": [
+     0.22,
+     0.884
+    ],
+    "side_uses": 195
+   },
+   "cassi_and_issac": {
+    "logodds": -0.678,
+    "ci95": [
+     -1.021,
+     -0.42
+    ],
+    "side_uses": 525
+   },
+   "stellar": {
+    "logodds": 0.061,
+    "ci95": [
+     -0.095,
+     0.346
+    ],
+    "side_uses": 1606
+   },
+   "prism": {
+    "logodds": -1.288,
+    "ci95": [
+     -1.631,
+     -0.838
+    ],
+    "side_uses": 21
+   },
+   "marcella": {
+    "logodds": 0.726,
+    "ci95": [
+     0.462,
+     1.168
+    ],
+    "side_uses": 203
+   },
+   "willow": {
+    "logodds": 0.415,
+    "ci95": [
+     -0.221,
+     1.027
+    ],
+    "side_uses": 14
+   },
+   "ren": {
+    "logodds": 0.426,
+    "ci95": [
+     0.104,
+     0.589
+    ],
+    "side_uses": 1499
+   },
+   "varg": {
+    "logodds": 0.33,
+    "ci95": [
+     -0.029,
+     0.634
+    ],
+    "side_uses": 390
+   },
+   "tavi": {
+    "logodds": -0.637,
+    "ci95": [
+     -1.402,
+     -0.147
+    ],
+    "side_uses": 96
+   },
+   "heart_of_ruin": {
+    "logodds": 0.405,
+    "ci95": [
+     0.257,
+     0.77
+    ],
+    "side_uses": 1538
+   }
+  },
+  "4": {
+   "ryth": {
+    "logodds": 0.09,
+    "ci95": [
+     -0.126,
+     0.254
+    ],
+    "side_uses": 1418
+   },
+   "vesper_vale": {
+    "logodds": 0.203,
+    "ci95": [
+     -0.34,
+     0.678
+    ],
+    "side_uses": 195
+   },
+   "vendetta": {
+    "logodds": -0.01,
+    "ci95": [
+     -0.351,
+     0.357
+    ],
+    "side_uses": 207
+   },
+   "cassi_and_issac": {
+    "logodds": -0.15,
+    "ci95": [
+     -0.341,
+     0.175
+    ],
+    "side_uses": 777
+   },
+   "stellar": {
+    "logodds": 0.519,
+    "ci95": [
+     0.226,
+     0.803
+    ],
+    "side_uses": 1817
+   },
+   "prism": {
+    "logodds": -0.92,
+    "ci95": [
+     -1.346,
+     -0.298
+    ],
+    "side_uses": 43
+   },
+   "marcella": {
+    "logodds": 0.142,
+    "ci95": [
+     -0.18,
+     0.403
+    ],
+    "side_uses": 291
+   },
+   "willow": {
+    "logodds": 0.234,
+    "ci95": [
+     -0.543,
+     0.752
+    ],
+    "side_uses": 95
+   },
+   "ren": {
+    "logodds": 0.374,
+    "ci95": [
+     0.096,
+     0.588
+    ],
+    "side_uses": 1577
+   },
+   "varg": {
+    "logodds": 0.062,
+    "ci95": [
+     -0.194,
+     0.206
+    ],
+    "side_uses": 567
+   },
+   "tavi": {
+    "logodds": -0.719,
+    "ci95": [
+     -1.227,
+     -0.307
+    ],
+    "side_uses": 151
+   },
+   "heart_of_ruin": {
+    "logodds": 0.176,
+    "ci95": [
+     -0.093,
+     0.51
+    ],
+    "side_uses": 1558
+   }
+  },
+  "5": {
+   "ryth": {
+    "logodds": -0.109,
+    "ci95": [
+     -0.276,
+     0.051
+    ],
+    "side_uses": 6742
+   },
+   "vesper_vale": {
+    "logodds": 0.204,
+    "ci95": [
+     -0.113,
+     0.532
+    ],
+    "side_uses": 847
+   },
+   "vendetta": {
+    "logodds": 0.002,
+    "ci95": [
+     -0.229,
+     0.223
+    ],
+    "side_uses": 979
+   },
+   "cassi_and_issac": {
+    "logodds": -0.257,
+    "ci95": [
+     -0.396,
+     -0.108
+    ],
+    "side_uses": 3245
+   },
+   "stellar": {
+    "logodds": -0.007,
+    "ci95": [
+     -0.229,
+     0.128
+    ],
+    "side_uses": 7272
+   },
+   "prism": {
+    "logodds": -0.022,
+    "ci95": [
+     -0.295,
+     0.219
+    ],
+    "side_uses": 551
+   },
+   "marcella": {
+    "logodds": -0.04,
+    "ci95": [
+     -0.192,
+     0.122
+    ],
+    "side_uses": 2452
+   },
+   "willow": {
+    "logodds": 0.229,
+    "ci95": [
+     -0.015,
+     0.47
+    ],
+    "side_uses": 478
+   },
+   "ren": {
+    "logodds": 0.161,
+    "ci95": [
+     0.006,
+     0.345
+    ],
+    "side_uses": 7170
+   },
+   "varg": {
+    "logodds": 0.063,
+    "ci95": [
+     -0.184,
+     0.186
+    ],
+    "side_uses": 4516
+   },
+   "tavi": {
+    "logodds": -0.631,
+    "ci95": [
+     -0.807,
+     -0.452
+    ],
+    "side_uses": 1409
+   },
+   "heart_of_ruin": {
+    "logodds": 0.408,
+    "ci95": [
+     0.248,
+     0.662
+    ],
+    "side_uses": 5999
+   }
+  }
+ },
+ "lineups": {
+  "3": {
+   "observed:heart_of_ruin+ren+vendetta": {
+    "vs_lineup2_logodds": 1.645,
+    "ci95": [
+     1.422,
+     2.25
+    ],
+    "observed_side_uses": 85
+   },
+   "observed:heart_of_ruin+marcella+stellar": {
+    "vs_lineup2_logodds": 1.479,
+    "ci95": [
+     1.298,
+     2.142
+    ],
+    "observed_side_uses": 116
+   },
+   "v34_lineup_13": {
+    "vs_lineup2_logodds": 1.205,
+    "ci95": [
+     0.73,
+     1.716
+    ],
+    "observed_side_uses": 0
+   },
+   "observed:heart_of_ruin+ren+stellar": {
+    "vs_lineup2_logodds": 1.179,
+    "ci95": [
+     0.975,
+     1.708
+    ],
+    "observed_side_uses": 826
+   },
+   "observed:heart_of_ruin+ren+ryth": {
+    "vs_lineup2_logodds": 0.514,
+    "ci95": [
+     0.223,
+     0.892
+    ],
+    "observed_side_uses": 291
+   },
+   "v34_lineup_6": {
+    "vs_lineup2_logodds": 0.466,
+    "ci95": [
+     0.178,
+     0.804
+    ],
+    "observed_side_uses": 21
+   },
+   "v34_lineup_8": {
+    "vs_lineup2_logodds": 0.466,
+    "ci95": [
+     0.178,
+     0.804
+    ],
+    "observed_side_uses": 21
+   },
+   "observed:ren+stellar+tavi": {
+    "vs_lineup2_logodds": 0.137,
+    "ci95": [
+     -0.659,
+     0.827
+    ],
+    "observed_side_uses": 59
+   },
+   "v34_lineup_19": {
+    "vs_lineup2_logodds": 0.095,
+    "ci95": [
+     -0.255,
+     0.32
+    ],
+    "observed_side_uses": 153
+   },
+   "observed:cassi_and_issac+ren+stellar": {
+    "vs_lineup2_logodds": 0.095,
+    "ci95": [
+     -0.255,
+     0.32
+    ],
+    "observed_side_uses": 153
+   },
+   "observed:cassi_and_issac+heart_of_ruin+stellar": {
+    "vs_lineup2_logodds": 0.075,
+    "ci95": [
+     -0.125,
+     0.665
+    ],
+    "observed_side_uses": 69
+   },
+   "v34_lineup_2": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 161
+   },
+   "observed:cassi_and_issac+stellar+varg": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 161
+   },
+   "v34_lineup_20": {
+    "vs_lineup2_logodds": -0.935,
+    "ci95": [
+     -1.4,
+     -0.449
+    ],
+    "observed_side_uses": 49
+   }
+  },
+  "4": {
+   "observed:heart_of_ruin+marcella+ren+stellar": {
+    "vs_lineup2_logodds": 1.499,
+    "ci95": [
+     0.912,
+     2.208
+    ],
+    "observed_side_uses": 80
+   },
+   "observed:heart_of_ruin+ren+ryth+stellar": {
+    "vs_lineup2_logodds": 1.446,
+    "ci95": [
+     0.692,
+     2.033
+    ],
+    "observed_side_uses": 878
+   },
+   "observed:cassi_and_issac+heart_of_ruin+ren+stellar": {
+    "vs_lineup2_logodds": 1.207,
+    "ci95": [
+     0.625,
+     1.818
+    ],
+    "observed_side_uses": 106
+   },
+   "v34_lineup_19": {
+    "vs_lineup2_logodds": 1.12,
+    "ci95": [
+     0.553,
+     1.64
+    ],
+    "observed_side_uses": 98
+   },
+   "observed:cassi_and_issac+ren+ryth+stellar": {
+    "vs_lineup2_logodds": 1.12,
+    "ci95": [
+     0.553,
+     1.64
+    ],
+    "observed_side_uses": 98
+   },
+   "observed:cassi_and_issac+ren+stellar+varg": {
+    "vs_lineup2_logodds": 1.093,
+    "ci95": [
+     0.622,
+     1.664
+    ],
+    "observed_side_uses": 57
+   },
+   "observed:heart_of_ruin+ren+vendetta+vesper_vale": {
+    "vs_lineup2_logodds": 1.031,
+    "ci95": [
+     0.354,
+     1.636
+    ],
+    "observed_side_uses": 93
+   },
+   "observed:cassi_and_issac+heart_of_ruin+marcella+stellar": {
+    "vs_lineup2_logodds": 0.975,
+    "ci95": [
+     0.377,
+     1.522
+    ],
+    "observed_side_uses": 58
+   },
+   "observed:cassi_and_issac+ryth+stellar+varg": {
+    "vs_lineup2_logodds": 0.808,
+    "ci95": [
+     0.247,
+     1.422
+    ],
+    "observed_side_uses": 172
+   },
+   "v34_lineup_8": {
+    "vs_lineup2_logodds": 0.709,
+    "ci95": [
+     0.167,
+     1.456
+    ],
+    "observed_side_uses": 3
+   },
+   "v34_lineup_6": {
+    "vs_lineup2_logodds": 0.28,
+    "ci95": [
+     -0.468,
+     1.129
+    ],
+    "observed_side_uses": 15
+   },
+   "v34_lineup_13": {
+    "vs_lineup2_logodds": 0.14,
+    "ci95": [
+     -0.266,
+     0.558
+    ],
+    "observed_side_uses": 0
+   },
+   "v34_lineup_2": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 15
+   },
+   "v34_lineup_20": {
+    "vs_lineup2_logodds": -0.174,
+    "ci95": [
+     -1.159,
+     0.634
+    ],
+    "observed_side_uses": 22
+   }
+  },
+  "5": {
+   "observed:heart_of_ruin+ren+varg+vendetta+vesper_vale": {
+    "vs_lineup2_logodds": 1.509,
+    "ci95": [
+     1.119,
+     1.982
+    ],
+    "observed_side_uses": 231
+   },
+   "observed:heart_of_ruin+ren+ryth+stellar+varg": {
+    "vs_lineup2_logodds": 1.186,
+    "ci95": [
+     0.96,
+     1.541
+    ],
+    "observed_side_uses": 1687
+   },
+   "observed:heart_of_ruin+marcella+ren+ryth+stellar": {
+    "vs_lineup2_logodds": 1.084,
+    "ci95": [
+     0.868,
+     1.572
+    ],
+    "observed_side_uses": 1205
+   },
+   "observed:cassi_and_issac+heart_of_ruin+ren+ryth+stellar": {
+    "vs_lineup2_logodds": 0.867,
+    "ci95": [
+     0.588,
+     1.411
+    ],
+    "observed_side_uses": 474
+   },
+   "v34_lineup_8": {
+    "vs_lineup2_logodds": 0.633,
+    "ci95": [
+     0.355,
+     0.936
+    ],
+    "observed_side_uses": 4
+   },
+   "v34_lineup_6": {
+    "vs_lineup2_logodds": 0.53,
+    "ci95": [
+     0.183,
+     0.899
+    ],
+    "observed_side_uses": 103
+   },
+   "v34_lineup_19": {
+    "vs_lineup2_logodds": 0.522,
+    "ci95": [
+     0.245,
+     0.751
+    ],
+    "observed_side_uses": 1117
+   },
+   "observed:cassi_and_issac+ren+ryth+stellar+varg": {
+    "vs_lineup2_logodds": 0.522,
+    "ci95": [
+     0.245,
+     0.751
+    ],
+    "observed_side_uses": 1117
+   },
+   "observed:heart_of_ruin+ren+ryth+stellar+tavi": {
+    "vs_lineup2_logodds": 0.493,
+    "ci95": [
+     0.303,
+     0.905
+    ],
+    "observed_side_uses": 531
+   },
+   "observed:cassi_and_issac+prism+ren+ryth+stellar": {
+    "vs_lineup2_logodds": 0.437,
+    "ci95": [
+     0.221,
+     0.772
+    ],
+    "observed_side_uses": 138
+   },
+   "v34_lineup_2": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "observed_side_uses": 163
+   },
+   "observed:cassi_and_issac+ren+stellar+tavi+varg": {
+    "vs_lineup2_logodds": 0.0,
+    "ci95": [
+     -0.0,
+     0.0
+    ],
+    "observed_side_uses": 163
+   },
+   "v34_lineup_13": {
+    "vs_lineup2_logodds": -0.011,
+    "ci95": [
+     -0.541,
+     0.291
+    ],
+    "observed_side_uses": 0
+   },
+   "v34_lineup_20": {
+    "vs_lineup2_logodds": -0.354,
+    "ci95": [
+     -0.714,
+     -0.003
+    ],
+    "observed_side_uses": 11
+   }
+  }
+ }
+}

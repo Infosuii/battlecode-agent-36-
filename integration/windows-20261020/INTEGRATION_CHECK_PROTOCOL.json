@@ -1,0 +1,23 @@
+{
+  "purpose": "Integration regression on four already-used development maps; no strength or unseen-map claim",
+  "profiles": [
+    "integrated-off-v2",
+    "integrated-a2-v2",
+    "integrated-a4-v2",
+    "integrated-a2-a4-v2"
+  ],
+  "maps": {
+    "lanes.map26a": "bf50fd858a0f4d89a86b90228e77df6ee16bcaf05c627ba4d79460eab904f184",
+    "rows.map26a": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+    "screen_000.map26a": "d77a0128cc75335c2f2298d921fbc0a90ad72755566ca9017e26869161a1674a",
+    "screen_001.map26a": "96bac619169ff81f819f2e0898f634ad30bac45c3461e8f439921845e4d84048"
+  },
+  "workers": 1,
+  "checks": [
+    "full native matches complete",
+    "zero native bot faults",
+    "same engine identity",
+    "official draft remains baseline"
+  ],
+  "stop_rule": "Any runtime fault, changed input identity or unexpected official draft fails integration; no auto-promotion"
+}

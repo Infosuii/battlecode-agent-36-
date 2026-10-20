@@ -1,0 +1,19 @@
+In file included from C:\projects\cambridge battlecode\work\integration-20261020\builds\integrated-off-v2\src\tsearch.cpp:5:
+C:\projects\cambridge battlecode\work\integration-20261020\builds\integrated-off-v2\src\lead/tsearch.cpp.inc:651:26: warning: use of logical '&&' with constant operand [-Wconstant-logical-operand]
+  651 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^  ~~~~~~~~~~~~~
+C:\projects\cambridge battlecode\work\integration-20261020\builds\integrated-off-v2\src\lead/tsearch.cpp.inc:651:26: note: use '&' for a bitwise operation
+  651 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^~
+      |                          &
+C:\projects\cambridge battlecode\work\integration-20261020\builds\integrated-off-v2\src\lead/tsearch.cpp.inc:651:26: note: remove constant to silence this warning
+  651 |     if (tune::kTsPhantom && tune::kBelief &&
+      |                          ^~~~~~~~~~~~~~~~
+C:\projects\cambridge battlecode\work\integration-20261020\builds\integrated-off-v2\src\lead/tsearch.cpp.inc:778:56: warning: use of logical '||' with constant operand [-Wconstant-logical-operand]
+  778 |             const std::uint64_t need = tune::kTsBudget || tune::kDet ? static_cast<std::uint64_t>(2 - plan) * worst : 2 * worst;
+      |                                                        ^  ~~~~~~~~~~
+C:\projects\cambridge battlecode\work\integration-20261020\builds\integrated-off-v2\src\lead/tsearch.cpp.inc:778:56: note: use '|' for a bitwise operation
+  778 |             const std::uint64_t need = tune::kTsBudget || tune::kDet ? static_cast<std::uint64_t>(2 - plan) * worst : 2 * worst;
+      |                                                        ^~
+      |                                                        |
+2 warnings generated.

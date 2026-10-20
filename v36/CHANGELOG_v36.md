@@ -17,3 +17,15 @@ Rows-only:118/160 fresh pool wins versusbaseline119/160. Combined governor stack
 Final all-new-switches-OFF artifact:34/34 official raw replay matches;40/80 primary and20/40 shifted final head wins;233/320 final proxy-pool wins, identical to baseline in every matched point/gem/fuel stratum. Zero native bot faults across6745 unique completed full-match jobs; baseline fuel suspensions remain.
 
 Current live platform identity, calibrated historical opponents and competition-family independent validation remain unavailable. GitHub publication is separate from live bot submission.
+
+## Parallel Agent 4 draft candidate
+
+The Agent 4 draft candidate merged through PR #11 is preserved separately at
+`agent4/release/bot_v36.zip`, with its matching candidate/baseline manifests and
+[original changelog](agent4/CHANGELOG_v36.md). Its `NOVA_V36_DRAFT=1` policy,
+source in repository-root `bot_v36/src`, and Agent 4 results are a separate
+candidate; the fallback validation above does not apply to it.
+
+`release/bot_v36.zip`, `release/bot_v36.wasm`, and both fallback candidate
+manifests remain the exact artifacts published by PR #13. The owner integration
+from PR #14 remains under repository-root `integration/windows-20261020/`.

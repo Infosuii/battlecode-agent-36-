@@ -1,0 +1,801 @@
+{
+  "games": [
+    {
+      "job": "87a69da031b8d47df06e3348ff9fa6efff3a2e77eb9bba15bb06d93cf86b8b35",
+      "side": "teamA",
+      "rounds": 619,
+      "roster_bodies": 6,
+      "champion_round_opportunities": 3714,
+      "official_exhaustion_entries": [
+        {
+          "champion": 0,
+          "round": 2
+        },
+        {
+          "champion": 0,
+          "round": 43
+        },
+        {
+          "champion": 2,
+          "round": 2
+        },
+        {
+          "champion": 2,
+          "round": 4
+        },
+        {
+          "champion": 2,
+          "round": 6
+        },
+        {
+          "champion": 2,
+          "round": 8
+        },
+        {
+          "champion": 2,
+          "round": 10
+        },
+        {
+          "champion": 2,
+          "round": 12
+        },
+        {
+          "champion": 2,
+          "round": 14
+        },
+        {
+          "champion": 2,
+          "round": 16
+        },
+        {
+          "champion": 2,
+          "round": 18
+        },
+        {
+          "champion": 2,
+          "round": 20
+        },
+        {
+          "champion": 2,
+          "round": 22
+        },
+        {
+          "champion": 2,
+          "round": 24
+        },
+        {
+          "champion": 2,
+          "round": 26
+        },
+        {
+          "champion": 2,
+          "round": 28
+        },
+        {
+          "champion": 2,
+          "round": 30
+        },
+        {
+          "champion": 2,
+          "round": 32
+        },
+        {
+          "champion": 2,
+          "round": 34
+        },
+        {
+          "champion": 2,
+          "round": 36
+        },
+        {
+          "champion": 2,
+          "round": 38
+        },
+        {
+          "champion": 2,
+          "round": 40
+        },
+        {
+          "champion": 2,
+          "round": 61
+        },
+        {
+          "champion": 2,
+          "round": 70
+        },
+        {
+          "champion": 2,
+          "round": 116
+        },
+        {
+          "champion": 2,
+          "round": 118
+        },
+        {
+          "champion": 2,
+          "round": 120
+        },
+        {
+          "champion": 2,
+          "round": 122
+        },
+        {
+          "champion": 2,
+          "round": 124
+        },
+        {
+          "champion": 2,
+          "round": 126
+        },
+        {
+          "champion": 2,
+          "round": 128
+        },
+        {
+          "champion": 2,
+          "round": 163
+        },
+        {
+          "champion": 2,
+          "round": 264
+        },
+        {
+          "champion": 2,
+          "round": 393
+        },
+        {
+          "champion": 3,
+          "round": 2
+        },
+        {
+          "champion": 3,
+          "round": 4
+        },
+        {
+          "champion": 3,
+          "round": 6
+        },
+        {
+          "champion": 3,
+          "round": 8
+        },
+        {
+          "champion": 3,
+          "round": 10
+        },
+        {
+          "champion": 3,
+          "round": 12
+        },
+        {
+          "champion": 3,
+          "round": 14
+        },
+        {
+          "champion": 3,
+          "round": 16
+        },
+        {
+          "champion": 3,
+          "round": 18
+        },
+        {
+          "champion": 3,
+          "round": 20
+        },
+        {
+          "champion": 3,
+          "round": 22
+        },
+        {
+          "champion": 3,
+          "round": 24
+        },
+        {
+          "champion": 3,
+          "round": 26
+        },
+        {
+          "champion": 3,
+          "round": 28
+        },
+        {
+          "champion": 3,
+          "round": 30
+        },
+        {
+          "champion": 3,
+          "round": 32
+        },
+        {
+          "champion": 3,
+          "round": 34
+        },
+        {
+          "champion": 3,
+          "round": 42
+        },
+        {
+          "champion": 3,
+          "round": 49
+        },
+        {
+          "champion": 3,
+          "round": 51
+        },
+        {
+          "champion": 3,
+          "round": 58
+        },
+        {
+          "champion": 3,
+          "round": 604
+        },
+        {
+          "champion": 4,
+          "round": 2
+        },
+        {
+          "champion": 4,
+          "round": 4
+        },
+        {
+          "champion": 4,
+          "round": 6
+        },
+        {
+          "champion": 4,
+          "round": 8
+        },
+        {
+          "champion": 4,
+          "round": 10
+        },
+        {
+          "champion": 4,
+          "round": 12
+        },
+        {
+          "champion": 4,
+          "round": 14
+        },
+        {
+          "champion": 4,
+          "round": 16
+        },
+        {
+          "champion": 4,
+          "round": 18
+        },
+        {
+          "champion": 4,
+          "round": 20
+        },
+        {
+          "champion": 4,
+          "round": 22
+        },
+        {
+          "champion": 4,
+          "round": 24
+        },
+        {
+          "champion": 4,
+          "round": 26
+        },
+        {
+          "champion": 4,
+          "round": 28
+        },
+        {
+          "champion": 4,
+          "round": 30
+        },
+        {
+          "champion": 4,
+          "round": 32
+        },
+        {
+          "champion": 4,
+          "round": 34
+        },
+        {
+          "champion": 4,
+          "round": 57
+        },
+        {
+          "champion": 4,
+          "round": 67
+        },
+        {
+          "champion": 4,
+          "round": 162
+        },
+        {
+          "champion": 5,
+          "round": 92
+        }
+      ],
+      "official_exhaustion_count": 77,
+      "faults": 0,
+      "stdout_member_bytes": 734595,
+      "logfile_capped_suspected": false
+    },
+    {
+      "job": "7e2c68145271a24d995ddab28eb15a1ba853e675db3bb0326afed776cf9dd82b",
+      "side": "teamB",
+      "rounds": 669,
+      "roster_bodies": 6,
+      "champion_round_opportunities": 4014,
+      "official_exhaustion_entries": [
+        {
+          "champion": 6,
+          "round": 2
+        },
+        {
+          "champion": 6,
+          "round": 44
+        },
+        {
+          "champion": 6,
+          "round": 312
+        },
+        {
+          "champion": 8,
+          "round": 2
+        },
+        {
+          "champion": 8,
+          "round": 4
+        },
+        {
+          "champion": 8,
+          "round": 6
+        },
+        {
+          "champion": 8,
+          "round": 8
+        },
+        {
+          "champion": 8,
+          "round": 10
+        },
+        {
+          "champion": 8,
+          "round": 12
+        },
+        {
+          "champion": 8,
+          "round": 14
+        },
+        {
+          "champion": 8,
+          "round": 16
+        },
+        {
+          "champion": 8,
+          "round": 18
+        },
+        {
+          "champion": 8,
+          "round": 20
+        },
+        {
+          "champion": 8,
+          "round": 22
+        },
+        {
+          "champion": 8,
+          "round": 24
+        },
+        {
+          "champion": 8,
+          "round": 26
+        },
+        {
+          "champion": 8,
+          "round": 28
+        },
+        {
+          "champion": 8,
+          "round": 30
+        },
+        {
+          "champion": 8,
+          "round": 32
+        },
+        {
+          "champion": 8,
+          "round": 34
+        },
+        {
+          "champion": 8,
+          "round": 36
+        },
+        {
+          "champion": 8,
+          "round": 38
+        },
+        {
+          "champion": 8,
+          "round": 40
+        },
+        {
+          "champion": 8,
+          "round": 42
+        },
+        {
+          "champion": 8,
+          "round": 62
+        },
+        {
+          "champion": 8,
+          "round": 66
+        },
+        {
+          "champion": 8,
+          "round": 73
+        },
+        {
+          "champion": 8,
+          "round": 178
+        },
+        {
+          "champion": 8,
+          "round": 180
+        },
+        {
+          "champion": 9,
+          "round": 2
+        },
+        {
+          "champion": 9,
+          "round": 4
+        },
+        {
+          "champion": 9,
+          "round": 6
+        },
+        {
+          "champion": 9,
+          "round": 8
+        },
+        {
+          "champion": 9,
+          "round": 10
+        },
+        {
+          "champion": 9,
+          "round": 12
+        },
+        {
+          "champion": 9,
+          "round": 14
+        },
+        {
+          "champion": 9,
+          "round": 16
+        },
+        {
+          "champion": 9,
+          "round": 18
+        },
+        {
+          "champion": 9,
+          "round": 20
+        },
+        {
+          "champion": 9,
+          "round": 22
+        },
+        {
+          "champion": 9,
+          "round": 24
+        },
+        {
+          "champion": 9,
+          "round": 26
+        },
+        {
+          "champion": 9,
+          "round": 28
+        },
+        {
+          "champion": 9,
+          "round": 31
+        },
+        {
+          "champion": 9,
+          "round": 33
+        },
+        {
+          "champion": 9,
+          "round": 35
+        },
+        {
+          "champion": 9,
+          "round": 43
+        },
+        {
+          "champion": 9,
+          "round": 47
+        },
+        {
+          "champion": 9,
+          "round": 51
+        },
+        {
+          "champion": 9,
+          "round": 56
+        },
+        {
+          "champion": 9,
+          "round": 94
+        },
+        {
+          "champion": 10,
+          "round": 2
+        },
+        {
+          "champion": 10,
+          "round": 4
+        },
+        {
+          "champion": 10,
+          "round": 6
+        },
+        {
+          "champion": 10,
+          "round": 8
+        },
+        {
+          "champion": 10,
+          "round": 10
+        },
+        {
+          "champion": 10,
+          "round": 12
+        },
+        {
+          "champion": 10,
+          "round": 14
+        },
+        {
+          "champion": 10,
+          "round": 16
+        },
+        {
+          "champion": 10,
+          "round": 18
+        },
+        {
+          "champion": 10,
+          "round": 20
+        },
+        {
+          "champion": 10,
+          "round": 22
+        },
+        {
+          "champion": 10,
+          "round": 24
+        },
+        {
+          "champion": 10,
+          "round": 26
+        },
+        {
+          "champion": 10,
+          "round": 28
+        },
+        {
+          "champion": 10,
+          "round": 30
+        },
+        {
+          "champion": 10,
+          "round": 32
+        },
+        {
+          "champion": 10,
+          "round": 34
+        },
+        {
+          "champion": 10,
+          "round": 36
+        },
+        {
+          "champion": 10,
+          "round": 59
+        },
+        {
+          "champion": 10,
+          "round": 69
+        },
+        {
+          "champion": 10,
+          "round": 161
+        },
+        {
+          "champion": 10,
+          "round": 240
+        },
+        {
+          "champion": 11,
+          "round": 95
+        }
+      ],
+      "official_exhaustion_count": 74,
+      "faults": 0,
+      "stdout_member_bytes": 822696,
+      "logfile_capped_suspected": false
+    }
+  ],
+  "stage_costs": {
+    "farm_score": {
+      "records": 5960,
+      "p50": 21692,
+      "p90": 25277,
+      "p99": 27990,
+      "max": 37368
+    },
+    "fields": {
+      "records": 7296,
+      "p50": 127,
+      "p90": 8164,
+      "p99": 9774,
+      "max": 54276
+    },
+    "init": {
+      "records": 12,
+      "p50": 65895,
+      "p90": 65899,
+      "p99": 65903,
+      "max": 65903
+    },
+    "route": {
+      "records": 5720,
+      "p50": 6044,
+      "p90": 7602,
+      "p99": 9225,
+      "max": 13952
+    },
+    "snapshot": {
+      "records": 140,
+      "p50": 2979,
+      "p90": 3575,
+      "p99": 7241,
+      "max": 7323
+    },
+    "tactical_pair": {
+      "records": 69,
+      "p50": 21386,
+      "p90": 23816,
+      "p99": 36762,
+      "max": 36762
+    },
+    "turn": {
+      "records": 7508,
+      "p50": 64478,
+      "p90": 80591,
+      "p99": 96267,
+      "max": 142765
+    }
+  },
+  "detected_suspended_turn_scopes": 66,
+  "nested_suspension_scopes_by_stage": {
+    "turn": 66,
+    "fields": 10
+  },
+  "turn_scopes": 7574,
+  "coverage_by_original_scene": [
+    {
+      "original_eligible": 2,
+      "calls": 65,
+      "completed_comparisons": 64,
+      "clear_fight": 0,
+      "clear_retreat": 18,
+      "reason_counts": {
+        "4": 46,
+        "1": 1,
+        "6": 18
+      },
+      "retained_counts": {
+        "2": 65
+      }
+    },
+    {
+      "original_eligible": 3,
+      "calls": 50,
+      "completed_comparisons": 5,
+      "clear_fight": 0,
+      "clear_retreat": 4,
+      "reason_counts": {
+        "1": 45,
+        "6": 4,
+        "4": 1
+      },
+      "retained_counts": {
+        "3": 50
+      }
+    },
+    {
+      "original_eligible": 4,
+      "calls": 24,
+      "completed_comparisons": 0,
+      "clear_fight": 0,
+      "clear_retreat": 0,
+      "reason_counts": {
+        "1": 24
+      },
+      "retained_counts": {
+        "4": 24
+      }
+    },
+    {
+      "original_eligible": 5,
+      "calls": 1,
+      "completed_comparisons": 0,
+      "clear_fight": 0,
+      "clear_retreat": 0,
+      "reason_counts": {
+        "1": 1
+      },
+      "retained_counts": {
+        "5": 1
+      }
+    }
+  ],
+  "actual_pair_costs": [
+    {
+      "retained": 2,
+      "horizon": 3,
+      "predicted_pair": 35200,
+      "observed_pair": {
+        "records": 64,
+        "p50": 21286,
+        "p90": 22874,
+        "p99": 24027,
+        "max": 24027
+      },
+      "prep": {
+        "records": 64,
+        "p50": 7717,
+        "p90": 7819,
+        "p99": 10573,
+        "max": 10573
+      }
+    },
+    {
+      "retained": 3,
+      "horizon": 3,
+      "predicted_pair": 52800,
+      "observed_pair": {
+        "records": 5,
+        "p50": 32485,
+        "p90": 36698,
+        "p99": 36698,
+        "max": 36698
+      },
+      "prep": {
+        "records": 5,
+        "p50": 8175,
+        "p90": 8205,
+        "p99": 8205,
+        "max": 8205
+      }
+    }
+  ],
+  "stage_skips": 3604,
+  "runtime_faults": 0,
+  "limitations": [
+    "Instrumented same-map two-sided diagnostic, not strength evidence or generalization.",
+    "Nested scopes overlap; never sum costs or suspension scopes. Whole-turn cost excludes end_turn.",
+    "Only suspended turn scope count is deduplicated across nesting; champion framing join pending.",
+    "Official exhaustion events and detected suspended invocations overlap; do not add them.",
+    "Original=0 denotes admission refusal before snapshot, not an empty actual scene.",
+    "Zero-cost cross-round scopes are excluded from distributions. Print overhead changes instrumentation costs.",
+    "Champion-round opportunities includes dead/ineligible champions and final partial round; actual controller-turn denominator pending framing parser.",
+    "Refusals are admission-attempt counts; governor-enabled runs require framing to deduplicate body turns and distinguish already-ineligible baseline work."
+  ]
+}

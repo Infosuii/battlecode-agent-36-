@@ -1,0 +1,42 @@
+{
+  "id": "runtime-telemetry",
+  "purpose": "Agent2 instrumented release stage costs and actual observed snapshot coverage; descriptive diagnostic only, no strength evidence",
+  "created_utc": "2026-10-19T21:54:27.630878+00:00",
+  "candidate": "telemetry",
+  "opponents": [
+    "baseline"
+  ],
+  "distinct_maps": 1,
+  "games": 2,
+  "duplicate_deterministic_jobs_removed": 0,
+  "independent_map_groups": 1,
+  "protocol": "Full matches at default fuel in release. No deterministic rerun counted as new evidence.",
+  "jobs": [
+    {
+      "id": "4c4c7448792bb406fb6d288b9e59f26a64cb3ca955ed8e3c43909e401e6a8e8c",
+      "a": "telemetry",
+      "b": "baseline",
+      "sha_a": "87a96db21cfb2972b419458ea83400739dac5a7c7c4d4b324004c052a15675ff",
+      "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\ambush.map26a",
+      "map_sha256": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "group_id": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "b3512c3acec80ccf97bfc76fd494b3395dc6805781f33d12292edc1bcab136d6",
+      "a": "baseline",
+      "b": "telemetry",
+      "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "sha_b": "87a96db21cfb2972b419458ea83400739dac5a7c7c4d4b324004c052a15675ff",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\ambush.map26a",
+      "map_sha256": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "group_id": "cd0e19ffcbaaea59137c3e2af47939ba920b80f86856948015b02fb70664fa3f",
+      "side": 1,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    }
+  ]
+}

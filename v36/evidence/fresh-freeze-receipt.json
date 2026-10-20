@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e",
+  "schedule_sha256": {
+    "rows-cached-fresh-head": "002991d024e597c006757487710b1b89d07da930b646dd7e5176913e36a18a57",
+    "rows-cached-shift-validation": "a5ee112ad2a0a8cdbdc62b018165829622d02e13d733ba6ab91a53c05a0e56c0",
+    "stack-cached-fresh-head": "1be4f4b3f0700c352765f67974445a65f6e976d3f98b55a8f3b4b612727cddfc",
+    "stack-cached-shift-validation": "56b1448ef5ca28c7e2c4a5bb9bef68b8a49c44d0647264c93cc566bcb902eb90",
+    "stack-fresh-v-rows": "18c39ef408a7cab13948fcdbf246e5a447b955fb610f4e4122bf416597a1b46a",
+    "baseline-fresh-pool": "9a28801aca3a594e3bf236ac0ee1a3c600ab205b477e11f570e1e266c5f3c911",
+    "rows-cached-fresh-pool": "3afd184d98e1b2f80efc490f067c07655cb102995b3c5882c6b2e1805952423d",
+    "stack-cached-fresh-pool": "abbadc32e493d7caf1e60342133f2020a1cdff8e85cbe37c0f4156020b7cf0c7"
+  }
+}

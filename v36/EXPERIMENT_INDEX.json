@@ -1,0 +1,1377 @@
+{
+  "baseline_source_unchanged": true,
+  "baseline_archive_unchanged": true,
+  "builds": {
+    "agent4-cache-control": {
+      "artifact_sha256": "31917ad2cdc68861c9b1e8e44ee263cfa5abce180c934c3da43cd61858eb53f7",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_STRICT_MAP_CACHE": 0,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-control\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-cache-faults": {
+      "artifact_sha256": "84b3a1f2b34dc4542fcf7c1d3a77733eda404f9c684de787dc9dd1a91d704e35",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_STRICT_MAP_CACHE": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-faults\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-cache-probe": {
+      "artifact_sha256": "f4ddd86d78789d6f1a51db4c1072da6f62c0e1344532224187ef2198e52b46dd",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_STRICT_MAP_CACHE": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-cache-probe\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-identity-probe": {
+      "artifact_sha256": "4f2c06b91f7a91f7a35b779cbf1644569f5639c837fe192c2c9f10a1d2c0193b",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-probe\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-identity-probe-fixed": {
+      "artifact_sha256": "543c92db1b3c1851d401d4a6a95644938c36dc0dfb149b0dc9bd029f93d55acc",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-probe-fixed\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-identity-probe-fixed2": {
+      "artifact_sha256": "03307041b06fc5b0a8a4f5b994233c4e7b23fc7ef4828e48a3ac54f3d7833bac",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-probe-fixed2\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-identity-sdk-dump": {
+      "artifact_sha256": "778fc314256563e65318d503e3aafc2546bdc2b76de1c5371305d86fbd855ab5",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-sdk-dump\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-identity-trace": {
+      "artifact_sha256": "96c1dd7ca306931bf119f07615fc7d1036bbc13d6382b38a96f9b22433d625ef",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-trace\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "agent4-identity-trace2": {
+      "artifact_sha256": "3c8c1794c1c5a5146b927a73e5fbb9107b48947dbbafb1c5b9f45edde1d04f08",
+      "source_tree": null,
+      "switches": {
+        "NOVA_STRICT_MAP_ID": 1,
+        "APEX_MAPINFO": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-trace2\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "all-off-v2": {
+      "artifact_sha256": "98de467ce91f7dd080b9382a34d6745f9f9c6d7174be42fdbba536ce6d951bdd",
+      "source_tree": "5282eea9c228a91f4fba5259f8eee11cb6c79b681329337707574f8d0dbda4d1",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\all-off-v2\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "baseline": {
+      "artifact_sha256": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+      "source_tree": "406a2a51c2cc209f6111dc323d2f0679c7e76122e2296cdb20d656b7e97e2902",
+      "switches": {},
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "bound-diag": {
+      "artifact_sha256": "7eb3711ead81a1e19e1a68a2559e10bd38dcb619ce37f5ed578a841ebefdc97c",
+      "source_tree": "a012f56e9f2b0282ec47016074355b7c9500839bf9b9584ac1c14268f09a75b4",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 1,
+        "V36_FARM_DIAG": 1,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\bound-diag\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "bound-v2": {
+      "artifact_sha256": "674041f5b969d256c2aa17c5aabfa52414076963bea094ad96d6659a927a708a",
+      "source_tree": "14795fac346551ea057f27a1e6fb6fe918e446d890add8b34ee554faaf977818",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 1,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\bound-v2\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "bound-v2-off": {
+      "artifact_sha256": "b1a1fa9ee8ce786a8d0347c789a31b7310ea9ef110ad3f3839a04d9569b0ea18",
+      "source_tree": "14795fac346551ea057f27a1e6fb6fe918e446d890add8b34ee554faaf977818",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\bound-v2-off\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "cache-source-off": {
+      "artifact_sha256": "032c963b6311c8ee28a40df307448e481ee6df3ade892f084dc4a7aa9c3a4093",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_STRICT_MAP_CACHE": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\cache-source-off\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "control-A": {
+      "artifact_sha256": "87ade36eb088db80d3c6b670626bf6934033f4a416c53a6e715723b3000daa6a",
+      "source_tree": "4193f9d24b459acdcf832a26597b4d19a8cc5a9af17cb287d599df1613a0b31b",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\control-A\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "control-B": {
+      "artifact_sha256": "7666a1a2d27db4fd4fa9df5d0738e63b5e9b9f0f04bd68d61287435ef74a3baf",
+      "source_tree": "a012f56e9f2b0282ec47016074355b7c9500839bf9b9584ac1c14268f09a75b4",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\control-B\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "flee": {
+      "artifact_sha256": "671e0e594b4cfb28cc4efb5e2f9cb37eba77c92915a5237d5fe5f625a869a94f",
+      "source_tree": "4193f9d24b459acdcf832a26597b4d19a8cc5a9af17cb287d599df1613a0b31b",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 1,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\flee\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "governor": {
+      "artifact_sha256": "eb09032785f2b387dc8ca4da6931047ad01075b7ed5507886be8ec45903345c4",
+      "source_tree": "a012f56e9f2b0282ec47016074355b7c9500839bf9b9584ac1c14268f09a75b4",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 1,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\governor\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "governor-telemetry": {
+      "artifact_sha256": "7c55338e282873039aec4ac472b05d12f442ff1c035d7ada45c82aaa69cf4ea5",
+      "source_tree": "a012f56e9f2b0282ec47016074355b7c9500839bf9b9584ac1c14268f09a75b4",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 1,
+        "NOVA_RUNTIME_TELEMETRY": 1,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\governor-telemetry\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "integration-off": {
+      "artifact_sha256": "630fd265ca33e3f844fda90d3c47a76f68999f6c6b2e7283a9c41f5636c3ca2e",
+      "source_tree": "6b4f3fd3369400ea6fda13fe7b1ae93deb27a2f5feb66cb2f542db0169a80131",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\integration-off\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "live_platform_v35": {
+      "artifact_sha256": "7d543837765226f94553c1a237629797e6774781b6bffd437fd47063b0b4b39e",
+      "source_tree": "68723eb25c342caa7bf76569453bc601c00a57823a31c3fcb07f389332daf0ef",
+      "switches": null,
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\live_platform_v35\\manifest.json",
+      "source_snapshot_present": false,
+      "source_provenance": "Currently available source snapshot; old build receipt lacks a source-tree digest, so exact source-to-artifact relationship is not independently proved."
+    },
+    "model-fix": {
+      "artifact_sha256": "6eeed82d4e6f486967eb52d7451e875bb7689df56bbf69e588d1734096208d8e",
+      "source_tree": "4193f9d24b459acdcf832a26597b4d19a8cc5a9af17cb287d599df1613a0b31b",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 1,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\model-fix\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "release-archive-rebuild": {
+      "artifact_sha256": "552650d20395cf08e4df0b0d1d693533bdffae650b24994944a018545db86be1",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_STRICT_MAP_CACHE": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\release-archive-rebuild\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "release-exact": {
+      "artifact_sha256": "2f541724749a54a3dcf9e8c261b91ad5f7fedf3cacd88e2d8f2bd8befe8f4dcf",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_STRICT_MAP_CACHE": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\release-exact\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "release-final": {
+      "artifact_sha256": "2f73d77325ba45398672f329226eeba9a6033f2ced310d4e5a21c78ce748a4e1",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_STRICT_MAP_CACHE": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\release-final\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "release-final-archive": {
+      "artifact_sha256": "2f73d77325ba45398672f329226eeba9a6033f2ced310d4e5a21c78ce748a4e1",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_STRICT_MAP_CACHE": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\release-final-archive\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "relevance5": {
+      "artifact_sha256": "97fff2f10a5370a23d2e55b34c1fa4a0a70346b81e3c8ec2dd4ac6cb144c2e9e",
+      "source_tree": "a012f56e9f2b0282ec47016074355b7c9500839bf9b9584ac1c14268f09a75b4",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 1,
+        "NOVA_TS_MAX_UNITS": 5,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\relevance5\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "rows-cached": {
+      "artifact_sha256": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_STRICT_MAP_CACHE": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "rows-control": {
+      "artifact_sha256": "23ca51ba776a707b98edf3bfea4481bb8b3fabdfd3927914828c5c7915cfb921",
+      "source_tree": "6b4f3fd3369400ea6fda13fe7b1ae93deb27a2f5feb66cb2f542db0169a80131",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-control\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "rows-intent": {
+      "artifact_sha256": "d3b3841a328b22dcf6470fdbb2ba654147b79eaeae27a707c09a1f929adcf27d",
+      "source_tree": "6b4f3fd3369400ea6fda13fe7b1ae93deb27a2f5feb66cb2f542db0169a80131",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-intent\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "rows-intent-fixed": {
+      "artifact_sha256": "4980357a428ac06020dd29561e672bae95b457d398a47082aa39492baa4ded3c",
+      "source_tree": "57b8b6482886e23141faf219c9bf797105ac8a8419f71be99129d7fa70fa5f13",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-intent-fixed\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "spar_bush": {
+      "artifact_sha256": "0d341c069b9412b29630f65d3f3b4f6d1f8fd64de934916f6de7c3805afe1434",
+      "source_tree": "76483df18ac69462645b3ac4efbc821cb9fa27d057d4953b9ac137704a12f25c",
+      "switches": null,
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\spar_bush\\manifest.json",
+      "source_snapshot_present": false,
+      "source_provenance": "Currently available source snapshot; old build receipt lacks a source-tree digest, so exact source-to-artifact relationship is not independently proved."
+    },
+    "spar_fish": {
+      "artifact_sha256": "54aabee5c35ec7b162737e6994b59a379e8d6bef9d889ee1342dd011b37462e3",
+      "source_tree": "f5976a36b26b88a4aa4cc7ef068a100d672374f741734617ab399ec568baeae2",
+      "switches": null,
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\spar_fish\\manifest.json",
+      "source_snapshot_present": false,
+      "source_provenance": "Currently available source snapshot; old build receipt lacks a source-tree digest, so exact source-to-artifact relationship is not independently proved."
+    },
+    "spar_mite": {
+      "artifact_sha256": "f72daa0ebc2d68e2305e926f88c98ecea5067d398b26f3a6a8b7e0873781f7c6",
+      "source_tree": "3d49feb585bf48de2592767150a3ade1ac895267a7fce730d293f45ed326505f",
+      "switches": null,
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\spar_mite\\manifest.json",
+      "source_snapshot_present": false,
+      "source_provenance": "Currently available source snapshot; old build receipt lacks a source-tree digest, so exact source-to-artifact relationship is not independently proved."
+    },
+    "stack-cached": {
+      "artifact_sha256": "e9b67d1d5e438444dece599e209360e2af940679364d5a01171f4ada38612183",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 1,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_STRICT_MAP_CACHE": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\stack-cached\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "stack-no-rows": {
+      "artifact_sha256": "64c999069206e8f5b9c58475b3ad50b3b8f55cc58a9e079cfda476c3d637759f",
+      "source_tree": "57b8b6482886e23141faf219c9bf797105ac8a8419f71be99129d7fa70fa5f13",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 1,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\stack-no-rows\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "stack-trial": {
+      "artifact_sha256": "82493fbf0770a017ed35ad981b9356875b51ee83a5128b8f7a72fe3b2b8174c3",
+      "source_tree": "57b8b6482886e23141faf219c9bf797105ac8a8419f71be99129d7fa70fa5f13",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 1,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\stack-trial\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "strict": {
+      "artifact_sha256": "efb3202adf08a1de31d95c03612aa0d4651ce461a09b41fa5862cd95f7064109",
+      "source_tree": "a012f56e9f2b0282ec47016074355b7c9500839bf9b9584ac1c14268f09a75b4",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\strict\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "strict-cached": {
+      "artifact_sha256": "4239b6aa6f24d1a4c7dbd8fa4d90a20a388ee8f8b3b7b54ac8f2b31b21da50da",
+      "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_STRICT_MAP_CACHE": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\strict-cached\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "strict-fixed": {
+      "artifact_sha256": "01cf93bb8a9c5d4e4f260b3454a8476aca9e4a6119cb12116a328d1c7cc847ef",
+      "source_tree": "57b8b6482886e23141faf219c9bf797105ac8a8419f71be99129d7fa70fa5f13",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 1,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\strict-fixed\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "strict-fixed-off": {
+      "artifact_sha256": "0082568d72aeaab7516ca03ec294408670bccd9a02ab0c7e560d86183e0e919b",
+      "source_tree": "57b8b6482886e23141faf219c9bf797105ac8a8419f71be99129d7fa70fa5f13",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\strict-fixed-off\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "telemetry": {
+      "artifact_sha256": "87a96db21cfb2972b419458ea83400739dac5a7c7c4d4b324004c052a15675ff",
+      "source_tree": "a3fedf14eeace1e71ac9dbc25599e5834d5dd64b1a60e822762d73890ccf07d4",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 1,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\telemetry\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "world-awake": {
+      "artifact_sha256": "f3000e85825a4239b1f54eda2ba82f5a706e4b8827a17f5b295b1ae823ac542d",
+      "source_tree": "54211d828e6252053497b7a1a6b34c80e4d4916989b31e75c66c36f3fc0d813b",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 1
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\world-awake\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "world-awake-off": {
+      "artifact_sha256": "8e58049bbeb48ec01048a6e093bd56f0e9827317e9997d4558785a6ee1ca72cf",
+      "source_tree": "54211d828e6252053497b7a1a6b34c80e4d4916989b31e75c66c36f3fc0d813b",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\world-awake-off\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    },
+    "world-awake-v2": {
+      "artifact_sha256": "f6757f07130dad67cc0475318708d0ea2b9c4d7b6b0289b1954d5f009878232f",
+      "source_tree": "6b4f3fd3369400ea6fda13fe7b1ae93deb27a2f5feb66cb2f542db0169a80131",
+      "switches": {
+        "NOVA_RUNTIME_GOVERNOR": 0,
+        "NOVA_RUNTIME_TELEMETRY": 0,
+        "NOVA_TS_RELEVANCE": 0,
+        "NOVA_TS_MAX_UNITS": 8,
+        "NOVA_TS_SAFETY": 0,
+        "NOVA_TS_SIM_FIXES": 0,
+        "NOVA_FLEE_HIT": 0,
+        "V36_FARM_BOUND": 0,
+        "V36_FARM_DIAG": 0,
+        "V36_FARM_EXHAUSTIVE": 0,
+        "NOVA_STRICT_MAP_ID": 0,
+        "NOVA_WORLD_AWAKE": 1,
+        "V36_ROWS_CAPTURE_INTENT": 0
+      },
+      "manifest": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\world-awake-v2\\manifest.json",
+      "source_snapshot_present": true,
+      "source_provenance": "Frozen copied source snapshot for this build"
+    }
+  },
+  "completed_schedules": {
+    "baseline-final-pool": {
+      "games": 320,
+      "maps": 40,
+      "candidate": "baseline",
+      "schedule_sha256": "e2545946457802aa45f4ab9044be74e7d31c493b379e97c72096a9855737a50d",
+      "results_sha256": "23b9653c0e4ee7f859511e9e2416256952b3f31a8142a9ce75f52a8e242ddae8",
+      "purpose": "Final exact artifact protocol: 0159aa2362276da5ef6ec1498be5050f85d20c6b0b866675ff225eb259af8232"
+    },
+    "baseline-fresh-pool": {
+      "games": 160,
+      "maps": 20,
+      "candidate": "baseline",
+      "schedule_sha256": "9a28801aca3a594e3bf236ac0ee1a3c600ab205b477e11f570e1e266c5f3c911",
+      "results_sha256": "3f457bcb1bd71e5c58a84558fe5099cc7b4127a6ee578ce7ecc2940f5b9368d2",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "baseline-local-pool": {
+      "games": 136,
+      "maps": 17,
+      "candidate": "baseline",
+      "schedule_sha256": "2b9818e18363b2734aa7251261c64ae6186fd7cf45d7c40d73807a5279e5fadb",
+      "results_sha256": "509a0f6e0556453213d631c5526d00fef8d1ac802d9ce8047481e20dc41d7a0e",
+      "purpose": "Matched immutablebaseline reference for registered localpool136games"
+    },
+    "baseline-official": {
+      "games": 17,
+      "maps": 17,
+      "candidate": "baseline",
+      "schedule_sha256": "4d35507645d80793a1eb1eb99b1f08935aa3b4d32801946e49ee2858eea55ba0",
+      "results_sha256": "cc0b98d0c4503f1d8ecbafebcbc9071bf5557ef1b5c476181849d7700e737ea5",
+      "purpose": "Local official baseline source diagnostics and map replay corpus, one deterministic observation per map"
+    },
+    "baseline-smoke-v2": {
+      "games": 2,
+      "maps": 2,
+      "candidate": "baseline",
+      "schedule_sha256": "cc08155028795a4deb12cdfe97da9bc31e69d3d739d585db867f838539b49835",
+      "results_sha256": "51ac036477700394b4cb51358650c313c68802998121387caf05d764420b988c",
+      "purpose": "Phase0 full-match smoke; identical artifact sides deduplicated; not strength evidence"
+    },
+    "bound-diagnostics": {
+      "games": 6,
+      "maps": 3,
+      "candidate": "bound-diag",
+      "schedule_sha256": "c342e69723e1140ec372c6fa4c93570effe81bd5425670e7cf84bbc6d641541c",
+      "results_sha256": "d5c8915fa473b266e5b109a089e950249a2b461fc0df32d81a27e64f91db939a",
+      "purpose": "Correctness-only real-state bound andearly coverage traces; logging changesfuel notstrength"
+    },
+    "bound-official-smoke": {
+      "games": 8,
+      "maps": 4,
+      "candidate": "bound-v2",
+      "schedule_sha256": "f7b2b0e7a41c4845931f5e22ba92c4488e2fd48afa17009270a841f83418ab77",
+      "results_sha256": "c8e4aec32ba2c22f3d7d3348bb8002d3f6882744782dc9a0b15ddb1d1841566a",
+      "purpose": "Registered A3 bound-only development paired official smoke"
+    },
+    "bound-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "bound-v2",
+      "schedule_sha256": "783a5df809edb0c11033e91414437d2c92c509c4706a36def5dd6e1db9b67600",
+      "results_sha256": "23f18a228dca1ea478394fd7827cda3cc4fa1366a7bd6e0687a37363b807d0aa",
+      "purpose": "E02 local17 official maps34 games"
+    },
+    "bound-screen": {
+      "games": 400,
+      "maps": 200,
+      "candidate": "bound-v2",
+      "schedule_sha256": "fb2766c5f5f442cffaaefd5eb8f94003ab721697f4a4f5f40c2302faaaf16ba2",
+      "results_sha256": "64aa19a877ab0472fc2be1ca53e6baffa9c1c275814efc6544685838556c76b8",
+      "purpose": "Registered E02 200 new synthetic maps both sides400 games, full fixed screen"
+    },
+    "cache-off-parity": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "cache-source-off",
+      "schedule_sha256": "f9475d01fb1beadd348500853da35a3006cac55c6ea51b8115d3691e6652513e",
+      "results_sha256": "b5cdc208b0b8140b695b78cbf1478284ba14c2f23ab0d841ff4c8bc3c9f0a661",
+      "purpose": "E04b all-new-switches-OFF exact parity prerequisite"
+    },
+    "corrected-off-parity": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "strict-fixed-off",
+      "schedule_sha256": "9d8b508dc95be08e443525df3dc1a9c0b32a25e6c57bd5bd829f309f62ead115",
+      "results_sha256": "59d696aaf4cac7bcf535ed684c9cfeb3b809cee4060aafb77b163d0fcf3f6734",
+      "purpose": "AllnewpoliciesOFF aftercorrectedidentitydata andE06source: rawreplayparity prerequisite"
+    },
+    "flee-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "flee",
+      "schedule_sha256": "2f1cd111b7830e1b901efa0ae50171411f79c87c688fd12f0081f5de0f57cbe2",
+      "results_sha256": "9069df84f2b0b82919aa6b05f8cdc9bfc3c6f2fa9b8429a7e3dfa76f66750e84",
+      "purpose": "Registered isolated local17map34game release screen, unverified live pool."
+    },
+    "flee-screen-1": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "flee",
+      "schedule_sha256": "b97bf207022bf04b332320f06852f39ecaa5ae8715b38b4c2284b3fb33fb45e8",
+      "results_sha256": "8f157b611a04ad77d8e40636e10d69f93ef1f472a78653730fa3d360173faaf4",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "flee-screen-2": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "flee",
+      "schedule_sha256": "ded93b874e43367d9498bd1a9ed2ea434a5b3f8c815578bcac6dff2d6b6d1b1d",
+      "results_sha256": "f58ce1073a6e8502bd9cb64ade7b8b2ee1302b192959238c8635800f1c14e8a8",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "flee-screen-3": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "flee",
+      "schedule_sha256": "f2742969af99d2d6e195917710e07048a503469ab0f822e66bf99bbaa6125cf5",
+      "results_sha256": "e1aa3df350f6e4107bc0eb7ecef545656ef5e720575abbc909ca00cf24aa133c",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "flee-screen-4": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "flee",
+      "schedule_sha256": "d610fb2e456a4011db7d0dac62162bf2e4b2268d7f5a6fa810d8fd369323d773",
+      "results_sha256": "f4f2575a0001c8559a075e4084925be69a28031360010ef822e9a5a6486d0bb8",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "governor-local-pool": {
+      "games": 136,
+      "maps": 17,
+      "candidate": "governor",
+      "schedule_sha256": "44713dc1f16d6359f5426eda43a2b6ddb3df04672b2936d6c1d90f6f735f98c0",
+      "results_sha256": "3ab5f4f37fdb5815bcde27086ea8ad62a0ef6d4f3057c496f24b1e4e76edf763",
+      "purpose": "Registered fixed4opponent developmentpool on17local official maps, both sides136games"
+    },
+    "governor-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "governor",
+      "schedule_sha256": "8e6e980fcc561aba5506be4e0985eb62c031dfc45a8c28c28edb6d0c55e9a399",
+      "results_sha256": "cb4710467d14d19263cde15ee8d617ab45b9d47077887c2981b85b9a34c5e187",
+      "purpose": "Registered isolated local17map34game release screen, unverified live pool."
+    },
+    "governor-screen-1": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "governor",
+      "schedule_sha256": "3d9552e26ce6f976d79ec3249e8570b063861eed31d9ce1337c3862847a2baae",
+      "results_sha256": "3031e78e315c9002906d12e2729bd342576f35639c4368d9333f0a855bdf544d",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "governor-screen-2": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "governor",
+      "schedule_sha256": "2bf9ae1a2cbf4fa76a1c53171188714d9fb46b89fa2dfc68c6d5cc3ae9b70f62",
+      "results_sha256": "b024daf5746ba9aa34ade069a9c8826bcef216df636130ecb826ceb206db7e13",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "governor-screen-3": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "governor",
+      "schedule_sha256": "64594d12deec290a531ab6272f51ebe077338e2148df5341a12a20d74e2e0a14",
+      "results_sha256": "a20d5d038ba8dba809a9a86cd9d60f87ac4fccccce57aaca393ae1a06669331f",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "governor-screen-4": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "governor",
+      "schedule_sha256": "d4c2a2b11793c7012ce32395451c6cc620efa28166a9cc10b2e6ada81be53779",
+      "results_sha256": "577f48250306d73a011ea1d656c648c3bc009d873532b75825ed6fba7e32bced",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "governor-telemetry": {
+      "games": 2,
+      "maps": 1,
+      "candidate": "governor-telemetry",
+      "schedule_sha256": "b3dd4a1fa2bb3cd63600f769b326248c563e94a8078bf43bbfced10fb17686b5",
+      "results_sha256": "9a248ad98e149356877fda66c706f8987e20236b6858f272aa8557edd2f0d9c8",
+      "purpose": "Agent2 instrumented governor stage refusals and useful planning participation; diagnostic only no strength evidence"
+    },
+    "integration-off-parity": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "integration-off",
+      "schedule_sha256": "e66ddfdb2e4aee605907056c08bb8bd295e5a52978e5d6e8bd9222c2cf976feb",
+      "results_sha256": "d755e0a9c1c0ee890dc44b518141d7f17f8dfe3d57764f1162db5c446eb29f96",
+      "purpose": "Latest complete source allswitchesOFF exactnative replay parity"
+    },
+    "model-fix-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "model-fix",
+      "schedule_sha256": "94847281d9bdc4adfda59b7d2f13b39fa319c48f02e96fdcadd9e393a4fb1191",
+      "results_sha256": "e533f28dfae40939e93af993dcbfe64617bcff3509c8156c3bbb6d97e652699b",
+      "purpose": "Registered isolated local17map34game release screen, unverified live pool."
+    },
+    "model-fix-screen-1": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "model-fix",
+      "schedule_sha256": "27d4617893b114bfa864eea02412d22d65136ee8ef914f5af3c67568ecc6c8a6",
+      "results_sha256": "a2ad2c89a7ae4b904e1f3fc06a0b9ec2d82b6a4bc7ae8b390a78324117c3ab5d",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "model-fix-screen-2": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "model-fix",
+      "schedule_sha256": "1ff22b53325c9d221272a3acdd40a1babc54f75805e846e6d19de9527e94ffb0",
+      "results_sha256": "c133aa30ebe5b9e1f23e27f1bedfa99033e76789ff8a554929deacf31d7a9366",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "model-fix-screen-3": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "model-fix",
+      "schedule_sha256": "cd4c37f757dff39ec623e3c6d7b5527a69f8a0458e3bebc6b867a55ec76ae51f",
+      "results_sha256": "fe424b64ba04343425c3006f92cac02c6af769f1edbaf7615b4e5c156bafdb93",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "model-fix-screen-4": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "model-fix",
+      "schedule_sha256": "4d8f8d385747a122cef6698b5bc5b4a69e128a5b5111e58fe1e374b2cb7bf7db",
+      "results_sha256": "5849e6146ed74d6f9c30178ecf81de67b5651c44278b1dfc42a889ab67f59b76",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "off-parity": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "all-off-v2",
+      "schedule_sha256": "d58ca55a225b0a78444e0d788ee5054a194bbda77d19ab03cba328d0e8d9a350",
+      "results_sha256": "dc356d7b2ea932345fcc264ef9382a4e0e5aee3e55f14c85b509e2d34ec494b0",
+      "purpose": "All switches off same-map full-match parity; compare raw replay transition bytes with frozen baseline selfplay"
+    },
+    "release-final-head": {
+      "games": 80,
+      "maps": 40,
+      "candidate": "release-final",
+      "schedule_sha256": "67a100b105aab120bd802d9a4c1748e23342f362f050cc1ce6853871cbc99e02",
+      "results_sha256": "5d5e15e78d1aab4f78095cd3125469251d3102d331942e9606e819a2f525bd77",
+      "purpose": "Final exact artifact protocol: 0159aa2362276da5ef6ec1498be5050f85d20c6b0b866675ff225eb259af8232"
+    },
+    "release-final-parity": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "release-final",
+      "schedule_sha256": "9eff3d86711e09bd30c93f9745dbd8632c1b02cd5513a5869c1fe41502db96fe",
+      "results_sha256": "72765a3228aecebd3b8120501d025c165e916ce1fde36dbcfa6fb6572d27e344",
+      "purpose": "Exact metadata-normalized source-default release parity prerequisite; no new policy tuning"
+    },
+    "release-final-pool": {
+      "games": 320,
+      "maps": 40,
+      "candidate": "release-final",
+      "schedule_sha256": "d7fae7a56610dd001e3f4b6b0b7864c8f266a55cf51d8bff2175f9ba6e93896a",
+      "results_sha256": "56d24639234f54f15fcade307e3ff9d4bd23a5ed45760849eb128ddb839cca0f",
+      "purpose": "Final exact artifact protocol: 0159aa2362276da5ef6ec1498be5050f85d20c6b0b866675ff225eb259af8232"
+    },
+    "release-final-shift": {
+      "games": 40,
+      "maps": 20,
+      "candidate": "release-final",
+      "schedule_sha256": "583c112942a8693639a5a972fba3301a375a0a14703ae81bba7624854745e6dd",
+      "results_sha256": "2b4cb6b5cff9eff99949802cf13ac95d0e52f6737f7ce484636930c685244ac1",
+      "purpose": "Final exact artifact protocol: 0159aa2362276da5ef6ec1498be5050f85d20c6b0b866675ff225eb259af8232"
+    },
+    "relevance5-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "relevance5",
+      "schedule_sha256": "e8704dacf7f80d2d5030d907102a47fd97ccb3d74f015e47821378aa3cc7c8b2",
+      "results_sha256": "70251e0eb66f865cd0c58697bb510b4ad28b28b7fe935bedcdc35049f2b74531",
+      "purpose": "Registered isolated local17map34game release screen, unverified live pool."
+    },
+    "relevance5-screen-1": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "relevance5",
+      "schedule_sha256": "60b83af905151ab53eae30ef08da16b85c97a4d53ee228a61cdf51bda5a254dc",
+      "results_sha256": "879b959024847c5d280540f463ade3d91862e3241ef4771e424e32b9ee301fb3",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "relevance5-screen-2": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "relevance5",
+      "schedule_sha256": "b5eba7a49cb37f44edf903e622da9d8d1173388eacc369d383b4dca1f66d0e0a",
+      "results_sha256": "69283bdd06bd37a971803f1ad33849e6294238053023eb385a5ace0f81529c65",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "relevance5-screen-3": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "relevance5",
+      "schedule_sha256": "56238e901263be5f14dd415cefdcbcb2173a2e5bc526244c76edeb76d7992851",
+      "results_sha256": "5b17d562709b1cb475fc6a81e467f8823d8722addeb2b1fac4b1bb75c703e9b3",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "relevance5-screen-4": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "relevance5",
+      "schedule_sha256": "2ca29129919ba0cb17f8660f9fd39e62f19ed894a943dede3abad4ab568eb137",
+      "results_sha256": "c7a9a98a87130df54ee16c41ccd8f201f89152901e5423bd19a87f75eddbb3d5",
+      "purpose": "Registered isolated new synthetic50map100game development chunk; not pristine final evidence."
+    },
+    "rows-cached-fresh-head": {
+      "games": 80,
+      "maps": 40,
+      "candidate": "rows-cached",
+      "schedule_sha256": "002991d024e597c006757487710b1b89d07da930b646dd7e5176913e36a18a57",
+      "results_sha256": "b72e9ea4860075fc7ad416e4c7abc07fb95a78fc239de78b6ea278c23e27fe4e",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "rows-cached-fresh-pool": {
+      "games": 160,
+      "maps": 20,
+      "candidate": "rows-cached",
+      "schedule_sha256": "3afd184d98e1b2f80efc490f067c07655cb102995b3c5882c6b2e1805952423d",
+      "results_sha256": "f972f94f0b981417c859b306f1d9a90291259ac924e789c13eaae7b30b601d5e",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "rows-cached-local-pool": {
+      "games": 136,
+      "maps": 17,
+      "candidate": "rows-cached",
+      "schedule_sha256": "7a8b678be5d97a2568f20a1a0215de791e52d9395856262c62d907b44324e5ad",
+      "results_sha256": "8ac6346a1ac357514139c95cf0e1ece1d0b199d7ff8b71144375d8fe25ab02b7",
+      "purpose": "E04b complete cached stack local development pool, 17 maps four fixed uncalibrated opponents, both sides"
+    },
+    "rows-cached-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "rows-cached",
+      "schedule_sha256": "a3db983b17df620296d173dfb051c71dcb6b9e471ec4e793823c06c76c59d700",
+      "results_sha256": "8d5a099f4c4136efea020d16fb7306524aa4b978fb1ba7fd2757be00c2241657",
+      "purpose": "E04b corrected cached identity and E06 same-source official suite"
+    },
+    "rows-cached-screen": {
+      "games": 400,
+      "maps": 200,
+      "candidate": "rows-cached",
+      "schedule_sha256": "cafb40b1b409c5e0ee695f088862b279560e5dd85811d95689a0437014effd9a",
+      "results_sha256": "c49ff3df5423b4d3e522b96ef152c14b410ea7938fb0dd0b6c950fd7d4eacdb5",
+      "purpose": "E04b frozen development 200 maps, paired sides, 400 full games"
+    },
+    "rows-cached-shift-validation": {
+      "games": 20,
+      "maps": 10,
+      "candidate": "rows-cached",
+      "schedule_sha256": "a5ee112ad2a0a8cdbdc62b018165829622d02e13d733ba6ab91a53c05a0e56c0",
+      "results_sha256": "290b4a77e59b1901f618864a31500a303f03177857a296ab5f8e29be250dea36",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "rows-intent-development": {
+      "games": 2,
+      "maps": 1,
+      "candidate": "rows-intent-fixed",
+      "schedule_sha256": "eb7a999ea3d88a2dca59e49dbfa2588de88ebb93eef155673c16a37b60b9c1e8",
+      "results_sha256": "9823b3f8768e619caab516d0c89f6ab14c8216993283cf7944c4fe50d1c740a7",
+      "purpose": "E06 fixedrows2game development: actualclaimcaptureintent vs same-source strict-only, mechanism metric collectiondelay; no independentmatchseed"
+    },
+    "rows-intent-fixed-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "rows-intent-fixed",
+      "schedule_sha256": "6e6f26065f1422e819f1fe3a360e9d8f95c02007a0ae6e4aa481fb7907d0e7c5",
+      "results_sha256": "bedfff4d58afed9ef28cd86db37bbb13eeb611e4c59a9042dba0781aac7310f6",
+      "purpose": "Corrected identity / rows isolated17map34game gate"
+    },
+    "rows-intent-fixed-screen": {
+      "games": 400,
+      "maps": 200,
+      "candidate": "rows-intent-fixed",
+      "schedule_sha256": "14bf547a03402c7cbca451ef5504c456bd29990ab0b4b53501767c34e54dae35",
+      "results_sha256": "c2d855a5f07edf3d374630ec0fe5fb6231b7adcdffee2dfa0fc2e050d9592a01",
+      "purpose": "Corrected identity / rows fixed200newsyntheticmaps400games; unknown fallback and fuel checks"
+    },
+    "rows-local-pool": {
+      "games": 136,
+      "maps": 17,
+      "candidate": "rows-intent-fixed",
+      "schedule_sha256": "5be2e2d0cb7d20ce6d64c60146225b9b020df370a4042a890fbaae8f0d741426",
+      "results_sha256": "4dda70e6ba55068ded6688db75942bc58f251f2c00102c7db53bd7ca268c4f79",
+      "purpose": "Corrected rows+identity fixedlocal4opponentpool136games, matchedbaseline"
+    },
+    "runtime-telemetry": {
+      "games": 2,
+      "maps": 1,
+      "candidate": "telemetry",
+      "schedule_sha256": "69c40332f5b55f3dd2f3756d69c9bbc498ad4b14d890f6d323d2f4b4aefdfb6b",
+      "results_sha256": "28d267a31cf2428e23b7beeec52f3cc7def342e67717b394e15e00ff3441ca21",
+      "purpose": "Agent2 instrumented release stage costs and actual observed snapshot coverage; descriptive diagnostic only, no strength evidence"
+    },
+    "stack-cached-fresh-head": {
+      "games": 80,
+      "maps": 40,
+      "candidate": "stack-cached",
+      "schedule_sha256": "1be4f4b3f0700c352765f67974445a65f6e976d3f98b55a8f3b4b612727cddfc",
+      "results_sha256": "de52191c744ed2102f8d4ca7cc5be09f1229e13a90672ae321653aa5fbb70dd6",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "stack-cached-fresh-pool": {
+      "games": 160,
+      "maps": 20,
+      "candidate": "stack-cached",
+      "schedule_sha256": "abbadc32e493d7caf1e60342133f2020a1cdff8e85cbe37c0f4156020b7cf0c7",
+      "results_sha256": "712df3d442876e8ff09c5377597dd61a0e93765eb99b5f59a535fee91e9edcc5",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "stack-cached-local-pool": {
+      "games": 136,
+      "maps": 17,
+      "candidate": "stack-cached",
+      "schedule_sha256": "6b35e47c49d9170f1e5254c515a9242bb639cd68a34e1feb0127040776ef6ed9",
+      "results_sha256": "9602a68a67125b873704b08253d2bc7338674b5bdff5d077c23f62931893a6a0",
+      "purpose": "E04b complete cached stack local development pool, 17 maps four fixed uncalibrated opponents, both sides"
+    },
+    "stack-cached-shift-validation": {
+      "games": 20,
+      "maps": 10,
+      "candidate": "stack-cached",
+      "schedule_sha256": "56b1448ef5ca28c7e2c4a5bb9bef68b8a49c44d0647264c93cc566bcb902eb90",
+      "results_sha256": "48d6cb7bcd61d5cb150c4a7b6bf49d79a249dd34a5f5b23001044369484ae1d3",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "stack-fresh-v-rows": {
+      "games": 80,
+      "maps": 40,
+      "candidate": "stack-cached",
+      "schedule_sha256": "18c39ef408a7cab13948fcdbf246e5a447b955fb610f4e4122bf416597a1b46a",
+      "results_sha256": "7adf683554a5aed487fe283b2eaa5862606525134166544af95d2b871be10ba7",
+      "purpose": "Fresh protocol v2: 310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e"
+    },
+    "strict-cached-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "strict-cached",
+      "schedule_sha256": "0d689382f3cb8b74e0b7fd3246acffe847b949a3a8ba3ca4a77f31a6d5f3f348",
+      "results_sha256": "bcf84d78f9891378d8b34d471b2dbf92b25c28e4f570f50ed825c32084002a49",
+      "purpose": "E04b corrected cached identity and E06 same-source official suite"
+    },
+    "strict-cached-screen": {
+      "games": 400,
+      "maps": 200,
+      "candidate": "strict-cached",
+      "schedule_sha256": "afae1141bb9d71dc0486e399163607316fcccb623307f4a396a027f9e1cf73ae",
+      "results_sha256": "ca1d6455918637c6a2b6ac3057eca5c55fe454e3d9a20a70d3975e6255f00de5",
+      "purpose": "E04b frozen development 200 maps, paired sides, 400 full games"
+    },
+    "strict-fixed-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "strict-fixed",
+      "schedule_sha256": "9ca911770922e6301c9f5da663203d451850105a0c2b69969719b4fe19412e21",
+      "results_sha256": "aa35a77f05618a1343e9b6cd31f9bb70b8e40460e44f5c492eb411fc551fe43d",
+      "purpose": "Corrected identity / rows isolated17map34game gate"
+    },
+    "strict-fixed-screen": {
+      "games": 400,
+      "maps": 200,
+      "candidate": "strict-fixed",
+      "schedule_sha256": "ec08586e977255d04046b7d63b6ad1b235fbcce573116b4860f0f43f0f13f586",
+      "results_sha256": "51666dcf9ff6abb65b17615fe7d195eb0eba1fef878a274a89576cf96d10e8b6",
+      "purpose": "Corrected identity / rows fixed200newsyntheticmaps400games; unknown fallback and fuel checks"
+    },
+    "world-v2-official": {
+      "games": 34,
+      "maps": 17,
+      "candidate": "world-awake-v2",
+      "schedule_sha256": "fed951e8f0d6411f2d6c32abb41c65dd57cb60b811c4a392434a92e91359317f",
+      "results_sha256": "c0738a3cd10d3c95ccfb95deb6d193cc8b530a67879ac938bc5b786b74aaebf1",
+      "purpose": "Isolated updatedworld awake state local34game correctness/performance gate"
+    },
+    "world-v2-screen-1": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "world-awake-v2",
+      "schedule_sha256": "417842489f2c80c085f471159f13acbcb2d1a1a84820d2b25388d47c04fdd251",
+      "results_sha256": "063568f74f799d0322502b17c5bde69fe5fb32c182dba6a1a8355bd6e552b50f",
+      "purpose": "Registered worldawake50map100game screen chunk; same-sourceOFF principal control"
+    },
+    "world-v2-screen-2": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "world-awake-v2",
+      "schedule_sha256": "f299903eb04db4e8d321b3edd97d5bbf1879d6673a3f88d30cd6ad85d2cb19ee",
+      "results_sha256": "11d461a932b3c2c75b8514b90e61db498751a1676813283ad24c10c947eab596",
+      "purpose": "Registered worldawake50map100game screen chunk; same-sourceOFF principal control"
+    },
+    "world-v2-screen-3": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "world-awake-v2",
+      "schedule_sha256": "7c3cf5567a5fc56f37424b5de1013f3080ef744d312bd2fcb1eeff7d750f6fd8",
+      "results_sha256": "4869694364f728cb2cd8ec6575f0ca68ac18e4e180b41ad981a1dd473f883592",
+      "purpose": "Registered worldawake50map100game screen chunk; same-sourceOFF principal control"
+    },
+    "world-v2-screen-4": {
+      "games": 100,
+      "maps": 50,
+      "candidate": "world-awake-v2",
+      "schedule_sha256": "e28257c06f82011a4d7b76e75c6319ccd846d9fb6417251ea50fa206a16ba6f5",
+      "results_sha256": "b01f6b850d9789dc293ecb26d0628e5cd507048370d88d32659522f48f9f996c",
+      "purpose": "Registered worldawake50map100game screen chunk; same-sourceOFF principal control"
+    }
+  },
+  "incomplete_schedules": {},
+  "excluded_initialization_schedules": {
+    "baseline-smoke": "Superseded partial initialization smoke. Completed baseline-smoke-v2 and baseline-official replace it; incomplete schedule not counted."
+  },
+  "metadata_inventories": {
+    "local-official-maps": "Map inventory, not an executable match schedule"
+  },
+  "unique_completed_full_match_jobs": 6745,
+  "unique_completed_map_hashes": 327,
+  "engine_identities": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ],
+  "native_fault_entries": {
+    "teamA": 0,
+    "teamB": 0
+  },
+  "caveat": "Unique full-match jobs are artifact/opponent/map/side/settings units, not independent maps. Native short fixtures and deterministic duplicate schedule assignments are excluded from this total."
+}

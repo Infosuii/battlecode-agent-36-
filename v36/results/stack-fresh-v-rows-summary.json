@@ -1,0 +1,24 @@
+{
+  "candidate": "stack-cached",
+  "games": 80,
+  "map_clusters": 40,
+  "wins": 27,
+  "ties": 0,
+  "losses": 53,
+  "win_points": 0.3375,
+  "cluster_bootstrap95": [
+    0.2375,
+    0.4375
+  ],
+  "mean_submitted_gem_margin": -70.225,
+  "gem_margin_cluster_bootstrap95": [
+    -122.125,
+    -17.125
+  ],
+  "interpretation": "Descriptive matched-map clusters; no significance or general-strength claim. A single map has no interval.",
+  "fuel_exhaustion_events": 228,
+  "faults": 0,
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ]
+}

@@ -173,4 +173,4 @@ E9 rest (p-tune, 200 games each): gold weight on unknown maps 0.05: 53.0% (46.5�
 this build because the brain (`APEX_BRAIN=1`) resets aggression every turn; tune the brain's values instead.
 
 **v37 decision:** no setting or pick list beat v36 on engine 1.0.1, so the v37 base bot = bot_v36 unchanged
-(it beats v34 68.5% on engine 1.0.1, E8). Bundling it with cambc 3.0.2 gives a zip byte-identical to `v36/release/bot_v36.zip` (SHA-256 5ee75d52…b320), so that zip is the base bot for both CLIs.
+(it beats v34 68.5% on engine 1.0.1, E8). Bundling it with cambc 3.0.2 gives a zip byte-identical to `v36/agent4/release/bot_v36.zip` (SHA-256 5ee75d52…b320), so that zip is the base bot for both CLIs.

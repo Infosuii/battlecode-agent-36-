@@ -1,0 +1,10 @@
+{
+  "source_tree": "a1f4b72e1183e86db5645fff5678c220d6a917208a74fdd13c4a364813a938f3",
+  "variants": {
+    "cache-source-off": "032c963b6311c8ee28a40df307448e481ee6df3ade892f084dc4a7aa9c3a4093",
+    "strict-cached": "4239b6aa6f24d1a4c7dbd8fa4d90a20a388ee8f8b3b7b54ac8f2b31b21da50da",
+    "rows-cached": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "stack-cached": "e9b67d1d5e438444dece599e209360e2af940679364d5a01171f4ada38612183"
+  },
+  "next": "Review development evidence; fresh validation is a separate explicit invocation."
+}

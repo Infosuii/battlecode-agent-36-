@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O2",
+    "-std=c++20",
+    "-fno-exceptions",
+    "-IC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\bot_v36\\src",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent3\\evidence\\farming_scorer_fixture.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent3\\evidence\\farming_scorer_fixture.wasm"
+  ],
+  "source_sha256": "8498f9a3b0dd311a52c6133fb031ce252edec7acce4216ab607a15ad96807c8d",
+  "helper_sha256": "21ed073dcd9064af2af4cb9e8ed3b37796fbb49c80008a008d55b5a62d2d0bb7",
+  "returncode": 0,
+  "stdout": "{\"actual_scorer_matched_choices\":25001,\"old_bound_choice_failures\":120,\"changed_random_choices\":119,\"camp_scenarios\":10,\"dense_soak_13_camps_underestimate\":13000,\"seed\":3578833}\n",
+  "stderr": "(node:14744) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+  "scope": "Production scorer body with controlled observation/eligibility helpers; not engine validation"
+}

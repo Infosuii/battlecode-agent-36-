@@ -1,0 +1,41 @@
+{
+  "id": "agent4-identity-sdk-dump",
+  "artifact": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-sdk-dump\\agent4-identity-sdk-dump.wasm",
+  "artifact_sha256": "778fc314256563e65318d503e3aafc2546bdc2b76de1c5371305d86fbd855ab5",
+  "source": "actual candidate draft-only SDK correctness fixture; no gameplay strength policy",
+  "source_files": {
+    "common.h": "58520d5203f1a3e00c2e2868aca643b20c3018bab23e820fdbd1102bca1838c9",
+    "draft.cpp": "47307d7f15a186fc5bb6ad00326cc2a97cd415d3fe0e0f9bb02d7b771a62282c",
+    "draft.h": "50e15fc5f740ce754409a55693a9cb07041bf5dc0083de9a35e226160c5eeb74",
+    "main.cpp": "c29868b1eb094cc8d8bddddbe33c06957e854c0f44ab109befb365ec3505bc7e",
+    "official_map_layouts.h": "bb96ad35e59d061c5b3b223bd984c0e6221c2e79457ea4c520b73d00dc1e3517",
+    "strategy.h": "92156f4721e9def6a14599d4495c734ec82295e88dce9fa92df1a6885a488f22"
+  },
+  "switches": {
+    "NOVA_STRICT_MAP_ID": 1,
+    "APEX_MAPINFO": 1
+  },
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++20",
+    "-msimd128",
+    "-mbulk-memory",
+    "-mbulk-memory-opt",
+    "-fwasm-exceptions",
+    "-mllvm",
+    "-wasm-use-legacy-eh=false",
+    "--no-wasm-opt",
+    "-DNOVA_STRICT_MAP_ID=1",
+    "-DAPEX_MAPINFO=1",
+    "-IC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\sdk\\cpp",
+    "-LC:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\share\\wasi-sysroot\\lib\\wasm32-wasip1\\eh",
+    "-lunwind",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-sdk-dump\\src\\main.cpp",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-sdk-dump\\src\\draft.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\agent4-identity-sdk-dump\\agent4-identity-sdk-dump.wasm"
+  ],
+  "seconds": 17.09400000000005
+}

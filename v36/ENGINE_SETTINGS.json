@@ -1,0 +1,12 @@
+{
+  "capture_rounds": 5,
+  "camp_sleep_rounds": 2,
+  "respawn_rounds": 60,
+  "recall_rounds": 5,
+  "max_rounds": 2000,
+  "winning_gems": 1000,
+  "engine_wasm_sha256": "1919c5a6f2ea039041071166aef38f6f1ede8d5c29b062db8c2e028109e3f96f",
+  "fuel_quantum_observed_normal": 100000,
+  "fuel_initial_observed": 200000,
+  "fuel_evidence": "agent2/evidence/telemetry/framed-telemetry.json"
+}

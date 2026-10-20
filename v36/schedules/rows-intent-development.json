@@ -1,0 +1,42 @@
+{
+  "id": "rows-intent-development",
+  "purpose": "E06 fixedrows2game development: actualclaimcaptureintent vs same-source strict-only, mechanism metric collectiondelay; no independentmatchseed",
+  "created_utc": "2026-10-20T12:22:13.411539+00:00",
+  "candidate": "rows-intent-fixed",
+  "opponents": [
+    "strict-fixed"
+  ],
+  "distinct_maps": 1,
+  "games": 2,
+  "duplicate_deterministic_jobs_removed": 0,
+  "independent_map_groups": 1,
+  "protocol": "Full matches at default fuel in release. No deterministic rerun counted as new evidence.",
+  "jobs": [
+    {
+      "id": "7c49ce282fb7264e2159a31061fad707ade2430cccb8bce25927fa3c57c10f8c",
+      "a": "rows-intent-fixed",
+      "b": "strict-fixed",
+      "sha_a": "4980357a428ac06020dd29561e672bae95b457d398a47082aa39492baa4ded3c",
+      "sha_b": "01cf93bb8a9c5d4e4f260b3454a8476aca9e4a6119cb12116a328d1c7cc847ef",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rows.map26a",
+      "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "group_id": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "side": 0,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    },
+    {
+      "id": "174795616027cb0479e7512a7d4b72d026c91c30d60dc792c397343d74f37ef1",
+      "a": "strict-fixed",
+      "b": "rows-intent-fixed",
+      "sha_a": "01cf93bb8a9c5d4e4f260b3454a8476aca9e4a6119cb12116a328d1c7cc847ef",
+      "sha_b": "4980357a428ac06020dd29561e672bae95b457d398a47082aa39492baa4ded3c",
+      "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rows.map26a",
+      "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "group_id": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "side": 1,
+      "seed": null,
+      "variation": "fixed deterministic map and side; no match seed option"
+    }
+  ]
+}

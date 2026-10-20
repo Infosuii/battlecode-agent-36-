@@ -1,0 +1,1913 @@
+{
+  "states": [
+    {
+      "round": 0,
+      "turn": 0,
+      "team": 0,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 0,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 0,
+        "inpos": 0,
+        "substep": 0,
+        "slot": null,
+        "atype": null,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        0,
+        0
+      ],
+      "drafts": [
+        [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "turn": 1,
+      "team": 1,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 0,
+        "inpos": 2,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        1,
+        0
+      ],
+      "drafts": [
+        [
+          9,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "turn": 2,
+      "team": 0,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 0,
+        "inpos": 4,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        1,
+        1
+      ],
+      "drafts": [
+        [
+          9,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          9,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "turn": 3,
+      "team": 1,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 1,
+        "inpos": 6,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        2,
+        1
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          9,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "turn": 4,
+      "team": 0,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 1,
+        "inpos": 8,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        2,
+        2
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          9,
+          0,
+          -1,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "turn": 5,
+      "team": 1,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 2,
+        "inpos": 10,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        3,
+        2
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          8,
+          -1,
+          -1
+        ],
+        [
+          9,
+          0,
+          -1,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "turn": 6,
+      "team": 0,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 2,
+        "inpos": 12,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        3,
+        3
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          8,
+          -1,
+          -1
+        ],
+        [
+          9,
+          0,
+          8,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "turn": 7,
+      "team": 1,
+      "awaiting": 1,
+      "phase": 12,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 3,
+        "inpos": 14,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        4,
+        3
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          8,
+          4,
+          -1
+        ],
+        [
+          9,
+          0,
+          8,
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 0,
+      "turn": 0,
+      "team": 0,
+      "awaiting": 0,
+      "phase": 0,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 4294967295,
+      "step": {
+        "phase": 12,
+        "kind": 19,
+        "actor": [
+          0,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 3,
+        "inpos": 16,
+        "substep": 0,
+        "slot": 0,
+        "atype": 0,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        4,
+        4
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          8,
+          4,
+          -1
+        ],
+        [
+          9,
+          0,
+          8,
+          4,
+          -1
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "turn": 0,
+      "team": 0,
+      "awaiting": 1,
+      "phase": 10,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 0,
+      "step": {
+        "phase": 14,
+        "kind": 3,
+        "actor": [
+          1,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 1,
+        "inpos": 16,
+        "substep": 34,
+        "slot": null,
+        "atype": null,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        4,
+        4
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          8,
+          4,
+          -1
+        ],
+        [
+          9,
+          0,
+          8,
+          4,
+          -1
+        ]
+      ]
+    }
+  ],
+  "state": {
+    "phase": 1,
+    "team": 0,
+    "round": 1,
+    "champion": 0
+  },
+  "snapshot": {
+    "header": {
+      "round": 1,
+      "turn": 0,
+      "team": 0,
+      "awaiting": 1,
+      "phase": 10,
+      "outcome": 0,
+      "submitted": [
+        0,
+        0
+      ],
+      "cur_champ": 0,
+      "step": {
+        "phase": 14,
+        "kind": 3,
+        "actor": [
+          1,
+          0
+        ],
+        "frm": [
+          0,
+          0
+        ],
+        "to": [
+          0,
+          0
+        ],
+        "round": 1,
+        "inpos": 16,
+        "substep": 34,
+        "slot": null,
+        "atype": null,
+        "priority": 0
+      },
+      "draft_rounds": 4,
+      "draft_counts": [
+        4,
+        4
+      ],
+      "drafts": [
+        [
+          9,
+          0,
+          8,
+          4,
+          -1
+        ],
+        [
+          9,
+          0,
+          8,
+          4,
+          -1
+        ]
+      ]
+    },
+    "champions": [
+      {
+        "idx": 0,
+        "team": 0,
+        "type": "Varg",
+        "known": 15,
+        "pos": [
+          2,
+          2
+        ],
+        "hp": 1000.0,
+        "maxhp": 1000.0,
+        "rflags": 1043,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          1,
+          7
+        ],
+        "arange": 1.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 50.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 50.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 0,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "idx": 1,
+        "team": 0,
+        "type": "Ryth",
+        "known": 15,
+        "pos": [
+          3,
+          2
+        ],
+        "hp": 1200.0,
+        "maxhp": 1200.0,
+        "rflags": 1027,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          3,
+          1
+        ],
+        "arange": 1.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 50.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 50.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 1,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "idx": 2,
+        "team": 0,
+        "type": "Ren",
+        "known": 15,
+        "pos": [
+          4,
+          2
+        ],
+        "hp": 900.0,
+        "maxhp": 900.0,
+        "rflags": 1027,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          4,
+          6
+        ],
+        "arange": 1.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 40.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 40.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 2,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "idx": 3,
+        "team": 0,
+        "type": "Stellar",
+        "known": 15,
+        "pos": [
+          5,
+          2
+        ],
+        "hp": 750.0,
+        "maxhp": 750.0,
+        "rflags": 1027,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          2,
+          3
+        ],
+        "arange": 3.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 35.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 35.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 3,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "idx": 4,
+        "team": 1,
+        "type": "Varg",
+        "known": 15,
+        "pos": [
+          47,
+          47
+        ],
+        "hp": 1000.0,
+        "maxhp": 1000.0,
+        "rflags": 1027,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          1,
+          7
+        ],
+        "arange": 1.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 50.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 50.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 0,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "idx": 5,
+        "team": 1,
+        "type": "Ryth",
+        "known": 15,
+        "pos": [
+          46,
+          47
+        ],
+        "hp": 1200.0,
+        "maxhp": 1200.0,
+        "rflags": 1027,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          3,
+          1
+        ],
+        "arange": 1.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 50.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 50.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 1,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "idx": 6,
+        "team": 1,
+        "type": "Ren",
+        "known": 15,
+        "pos": [
+          45,
+          47
+        ],
+        "hp": 900.0,
+        "maxhp": 900.0,
+        "rflags": 1027,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          4,
+          6
+        ],
+        "arange": 1.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 40.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 40.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 2,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "idx": 7,
+        "team": 1,
+        "type": "Stellar",
+        "known": 15,
+        "pos": [
+          44,
+          47
+        ],
+        "hp": 750.0,
+        "maxhp": 750.0,
+        "rflags": 1027,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          2,
+          3
+        ],
+        "arange": 3.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 35.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 35.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 0,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 3,
+        "submission_dur": 0,
+        "earned_gold": 0,
+        "treasure_gold": 0,
+        "kda": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "camps": [
+      {
+        "idx": 0,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          18,
+          5
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 0,
+        "awake": 0
+      },
+      {
+        "idx": 1,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          31,
+          44
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 1,
+        "awake": 0
+      },
+      {
+        "idx": 2,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          18,
+          4
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 0,
+        "awake": 0
+      },
+      {
+        "idx": 3,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          31,
+          45
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 1,
+        "awake": 0
+      },
+      {
+        "idx": 4,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          18,
+          3
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 0,
+        "awake": 0
+      },
+      {
+        "idx": 5,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          31,
+          46
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 1,
+        "awake": 0
+      },
+      {
+        "idx": 6,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          31,
+          5
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 2,
+        "awake": 0
+      },
+      {
+        "idx": 7,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          18,
+          44
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 3,
+        "awake": 0
+      },
+      {
+        "idx": 8,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          31,
+          4
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 2,
+        "awake": 0
+      },
+      {
+        "idx": 9,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          18,
+          45
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 3,
+        "awake": 0
+      },
+      {
+        "idx": 10,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          31,
+          3
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 2,
+        "awake": 0
+      },
+      {
+        "idx": 11,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          18,
+          46
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 3,
+        "awake": 0
+      },
+      {
+        "idx": 12,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          42,
+          5
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 4,
+        "awake": 0
+      },
+      {
+        "idx": 13,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          7,
+          44
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 5,
+        "awake": 0
+      },
+      {
+        "idx": 14,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          42,
+          4
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 4,
+        "awake": 0
+      },
+      {
+        "idx": 15,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          7,
+          45
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 5,
+        "awake": 0
+      },
+      {
+        "idx": 16,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          42,
+          3
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 4,
+        "awake": 0
+      },
+      {
+        "idx": 17,
+        "team": 2,
+        "type": 0,
+        "known": 1,
+        "pos": [
+          7,
+          46
+        ],
+        "hp": 1350.0,
+        "maxhp": 1350.0,
+        "group": 5,
+        "awake": 0
+      },
+      {
+        "idx": 18,
+        "team": 2,
+        "type": 4,
+        "known": 1,
+        "pos": [
+          25,
+          24
+        ],
+        "hp": 20000.0,
+        "maxhp": 20000.0,
+        "group": 6,
+        "awake": 0
+      },
+      {
+        "idx": 19,
+        "team": 2,
+        "type": 4,
+        "known": 1,
+        "pos": [
+          24,
+          25
+        ],
+        "hp": 20000.0,
+        "maxhp": 20000.0,
+        "group": 6,
+        "awake": 0
+      },
+      {
+        "idx": 20,
+        "team": 2,
+        "type": 2,
+        "known": 1,
+        "pos": [
+          24,
+          24
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 6,
+        "awake": 0
+      },
+      {
+        "idx": 21,
+        "team": 2,
+        "type": 2,
+        "known": 1,
+        "pos": [
+          25,
+          25
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 6,
+        "awake": 0
+      },
+      {
+        "idx": 22,
+        "team": 2,
+        "type": 3,
+        "known": 1,
+        "pos": [
+          48,
+          17
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 7,
+        "awake": 0
+      },
+      {
+        "idx": 23,
+        "team": 2,
+        "type": 3,
+        "known": 1,
+        "pos": [
+          1,
+          32
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 8,
+        "awake": 0
+      },
+      {
+        "idx": 24,
+        "team": 2,
+        "type": 3,
+        "known": 1,
+        "pos": [
+          48,
+          16
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 7,
+        "awake": 0
+      },
+      {
+        "idx": 25,
+        "team": 2,
+        "type": 3,
+        "known": 1,
+        "pos": [
+          1,
+          33
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 8,
+        "awake": 0
+      },
+      {
+        "idx": 26,
+        "team": 2,
+        "type": 3,
+        "known": 1,
+        "pos": [
+          48,
+          18
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 7,
+        "awake": 0
+      },
+      {
+        "idx": 27,
+        "team": 2,
+        "type": 3,
+        "known": 1,
+        "pos": [
+          1,
+          31
+        ],
+        "hp": 500.0,
+        "maxhp": 500.0,
+        "group": 8,
+        "awake": 0
+      }
+    ]
+  },
+  "engine_wasm_sha256": "1919c5a6f2ea039041071166aef38f6f1ede8d5c29b062db8c2e028109e3f96f"
+}

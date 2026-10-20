@@ -1,0 +1,155 @@
+[
+  {
+    "map": "ambush",
+    "map_id": 0,
+    "match_id": "03bb81cb-ef9c-4d97-a466-78edc714eee7",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\03bb81cb-ef9c-4d97-a466-78edc714eee7.repl26a",
+    "replay_sha256": "df954955b6359b4570a092474adff5ec3096b16405ecf56f5f2e7f45bed72158",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\ambush.map26a"
+  },
+  {
+    "map": "collision",
+    "map_id": 1,
+    "match_id": "0934d1d9-0347-4ac3-87ba-230723de3cbf",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\0934d1d9-0347-4ac3-87ba-230723de3cbf.repl26a",
+    "replay_sha256": "57329dd169922c600dd7a274e253df7a43102bd54f21a731107b211ef16a6afc",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\collision.map26a"
+  },
+  {
+    "map": "contest",
+    "map_id": 2,
+    "match_id": "0031270c-2035-4e62-ae4c-c1b4a53b5630",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\0031270c-2035-4e62-ae4c-c1b4a53b5630.repl26a",
+    "replay_sha256": "c8a8c1d1bf9662a455ae98ae0759ce0914842aef63ef502f450b34632119220c",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\contest.map26a"
+  },
+  {
+    "map": "corners",
+    "map_id": 3,
+    "match_id": "00ecc4e7-d80c-4a11-9045-da3995a46f81",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\00ecc4e7-d80c-4a11-9045-da3995a46f81.repl26a",
+    "replay_sha256": "284ff37cb68b9c7a45b8c8c5f6ce8f0a144e8d5b88c357c0a0cc9a386f786cc3",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\corners.map26a"
+  },
+  {
+    "map": "eight",
+    "map_id": 4,
+    "match_id": "00d139de-9752-44d6-98f2-1dd305d0b51f",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\00d139de-9752-44d6-98f2-1dd305d0b51f.repl26a",
+    "replay_sha256": "32906673d17bd13d34f29d69323fb90e7a74f48715c49b2150ddd10a21d50b31",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\eight.map26a"
+  },
+  {
+    "map": "elkring",
+    "map_id": 5,
+    "match_id": "00738c8d-d6ee-413d-beb9-97bf5668540e",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\00738c8d-d6ee-413d-beb9-97bf5668540e.repl26a",
+    "replay_sha256": "076c4d1be28c77730494b83b3114d9fd18c7e11123ebec2afa3c30089e857854",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\elkring.map26a"
+  },
+  {
+    "map": "expanse",
+    "map_id": 6,
+    "match_id": "016d7ea1-271c-422e-b8c6-f837ee76c9b5",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\016d7ea1-271c-422e-b8c6-f837ee76c9b5.repl26a",
+    "replay_sha256": "225b18324ff6e4a457a2ac4563917f37f0a5f055249c5a13f082ef1b63cfb879",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\expanse.map26a"
+  },
+  {
+    "map": "fragment",
+    "map_id": 7,
+    "match_id": "04ad19a5-3584-42d3-a54c-f9520b1b559d",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\04ad19a5-3584-42d3-a54c-f9520b1b559d.repl26a",
+    "replay_sha256": "f6c1786d6655e8ff1890b1747d18f4bf8d39949d091330d7e87bc73b572d7dbb",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\fragment.map26a"
+  },
+  {
+    "map": "interlock",
+    "map_id": 8,
+    "match_id": "0055de28-9e53-442f-95a1-f1f010cd9680",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\0055de28-9e53-442f-95a1-f1f010cd9680.repl26a",
+    "replay_sha256": "52537d2e7219aba55a5953c0f8c5ceb292262c12dd4f14971cd12827eb807722",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\interlock.map26a"
+  },
+  {
+    "map": "lanes",
+    "map_id": 9,
+    "match_id": "031ce3f4-12d1-421c-b4aa-3f1736b4a977",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\031ce3f4-12d1-421c-b4aa-3f1736b4a977.repl26a",
+    "replay_sha256": "01237c2c36a4057046371b2289622a33d02fba1bbf3ba81e8ded494e399d08a8",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\lanes.map26a"
+  },
+  {
+    "map": "monolith",
+    "map_id": 10,
+    "match_id": "009b8297-cac7-4d46-95d0-bb81fbf87b17",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\009b8297-cac7-4d46-95d0-bb81fbf87b17.repl26a",
+    "replay_sha256": "8b8c9c63f38c1cbbd46f16d1c819d1e798ea1af5109a604d699c04818e5f4b77",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\monolith.map26a"
+  },
+  {
+    "map": "packs",
+    "map_id": 11,
+    "match_id": "01675d29-aca4-4e14-89f1-c4d40d3ded62",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\01675d29-aca4-4e14-89f1-c4d40d3ded62.repl26a",
+    "replay_sha256": "23eea55abac1d979e9869ad237dfa6abf242d260b6d18a64b87450ce2bc941ba",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\packs.map26a"
+  },
+  {
+    "map": "pilgrimage",
+    "map_id": 12,
+    "match_id": "04ef208b-2ebc-4bd9-8262-51353e2fd41c",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\04ef208b-2ebc-4bd9-8262-51353e2fd41c.repl26a",
+    "replay_sha256": "89a16d0b5f992a81f5ab1689a697ce388ea261499151db039c3166fcb9fa6e88",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\pilgrimage.map26a"
+  },
+  {
+    "map": "rows",
+    "map_id": 13,
+    "match_id": "007cb1aa-97d8-4dae-9ac7-f0f0ccd65aea",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\007cb1aa-97d8-4dae-9ac7-f0f0ccd65aea.repl26a",
+    "replay_sha256": "787d7d338c6f3814e1f77e83897e453006fc6767641f2b0f3091397c3fd72589",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rows.map26a"
+  },
+  {
+    "map": "rushbait-v2",
+    "map_id": 14,
+    "match_id": "00a38149-2f6a-4239-b009-2bd8a1c6b72b",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\00a38149-2f6a-4239-b009-2bd8a1c6b72b.repl26a",
+    "replay_sha256": "af7e4f5d32191b4dcc4943499657f531330eb233d08c8c46d34509482439d3a0",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\rushbait-v2.map26a"
+  },
+  {
+    "map": "stampede",
+    "map_id": 15,
+    "match_id": "029f03c1-9eaf-4116-abb0-d9e20ed98bf5",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\029f03c1-9eaf-4116-abb0-d9e20ed98bf5.repl26a",
+    "replay_sha256": "e382fbf63312d17294944f98b3c5049277b96be6b7d3717c8b401a27a502af5b",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\stampede.map26a"
+  },
+  {
+    "map": "swirl",
+    "map_id": 16,
+    "match_id": "00ba3313-e258-4704-8681-83a63f6f847b",
+    "replay": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\data\\replays\\00ba3313-e258-4704-8681-83a63f6f847b.repl26a",
+    "replay_sha256": "63468fb0f8292f8513b4ba1144ab3c9c5d9de2af9df99f812180b75f77b61e37",
+    "engine_patch": "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1",
+    "map_file": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\current\\maps\\swirl.map26a"
+  }
+]

@@ -1,0 +1,1859 @@
+{
+  "games": [
+    {
+      "job": "87a69da031b8d47df06e3348ff9fa6efff3a2e77eb9bba15bb06d93cf86b8b35",
+      "candidate_side": "teamA",
+      "joined_frames": 3636,
+      "missing_positions": [],
+      "actual_controller_turns": 3713,
+      "completed_whole_turn_probes": 3636,
+      "official_exhaustion_events": 77,
+      "official_exhaustion_rate": 0.020737947751144625,
+      "detected_suspended_invocations": 35,
+      "nested_suspension_scopes": 40,
+      "unique_nested_start_keys": 35,
+      "official_events_covered_by_whole_turn_span": 35,
+      "official_events_after_completed_probe": 42,
+      "unclassified_official_events": [],
+      "after_completed_probe": [
+        {
+          "champion": 0,
+          "round": 2,
+          "completed_probe": [
+            {
+              "champion": 0,
+              "controller_round": 3,
+              "start_round": 2,
+              "stage": "turn",
+              "cost": 97828,
+              "left": 2158,
+              "suspended": false,
+              "position": 56,
+              "end_position": 56,
+              "end_controller_round": 3
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 20,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 21,
+              "start_round": 20,
+              "stage": "turn",
+              "cost": 98710,
+              "left": 1276,
+              "suspended": false,
+              "position": 432,
+              "end_position": 432,
+              "end_controller_round": 21
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 22,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 23,
+              "start_round": 22,
+              "stage": "turn",
+              "cost": 98487,
+              "left": 1499,
+              "suspended": false,
+              "position": 473,
+              "end_position": 473,
+              "end_controller_round": 23
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 24,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 25,
+              "start_round": 24,
+              "stage": "turn",
+              "cost": 98318,
+              "left": 1668,
+              "suspended": false,
+              "position": 514,
+              "end_position": 514,
+              "end_controller_round": 25
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 26,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 27,
+              "start_round": 26,
+              "stage": "turn",
+              "cost": 98149,
+              "left": 1837,
+              "suspended": false,
+              "position": 557,
+              "end_position": 557,
+              "end_controller_round": 27
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 28,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 29,
+              "start_round": 28,
+              "stage": "turn",
+              "cost": 97980,
+              "left": 2006,
+              "suspended": false,
+              "position": 598,
+              "end_position": 598,
+              "end_controller_round": 29
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 30,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 31,
+              "start_round": 30,
+              "stage": "turn",
+              "cost": 97811,
+              "left": 2175,
+              "suspended": false,
+              "position": 639,
+              "end_position": 639,
+              "end_controller_round": 31
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 32,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 33,
+              "start_round": 32,
+              "stage": "turn",
+              "cost": 97642,
+              "left": 2344,
+              "suspended": false,
+              "position": 680,
+              "end_position": 680,
+              "end_controller_round": 33
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 34,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 35,
+              "start_round": 34,
+              "stage": "turn",
+              "cost": 97473,
+              "left": 2513,
+              "suspended": false,
+              "position": 723,
+              "end_position": 723,
+              "end_controller_round": 35
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 36,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 37,
+              "start_round": 36,
+              "stage": "turn",
+              "cost": 95938,
+              "left": 4048,
+              "suspended": false,
+              "position": 765,
+              "end_position": 765,
+              "end_controller_round": 37
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 38,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 39,
+              "start_round": 38,
+              "stage": "turn",
+              "cost": 95742,
+              "left": 4244,
+              "suspended": false,
+              "position": 808,
+              "end_position": 808,
+              "end_controller_round": 39
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 40,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 41,
+              "start_round": 40,
+              "stage": "turn",
+              "cost": 95541,
+              "left": 4445,
+              "suspended": false,
+              "position": 852,
+              "end_position": 852,
+              "end_controller_round": 41
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 118,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 119,
+              "start_round": 118,
+              "stage": "turn",
+              "cost": 98354,
+              "left": 1632,
+              "suspended": false,
+              "position": 2415,
+              "end_position": 2415,
+              "end_controller_round": 119
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 120,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 121,
+              "start_round": 120,
+              "stage": "turn",
+              "cost": 97660,
+              "left": 2326,
+              "suspended": false,
+              "position": 2462,
+              "end_position": 2462,
+              "end_controller_round": 121
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 122,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 123,
+              "start_round": 122,
+              "stage": "turn",
+              "cost": 97602,
+              "left": 2384,
+              "suspended": false,
+              "position": 2509,
+              "end_position": 2509,
+              "end_controller_round": 123
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 124,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 125,
+              "start_round": 124,
+              "stage": "turn",
+              "cost": 97181,
+              "left": 2805,
+              "suspended": false,
+              "position": 2552,
+              "end_position": 2552,
+              "end_controller_round": 125
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 126,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 127,
+              "start_round": 126,
+              "stage": "turn",
+              "cost": 97012,
+              "left": 2974,
+              "suspended": false,
+              "position": 2594,
+              "end_position": 2594,
+              "end_controller_round": 127
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 128,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 129,
+              "start_round": 128,
+              "stage": "turn",
+              "cost": 96951,
+              "left": 3035,
+              "suspended": false,
+              "position": 2644,
+              "end_position": 2644,
+              "end_controller_round": 129
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 163,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 164,
+              "start_round": 163,
+              "stage": "turn",
+              "cost": 99535,
+              "left": 451,
+              "suspended": false,
+              "position": 3497,
+              "end_position": 3497,
+              "end_controller_round": 164
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 264,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 265,
+              "start_round": 264,
+              "stage": "turn",
+              "cost": 96464,
+              "left": 3522,
+              "suspended": false,
+              "position": 5593,
+              "end_position": 5593,
+              "end_controller_round": 265
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 6,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 7,
+              "start_round": 6,
+              "stage": "turn",
+              "cost": 97485,
+              "left": 2501,
+              "suspended": false,
+              "position": 146,
+              "end_position": 146,
+              "end_controller_round": 7
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 8,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 9,
+              "start_round": 8,
+              "stage": "turn",
+              "cost": 97209,
+              "left": 2777,
+              "suspended": false,
+              "position": 187,
+              "end_position": 187,
+              "end_controller_round": 9
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 10,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 11,
+              "start_round": 10,
+              "stage": "turn",
+              "cost": 99986,
+              "left": 0,
+              "suspended": false,
+              "position": 228,
+              "end_position": 228,
+              "end_controller_round": 11
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 20,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 21,
+              "start_round": 20,
+              "stage": "turn",
+              "cost": 99415,
+              "left": 571,
+              "suspended": false,
+              "position": 435,
+              "end_position": 435,
+              "end_controller_round": 21
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 22,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 23,
+              "start_round": 22,
+              "stage": "turn",
+              "cost": 99246,
+              "left": 740,
+              "suspended": false,
+              "position": 476,
+              "end_position": 476,
+              "end_controller_round": 23
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 24,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 25,
+              "start_round": 24,
+              "stage": "turn",
+              "cost": 99369,
+              "left": 617,
+              "suspended": false,
+              "position": 517,
+              "end_position": 517,
+              "end_controller_round": 25
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 28,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 29,
+              "start_round": 28,
+              "stage": "turn",
+              "cost": 98864,
+              "left": 1122,
+              "suspended": false,
+              "position": 601,
+              "end_position": 601,
+              "end_controller_round": 29
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 30,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 31,
+              "start_round": 30,
+              "stage": "turn",
+              "cost": 98695,
+              "left": 1291,
+              "suspended": false,
+              "position": 642,
+              "end_position": 642,
+              "end_controller_round": 31
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 32,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 33,
+              "start_round": 32,
+              "stage": "turn",
+              "cost": 96719,
+              "left": 3267,
+              "suspended": false,
+              "position": 683,
+              "end_position": 683,
+              "end_controller_round": 33
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 34,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 35,
+              "start_round": 34,
+              "stage": "turn",
+              "cost": 98512,
+              "left": 1474,
+              "suspended": false,
+              "position": 726,
+              "end_position": 726,
+              "end_controller_round": 35
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 42,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 43,
+              "start_round": 42,
+              "stage": "turn",
+              "cost": 96006,
+              "left": 3980,
+              "suspended": false,
+              "position": 902,
+              "end_position": 902,
+              "end_controller_round": 43
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 51,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 52,
+              "start_round": 51,
+              "stage": "turn",
+              "cost": 95762,
+              "left": 4224,
+              "suspended": false,
+              "position": 1099,
+              "end_position": 1099,
+              "end_controller_round": 52
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 20,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 21,
+              "start_round": 20,
+              "stage": "turn",
+              "cost": 99567,
+              "left": 419,
+              "suspended": false,
+              "position": 438,
+              "end_position": 438,
+              "end_controller_round": 21
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 22,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 23,
+              "start_round": 22,
+              "stage": "turn",
+              "cost": 97871,
+              "left": 2115,
+              "suspended": false,
+              "position": 479,
+              "end_position": 479,
+              "end_controller_round": 23
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 24,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 25,
+              "start_round": 24,
+              "stage": "turn",
+              "cost": 97620,
+              "left": 2366,
+              "suspended": false,
+              "position": 520,
+              "end_position": 520,
+              "end_controller_round": 25
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 26,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 27,
+              "start_round": 26,
+              "stage": "turn",
+              "cost": 97451,
+              "left": 2535,
+              "suspended": false,
+              "position": 563,
+              "end_position": 563,
+              "end_controller_round": 27
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 28,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 29,
+              "start_round": 28,
+              "stage": "turn",
+              "cost": 97282,
+              "left": 2704,
+              "suspended": false,
+              "position": 604,
+              "end_position": 604,
+              "end_controller_round": 29
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 30,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 31,
+              "start_round": 30,
+              "stage": "turn",
+              "cost": 97081,
+              "left": 2905,
+              "suspended": false,
+              "position": 645,
+              "end_position": 645,
+              "end_controller_round": 31
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 32,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 33,
+              "start_round": 32,
+              "stage": "turn",
+              "cost": 96912,
+              "left": 3074,
+              "suspended": false,
+              "position": 687,
+              "end_position": 687,
+              "end_controller_round": 33
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 34,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 35,
+              "start_round": 34,
+              "stage": "turn",
+              "cost": 95377,
+              "left": 4609,
+              "suspended": false,
+              "position": 730,
+              "end_position": 730,
+              "end_controller_round": 35
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 67,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 68,
+              "start_round": 67,
+              "stage": "turn",
+              "cost": 98345,
+              "left": 1641,
+              "suspended": false,
+              "position": 1432,
+              "end_position": 1432,
+              "end_controller_round": 68
+            }
+          ]
+        },
+        {
+          "champion": 5,
+          "round": 92,
+          "completed_probe": [
+            {
+              "champion": 5,
+              "controller_round": 93,
+              "start_round": 92,
+              "stage": "turn",
+              "cost": 96342,
+              "left": 3644,
+              "suspended": false,
+              "position": 1914,
+              "end_position": 1914,
+              "end_controller_round": 93
+            }
+          ]
+        }
+      ],
+      "native_gameplay_fuel": {
+        "records": 3713,
+        "p50": 67931,
+        "p90": 86202,
+        "p99": 100000,
+        "max": 163492,
+        "min": 196
+      },
+      "native_fuel_limits": {
+        "firstDraftTurn": 1000000,
+        "draftTurn": 100000,
+        "firstTurn": 200000,
+        "turn": 100000
+      },
+      "native_minus_play_turn_probe": {
+        "records": 3595,
+        "p50": 4867,
+        "p90": 4867,
+        "p99": 4907,
+        "max": 4907,
+        "min": 14
+      },
+      "first_turn_native_minus_probe": {
+        "records": 6,
+        "p50": 20722,
+        "p90": 20728,
+        "p99": 20728,
+        "max": 20728,
+        "min": 20706
+      },
+      "negative_external_cases": [],
+      "refusals_by_stage": {
+        "farm_score": {
+          "logged_attempts": 4,
+          "unique_controller_turns": 4,
+          "unique_reported_round_body": 4
+        },
+        "fields": {
+          "logged_attempts": 1628,
+          "unique_controller_turns": 1223,
+          "unique_reported_round_body": 1223
+        },
+        "tactical_pair": {
+          "logged_attempts": 1,
+          "unique_controller_turns": 1,
+          "unique_reported_round_body": 1
+        }
+      },
+      "participation_by_stage": {
+        "farm_score": {
+          "scope_calls": 2822,
+          "unique_controller_turns": 2822
+        },
+        "fields": {
+          "scope_calls": 3482,
+          "unique_controller_turns": 3482
+        },
+        "init": {
+          "scope_calls": 6,
+          "unique_controller_turns": 6
+        },
+        "route": {
+          "scope_calls": 2699,
+          "unique_controller_turns": 2699
+        },
+        "snapshot": {
+          "scope_calls": 46,
+          "unique_controller_turns": 46
+        },
+        "tactical_pair": {
+          "scope_calls": 45,
+          "unique_controller_turns": 45
+        },
+        "turn": {
+          "scope_calls": 3636,
+          "unique_controller_turns": 3636
+        }
+      },
+      "reconstructed_cross_frame_lines": 0,
+      "refusal_prefixes": 1633,
+      "unparsed_refusal_prefixes": 0,
+      "unique_controller_turns_with_any_refusal": 1228,
+      "nested_route_farm_records": 2699,
+      "farm_excluding_nested_route": {
+        "records": 2699,
+        "p50": 16139,
+        "p90": 19591,
+        "p99": 22496,
+        "max": 28679,
+        "min": 9710
+      }
+    },
+    {
+      "job": "7e2c68145271a24d995ddab28eb15a1ba853e675db3bb0326afed776cf9dd82b",
+      "candidate_side": "teamB",
+      "joined_frames": 3938,
+      "missing_positions": [],
+      "actual_controller_turns": 4012,
+      "completed_whole_turn_probes": 3938,
+      "official_exhaustion_events": 74,
+      "official_exhaustion_rate": 0.018444666001994018,
+      "detected_suspended_invocations": 31,
+      "nested_suspension_scopes": 36,
+      "unique_nested_start_keys": 31,
+      "official_events_covered_by_whole_turn_span": 31,
+      "official_events_after_completed_probe": 43,
+      "unclassified_official_events": [],
+      "after_completed_probe": [
+        {
+          "champion": 6,
+          "round": 2,
+          "completed_probe": [
+            {
+              "champion": 6,
+              "controller_round": 3,
+              "start_round": 2,
+              "stage": "turn",
+              "cost": 97871,
+              "left": 2115,
+              "suspended": false,
+              "position": 58,
+              "end_position": 58,
+              "end_controller_round": 3
+            }
+          ]
+        },
+        {
+          "champion": 6,
+          "round": 44,
+          "completed_probe": [
+            {
+              "champion": 6,
+              "controller_round": 45,
+              "start_round": 44,
+              "stage": "turn",
+              "cost": 96389,
+              "left": 3597,
+              "suspended": false,
+              "position": 936,
+              "end_position": 936,
+              "end_controller_round": 45
+            }
+          ]
+        },
+        {
+          "champion": 6,
+          "round": 312,
+          "completed_probe": [
+            {
+              "champion": 6,
+              "controller_round": 313,
+              "start_round": 312,
+              "stage": "turn",
+              "cost": 98267,
+              "left": 1719,
+              "suspended": false,
+              "position": 6296,
+              "end_position": 6296,
+              "end_controller_round": 313
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 20,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 21,
+              "start_round": 20,
+              "stage": "turn",
+              "cost": 98761,
+              "left": 1225,
+              "suspended": false,
+              "position": 434,
+              "end_position": 434,
+              "end_controller_round": 21
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 22,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 23,
+              "start_round": 22,
+              "stage": "turn",
+              "cost": 98393,
+              "left": 1593,
+              "suspended": false,
+              "position": 475,
+              "end_position": 475,
+              "end_controller_round": 23
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 24,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 25,
+              "start_round": 24,
+              "stage": "turn",
+              "cost": 98199,
+              "left": 1787,
+              "suspended": false,
+              "position": 516,
+              "end_position": 516,
+              "end_controller_round": 25
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 26,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 27,
+              "start_round": 26,
+              "stage": "turn",
+              "cost": 98030,
+              "left": 1956,
+              "suspended": false,
+              "position": 559,
+              "end_position": 559,
+              "end_controller_round": 27
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 28,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 29,
+              "start_round": 28,
+              "stage": "turn",
+              "cost": 96463,
+              "left": 3523,
+              "suspended": false,
+              "position": 600,
+              "end_position": 600,
+              "end_controller_round": 29
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 30,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 31,
+              "start_round": 30,
+              "stage": "turn",
+              "cost": 96267,
+              "left": 3719,
+              "suspended": false,
+              "position": 641,
+              "end_position": 641,
+              "end_controller_round": 31
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 32,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 33,
+              "start_round": 32,
+              "stage": "turn",
+              "cost": 96098,
+              "left": 3888,
+              "suspended": false,
+              "position": 682,
+              "end_position": 682,
+              "end_controller_round": 33
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 34,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 35,
+              "start_round": 34,
+              "stage": "turn",
+              "cost": 95929,
+              "left": 4057,
+              "suspended": false,
+              "position": 725,
+              "end_position": 725,
+              "end_controller_round": 35
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 36,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 37,
+              "start_round": 36,
+              "stage": "turn",
+              "cost": 95760,
+              "left": 4226,
+              "suspended": false,
+              "position": 767,
+              "end_position": 767,
+              "end_controller_round": 37
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 38,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 39,
+              "start_round": 38,
+              "stage": "turn",
+              "cost": 95591,
+              "left": 4395,
+              "suspended": false,
+              "position": 809,
+              "end_position": 809,
+              "end_controller_round": 39
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 40,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 41,
+              "start_round": 40,
+              "stage": "turn",
+              "cost": 95454,
+              "left": 4532,
+              "suspended": false,
+              "position": 854,
+              "end_position": 854,
+              "end_controller_round": 41
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 42,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 42,
+              "start_round": 42,
+              "stage": "turn",
+              "cost": 95253,
+              "left": 4733,
+              "suspended": false,
+              "position": 874,
+              "end_position": 874,
+              "end_controller_round": 42
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 73,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 74,
+              "start_round": 73,
+              "stage": "turn",
+              "cost": 98192,
+              "left": 1794,
+              "suspended": false,
+              "position": 1526,
+              "end_position": 1526,
+              "end_controller_round": 74
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 178,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 178,
+              "start_round": 178,
+              "stage": "turn",
+              "cost": 95203,
+              "left": 4783,
+              "suspended": false,
+              "position": 3524,
+              "end_position": 3524,
+              "end_controller_round": 178
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 180,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 181,
+              "start_round": 180,
+              "stage": "turn",
+              "cost": 95556,
+              "left": 4430,
+              "suspended": false,
+              "position": 3586,
+              "end_position": 3586,
+              "end_controller_round": 181
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 6,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 7,
+              "start_round": 6,
+              "stage": "turn",
+              "cost": 97554,
+              "left": 2432,
+              "suspended": false,
+              "position": 148,
+              "end_position": 148,
+              "end_controller_round": 7
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 8,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 9,
+              "start_round": 8,
+              "stage": "turn",
+              "cost": 97228,
+              "left": 2758,
+              "suspended": false,
+              "position": 189,
+              "end_position": 189,
+              "end_controller_round": 9
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 10,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 11,
+              "start_round": 10,
+              "stage": "turn",
+              "cost": 99986,
+              "left": 0,
+              "suspended": false,
+              "position": 230,
+              "end_position": 230,
+              "end_controller_round": 11
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 20,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 21,
+              "start_round": 20,
+              "stage": "turn",
+              "cost": 99428,
+              "left": 558,
+              "suspended": false,
+              "position": 437,
+              "end_position": 437,
+              "end_controller_round": 21
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 22,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 23,
+              "start_round": 22,
+              "stage": "turn",
+              "cost": 99259,
+              "left": 727,
+              "suspended": false,
+              "position": 478,
+              "end_position": 478,
+              "end_controller_round": 23
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 24,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 25,
+              "start_round": 24,
+              "stage": "turn",
+              "cost": 99090,
+              "left": 896,
+              "suspended": false,
+              "position": 519,
+              "end_position": 519,
+              "end_controller_round": 25
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 28,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 29,
+              "start_round": 28,
+              "stage": "turn",
+              "cost": 95928,
+              "left": 4058,
+              "suspended": false,
+              "position": 603,
+              "end_position": 603,
+              "end_controller_round": 29
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 31,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 32,
+              "start_round": 31,
+              "stage": "turn",
+              "cost": 96913,
+              "left": 3073,
+              "suspended": false,
+              "position": 663,
+              "end_position": 663,
+              "end_controller_round": 32
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 33,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 34,
+              "start_round": 33,
+              "stage": "turn",
+              "cost": 96769,
+              "left": 3217,
+              "suspended": false,
+              "position": 705,
+              "end_position": 705,
+              "end_controller_round": 34
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 43,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 44,
+              "start_round": 43,
+              "stage": "turn",
+              "cost": 97091,
+              "left": 2895,
+              "suspended": false,
+              "position": 923,
+              "end_position": 923,
+              "end_controller_round": 44
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 47,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 48,
+              "start_round": 47,
+              "stage": "turn",
+              "cost": 99423,
+              "left": 563,
+              "suspended": false,
+              "position": 1009,
+              "end_position": 1009,
+              "end_controller_round": 48
+            }
+          ]
+        },
+        {
+          "champion": 9,
+          "round": 94,
+          "completed_probe": [
+            {
+              "champion": 9,
+              "controller_round": 95,
+              "start_round": 94,
+              "stage": "turn",
+              "cost": 98329,
+              "left": 1657,
+              "suspended": false,
+              "position": 1976,
+              "end_position": 1976,
+              "end_controller_round": 95
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 18,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 19,
+              "start_round": 18,
+              "stage": "turn",
+              "cost": 99780,
+              "left": 206,
+              "suspended": false,
+              "position": 399,
+              "end_position": 399,
+              "end_controller_round": 19
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 20,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 21,
+              "start_round": 20,
+              "stage": "turn",
+              "cost": 98056,
+              "left": 1930,
+              "suspended": false,
+              "position": 440,
+              "end_position": 440,
+              "end_controller_round": 21
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 22,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 23,
+              "start_round": 22,
+              "stage": "turn",
+              "cost": 97860,
+              "left": 2126,
+              "suspended": false,
+              "position": 481,
+              "end_position": 481,
+              "end_controller_round": 23
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 24,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 25,
+              "start_round": 24,
+              "stage": "turn",
+              "cost": 97691,
+              "left": 2295,
+              "suspended": false,
+              "position": 522,
+              "end_position": 522,
+              "end_controller_round": 25
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 26,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 27,
+              "start_round": 26,
+              "stage": "turn",
+              "cost": 96156,
+              "left": 3830,
+              "suspended": false,
+              "position": 565,
+              "end_position": 565,
+              "end_controller_round": 27
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 28,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 29,
+              "start_round": 28,
+              "stage": "turn",
+              "cost": 95928,
+              "left": 4058,
+              "suspended": false,
+              "position": 606,
+              "end_position": 606,
+              "end_controller_round": 29
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 30,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 31,
+              "start_round": 30,
+              "stage": "turn",
+              "cost": 95759,
+              "left": 4227,
+              "suspended": false,
+              "position": 648,
+              "end_position": 648,
+              "end_controller_round": 31
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 32,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 33,
+              "start_round": 32,
+              "stage": "turn",
+              "cost": 95535,
+              "left": 4451,
+              "suspended": false,
+              "position": 690,
+              "end_position": 690,
+              "end_controller_round": 33
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 34,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 35,
+              "start_round": 34,
+              "stage": "turn",
+              "cost": 95366,
+              "left": 4620,
+              "suspended": false,
+              "position": 733,
+              "end_position": 733,
+              "end_controller_round": 35
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 36,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 36,
+              "start_round": 36,
+              "stage": "turn",
+              "cost": 95197,
+              "left": 4789,
+              "suspended": false,
+              "position": 752,
+              "end_position": 752,
+              "end_controller_round": 36
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 69,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 70,
+              "start_round": 69,
+              "stage": "turn",
+              "cost": 98160,
+              "left": 1826,
+              "suspended": false,
+              "position": 1455,
+              "end_position": 1455,
+              "end_controller_round": 70
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 240,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 241,
+              "start_round": 240,
+              "stage": "turn",
+              "cost": 97542,
+              "left": 2444,
+              "suspended": false,
+              "position": 4798,
+              "end_position": 4798,
+              "end_controller_round": 241
+            }
+          ]
+        },
+        {
+          "champion": 11,
+          "round": 95,
+          "completed_probe": [
+            {
+              "champion": 11,
+              "controller_round": 96,
+              "start_round": 95,
+              "stage": "turn",
+              "cost": 96619,
+              "left": 3367,
+              "suspended": false,
+              "position": 1980,
+              "end_position": 1980,
+              "end_controller_round": 96
+            }
+          ]
+        }
+      ],
+      "native_gameplay_fuel": {
+        "records": 4012,
+        "p50": 69634,
+        "p90": 86488,
+        "p99": 100000,
+        "max": 163493,
+        "min": 9
+      },
+      "native_fuel_limits": {
+        "firstDraftTurn": 1000000,
+        "draftTurn": 100000,
+        "firstTurn": 200000,
+        "turn": 100000
+      },
+      "native_minus_play_turn_probe": {
+        "records": 3901,
+        "p50": 4867,
+        "p90": 4867,
+        "p99": 4907,
+        "max": 4907,
+        "min": 14
+      },
+      "first_turn_native_minus_probe": {
+        "records": 6,
+        "p50": 20722,
+        "p90": 20728,
+        "p99": 20728,
+        "max": 20728,
+        "min": 20706
+      },
+      "negative_external_cases": [],
+      "refusals_by_stage": {
+        "farm_score": {
+          "logged_attempts": 6,
+          "unique_controller_turns": 6,
+          "unique_reported_round_body": 6
+        },
+        "fields": {
+          "logged_attempts": 1895,
+          "unique_controller_turns": 1508,
+          "unique_reported_round_body": 1508
+        },
+        "tactical_pair": {
+          "logged_attempts": 70,
+          "unique_controller_turns": 70,
+          "unique_reported_round_body": 70
+        }
+      },
+      "participation_by_stage": {
+        "farm_score": {
+          "scope_calls": 3138,
+          "unique_controller_turns": 3138
+        },
+        "fields": {
+          "scope_calls": 3824,
+          "unique_controller_turns": 3824
+        },
+        "init": {
+          "scope_calls": 6,
+          "unique_controller_turns": 6
+        },
+        "route": {
+          "scope_calls": 3021,
+          "unique_controller_turns": 3021
+        },
+        "snapshot": {
+          "scope_calls": 94,
+          "unique_controller_turns": 94
+        },
+        "tactical_pair": {
+          "scope_calls": 24,
+          "unique_controller_turns": 24
+        },
+        "turn": {
+          "scope_calls": 3938,
+          "unique_controller_turns": 3938
+        }
+      },
+      "reconstructed_cross_frame_lines": 0,
+      "refusal_prefixes": 1971,
+      "unparsed_refusal_prefixes": 0,
+      "unique_controller_turns_with_any_refusal": 1584,
+      "nested_route_farm_records": 3021,
+      "farm_excluding_nested_route": {
+        "records": 3021,
+        "p50": 15961,
+        "p90": 19654,
+        "p99": 22376,
+        "max": 28732,
+        "min": 9895
+      }
+    }
+  ],
+  "totals": {
+    "actual_controller_turns": 7725,
+    "official_exhaustion_events": 151,
+    "official_exhaustion_rate": 0.01954692556634304,
+    "detected_suspended_invocations": 66,
+    "official_events_after_completed_probe": 85
+  },
+  "native_gameplay_fuel": {
+    "records": 7725,
+    "p50": 69111,
+    "p90": 86411,
+    "p99": 100000,
+    "max": 163493,
+    "min": 9
+  },
+  "stage_costs": {
+    "farm_score": {
+      "records": 5960,
+      "p50": 21692,
+      "p90": 25277,
+      "p99": 27990,
+      "max": 37368,
+      "min": 4203
+    },
+    "fields": {
+      "records": 7296,
+      "p50": 127,
+      "p90": 8164,
+      "p99": 9774,
+      "max": 54276,
+      "min": 121
+    },
+    "init": {
+      "records": 12,
+      "p50": 65895,
+      "p90": 65899,
+      "p99": 65903,
+      "max": 65903,
+      "min": 65871
+    },
+    "route": {
+      "records": 5720,
+      "p50": 6044,
+      "p90": 7602,
+      "p99": 9225,
+      "max": 13952,
+      "min": 3055
+    },
+    "snapshot": {
+      "records": 140,
+      "p50": 2979,
+      "p90": 3575,
+      "p99": 7241,
+      "max": 7323,
+      "min": 2583
+    },
+    "tactical_pair": {
+      "records": 69,
+      "p50": 21386,
+      "p90": 23816,
+      "p99": 36762,
+      "max": 36762,
+      "min": 12292
+    },
+    "turn": {
+      "records": 7508,
+      "p50": 64478,
+      "p90": 80591,
+      "p99": 96267,
+      "max": 142765,
+      "min": 5492
+    }
+  },
+  "refusals": {
+    "logged_attempts": 3604,
+    "unique_stage_controller_turns": 2812,
+    "unique_stage_reported_body_rounds": 2812,
+    "per_stage": {
+      "farm_score": {
+        "logged_attempts": 10,
+        "unique_controller_turns": 10,
+        "unique_reported_body_rounds": 10
+      },
+      "fields": {
+        "logged_attempts": 3523,
+        "unique_controller_turns": 2731,
+        "unique_reported_body_rounds": 2731
+      },
+      "tactical_pair": {
+        "logged_attempts": 71,
+        "unique_controller_turns": 71,
+        "unique_reported_body_rounds": 71
+      }
+    }
+  },
+  "interpretation": [
+    "Official visualiser NUL framing plus actual engine awaiting-controller contexts is independently supplied by Agent 4.",
+    "Nested suspension scopes are deduplicated by champion/start round. Whole-turn spans may cover multiple official events; do not sum either counter.",
+    "Exhaustion after a completed play_turn probe is outside its reported scope, potentially printf/flush/end_turn work; exact substage remains uninstrumented.",
+    "Native per-turn fuel mapping verified by draft offset and every official exhausted invocation reading its exact100000 budget.",
+    "Instrumented logs affect execution, full-turn native fuel includes work outside the play_turn probe; all first-turn200000 records retained.",
+    "Farm-minus-route is a nested-scope subtraction, not an independent worst-case score bound; child diagnostic print overhead stays in parent.",
+    "Refusals counted at attempt level and distinct stage/body/controller round; reported admission round is preserved separately for buffered output.",
+    "Champion output streams are reassembled across input frames to recover interrupted printf lines; start and end frame contexts are retained.",
+    "Accepted admission requests are not all logged, so an attempt-level refusal rate is unavailable. Scope participation includes no-work/refused calls and is not a count of useful completed plans.",
+    "Outer farm refusal can coincide with baseline low-field/search fallback; refusal count is not incremental loss of planning."
+  ]
+}

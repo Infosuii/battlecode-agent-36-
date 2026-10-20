@@ -1,0 +1,24 @@
+{
+  "candidate": "relevance5",
+  "games": 34,
+  "map_clusters": 17,
+  "wins": 15,
+  "ties": 0,
+  "losses": 19,
+  "win_points": 0.4411764705882353,
+  "cluster_bootstrap95": [
+    0.29411764705882354,
+    0.5882352941176471
+  ],
+  "mean_submitted_gem_margin": -116.41176470588235,
+  "gem_margin_cluster_bootstrap95": [
+    -267.88235294117646,
+    22.764705882352942
+  ],
+  "interpretation": "Descriptive matched-map clusters; no significance or general-strength claim. A single map has no interval.",
+  "fuel_exhaustion_events": 65,
+  "faults": 0,
+  "engines": [
+    "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+  ]
+}

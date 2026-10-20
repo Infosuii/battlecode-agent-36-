@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O2",
+    "-std=c++20",
+    "-fno-exceptions",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent2\\evidence\\model_fixture.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent2\\evidence\\model_fixture.wasm"
+  ],
+  "sha256": {
+    "tsearch.h": "21fa29d224bbdca32d35a777d256ff709a4395a26ffb24076ccfcf5cdda64e44",
+    "runtime_budget.h": "a4a1e5c59ee747d135f40ecdbb841bd34cc1031214756079f3fb9293b4f3713e",
+    "fixture": "cf60341e135fa2b0f8698c95f39ef5ef0768ed7e0e9ecbf71825635cee9a85fb"
+  },
+  "returncode": 0,
+  "stdout": "A2MODEL one_cast_counterexample two_casts1 enemy_hp150\nA2FIXTURES PASS (simulator invariants only; engine differential pending)\n",
+  "stderr": "(node:11628) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+  "scope": "Production model invariants with SDK umbrella replaced by standard headers; no official-engine equivalence or release fuel measurement"
+}

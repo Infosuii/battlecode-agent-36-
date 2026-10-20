@@ -1,0 +1,32 @@
+{
+  "tree": "bot_v36/src",
+  "files": {
+    "bot.cpp": "abf2ebe0d492ab6b2fa95eac2ed450bb8360ba119a3faefdcd3d474cd8ac8ef1",
+    "bot.h": "6cd6dd4a7377acbb3a3d39b9c1db13fc7fc82cf5ffb0c9cbd0ab3238d3965c1a",
+    "common.h": "91046f7877848e54866cd979fda667f80716fc5d62247abdb74bd08ae6584314",
+    "deny.cpp": "b5351989381817b4affc45fd133b92d05797f3382e1f76c87147fec87e164938",
+    "draft.cpp": "ce3d0b4677d81a4377cc0e1d00e78e01f0bd6bd064d4e3f72479a567f2e544dd",
+    "draft.h": "4db561906ba3464fcdc32a4021a5726bfb1a92d8944c9ce2757a6e05e413c095",
+    "ep_model.h": "b623e7562ef2e9a7e474dfee7f1a9756195caf6714017cda531835a40ea0fc1b",
+    "episode.cpp": "cc7717533127ff6bfd6287494b24811211f0e0b515138c59f21585608d7d6bcd",
+    "fight.cpp": "bc398d8f888fd590528e2f90d7297917327d82d5ca0210a0a74c2c8d33758a8c",
+    "fight.h": "4ae5a21e48ce95d07632c76af5aa880aaee10ec665d859eeba5ac70ee8979d4a",
+    "learner.h": "f1d550f6d2a31409b94d44f52fa34d5fba6553f0cafae379f5afb270643097bf",
+    "local_model.h": "a92011970a96592d26f14fe2721d37cd1e302baa1e0d76192049a15887feeda3",
+    "main.cpp": "bda8204eb11b49c6dfc08d491f2dc06d1d8d9cc118062012985b2ffb2ce67d12",
+    "strategy.h": "03b3912328cdaaec50890137b9da866162bab5974c9254a96e94fd1f5277730b",
+    "tsearch.cpp": "4e793ced963ed3344164e8bfc9a5520a85e7aacf01a092aa6b1660e523fcb484",
+    "tsearch.h": "bb0d07cc7e4e328d45897061bbb768d2be8750e619885f04a02fd86749ffa223",
+    "world.cpp": "c63fe854baa8a274385ead8087fc8d2e07e9ad2ae052e7ea88af996b1e3c10f0",
+    "world.h": "a855b83c52cec4dcea646ebec68e2f9b29a8c5024503e5bff25a49b1d53fe9af"
+  },
+  "zip": "v36/agent4/release/bot_v36.zip",
+  "zip_sha256": "5ee75d520caa0c921361ea6c83a6a3b991d05ea8a6a7707226dabc875822b320",
+  "switches": {
+    "NOVA_V36_DRAFT": 1,
+    "NOVA_MAPID_STRICT": 0
+  },
+  "engine": "0.0.3 (build d7e29ae3\u2026)",
+  "sdk": "cambc 2.2.5",
+  "build": "cambc build --release"
+}

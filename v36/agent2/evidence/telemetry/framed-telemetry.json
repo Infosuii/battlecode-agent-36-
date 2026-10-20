@@ -1,0 +1,553 @@
+{
+  "games": [
+    {
+      "job": "4c4c7448792bb406fb6d288b9e59f26a64cb3ca955ed8e3c43909e401e6a8e8c",
+      "candidate_side": "teamA",
+      "joined_frames": 4002,
+      "missing_positions": [],
+      "actual_controller_turns": 4031,
+      "completed_whole_turn_probes": 4002,
+      "official_exhaustion_events": 29,
+      "official_exhaustion_rate": 0.007194244604316547,
+      "detected_suspended_invocations": 12,
+      "nested_suspension_scopes": 12,
+      "unique_nested_start_keys": 12,
+      "official_events_covered_by_whole_turn_span": 12,
+      "official_events_after_completed_probe": 17,
+      "unclassified_official_events": [],
+      "after_completed_probe": [
+        {
+          "champion": 0,
+          "round": 301,
+          "completed_probe": [
+            {
+              "champion": 0,
+              "controller_round": 302,
+              "start_round": 301,
+              "stage": "turn",
+              "cost": 99864,
+              "left": 122,
+              "suspended": false,
+              "position": 6516
+            }
+          ]
+        },
+        {
+          "champion": 0,
+          "round": 449,
+          "completed_probe": [
+            {
+              "champion": 0,
+              "controller_round": 450,
+              "start_round": 449,
+              "stage": "turn",
+              "cost": 97773,
+              "left": 2213,
+              "suspended": false,
+              "position": 9864
+            }
+          ]
+        },
+        {
+          "champion": 0,
+          "round": 456,
+          "completed_probe": [
+            {
+              "champion": 0,
+              "controller_round": 457,
+              "start_round": 456,
+              "stage": "turn",
+              "cost": 95848,
+              "left": 4138,
+              "suspended": false,
+              "position": 10015
+            }
+          ]
+        },
+        {
+          "champion": 0,
+          "round": 551,
+          "completed_probe": [
+            {
+              "champion": 0,
+              "controller_round": 552,
+              "start_round": 551,
+              "stage": "turn",
+              "cost": 99225,
+              "left": 761,
+              "suspended": false,
+              "position": 12123
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 4,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 5,
+              "start_round": 4,
+              "stage": "turn",
+              "cost": 98969,
+              "left": 1017,
+              "suspended": false,
+              "position": 103
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 6,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 7,
+              "start_round": 6,
+              "stage": "turn",
+              "cost": 95439,
+              "left": 4547,
+              "suspended": false,
+              "position": 145
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 127,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 128,
+              "start_round": 127,
+              "stage": "turn",
+              "cost": 95564,
+              "left": 4422,
+              "suspended": false,
+              "position": 2605
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 252,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 253,
+              "start_round": 252,
+              "stage": "turn",
+              "cost": 95443,
+              "left": 4543,
+              "suspended": false,
+              "position": 5423
+            }
+          ]
+        },
+        {
+          "champion": 2,
+          "round": 307,
+          "completed_probe": [
+            {
+              "champion": 2,
+              "controller_round": 308,
+              "start_round": 307,
+              "stage": "turn",
+              "cost": 96715,
+              "left": 3271,
+              "suspended": false,
+              "position": 6639
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 515,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 516,
+              "start_round": 515,
+              "stage": "turn",
+              "cost": 95554,
+              "left": 4432,
+              "suspended": false,
+              "position": 11299
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 523,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 524,
+              "start_round": 523,
+              "stage": "turn",
+              "cost": 96249,
+              "left": 3737,
+              "suspended": false,
+              "position": 11479
+            }
+          ]
+        },
+        {
+          "champion": 3,
+          "round": 529,
+          "completed_probe": [
+            {
+              "champion": 3,
+              "controller_round": 530,
+              "start_round": 529,
+              "stage": "turn",
+              "cost": 97973,
+              "left": 2013,
+              "suspended": false,
+              "position": 11618
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 4,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 5,
+              "start_round": 4,
+              "stage": "turn",
+              "cost": 98273,
+              "left": 1713,
+              "suspended": false,
+              "position": 110
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 43,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 44,
+              "start_round": 43,
+              "stage": "turn",
+              "cost": 98683,
+              "left": 1303,
+              "suspended": false,
+              "position": 981
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 54,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 54,
+              "start_round": 54,
+              "stage": "turn",
+              "cost": 95293,
+              "left": 4693,
+              "suspended": false,
+              "position": 1194
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 117,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 118,
+              "start_round": 117,
+              "stage": "turn",
+              "cost": 99061,
+              "left": 925,
+              "suspended": false,
+              "position": 2395
+            }
+          ]
+        },
+        {
+          "champion": 4,
+          "round": 394,
+          "completed_probe": [
+            {
+              "champion": 4,
+              "controller_round": 395,
+              "start_round": 394,
+              "stage": "turn",
+              "cost": 97737,
+              "left": 2249,
+              "suspended": false,
+              "position": 8606
+            }
+          ]
+        }
+      ],
+      "native_gameplay_fuel": {
+        "records": 4031,
+        "p50": 65126,
+        "p90": 85543,
+        "p99": 99171,
+        "max": 159380,
+        "min": 40
+      },
+      "native_fuel_limits": {
+        "firstDraftTurn": 1000000,
+        "draftTurn": 100000,
+        "firstTurn": 200000,
+        "turn": 100000
+      },
+      "native_minus_play_turn_probe": {
+        "records": 3984,
+        "p50": 4867,
+        "p90": 4867,
+        "p99": 4907,
+        "max": 4907,
+        "min": 136
+      },
+      "first_turn_native_minus_probe": {
+        "records": 6,
+        "p50": 20722,
+        "p90": 20728,
+        "p99": 20728,
+        "max": 20728,
+        "min": 20706
+      },
+      "negative_external_cases": [],
+      "nested_route_farm_records": 2892,
+      "farm_excluding_nested_route": {
+        "records": 2892,
+        "p50": 15138,
+        "p90": 19019,
+        "p99": 22035,
+        "max": 28186,
+        "min": 9514
+      }
+    },
+    {
+      "job": "b3512c3acec80ccf97bfc76fd494b3395dc6805781f33d12292edc1bcab136d6",
+      "candidate_side": "teamB",
+      "joined_frames": 4028,
+      "missing_positions": [],
+      "actual_controller_turns": 4040,
+      "completed_whole_turn_probes": 4028,
+      "official_exhaustion_events": 12,
+      "official_exhaustion_rate": 0.0029702970297029703,
+      "detected_suspended_invocations": 7,
+      "nested_suspension_scopes": 8,
+      "unique_nested_start_keys": 7,
+      "official_events_covered_by_whole_turn_span": 7,
+      "official_events_after_completed_probe": 5,
+      "unclassified_official_events": [],
+      "after_completed_probe": [
+        {
+          "champion": 8,
+          "round": 4,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 5,
+              "start_round": 4,
+              "stage": "turn",
+              "cost": 99040,
+              "left": 946,
+              "suspended": false,
+              "position": 105
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 6,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 7,
+              "start_round": 6,
+              "stage": "turn",
+              "cost": 95708,
+              "left": 4278,
+              "suspended": false,
+              "position": 147
+            }
+          ]
+        },
+        {
+          "champion": 8,
+          "round": 380,
+          "completed_probe": [
+            {
+              "champion": 8,
+              "controller_round": 381,
+              "start_round": 380,
+              "stage": "turn",
+              "cost": 97436,
+              "left": 2550,
+              "suspended": false,
+              "position": 8057
+            }
+          ]
+        },
+        {
+          "champion": 10,
+          "round": 4,
+          "completed_probe": [
+            {
+              "champion": 10,
+              "controller_round": 5,
+              "start_round": 4,
+              "stage": "turn",
+              "cost": 97950,
+              "left": 2036,
+              "suspended": false,
+              "position": 112
+            }
+          ]
+        },
+        {
+          "champion": 11,
+          "round": 425,
+          "completed_probe": [
+            {
+              "champion": 11,
+              "controller_round": 426,
+              "start_round": 425,
+              "stage": "turn",
+              "cost": 96012,
+              "left": 3974,
+              "suspended": false,
+              "position": 9180
+            }
+          ]
+        }
+      ],
+      "native_gameplay_fuel": {
+        "records": 4040,
+        "p50": 66575,
+        "p90": 82040,
+        "p99": 97061,
+        "max": 159381,
+        "min": 463
+      },
+      "native_fuel_limits": {
+        "firstDraftTurn": 1000000,
+        "draftTurn": 100000,
+        "firstTurn": 200000,
+        "turn": 100000
+      },
+      "native_minus_play_turn_probe": {
+        "records": 4015,
+        "p50": 4867,
+        "p90": 4867,
+        "p99": 4907,
+        "max": 4907,
+        "min": 960
+      },
+      "first_turn_native_minus_probe": {
+        "records": 6,
+        "p50": 20722,
+        "p90": 20728,
+        "p99": 20728,
+        "max": 20728,
+        "min": 20706
+      },
+      "negative_external_cases": [],
+      "nested_route_farm_records": 3019,
+      "farm_excluding_nested_route": {
+        "records": 3019,
+        "p50": 14803,
+        "p90": 19327,
+        "p99": 22035,
+        "max": 28239,
+        "min": 8047
+      }
+    }
+  ],
+  "totals": {
+    "actual_controller_turns": 8071,
+    "official_exhaustion_events": 41,
+    "official_exhaustion_rate": 0.005079915747738818,
+    "detected_suspended_invocations": 19,
+    "official_events_after_completed_probe": 22
+  },
+  "native_gameplay_fuel": {
+    "records": 8071,
+    "p50": 65956,
+    "p90": 84307,
+    "p99": 97339,
+    "max": 159381,
+    "min": 40
+  },
+  "stage_costs": {
+    "farm_score": {
+      "records": 6182,
+      "p50": 21270,
+      "p90": 24757,
+      "p99": 27386,
+      "max": 36875,
+      "min": 3779
+    },
+    "fields": {
+      "records": 7687,
+      "p50": 131,
+      "p90": 172,
+      "p99": 9673,
+      "max": 61332,
+      "min": 125
+    },
+    "init": {
+      "records": 12,
+      "p50": 65895,
+      "p90": 65899,
+      "p99": 65903,
+      "max": 65903,
+      "min": 65871
+    },
+    "route": {
+      "records": 5911,
+      "p50": 5919,
+      "p90": 7660,
+      "p99": 8628,
+      "max": 13840,
+      "min": 2972
+    },
+    "snapshot": {
+      "records": 180,
+      "p50": 2619,
+      "p90": 3082,
+      "p99": 6079,
+      "max": 7307,
+      "min": 2512
+    },
+    "tactical_pair": {
+      "records": 180,
+      "p50": 21003,
+      "p90": 23416,
+      "p99": 32483,
+      "max": 33423,
+      "min": 88
+    },
+    "turn": {
+      "records": 8011,
+      "p50": 61201,
+      "p90": 79366,
+      "p99": 91983,
+      "max": 138653,
+      "min": 5472
+    }
+  },
+  "interpretation": [
+    "Official visualiser NUL framing plus actual engine awaiting-controller contexts is independently supplied by Agent 4.",
+    "Nested suspension scopes are deduplicated by champion/start round. Whole-turn spans may cover multiple official events; do not sum either counter.",
+    "Exhaustion after a completed play_turn probe is outside its reported scope, potentially printf/flush/end_turn work; exact substage remains uninstrumented.",
+    "Native per-turn fuel mapping verified by draft offset and every official exhausted invocation reading its exact100000 budget.",
+    "Instrumented logs affect execution, full-turn native fuel includes work outside the play_turn probe; all first-turn200000 records retained.",
+    "Farm-minus-route is a nested-scope subtraction, not an independent worst-case score bound; child diagnostic print overhead stays in parent."
+  ]
+}

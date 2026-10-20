@@ -1,0 +1,90 @@
+[
+  {
+    "id": "agent2-runtime",
+    "switches": {
+      "NOVA_RUNTIME_GOVERNOR": 1
+    },
+    "hypothesis": "Conservative pre-stage admission reduces suspensions without starving useful planning.",
+    "primary_metric": "paired full-match points and submitted-gem differential",
+    "supporting_metrics": [
+      "official fuelExhausted entries",
+      "distinct detected suspension champion/rounds",
+      "stage refusals and participation",
+      "charged stage distributions"
+    ],
+    "acceptance": "Necessary correctness passes, no unexplained faults, lower exhaustion and unchanged/improved strength on prescribed fresh schedule.",
+    "stop": "Refusals disable most useful planning or fresh strength worsens.",
+    "status": "NOT PROMOTED:400screen55% butlocalproxy-pool paired-4.41ppCI[-17.65,+9.56];freshgate required. Govtelemetry7725turns151officialevents3604refusals/2812dedupstagebodyturns;substantialfarm/route participation,loggingeffects explicit",
+    "resources": "one instrumented dense official match then Agent 1 shared schedule"
+  },
+  {
+    "id": "agent2-relevance5",
+    "switches": {
+      "NOVA_TS_RELEVANCE": 1,
+      "NOVA_TS_MAX_UNITS": 5
+    },
+    "hypothesis": "Stable threat relevance permits completed paired comparisons in larger original scenes.",
+    "primary_metric": "paired full-match points and submitted-gem differential",
+    "supporting_metrics": [
+      "coverage by original eligible population",
+      "dropped threats and linked completeness",
+      "deaths",
+      "charged preparation and paired rollout costs"
+    ],
+    "acceptance": "Omitted units remain blockers; missing/omitted danger limits positive override; fresh full-match evidence supports selection.",
+    "stop": "More coverage gives unsafe verdicts, greater deaths, exhaustion, or weaker fresh outcomes.",
+    "status": "retain OFF:400game52.5% CI48.75-56.5 inconclusive;727propertychecks pass; original scene authority gaps remain",
+    "resources": "isolated cap5 screen; cap6/7/8 keep original 2200 estimate until measured bounds"
+  },
+  {
+    "id": "agent2-safety",
+    "switches": {
+      "NOVA_TS_SAFETY": 1
+    },
+    "hypothesis": "Preserving burst, missing-link, omitted-enemy and nearby camp risk prevents unsupported search overrides.",
+    "primary_metric": "paired full-match points and submitted-gem differential",
+    "supporting_metrics": [
+      "body and linked deaths",
+      "retained verdicts",
+      "blocked positive overrides"
+    ],
+    "acceptance": "No blanket forced retreat; safe fight choices when escape blocked; fresh policy benefit.",
+    "stop": "Excessive guarded verdicts reduce strength.",
+    "status": "integrated OFF; source reviewed; no isolated strength gate completed",
+    "resources": "independent legacy-snapshot safety screen"
+  },
+  {
+    "id": "agent2-flee-hit",
+    "switches": {
+      "NOVA_FLEE_HIT": 1
+    },
+    "hypothesis": "Melee flight hits weakest effective-health adjacent visible enemy before escape.",
+    "primary_metric": "paired full-match points and submitted-gem differential",
+    "supporting_metrics": [
+      "successful hit+escape",
+      "deaths",
+      "SDK refusals/faults"
+    ],
+    "acceptance": "Allows movement/dash/spell after hit; no ranged inclusion or extra successful attack; supports strength on fresh schedule.",
+    "stop": "Action faults or materially worse fresh outcomes.",
+    "status": "retain OFF after same-source400game screen48.25% CI45-51.5; zero unhandled faults; no demonstrated gain",
+    "resources": "distant chosen target + adjacent attacker fixture then isolated shared schedule"
+  },
+  {
+    "id": "agent2-onecast",
+    "switches": {
+      "NOVA_TS_SIM_FIXES": 1
+    },
+    "hypothesis": "One successful cast allowance across damage, dash and reset repairs optimistic simulated exchanges.",
+    "primary_metric": "independent engine one-step state agreement",
+    "supporting_metrics": [
+      "two-cast model counterexample",
+      "longer-horizon divergence",
+      "policy strength"
+    ],
+    "acceptance": "Engine differential confirms mechanics before broader search authority.",
+    "stop": "No independent oracle or unresolved action-order mismatch: retain OFF.",
+    "status": "engine oracle confirmed onecast; implementation and model fixtures pass; retain OFF after400game screen47.75% CI44.25-51 despite correctness",
+    "resources": "Agent 1 independent engine fixture; no match saturation"
+  }
+]

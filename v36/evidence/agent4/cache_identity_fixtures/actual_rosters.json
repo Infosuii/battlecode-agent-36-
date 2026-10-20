@@ -1,0 +1,1442 @@
+[
+  {
+    "name": "ambush",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "collision",
+    "drafts": [
+      [
+        3,
+        4,
+        8
+      ],
+      [
+        3,
+        4,
+        8
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 9
+      }
+    ]
+  },
+  {
+    "name": "contest",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "corners",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "eight",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "elkring",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "expanse",
+    "drafts": [
+      [
+        3,
+        4,
+        9
+      ],
+      [
+        3,
+        4,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 4,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "fragment",
+    "drafts": [
+      [
+        3,
+        4,
+        8
+      ],
+      [
+        3,
+        4,
+        8
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 9
+      }
+    ]
+  },
+  {
+    "name": "interlock",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0
+      ],
+      [
+        3,
+        4,
+        8,
+        0
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "lanes",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "monolith",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "packs",
+    "drafts": [
+      [
+        3,
+        4,
+        8
+      ],
+      [
+        3,
+        4,
+        8
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 9
+      }
+    ]
+  },
+  {
+    "name": "pilgrimage",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        0,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "rows",
+    "drafts": [
+      [
+        2,
+        9,
+        3,
+        4
+      ],
+      [
+        2,
+        9,
+        3,
+        4
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 2
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 2
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 10
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 5
+      }
+    ]
+  },
+  {
+    "name": "rushbait-v2",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0
+      ],
+      [
+        3,
+        4,
+        8,
+        0
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "stampede",
+    "drafts": [
+      [
+        3,
+        4,
+        0,
+        5,
+        10
+      ],
+      [
+        3,
+        4,
+        0,
+        5,
+        10
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 6
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 11
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 6
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 11
+      }
+    ]
+  },
+  {
+    "name": "swirl",
+    "drafts": [
+      [
+        3,
+        4,
+        8,
+        0
+      ],
+      [
+        3,
+        4,
+        8,
+        0
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 9
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 0
+      }
+    ]
+  },
+  {
+    "name": "expanse-near-match",
+    "drafts": [
+      [
+        3,
+        4,
+        9
+      ],
+      [
+        3,
+        4,
+        9
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 4,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 10
+      }
+    ]
+  },
+  {
+    "name": "lanes-near-match",
+    "drafts": [
+      [
+        2,
+        9,
+        3,
+        0,
+        8
+      ],
+      [
+        2,
+        9,
+        3,
+        0,
+        8
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 2
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 0
+      },
+      {
+        "id": 5,
+        "team": 0,
+        "type": 9
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 2
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 10
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 10,
+        "team": 1,
+        "type": 0
+      },
+      {
+        "id": 11,
+        "team": 1,
+        "type": 9
+      }
+    ]
+  },
+  {
+    "name": "rows-near-match",
+    "drafts": [
+      [
+        3,
+        4,
+        9,
+        10
+      ],
+      [
+        3,
+        4,
+        9,
+        10
+      ]
+    ],
+    "bodies": [
+      {
+        "id": 0,
+        "team": 0,
+        "type": 3
+      },
+      {
+        "id": 1,
+        "team": 0,
+        "type": 4
+      },
+      {
+        "id": 2,
+        "team": 0,
+        "type": 5
+      },
+      {
+        "id": 3,
+        "team": 0,
+        "type": 10
+      },
+      {
+        "id": 4,
+        "team": 0,
+        "type": 11
+      },
+      {
+        "id": 5,
+        "team": 1,
+        "type": 3
+      },
+      {
+        "id": 6,
+        "team": 1,
+        "type": 4
+      },
+      {
+        "id": 7,
+        "team": 1,
+        "type": 5
+      },
+      {
+        "id": 8,
+        "team": 1,
+        "type": 10
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "type": 11
+      }
+    ]
+  }
+]

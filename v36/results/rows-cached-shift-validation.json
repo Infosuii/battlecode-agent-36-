@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "1c48c81ae04a703e8a4494b350e32006b37dfae18b568f6f726f82801248ffa1",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_000.map26a",
+    "map_sha256": "d3fcd5f14a35f57507056eb96c69c8d0abd0342cc55d8118aeb8900f50cf9d01",
+    "group_id": "d3fcd5f14a35f57507056eb96c69c8d0abd0342cc55d8118aeb8900f50cf9d01",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_000.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\1c48c81ae04a703e8a4494b350e32006b37dfae18b568f6f726f82801248ffa1",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\1c48c81ae04a703e8a4494b350e32006b37dfae18b568f6f726f82801248ffa1\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5780000000013388,
+    "scores": [
+      1008,
+      810
+    ],
+    "outcome": "teamA",
+    "rounds": 426,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 2
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\1c48c81ae04a703e8a4494b350e32006b37dfae18b568f6f726f82801248ffa1\\statistics.json",
+    "statistics_sha256": "9900607651fd6061be2839d0eddc51740d53f8cddd17f6e506994be5ddf25acb",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7418,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 51,
+      "mapHash": "d3fcd5f14a35f57507056eb96c69c8d0abd0342cc55d8118aeb8900f50cf9d01",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 425,
+      "roundsStarted": 426,
+      "seed": "12786123243959202920",
+      "width": 43
+    }
+  },
+  {
+    "id": "28445540aaf34cef0ed32d201d1cf46df422c18c4a575703400ed5968ca7db71",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_001.map26a",
+    "map_sha256": "e7774ee419774797b61b64ecfc99b0139f97f758da8be83ab450a18a91a886fd",
+    "group_id": "e7774ee419774797b61b64ecfc99b0139f97f758da8be83ab450a18a91a886fd",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_001.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\28445540aaf34cef0ed32d201d1cf46df422c18c4a575703400ed5968ca7db71",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\28445540aaf34cef0ed32d201d1cf46df422c18c4a575703400ed5968ca7db71\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5930000000007567,
+    "scores": [
+      308,
+      1066
+    ],
+    "outcome": "teamB",
+    "rounds": 313,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 1
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\28445540aaf34cef0ed32d201d1cf46df422c18c4a575703400ed5968ca7db71\\statistics.json",
+    "statistics_sha256": "3c65c5afed1c94c4b444dd0dff196b24be71e6c30a0400c9476d9d765d1dc5f2",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 6335,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 39,
+      "mapHash": "e7774ee419774797b61b64ecfc99b0139f97f758da8be83ab450a18a91a886fd",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 312,
+      "roundsStarted": 313,
+      "seed": "14101650179773265830",
+      "width": 57
+    }
+  },
+  {
+    "id": "9edacbec583648a7d7e82ec0bdafd4645e0cb106d733e9799df5879a50756b9a",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_000.map26a",
+    "map_sha256": "d3fcd5f14a35f57507056eb96c69c8d0abd0342cc55d8118aeb8900f50cf9d01",
+    "group_id": "d3fcd5f14a35f57507056eb96c69c8d0abd0342cc55d8118aeb8900f50cf9d01",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_000.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\9edacbec583648a7d7e82ec0bdafd4645e0cb106d733e9799df5879a50756b9a",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\9edacbec583648a7d7e82ec0bdafd4645e0cb106d733e9799df5879a50756b9a\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.6099999999987631,
+    "scores": [
+      1008,
+      810
+    ],
+    "outcome": "teamA",
+    "rounds": 426,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 2
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\9edacbec583648a7d7e82ec0bdafd4645e0cb106d733e9799df5879a50756b9a\\statistics.json",
+    "statistics_sha256": "9900607651fd6061be2839d0eddc51740d53f8cddd17f6e506994be5ddf25acb",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7418,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 51,
+      "mapHash": "d3fcd5f14a35f57507056eb96c69c8d0abd0342cc55d8118aeb8900f50cf9d01",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 425,
+      "roundsStarted": 426,
+      "seed": "12786123243959202920",
+      "width": 43
+    }
+  },
+  {
+    "id": "056f2beeaf70733a5811a875443a06aa452d99e6e9e9ebdda0fe258d591402d4",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_001.map26a",
+    "map_sha256": "e7774ee419774797b61b64ecfc99b0139f97f758da8be83ab450a18a91a886fd",
+    "group_id": "e7774ee419774797b61b64ecfc99b0139f97f758da8be83ab450a18a91a886fd",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_001.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\056f2beeaf70733a5811a875443a06aa452d99e6e9e9ebdda0fe258d591402d4",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\056f2beeaf70733a5811a875443a06aa452d99e6e9e9ebdda0fe258d591402d4\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5470000000004802,
+    "scores": [
+      308,
+      1066
+    ],
+    "outcome": "teamB",
+    "rounds": 313,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 1
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\056f2beeaf70733a5811a875443a06aa452d99e6e9e9ebdda0fe258d591402d4\\statistics.json",
+    "statistics_sha256": "3c65c5afed1c94c4b444dd0dff196b24be71e6c30a0400c9476d9d765d1dc5f2",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 6335,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 39,
+      "mapHash": "e7774ee419774797b61b64ecfc99b0139f97f758da8be83ab450a18a91a886fd",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 312,
+      "roundsStarted": 313,
+      "seed": "14101650179773265830",
+      "width": 57
+    }
+  },
+  {
+    "id": "454576dfc0eb2c69adba410293855b6f62e63370372ccf14bc3368afba41595d",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_002.map26a",
+    "map_sha256": "851ee60729a754e6029a874db0e7442cca2d183b104a8ca7a83f96a03fef4e10",
+    "group_id": "851ee60729a754e6029a874db0e7442cca2d183b104a8ca7a83f96a03fef4e10",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_002.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\454576dfc0eb2c69adba410293855b6f62e63370372ccf14bc3368afba41595d",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\454576dfc0eb2c69adba410293855b6f62e63370372ccf14bc3368afba41595d\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.6880000000001019,
+    "scores": [
+      968,
+      1004
+    ],
+    "outcome": "teamB",
+    "rounds": 318,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 0
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\454576dfc0eb2c69adba410293855b6f62e63370372ccf14bc3368afba41595d\\statistics.json",
+    "statistics_sha256": "e5ffb76c2361457dcbc3dd421c61cfe2bf84fa9f125aec149ce4a1435c4d8365",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7830,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 63,
+      "mapHash": "851ee60729a754e6029a874db0e7442cca2d183b104a8ca7a83f96a03fef4e10",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 317,
+      "roundsStarted": 318,
+      "seed": "4318407090338482618",
+      "width": 69
+    }
+  },
+  {
+    "id": "67e161a2dc518505844bfdc3c6dff38369ccea6f8b65f0a43ec663b349a8b992",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_002.map26a",
+    "map_sha256": "851ee60729a754e6029a874db0e7442cca2d183b104a8ca7a83f96a03fef4e10",
+    "group_id": "851ee60729a754e6029a874db0e7442cca2d183b104a8ca7a83f96a03fef4e10",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_002.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\67e161a2dc518505844bfdc3c6dff38369ccea6f8b65f0a43ec663b349a8b992",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\67e161a2dc518505844bfdc3c6dff38369ccea6f8b65f0a43ec663b349a8b992\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.6719999999986612,
+    "scores": [
+      968,
+      1004
+    ],
+    "outcome": "teamB",
+    "rounds": 318,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 0
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\67e161a2dc518505844bfdc3c6dff38369ccea6f8b65f0a43ec663b349a8b992\\statistics.json",
+    "statistics_sha256": "e5ffb76c2361457dcbc3dd421c61cfe2bf84fa9f125aec149ce4a1435c4d8365",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7830,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 63,
+      "mapHash": "851ee60729a754e6029a874db0e7442cca2d183b104a8ca7a83f96a03fef4e10",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 317,
+      "roundsStarted": 318,
+      "seed": "4318407090338482618",
+      "width": 69
+    }
+  },
+  {
+    "id": "010a71d7b7198a6e47238ec40f30fc4efdc672bd0565b7489614c0e7515dc6e0",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_003.map26a",
+    "map_sha256": "52e5422ce7c41c29f23a9b181162760a3601cb59eec5e915dc4e6cd12b3709f2",
+    "group_id": "52e5422ce7c41c29f23a9b181162760a3601cb59eec5e915dc4e6cd12b3709f2",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_003.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\010a71d7b7198a6e47238ec40f30fc4efdc672bd0565b7489614c0e7515dc6e0",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\010a71d7b7198a6e47238ec40f30fc4efdc672bd0565b7489614c0e7515dc6e0\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.625,
+    "scores": [
+      924,
+      1000
+    ],
+    "outcome": "teamB",
+    "rounds": 292,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\010a71d7b7198a6e47238ec40f30fc4efdc672bd0565b7489614c0e7515dc6e0\\statistics.json",
+    "statistics_sha256": "32a618c454ed9745da49d306f0fb1da07a1a8b9fae2a7151543e4671b5ebfc22",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7099,
+      "finalRoundPartial": true,
+      "finalSubstep": 82,
+      "height": 47,
+      "mapHash": "52e5422ce7c41c29f23a9b181162760a3601cb59eec5e915dc4e6cd12b3709f2",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 291,
+      "roundsStarted": 292,
+      "seed": "10100087834825065662",
+      "width": 89
+    }
+  },
+  {
+    "id": "2c6e9d43bbe4032d825e9260d63ea27f3127dacd1aa1d8eca8f08b7c82d60391",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_003.map26a",
+    "map_sha256": "52e5422ce7c41c29f23a9b181162760a3601cb59eec5e915dc4e6cd12b3709f2",
+    "group_id": "52e5422ce7c41c29f23a9b181162760a3601cb59eec5e915dc4e6cd12b3709f2",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_003.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\2c6e9d43bbe4032d825e9260d63ea27f3127dacd1aa1d8eca8f08b7c82d60391",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\2c6e9d43bbe4032d825e9260d63ea27f3127dacd1aa1d8eca8f08b7c82d60391\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5469999999986612,
+    "scores": [
+      924,
+      1000
+    ],
+    "outcome": "teamB",
+    "rounds": 292,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\2c6e9d43bbe4032d825e9260d63ea27f3127dacd1aa1d8eca8f08b7c82d60391\\statistics.json",
+    "statistics_sha256": "32a618c454ed9745da49d306f0fb1da07a1a8b9fae2a7151543e4671b5ebfc22",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7099,
+      "finalRoundPartial": true,
+      "finalSubstep": 82,
+      "height": 47,
+      "mapHash": "52e5422ce7c41c29f23a9b181162760a3601cb59eec5e915dc4e6cd12b3709f2",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 291,
+      "roundsStarted": 292,
+      "seed": "10100087834825065662",
+      "width": 89
+    }
+  },
+  {
+    "id": "160c06f3c45d0a6535e2d35e06c556652ac19a9d2ab8e6216ea2faa1f063fff8",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_004.map26a",
+    "map_sha256": "6473cd3c308d5de7d1b76fe4fe604480b2362b9b849b709de58c42d1a8a20a36",
+    "group_id": "6473cd3c308d5de7d1b76fe4fe604480b2362b9b849b709de58c42d1a8a20a36",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_004.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\160c06f3c45d0a6535e2d35e06c556652ac19a9d2ab8e6216ea2faa1f063fff8",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\160c06f3c45d0a6535e2d35e06c556652ac19a9d2ab8e6216ea2faa1f063fff8\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5470000000004802,
+    "scores": [
+      1036,
+      988
+    ],
+    "outcome": "teamA",
+    "rounds": 482,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\160c06f3c45d0a6535e2d35e06c556652ac19a9d2ab8e6216ea2faa1f063fff8\\statistics.json",
+    "statistics_sha256": "2fda00b12aaefefb06e897902ccca64e8a6bfdc822e5aa775d5b0d0ef9aab4df",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7836,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 81,
+      "mapHash": "6473cd3c308d5de7d1b76fe4fe604480b2362b9b849b709de58c42d1a8a20a36",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 481,
+      "roundsStarted": 482,
+      "seed": "1360008244854840461",
+      "width": 77
+    }
+  },
+  {
+    "id": "d5b07b2304f216d240ee1de301e4eee94877e88e690630d6e6250953fcaebfa7",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_004.map26a",
+    "map_sha256": "6473cd3c308d5de7d1b76fe4fe604480b2362b9b849b709de58c42d1a8a20a36",
+    "group_id": "6473cd3c308d5de7d1b76fe4fe604480b2362b9b849b709de58c42d1a8a20a36",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_004.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\d5b07b2304f216d240ee1de301e4eee94877e88e690630d6e6250953fcaebfa7",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\d5b07b2304f216d240ee1de301e4eee94877e88e690630d6e6250953fcaebfa7\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.7190000000009604,
+    "scores": [
+      1036,
+      988
+    ],
+    "outcome": "teamA",
+    "rounds": 482,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\d5b07b2304f216d240ee1de301e4eee94877e88e690630d6e6250953fcaebfa7\\statistics.json",
+    "statistics_sha256": "2fda00b12aaefefb06e897902ccca64e8a6bfdc822e5aa775d5b0d0ef9aab4df",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7836,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 81,
+      "mapHash": "6473cd3c308d5de7d1b76fe4fe604480b2362b9b849b709de58c42d1a8a20a36",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 481,
+      "roundsStarted": 482,
+      "seed": "1360008244854840461",
+      "width": 77
+    }
+  },
+  {
+    "id": "cc611d970fdfc4edd631c73e865512e93d614cbfad6dbec962caf612b28b5c44",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_005.map26a",
+    "map_sha256": "89e5d24ee8bfd2348491d6a2bb6103519c4f6cf107d57eecbb0857d8da55188c",
+    "group_id": "89e5d24ee8bfd2348491d6a2bb6103519c4f6cf107d57eecbb0857d8da55188c",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_005.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\cc611d970fdfc4edd631c73e865512e93d614cbfad6dbec962caf612b28b5c44",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\cc611d970fdfc4edd631c73e865512e93d614cbfad6dbec962caf612b28b5c44\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5779999999995198,
+    "scores": [
+      696,
+      1010
+    ],
+    "outcome": "teamB",
+    "rounds": 487,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 1,
+      "teamB": 2
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\cc611d970fdfc4edd631c73e865512e93d614cbfad6dbec962caf612b28b5c44\\statistics.json",
+    "statistics_sha256": "8545ec100ba6ab51f5a39af09ca53258baca2921d2f28f525ace5daa7eac9ab2",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7990,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 51,
+      "mapHash": "89e5d24ee8bfd2348491d6a2bb6103519c4f6cf107d57eecbb0857d8da55188c",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 486,
+      "roundsStarted": 487,
+      "seed": "16981634042180199446",
+      "width": 43
+    }
+  },
+  {
+    "id": "403310b613f1b3dead8b3f52495d07321050c333401d6e2fc9a89bb3dd56315a",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_005.map26a",
+    "map_sha256": "89e5d24ee8bfd2348491d6a2bb6103519c4f6cf107d57eecbb0857d8da55188c",
+    "group_id": "89e5d24ee8bfd2348491d6a2bb6103519c4f6cf107d57eecbb0857d8da55188c",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_005.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\403310b613f1b3dead8b3f52495d07321050c333401d6e2fc9a89bb3dd56315a",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\403310b613f1b3dead8b3f52495d07321050c333401d6e2fc9a89bb3dd56315a\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5940000000009604,
+    "scores": [
+      696,
+      1010
+    ],
+    "outcome": "teamB",
+    "rounds": 487,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 1,
+      "teamB": 2
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\403310b613f1b3dead8b3f52495d07321050c333401d6e2fc9a89bb3dd56315a\\statistics.json",
+    "statistics_sha256": "8545ec100ba6ab51f5a39af09ca53258baca2921d2f28f525ace5daa7eac9ab2",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7990,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 51,
+      "mapHash": "89e5d24ee8bfd2348491d6a2bb6103519c4f6cf107d57eecbb0857d8da55188c",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 486,
+      "roundsStarted": 487,
+      "seed": "16981634042180199446",
+      "width": 43
+    }
+  },
+  {
+    "id": "faa7353f7b99dcfc22ea6d0bf52b3898d3bcd7b39e856c0045107dc3f99006af",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_006.map26a",
+    "map_sha256": "9811321b6ffb0dca8020a979e2076789ed1ca937ec011a3aa26b83c37644d0f8",
+    "group_id": "9811321b6ffb0dca8020a979e2076789ed1ca937ec011a3aa26b83c37644d0f8",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_006.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\faa7353f7b99dcfc22ea6d0bf52b3898d3bcd7b39e856c0045107dc3f99006af",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\faa7353f7b99dcfc22ea6d0bf52b3898d3bcd7b39e856c0045107dc3f99006af\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5940000000009604,
+    "scores": [
+      1008,
+      900
+    ],
+    "outcome": "teamA",
+    "rounds": 295,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 1,
+      "teamB": 1
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\faa7353f7b99dcfc22ea6d0bf52b3898d3bcd7b39e856c0045107dc3f99006af\\statistics.json",
+    "statistics_sha256": "bbb78535729dc22c40da7fa55032981f5ca2764236269c3d0b28c33110bf868e",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 6025,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 39,
+      "mapHash": "9811321b6ffb0dca8020a979e2076789ed1ca937ec011a3aa26b83c37644d0f8",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 294,
+      "roundsStarted": 295,
+      "seed": "1983962267493357799",
+      "width": 57
+    }
+  },
+  {
+    "id": "cc745ea44030fd44a4664e98815891e567ca41a35b84faea58e4450a5fc83f7d",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_006.map26a",
+    "map_sha256": "9811321b6ffb0dca8020a979e2076789ed1ca937ec011a3aa26b83c37644d0f8",
+    "group_id": "9811321b6ffb0dca8020a979e2076789ed1ca937ec011a3aa26b83c37644d0f8",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_006.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\cc745ea44030fd44a4664e98815891e567ca41a35b84faea58e4450a5fc83f7d",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\cc745ea44030fd44a4664e98815891e567ca41a35b84faea58e4450a5fc83f7d\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.625,
+    "scores": [
+      1008,
+      900
+    ],
+    "outcome": "teamA",
+    "rounds": 295,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 1,
+      "teamB": 1
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\cc745ea44030fd44a4664e98815891e567ca41a35b84faea58e4450a5fc83f7d\\statistics.json",
+    "statistics_sha256": "bbb78535729dc22c40da7fa55032981f5ca2764236269c3d0b28c33110bf868e",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 6025,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 39,
+      "mapHash": "9811321b6ffb0dca8020a979e2076789ed1ca937ec011a3aa26b83c37644d0f8",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 294,
+      "roundsStarted": 295,
+      "seed": "1983962267493357799",
+      "width": 57
+    }
+  },
+  {
+    "id": "25d212dcb9434a80cd576e9e31655eebb459e536810b9da07fc4eb8269d9ea8d",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_007.map26a",
+    "map_sha256": "f82d3ebca277c470652aac1f0ce948c031a2ee0da73159a4b01400058c71b154",
+    "group_id": "f82d3ebca277c470652aac1f0ce948c031a2ee0da73159a4b01400058c71b154",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_007.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\25d212dcb9434a80cd576e9e31655eebb459e536810b9da07fc4eb8269d9ea8d",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\25d212dcb9434a80cd576e9e31655eebb459e536810b9da07fc4eb8269d9ea8d\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.7030000000013388,
+    "scores": [
+      1036,
+      748
+    ],
+    "outcome": "teamA",
+    "rounds": 306,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 3,
+      "teamB": 3
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\25d212dcb9434a80cd576e9e31655eebb459e536810b9da07fc4eb8269d9ea8d\\statistics.json",
+    "statistics_sha256": "ae3741cb333a25be04035d97ff1f4adce25c4122e9325c249edca98c1ca4123c",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7699,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 63,
+      "mapHash": "f82d3ebca277c470652aac1f0ce948c031a2ee0da73159a4b01400058c71b154",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 305,
+      "roundsStarted": 306,
+      "seed": "17804875680967590576",
+      "width": 69
+    }
+  },
+  {
+    "id": "6eb0cddb63c45c26abb34591271298e04a7bd6a63bd01690fcccc30589e8aa70",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_007.map26a",
+    "map_sha256": "f82d3ebca277c470652aac1f0ce948c031a2ee0da73159a4b01400058c71b154",
+    "group_id": "f82d3ebca277c470652aac1f0ce948c031a2ee0da73159a4b01400058c71b154",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_007.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\6eb0cddb63c45c26abb34591271298e04a7bd6a63bd01690fcccc30589e8aa70",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\6eb0cddb63c45c26abb34591271298e04a7bd6a63bd01690fcccc30589e8aa70\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.7180000000007567,
+    "scores": [
+      1036,
+      748
+    ],
+    "outcome": "teamA",
+    "rounds": 306,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 3,
+      "teamB": 3
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\6eb0cddb63c45c26abb34591271298e04a7bd6a63bd01690fcccc30589e8aa70\\statistics.json",
+    "statistics_sha256": "ae3741cb333a25be04035d97ff1f4adce25c4122e9325c249edca98c1ca4123c",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 7699,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 63,
+      "mapHash": "f82d3ebca277c470652aac1f0ce948c031a2ee0da73159a4b01400058c71b154",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 305,
+      "roundsStarted": 306,
+      "seed": "17804875680967590576",
+      "width": 69
+    }
+  },
+  {
+    "id": "268b02f25cd7ceb5967da7f9eae0dc686ee3af729da7d088ad854fbec5567258",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_008.map26a",
+    "map_sha256": "f591ea70f2c71b5d28bb2bfbc75bd89cce46f35f04c8fc60ea5ef719767bb118",
+    "group_id": "f591ea70f2c71b5d28bb2bfbc75bd89cce46f35f04c8fc60ea5ef719767bb118",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_008.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\268b02f25cd7ceb5967da7f9eae0dc686ee3af729da7d088ad854fbec5567258",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\268b02f25cd7ceb5967da7f9eae0dc686ee3af729da7d088ad854fbec5567258\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.7029999999995198,
+    "scores": [
+      416,
+      1036
+    ],
+    "outcome": "teamB",
+    "rounds": 342,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 8,
+      "teamB": 2
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\268b02f25cd7ceb5967da7f9eae0dc686ee3af729da7d088ad854fbec5567258\\statistics.json",
+    "statistics_sha256": "3ed52abcc33c39f282ea3eb4b169be4d0520f0dbe856734c0fe811c0222551b1",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 8426,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 47,
+      "mapHash": "f591ea70f2c71b5d28bb2bfbc75bd89cce46f35f04c8fc60ea5ef719767bb118",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 341,
+      "roundsStarted": 342,
+      "seed": "1719524965011635250",
+      "width": 89
+    }
+  },
+  {
+    "id": "5812b74689e9a5b5f4bceb0e0e63a1c78cef495d555b9875a7622470bc88cfdb",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_008.map26a",
+    "map_sha256": "f591ea70f2c71b5d28bb2bfbc75bd89cce46f35f04c8fc60ea5ef719767bb118",
+    "group_id": "f591ea70f2c71b5d28bb2bfbc75bd89cce46f35f04c8fc60ea5ef719767bb118",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_008.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\5812b74689e9a5b5f4bceb0e0e63a1c78cef495d555b9875a7622470bc88cfdb",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\5812b74689e9a5b5f4bceb0e0e63a1c78cef495d555b9875a7622470bc88cfdb\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5780000000013388,
+    "scores": [
+      416,
+      1036
+    ],
+    "outcome": "teamB",
+    "rounds": 342,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 8,
+      "teamB": 2
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\5812b74689e9a5b5f4bceb0e0e63a1c78cef495d555b9875a7622470bc88cfdb\\statistics.json",
+    "statistics_sha256": "3ed52abcc33c39f282ea3eb4b169be4d0520f0dbe856734c0fe811c0222551b1",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 8426,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 47,
+      "mapHash": "f591ea70f2c71b5d28bb2bfbc75bd89cce46f35f04c8fc60ea5ef719767bb118",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamB",
+      "roundsCompleted": 341,
+      "roundsStarted": 342,
+      "seed": "1719524965011635250",
+      "width": 89
+    }
+  },
+  {
+    "id": "ae11c4f5398817b1ff9b2c2cc9502aacb12a6d62d58a0b5eecb7c5cc80af429b",
+    "a": "rows-cached",
+    "b": "baseline",
+    "sha_a": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "sha_b": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_009.map26a",
+    "map_sha256": "07b5e4bc3c8a5f2941cee541ed115d065b727383d2f4eccc53e6fe44d11b6cfc",
+    "group_id": "07b5e4bc3c8a5f2941cee541ed115d065b727383d2f4eccc53e6fe44d11b6cfc",
+    "side": 0,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_009.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\ae11c4f5398817b1ff9b2c2cc9502aacb12a6d62d58a0b5eecb7c5cc80af429b",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\ae11c4f5398817b1ff9b2c2cc9502aacb12a6d62d58a0b5eecb7c5cc80af429b\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5310000000008586,
+    "scores": [
+      1002,
+      676
+    ],
+    "outcome": "teamA",
+    "rounds": 410,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 3
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\ae11c4f5398817b1ff9b2c2cc9502aacb12a6d62d58a0b5eecb7c5cc80af429b\\statistics.json",
+    "statistics_sha256": "0be01f51e6fd772ec5d0b3f83e0c086bc42c2e3f9e31404f80a0eee4337da096",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 6682,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 81,
+      "mapHash": "07b5e4bc3c8a5f2941cee541ed115d065b727383d2f4eccc53e6fe44d11b6cfc",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 409,
+      "roundsStarted": 410,
+      "seed": "9870327417608366829",
+      "width": 77
+    }
+  },
+  {
+    "id": "200f12e57b83348066430dde0a267c07111be2cbda1c3dde4a7a61489ac64e6c",
+    "a": "baseline",
+    "b": "rows-cached",
+    "sha_a": "70139ee190dc1e8a46338c78b54a1ee4b36d2459cb7944d6f2741d7d1432a757",
+    "sha_b": "ce16b9a8be40f36a54f4fa114ce2997c387be0139b504f93cdf9d8d0ef0ef32a",
+    "map": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_009.map26a",
+    "map_sha256": "07b5e4bc3c8a5f2941cee541ed115d065b727383d2f4eccc53e6fe44d11b6cfc",
+    "group_id": "07b5e4bc3c8a5f2941cee541ed115d065b727383d2f4eccc53e6fe44d11b6cfc",
+    "side": 1,
+    "seed": null,
+    "variation": "fixed deterministic map and side; no match seed option",
+    "command": [
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\runtime-latest\\bin\\cambc.exe",
+      "run",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\baseline\\baseline.wasm",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\builds\\rows-cached\\rows-cached.wasm",
+      "--map",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\maps\\shift_validation\\clustered_009.map26a",
+      "-o",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\200f12e57b83348066430dde0a267c07111be2cbda1c3dde4a7a61489ac64e6c",
+      "--statistics",
+      "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\200f12e57b83348066430dde0a267c07111be2cbda1c3dde4a7a61489ac64e6c\\statistics.json",
+      "--json",
+      "--release"
+    ],
+    "seconds": 0.5460000000002765,
+    "scores": [
+      1002,
+      676
+    ],
+    "outcome": "teamA",
+    "rounds": 410,
+    "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "faults": {
+      "teamA": 0,
+      "teamB": 0
+    },
+    "fuel_exhaustions": {
+      "teamA": 2,
+      "teamB": 3
+    },
+    "statistics": "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\runs\\200f12e57b83348066430dde0a267c07111be2cbda1c3dde4a7a61489ac64e6c\\statistics.json",
+    "statistics_sha256": "0be01f51e6fd772ec5d0b3f83e0c086bc42c2e3f9e31404f80a0eee4337da096",
+    "raw_match": {
+      "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "engineVersion": "0.0.3",
+      "finalInput": 6682,
+      "finalRoundPartial": true,
+      "finalSubstep": 7,
+      "height": 81,
+      "mapHash": "07b5e4bc3c8a5f2941cee541ed115d065b727383d2f4eccc53e6fe44d11b6cfc",
+      "metricSemanticsVersion": 1,
+      "outcome": "teamA",
+      "roundsCompleted": 409,
+      "roundsStarted": 410,
+      "seed": "9870327417608366829",
+      "width": 77
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "spar_fish",
+    "artifact_sha256": "54aabee5c35ec7b162737e6994b59a379e8d6bef9d889ee1342dd011b37462e3",
+    "bytes": 1519902,
+    "build_receipt_matches": true
+  },
+  {
+    "name": "spar_mite",
+    "artifact_sha256": "f72daa0ebc2d68e2305e926f88c98ecea5067d398b26f3a6a8b7e0873781f7c6",
+    "bytes": 1518316,
+    "build_receipt_matches": true
+  },
+  {
+    "name": "spar_bush",
+    "artifact_sha256": "0d341c069b9412b29630f65d3f3b4f6d1f8fd64de934916f6de7c3805afe1434",
+    "bytes": 1518888,
+    "build_receipt_matches": true
+  },
+  {
+    "name": "live_platform_v35",
+    "artifact_sha256": "7d543837765226f94553c1a237629797e6774781b6bffd437fd47063b0b4b39e",
+    "bytes": 1552169,
+    "build_receipt_matches": true
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source_sha256": "3e44fdf695f9237b634850583cef15d93f1bbe26d51d2b17dfcad39ec927456e",
+  "command": [
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\development\\wasi-sdk-33.0-x86_64-windows\\bin\\clang++.exe",
+    "-O2",
+    "-std=c++20",
+    "-fno-exceptions",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent2\\evidence\\world-awake-fixture\\world_awake_fixture.cpp",
+    "-o",
+    "C:\\Users\\ishan\\.codex\\.chatgpt-projects\\g-p-6ad14bd9b02481918601a95d4cc0e007\\work\\v36-execution\\agent2\\evidence\\world-awake-fixture\\world_awake_fixture.wasm"
+  ],
+  "returncode": 0,
+  "stdout": "{\"production_world_lifecycle_checks\":10,\"scope\":\"controlled observed/dead/hidden SDK states, not engine policy evidence\"}\n",
+  "stderr": "(node:4552) ExperimentalWarning: WASI is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n"
+}

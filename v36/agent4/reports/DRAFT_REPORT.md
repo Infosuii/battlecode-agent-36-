@@ -21,7 +21,7 @@ deaths, 0 faults.** Official maps: exact mirror (34 games). Switch off: exact mi
 champions, camps and maps; the draft model's ladder data is pre-patch and should be refreshed; Heart of Ruin is
 not yet a candidate pick.
 
-Release artifact: `v36/release/bot_v36.zip` (SHA-256 `5ee75d52…b320`, equal to the tested `bot_v36/src`), manifests
+Release artifact: `v36/agent4/release/bot_v36.zip` (SHA-256 `5ee75d52…b320`, equal to the tested `bot_v36/src`), manifests
 beside it. Rollback: submit `bot v34.zip`, or build with `#define NOVA_V36_DRAFT 0` (proven mirror of v34).
 
 ## Post-patch settings tuning (engine 1.0.1, settings only)

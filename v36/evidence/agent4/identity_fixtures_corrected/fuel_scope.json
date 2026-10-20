@@ -1,0 +1,577 @@
+{
+  "scope": "Draft-only idle-gameplay fixture total charged first invocation, including SDK initialization, strict identity and diagnostic printing; not isolated classifier cost or fullbot safety.",
+  "rows": [
+    {
+      "map": "ambush",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        79614,
+        79598,
+        79620,
+        79608,
+        79616,
+        79610
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "ambush",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        79614,
+        79598,
+        79620,
+        79608,
+        79616,
+        79610
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "collision",
+      "team": 0,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        69417,
+        69401,
+        69423,
+        69411
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "collision",
+      "team": 1,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        69417,
+        69401,
+        69423,
+        69411
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "contest",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        64188,
+        64172,
+        64194,
+        64182,
+        64190,
+        64184
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "contest",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        64188,
+        64172,
+        64194,
+        64182,
+        64190,
+        64184
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "corners",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        113122,
+        113106,
+        113128,
+        113116,
+        113124,
+        113118
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "corners",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        113122,
+        113106,
+        113128,
+        113116,
+        113124,
+        113118
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "eight",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        47191,
+        47175,
+        47197,
+        47185,
+        47193,
+        47187
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "eight",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        47191,
+        47175,
+        47197,
+        47185,
+        47193,
+        47187
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "elkring",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        54809,
+        54793,
+        54815,
+        54803,
+        54811,
+        54805
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "elkring",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        54809,
+        54793,
+        54815,
+        54803,
+        54811,
+        54805
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "expanse",
+      "team": 0,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        110953,
+        110937,
+        110959,
+        110949
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "expanse",
+      "team": 1,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        110953,
+        110937,
+        110959,
+        110949
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "fragment",
+      "team": 0,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        38773,
+        38757,
+        38779,
+        38767
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "fragment",
+      "team": 1,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        38773,
+        38757,
+        38779,
+        38767
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "interlock",
+      "team": 0,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        62566,
+        62550,
+        62572,
+        62560,
+        62568
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "interlock",
+      "team": 1,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        62566,
+        62550,
+        62572,
+        62560,
+        62568
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "lanes",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        140942,
+        140926,
+        140948,
+        140936,
+        140944,
+        140938
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "lanes",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        140942,
+        140926,
+        140948,
+        140936,
+        140944,
+        140938
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "monolith",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        97984,
+        97968,
+        97990,
+        97978,
+        97986,
+        97980
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "monolith",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        97984,
+        97968,
+        97990,
+        97978,
+        97986,
+        97980
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "packs",
+      "team": 0,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        47306,
+        47290,
+        47312,
+        47300
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "packs",
+      "team": 1,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        47306,
+        47290,
+        47312,
+        47300
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "pilgrimage",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        99680,
+        99664,
+        99686,
+        99674,
+        99682,
+        99676
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "pilgrimage",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        99680,
+        99664,
+        99686,
+        99674,
+        99682,
+        99676
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "rows",
+      "team": 0,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        59154,
+        59166,
+        59170,
+        59154,
+        59176
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "rows",
+      "team": 1,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        59154,
+        59166,
+        59170,
+        59154,
+        59176
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 0,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        66205,
+        66189,
+        66211,
+        66199,
+        66207
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 1,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        66205,
+        66189,
+        66211,
+        66199,
+        66207
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "stampede",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        73043,
+        73027,
+        73049,
+        73045,
+        73055,
+        73039
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "stampede",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        73043,
+        73027,
+        73049,
+        73045,
+        73055,
+        73039
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "swirl",
+      "team": 0,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        115817,
+        115801,
+        115823,
+        115811,
+        115819
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "swirl",
+      "team": 1,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        115817,
+        115801,
+        115823,
+        115811,
+        115819
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 0,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        18521,
+        18505,
+        18527,
+        18517
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 1,
+      "draft_turns": 3,
+      "body_modules": 4,
+      "first_gameplay_invocation_fuel": [
+        18521,
+        18505,
+        18527,
+        18517
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 0,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        16806,
+        16818,
+        16822,
+        16806,
+        16824,
+        16816
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 1,
+      "draft_turns": 5,
+      "body_modules": 6,
+      "first_gameplay_invocation_fuel": [
+        16806,
+        16818,
+        16822,
+        16806,
+        16824,
+        16816
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "rows-near-match",
+      "team": 0,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        17418,
+        17402,
+        17424,
+        17414,
+        17414
+      ],
+      "first_turn_limit": 200000
+    },
+    {
+      "map": "rows-near-match",
+      "team": 1,
+      "draft_turns": 4,
+      "body_modules": 5,
+      "first_gameplay_invocation_fuel": [
+        17418,
+        17402,
+        17424,
+        17414,
+        17414
+      ],
+      "first_turn_limit": 200000
+    }
+  ],
+  "all210_body_first_invocations_below_default200000": true,
+  "max_first_invocation_fuel": 140948
+}

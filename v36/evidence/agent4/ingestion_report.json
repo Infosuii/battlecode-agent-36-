@@ -1,0 +1,80 @@
+{
+  "metadata_contexts": 5325,
+  "metadata_sides": 10650,
+  "decoded_contexts": 2125,
+  "unique_replay_hashes": 1998,
+  "duplicate_decoded_contexts": 127,
+  "missing_decoded_contexts": 3200,
+  "side_versions_present": 0,
+  "side_submission_ids_present": 0,
+  "contemporaneous_ratings_present": 0,
+  "engine_strata": {
+    "0.0.3:d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5:1": 5325
+  },
+  "kind_strata": {
+    "unranked": 4820,
+    "ranked": 505
+  },
+  "metadata_time_range": [
+    "2026-10-17T19:11:45.778Z",
+    "2026-10-18T15:24:03.781Z"
+  ],
+  "decoded_by_map": {
+    "contest": 168,
+    "interlock": 123,
+    "elkring": 140,
+    "rows": 141,
+    "monolith": 89,
+    "rushbait_v2": 104,
+    "swirl": 116,
+    "eight": 170,
+    "corners": 152,
+    "packs": 131,
+    "expanse": 120,
+    "stampede": 115,
+    "lanes": 119,
+    "ambush": 95,
+    "fragment": 118,
+    "pilgrimage": 99,
+    "collision": 125
+  },
+  "independently_payload_checked_maps": [
+    "ambush",
+    "collision",
+    "contest",
+    "corners",
+    "eight",
+    "elkring",
+    "expanse",
+    "fragment",
+    "interlock",
+    "lanes",
+    "monolith",
+    "packs",
+    "pilgrimage",
+    "rows",
+    "rushbait_v2",
+    "stampede",
+    "swirl"
+  ],
+  "independently_payload_checked_contexts": 17,
+  "spot_checked_body_schema_passed": true,
+  "quarantine": [],
+  "source_manifest": {
+    "matches_json_sha256": "238fa4154491de5bc7d5b2775ea4357a5aaf51b3670a86c5f6837abba6096eac",
+    "database_bytes": 6330155008,
+    "database_access": "SQLite URI mode=ro and PRAGMA query_only; no bulk DB hash, no DB mutation",
+    "decoder_sha256": "fd4a83436aec11352b0c6e0adc0bf2c27e621f77fb4d58646e8619ec989fc200",
+    "engine_sha256": "1919c5a6f2ea039041071166aef38f6f1ede8d5c29b062db8c2e028109e3f96f"
+  },
+  "limitations": [
+    "No true submission ID/version or contemporaneous rating in recovered metadata.",
+    "Prior opening fingerprints identify behavioral strata, not source or submission versions.",
+    "Offline corpus ends before this v36 execution; no live ladder result can be inferred.",
+    "Recovered-loader certification is not a fresh decode of every payload; one decoded payload per map was independently checked.",
+    "Replay trace hash duplicates must stay in one split and receive one observation weight.",
+    "Summary capture/first_bank metrics are collected-reward/tribute-start proxies, not clear time or completed submission.",
+    "Round snapshots are omniscient descriptive observations; not visibility-correct decision features.",
+    "Decoder round-state sample includes partial final round; exposure rates require censoring it."
+  ]
+}

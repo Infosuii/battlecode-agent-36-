@@ -1,0 +1,329 @@
+{
+  "engine_wasm_sha256": "1919c5a6f2ea039041071166aef38f6f1ede8d5c29b062db8c2e028109e3f96f",
+  "fixtures": [
+    {
+      "id": "camp_real_attack_wake_and_sleep",
+      "passed": true,
+      "camp_sleep_setting": 2,
+      "before": [
+        {
+          "idx": 0,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            5
+          ],
+          "hp": 1350.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 0
+        },
+        {
+          "idx": 2,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            4
+          ],
+          "hp": 1350.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 0
+        },
+        {
+          "idx": 4,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            3
+          ],
+          "hp": 1350.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 0
+        }
+      ],
+      "after_attack": [
+        {
+          "idx": 0,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            5
+          ],
+          "hp": 1300.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 1
+        },
+        {
+          "idx": 2,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            4
+          ],
+          "hp": 1300.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 1
+        },
+        {
+          "idx": 4,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            3
+          ],
+          "hp": 1350.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 1
+        }
+      ],
+      "after_sleep": [
+        {
+          "idx": 0,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            5
+          ],
+          "hp": 1300.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 0
+        },
+        {
+          "idx": 2,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            4
+          ],
+          "hp": 1300.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 0
+        },
+        {
+          "idx": 4,
+          "team": 2,
+          "type": 0,
+          "known": 1,
+          "pos": [
+            18,
+            3
+          ],
+          "hp": 1350.0,
+          "maxhp": 1350.0,
+          "group": 0,
+          "awake": 0
+        }
+      ],
+      "observed_round_first_teams": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "scope": "Real champion attack then idle no nearby champions; engine phases advanced via runner."
+    },
+    {
+      "id": "vendetta_kill_resets_cooldowns_not_cast_allowance",
+      "passed": true,
+      "first_cast": {
+        "code": 0,
+        "message": "",
+        "success": true
+      },
+      "after_kill": {
+        "idx": 0,
+        "team": 0,
+        "type": "Vendetta",
+        "known": 15,
+        "pos": [
+          9,
+          8
+        ],
+        "hp": 800.0,
+        "maxhp": 800.0,
+        "rflags": 29,
+        "buffs": [],
+        "cd": [
+          0,
+          0
+        ],
+        "charges": [
+          0,
+          0
+        ],
+        "abilities": [
+          1,
+          6
+        ],
+        "arange": 1.0,
+        "focus": {
+          "base": 100.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 100.0
+        },
+        "strength": {
+          "base": 70.0,
+          "items": 0.0,
+          "bonus": 0.0,
+          "eff": 70.0
+        },
+        "alive": 1,
+        "respawn": 0,
+        "gold": 50,
+        "gems": 0,
+        "items": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward_flag": 1,
+        "consumables": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ward": [
+          1,
+          0
+        ],
+        "chan_timer": 0,
+        "chan_type": 0,
+        "priority": 0,
+        "next_priority": 0,
+        "draft_order": 0,
+        "submission_dur": 0,
+        "earned_gold": 50,
+        "treasure_gold": 0,
+        "kda": [
+          1,
+          0,
+          0
+        ]
+      },
+      "second_cast": {
+        "code": 27,
+        "message": "A spell was already cast this turn.",
+        "success": false
+      }
+    },
+    {
+      "id": "ren_dash_empty",
+      "passed": true,
+      "before": [
+        8,
+        8
+      ],
+      "result": {
+        "code": 0,
+        "message": "",
+        "success": true
+      },
+      "after": [
+        10,
+        8
+      ],
+      "simulator_limitation": "Model uses ordinary greedy substeps and cannot reproduce jumping over occupied intermediate tiles."
+    },
+    {
+      "id": "ren_dash_intermediate_occupied",
+      "passed": true,
+      "before": [
+        8,
+        8
+      ],
+      "result": {
+        "code": 0,
+        "message": "",
+        "success": true
+      },
+      "after": [
+        10,
+        8
+      ],
+      "simulator_limitation": "Model uses ordinary greedy substeps and cannot reproduce jumping over occupied intermediate tiles."
+    },
+    {
+      "id": "ren_dash_landing_occupied",
+      "passed": true,
+      "before": [
+        8,
+        8
+      ],
+      "result": {
+        "code": 32,
+        "message": "Known occupied destination.",
+        "success": false
+      },
+      "after": [
+        8,
+        8
+      ],
+      "simulator_limitation": "Model uses ordinary greedy substeps and cannot reproduce jumping over occupied intermediate tiles."
+    }
+  ]
+}

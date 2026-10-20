@@ -1,0 +1,49 @@
+{
+  "protocol_sha256": "310136c1cee2174b7700c253a4b4b067c427cf509e87474d53927674d7fe3c9e",
+  "selected_build": "cache-source-off",
+  "selection": "baseline behavior (all new switches OFF)",
+  "selected_artifact_sha256": "032c963b6311c8ee28a40df307448e481ee6df3ade892f084dc4a7aa9c3a4093",
+  "rows_checks": {
+    "outside_rows": true,
+    "fresh_pool": false,
+    "fresh_head": true,
+    "shift_head": true,
+    "zero_faults": true
+  },
+  "stack_checks": {
+    "rows_eligible": false,
+    "pool_vs_rows": false,
+    "pool_vs_baseline": false,
+    "head_vs_rows": false,
+    "head_vs_baseline": false,
+    "shift_head": true,
+    "lower_native_pool_events": true,
+    "zero_faults": true
+  },
+  "outside_rows_summary": {
+    "candidate": "rows-cached",
+    "games": 32,
+    "map_clusters": 16,
+    "wins": 16,
+    "ties": 0,
+    "losses": 16,
+    "win_points": 0.5,
+    "cluster_bootstrap95": [
+      0.5,
+      0.5
+    ],
+    "mean_submitted_gem_margin": 0.0,
+    "gem_margin_cluster_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "interpretation": "Descriptive matched-map clusters; no significance or general-strength claim. A single map has no interval.",
+    "fuel_exhaustion_events": 101,
+    "faults": 0,
+    "engines": [
+      "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5"
+    ]
+  },
+  "baseline_fallback_identity": "Original baseline70139... remains immutable rollback; candidate OFF package must pass exact baseline replay parity.",
+  "caveat": "Frozen point gates select one artifact; no significance or general-strength conclusion. Exact source-default artifact final validation remains required."
+}

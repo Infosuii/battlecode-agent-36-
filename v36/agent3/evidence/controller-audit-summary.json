@@ -1,0 +1,70 @@
+{
+  "mismatches_by_kind": {
+    "scores": 37,
+    "covers": 5,
+    "turns": 38
+  },
+  "stale_score_assertions": 474,
+  "matches": [
+    {
+      "map": "rows",
+      "team": "teamB",
+      "joined": {
+        "scores": 1781,
+        "covers": 12,
+        "turns": 296
+      },
+      "mismatches": 0
+    },
+    {
+      "map": "rows",
+      "team": "teamA",
+      "joined": {
+        "scores": 1815,
+        "covers": 9,
+        "turns": 292
+      },
+      "mismatches": 0
+    },
+    {
+      "map": "stampede",
+      "team": "teamA",
+      "joined": {
+        "scores": 2794,
+        "covers": 5,
+        "turns": 327
+      },
+      "mismatches": 44
+    },
+    {
+      "map": "swirl",
+      "team": "teamA",
+      "joined": {
+        "scores": 1062,
+        "covers": 2,
+        "turns": 254
+      },
+      "mismatches": 9
+    },
+    {
+      "map": "stampede",
+      "team": "teamB",
+      "joined": {
+        "scores": 2978,
+        "covers": 7,
+        "turns": 351
+      },
+      "mismatches": 17
+    },
+    {
+      "map": "swirl",
+      "team": "teamB",
+      "joined": {
+        "scores": 1643,
+        "covers": 2,
+        "turns": 253
+      },
+      "mismatches": 10
+    }
+  ]
+}

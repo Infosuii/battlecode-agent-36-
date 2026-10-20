@@ -1,0 +1,830 @@
+{
+  "known_layout_scenarios": 17,
+  "unknown_descriptor_collision_scenarios": 3,
+  "known_actual_picks": 146,
+  "unknown_actual_picks": 24,
+  "actual_pick_sizes": [
+    3,
+    4,
+    5
+  ],
+  "physical_body_modules": 210,
+  "all_passed": true,
+  "source_header_sha256": "3e84b617d5d38f92260ccbb6ee46e8c0937260abc75b461ad97cd3c87edeccf0",
+  "artifact_sha256": "f4ddd86d78789d6f1a51db4c1072da6f62c0e1344532224187ef2198e52b46dd",
+  "pick_checks": [
+    {
+      "map": "ambush",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "ambush",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "collision",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8
+      ],
+      "lineup": 19,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "collision",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8
+      ],
+      "lineup": 19,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "contest",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "contest",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "corners",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "corners",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "eight",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "eight",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "elkring",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "elkring",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "expanse",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        9
+      ],
+      "lineup": 2,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "expanse",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        9
+      ],
+      "lineup": 2,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "fragment",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8
+      ],
+      "lineup": 19,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "fragment",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8
+      ],
+      "lineup": 19,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "interlock",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0
+      ],
+      "lineup": 19,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "interlock",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0
+      ],
+      "lineup": 19,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "lanes",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "lanes",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "monolith",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "monolith",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "packs",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8
+      ],
+      "lineup": 19,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "packs",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8
+      ],
+      "lineup": 19,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "pilgrimage",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "pilgrimage",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0,
+        9
+      ],
+      "lineup": 19,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "rows",
+      "team": 0,
+      "picks": [
+        2,
+        9,
+        3,
+        4
+      ],
+      "lineup": 8,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "rows",
+      "team": 1,
+      "picks": [
+        2,
+        9,
+        3,
+        4
+      ],
+      "lineup": 8,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0
+      ],
+      "lineup": 19,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0
+      ],
+      "lineup": 19,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "stampede",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        0,
+        5,
+        10
+      ],
+      "lineup": 20,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "stampede",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        0,
+        5,
+        10
+      ],
+      "lineup": 20,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "swirl",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        8,
+        0
+      ],
+      "lineup": 19,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "swirl",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        8,
+        0
+      ],
+      "lineup": 19,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        9
+      ],
+      "lineup": 2,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        9
+      ],
+      "lineup": 2,
+      "physical_body_count": 4,
+      "passed": true
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 0,
+      "picks": [
+        2,
+        9,
+        3,
+        0,
+        8
+      ],
+      "lineup": 6,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 1,
+      "picks": [
+        2,
+        9,
+        3,
+        0,
+        8
+      ],
+      "lineup": 6,
+      "physical_body_count": 6,
+      "passed": true
+    },
+    {
+      "map": "rows-near-match",
+      "team": 0,
+      "picks": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "lineup": 2,
+      "physical_body_count": 5,
+      "passed": true
+    },
+    {
+      "map": "rows-near-match",
+      "team": 1,
+      "picks": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "lineup": 2,
+      "physical_body_count": 5,
+      "passed": true
+    }
+  ],
+  "body_module_checks": [
+    {
+      "map": "ambush",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "ambush",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "collision",
+      "team": 0,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "collision",
+      "team": 1,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "contest",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "contest",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "corners",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "corners",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "eight",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "eight",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "elkring",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "elkring",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "expanse",
+      "team": 0,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "expanse",
+      "team": 1,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "fragment",
+      "team": 0,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "fragment",
+      "team": 1,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "interlock",
+      "team": 0,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "interlock",
+      "team": 1,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "lanes",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "lanes",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "monolith",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "monolith",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "packs",
+      "team": 0,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "packs",
+      "team": 1,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "pilgrimage",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "pilgrimage",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "rows",
+      "team": 0,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "rows",
+      "team": 1,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 0,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "rushbait-v2",
+      "team": 1,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "stampede",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "stampede",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "swirl",
+      "team": 0,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "swirl",
+      "team": 1,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 0,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "expanse-near-match",
+      "team": 1,
+      "body_modules": 4,
+      "first_gameplay_identity_observations": 4,
+      "passed": true
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 0,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "lanes-near-match",
+      "team": 1,
+      "body_modules": 6,
+      "first_gameplay_identity_observations": 6,
+      "passed": true
+    },
+    {
+      "map": "rows-near-match",
+      "team": 0,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    },
+    {
+      "map": "rows-near-match",
+      "team": 1,
+      "body_modules": 5,
+      "first_gameplay_identity_observations": 5,
+      "passed": true
+    }
+  ],
+  "scope": "20 two-round actual SDK scenarios, both sides; no strength inference. Draft/body assertions decoded independently from raw official-engine replays."
+}

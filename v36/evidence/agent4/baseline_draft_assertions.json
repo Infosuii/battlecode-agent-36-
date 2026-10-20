@@ -1,0 +1,464 @@
+{
+  "games": 17,
+  "draft_turns": 146,
+  "sizes": [
+    3,
+    4,
+    5
+  ],
+  "passed": true,
+  "matches": [
+    {
+      "map": "collision",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren"
+          ],
+          "body_count": 4
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren"
+          ],
+          "body_count": 4
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "ambush",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "corners",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "contest",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "eight",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "elkring",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "expanse",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Varg"
+          ],
+          "body_count": 4
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Varg"
+          ],
+          "body_count": 4
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "fragment",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren"
+          ],
+          "body_count": 4
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren"
+          ],
+          "body_count": 4
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "interlock",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth"
+          ],
+          "body_count": 5
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth"
+          ],
+          "body_count": 5
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "lanes",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "packs",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren"
+          ],
+          "body_count": 4
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren"
+          ],
+          "body_count": 4
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "monolith",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "rows",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Vendetta",
+            "Varg",
+            "Cassi & Issac",
+            "Stellar"
+          ],
+          "body_count": 5
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Vendetta",
+            "Varg",
+            "Cassi & Issac",
+            "Stellar"
+          ],
+          "body_count": 5
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "pilgrimage",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth",
+            "Varg"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "stampede",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ryth",
+            "Prism",
+            "Tavi"
+          ],
+          "body_count": 6
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ryth",
+            "Prism",
+            "Tavi"
+          ],
+          "body_count": 6
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "rushbait-v2",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth"
+          ],
+          "body_count": 5
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth"
+          ],
+          "body_count": 5
+        }
+      ],
+      "identity_trace": []
+    },
+    {
+      "map": "swirl",
+      "teams": [
+        {
+          "side": "teamA",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth"
+          ],
+          "body_count": 5
+        },
+        {
+          "side": "teamB",
+          "picks": [
+            "Cassi & Issac",
+            "Stellar",
+            "Ren",
+            "Ryth"
+          ],
+          "body_count": 5
+        }
+      ],
+      "identity_trace": []
+    }
+  ]
+}

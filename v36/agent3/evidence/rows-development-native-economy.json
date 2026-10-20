@@ -1,0 +1,996 @@
+{
+  "matches": [
+    {
+      "job": "174795616027cb0479e7512a7d4b72d026c91c30d60dc792c397343d74f37ef1",
+      "map": "rows",
+      "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "artifacts": [
+        "01cf93bb8a9c5d4e4f260b3454a8476aca9e4a6119cb12116a328d1c7cc847ef",
+        "4980357a428ac06020dd29561e672bae95b457d398a47082aa39492baa4ded3c"
+      ],
+      "teams": [
+        {
+          "name": "strict-fixed",
+          "side": "teamA",
+          "first_clear": 26,
+          "first_collection": 40,
+          "first_submission": 106,
+          "checkpoints": {
+            "50": {
+              "captures": 1,
+              "collected_gems": 66.0,
+              "submitted_gems": 0,
+              "median_clear_collection_gap": 14,
+              "max_clear_collection_gap": 14
+            },
+            "100": {
+              "captures": 3,
+              "collected_gems": 198.0,
+              "submitted_gems": 0,
+              "median_clear_collection_gap": 6,
+              "max_clear_collection_gap": 14
+            },
+            "150": {
+              "captures": 4,
+              "collected_gems": 264.0,
+              "submitted_gems": 198.0,
+              "median_clear_collection_gap": 7.0,
+              "max_clear_collection_gap": 14
+            },
+            "300": {
+              "captures": 11,
+              "collected_gems": 726.0,
+              "submitted_gems": 528.0,
+              "median_clear_collection_gap": 8,
+              "max_clear_collection_gap": 14
+            }
+          },
+          "captures": [
+            {
+              "group": 0,
+              "input": 847,
+              "round": 40,
+              "gems": 66.0,
+              "collector_body_ids": [
+                3
+              ],
+              "clear_round": 26,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 14
+            },
+            {
+              "group": 4,
+              "input": 1706,
+              "round": 80,
+              "gems": 66.0,
+              "collector_body_ids": [
+                1
+              ],
+              "clear_round": 74,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 2,
+              "input": 1873,
+              "round": 88,
+              "gems": 66.0,
+              "collector_body_ids": [
+                0
+              ],
+              "clear_round": 82,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 0,
+              "input": 2409,
+              "round": 114,
+              "gems": 66.0,
+              "collector_body_ids": [
+                2
+              ],
+              "clear_round": 106,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 2,
+              "input": 3222,
+              "round": 154,
+              "gems": 66.0,
+              "collector_body_ids": [
+                0
+              ],
+              "clear_round": 148,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 4,
+              "input": 3408,
+              "round": 164,
+              "gems": 66.0,
+              "collector_body_ids": [
+                1
+              ],
+              "clear_round": 158,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 0,
+              "input": 4119,
+              "round": 202,
+              "gems": 66.0,
+              "collector_body_ids": [
+                0
+              ],
+              "clear_round": 196,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 2,
+              "input": 4759,
+              "round": 233,
+              "gems": 66.0,
+              "collector_body_ids": [
+                4
+              ],
+              "clear_round": 219,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 14
+            },
+            {
+              "group": 4,
+              "input": 5046,
+              "round": 247,
+              "gems": 66.0,
+              "collector_body_ids": [
+                2
+              ],
+              "clear_round": 239,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 0,
+              "input": 5664,
+              "round": 278,
+              "gems": 66.0,
+              "collector_body_ids": [
+                4
+              ],
+              "clear_round": 269,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 9
+            },
+            {
+              "group": 2,
+              "input": 6004,
+              "round": 295,
+              "gems": 66.0,
+              "collector_body_ids": [
+                3
+              ],
+              "clear_round": 286,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 9
+            },
+            {
+              "group": 4,
+              "input": 6390,
+              "round": 315,
+              "gems": 66.0,
+              "collector_body_ids": [
+                1
+              ],
+              "clear_round": 309,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 0,
+              "input": 7123,
+              "round": 350,
+              "gems": 66.0,
+              "collector_body_ids": [
+                3
+              ],
+              "clear_round": 336,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 14
+            },
+            {
+              "group": 4,
+              "input": 7800,
+              "round": 384,
+              "gems": 66.0,
+              "collector_body_ids": [
+                2
+              ],
+              "clear_round": 377,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 2,
+              "input": 7977,
+              "round": 393,
+              "gems": 66.0,
+              "collector_body_ids": [
+                4
+              ],
+              "clear_round": 380,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 13
+            }
+          ],
+          "final_submitted_gems": 858
+        },
+        {
+          "name": "rows-intent-fixed",
+          "side": "teamB",
+          "first_clear": 26,
+          "first_collection": 32,
+          "first_submission": 54,
+          "checkpoints": {
+            "50": {
+              "captures": 1,
+              "collected_gems": 66.0,
+              "submitted_gems": 0,
+              "median_clear_collection_gap": 6,
+              "max_clear_collection_gap": 6
+            },
+            "100": {
+              "captures": 3,
+              "collected_gems": 198.0,
+              "submitted_gems": 66.0,
+              "median_clear_collection_gap": 6,
+              "max_clear_collection_gap": 7
+            },
+            "150": {
+              "captures": 4,
+              "collected_gems": 264.0,
+              "submitted_gems": 264.0,
+              "median_clear_collection_gap": 6.5,
+              "max_clear_collection_gap": 8
+            },
+            "300": {
+              "captures": 12,
+              "collected_gems": 792.0,
+              "submitted_gems": 726.0,
+              "median_clear_collection_gap": 7.0,
+              "max_clear_collection_gap": 9
+            }
+          },
+          "captures": [
+            {
+              "group": 1,
+              "input": 673,
+              "round": 32,
+              "gems": 66.0,
+              "collector_body_ids": [
+                8
+              ],
+              "clear_round": 26,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 5,
+              "input": 1650,
+              "round": 77,
+              "gems": 66.0,
+              "collector_body_ids": [
+                6
+              ],
+              "clear_round": 70,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 3,
+              "input": 1897,
+              "round": 89,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 83,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 1,
+              "input": 2450,
+              "round": 116,
+              "gems": 66.0,
+              "collector_body_ids": [
+                9
+              ],
+              "clear_round": 108,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 3,
+              "input": 3258,
+              "round": 156,
+              "gems": 66.0,
+              "collector_body_ids": [
+                7
+              ],
+              "clear_round": 147,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 9
+            },
+            {
+              "group": 5,
+              "input": 3373,
+              "round": 162,
+              "gems": 66.0,
+              "collector_body_ids": [
+                8
+              ],
+              "clear_round": 156,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 1,
+              "input": 3823,
+              "round": 187,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 180,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 3,
+              "input": 4459,
+              "round": 218,
+              "gems": 66.0,
+              "collector_body_ids": [
+                6
+              ],
+              "clear_round": 211,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 5,
+              "input": 4739,
+              "round": 232,
+              "gems": 66.0,
+              "collector_body_ids": [
+                9
+              ],
+              "clear_round": 225,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 1,
+              "input": 5180,
+              "round": 254,
+              "gems": 66.0,
+              "collector_body_ids": [
+                7
+              ],
+              "clear_round": 245,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 9
+            },
+            {
+              "group": 3,
+              "input": 5664,
+              "round": 278,
+              "gems": 66.0,
+              "collector_body_ids": [
+                8
+              ],
+              "clear_round": 272,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 5,
+              "input": 6056,
+              "round": 298,
+              "gems": 66.0,
+              "collector_body_ids": [
+                6
+              ],
+              "clear_round": 292,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 1,
+              "input": 6339,
+              "round": 312,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 305,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 3,
+              "input": 6791,
+              "round": 334,
+              "gems": 66.0,
+              "collector_body_ids": [
+                9
+              ],
+              "clear_round": 326,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 5,
+              "input": 7335,
+              "round": 361,
+              "gems": 66.0,
+              "collector_body_ids": [
+                7
+              ],
+              "clear_round": 353,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 1,
+              "input": 7552,
+              "round": 372,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 366,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            }
+          ],
+          "final_submitted_gems": 1056
+        }
+      ]
+    },
+    {
+      "job": "7c49ce282fb7264e2159a31061fad707ade2430cccb8bce25927fa3c57c10f8c",
+      "map": "rows",
+      "engine": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+      "map_sha256": "50365c961d1f85234220239211a5b526e70522f30c145160a46c0ea6e1cf757a",
+      "artifacts": [
+        "4980357a428ac06020dd29561e672bae95b457d398a47082aa39492baa4ded3c",
+        "01cf93bb8a9c5d4e4f260b3454a8476aca9e4a6119cb12116a328d1c7cc847ef"
+      ],
+      "teams": [
+        {
+          "name": "rows-intent-fixed",
+          "side": "teamA",
+          "first_clear": 26,
+          "first_collection": 32,
+          "first_submission": 110,
+          "checkpoints": {
+            "50": {
+              "captures": 1,
+              "collected_gems": 66.0,
+              "submitted_gems": 0,
+              "median_clear_collection_gap": 6,
+              "max_clear_collection_gap": 6
+            },
+            "100": {
+              "captures": 3,
+              "collected_gems": 198.0,
+              "submitted_gems": 0,
+              "median_clear_collection_gap": 7,
+              "max_clear_collection_gap": 7
+            },
+            "150": {
+              "captures": 4,
+              "collected_gems": 264.0,
+              "submitted_gems": 198.0,
+              "median_clear_collection_gap": 6.5,
+              "max_clear_collection_gap": 7
+            },
+            "300": {
+              "captures": 11,
+              "collected_gems": 726.0,
+              "submitted_gems": 594.0,
+              "median_clear_collection_gap": 7,
+              "max_clear_collection_gap": 13
+            }
+          },
+          "captures": [
+            {
+              "group": 0,
+              "input": 673,
+              "round": 32,
+              "gems": 66.0,
+              "collector_body_ids": [
+                0
+              ],
+              "clear_round": 26,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 2,
+              "input": 1782,
+              "round": 84,
+              "gems": 66.0,
+              "collector_body_ids": [
+                1
+              ],
+              "clear_round": 77,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 4,
+              "input": 1864,
+              "round": 89,
+              "gems": 66.0,
+              "collector_body_ids": [
+                2
+              ],
+              "clear_round": 82,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 0,
+              "input": 2195,
+              "round": 105,
+              "gems": 66.0,
+              "collector_body_ids": [
+                3
+              ],
+              "clear_round": 99,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 4,
+              "input": 3440,
+              "round": 167,
+              "gems": 66.0,
+              "collector_body_ids": [
+                4
+              ],
+              "clear_round": 160,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 2,
+              "input": 3681,
+              "round": 178,
+              "gems": 66.0,
+              "collector_body_ids": [
+                0
+              ],
+              "clear_round": 171,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 0,
+              "input": 3860,
+              "round": 188,
+              "gems": 66.0,
+              "collector_body_ids": [
+                1
+              ],
+              "clear_round": 181,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 2,
+              "input": 4859,
+              "round": 241,
+              "gems": 66.0,
+              "collector_body_ids": [
+                0
+              ],
+              "clear_round": 234,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 0,
+              "input": 5025,
+              "round": 250,
+              "gems": 66.0,
+              "collector_body_ids": [
+                3
+              ],
+              "clear_round": 237,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 13
+            },
+            {
+              "group": 4,
+              "input": 5532,
+              "round": 275,
+              "gems": 66.0,
+              "collector_body_ids": [
+                4
+              ],
+              "clear_round": 268,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 2,
+              "input": 5940,
+              "round": 296,
+              "gems": 66.0,
+              "collector_body_ids": [
+                2
+              ],
+              "clear_round": 289,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 0,
+              "input": 6225,
+              "round": 310,
+              "gems": 66.0,
+              "collector_body_ids": [
+                1
+              ],
+              "clear_round": 304,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 4,
+              "input": 6960,
+              "round": 345,
+              "gems": 66.0,
+              "collector_body_ids": [
+                3
+              ],
+              "clear_round": 333,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 12
+            },
+            {
+              "group": 2,
+              "input": 7215,
+              "round": 358,
+              "gems": 66.0,
+              "collector_body_ids": [
+                0
+              ],
+              "clear_round": 351,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 0,
+              "input": 7377,
+              "round": 366,
+              "gems": 66.0,
+              "collector_body_ids": [
+                4
+              ],
+              "clear_round": 358,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 2,
+              "input": 8357,
+              "round": 416,
+              "gems": 66.0,
+              "collector_body_ids": [
+                3
+              ],
+              "clear_round": 409,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 4,
+              "input": 8654,
+              "round": 429,
+              "gems": 66.0,
+              "collector_body_ids": [
+                2
+              ],
+              "clear_round": 416,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 13
+            },
+            {
+              "group": 0,
+              "input": 8676,
+              "round": 430,
+              "gems": 66.0,
+              "collector_body_ids": [
+                4
+              ],
+              "clear_round": 423,
+              "clear_team": "teamA",
+              "clear_to_collection_rounds": 7
+            }
+          ],
+          "final_submitted_gems": 1056
+        },
+        {
+          "name": "strict-fixed",
+          "side": "teamB",
+          "first_clear": 26,
+          "first_collection": 42,
+          "first_submission": 67,
+          "checkpoints": {
+            "50": {
+              "captures": 1,
+              "collected_gems": 66.0,
+              "submitted_gems": 0,
+              "median_clear_collection_gap": 16,
+              "max_clear_collection_gap": 16
+            },
+            "100": {
+              "captures": 2,
+              "collected_gems": 132.0,
+              "submitted_gems": 132.0,
+              "median_clear_collection_gap": 11.0,
+              "max_clear_collection_gap": 16
+            },
+            "150": {
+              "captures": 5,
+              "collected_gems": 330.0,
+              "submitted_gems": 264.0,
+              "median_clear_collection_gap": 7,
+              "max_clear_collection_gap": 16
+            },
+            "300": {
+              "captures": 12,
+              "collected_gems": 726.0,
+              "submitted_gems": 594.0,
+              "median_clear_collection_gap": 7.0,
+              "max_clear_collection_gap": 16
+            }
+          },
+          "captures": [
+            {
+              "group": 1,
+              "input": 890,
+              "round": 42,
+              "gems": 66.0,
+              "collector_body_ids": [
+                7
+              ],
+              "clear_round": 26,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 16
+            },
+            {
+              "group": 3,
+              "input": 1327,
+              "round": 62,
+              "gems": 66.0,
+              "collector_body_ids": [
+                6
+              ],
+              "clear_round": 56,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 5,
+              "input": 2507,
+              "round": 121,
+              "gems": 66.0,
+              "collector_body_ids": [
+                9
+              ],
+              "clear_round": 112,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 9
+            },
+            {
+              "group": 1,
+              "input": 2629,
+              "round": 127,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 120,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 3,
+              "input": 2753,
+              "round": 133,
+              "gems": 66.0,
+              "collector_body_ids": [
+                6
+              ],
+              "clear_round": 127,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 1,
+              "input": 3767,
+              "round": 183,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 177,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 8,
+              "input": 3806,
+              "round": 185,
+              "gems": 0.0,
+              "collector_body_ids": [
+                8
+              ],
+              "clear_round": 178,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 3,
+              "input": 4308,
+              "round": 212,
+              "gems": 66.0,
+              "collector_body_ids": [
+                9
+              ],
+              "clear_round": 201,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 11
+            },
+            {
+              "group": 5,
+              "input": 4634,
+              "round": 229,
+              "gems": 66.0,
+              "collector_body_ids": [
+                6
+              ],
+              "clear_round": 223,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 1,
+              "input": 4970,
+              "round": 247,
+              "gems": 66.0,
+              "collector_body_ids": [
+                8
+              ],
+              "clear_round": 240,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 3,
+              "input": 5921,
+              "round": 295,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 288,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 5,
+              "input": 5957,
+              "round": 297,
+              "gems": 66.0,
+              "collector_body_ids": [
+                7
+              ],
+              "clear_round": 289,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 1,
+              "input": 6364,
+              "round": 317,
+              "gems": 66.0,
+              "collector_body_ids": [
+                8
+              ],
+              "clear_round": 311,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 6
+            },
+            {
+              "group": 3,
+              "input": 7215,
+              "round": 358,
+              "gems": 66.0,
+              "collector_body_ids": [
+                7
+              ],
+              "clear_round": 349,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 9
+            },
+            {
+              "group": 5,
+              "input": 7433,
+              "round": 369,
+              "gems": 66.0,
+              "collector_body_ids": [
+                5
+              ],
+              "clear_round": 362,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 1,
+              "input": 7525,
+              "round": 374,
+              "gems": 66.0,
+              "collector_body_ids": [
+                8
+              ],
+              "clear_round": 367,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 7
+            },
+            {
+              "group": 3,
+              "input": 8333,
+              "round": 415,
+              "gems": 66.0,
+              "collector_body_ids": [
+                9
+              ],
+              "clear_round": 407,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 8
+            },
+            {
+              "group": 5,
+              "input": 8748,
+              "round": 433,
+              "gems": 66.0,
+              "collector_body_ids": [
+                7
+              ],
+              "clear_round": 425,
+              "clear_team": "teamB",
+              "clear_to_collection_rounds": 8
+            }
+          ],
+          "final_submitted_gems": 990
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Native event association; no inferred exclusive downtime.",
+    "Same-map deterministic repeats are not additional independent observations."
+  ]
+}

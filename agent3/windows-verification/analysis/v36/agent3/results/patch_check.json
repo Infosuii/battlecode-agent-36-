@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "method": "git -c core.autocrlf=false apply --check, apply to frozen copy, byte equality with all five owned candidate files",
+  "overlay_sha256": "b30461a6f149e873912b71dc02ef5e51920155b4023854095a06f020550c177c"
+}

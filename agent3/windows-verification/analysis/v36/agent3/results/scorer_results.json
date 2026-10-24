@@ -1,0 +1,588 @@
+{
+  "fixture_kind": "SDK-independent production-method unit fixtures; not engine matches",
+  "compiler": "g++.EXE (Rev3, Built by MSYS2 project) 16.2.0",
+  "hashes": {
+    "bot_v34\\src\\bot.cpp": "abf2ebe0d492ab6b2fa95eac2ed450bb8360ba119a3faefdcd3d474cd8ac8ef1",
+    "bot_v36\\src\\bot.cpp": "9e82d83fd77cb6df94e86f210414c590c4ca6906ef8e7485acabd894349ecba8",
+    "bot_v36\\src\\farm_score.h": "f0a9efddbecca834f34635e71d7af35bd60948680af1e9b0ad18cebdd2e56182",
+    "analysis\\v36\\agent3\\fixtures\\scorer_fixture.cpp": "0387365f2d7cefdeba1ee448e6b32b34660de9d751e5918b3d2e760fd668a26c"
+  },
+  "variants": [
+    {
+      "name": "disabled",
+      "correct_bound": false,
+      "diagnostics": false,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": false,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 8357712968398842883,
+          "elapsed_us": 183513
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 8357712968398842883,
+          "elapsed_us": 178535
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 8357712968398842883,
+          "elapsed_us": 178207
+        }
+      ],
+      "executable_sha256": "2540c3b3e202b53c2e07a86bdbcf087d607c923cdf66539d3c132daa52b95692"
+    },
+    {
+      "name": "corrected_production",
+      "correct_bound": true,
+      "diagnostics": false,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": false,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 162185
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 159368
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 157920
+        }
+      ],
+      "executable_sha256": "e71038512191f4b8d168f0af0add9561bca8524cb6dcd477a6ed927c4658be56"
+    },
+    {
+      "name": "corrected_production_diag",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": false,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 174256,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 241044
+        },
+        {
+          "cases": 24014,
+          "scored": 174256,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 188287
+        },
+        {
+          "cases": 24014,
+          "scored": 174256,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 167886
+        }
+      ],
+      "executable_sha256": "61109a0e7610c201621a15135838daa4e2a1590e95fbf6e599804cbc25394214"
+    },
+    {
+      "name": "pruned_single",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": true,
+      "exhaustive": false,
+      "learner": false,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 229345,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 168821
+        },
+        {
+          "cases": 24014,
+          "scored": 229345,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 167777
+        },
+        {
+          "cases": 24014,
+          "scored": 229345,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 162961
+        }
+      ],
+      "executable_sha256": "caeb2728d25d0627aa40240be8ec642d2ec2cdaee13c2266c51a0a2a9a7af518"
+    },
+    {
+      "name": "exhaustive_single",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": true,
+      "exhaustive": true,
+      "learner": false,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 168524
+        },
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 183075
+        },
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 165272
+        }
+      ],
+      "executable_sha256": "ace7830acaee94914824b5d2478dac6091b89aca8561e60910aeeb77f951888c"
+    },
+    {
+      "name": "pruned_single_no_diag",
+      "correct_bound": true,
+      "diagnostics": false,
+      "single_group_diagnostic": true,
+      "exhaustive": false,
+      "learner": false,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 170300
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 165969
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 163519
+        }
+      ],
+      "executable_sha256": "0216f2742a86b0b9defd244ed25171136adf16f990d3ef3868c656150f40ad01"
+    },
+    {
+      "name": "disabled_learner",
+      "correct_bound": false,
+      "diagnostics": false,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": true,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 9377038078170994667,
+          "elapsed_us": 182889
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 9377038078170994667,
+          "elapsed_us": 192377
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 9377038078170994667,
+          "elapsed_us": 186229
+        }
+      ],
+      "executable_sha256": "eac0e98a53dc78ba43f5f5c43ee3d0f32353920599ccb95be48d479f81abae5e"
+    },
+    {
+      "name": "corrected_production_learner",
+      "correct_bound": true,
+      "diagnostics": false,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": true,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12982409599610959926,
+          "elapsed_us": 161067
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12982409599610959926,
+          "elapsed_us": 164446
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12982409599610959926,
+          "elapsed_us": 162151
+        }
+      ],
+      "executable_sha256": "7d707afa6a681bae004510cfc1fa50b5fbee7ca1d263d024afeba8239d7cea14"
+    },
+    {
+      "name": "corrected_production_diag_learner",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": true,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 179644,
+          "violations": 0,
+          "checksum": 12982409599610959926,
+          "elapsed_us": 311842
+        },
+        {
+          "cases": 24014,
+          "scored": 179644,
+          "violations": 0,
+          "checksum": 12982409599610959926,
+          "elapsed_us": 309515
+        },
+        {
+          "cases": 24014,
+          "scored": 179644,
+          "violations": 0,
+          "checksum": 12982409599610959926,
+          "elapsed_us": 283464
+        }
+      ],
+      "executable_sha256": "c95ec7084a8e9de881f726ff75bc7e57997c3ce29f1792a64b131e7dcb5df3e9"
+    },
+    {
+      "name": "pruned_single_learner",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": true,
+      "exhaustive": false,
+      "learner": true,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 249506,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 317937
+        },
+        {
+          "cases": 24014,
+          "scored": 249506,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 342094
+        },
+        {
+          "cases": 24014,
+          "scored": 249506,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 241072
+        }
+      ],
+      "executable_sha256": "c225097514a2b1d2b6dd5cf3b298d6f18e88ef42c812e094d3e4cf2e038731ff"
+    },
+    {
+      "name": "exhaustive_single_learner",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": true,
+      "exhaustive": true,
+      "learner": true,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 328302
+        },
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 293431
+        },
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 306919
+        }
+      ],
+      "executable_sha256": "adc8ee854e8942bfcba9f9b318ed9b6667e3ceb029acd3c875960fa61f8116bb"
+    },
+    {
+      "name": "pruned_single_no_diag_learner",
+      "correct_bound": true,
+      "diagnostics": false,
+      "single_group_diagnostic": true,
+      "exhaustive": false,
+      "learner": true,
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 326610
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 319625
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 14641873193763165281,
+          "elapsed_us": 243427
+        }
+      ],
+      "executable_sha256": "add57a29b40fc9ac19f814e22073da538480953aaf0bff422547a030c2ace236"
+    },
+    {
+      "name": "disabled_learner_zero",
+      "correct_bound": false,
+      "diagnostics": false,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": "zero",
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 8357712968398842883,
+          "elapsed_us": 347569
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 8357712968398842883,
+          "elapsed_us": 331768
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 8357712968398842883,
+          "elapsed_us": 189062
+        }
+      ],
+      "executable_sha256": "740d296340aa36508291800195c82417f10a1eb4b1b5d80345224aff89e582c4"
+    },
+    {
+      "name": "corrected_production_learner_zero",
+      "correct_bound": true,
+      "diagnostics": false,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": "zero",
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 160661
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 161949
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 161359
+        }
+      ],
+      "executable_sha256": "dac23f3302c9313d81e5af757ff2eb76cbec85a7834200267f5fe928f035dddb"
+    },
+    {
+      "name": "corrected_production_diag_learner_zero",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": false,
+      "exhaustive": false,
+      "learner": "zero",
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 174256,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 182375
+        },
+        {
+          "cases": 24014,
+          "scored": 174256,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 169657
+        },
+        {
+          "cases": 24014,
+          "scored": 174256,
+          "violations": 0,
+          "checksum": 12916274746535971888,
+          "elapsed_us": 176592
+        }
+      ],
+      "executable_sha256": "562237479b0a418eb86d35b088b99450e3f604bc12b9ac975f4431853d9cd9d8"
+    },
+    {
+      "name": "pruned_single_learner_zero",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": true,
+      "exhaustive": false,
+      "learner": "zero",
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 229345,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 188584
+        },
+        {
+          "cases": 24014,
+          "scored": 229345,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 169686
+        },
+        {
+          "cases": 24014,
+          "scored": 229345,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 166287
+        }
+      ],
+      "executable_sha256": "ca71525fef4889c445d955ec95836c99462f05a7a859bd0bfbeac5457af6c480"
+    },
+    {
+      "name": "exhaustive_single_learner_zero",
+      "correct_bound": true,
+      "diagnostics": true,
+      "single_group_diagnostic": true,
+      "exhaustive": true,
+      "learner": "zero",
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 178505
+        },
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 181666
+        },
+        {
+          "cases": 24014,
+          "scored": 369232,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 184257
+        }
+      ],
+      "executable_sha256": "527de780a7afa0daa957f217985338430abe934ee6c6883e16d26d972f128c93"
+    },
+    {
+      "name": "pruned_single_no_diag_learner_zero",
+      "correct_bound": true,
+      "diagnostics": false,
+      "single_group_diagnostic": true,
+      "exhaustive": false,
+      "learner": "zero",
+      "measurements": [
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 167043
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 173665
+        },
+        {
+          "cases": 24014,
+          "scored": 0,
+          "violations": 0,
+          "checksum": 936749946520251266,
+          "elapsed_us": 172635
+        }
+      ],
+      "executable_sha256": "8dd5fd967f465ad04218404d30c336d9495fc53cb5a4144dcab08000f32caff1"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "map_sha256": "70437ed609811e84286d3ae4e1d4159b84414b5eb7ff8c82d20f36a2293e3c02",
+  "generator": "MapBuilder; native runner determines game mechanics; builder engine is not the oracle",
+  "scenarios": [
+    "Ren single hit: healthy group member awake; hold in range; depart then sleep; recall outside range",
+    "Varg splash: diagonal separate group wakes; healthy distant same-group member; depart then sleep"
+  ]
+}

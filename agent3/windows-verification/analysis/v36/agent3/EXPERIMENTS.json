@@ -1,0 +1,32 @@
+[
+  {
+    "id": "A3-BOUND-UNIT-01",
+    "hypothesis": "Accounting for every live positive score term makes single-group pruning admissible.",
+    "switch": "farm_score::kCorrectBound",
+    "primary_metric": "exact pruned/exhaustive (group, need, float score) agreement and zero final-score bound violations",
+    "acceptance": "all focused and fixed randomized fixtures pass for disabled/nonzero/zero residual and invalid-bound bypass",
+    "cost": "18 host C++ fixture variants, 3 timing repeats each; no engine games",
+    "status": "see results/scorer_status.json and source hashes"
+  },
+  {
+    "id": "A3-CAP-ROUTE-UNIT-01",
+    "hypothesis": "Work/order and route candidate approximations remain separate even with an admissible single-group bound.",
+    "primary_metric": "separate counter fixtures and actual route-method limited/expanded first-leg counterexample",
+    "acceptance": "reproduce cap counters and a route-candidate loss without changing production caps",
+    "status": "included in scorer fixture run"
+  },
+  {
+    "id": "A3-SAFETY-UNIT-01",
+    "hypothesis": "Observed tank position/ID and dense-camp truncation affect existing exposure models.",
+    "primary_metric": "actual helper aggro tests; 12- and 32-entry truncation reproduction",
+    "acceptance": "assert exact controlled outputs; no claim of engine validation",
+    "status": "included in scorer fixture run; awake-state oracle pending"
+  },
+  {
+    "id": "A3-INTEGRATED-MATCH-01",
+    "hypothesis": "Correct bound can improve secured production without fuel/action/strength regression.",
+    "primary_metric": "full-match paired win and submitted-gem differences with release fuel diagnostics",
+    "acceptance": "Agent 1 declared official/unseen, varied recovered-pool and fresh-validation gates",
+    "status": "not run; integrated source/SDK/runner/schedules unavailable on this host"
+  }
+]

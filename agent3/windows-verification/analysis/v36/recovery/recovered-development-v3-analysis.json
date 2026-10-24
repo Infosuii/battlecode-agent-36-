@@ -1,0 +1,1997 @@
+{
+  "suite": "recovered-development-v3",
+  "games": 63,
+  "independent_layout_groups": 9,
+  "runtime_faults": 0,
+  "parity": [
+    {
+      "map": 0,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 0,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 1,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 1,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 2,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 2,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 3,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 3,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 4,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 4,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 5,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 5,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 6,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 6,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 7,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 7,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 8,
+      "tag": "offA",
+      "exact_compact_statistics": true
+    },
+    {
+      "map": 8,
+      "tag": "offB",
+      "exact_compact_statistics": true
+    }
+  ],
+  "on_wins": 9,
+  "on_games": 18,
+  "per_map": [
+    {
+      "map": 0,
+      "wins": 1,
+      "games": 2,
+      "mean_secured_margin": 18.0,
+      "on_exhaustion_events": 0,
+      "off_exhaustion_events": 0
+    },
+    {
+      "map": 1,
+      "wins": 1,
+      "games": 2,
+      "mean_secured_margin": 0.0,
+      "on_exhaustion_events": 5,
+      "off_exhaustion_events": 5
+    },
+    {
+      "map": 2,
+      "wins": 1,
+      "games": 2,
+      "mean_secured_margin": 0.0,
+      "on_exhaustion_events": 0,
+      "off_exhaustion_events": 0
+    },
+    {
+      "map": 3,
+      "wins": 1,
+      "games": 2,
+      "mean_secured_margin": 99.0,
+      "on_exhaustion_events": 1,
+      "off_exhaustion_events": 0
+    },
+    {
+      "map": 4,
+      "wins": 1,
+      "games": 2,
+      "mean_secured_margin": 0.0,
+      "on_exhaustion_events": 1,
+      "off_exhaustion_events": 1
+    },
+    {
+      "map": 5,
+      "wins": 1,
+      "games": 2,
+      "mean_secured_margin": 231.0,
+      "on_exhaustion_events": 2,
+      "off_exhaustion_events": 0
+    },
+    {
+      "map": 6,
+      "wins": 2,
+      "games": 2,
+      "mean_secured_margin": 77.0,
+      "on_exhaustion_events": 1,
+      "off_exhaustion_events": 1
+    },
+    {
+      "map": 7,
+      "wins": 0,
+      "games": 2,
+      "mean_secured_margin": -581.0,
+      "on_exhaustion_events": 6,
+      "off_exhaustion_events": 8
+    },
+    {
+      "map": 8,
+      "wins": 1,
+      "games": 2,
+      "mean_secured_margin": 51.0,
+      "on_exhaustion_events": 20,
+      "off_exhaustion_events": 15
+    }
+  ],
+  "mean_secured_margin": -11.666666666666666,
+  "descriptive_map_cluster_bootstrap_95": [
+    -169.33333333333334,
+    98.88888888888889
+  ],
+  "interval_limitations": "Only nine reconstructed development layouts, baseline opponent, no final holdout/general-strength inference.",
+  "on_exhaustion_events": 36,
+  "off_exhaustion_events": 30,
+  "fuel_format_reference": {
+    "visualiser_sha256": "a74e5b9b657ff531aa4244d47b55a0696a3e7e7130265107a44264447a8c99d0",
+    "magic_u64": 28839526091863649,
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "header_bytes": 77,
+    "values": "little endian u64; native budget exhaustion equality checked per team/match",
+    "normal_denominator": "All recorded champion turns after each first play turn, including dead/shopping turns; no live-only claim"
+  },
+  "fuel_distributions": {
+    "baseline": {
+      "turns": 53557,
+      "mean": 37207.68077002073,
+      "p50": 37561.0,
+      "p95": 76168.2,
+      "p99": 85214.40000000002,
+      "max": 100000
+    },
+    "off": {
+      "turns": 52020,
+      "mean": 36665.79690503652,
+      "p50": 37034.0,
+      "p95": 75452.09999999999,
+      "p99": 83933.23999999999,
+      "max": 100000
+    },
+    "on": {
+      "turns": 52022,
+      "mean": 37351.70741224867,
+      "p50": 36695.5,
+      "p95": 78874.84999999999,
+      "p99": 87142.90000000001,
+      "max": 100000
+    },
+    "diagnostic": {
+      "turns": 50733,
+      "mean": 37969.01448761162,
+      "p50": 36998.0,
+      "p95": 80407.99999999997,
+      "p99": 88824.88,
+      "max": 100000
+    }
+  },
+  "per_game_fuel_validation": [
+    {
+      "id": "recovered-development-v3-00-base",
+      "bundle_sha256": "30013c4f1e35672b851bb401dedebf71354274243c24f607b12578d20756c851",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31522.0,
+          "normal_p95": 57751.0,
+          "normal_p99": 70789.99999999997,
+          "normal_max": 94235
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 35236.0,
+          "normal_p95": 61824.0,
+          "normal_p99": 73301.39999999998,
+          "normal_max": 93854
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-00-offA",
+      "bundle_sha256": "30013c4f1e35672b851bb401dedebf71354274243c24f607b12578d20756c851",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31522.0,
+          "normal_p95": 57751.0,
+          "normal_p99": 70789.99999999997,
+          "normal_max": 94235
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 35236.0,
+          "normal_p95": 61824.0,
+          "normal_p99": 73301.39999999998,
+          "normal_max": 93854
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-00-offB",
+      "bundle_sha256": "30013c4f1e35672b851bb401dedebf71354274243c24f607b12578d20756c851",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31522.0,
+          "normal_p95": 57751.0,
+          "normal_p99": 70789.99999999997,
+          "normal_max": 94235
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 35236.0,
+          "normal_p95": 61824.0,
+          "normal_p99": 73301.39999999998,
+          "normal_max": 93854
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-00-onA",
+      "bundle_sha256": "9ed8bf96b22e1241dcc7c6b8670317612a95a9cfa4d6b327b07d044b418559cd",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4063,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 27923.0,
+          "normal_p95": 60707.69999999998,
+          "normal_p99": 73241.02,
+          "normal_max": 94391
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4062,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 33093.0,
+          "normal_p95": 61870.299999999996,
+          "normal_p99": 71882.02999999998,
+          "normal_max": 88946
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-00-onB",
+      "bundle_sha256": "2c4741f450577a68b4e7bc5b5dc7c4118a345b3e9ba7ecae9227a8ba659e8e81",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31522.0,
+          "normal_p95": 57751.0,
+          "normal_p99": 70789.99999999997,
+          "normal_max": 94235
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3781,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 34158.0,
+          "normal_p95": 61857.0,
+          "normal_p99": 73434.59999999996,
+          "normal_max": 93876
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-00-diagA",
+      "bundle_sha256": "8f3eb16069f6f22236c9ba3608f5824990f8dbe54e30d1a79fee78d66be56425",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4089,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 27756.0,
+          "normal_p95": 60182.99999999999,
+          "normal_p99": 74399.87999999999,
+          "normal_max": 94251
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4088,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 32345.0,
+          "normal_p95": 61764.99999999999,
+          "normal_p99": 72851.96000000005,
+          "normal_max": 88946
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-00-diagB",
+      "bundle_sha256": "d8307259dc4c2dc46cfefe55b09782b02cfd6b6e22d836558dec71d0ba721591",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4047,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 26846.0,
+          "normal_p95": 59039.29999999999,
+          "normal_p99": 73322.22,
+          "normal_max": 94235
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4047,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 33141.0,
+          "normal_p95": 62842.2,
+          "normal_p99": 75344.79999999999,
+          "normal_max": 96133
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-01-base",
+      "bundle_sha256": "60adc51705e803015ccbed7ad385ae8050432698fae4935edf754ac701cfb65e",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 2,
+          "saturated_fuel_records": 2,
+          "normal_p50": 22707.0,
+          "normal_p95": 55940.89999999999,
+          "normal_p99": 72619.45000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 27941.0,
+          "normal_p95": 59119.049999999996,
+          "normal_p99": 70694.75,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-01-offA",
+      "bundle_sha256": "60adc51705e803015ccbed7ad385ae8050432698fae4935edf754ac701cfb65e",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 2,
+          "saturated_fuel_records": 2,
+          "normal_p50": 22707.0,
+          "normal_p95": 55940.89999999999,
+          "normal_p99": 72619.45000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 27941.0,
+          "normal_p95": 59119.049999999996,
+          "normal_p99": 70694.75,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-01-offB",
+      "bundle_sha256": "60adc51705e803015ccbed7ad385ae8050432698fae4935edf754ac701cfb65e",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 2,
+          "saturated_fuel_records": 2,
+          "normal_p50": 22707.0,
+          "normal_p95": 55940.89999999999,
+          "normal_p99": 72619.45000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 27941.0,
+          "normal_p95": 59119.049999999996,
+          "normal_p99": 70694.75,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-01-onA",
+      "bundle_sha256": "cc8d3a8a18416f42830598a88a6ef408d75591fac28c4cc6c1ac5f6f02df9dee",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 2,
+          "saturated_fuel_records": 2,
+          "normal_p50": 21182.0,
+          "normal_p95": 56026.39999999997,
+          "normal_p99": 72619.45000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 27941.0,
+          "normal_p95": 59119.049999999996,
+          "normal_p99": 70694.75,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-01-onB",
+      "bundle_sha256": "e7bb9c20aa23f9e9e7119058a9c1268ac9e35ebe3b3b21055f4cc7bcef8042a2",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 2,
+          "saturated_fuel_records": 2,
+          "normal_p50": 22707.0,
+          "normal_p95": 55940.89999999999,
+          "normal_p99": 72619.45000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 27170.5,
+          "normal_p95": 59119.049999999996,
+          "normal_p99": 70990.3,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-01-diagA",
+      "bundle_sha256": "11aa6dba8cabc434fcae046c101a1387b2f08019defd533534df112101b7346a",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 21395.0,
+          "normal_p95": 56669.14999999995,
+          "normal_p99": 74637.76000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 27170.5,
+          "normal_p95": 59119.049999999996,
+          "normal_p99": 70888.72,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-01-diagB",
+      "bundle_sha256": "56acd576473b439438e7a0078279e82011741d2fe6520b0535e8008b0d9caa56",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 2,
+          "saturated_fuel_records": 2,
+          "normal_p50": 21182.0,
+          "normal_p95": 56026.39999999997,
+          "normal_p99": 72619.45000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2330,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 27900.5,
+          "normal_p95": 59782.6,
+          "normal_p99": 72215.68000000002,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-02-base",
+      "bundle_sha256": "be3ebeb4ca62e2eb6f56939e9705d930deb21d3581bc2a06117e89e813a09ac3",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 30699.0,
+          "normal_p95": 49956.4,
+          "normal_p99": 58741.07999999988,
+          "normal_max": 78799
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 29504.0,
+          "normal_p95": 47500.2,
+          "normal_p99": 58015.439999999995,
+          "normal_max": 78852
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-02-offA",
+      "bundle_sha256": "be3ebeb4ca62e2eb6f56939e9705d930deb21d3581bc2a06117e89e813a09ac3",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 30699.0,
+          "normal_p95": 49956.4,
+          "normal_p99": 58741.07999999988,
+          "normal_max": 78799
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 29504.0,
+          "normal_p95": 47500.2,
+          "normal_p99": 58015.439999999995,
+          "normal_max": 78852
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-02-offB",
+      "bundle_sha256": "be3ebeb4ca62e2eb6f56939e9705d930deb21d3581bc2a06117e89e813a09ac3",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 30699.0,
+          "normal_p95": 49956.4,
+          "normal_p99": 58741.07999999988,
+          "normal_max": 78799
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 29504.0,
+          "normal_p95": 47500.2,
+          "normal_p99": 58015.439999999995,
+          "normal_max": 78852
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-02-onA",
+      "bundle_sha256": "ff825896671691266368a129065f1b6d8ebc84bb03a4e152ede89bf54e2d5028",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31179.0,
+          "normal_p95": 50120.60000000001,
+          "normal_p99": 59462.199999999975,
+          "normal_max": 80226
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 29504.0,
+          "normal_p95": 47500.2,
+          "normal_p99": 58015.439999999995,
+          "normal_max": 78852
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-02-onB",
+      "bundle_sha256": "327f63e41a0555e03cdff8d0eccf39b5dd821c0c528fa172cb119f1b3d2e9748",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 30699.0,
+          "normal_p95": 49956.4,
+          "normal_p99": 58741.07999999988,
+          "normal_max": 78799
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 29979.0,
+          "normal_p95": 47678.60000000001,
+          "normal_p99": 59082.719999999994,
+          "normal_max": 80352
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-02-diagA",
+      "bundle_sha256": "73844bda14e98371003de4472d4d7455043b3c851b907662b679e8a48921c953",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31670.0,
+          "normal_p95": 51599.8,
+          "normal_p99": 60872.59999999993,
+          "normal_max": 80648
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 29979.0,
+          "normal_p95": 47678.60000000001,
+          "normal_p99": 59082.719999999994,
+          "normal_max": 80352
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-02-diagB",
+      "bundle_sha256": "4fada527f0ee3be4bdc2d8048801877d53f30e07fb73bcc8969b3c262238276c",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31179.0,
+          "normal_p95": 50120.60000000001,
+          "normal_p99": 59462.199999999975,
+          "normal_max": 80226
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 2233,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 30436.0,
+          "normal_p95": 49688.4,
+          "normal_p99": 60564.39999999998,
+          "normal_max": 80774
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-03-base",
+      "bundle_sha256": "7421853100a08f00adeb86b0f0c051a4f7431553ff09dcf162158e4497c32e2a",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3352,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31583.5,
+          "normal_p95": 63362.09999999996,
+          "normal_p99": 74280.88999999998,
+          "normal_max": 98027
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3353,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 32207.0,
+          "normal_p95": 63480.6,
+          "normal_p99": 73423.6,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-03-offA",
+      "bundle_sha256": "7421853100a08f00adeb86b0f0c051a4f7431553ff09dcf162158e4497c32e2a",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3352,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31583.5,
+          "normal_p95": 63362.09999999996,
+          "normal_p99": 74280.88999999998,
+          "normal_max": 98027
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3353,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 32207.0,
+          "normal_p95": 63480.6,
+          "normal_p99": 73423.6,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-03-offB",
+      "bundle_sha256": "7421853100a08f00adeb86b0f0c051a4f7431553ff09dcf162158e4497c32e2a",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3352,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31583.5,
+          "normal_p95": 63362.09999999996,
+          "normal_p99": 74280.88999999998,
+          "normal_max": 98027
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3353,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 32207.0,
+          "normal_p95": 63480.6,
+          "normal_p99": 73423.6,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-03-onA",
+      "bundle_sha256": "e465fff389a6a8e575daec5a9da3767570490ed556d2657eff77097da7bef681",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3258,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 34515.0,
+          "normal_p95": 63506.94999999994,
+          "normal_p99": 72644.08999999995,
+          "normal_max": 87777
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3258,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 29462.5,
+          "normal_p95": 63188.54999999994,
+          "normal_p99": 74129.97999999994,
+          "normal_max": 97655
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-03-onB",
+      "bundle_sha256": "2d48c9caa5a3b34f6d9240a4bffb54850a155d2630c938aa5f944498ecf64d78",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3352,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31583.5,
+          "normal_p95": 63362.09999999996,
+          "normal_p99": 74280.88999999998,
+          "normal_max": 98027
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3353,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 32875.0,
+          "normal_p95": 63754.79999999998,
+          "normal_p99": 74172.56,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-03-diagA",
+      "bundle_sha256": "ded633d27f3153783ec2503fbdf4eee8895b5ff94dfcf4299fcdcb6f04c1f500",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3673,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 34671.0,
+          "normal_p95": 64892.399999999994,
+          "normal_p99": 74126.23999999995,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3674,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 31994.0,
+          "normal_p95": 64338.7,
+          "normal_p99": 73813.18,
+          "normal_max": 97606
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-03-diagB",
+      "bundle_sha256": "2216e4f469e2b2bc9a455795bef857e844c91126e01eb5679d5cb3a3d71f3ed2",
+      "fuel": {
+        "teamA": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3673,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 34347.0,
+          "normal_p95": 63851.599999999984,
+          "normal_p99": 73387.76,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 4,
+          "first_turn_records": 5,
+          "normal_turn_records": 3674,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 32360.5,
+          "normal_p95": 65359.19999999999,
+          "normal_p99": 74911.86,
+          "normal_max": 97622
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-04-base",
+      "bundle_sha256": "c1f07294f77fae9080722691abf1b78a95bb755a3e7c92d75e41ef24b602e37c",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2617,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 50319.0,
+          "normal_p95": 69383.0,
+          "normal_p99": 79246.96000000002,
+          "normal_max": 88531
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2618,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 50333.0,
+          "normal_p95": 69069.45,
+          "normal_p99": 78598.04999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-04-offA",
+      "bundle_sha256": "c1f07294f77fae9080722691abf1b78a95bb755a3e7c92d75e41ef24b602e37c",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2617,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 50319.0,
+          "normal_p95": 69383.0,
+          "normal_p99": 79246.96000000002,
+          "normal_max": 88531
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2618,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 50333.0,
+          "normal_p95": 69069.45,
+          "normal_p99": 78598.04999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-04-offB",
+      "bundle_sha256": "c1f07294f77fae9080722691abf1b78a95bb755a3e7c92d75e41ef24b602e37c",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2617,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 50319.0,
+          "normal_p95": 69383.0,
+          "normal_p99": 79246.96000000002,
+          "normal_max": 88531
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2618,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 50333.0,
+          "normal_p95": 69069.45,
+          "normal_p99": 78598.04999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-04-onA",
+      "bundle_sha256": "7d7744a21b1db132be9e85b7b049de8dcefe06c9dd2d97c999913a3ebd0555c9",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2617,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 50395.0,
+          "normal_p95": 72763.2,
+          "normal_p99": 81653.96,
+          "normal_max": 93346
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2618,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 50333.0,
+          "normal_p95": 69069.45,
+          "normal_p99": 78598.04999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-04-onB",
+      "bundle_sha256": "4d912c5080662bb0f987071d551fdff9cae61efa1652942e0499e97c29c4db36",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2617,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 50319.0,
+          "normal_p95": 69383.0,
+          "normal_p99": 79246.96000000002,
+          "normal_max": 88531
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2618,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 50225.0,
+          "normal_p95": 72336.30000000002,
+          "normal_p99": 80777.37,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-04-diagA",
+      "bundle_sha256": "660ab5c100950bae28da84f6a34029ba97fa08b2bf55dbc4c38ef7e7bfc365e2",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2617,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 51329.0,
+          "normal_p95": 74343.59999999999,
+          "normal_p99": 83484.04000000002,
+          "normal_max": 94172
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2618,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 50225.0,
+          "normal_p95": 72336.30000000002,
+          "normal_p99": 80777.37,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-04-diagB",
+      "bundle_sha256": "f2ec7d84f47ab56313d1cfd4b4458794f22b0e0fa456b804c7740a25c3be5f06",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2617,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 50395.0,
+          "normal_p95": 72763.2,
+          "normal_p99": 81653.96,
+          "normal_max": 93346
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2618,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 51454.5,
+          "normal_p95": 74216.6,
+          "normal_p99": 81853.09,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-05-base",
+      "bundle_sha256": "f62770acb39c4cbdc5abb41f6853ddd34d1467d1ae2a53af119d6d6ecaf0f1d9",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 41626.0,
+          "normal_p95": 63939.8,
+          "normal_p99": 73015.58,
+          "normal_max": 85045
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 40281.0,
+          "normal_p95": 62848.90000000001,
+          "normal_p99": 70362.1,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-05-offA",
+      "bundle_sha256": "f62770acb39c4cbdc5abb41f6853ddd34d1467d1ae2a53af119d6d6ecaf0f1d9",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 41626.0,
+          "normal_p95": 63939.8,
+          "normal_p99": 73015.58,
+          "normal_max": 85045
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 40281.0,
+          "normal_p95": 62848.90000000001,
+          "normal_p99": 70362.1,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-05-offB",
+      "bundle_sha256": "f62770acb39c4cbdc5abb41f6853ddd34d1467d1ae2a53af119d6d6ecaf0f1d9",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 41626.0,
+          "normal_p95": 63939.8,
+          "normal_p99": 73015.58,
+          "normal_max": 85045
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 40281.0,
+          "normal_p95": 62848.90000000001,
+          "normal_p99": 70362.1,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-05-onA",
+      "bundle_sha256": "d68aa37d0ec71c9b8a9dbe1a483cddd7d62fdaef627c51502ba365da18c26398",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2238,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 44414.5,
+          "normal_p95": 68913.15,
+          "normal_p99": 77931.18000000002,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2238,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 40073.0,
+          "normal_p95": 60911.200000000004,
+          "normal_p99": 67293.24,
+          "normal_max": 82827
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-05-onB",
+      "bundle_sha256": "a60f2497c56acd72590a7e82899d866eabe08ab8f61c7e49eeec8a556c70c2b6",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 41626.0,
+          "normal_p95": 63939.8,
+          "normal_p99": 73015.58,
+          "normal_max": 85045
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2503,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 39242.0,
+          "normal_p95": 65632.3,
+          "normal_p99": 72749.12,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-05-diagA",
+      "bundle_sha256": "36d8870cc1a2d11248145ab0c00553e3887574fe3dd3437bbbbca5dbaebb1ddc",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2238,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 45127.0,
+          "normal_p95": 70486.4,
+          "normal_p99": 79864.67,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2238,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 38297.0,
+          "normal_p95": 63607.950000000004,
+          "normal_p99": 69421.84000000003,
+          "normal_max": 82827
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-05-diagB",
+      "bundle_sha256": "d216d044790e7e97536c5a526c9b88444e21d12ed5276cc5651bc1154276609e",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2238,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 44414.5,
+          "normal_p95": 68913.15,
+          "normal_p99": 77931.18000000002,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 2238,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 38981.5,
+          "normal_p95": 64903.9,
+          "normal_p99": 71955.38000000002,
+          "normal_max": 93296
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-06-base",
+      "bundle_sha256": "30c807bd7c53b24bfcb7c20268e9a389d1d19b7043af54574708c61a28703d83",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1883,
+          "native_exhaustion_events": 6,
+          "saturated_fuel_records": 6,
+          "normal_p50": 55929.0,
+          "normal_p95": 77810.59999999999,
+          "normal_p99": 92039.92000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1883,
+          "native_exhaustion_events": 4,
+          "saturated_fuel_records": 4,
+          "normal_p50": 52821.0,
+          "normal_p95": 74020.4,
+          "normal_p99": 90912.18000000002,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-06-offA",
+      "bundle_sha256": "30c807bd7c53b24bfcb7c20268e9a389d1d19b7043af54574708c61a28703d83",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1883,
+          "native_exhaustion_events": 6,
+          "saturated_fuel_records": 6,
+          "normal_p50": 55929.0,
+          "normal_p95": 77810.59999999999,
+          "normal_p99": 92039.92000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1883,
+          "native_exhaustion_events": 4,
+          "saturated_fuel_records": 4,
+          "normal_p50": 52821.0,
+          "normal_p95": 74020.4,
+          "normal_p99": 90912.18000000002,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-06-offB",
+      "bundle_sha256": "30c807bd7c53b24bfcb7c20268e9a389d1d19b7043af54574708c61a28703d83",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1883,
+          "native_exhaustion_events": 6,
+          "saturated_fuel_records": 6,
+          "normal_p50": 55929.0,
+          "normal_p95": 77810.59999999999,
+          "normal_p99": 92039.92000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1883,
+          "native_exhaustion_events": 4,
+          "saturated_fuel_records": 4,
+          "normal_p50": 52821.0,
+          "normal_p95": 74020.4,
+          "normal_p99": 90912.18000000002,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-06-onA",
+      "bundle_sha256": "248102dbf062a1ab2126a770f7d9c9494bd44819a7fe249dde0c2fad9e9ce1e9",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1582,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 45427.0,
+          "normal_p95": 76921.54999999999,
+          "normal_p99": 90287.97000000012,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1582,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 57717.0,
+          "normal_p95": 72211.84999999999,
+          "normal_p99": 79401.79000000001,
+          "normal_max": 93919
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-06-onB",
+      "bundle_sha256": "771c2c28c4fff4e7c0a640ed35d08dbb34f08206280ef3acd310d05f0cf30411",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1803,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 57264.0,
+          "normal_p95": 73922.49999999999,
+          "normal_p99": 81923.88,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1803,
+          "native_exhaustion_events": 0,
+          "saturated_fuel_records": 0,
+          "normal_p50": 55363.0,
+          "normal_p95": 78510.79999999999,
+          "normal_p99": 85672.7,
+          "normal_max": 98898
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-06-diagA",
+      "bundle_sha256": "d31ae807d6f83abca568b58f07ca73f34dc05f7840c5a91f48ba41a7cc7a2354",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1514,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 51626.0,
+          "normal_p95": 78419.2,
+          "normal_p99": 87342.28999999994,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1515,
+          "native_exhaustion_events": 6,
+          "saturated_fuel_records": 6,
+          "normal_p50": 54153.0,
+          "normal_p95": 76684.9,
+          "normal_p99": 86798.59999999987,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-06-diagB",
+      "bundle_sha256": "6358c9b98985914f7e1e1cec9b815442eaa2c6f15a17c72d44f2933eb392203c",
+      "fuel": {
+        "teamA": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1582,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 45427.0,
+          "normal_p95": 76921.54999999999,
+          "normal_p99": 90287.97000000012,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 3,
+          "first_turn_records": 4,
+          "normal_turn_records": 1582,
+          "native_exhaustion_events": 6,
+          "saturated_fuel_records": 6,
+          "normal_p50": 55908.0,
+          "normal_p95": 82574.4,
+          "normal_p99": 92192.0,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-07-base",
+      "bundle_sha256": "c4959a6ba8564b6865f3438ec94bb2d98f8711158e0861308e390ce30b0fadd1",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4883,
+          "native_exhaustion_events": 5,
+          "saturated_fuel_records": 5,
+          "normal_p50": 43373.0,
+          "normal_p95": 76263.6,
+          "normal_p99": 83953.64000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4882,
+          "native_exhaustion_events": 7,
+          "saturated_fuel_records": 7,
+          "normal_p50": 45202.0,
+          "normal_p95": 75889.95,
+          "normal_p99": 84039.70999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-07-offA",
+      "bundle_sha256": "c4959a6ba8564b6865f3438ec94bb2d98f8711158e0861308e390ce30b0fadd1",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4883,
+          "native_exhaustion_events": 5,
+          "saturated_fuel_records": 5,
+          "normal_p50": 43373.0,
+          "normal_p95": 76263.6,
+          "normal_p99": 83953.64000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4882,
+          "native_exhaustion_events": 7,
+          "saturated_fuel_records": 7,
+          "normal_p50": 45202.0,
+          "normal_p95": 75889.95,
+          "normal_p99": 84039.70999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-07-offB",
+      "bundle_sha256": "c4959a6ba8564b6865f3438ec94bb2d98f8711158e0861308e390ce30b0fadd1",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4883,
+          "native_exhaustion_events": 5,
+          "saturated_fuel_records": 5,
+          "normal_p50": 43373.0,
+          "normal_p95": 76263.6,
+          "normal_p99": 83953.64000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4882,
+          "native_exhaustion_events": 7,
+          "saturated_fuel_records": 7,
+          "normal_p50": 45202.0,
+          "normal_p95": 75889.95,
+          "normal_p99": 84039.70999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-07-onA",
+      "bundle_sha256": "2df1b44e6dcd5dc75487f1a42fc2609269e0ecf12f1283d76d16a3229292d8bf",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4884,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 42854.5,
+          "normal_p95": 79106.65,
+          "normal_p99": 84990.29000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4883,
+          "native_exhaustion_events": 7,
+          "saturated_fuel_records": 7,
+          "normal_p50": 45491.0,
+          "normal_p95": 75997.2,
+          "normal_p99": 86085.78,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-07-onB",
+      "bundle_sha256": "278486a0be8f7d320bd8912ebd81506d4208644dd838be933a1237aeb9095f90",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4231,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 50284.0,
+          "normal_p95": 74275.5,
+          "normal_p99": 82222.69999999997,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4231,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 40107.0,
+          "normal_p95": 78860.0,
+          "normal_p99": 85030.59999999999,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-07-diagA",
+      "bundle_sha256": "0bfbd13254f7fab52bb6fdf4ba1dd16be1e2041e134203750e2a82d993407709",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3532,
+          "native_exhaustion_events": 6,
+          "saturated_fuel_records": 6,
+          "normal_p50": 43522.5,
+          "normal_p95": 81158.24999999999,
+          "normal_p99": 88947.00000000003,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3533,
+          "native_exhaustion_events": 3,
+          "saturated_fuel_records": 3,
+          "normal_p50": 38256.0,
+          "normal_p95": 79615.19999999998,
+          "normal_p99": 88342.67999999993,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-07-diagB",
+      "bundle_sha256": "52d1e464017329fb1e5eb90b8e2479d9fbc9002e3daad9a2992bf49cad94e60c",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4490,
+          "native_exhaustion_events": 1,
+          "saturated_fuel_records": 1,
+          "normal_p50": 46484.5,
+          "normal_p95": 80448.85,
+          "normal_p99": 86806.24999999997,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 4491,
+          "native_exhaustion_events": 10,
+          "saturated_fuel_records": 10,
+          "normal_p50": 44034.0,
+          "normal_p95": 83280.0,
+          "normal_p99": 89683.90000000004,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-08-base",
+      "bundle_sha256": "3c2e602f8b6d9c39c628618fe91d11e074585417a3012a2a3d3a6899bda2a192",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3196,
+          "native_exhaustion_events": 11,
+          "saturated_fuel_records": 11,
+          "normal_p50": 68057.5,
+          "normal_p95": 85878.75,
+          "normal_p99": 92207.85000000008,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3196,
+          "native_exhaustion_events": 8,
+          "saturated_fuel_records": 8,
+          "normal_p50": 69335.5,
+          "normal_p95": 85235.75,
+          "normal_p99": 90419.7,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-08-offA",
+      "bundle_sha256": "3c2e602f8b6d9c39c628618fe91d11e074585417a3012a2a3d3a6899bda2a192",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3196,
+          "native_exhaustion_events": 11,
+          "saturated_fuel_records": 11,
+          "normal_p50": 68057.5,
+          "normal_p95": 85878.75,
+          "normal_p99": 92207.85000000008,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3196,
+          "native_exhaustion_events": 8,
+          "saturated_fuel_records": 8,
+          "normal_p50": 69335.5,
+          "normal_p95": 85235.75,
+          "normal_p99": 90419.7,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-08-offB",
+      "bundle_sha256": "3c2e602f8b6d9c39c628618fe91d11e074585417a3012a2a3d3a6899bda2a192",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3196,
+          "native_exhaustion_events": 11,
+          "saturated_fuel_records": 11,
+          "normal_p50": 68057.5,
+          "normal_p95": 85878.75,
+          "normal_p99": 92207.85000000008,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3196,
+          "native_exhaustion_events": 8,
+          "saturated_fuel_records": 8,
+          "normal_p50": 69335.5,
+          "normal_p95": 85235.75,
+          "normal_p99": 90419.7,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-08-onA",
+      "bundle_sha256": "d34c71a6a7aa749f5c21160cc85855837c431875a5304da6e2af078cfa496912",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3256,
+          "native_exhaustion_events": 11,
+          "saturated_fuel_records": 11,
+          "normal_p50": 68151.5,
+          "normal_p95": 87421.5,
+          "normal_p99": 92758.44999999998,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 3256,
+          "native_exhaustion_events": 8,
+          "saturated_fuel_records": 8,
+          "normal_p50": 69100.5,
+          "normal_p95": 85085.0,
+          "normal_p99": 89996.35,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-08-onB",
+      "bundle_sha256": "89f7767de145191569811a2b09b69936c1b9d4e526a64f8d6dc11bc9b772ef46",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2710,
+          "native_exhaustion_events": 7,
+          "saturated_fuel_records": 7,
+          "normal_p50": 67241.5,
+          "normal_p95": 84610.65,
+          "normal_p99": 90691.11999999998,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2709,
+          "native_exhaustion_events": 9,
+          "saturated_fuel_records": 9,
+          "normal_p50": 74101.0,
+          "normal_p95": 89006.4,
+          "normal_p99": 93407.44,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-08-diagA",
+      "bundle_sha256": "49a6b78e4be9c42c275bcc552923323ac7f513f236080fca1c7eae7b6a4273aa",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2661,
+          "native_exhaustion_events": 19,
+          "saturated_fuel_records": 19,
+          "normal_p50": 73014.0,
+          "normal_p95": 89465.0,
+          "normal_p99": 94704.20000000001,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2661,
+          "native_exhaustion_events": 8,
+          "saturated_fuel_records": 8,
+          "normal_p50": 69703.0,
+          "normal_p95": 87288.0,
+          "normal_p99": 91569.8,
+          "normal_max": 100000
+        }
+      }
+    },
+    {
+      "id": "recovered-development-v3-08-diagB",
+      "bundle_sha256": "f0bbc5ba5a6e3c5b70cf564f0f1708c0ef33fdab47641787ddd180a9761f2a79",
+      "fuel": {
+        "teamA": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2633,
+          "native_exhaustion_events": 6,
+          "saturated_fuel_records": 6,
+          "normal_p50": 69940.0,
+          "normal_p95": 88330.2,
+          "normal_p99": 92125.48,
+          "normal_max": 100000
+        },
+        "teamB": {
+          "draft_records": 5,
+          "first_turn_records": 6,
+          "normal_turn_records": 2633,
+          "native_exhaustion_events": 17,
+          "saturated_fuel_records": 17,
+          "normal_p50": 72874.0,
+          "normal_p95": 89938.40000000001,
+          "normal_p99": 94542.23999999999,
+          "normal_max": 100000
+        }
+      }
+    }
+  ],
+  "diagnostic_bound_violations": 0,
+  "diagnostic_ledger_checkpoint_count": 723,
+  "decision": "Keep bound OFF: correctness passes, competitive improvement not demonstrated; runtime integration still unavailable."
+}

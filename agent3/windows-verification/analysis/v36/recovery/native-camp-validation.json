@@ -1,0 +1,40 @@
+[
+  {
+    "name": "ren",
+    "status": "passed",
+    "assertions": [
+      "initial dormant camp",
+      "attack wakes group",
+      "selected group sleeps after departure",
+      "safe recall remains uninterrupted",
+      "recall completes at round25",
+      "arrival turn-end heal visible next turn",
+      "single-target attack leaves separate diagonal group asleep"
+    ],
+    "hit_round": 6,
+    "engine_build_hash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "bundle_sha256": "89b79fb519175d7baabc248e384f7a9a8daa2f764a12e7b0f6b96ce130ca508a",
+    "observations_sha256": "fa4880c45c44c2042e63ea17f88e9a1ab2c7aa6c529629d2284085830f832edb"
+  },
+  {
+    "name": "varg",
+    "status": "passed",
+    "assertions": [
+      "initial dormant camp",
+      "attack wakes group",
+      "selected group sleeps after departure",
+      "safe recall remains uninterrupted",
+      "recall completes at round25",
+      "arrival turn-end heal visible next turn",
+      "healthy unhit member wakes",
+      "splash wakes separate diagonal group",
+      "no further damage does not sleep in-range camp",
+      "group members can later have different awake states",
+      "idle spawn ally keeps diagonal camp awake while recaller remains safe outside range"
+    ],
+    "hit_round": 5,
+    "engine_build_hash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+    "bundle_sha256": "bca927b9b55448597b58c167174627e4864629e1a81c7be4bc3d2bbaeb6819f8",
+    "observations_sha256": "a5e5efb2f8fe07ac9325fd772bc43053ae2fd4475cf6e09e290ccc1fb2cf95a7"
+  }
+]

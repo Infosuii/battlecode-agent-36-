@@ -1,0 +1,4667 @@
+{
+  "schedule": "recovered-development-v3",
+  "results": [
+    {
+      "job": {
+        "id": "recovered-development-v3-00-base",
+        "map_index": 0,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "map_sha256": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-base"
+      ],
+      "elapsed_seconds": 0.4712613000010606,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c6739f86d1f065d37dc7690f44441d758f4003319a2f869890036759789443ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 15911,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 631,
+          "roundsStarted": 632,
+          "seed": "4408442399453745931",
+          "width": 30
+        },
+        "gems": {
+          "teamA": 612,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4735.0,
+            "collectedGems": 864.0,
+            "deaths": 15.0,
+            "monsterDamageTaken": 22280.499919891357
+          },
+          "teamB": {
+            "earnedGold": 5520.0,
+            "collectedGems": 1080.0,
+            "deaths": 8.0,
+            "monsterDamageTaken": 22612.79991531372
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-00-offA",
+        "map_index": 0,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "map_sha256": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-offA"
+      ],
+      "elapsed_seconds": 0.37137000000075204,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c6739f86d1f065d37dc7690f44441d758f4003319a2f869890036759789443ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 15911,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 631,
+          "roundsStarted": 632,
+          "seed": "4408442399453745931",
+          "width": 30
+        },
+        "gems": {
+          "teamA": 612,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4735.0,
+            "collectedGems": 864.0,
+            "deaths": 15.0,
+            "monsterDamageTaken": 22280.499919891357
+          },
+          "teamB": {
+            "earnedGold": 5520.0,
+            "collectedGems": 1080.0,
+            "deaths": 8.0,
+            "monsterDamageTaken": 22612.79991531372
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-00-offB",
+        "map_index": 0,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "map_sha256": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-offB"
+      ],
+      "elapsed_seconds": 0.3048213999973086,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c6739f86d1f065d37dc7690f44441d758f4003319a2f869890036759789443ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 15911,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 631,
+          "roundsStarted": 632,
+          "seed": "4408442399453745931",
+          "width": 30
+        },
+        "gems": {
+          "teamA": 612,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4735.0,
+            "collectedGems": 864.0,
+            "deaths": 15.0,
+            "monsterDamageTaken": 22280.499919891357
+          },
+          "teamB": {
+            "earnedGold": 5520.0,
+            "collectedGems": 1080.0,
+            "deaths": 8.0,
+            "monsterDamageTaken": 22612.79991531372
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-00-onA",
+        "map_index": 0,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "map_sha256": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-onA"
+      ],
+      "elapsed_seconds": 0.38460699999995995,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "275cd3456234cca47a40bdc9252d911a49c124db83a85fade19783635da1ba3e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 16665,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 678,
+          "roundsStarted": 679,
+          "seed": "4408442399453745931",
+          "width": 30
+        },
+        "gems": {
+          "teamA": 684,
+          "teamB": 1044
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4640.0,
+            "collectedGems": 828.0,
+            "deaths": 23.0,
+            "monsterDamageTaken": 21159.699909210205
+          },
+          "teamB": {
+            "earnedGold": 6600.0,
+            "collectedGems": 1224.0,
+            "deaths": 11.0,
+            "monsterDamageTaken": 23907.999897003174
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-00-onB",
+        "map_index": 0,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "map_sha256": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-onB"
+      ],
+      "elapsed_seconds": 0.3351860000002489,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c6739f86d1f065d37dc7690f44441d758f4003319a2f869890036759789443ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 15911,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 631,
+          "roundsStarted": 632,
+          "seed": "4408442399453745931",
+          "width": 30
+        },
+        "gems": {
+          "teamA": 612,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4735.0,
+            "collectedGems": 864.0,
+            "deaths": 15.0,
+            "monsterDamageTaken": 22280.499919891357
+          },
+          "teamB": {
+            "earnedGold": 5520.0,
+            "collectedGems": 1080.0,
+            "deaths": 8.0,
+            "monsterDamageTaken": 22612.79991531372
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-00-diagA",
+        "map_index": 0,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "map_sha256": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-diagA"
+      ],
+      "elapsed_seconds": 0.35282029999871156,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "bf8c01368e5b83b00bd06afd97862edf9d0598f25ade62c2bf9133ab32e18fd3",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 16919,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 682,
+          "roundsStarted": 683,
+          "seed": "4408442399453745931",
+          "width": 30
+        },
+        "gems": {
+          "teamA": 792,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 5030.0,
+            "collectedGems": 936.0,
+            "deaths": 21.0,
+            "monsterDamageTaken": 23622.09992980957
+          },
+          "teamB": {
+            "earnedGold": 6060.0,
+            "collectedGems": 1152.0,
+            "deaths": 11.0,
+            "monsterDamageTaken": 23843.999919891357
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-00-diagB",
+        "map_index": 0,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "map_sha256": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_054ce5a8f353bdb0.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-00-diagB"
+      ],
+      "elapsed_seconds": 0.34710700000141514,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "4efcc0e35c5c8e546aca569009f0af2fa48486db893c80d4cdf611f1ab64ac5b",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 16741,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "25620ab995927ee988d77c5055fff5ba0bf641898e04ca79b9a656bde3fe9903",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 675,
+          "roundsStarted": 676,
+          "seed": "4408442399453745931",
+          "width": 30
+        },
+        "gems": {
+          "teamA": 792,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 5030.0,
+            "collectedGems": 936.0,
+            "deaths": 23.0,
+            "monsterDamageTaken": 23190.09992980957
+          },
+          "teamB": {
+            "earnedGold": 6160.0,
+            "collectedGems": 1152.0,
+            "deaths": 11.0,
+            "monsterDamageTaken": 23703.599925994873
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-01-base",
+        "map_index": 1,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "map_sha256": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-base"
+      ],
+      "elapsed_seconds": 0.2564206999995804,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "6b9c5f0df2ab55cf162e329bde41e3c84dde51bc9966f3f2a39aaee19d5a19d7",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8967,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 31,
+          "mapHash": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 583,
+          "roundsStarted": 584,
+          "seed": "743898675887033609",
+          "width": 31
+        },
+        "gems": {
+          "teamA": 584,
+          "teamB": 1036
+        },
+        "fuel_exhausted": {
+          "teamA": 2,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2710.0,
+            "collectedGems": 812.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 6756.999979972839
+          },
+          "teamB": {
+            "earnedGold": 3840.0,
+            "collectedGems": 1124.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 6536.5999937057495
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-01-offA",
+        "map_index": 1,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "map_sha256": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-offA"
+      ],
+      "elapsed_seconds": 0.23466380000172649,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "6b9c5f0df2ab55cf162e329bde41e3c84dde51bc9966f3f2a39aaee19d5a19d7",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8967,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 31,
+          "mapHash": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 583,
+          "roundsStarted": 584,
+          "seed": "743898675887033609",
+          "width": 31
+        },
+        "gems": {
+          "teamA": 584,
+          "teamB": 1036
+        },
+        "fuel_exhausted": {
+          "teamA": 2,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2710.0,
+            "collectedGems": 812.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 6756.999979972839
+          },
+          "teamB": {
+            "earnedGold": 3840.0,
+            "collectedGems": 1124.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 6536.5999937057495
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-01-offB",
+        "map_index": 1,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "map_sha256": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-offB"
+      ],
+      "elapsed_seconds": 0.2169017000014719,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "6b9c5f0df2ab55cf162e329bde41e3c84dde51bc9966f3f2a39aaee19d5a19d7",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8967,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 31,
+          "mapHash": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 583,
+          "roundsStarted": 584,
+          "seed": "743898675887033609",
+          "width": 31
+        },
+        "gems": {
+          "teamA": 584,
+          "teamB": 1036
+        },
+        "fuel_exhausted": {
+          "teamA": 2,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2710.0,
+            "collectedGems": 812.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 6756.999979972839
+          },
+          "teamB": {
+            "earnedGold": 3840.0,
+            "collectedGems": 1124.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 6536.5999937057495
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-01-onA",
+        "map_index": 1,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "map_sha256": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-onA"
+      ],
+      "elapsed_seconds": 0.23293740000008256,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "6b9c5f0df2ab55cf162e329bde41e3c84dde51bc9966f3f2a39aaee19d5a19d7",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8967,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 31,
+          "mapHash": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 583,
+          "roundsStarted": 584,
+          "seed": "743898675887033609",
+          "width": 31
+        },
+        "gems": {
+          "teamA": 584,
+          "teamB": 1036
+        },
+        "fuel_exhausted": {
+          "teamA": 2,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2710.0,
+            "collectedGems": 812.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 6756.999979972839
+          },
+          "teamB": {
+            "earnedGold": 3840.0,
+            "collectedGems": 1124.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 6536.5999937057495
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-01-onB",
+        "map_index": 1,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "map_sha256": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-onB"
+      ],
+      "elapsed_seconds": 0.24092539999764995,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "6b9c5f0df2ab55cf162e329bde41e3c84dde51bc9966f3f2a39aaee19d5a19d7",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8967,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 31,
+          "mapHash": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 583,
+          "roundsStarted": 584,
+          "seed": "743898675887033609",
+          "width": 31
+        },
+        "gems": {
+          "teamA": 584,
+          "teamB": 1036
+        },
+        "fuel_exhausted": {
+          "teamA": 2,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2710.0,
+            "collectedGems": 812.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 6756.999979972839
+          },
+          "teamB": {
+            "earnedGold": 3840.0,
+            "collectedGems": 1124.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 6536.5999937057495
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-01-diagA",
+        "map_index": 1,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "map_sha256": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-diagA"
+      ],
+      "elapsed_seconds": 0.21984209999936866,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "9cc65f1e0b33279f88e39d3198390192ce708273212cabebedbeef428dd428e6",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8966,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 31,
+          "mapHash": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 583,
+          "roundsStarted": 584,
+          "seed": "743898675887033609",
+          "width": 31
+        },
+        "gems": {
+          "teamA": 584,
+          "teamB": 1036
+        },
+        "fuel_exhausted": {
+          "teamA": 3,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2710.0,
+            "collectedGems": 812.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 6756.999979972839
+          },
+          "teamB": {
+            "earnedGold": 3840.0,
+            "collectedGems": 1124.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 6536.5999937057495
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-01-diagB",
+        "map_index": 1,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "map_sha256": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_823d2f8126fc5e4e.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-01-diagB"
+      ],
+      "elapsed_seconds": 0.23011760000008508,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "6b9c5f0df2ab55cf162e329bde41e3c84dde51bc9966f3f2a39aaee19d5a19d7",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8967,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 31,
+          "mapHash": "6ce0490550ab892be62ddfd90443ddd7804f7017975fc070af1536b46f11c876",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 583,
+          "roundsStarted": 584,
+          "seed": "743898675887033609",
+          "width": 31
+        },
+        "gems": {
+          "teamA": 584,
+          "teamB": 1036
+        },
+        "fuel_exhausted": {
+          "teamA": 2,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2710.0,
+            "collectedGems": 812.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 6756.999979972839
+          },
+          "teamB": {
+            "earnedGold": 3840.0,
+            "collectedGems": 1124.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 6536.5999937057495
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-02-base",
+        "map_index": 2,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "map_sha256": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-base"
+      ],
+      "elapsed_seconds": 0.27113919999828795,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c5bbde02f68440b7e69af23b1c0c240a9b3408902d7c870b00126f58e8a452ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8999,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 447,
+          "roundsStarted": 448,
+          "seed": "12033136081661655306",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 990,
+          "teamB": 1056
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4910.0,
+            "collectedGems": 1188.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 8573.99993133545
+          },
+          "teamB": {
+            "earnedGold": 4965.0,
+            "collectedGems": 1188.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 8818.399923324585
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-02-offA",
+        "map_index": 2,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "map_sha256": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-offA"
+      ],
+      "elapsed_seconds": 0.26122120000218274,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c5bbde02f68440b7e69af23b1c0c240a9b3408902d7c870b00126f58e8a452ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8999,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 447,
+          "roundsStarted": 448,
+          "seed": "12033136081661655306",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 990,
+          "teamB": 1056
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4910.0,
+            "collectedGems": 1188.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 8573.99993133545
+          },
+          "teamB": {
+            "earnedGold": 4965.0,
+            "collectedGems": 1188.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 8818.399923324585
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-02-offB",
+        "map_index": 2,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "map_sha256": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-offB"
+      ],
+      "elapsed_seconds": 0.22964499999943655,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c5bbde02f68440b7e69af23b1c0c240a9b3408902d7c870b00126f58e8a452ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8999,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 447,
+          "roundsStarted": 448,
+          "seed": "12033136081661655306",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 990,
+          "teamB": 1056
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4910.0,
+            "collectedGems": 1188.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 8573.99993133545
+          },
+          "teamB": {
+            "earnedGold": 4965.0,
+            "collectedGems": 1188.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 8818.399923324585
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-02-onA",
+        "map_index": 2,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "map_sha256": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-onA"
+      ],
+      "elapsed_seconds": 0.24137750000227243,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c5bbde02f68440b7e69af23b1c0c240a9b3408902d7c870b00126f58e8a452ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8999,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 447,
+          "roundsStarted": 448,
+          "seed": "12033136081661655306",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 990,
+          "teamB": 1056
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4910.0,
+            "collectedGems": 1188.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 8573.99993133545
+          },
+          "teamB": {
+            "earnedGold": 4965.0,
+            "collectedGems": 1188.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 8818.399923324585
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-02-onB",
+        "map_index": 2,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "map_sha256": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-onB"
+      ],
+      "elapsed_seconds": 0.2306025999969279,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c5bbde02f68440b7e69af23b1c0c240a9b3408902d7c870b00126f58e8a452ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8999,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 447,
+          "roundsStarted": 448,
+          "seed": "12033136081661655306",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 990,
+          "teamB": 1056
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4910.0,
+            "collectedGems": 1188.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 8573.99993133545
+          },
+          "teamB": {
+            "earnedGold": 4965.0,
+            "collectedGems": 1188.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 8818.399923324585
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-02-diagA",
+        "map_index": 2,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "map_sha256": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-diagA"
+      ],
+      "elapsed_seconds": 0.23806800000238582,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c5bbde02f68440b7e69af23b1c0c240a9b3408902d7c870b00126f58e8a452ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8999,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 447,
+          "roundsStarted": 448,
+          "seed": "12033136081661655306",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 990,
+          "teamB": 1056
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4910.0,
+            "collectedGems": 1188.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 8573.99993133545
+          },
+          "teamB": {
+            "earnedGold": 4965.0,
+            "collectedGems": 1188.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 8818.399923324585
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-02-diagB",
+        "map_index": 2,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "map_sha256": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_3a0ffc22e4466188.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-02-diagB"
+      ],
+      "elapsed_seconds": 0.23467869999876712,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "c5bbde02f68440b7e69af23b1c0c240a9b3408902d7c870b00126f58e8a452ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8999,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "8a3f2cb5fb17ffd548549f9dc68dd92c227b9e94422b1510eb80bae87f51b773",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 447,
+          "roundsStarted": 448,
+          "seed": "12033136081661655306",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 990,
+          "teamB": 1056
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4910.0,
+            "collectedGems": 1188.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 8573.99993133545
+          },
+          "teamB": {
+            "earnedGold": 4965.0,
+            "collectedGems": 1188.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 8818.399923324585
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-03-base",
+        "map_index": 3,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "map_sha256": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-base"
+      ],
+      "elapsed_seconds": 0.2962135000016133,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "5cd97a0f3e8c6f3496d33d3bf17f4211b685d411108bec504ab0d43720f8fd0b",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13175,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 40,
+          "mapHash": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 671,
+          "roundsStarted": 672,
+          "seed": "9087916578894956101",
+          "width": 40
+        },
+        "gems": {
+          "teamA": 1012,
+          "teamB": 530
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1500.0,
+            "collectedGems": 1106.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3099.199993133545
+          },
+          "teamB": {
+            "earnedGold": 1730.0,
+            "collectedGems": 718.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3473.7999925613403
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-03-offA",
+        "map_index": 3,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "map_sha256": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-offA"
+      ],
+      "elapsed_seconds": 0.2669378000027791,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "5cd97a0f3e8c6f3496d33d3bf17f4211b685d411108bec504ab0d43720f8fd0b",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13175,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 40,
+          "mapHash": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 671,
+          "roundsStarted": 672,
+          "seed": "9087916578894956101",
+          "width": 40
+        },
+        "gems": {
+          "teamA": 1012,
+          "teamB": 530
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1500.0,
+            "collectedGems": 1106.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3099.199993133545
+          },
+          "teamB": {
+            "earnedGold": 1730.0,
+            "collectedGems": 718.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3473.7999925613403
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-03-offB",
+        "map_index": 3,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "map_sha256": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-offB"
+      ],
+      "elapsed_seconds": 0.28555039999992005,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "5cd97a0f3e8c6f3496d33d3bf17f4211b685d411108bec504ab0d43720f8fd0b",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13175,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 40,
+          "mapHash": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 671,
+          "roundsStarted": 672,
+          "seed": "9087916578894956101",
+          "width": 40
+        },
+        "gems": {
+          "teamA": 1012,
+          "teamB": 530
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1500.0,
+            "collectedGems": 1106.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3099.199993133545
+          },
+          "teamB": {
+            "earnedGold": 1730.0,
+            "collectedGems": 718.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3473.7999925613403
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-03-onA",
+        "map_index": 3,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "map_sha256": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-onA"
+      ],
+      "elapsed_seconds": 0.28041619999930845,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "5aeb809caac7b703bb002ad784bc45752def23c2c13d8de3e2219feb6e605993",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13016,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 40,
+          "mapHash": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 652,
+          "roundsStarted": 653,
+          "seed": "9087916578894956101",
+          "width": 40
+        },
+        "gems": {
+          "teamA": 1006,
+          "teamB": 326
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1830.0,
+            "collectedGems": 1050.0,
+            "deaths": 11.0,
+            "monsterDamageTaken": 3403.7999982833862
+          },
+          "teamB": {
+            "earnedGold": 1080.0,
+            "collectedGems": 558.0,
+            "deaths": 20.0,
+            "monsterDamageTaken": 2214.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-03-onB",
+        "map_index": 3,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "map_sha256": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-onB"
+      ],
+      "elapsed_seconds": 0.27097390000199084,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "5cd97a0f3e8c6f3496d33d3bf17f4211b685d411108bec504ab0d43720f8fd0b",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13175,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 40,
+          "mapHash": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 671,
+          "roundsStarted": 672,
+          "seed": "9087916578894956101",
+          "width": 40
+        },
+        "gems": {
+          "teamA": 1012,
+          "teamB": 530
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1500.0,
+            "collectedGems": 1106.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3099.199993133545
+          },
+          "teamB": {
+            "earnedGold": 1730.0,
+            "collectedGems": 718.0,
+            "deaths": 16.0,
+            "monsterDamageTaken": 3473.7999925613403
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-03-diagA",
+        "map_index": 3,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "map_sha256": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-diagA"
+      ],
+      "elapsed_seconds": 0.30733580000014626,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "3a79548c536d8c34ba4a82a02217eefedda053c50b1e996b698df170de83e8f9",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 14792,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 40,
+          "mapHash": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 735,
+          "roundsStarted": 736,
+          "seed": "9087916578894956101",
+          "width": 40
+        },
+        "gems": {
+          "teamA": 1006,
+          "teamB": 492
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1780.0,
+            "collectedGems": 1050.0,
+            "deaths": 15.0,
+            "monsterDamageTaken": 3569.5999908447266
+          },
+          "teamB": {
+            "earnedGold": 1460.0,
+            "collectedGems": 724.0,
+            "deaths": 18.0,
+            "monsterDamageTaken": 2896.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-03-diagB",
+        "map_index": 3,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "map_sha256": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_476433f128d60722.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-03-diagB"
+      ],
+      "elapsed_seconds": 0.28315000000293367,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "3a79548c536d8c34ba4a82a02217eefedda053c50b1e996b698df170de83e8f9",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 14792,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 40,
+          "mapHash": "17aa1aa373edb3a14951cb44cff0de0da8ad902fdc770b9c5d63ac9a577efd9c",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 735,
+          "roundsStarted": 736,
+          "seed": "9087916578894956101",
+          "width": 40
+        },
+        "gems": {
+          "teamA": 1006,
+          "teamB": 492
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1780.0,
+            "collectedGems": 1050.0,
+            "deaths": 15.0,
+            "monsterDamageTaken": 3569.5999908447266
+          },
+          "teamB": {
+            "earnedGold": 1460.0,
+            "collectedGems": 724.0,
+            "deaths": 18.0,
+            "monsterDamageTaken": 2896.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-04-base",
+        "map_index": 4,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "map_sha256": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-base"
+      ],
+      "elapsed_seconds": 0.26981639999939944,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dabf00aaae78b2ae8b8a53d8595cb5ec8e132a237d5ce33a3e662be65110b87e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10796,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 437,
+          "roundsStarted": 438,
+          "seed": "6401011110283128126",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 584
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4710.0,
+            "collectedGems": 1090.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 13362.399940490723
+          },
+          "teamB": {
+            "earnedGold": 3105.0,
+            "collectedGems": 738.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 12384.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-04-offA",
+        "map_index": 4,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "map_sha256": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-offA"
+      ],
+      "elapsed_seconds": 0.27362410000205273,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dabf00aaae78b2ae8b8a53d8595cb5ec8e132a237d5ce33a3e662be65110b87e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10796,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 437,
+          "roundsStarted": 438,
+          "seed": "6401011110283128126",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 584
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4710.0,
+            "collectedGems": 1090.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 13362.399940490723
+          },
+          "teamB": {
+            "earnedGold": 3105.0,
+            "collectedGems": 738.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 12384.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-04-offB",
+        "map_index": 4,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "map_sha256": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-offB"
+      ],
+      "elapsed_seconds": 0.2754409000008309,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dabf00aaae78b2ae8b8a53d8595cb5ec8e132a237d5ce33a3e662be65110b87e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10796,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 437,
+          "roundsStarted": 438,
+          "seed": "6401011110283128126",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 584
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4710.0,
+            "collectedGems": 1090.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 13362.399940490723
+          },
+          "teamB": {
+            "earnedGold": 3105.0,
+            "collectedGems": 738.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 12384.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-04-onA",
+        "map_index": 4,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "map_sha256": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-onA"
+      ],
+      "elapsed_seconds": 0.31769160000112606,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dabf00aaae78b2ae8b8a53d8595cb5ec8e132a237d5ce33a3e662be65110b87e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10796,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 437,
+          "roundsStarted": 438,
+          "seed": "6401011110283128126",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 584
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4710.0,
+            "collectedGems": 1090.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 13362.399940490723
+          },
+          "teamB": {
+            "earnedGold": 3105.0,
+            "collectedGems": 738.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 12384.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-04-onB",
+        "map_index": 4,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "map_sha256": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-onB"
+      ],
+      "elapsed_seconds": 0.28921880000052624,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dabf00aaae78b2ae8b8a53d8595cb5ec8e132a237d5ce33a3e662be65110b87e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10796,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 437,
+          "roundsStarted": 438,
+          "seed": "6401011110283128126",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 584
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4710.0,
+            "collectedGems": 1090.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 13362.399940490723
+          },
+          "teamB": {
+            "earnedGold": 3105.0,
+            "collectedGems": 738.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 12384.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-04-diagA",
+        "map_index": 4,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "map_sha256": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-diagA"
+      ],
+      "elapsed_seconds": 0.2806570000029751,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dabf00aaae78b2ae8b8a53d8595cb5ec8e132a237d5ce33a3e662be65110b87e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10796,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 437,
+          "roundsStarted": 438,
+          "seed": "6401011110283128126",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 584
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4710.0,
+            "collectedGems": 1090.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 13362.399940490723
+          },
+          "teamB": {
+            "earnedGold": 3105.0,
+            "collectedGems": 738.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 12384.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-04-diagB",
+        "map_index": 4,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "map_sha256": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_cc1fbbe485baabc1.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-04-diagB"
+      ],
+      "elapsed_seconds": 0.27994570000009844,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dabf00aaae78b2ae8b8a53d8595cb5ec8e132a237d5ce33a3e662be65110b87e",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10796,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 50,
+          "mapHash": "575eddaa34f15151cbc0ceba3e103c19ddf0ee2827aba9f5923aac7f1b030104",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 437,
+          "roundsStarted": 438,
+          "seed": "6401011110283128126",
+          "width": 50
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 584
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4710.0,
+            "collectedGems": 1090.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 13362.399940490723
+          },
+          "teamB": {
+            "earnedGold": 3105.0,
+            "collectedGems": 738.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 12384.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-05-base",
+        "map_index": 5,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "map_sha256": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-base"
+      ],
+      "elapsed_seconds": 0.23742919999858714,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "4e2e4d954f2cd471c8d72e330bbff65da6e5607d8f76fbfbe94683fd0eb187ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 9619,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 41,
+          "mapHash": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 626,
+          "roundsStarted": 627,
+          "seed": "12728121414653827003",
+          "width": 41
+        },
+        "gems": {
+          "teamA": 1040,
+          "teamB": 562
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4000.0,
+            "collectedGems": 1454.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 9570.599976539612
+          },
+          "teamB": {
+            "earnedGold": 2635.0,
+            "collectedGems": 1040.0,
+            "deaths": 13.0,
+            "monsterDamageTaken": 9291.899982452393
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-05-offA",
+        "map_index": 5,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "map_sha256": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-offA"
+      ],
+      "elapsed_seconds": 0.23670050000146148,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "4e2e4d954f2cd471c8d72e330bbff65da6e5607d8f76fbfbe94683fd0eb187ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 9619,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 41,
+          "mapHash": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 626,
+          "roundsStarted": 627,
+          "seed": "12728121414653827003",
+          "width": 41
+        },
+        "gems": {
+          "teamA": 1040,
+          "teamB": 562
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4000.0,
+            "collectedGems": 1454.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 9570.599976539612
+          },
+          "teamB": {
+            "earnedGold": 2635.0,
+            "collectedGems": 1040.0,
+            "deaths": 13.0,
+            "monsterDamageTaken": 9291.899982452393
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-05-offB",
+        "map_index": 5,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "map_sha256": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-offB"
+      ],
+      "elapsed_seconds": 0.23894490000020596,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "4e2e4d954f2cd471c8d72e330bbff65da6e5607d8f76fbfbe94683fd0eb187ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 9619,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 41,
+          "mapHash": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 626,
+          "roundsStarted": 627,
+          "seed": "12728121414653827003",
+          "width": 41
+        },
+        "gems": {
+          "teamA": 1040,
+          "teamB": 562
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4000.0,
+            "collectedGems": 1454.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 9570.599976539612
+          },
+          "teamB": {
+            "earnedGold": 2635.0,
+            "collectedGems": 1040.0,
+            "deaths": 13.0,
+            "monsterDamageTaken": 9291.899982452393
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-05-onA",
+        "map_index": 5,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "map_sha256": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-onA"
+      ],
+      "elapsed_seconds": 0.2278952999986359,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "952b6e3e0b2a5ec0db8e6cd035fd0a66a1c7478657880c5e4a2cb592a389855d",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8695,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 41,
+          "mapHash": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 560,
+          "roundsStarted": 561,
+          "seed": "12728121414653827003",
+          "width": 41
+        },
+        "gems": {
+          "teamA": 1064,
+          "teamB": 124
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 3230.0,
+            "collectedGems": 1232.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 8245.599940299988
+          },
+          "teamB": {
+            "earnedGold": 2390.0,
+            "collectedGems": 656.0,
+            "deaths": 12.0,
+            "monsterDamageTaken": 8380.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-05-onB",
+        "map_index": 5,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "map_sha256": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-onB"
+      ],
+      "elapsed_seconds": 0.23387020000154735,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "4e2e4d954f2cd471c8d72e330bbff65da6e5607d8f76fbfbe94683fd0eb187ad",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 9619,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 41,
+          "mapHash": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 626,
+          "roundsStarted": 627,
+          "seed": "12728121414653827003",
+          "width": 41
+        },
+        "gems": {
+          "teamA": 1040,
+          "teamB": 562
+        },
+        "fuel_exhausted": {
+          "teamA": 0,
+          "teamB": 1
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 4000.0,
+            "collectedGems": 1454.0,
+            "deaths": 7.0,
+            "monsterDamageTaken": 9570.599976539612
+          },
+          "teamB": {
+            "earnedGold": 2635.0,
+            "collectedGems": 1040.0,
+            "deaths": 13.0,
+            "monsterDamageTaken": 9291.899982452393
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-05-diagA",
+        "map_index": 5,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "map_sha256": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-diagA"
+      ],
+      "elapsed_seconds": 0.2516771000009612,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "952b6e3e0b2a5ec0db8e6cd035fd0a66a1c7478657880c5e4a2cb592a389855d",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8695,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 41,
+          "mapHash": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 560,
+          "roundsStarted": 561,
+          "seed": "12728121414653827003",
+          "width": 41
+        },
+        "gems": {
+          "teamA": 1064,
+          "teamB": 124
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 3230.0,
+            "collectedGems": 1232.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 8245.599940299988
+          },
+          "teamB": {
+            "earnedGold": 2390.0,
+            "collectedGems": 656.0,
+            "deaths": 12.0,
+            "monsterDamageTaken": 8380.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-05-diagB",
+        "map_index": 5,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "map_sha256": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_09aa13a9027a3037.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-05-diagB"
+      ],
+      "elapsed_seconds": 0.23142250000091735,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "952b6e3e0b2a5ec0db8e6cd035fd0a66a1c7478657880c5e4a2cb592a389855d",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8695,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 41,
+          "mapHash": "d8bfcf06c12a68b428789138a130e3956fb32a589c776119ae855b6d3e305c5b",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 560,
+          "roundsStarted": 561,
+          "seed": "12728121414653827003",
+          "width": 41
+        },
+        "gems": {
+          "teamA": 1064,
+          "teamB": 124
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 3230.0,
+            "collectedGems": 1232.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 8245.599940299988
+          },
+          "teamB": {
+            "earnedGold": 2390.0,
+            "collectedGems": 656.0,
+            "deaths": 12.0,
+            "monsterDamageTaken": 8380.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-06-base",
+        "map_index": 6,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "map_sha256": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-base"
+      ],
+      "elapsed_seconds": 0.24135319999913918,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "10afdef021c853249083e7f98b4d59ee9806b94ea929b6e75f3bf629900b4aae",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8069,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 80,
+          "mapHash": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 471,
+          "roundsStarted": 472,
+          "seed": "784668942515236785",
+          "width": 80
+        },
+        "gems": {
+          "teamA": 996,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 6,
+          "teamB": 4
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 540.0,
+            "collectedGems": 1044.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 1940.0
+          },
+          "teamB": {
+            "earnedGold": 1020.0,
+            "collectedGems": 1056.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 3498.7999725341797
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-06-offA",
+        "map_index": 6,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "map_sha256": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-offA"
+      ],
+      "elapsed_seconds": 0.24791329999789014,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "10afdef021c853249083e7f98b4d59ee9806b94ea929b6e75f3bf629900b4aae",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8069,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 80,
+          "mapHash": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 471,
+          "roundsStarted": 472,
+          "seed": "784668942515236785",
+          "width": 80
+        },
+        "gems": {
+          "teamA": 996,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 6,
+          "teamB": 4
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 540.0,
+            "collectedGems": 1044.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 1940.0
+          },
+          "teamB": {
+            "earnedGold": 1020.0,
+            "collectedGems": 1056.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 3498.7999725341797
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-06-offB",
+        "map_index": 6,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "map_sha256": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-offB"
+      ],
+      "elapsed_seconds": 0.23754320000080043,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "10afdef021c853249083e7f98b4d59ee9806b94ea929b6e75f3bf629900b4aae",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 8069,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 80,
+          "mapHash": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 471,
+          "roundsStarted": 472,
+          "seed": "784668942515236785",
+          "width": 80
+        },
+        "gems": {
+          "teamA": 996,
+          "teamB": 1008
+        },
+        "fuel_exhausted": {
+          "teamA": 6,
+          "teamB": 4
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 540.0,
+            "collectedGems": 1044.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 1940.0
+          },
+          "teamB": {
+            "earnedGold": 1020.0,
+            "collectedGems": 1056.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 3498.7999725341797
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-06-onA",
+        "map_index": 6,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "map_sha256": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-onA"
+      ],
+      "elapsed_seconds": 0.22201630000199657,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "7377ca5b05e09721f2d35d3b66085b9edc21bbf248bb1e904f2f71d304bf276f",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 6066,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 80,
+          "mapHash": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 396,
+          "roundsStarted": 397,
+          "seed": "784668942515236785",
+          "width": 80
+        },
+        "gems": {
+          "teamA": 1000,
+          "teamB": 910
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1000.0,
+            "collectedGems": 1000.0,
+            "deaths": 2.0,
+            "monsterDamageTaken": 5838.199975967407
+          },
+          "teamB": {
+            "earnedGold": 880.0,
+            "collectedGems": 932.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 3698.5999879837036
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-06-onB",
+        "map_index": 6,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "map_sha256": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-onB"
+      ],
+      "elapsed_seconds": 0.2632335999987845,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "08b661718bbf54cf2d32aabbf0a3db81529567799c7ca7084df96dcbfe91c804",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 7385,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 80,
+          "mapHash": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 451,
+          "roundsStarted": 452,
+          "seed": "784668942515236785",
+          "width": 80
+        },
+        "gems": {
+          "teamA": 936,
+          "teamB": 1000
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 0
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 790.0,
+            "collectedGems": 1054.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 2562.0
+          },
+          "teamB": {
+            "earnedGold": 820.0,
+            "collectedGems": 1070.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 4340.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-06-diagA",
+        "map_index": 6,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "map_sha256": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-diagA"
+      ],
+      "elapsed_seconds": 0.2359431000004406,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "b257baa4a25722743d2c75bfef0d434a39f677f0af17db2e3ed9d3371c43e816",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 5901,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 80,
+          "mapHash": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 379,
+          "roundsStarted": 380,
+          "seed": "784668942515236785",
+          "width": 80
+        },
+        "gems": {
+          "teamA": 1010,
+          "teamB": 904
+        },
+        "fuel_exhausted": {
+          "teamA": 3,
+          "teamB": 6
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 930.0,
+            "collectedGems": 1058.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 4688.199984550476
+          },
+          "teamB": {
+            "earnedGold": 770.0,
+            "collectedGems": 926.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 4192.199995994568
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-06-diagB",
+        "map_index": 6,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "map_sha256": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_2ac37bf72711f8c2.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-06-diagB"
+      ],
+      "elapsed_seconds": 0.2388455000000249,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "0c63ffb8abeb086c3514794fed4229e954f739bdf7bfecae830e2229a49c5ed5",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 6083,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 80,
+          "mapHash": "097579184fc966ec123e688243e69e0898a6d05ffbdab49068a2422324f292f0",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 396,
+          "roundsStarted": 397,
+          "seed": "784668942515236785",
+          "width": 80
+        },
+        "gems": {
+          "teamA": 1000,
+          "teamB": 832
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 6
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1000.0,
+            "collectedGems": 1000.0,
+            "deaths": 2.0,
+            "monsterDamageTaken": 5838.199975967407
+          },
+          "teamB": {
+            "earnedGold": 680.0,
+            "collectedGems": 928.0,
+            "deaths": 0.0,
+            "monsterDamageTaken": 3616.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-07-base",
+        "map_index": 7,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "map_sha256": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-base"
+      ],
+      "elapsed_seconds": 0.40518299999894225,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "77606996df9844ab8f65b975d850e8f473ac5c2b289072e75fa19acd2ec4ce6c",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 19771,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 71,
+          "mapHash": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 814,
+          "roundsStarted": 815,
+          "seed": "5691537013863462940",
+          "width": 71
+        },
+        "gems": {
+          "teamA": 736,
+          "teamB": 1020
+        },
+        "fuel_exhausted": {
+          "teamA": 5,
+          "teamB": 7
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1670.0,
+            "collectedGems": 816.0,
+            "deaths": 26.0,
+            "monsterDamageTaken": 4576.0
+          },
+          "teamB": {
+            "earnedGold": 2710.0,
+            "collectedGems": 1148.0,
+            "deaths": 23.0,
+            "monsterDamageTaken": 7506.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-07-offA",
+        "map_index": 7,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "map_sha256": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-offA"
+      ],
+      "elapsed_seconds": 0.3685804000015196,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "77606996df9844ab8f65b975d850e8f473ac5c2b289072e75fa19acd2ec4ce6c",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 19771,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 71,
+          "mapHash": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 814,
+          "roundsStarted": 815,
+          "seed": "5691537013863462940",
+          "width": 71
+        },
+        "gems": {
+          "teamA": 736,
+          "teamB": 1020
+        },
+        "fuel_exhausted": {
+          "teamA": 5,
+          "teamB": 7
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1670.0,
+            "collectedGems": 816.0,
+            "deaths": 26.0,
+            "monsterDamageTaken": 4576.0
+          },
+          "teamB": {
+            "earnedGold": 2710.0,
+            "collectedGems": 1148.0,
+            "deaths": 23.0,
+            "monsterDamageTaken": 7506.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-07-offB",
+        "map_index": 7,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "map_sha256": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-offB"
+      ],
+      "elapsed_seconds": 0.3643302999989828,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "77606996df9844ab8f65b975d850e8f473ac5c2b289072e75fa19acd2ec4ce6c",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 19771,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 71,
+          "mapHash": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 814,
+          "roundsStarted": 815,
+          "seed": "5691537013863462940",
+          "width": 71
+        },
+        "gems": {
+          "teamA": 736,
+          "teamB": 1020
+        },
+        "fuel_exhausted": {
+          "teamA": 5,
+          "teamB": 7
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1670.0,
+            "collectedGems": 816.0,
+            "deaths": 26.0,
+            "monsterDamageTaken": 4576.0
+          },
+          "teamB": {
+            "earnedGold": 2710.0,
+            "collectedGems": 1148.0,
+            "deaths": 23.0,
+            "monsterDamageTaken": 7506.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-07-onA",
+        "map_index": 7,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "map_sha256": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-onA"
+      ],
+      "elapsed_seconds": 0.3991697000019485,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "bfa43b8f7a0ff7ebbb39e73ae569c67c4595c3f547a743f25372c9b7834c27f1",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 19840,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 71,
+          "mapHash": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 814,
+          "roundsStarted": 815,
+          "seed": "5691537013863462940",
+          "width": 71
+        },
+        "gems": {
+          "teamA": 592,
+          "teamB": 1020
+        },
+        "fuel_exhausted": {
+          "teamA": 3,
+          "teamB": 7
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1460.0,
+            "collectedGems": 636.0,
+            "deaths": 27.0,
+            "monsterDamageTaken": 5332.0
+          },
+          "teamB": {
+            "earnedGold": 2990.0,
+            "collectedGems": 1198.0,
+            "deaths": 22.0,
+            "monsterDamageTaken": 7002.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-07-onB",
+        "map_index": 7,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "map_sha256": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-onB"
+      ],
+      "elapsed_seconds": 0.35602730000027805,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "dbfa4f09b5965be7545a01051fb30097dc7248a62e4c0450516dda7f6f90eac4",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 17114,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 71,
+          "mapHash": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 706,
+          "roundsStarted": 707,
+          "seed": "5691537013863462940",
+          "width": 71
+        },
+        "gems": {
+          "teamA": 1002,
+          "teamB": 268
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1570.0,
+            "collectedGems": 1248.0,
+            "deaths": 18.0,
+            "monsterDamageTaken": 2922.0
+          },
+          "teamB": {
+            "earnedGold": 1820.0,
+            "collectedGems": 576.0,
+            "deaths": 28.0,
+            "monsterDamageTaken": 6056.199954986572
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-07-diagA",
+        "map_index": 7,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "map_sha256": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-diagA"
+      ],
+      "elapsed_seconds": 0.324760100000276,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "5e527e9cf5ea73011c2621d6f4aafe7ca0917783da68110cd86c19a551bb8abd",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 14005,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 71,
+          "mapHash": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 589,
+          "roundsStarted": 590,
+          "seed": "5691537013863462940",
+          "width": 71
+        },
+        "gems": {
+          "teamA": 1052,
+          "teamB": 282
+        },
+        "fuel_exhausted": {
+          "teamA": 6,
+          "teamB": 3
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2300.0,
+            "collectedGems": 1328.0,
+            "deaths": 14.0,
+            "monsterDamageTaken": 4274.0
+          },
+          "teamB": {
+            "earnedGold": 1460.0,
+            "collectedGems": 582.0,
+            "deaths": 25.0,
+            "monsterDamageTaken": 7572.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-07-diagB",
+        "map_index": 7,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "map_sha256": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_c73cc12f9c4d0d49.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-07-diagB"
+      ],
+      "elapsed_seconds": 0.47396759999901406,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "bb4bd971045972b0d47e6c3e8bfb0c55e39b77e0060404a1e5834daf3cd09dee",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 18247,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 71,
+          "mapHash": "0fcffb2e78c4f30c03f198ced0d873f568236fb586a0fffdbd27cf5a3977acaf",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 749,
+          "roundsStarted": 750,
+          "seed": "5691537013863462940",
+          "width": 71
+        },
+        "gems": {
+          "teamA": 1046,
+          "teamB": 788
+        },
+        "fuel_exhausted": {
+          "teamA": 1,
+          "teamB": 10
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 2030.0,
+            "collectedGems": 1188.0,
+            "deaths": 21.0,
+            "monsterDamageTaken": 6452.0
+          },
+          "teamB": {
+            "earnedGold": 2290.0,
+            "collectedGems": 968.0,
+            "deaths": 24.0,
+            "monsterDamageTaken": 8483.399990081787
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-08-base",
+        "map_index": 8,
+        "tag": "base",
+        "a": "baseline",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "map_sha256": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-base\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-base"
+      ],
+      "elapsed_seconds": 0.42793430000165245,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "95842eff9bd7e39dd110484f19e0fe72b58d6cc6b6946bedb97796f23575f1ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13123,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 533,
+          "roundsStarted": 534,
+          "seed": "12465669898487286052",
+          "width": 90
+        },
+        "gems": {
+          "teamA": 784,
+          "teamB": 1012
+        },
+        "fuel_exhausted": {
+          "teamA": 11,
+          "teamB": 8
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 740.0,
+            "collectedGems": 808.0,
+            "deaths": 10.0,
+            "monsterDamageTaken": 12052.0
+          },
+          "teamB": {
+            "earnedGold": 1790.0,
+            "collectedGems": 1078.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 7778.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-08-offA",
+        "map_index": 8,
+        "tag": "offA",
+        "a": "bound_off_v3",
+        "b": "baseline",
+        "map": "work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "map_sha256": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "baseline",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-offA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-offA"
+      ],
+      "elapsed_seconds": 0.42497710000316147,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "95842eff9bd7e39dd110484f19e0fe72b58d6cc6b6946bedb97796f23575f1ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13123,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 533,
+          "roundsStarted": 534,
+          "seed": "12465669898487286052",
+          "width": 90
+        },
+        "gems": {
+          "teamA": 784,
+          "teamB": 1012
+        },
+        "fuel_exhausted": {
+          "teamA": 11,
+          "teamB": 8
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 740.0,
+            "collectedGems": 808.0,
+            "deaths": 10.0,
+            "monsterDamageTaken": 12052.0
+          },
+          "teamB": {
+            "earnedGold": 1790.0,
+            "collectedGems": 1078.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 7778.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-08-offB",
+        "map_index": 8,
+        "tag": "offB",
+        "a": "baseline",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "map_sha256": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "baseline",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-offB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-offB"
+      ],
+      "elapsed_seconds": 0.360231599999679,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "95842eff9bd7e39dd110484f19e0fe72b58d6cc6b6946bedb97796f23575f1ea",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13123,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 533,
+          "roundsStarted": 534,
+          "seed": "12465669898487286052",
+          "width": 90
+        },
+        "gems": {
+          "teamA": 784,
+          "teamB": 1012
+        },
+        "fuel_exhausted": {
+          "teamA": 11,
+          "teamB": 8
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 740.0,
+            "collectedGems": 808.0,
+            "deaths": 10.0,
+            "monsterDamageTaken": 12052.0
+          },
+          "teamB": {
+            "earnedGold": 1790.0,
+            "collectedGems": 1078.0,
+            "deaths": 4.0,
+            "monsterDamageTaken": 7778.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-08-onA",
+        "map_index": 8,
+        "tag": "onA",
+        "a": "bound_on_v3",
+        "b": "bound_off_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "map_sha256": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_off_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-onA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-onA"
+      ],
+      "elapsed_seconds": 0.3239538999987417,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "61310c4d2c106320f3c8ddc1d208fc7566cce5298298e68f132d44d6d9328e8d",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 13441,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 543,
+          "roundsStarted": 544,
+          "seed": "12465669898487286052",
+          "width": 90
+        },
+        "gems": {
+          "teamA": 830,
+          "teamB": 1014
+        },
+        "fuel_exhausted": {
+          "teamA": 11,
+          "teamB": 8
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 880.0,
+            "collectedGems": 830.0,
+            "deaths": 9.0,
+            "monsterDamageTaken": 10810.0
+          },
+          "teamB": {
+            "earnedGold": 1610.0,
+            "collectedGems": 1058.0,
+            "deaths": 6.0,
+            "monsterDamageTaken": 8456.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-08-onB",
+        "map_index": 8,
+        "tag": "onB",
+        "a": "bound_off_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "map_sha256": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+        "artifact_a_sha256": "ecafae4c4571d3a5401d356d03f5c336e6c9d7c5d6dd494af463646622eaae55",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_off_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-onB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-onB"
+      ],
+      "elapsed_seconds": 0.28823580000243965,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "5900911147fe321499eb0175c59dd9c988f977ffbc0b1c8c1cb3183190ad8ff3",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 11271,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 452,
+          "roundsStarted": 453,
+          "seed": "12465669898487286052",
+          "width": 90
+        },
+        "gems": {
+          "teamA": 714,
+          "teamB": 1000
+        },
+        "fuel_exhausted": {
+          "teamA": 7,
+          "teamB": 9
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 730.0,
+            "collectedGems": 736.0,
+            "deaths": 9.0,
+            "monsterDamageTaken": 9108.0
+          },
+          "teamB": {
+            "earnedGold": 1360.0,
+            "collectedGems": 1024.0,
+            "deaths": 1.0,
+            "monsterDamageTaken": 9790.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-08-diagA",
+        "map_index": 8,
+        "tag": "diagA",
+        "a": "bound_diag_v3",
+        "b": "bound_on_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "map_sha256": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+        "artifact_a_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af",
+        "artifact_b_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_diag_v3",
+        "bound_on_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-diagA\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-diagA"
+      ],
+      "elapsed_seconds": 0.3070761000017228,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "919ee79d1e475964f48d8d273cdda44d61639870ffff1a0b72625901ff4524a8",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10718,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamA",
+          "roundsCompleted": 444,
+          "roundsStarted": 445,
+          "seed": "12465669898487286052",
+          "width": 90
+        },
+        "gems": {
+          "teamA": 1000,
+          "teamB": 672
+        },
+        "fuel_exhausted": {
+          "teamA": 19,
+          "teamB": 8
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1360.0,
+            "collectedGems": 1024.0,
+            "deaths": 3.0,
+            "monsterDamageTaken": 8552.0
+          },
+          "teamB": {
+            "earnedGold": 850.0,
+            "collectedGems": 696.0,
+            "deaths": 9.0,
+            "monsterDamageTaken": 7548.0
+          }
+        }
+      }
+    },
+    {
+      "job": {
+        "id": "recovered-development-v3-08-diagB",
+        "map_index": 8,
+        "tag": "diagB",
+        "a": "bound_on_v3",
+        "b": "bound_diag_v3",
+        "map": "work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "map_sha256": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+        "artifact_a_sha256": "ec316b7a4f8ca4733b0d872e8da3557e04dc10e00e8c87cfe3621fe85214bec5",
+        "artifact_b_sha256": "ee8c580ac99d23e0d88442bccd271187a0997e75f288abf625badbe2269e15af"
+      },
+      "command": [
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\.venv\\Scripts\\cambc.exe",
+        "run",
+        "bound_on_v3",
+        "bound_diag_v3",
+        "--map",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\eval\\maps\\recovered_f4d7a3ed30de5077.map26a",
+        "--release",
+        "--json",
+        "--statistics",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-diagB\\stats.json",
+        "--out-dir",
+        "C:\\projects\\cambridge battlecode\\work\\recovery\\results\\recovered-development-v3-08-diagB"
+      ],
+      "elapsed_seconds": 0.33556700000190176,
+      "returncode": 0,
+      "status": "complete",
+      "stats_sha256": "0672b0db226f248900a81b800a159e0302a43f9f9ef02d15d0391ba52c927fb4",
+      "summary": {
+        "match": {
+          "engineBuildHash": "d7e29ae3546357b011419c764204b7b9e2232bdb1b07868250c6b35d4c18d2a5",
+          "engineVersion": "0.0.3",
+          "finalInput": 10854,
+          "finalRoundPartial": true,
+          "finalSubstep": 7,
+          "height": 30,
+          "mapHash": "b566d500f33e343d956f45890137b02a70776d18d510fe76a7871a2dc3eab126",
+          "metricSemanticsVersion": 1,
+          "outcome": "teamB",
+          "roundsCompleted": 439,
+          "roundsStarted": 440,
+          "seed": "12465669898487286052",
+          "width": 90
+        },
+        "gems": {
+          "teamA": 938,
+          "teamB": 1014
+        },
+        "fuel_exhausted": {
+          "teamA": 6,
+          "teamB": 17
+        },
+        "faults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "totals": {
+          "teamA": {
+            "earnedGold": 1030.0,
+            "collectedGems": 938.0,
+            "deaths": 5.0,
+            "monsterDamageTaken": 10216.0
+          },
+          "teamB": {
+            "earnedGold": 1280.0,
+            "collectedGems": 1014.0,
+            "deaths": 2.0,
+            "monsterDamageTaken": 7302.0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+analysis/v36/agent3/results/scorer_builds/
+analysis/v36/agent3/results/patch_check/
+**/__pycache__/
+work/recovery/.venv/
+work/recovery/download-cache/
+work/recovery/eval/.cambc/
+work/recovery/eval/sdk/
+work/recovery/eval/bots/
+work/recovery/results/
+work/recovery/artifacts/
+analysis/v36/recovery/patch_check_v3/
